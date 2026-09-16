@@ -1,0 +1,362 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.45653",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.61204",
+    "lowerBound": "0.32396",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.2794",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.36939",
+    "lowerBound": "0.19922",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.26431",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.35341",
+    "lowerBound": "0.18589",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.17157",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.23022",
+    "lowerBound": "0.1206",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.21048",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.28162",
+    "lowerBound": "0.14886",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.23194",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.31019",
+    "lowerBound": "0.1635",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.16157",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.21686",
+    "lowerBound": "0.11367",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.12337",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.16505",
+    "lowerBound": "0.08655",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.23252",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.31248",
+    "lowerBound": "0.16316",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.3"
+    ],
+    "series": "SH_STA_MALR",
+    "seriesDescription": "Malaria incidence per 1,000 population at risk (per 1,000 population)",
+    "seriesCount": "3725",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.35312",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "0.47311",
+    "lowerBound": "0.24754",
+    "basePeriod": null,
+    "source": "WMR",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "CA",
+      "Units": "PER_1000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "status": "ok",
+  "code": "FINPROTECTION_CATA_TOT_10_POP",
+  "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, reported data) (%)",
+  "definition": null,
+  "unit": "%",
+  "type": "percentage",
+  "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('FINPROTECTION_CATA_TOT_10_POP')",
+  "metadata_reviewed_on": null,
+  "metadata_basis": "explicit official catalogue name",
+  "available_dimensions": [
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "RESIDENCEAREATYPE",
+      "DimensionName": "Residence Area Type"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "SEX",
+      "DimensionName": "Sex"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "PUBLISHSTATE",
+      "DimensionName": "Publish States"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "AGEGROUP",
+      "DimensionName": "Age Group"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "DATASOURCE",
+      "DimensionName": "Data Source"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "COUNTRY",
+      "DimensionName": "Country"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_POP",
+      "Language": "EN",
+      "Dimension": "YEAR",
+      "DimensionName": "Year"
+    }
+  ],
+  "observed_dimension_values": {
+    "dim1": [
+      {
+        "type": "AGEGROUP",
+        "code": "AGEGROUP_AGE60+"
+      },
+      {
+        "type": "AGEGROUP",
+        "code": "AGEGROUP_AGELT60"
+      },
+      {
+        "type": "HOUSEHOLD_COMP_BY_AGE",
+        "code": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS"
+      },
+      {
+        "type": "HOUSEHOLD_COMP_BY_AGE",
+        "code": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_KIDS"
+      },
+      {
+        "type": "HOUSEHOLD_COMP_BY_AGE",
+        "code": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_OLDER"
+      },
+      {
+        "type": "HOUSEHOLD_COMP_BY_AGE",
+        "code": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN"
+      },
+      {
+        "type": "HOUSEHOLD_COMP_BY_AGE",
+        "code": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN_WITH_OLDER"
+      },
+      {
+        "type": "HOUSEHOLD_COMP_BY_AGE",
+        "code": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ONLY_OLDER_ADULTS"
+      },
+      {
+        "type": "RESIDENCEAREATYPE",
+        "code": "RESIDENCEAREATYPE_RUR"
+      },
+      {
+        "type": "RESIDENCEAREATYPE",
+        "code": "RESIDENCEAREATYPE_TOTL"
+      },
+      {
+        "type": "RESIDENCEAREATYPE",
+        "code": "RESIDENCEAREATYPE_URB"
+      },
+      {
+        "type": "SEX",
+        "code": "SEX_FMLE"
+      },
+      {
+        "type": "SEX",
+        "code": "SEX_MLE"
+      }
+    ],
+    "dim2": [
+      {
+        "type": "POP_TYPE",
+        "code": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD"
+      }
+    ],
+    "dim3": []
+  },
+  "available_years": [
+    1985,
+    1986,
+    1987,
+    1988,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "spatial_types": [
+    "COUNTRY"
+  ],
+  "coverage_scope": "All observations for this indicator, before user filters; years need not be available in every location.",
+  "observation_count": 6338,
+  "provenance": {
+    "query_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+    "urls": [
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=1000&%24count=true",
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=2000&%24count=true",
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=3000&%24count=true",
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=4000&%24count=true",
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=5000&%24count=true",
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=6000&%24count=true"
+    ],
+    "pages": 7,
+    "row_count": 6338,
+    "declared_count": 6338,
+    "complete": true,
+    "pagination": "count-verified nextLink/skip",
+    "retrieved_at": "2026-09-09T05:33:16.192774+00:00",
+    "source": "WHO GHO"
+  }
+}

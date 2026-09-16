@@ -1,0 +1,4 @@
+# Preserve release contents and checksummed metadata across platforms.
+* -text
+*.jpg binary
+*.zip binary

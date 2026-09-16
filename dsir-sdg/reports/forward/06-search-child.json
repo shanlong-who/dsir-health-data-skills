@@ -1,0 +1,25 @@
+{
+  "status": "no_matches",
+  "query": "child mortality",
+  "expanded_query": "child mortality",
+  "matches": [],
+  "total_matches": 0,
+  "notes": [],
+  "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:33:43.676261+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:33:46.235709+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    }
+  ]
+}

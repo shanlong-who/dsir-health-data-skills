@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "indicator_count": 251,
+  "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+  "python": "3.12.14",
+  "r_required": false,
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:33:29.766402+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    }
+  ]
+}

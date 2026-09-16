@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "locations": [
+    {
+      "input": "Western Pacific Region",
+      "code": "99047",
+      "name": "WHO Western Pacific",
+      "iso3": null,
+      "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+    }
+  ],
+  "unresolved": []
+}

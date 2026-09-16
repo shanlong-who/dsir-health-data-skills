@@ -1,0 +1,3348 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T05:29:01.244458+00:00",
+  "mode": "live_paired_retrieval_and_common_raw_cleaning",
+  "passed": true,
+  "r_process": {
+    "parent_exit_policy": 0,
+    "child_ok": true,
+    "message": null
+  },
+  "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "dsir_version": "0.9.0",
+  "source_revision": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397",
+  "source_sha256": "cba7def3ac7cd67ab3fc3bbc2e9ed298f51a7693d464124761b3aa4266e0697b",
+  "source_matches_installed": {
+    "gho_data": true,
+    "gho_clean": true
+  },
+  "live_queries": [
+    {
+      "passed": true,
+      "python_rows": 24,
+      "r_rows": 24,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 24,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 24,
+        "high": 24,
+        "series": 24,
+        "dim1": 24,
+        "dim2": 24,
+        "dim3": 24
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 24,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 24,
+        "high": 24,
+        "series": 24,
+        "dim1": 24,
+        "dim2": 24,
+        "dim3": 24
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 24
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 24
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "main_01_wpr_uhc",
+      "query": {
+        "indicator": "UHC_INDEX_REPORTED",
+        "locations": [
+          "WPR"
+        ],
+        "spatial_type": "REGION"
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 11,
+      "r_rows": 11,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "main_02_phl_measles",
+      "query": {
+        "indicator": "WHS3_62",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 10,
+      "r_rows": 10,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "tb_rate_phl",
+      "query": {
+        "indicator": "MDG_0000000020",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 10,
+      "r_rows": 10,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "tb_number_phl",
+      "query": {
+        "indicator": "TB_e_inc_num",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 9,
+      "r_rows": 9,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "tb_hiv_rate_phl",
+      "query": {
+        "indicator": "TB_e_inc_tbhiv_100k",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 10,
+      "r_rows": 10,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "tb_hiv_number_phl",
+      "query": {
+        "indicator": "TB_e_inc_tbhiv_num",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 13,
+      "r_rows": 13,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 13,
+        "high": 13,
+        "series": 13,
+        "dim1": 0,
+        "dim2": 9,
+        "dim3": 13
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 13,
+        "high": 13,
+        "series": 13,
+        "dim1": 0,
+        "dim2": 9,
+        "dim3": 13
+      },
+      "dimensions_python": [
+        {
+          "dim1": "AGEGROUP_AGE60+",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "AGEGROUP_AGELT60",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_KIDS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ONLY_OLDER_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_RUR",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_TOTL",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_URB",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "AGEGROUP_AGE60+",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "AGEGROUP_AGELT60",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_KIDS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ONLY_OLDER_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_RUR",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_TOTL",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_URB",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "financial_reported_phl",
+      "query": {
+        "indicator": "FINPROTECTION_CATA_TOT_10_POP",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 6,
+      "r_rows": 6,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "financial_estimated_wpr",
+      "query": {
+        "indicator": "FINPROTECTION_CATA_TOT_10_LEVEL_SH",
+        "locations": [
+          "WPR"
+        ],
+        "spatial_type": "REGION"
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 6,
+      "r_rows": 6,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "financial_millions_wpr",
+      "query": {
+        "indicator": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+        "locations": [
+          "WPR"
+        ],
+        "spatial_type": "REGION"
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 21,
+      "r_rows": 21,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 21,
+        "dim1": 0,
+        "dim2": 21,
+        "dim3": 21
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 21,
+        "dim1": 0,
+        "dim2": 21,
+        "dim3": 21
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "life_expectancy_sex_phl",
+      "query": {
+        "indicator": "WHOSIS_000001",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 30,
+      "r_rows": 30,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 30,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 30
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 30,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 30
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "obesity_age_sex_phl",
+      "query": {
+        "indicator": "NCD_BMI_30A",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 9,
+      "r_rows": 9,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 9,
+        "high": 9,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 9,
+        "high": 9,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "health_expenditure_currency_phl",
+      "query": {
+        "indicator": "GHED_CHE_pc_US_SHA2011",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 8,
+      "r_rows": 8,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 8,
+        "high": 8,
+        "series": 8,
+        "dim1": 8,
+        "dim2": 8,
+        "dim3": 8
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 8,
+        "high": 8,
+        "series": 8,
+        "dim1": 8,
+        "dim2": 8,
+        "dim3": 8
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 8
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 8
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "doctors_rate_phl",
+      "query": {
+        "indicator": "HWF_0001",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 27,
+      "r_rows": 27,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 27,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 27
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 27,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 27
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_NONPREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_PREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_TOTAL",
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_NONPREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_PREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_TOTAL",
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "anaemia_pregnancy_phl",
+      "query": {
+        "indicator": "NUTRITION_ANAEMIA_REPRODUCTIVEAGE_PREV",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "passed": true,
+      "python_rows": 11,
+      "r_rows": 11,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "examples": [],
+      "raw_row_counts_match": true,
+      "id": "vaccine_percentage_phl",
+      "query": {
+        "indicator": "WHS8_110",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    }
+  ],
+  "common_raw_queries": [
+    {
+      "passed": true,
+      "python_rows": 24,
+      "r_rows": 24,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 24,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 24,
+        "high": 24,
+        "series": 24,
+        "dim1": 24,
+        "dim2": 24,
+        "dim3": 24
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 24,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 24,
+        "high": 24,
+        "series": 24,
+        "dim1": 24,
+        "dim2": 24,
+        "dim3": 24
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 24
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 24
+        }
+      ],
+      "examples": [],
+      "id": "main_01_wpr_uhc",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 11,
+      "r_rows": 11,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "examples": [],
+      "id": "main_02_phl_measles",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 10,
+      "r_rows": 10,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "id": "tb_rate_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 10,
+      "r_rows": 10,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "id": "tb_number_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 9,
+      "r_rows": 9,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "examples": [],
+      "id": "tb_hiv_rate_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 10,
+      "r_rows": 10,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 10,
+        "dim1": 10,
+        "dim2": 10,
+        "dim3": 10
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "id": "tb_hiv_number_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 13,
+      "r_rows": 13,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 13,
+        "high": 13,
+        "series": 13,
+        "dim1": 0,
+        "dim2": 9,
+        "dim3": 13
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 13,
+        "high": 13,
+        "series": 13,
+        "dim1": 0,
+        "dim2": 9,
+        "dim3": 13
+      },
+      "dimensions_python": [
+        {
+          "dim1": "AGEGROUP_AGE60+",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "AGEGROUP_AGELT60",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_KIDS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ONLY_OLDER_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_RUR",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_TOTL",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_URB",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "AGEGROUP_AGE60+",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "AGEGROUP_AGELT60",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_KIDS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ADULTS_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_MULTIGEN_WITH_OLDER",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "HOUSEHOLD_COMP_BY_AGE_HH_COMP_ONLY_OLDER_ADULTS",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_RUR",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_TOTL",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "RESIDENCEAREATYPE_URB",
+          "dim2": null,
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "POP_TYPE_POP_TYPE_HOUSEHOLD_HEAD",
+          "dim3": null,
+          "rows": 1
+        }
+      ],
+      "examples": [],
+      "id": "financial_reported_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 6,
+      "r_rows": 6,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "examples": [],
+      "id": "financial_estimated_wpr",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 6,
+      "r_rows": 6,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 6,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 6,
+        "high": 6,
+        "series": 6,
+        "dim1": 6,
+        "dim2": 6,
+        "dim3": 6
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 6
+        }
+      ],
+      "examples": [],
+      "id": "financial_millions_wpr",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 21,
+      "r_rows": 21,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 21,
+        "dim1": 0,
+        "dim2": 21,
+        "dim3": 21
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 21,
+        "dim1": 0,
+        "dim2": 21,
+        "dim3": 21
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": null,
+          "dim3": null,
+          "rows": 7
+        }
+      ],
+      "examples": [],
+      "id": "life_expectancy_sex_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 30,
+      "r_rows": 30,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 30,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 30
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 30,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 30
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        },
+        {
+          "dim1": "SEX_MLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null,
+          "rows": 10
+        }
+      ],
+      "examples": [],
+      "id": "obesity_age_sex_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 9,
+      "r_rows": 9,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 9,
+        "high": 9,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 9,
+        "high": 9,
+        "series": 9,
+        "dim1": 9,
+        "dim2": 9,
+        "dim3": 9
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "examples": [],
+      "id": "health_expenditure_currency_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 8,
+      "r_rows": 8,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 8,
+        "high": 8,
+        "series": 8,
+        "dim1": 8,
+        "dim2": 8,
+        "dim3": 8
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 8,
+        "high": 8,
+        "series": 8,
+        "dim1": 8,
+        "dim2": 8,
+        "dim3": 8
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 8
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 8
+        }
+      ],
+      "examples": [],
+      "id": "doctors_rate_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 27,
+      "r_rows": 27,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 27,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 27
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 0,
+        "high": 0,
+        "series": 27,
+        "dim1": 0,
+        "dim2": 0,
+        "dim3": 27
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_NONPREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_PREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_TOTAL",
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_NONPREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_PREGNANT",
+          "dim3": null,
+          "rows": 9
+        },
+        {
+          "dim1": "SEX_FMLE",
+          "dim2": "PREGNANCYSTATUS_TOTAL",
+          "dim3": null,
+          "rows": 9
+        }
+      ],
+      "examples": [],
+      "id": "anaemia_pregnancy_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 11,
+      "r_rows": 11,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 0,
+        "location_name": 0,
+        "year": 0,
+        "value": 0,
+        "value_num": 0,
+        "low": 11,
+        "high": 11,
+        "series": 11,
+        "dim1": 11,
+        "dim2": 11,
+        "dim3": 11
+      },
+      "dimensions_python": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 11
+        }
+      ],
+      "examples": [],
+      "id": "vaccine_percentage_phl",
+      "synthetic": false
+    },
+    {
+      "passed": true,
+      "python_rows": 4,
+      "r_rows": 4,
+      "schema_15_fields_and_order": true,
+      "r_types_match": true,
+      "python_types_match": true,
+      "row_keys_and_multiplicity_match": true,
+      "compared_fields": [
+        "source",
+        "id",
+        "indicator",
+        "location",
+        "iso3",
+        "location_name",
+        "year",
+        "value",
+        "value_num",
+        "low",
+        "high",
+        "series",
+        "dim1",
+        "dim2",
+        "dim3"
+      ],
+      "numeric_tolerance": {
+        "absolute": 1e-10,
+        "relative": 1e-12
+      },
+      "numeric_max_absolute_error": {
+        "low": 0.0,
+        "value_num": 0.0,
+        "high": 0.0
+      },
+      "mismatch_count": 0,
+      "missing_python": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 3,
+        "location_name": 2,
+        "year": 1,
+        "value": 0,
+        "value_num": 4,
+        "low": 4,
+        "high": 4,
+        "series": 4,
+        "dim1": 2,
+        "dim2": 4,
+        "dim3": 4
+      },
+      "missing_r": {
+        "source": 0,
+        "id": 0,
+        "indicator": 0,
+        "location": 0,
+        "iso3": 3,
+        "location_name": 2,
+        "year": 1,
+        "value": 0,
+        "value_num": 4,
+        "low": 4,
+        "high": 4,
+        "series": 4,
+        "dim1": 2,
+        "dim2": 4,
+        "dim3": 4
+      },
+      "dimensions_python": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null,
+          "rows": 2
+        },
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 2
+        }
+      ],
+      "dimensions_r": [
+        {
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null,
+          "rows": 2
+        },
+        {
+          "dim1": null,
+          "dim2": null,
+          "dim3": null,
+          "rows": 2
+        }
+      ],
+      "examples": [],
+      "id": "common_scalar_missingness_duplicates",
+      "synthetic": true
+    }
+  ],
+  "live_passed": 15,
+  "live_failed": 0,
+  "common_raw_passed": 16,
+  "common_raw_failed": 0,
+  "interpretation": "Live parity failures with common-raw passes can indicate upstream revisions, ordering or retrieval differences; inspect saved evidence before attributing a cleaner defect."
+}

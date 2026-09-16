@@ -1,0 +1,105 @@
+{
+  "status": "ok",
+  "query": "10%",
+  "expanded_query": "10%",
+  "matches": [
+    {
+      "indicator_code": "3.c.1",
+      "series_code": "SH_MED_DEN",
+      "name": "Health worker density, by type of occupation (per 10,000 population)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 91.0,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "3.7.2",
+      "series_code": "SP_DYN_ADKL",
+      "name": "Adolescent birth rate (per 1,000 women aged 15-19 and 10-14 years)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 90.67,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "17.19.2",
+      "series_code": "SG_REG_CENSUS",
+      "name": "Proportion of countries that have conducted at least one population and housing census in the last 10 years (%)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 90.57,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "3.7.2",
+      "series_code": null,
+      "name": "Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",
+      "type": "indicator",
+      "score": 90.53,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "17.19.2",
+      "series_code": "SG_REG_CENSUSN",
+      "name": "Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 90.47,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "17.19.2",
+      "series_code": null,
+      "name": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+      "type": "indicator",
+      "score": 90.36,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "6.b.1",
+      "series_code": "ER_WAT_PRDU",
+      "name": "Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 90.33,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "6.b.1",
+      "series_code": "ER_H2O_PRDU",
+      "name": "Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 90.32,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "5.6.2",
+      "series_code": "SH_LGR_ACSRHEC10",
+      "name": "(S.4.C.10) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 10: HIV Counselling and Test Services",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 90.24,
+      "relevance": "all keywords match"
+    }
+  ],
+  "total_matches": 9,
+  "notes": [],
+  "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:34:57.464637+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:34:59.288910+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    }
+  ]
+}

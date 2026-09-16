@@ -1,0 +1,13 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2015,18.5,18.5,17.8,21.1,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2015,25.3,25.3,23.5,29.9,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2015,32.9,32.9,29.2,40.3,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2019,25.3,25.3,22.3,29.4,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2019,19.2,19.2,16.5,22.0,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2019,31.6,31.6,28.7,37.3,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2020,32,32.0,29.2,37.6,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2020,18,18.0,15.5,20.6,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2020,24.9,24.9,22.1,28.9,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2021,31.9,31.9,25.8,39.8,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2021,25.3,25.3,19.9,31.3,SH_DTH_NCOM,,,
+sdg,3.4.1,"Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",608,PHL,Philippines,2021,38.7,38.7,32.3,48.6,SH_DTH_NCOM,,,

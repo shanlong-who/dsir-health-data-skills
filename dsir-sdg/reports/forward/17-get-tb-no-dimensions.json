@@ -1,0 +1,531 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.3",
+    "code": "3.3.2",
+    "description": "Tuberculosis incidence per 100,000 population",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.3.2",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.3"
+        ],
+        "indicator": [
+          "3.3.2"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_TBS_INCD",
+        "description": "Tuberculosis incidence (per 100,000 population)",
+        "uri": "/v1/sdg/Series/SH_TBS_INCD"
+      }
+    ]
+  },
+  "query": {
+    "indicator": "3.3.2",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": [
+      "SH_TBS_INCD"
+    ],
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": {
+    "status": "ok",
+    "locations": [
+      {
+        "input": "PHL",
+        "code": "608",
+        "name": "Philippines",
+        "iso3": "PHL",
+        "scope_note": null
+      }
+    ],
+    "unresolved": []
+  },
+  "row_count": 10,
+  "retrieved_row_count": 25,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "row_count": 10
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "issues": [],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_TBS_INCD",
+        "dimensions": {
+          "Reporting Type": "G"
+        },
+        "unit": "PER_100000_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      }
+    ],
+    "row_count": 10,
+    "missing_numeric": 0
+  },
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+        "retrieved_at": "2026-09-16T06:34:57.351588+00:00",
+        "attempt": 1,
+        "bytes": 27544,
+        "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+        "retrieved_at": "2026-09-16T06:34:59.067558+00:00",
+        "attempt": 1,
+        "bytes": 255827,
+        "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+        "retrieved_at": "2026-09-16T06:35:00.936443+00:00",
+        "attempt": 1,
+        "bytes": 181420,
+        "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.3.2&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:35:02.530147+00:00",
+        "attempt": 1,
+        "bytes": 27547,
+        "sha256": "ebfc91b63c29af3d3da749de54ec933166a282fc423057d23d3351671c5e8cb7"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:35:02.531148+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ],
+  "files": {
+    "dsir_clean.csv": "<validation-workspace>\\dsir-sdg\\reports\\forward\\phl-tb-inspect\\dsir_clean.csv",
+    "manifest.json": "<validation-workspace>\\dsir-sdg\\reports\\forward\\phl-tb-inspect\\manifest.json",
+    "observations.csv": "<validation-workspace>\\dsir-sdg\\reports\\forward\\phl-tb-inspect\\observations.csv",
+    "raw.json": "<validation-workspace>\\dsir-sdg\\reports\\forward\\phl-tb-inspect\\raw.json",
+    "response.json": "<validation-workspace>\\dsir-sdg\\reports\\forward\\phl-tb-inspect\\response.json"
+  },
+  "preview": [
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "550",
+      "value_num": 550.0,
+      "low": 309.0,
+      "high": 860.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "554",
+      "value_num": 554.0,
+      "low": 311.0,
+      "high": 866.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "554",
+      "value_num": 554.0,
+      "low": 311.0,
+      "high": 866.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "554",
+      "value_num": 554.0,
+      "low": 311.0,
+      "high": 866.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "554",
+      "value_num": 554.0,
+      "low": 311.0,
+      "high": 866.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "544",
+      "value_num": 544.0,
+      "low": 304.0,
+      "high": 863.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "579",
+      "value_num": 579.0,
+      "low": 325.0,
+      "high": 934.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.2",
+      "indicator": "Tuberculosis incidence (per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "627",
+      "value_num": 627.0,
+      "low": 346.0,
+      "high": 1010.0,
+      "series": "SH_TBS_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "preview_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.3.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "G",
+        "Units": "PER_100000_POP"
+      },
+      "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+      "footnotes": [
+        "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "preview_is_complete": false,
+  "instruction": "Read response.json or observations.csv for the complete result, units and population strata."
+}

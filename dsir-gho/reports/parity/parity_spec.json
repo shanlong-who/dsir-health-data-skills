@@ -1,0 +1,169 @@
+{
+  "source_dir": "<reference-dsir>",
+  "source_revision": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397",
+  "common_raw_path": "<validation-workspace>\\dsir-gho\\reports\\parity\\common_raw_input.json",
+  "queries": [
+    {
+      "id": "main_01_wpr_uhc",
+      "args": {
+        "indicator": "UHC_INDEX_REPORTED",
+        "locations": [
+          "WPR"
+        ],
+        "spatial_type": "REGION"
+      }
+    },
+    {
+      "id": "main_02_phl_measles",
+      "args": {
+        "indicator": "WHS3_62",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "tb_rate_phl",
+      "args": {
+        "indicator": "MDG_0000000020",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "tb_number_phl",
+      "args": {
+        "indicator": "TB_e_inc_num",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "tb_hiv_rate_phl",
+      "args": {
+        "indicator": "TB_e_inc_tbhiv_100k",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "tb_hiv_number_phl",
+      "args": {
+        "indicator": "TB_e_inc_tbhiv_num",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "financial_reported_phl",
+      "args": {
+        "indicator": "FINPROTECTION_CATA_TOT_10_POP",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "financial_estimated_wpr",
+      "args": {
+        "indicator": "FINPROTECTION_CATA_TOT_10_LEVEL_SH",
+        "locations": [
+          "WPR"
+        ],
+        "spatial_type": "REGION"
+      }
+    },
+    {
+      "id": "financial_millions_wpr",
+      "args": {
+        "indicator": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+        "locations": [
+          "WPR"
+        ],
+        "spatial_type": "REGION"
+      }
+    },
+    {
+      "id": "life_expectancy_sex_phl",
+      "args": {
+        "indicator": "WHOSIS_000001",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "obesity_age_sex_phl",
+      "args": {
+        "indicator": "NCD_BMI_30A",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "health_expenditure_currency_phl",
+      "args": {
+        "indicator": "GHED_CHE_pc_US_SHA2011",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "doctors_rate_phl",
+      "args": {
+        "indicator": "HWF_0001",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "anaemia_pregnancy_phl",
+      "args": {
+        "indicator": "NUTRITION_ANAEMIA_REPRODUCTIVEAGE_PREV",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    },
+    {
+      "id": "vaccine_percentage_phl",
+      "args": {
+        "indicator": "WHS8_110",
+        "locations": [
+          "PHL"
+        ],
+        "spatial_type": "COUNTRY",
+        "year_from": 2015
+      }
+    }
+  ]
+}

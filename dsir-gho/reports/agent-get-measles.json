@@ -1,0 +1,356 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "code": "WHS3_62",
+    "name": "Measles - number of reported cases",
+    "definition": "Measles cases reported through surveillance. Reported cases are not necessarily all infections or estimated incidence.",
+    "unit": "reported cases",
+    "type": "count",
+    "metadata_source": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles---number-of-reported-cases",
+    "metadata_reviewed_on": "2026-09-09",
+    "metadata_basis": "reviewed WHO metadata summary; not refreshed on each query"
+  },
+  "query": {
+    "indicator": "WHS3_62",
+    "locations": [
+      "PHL"
+    ],
+    "spatial_type": "COUNTRY",
+    "year_from": 2015,
+    "year_to": null,
+    "dimensions": {}
+  },
+  "resolved_locations": {
+    "status": "ok",
+    "locations": [
+      {
+        "code": "PHL",
+        "name": "Philippines",
+        "spatial_type": "country",
+        "matched_by": "iso3"
+      }
+    ],
+    "candidates": [],
+    "notes": [],
+    "unresolved": []
+  },
+  "region_scope_notes": [],
+  "available_years_in_result": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "coverage_by_location": [
+    {
+      "location": "PHL",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "row_count": 11
+    }
+  ],
+  "row_count": 11,
+  "dimension_summary": {
+    "dim1": [],
+    "dim2": [],
+    "dim3": []
+  },
+  "metadata_errors": [],
+  "qa": {
+    "status": "pass",
+    "issues": [],
+    "counts": {
+      "rows": 11,
+      "raw_rows": 11,
+      "duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "missing_numeric": 0,
+      "missing_year": 0,
+      "missing_indicator_name": 0,
+      "missing_location_name": 0,
+      "invalid_bounds": 0,
+      "estimates_outside_bounds": 0,
+      "nonnumeric_years": 0,
+      "fractional_years": 0,
+      "dimensions_preserved": true,
+      "locations": 1,
+      "indicators": 1,
+      "dimension_combinations": 1
+    },
+    "rows_modified": false
+  },
+  "provenance": {
+    "query_url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+    "urls": [
+      "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+    ],
+    "pages": 1,
+    "row_count": 11,
+    "declared_count": 11,
+    "complete": true,
+    "pagination": "count-verified nextLink/skip",
+    "retrieved_at": "2026-09-09T05:33:42.592780+00:00",
+    "source": "WHO GHO",
+    "requests": [
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+        "retrieved_at": "2026-09-09T05:33:40.786866+00:00",
+        "attempt": 1,
+        "bytes": 134678,
+        "sha256": "c1331ef79bec9b9405bed6aa7d03203279192cfdd8daf4cf58b5faf8dbf2ec3f"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=1000&%24count=true",
+        "retrieved_at": "2026-09-09T05:33:41.085329+00:00",
+        "attempt": 1,
+        "bytes": 132448,
+        "sha256": "ddb2e77236748d3671e89fb98a4a7c08bee903cfc82ef6d4475fb55c74c9cca8"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=2000&%24count=true",
+        "retrieved_at": "2026-09-09T05:33:41.994745+00:00",
+        "attempt": 1,
+        "bytes": 135492,
+        "sha256": "bff5e0db0fb37265b9a1c735a5a6837667d5922b5be7f6c8cccbd95854d2a288"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=3000&%24count=true",
+        "retrieved_at": "2026-09-09T05:33:42.262645+00:00",
+        "attempt": 1,
+        "bytes": 12255,
+        "sha256": "6a8cc35a6dbfa378e0534510ef565ce90cf7ee1ad5e0be0d95b0d2b8222e0523"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+        "retrieved_at": "2026-09-09T05:33:42.592780+00:00",
+        "attempt": 1,
+        "bytes": 6277,
+        "sha256": "7e7299f1dad4891d6f98cb96c582c3a005de416e74ea5579287b9c7603a35be9"
+      }
+    ],
+    "skill_version": "0.1.0",
+    "reference_dsir_version": "0.9.0",
+    "reference_dsir_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "baseline_probe": null,
+  "limitations": [
+    "A WHO release may revise past observations. Retrieval time is not the observation year.",
+    "All returned strata are preserved. Do not sum or average rows with different dimensions or sources.",
+    "WHO has announced retirement of this GHO API; availability is checked for each run."
+  ],
+  "files": {
+    "response_json": "<validation-workspace>\\dsir-gho\\reports\\agent-acceptance-measles\\response.json",
+    "raw_json": "<validation-workspace>\\dsir-gho\\reports\\agent-acceptance-measles\\raw.json",
+    "data_csv": "<validation-workspace>\\dsir-gho\\reports\\agent-acceptance-measles\\data.csv"
+  },
+  "preview": [
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "619",
+      "value_num": 619.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "716",
+      "value_num": 716.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "2428",
+      "value_num": 2428.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "20 827",
+      "value_num": 20827.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "48 525",
+      "value_num": 48525.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "3832",
+      "value_num": 3832.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "206",
+      "value_num": 206.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "589",
+      "value_num": 589.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "2892",
+      "value_num": 2892.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "3844",
+      "value_num": 3844.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS3_62",
+      "indicator": "Measles - number of reported cases",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2025,
+      "value": "5042",
+      "value_num": 5042.0,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "preview_is_complete": true,
+  "instruction": "Read response.json or data.csv for the complete result; do not interpret the preview as the full series."
+}

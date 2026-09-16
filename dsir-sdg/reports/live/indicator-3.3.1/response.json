@@ -1,0 +1,6916 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.3",
+    "code": "3.3.1",
+    "description": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.3.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.3"
+        ],
+        "indicator": [
+          "3.3.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_HIV_INCD",
+        "description": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+        "uri": "/v1/sdg/Series/SH_HIV_INCD"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "indicator": [
+        "3.3.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_HIV_INCD",
+      "description": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "uri": "/v1/sdg/Series/SH_HIV_INCD"
+    }
+  ],
+  "query": {
+    "indicator": "3.3.1",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 130,
+  "retrieved_row_count": 325,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "row_count": 130
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Age",
+        "codes": [
+          {
+            "code": "<15Y",
+            "description": "under 15 years old",
+            "sdmx": "Y0T14"
+          },
+          {
+            "code": "ALLAGE",
+            "description": "All age ranges or no breaks by age",
+            "sdmx": "_T"
+          },
+          {
+            "code": "15-24",
+            "description": "15 to 24 years old",
+            "sdmx": "Y15T24"
+          },
+          {
+            "code": "15-49",
+            "description": "15 to 49 years old",
+            "sdmx": "Y15T49"
+          },
+          {
+            "code": "15+",
+            "description": "15 years old and over",
+            "sdmx": "Y_GE15"
+          },
+          {
+            "code": "50+",
+            "description": "50 years old and over",
+            "sdmx": "Y_GE50"
+          }
+        ]
+      },
+      {
+        "id": "Sex",
+        "codes": [
+          {
+            "code": "FEMALE",
+            "description": "Female",
+            "sdmx": "F"
+          },
+          {
+            "code": "MALE",
+            "description": "Male",
+            "sdmx": "M"
+          },
+          {
+            "code": "BOTHSEX",
+            "description": "Both sexes",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "PER_1000_UNINFECTED_POP",
+            "description": "Per 1,000 uninfected population",
+            "sdmx": "PER_1000_UNINFECTED_POP"
+          }
+        ]
+      },
+      {
+        "id": "Observation Status",
+        "codes": [
+          {
+            "code": "A",
+            "description": "Normal value",
+            "sdmx": "A"
+          },
+          {
+            "code": "E",
+            "description": "Estimated value",
+            "sdmx": "E"
+          },
+          {
+            "code": "Q",
+            "description": "Missing value; suppressed",
+            "sdmx": "Q"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "warning",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "multiple_strata",
+        "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+      }
+    ],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "<15Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "50+",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "15-49",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "15-24",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "ALLAGE",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "ALLAGE",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "15-49",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "ALLAGE",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "50+",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "15-49",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "50+",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "15-24",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_HIV_INCD",
+        "dimensions": {
+          "Age": "15-24",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_UNINFECTED_POP",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      }
+    ],
+    "row_count": 130,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.00358",
+      "value_num": 0.00358,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.011",
+      "value_num": 0.011,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.18403",
+      "value_num": 0.18403,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.03485",
+      "value_num": 0.03485,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.01405",
+      "value_num": 0.01405,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.18218",
+      "value_num": 0.18218,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.02453",
+      "value_num": 0.02453,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.09838",
+      "value_num": 0.09838,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.0011",
+      "value_num": 0.0011,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.33947",
+      "value_num": 0.33947,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.00553",
+      "value_num": 0.00553,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.4399",
+      "value_num": 0.4399,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "0.24317",
+      "value_num": 0.24317,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.2737",
+      "value_num": 0.2737,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.49613",
+      "value_num": 0.49613,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.38114",
+      "value_num": 0.38114,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.11101",
+      "value_num": 0.11101,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.02821",
+      "value_num": 0.02821,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.2055",
+      "value_num": 0.2055,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.00621",
+      "value_num": 0.00621,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.01614",
+      "value_num": 0.01614,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.00399",
+      "value_num": 0.00399,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.04015",
+      "value_num": 0.04015,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.20692",
+      "value_num": 0.20692,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.01224",
+      "value_num": 0.01224,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "0.00125",
+      "value_num": 0.00125,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.0044",
+      "value_num": 0.0044,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.01343",
+      "value_num": 0.01343,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.00139",
+      "value_num": 0.00139,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.04558",
+      "value_num": 0.04558,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.22933",
+      "value_num": 0.22933,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.22855",
+      "value_num": 0.22855,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.00686",
+      "value_num": 0.00686,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.42206",
+      "value_num": 0.42206,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.55312",
+      "value_num": 0.55312,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.03195",
+      "value_num": 0.03195,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.01827",
+      "value_num": 0.01827,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.12348",
+      "value_num": 0.12348,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "0.30437",
+      "value_num": 0.30437,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.13576",
+      "value_num": 0.13576,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.3347",
+      "value_num": 0.3347,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.46191",
+      "value_num": 0.46191,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.03636",
+      "value_num": 0.03636,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.02076",
+      "value_num": 0.02076,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.60943",
+      "value_num": 0.60943,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.25098",
+      "value_num": 0.25098,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.00751",
+      "value_num": 0.00751,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.25137",
+      "value_num": 0.25137,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.01456",
+      "value_num": 0.01456,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.05199",
+      "value_num": 0.05199,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.00156",
+      "value_num": 0.00156,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "0.00482",
+      "value_num": 0.00482,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.00174",
+      "value_num": 0.00174,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.05883",
+      "value_num": 0.05883,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.00507",
+      "value_num": 0.00507,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.01569",
+      "value_num": 0.01569,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.27263",
+      "value_num": 0.27263,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.27239",
+      "value_num": 0.27239,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.50019",
+      "value_num": 0.50019,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.04105",
+      "value_num": 0.04105,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.02336",
+      "value_num": 0.02336,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.66381",
+      "value_num": 0.66381,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.00817",
+      "value_num": 0.00817,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.14756",
+      "value_num": 0.14756,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "0.36407",
+      "value_num": 0.36407,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.16305",
+      "value_num": 0.16305,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.40182",
+      "value_num": 0.40182,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.00903",
+      "value_num": 0.00903,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.04629",
+      "value_num": 0.04629,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.02635",
+      "value_num": 0.02635,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.73258",
+      "value_num": 0.73258,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.55022",
+      "value_num": 0.55022,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.30061",
+      "value_num": 0.30061,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.06654",
+      "value_num": 0.06654,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.00551",
+      "value_num": 0.00551,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.00195",
+      "value_num": 0.00195,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.01725",
+      "value_num": 0.01725,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "0.30018",
+      "value_num": 0.30018,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.33713",
+      "value_num": 0.33713,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.01923",
+      "value_num": 0.01923,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.00643",
+      "value_num": 0.00643,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.07654",
+      "value_num": 0.07654,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.33922",
+      "value_num": 0.33922,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.61716",
+      "value_num": 0.61716,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.0101",
+      "value_num": 0.0101,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.03041",
+      "value_num": 0.03041,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.82445",
+      "value_num": 0.82445,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.00222",
+      "value_num": 0.00222,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.18431",
+      "value_num": 0.18431,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.05309",
+      "value_num": 0.05309,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "0.45303",
+      "value_num": 0.45303,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.50933",
+      "value_num": 0.50933,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.20801",
+      "value_num": 0.20801,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.05878",
+      "value_num": 0.05878,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.00244",
+      "value_num": 0.00244,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.03403",
+      "value_num": 0.03403,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.92777",
+      "value_num": 0.92777,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.01129",
+      "value_num": 0.01129,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.02153",
+      "value_num": 0.02153,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.69258",
+      "value_num": 0.69258,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.38318",
+      "value_num": 0.38318,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.08496",
+      "value_num": 0.08496,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.00778",
+      "value_num": 0.00778,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "0.37774",
+      "value_num": 0.37774,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.4267",
+      "value_num": 0.4267,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.09578",
+      "value_num": 0.09578,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.43566",
+      "value_num": 0.43566,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.78306",
+      "value_num": 0.78306,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.0242",
+      "value_num": 0.0242,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.06603",
+      "value_num": 0.06603,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "1.05272",
+      "value_num": 1.05272,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.00272",
+      "value_num": 0.00272,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.03844",
+      "value_num": 0.03844,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.00891",
+      "value_num": 0.00891,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.23634",
+      "value_num": 0.23634,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.57784",
+      "value_num": 0.57784,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "0.01268",
+      "value_num": 0.01268,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.64949",
+      "value_num": 0.64949,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.01414",
+      "value_num": 0.01414,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.26615",
+      "value_num": 0.26615,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.01011",
+      "value_num": 0.01011,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.00313",
+      "value_num": 0.00313,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "1.17897",
+      "value_num": 1.17897,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.04468",
+      "value_num": 0.04468,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.07648",
+      "value_num": 0.07648,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.48931",
+      "value_num": 0.48931,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.87407",
+      "value_num": 0.87407,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.11132",
+      "value_num": 0.11132,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.02687",
+      "value_num": 0.02687,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.3.1",
+      "indicator": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "0.47748",
+      "value_num": 0.47748,
+      "low": null,
+      "high": null,
+      "series": "SH_HIV_INCD",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 8,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 9,
+      "raw_row_index": 9,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 10,
+      "raw_row_index": 10,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 11,
+      "raw_row_index": 11,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 12,
+      "raw_row_index": 12,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 13,
+      "raw_row_index": 13,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 14,
+      "raw_row_index": 14,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 15,
+      "raw_row_index": 15,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 16,
+      "raw_row_index": 16,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 17,
+      "raw_row_index": 17,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 18,
+      "raw_row_index": 18,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 19,
+      "raw_row_index": 19,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 20,
+      "raw_row_index": 20,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 21,
+      "raw_row_index": 21,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 22,
+      "raw_row_index": 22,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 23,
+      "raw_row_index": 23,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 24,
+      "raw_row_index": 24,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 25,
+      "raw_row_index": 25,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 26,
+      "raw_row_index": 26,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 27,
+      "raw_row_index": 27,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 28,
+      "raw_row_index": 28,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 29,
+      "raw_row_index": 29,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 30,
+      "raw_row_index": 30,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 31,
+      "raw_row_index": 31,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 32,
+      "raw_row_index": 32,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 33,
+      "raw_row_index": 33,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 34,
+      "raw_row_index": 34,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 35,
+      "raw_row_index": 35,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 36,
+      "raw_row_index": 36,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 37,
+      "raw_row_index": 37,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 38,
+      "raw_row_index": 38,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 39,
+      "raw_row_index": 39,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 40,
+      "raw_row_index": 40,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 41,
+      "raw_row_index": 41,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 42,
+      "raw_row_index": 42,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 43,
+      "raw_row_index": 43,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 44,
+      "raw_row_index": 44,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 45,
+      "raw_row_index": 45,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 46,
+      "raw_row_index": 46,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 47,
+      "raw_row_index": 47,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 48,
+      "raw_row_index": 48,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 49,
+      "raw_row_index": 49,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 50,
+      "raw_row_index": 50,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 51,
+      "raw_row_index": 51,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 52,
+      "raw_row_index": 52,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 53,
+      "raw_row_index": 53,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 54,
+      "raw_row_index": 54,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 55,
+      "raw_row_index": 55,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 56,
+      "raw_row_index": 56,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 57,
+      "raw_row_index": 57,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 58,
+      "raw_row_index": 58,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 59,
+      "raw_row_index": 59,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 60,
+      "raw_row_index": 60,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 61,
+      "raw_row_index": 61,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 62,
+      "raw_row_index": 62,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 63,
+      "raw_row_index": 63,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 64,
+      "raw_row_index": 64,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 65,
+      "raw_row_index": 65,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 66,
+      "raw_row_index": 66,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 67,
+      "raw_row_index": 67,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 68,
+      "raw_row_index": 68,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 69,
+      "raw_row_index": 69,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 70,
+      "raw_row_index": 70,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 71,
+      "raw_row_index": 71,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 72,
+      "raw_row_index": 72,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 73,
+      "raw_row_index": 73,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 74,
+      "raw_row_index": 74,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 75,
+      "raw_row_index": 75,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 76,
+      "raw_row_index": 76,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 77,
+      "raw_row_index": 77,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 78,
+      "raw_row_index": 78,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 79,
+      "raw_row_index": 79,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 80,
+      "raw_row_index": 80,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 81,
+      "raw_row_index": 81,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 82,
+      "raw_row_index": 82,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 83,
+      "raw_row_index": 83,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 84,
+      "raw_row_index": 84,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 85,
+      "raw_row_index": 85,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 86,
+      "raw_row_index": 86,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 87,
+      "raw_row_index": 87,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 88,
+      "raw_row_index": 88,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 89,
+      "raw_row_index": 89,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 90,
+      "raw_row_index": 90,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 91,
+      "raw_row_index": 91,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 92,
+      "raw_row_index": 92,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 93,
+      "raw_row_index": 93,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 94,
+      "raw_row_index": 94,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 95,
+      "raw_row_index": 95,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 96,
+      "raw_row_index": 96,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 97,
+      "raw_row_index": 97,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 98,
+      "raw_row_index": 98,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 99,
+      "raw_row_index": 99,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 100,
+      "raw_row_index": 100,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 101,
+      "raw_row_index": 101,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 102,
+      "raw_row_index": 102,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 103,
+      "raw_row_index": 103,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 104,
+      "raw_row_index": 104,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 105,
+      "raw_row_index": 105,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 106,
+      "raw_row_index": 106,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 107,
+      "raw_row_index": 107,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 108,
+      "raw_row_index": 108,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 109,
+      "raw_row_index": 109,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 110,
+      "raw_row_index": 110,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 111,
+      "raw_row_index": 111,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 112,
+      "raw_row_index": 112,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 113,
+      "raw_row_index": 113,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 114,
+      "raw_row_index": 114,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 115,
+      "raw_row_index": 115,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 116,
+      "raw_row_index": 116,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 117,
+      "raw_row_index": 117,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 118,
+      "raw_row_index": 118,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 119,
+      "raw_row_index": 119,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 120,
+      "raw_row_index": 120,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "<15Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 121,
+      "raw_row_index": 121,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 122,
+      "raw_row_index": 122,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 123,
+      "raw_row_index": 123,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 124,
+      "raw_row_index": 124,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 125,
+      "raw_row_index": 125,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "ALLAGE",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 126,
+      "raw_row_index": 126,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 127,
+      "raw_row_index": 127,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-24",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 128,
+      "raw_row_index": 128,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G",
+        "Age": "50+"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 129,
+      "raw_row_index": 129,
+      "indicator": [
+        "3.3.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.3"
+      ],
+      "dimensions": {
+        "Age": "15-49",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_1000_UNINFECTED_POP",
+        "Observation Status": "E"
+      },
+      "source": "UNAIDS 2025 HIV ESTIMATES",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.3.1&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:31:53.112299+00:00",
+        "attempt": 1,
+        "bytes": 215054,
+        "sha256": "814fcb370b12ff9c98f48a6c592096e9f538e5b1cc41284e28f7228ba56a52af"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:31:53.129446+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

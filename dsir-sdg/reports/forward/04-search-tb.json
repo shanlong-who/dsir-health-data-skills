@@ -1,0 +1,43 @@
+{
+  "status": "ok",
+  "query": "tuberculosis incidence",
+  "expanded_query": "tuberculosis incidence",
+  "matches": [
+    {
+      "indicator_code": "3.3.2",
+      "series_code": "SH_TBS_INCD",
+      "name": "Tuberculosis incidence (per 100,000 population)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 93.2,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "3.3.2",
+      "series_code": null,
+      "name": "Tuberculosis incidence per 100,000 population",
+      "type": "indicator",
+      "score": 93.2,
+      "relevance": "all keywords match"
+    }
+  ],
+  "total_matches": 2,
+  "notes": [],
+  "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:33:43.770300+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:33:47.970199+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    }
+  ]
+}

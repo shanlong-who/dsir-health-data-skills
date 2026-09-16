@@ -1,0 +1,4224 @@
+{
+  "generated_at": "2026-09-16T06:38:17.541713+00:00",
+  "model_evaluated": false,
+  "validation": {
+    "total_cases": 40,
+    "real_health_data_questions": 35,
+    "synthetic_cases": 0,
+    "required_fields_valid": true
+  },
+  "mode": "live_API_contracts",
+  "catalogue_evidence": "live UNSD API",
+  "scope_note": "Cases use explicit expected arguments. Natural-language interpretation, clarification and response quality require a separate assistant review.",
+  "passed": 40,
+  "failed": 0,
+  "cases": [
+    {
+      "id": "wpr_uhc_history",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every available observation year; do not interpolate missing years.",
+        "Check the published UNSD WHO Western Pacific aggregate. Identify the 2025 UHC methodology and report any membership caveat; never average country indexes.",
+        "Coverage checked on 2026-09-16 for release 2026.Q2.G.02: area 99047 exists, but UHC has zero matching observations; the global indicator baseline has data. Expect filters_no_data. A catalogue-valid region does not guarantee series coverage."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "99047"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "filters_no_data",
+        "rows": 0,
+        "retrieved_rows": 0,
+        "pages": 1,
+        "years": [],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [],
+          "row_count": 0,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=99047&page=1",
+            "retrieved_at": "2026-09-16T06:38:24.049128+00:00",
+            "attempt": 1,
+            "bytes": 791,
+            "sha256": "0fdd476bf8558beb9f59b79376b63c9eba1d1e14aa8cca97bc42104de36903e0"
+          },
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1&page=1",
+            "retrieved_at": "2026-09-16T06:38:25.194869+00:00",
+            "attempt": 1,
+            "bytes": 1367,
+            "sha256": "bd57dbfc9f932e59432cb32ed3b561de171baab7819ddee7bdb423ed36c78ee7"
+          }
+        ],
+        "baseline_probe": {
+          "global_indicator_rows": 5184
+        },
+        "returned_locations": [],
+        "expectation_correction": "An initial nonempty expectation confused area catalogue membership with series coverage. The API output was not changed; the original failed expectation is retained in report history."
+      },
+      "execution": "executed",
+      "elapsed_seconds": 7.625,
+      "executed_at": "2026-09-16T06:38:25.195868+00:00",
+      "previous_evidence": {
+        "id": "wpr_uhc_history",
+        "operation": "data",
+        "contract": "failed",
+        "natural_language_review": "pending",
+        "should_clarify": false,
+        "review_criteria": [
+          "Retrieve every available observation year; do not interpolate missing years.",
+          "Use the published UNSD WHO Western Pacific aggregate. Identify the 2025 UHC methodology and report any membership caveat; never average country indexes."
+        ],
+        "catalogue": {
+          "indicator_codes": [
+            "3.8.1"
+          ],
+          "series_codes": [
+            "SH_ACS_UNHC_25"
+          ],
+          "area_codes": [
+            "99047"
+          ],
+          "releases": [
+            "2026.Q2.G.02"
+          ]
+        },
+        "failure": {
+          "type": "AssertionError",
+          "message": "Expected observations were not retrieved"
+        },
+        "elapsed_seconds": 8.047,
+        "executed_at": "2026-09-16T06:36:47.261207+00:00"
+      }
+    },
+    {
+      "id": "uhc_three_countries",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all available years for each country; retain unequal coverage.",
+        "Keep the series and methodology constant across countries; do not fabricate missing years."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "156",
+          "392",
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 72,
+        "retrieved_rows": 72,
+        "pages": 1,
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "156",
+              "series": "SH_ACS_UNHC_25",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "INDEX",
+              "years": [
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 24
+            },
+            {
+              "location": "392",
+              "series": "SH_ACS_UNHC_25",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "INDEX",
+              "years": [
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 24
+            },
+            {
+              "location": "608",
+              "series": "SH_ACS_UNHC_25",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "INDEX",
+              "years": [
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 24
+            }
+          ],
+          "row_count": 72,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=156&areaCode=392&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:36:49.202608+00:00",
+            "attempt": 1,
+            "bytes": 41975,
+            "sha256": "456d2d5f6f1f3a4b870af6714019fd595033ab6830cf821c528b7cce8c87e351"
+          }
+        ],
+        "returned_locations": [
+          "156",
+          "392",
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.953,
+      "executed_at": "2026-09-16T06:36:49.205622+00:00"
+    },
+    {
+      "id": "uhc_phl_since2015",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retain observed years greater than or equal to 2015, including the latest available.",
+        "The latest available year can precede the current year."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 9,
+        "retrieved_rows": 24,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_ACS_UNHC_25",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "INDEX",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 9
+            }
+          ],
+          "row_count": 9,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:36:50.948572+00:00",
+            "attempt": 1,
+            "bytes": 14615,
+            "sha256": "e3bf39e40aa374d46ead133b61019e9bd3a745c4a886bb7e20cf35ab5d205158"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.734,
+      "executed_at": "2026-09-16T06:36:50.949573+00:00"
+    },
+    {
+      "id": "uhc_latest",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve complete coverage, then select the maximum observed year for this series and scope.",
+        "State the actual observation year; the current calendar year is not a data value."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 24,
+        "retrieved_rows": 24,
+        "pages": 1,
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "392",
+              "series": "SH_ACS_UNHC_25",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "INDEX",
+              "years": [
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 24
+            }
+          ],
+          "row_count": 24,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=392&page=1",
+            "retrieved_at": "2026-09-16T06:36:52.477027+00:00",
+            "attempt": 1,
+            "bytes": 14471,
+            "sha256": "62e22c52acc9f294cc48f502a37405910df502c8996ee92b0a1900014f66e467"
+          }
+        ],
+        "returned_locations": [
+          "392"
+        ],
+        "latest_available_year": 2023
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.532,
+      "executed_at": "2026-09-16T06:36:52.480026+00:00"
+    },
+    {
+      "id": "uhc_2026",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Apply the explicit 2026 to 2026 filter; do not substitute the latest available year.",
+        "If no rows survive the filter, report filters_no_data. Do not extrapolate or claim the indicator does not exist."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "filters_no_data",
+        "rows": 0,
+        "retrieved_rows": 24,
+        "pages": 1,
+        "years": [],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [],
+          "row_count": 0,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:36:53.816759+00:00",
+            "attempt": 1,
+            "bytes": 14615,
+            "sha256": "e3bf39e40aa374d46ead133b61019e9bd3a745c4a886bb7e20cf35ab5d205158"
+          }
+        ],
+        "returned_locations": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.343,
+      "executed_at": "2026-09-16T06:36:53.820163+00:00"
+    },
+    {
+      "id": "tb_rate_phl",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Return every available year from 2015 inclusive.",
+        "Use the rate series, state the denominator, and preserve any sex or age strata."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.2"
+        ],
+        "series_codes": [
+          "SH_TBS_INCD"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "retrieved_rows": 25,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_TBS_INCD",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "PER_100000_POP",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 10,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.3.2&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:36:55.344892+00:00",
+            "attempt": 1,
+            "bytes": 27547,
+            "sha256": "ebfc91b63c29af3d3da749de54ec933166a282fc423057d23d3351671c5e8cb7"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.532,
+      "executed_at": "2026-09-16T06:36:55.346893+00:00"
+    },
+    {
+      "id": "tb_generic_phl",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "After selecting the verified SDG series, retrieve all available years.",
+        "The SDG catalogue offers a standard incidence rate. State that choice explicitly; do not claim it is a count."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.2"
+        ],
+        "series_codes": [
+          "SH_TBS_INCD"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.3.2",
+            "series_code": "SH_TBS_INCD",
+            "name": "Tuberculosis incidence (per 100,000 population)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 93.2,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "3.3.2",
+            "series_code": null,
+            "name": "Tuberculosis incidence per 100,000 population",
+            "type": "indicator",
+            "score": 93.2,
+            "relevance": "all keywords match"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.172,
+      "executed_at": "2026-09-16T06:36:55.522596+00:00"
+    },
+    {
+      "id": "under5_rate",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Return all available observed years from 2015 inclusive.",
+        "Keep sex categories separate. Do not sum rates or average female and male rates."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.1"
+        ],
+        "series_codes": [
+          "SH_DYN_MORT"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 30,
+        "retrieved_rows": 300,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_DYN_MORT",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_LIVE_BIRTHS",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            },
+            {
+              "location": "608",
+              "series": "SH_DYN_MORT",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_1000_LIVE_BIRTHS",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            },
+            {
+              "location": "608",
+              "series": "SH_DYN_MORT",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_LIVE_BIRTHS",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 30,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:36:58.740887+00:00",
+            "attempt": 1,
+            "bytes": 163479,
+            "sha256": "9d1b83705cf12d1166f7c0dc1612316c26fe5d314daacf16d37a34a2e4706995"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 3.218,
+      "executed_at": "2026-09-16T06:36:58.747886+00:00"
+    },
+    {
+      "id": "under5_count",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve the requested observation year 2020 only.",
+        "Select the deaths count series, not the under-five mortality rate."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.1"
+        ],
+        "series_codes": [
+          "SH_DYN_MORTN"
+        ],
+        "area_codes": [
+          "156"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 3,
+        "retrieved_rows": 300,
+        "pages": 1,
+        "years": [
+          2020
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "156",
+              "series": "SH_DYN_MORTN",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "NUMBER",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "156",
+              "series": "SH_DYN_MORTN",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "NUMBER",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "156",
+              "series": "SH_DYN_MORTN",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "NUMBER",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            }
+          ],
+          "row_count": 3,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=1000&areaCode=156&page=1",
+            "retrieved_at": "2026-09-16T06:37:02.290211+00:00",
+            "attempt": 1,
+            "bytes": 161978,
+            "sha256": "e74d6d0bfc3e3d99138d34e3a5cc37c600fe2c89e48848bc93f1a25828be6864"
+          }
+        ],
+        "returned_locations": [
+          "156"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 3.563,
+      "executed_at": "2026-09-16T06:37:02.298214+00:00"
+    },
+    {
+      "id": "under5_ambiguous",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Discuss the requested series before retrieving all available years.",
+        "The indicator includes a mortality rate and a deaths count; they have different units and cannot be merged into one result."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.1"
+        ],
+        "series_codes": [
+          "SH_DYN_MORT",
+          "SH_DYN_MORTN"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_IMRT",
+            "name": "Infant mortality rate (deaths per 1,000 live births)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_IMRTN",
+            "name": "Infant deaths (number)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_MORT",
+            "name": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_MORTN",
+            "name": "Under-five deaths (number)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": null,
+            "name": "Under‑5 mortality rate",
+            "type": "indicator",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.094,
+      "executed_at": "2026-09-16T06:37:02.400310+00:00"
+    },
+    {
+      "id": "neonatal_rate",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Keep years from 2010 through 2020 inclusive.",
+        "Use neonatal rate, not number of neonatal deaths; preserve bounds and sex."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.2"
+        ],
+        "series_codes": [
+          "SH_DYN_NMRT"
+        ],
+        "area_codes": [
+          "156",
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 22,
+        "retrieved_rows": 100,
+        "pages": 1,
+        "years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "156",
+              "series": "SH_DYN_NMRT",
+              "dimensions": {
+                "Age": "<1M",
+                "Location": "ALLAREA",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_LIVE_BIRTHS",
+              "years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020
+              ],
+              "rows": 11
+            },
+            {
+              "location": "392",
+              "series": "SH_DYN_NMRT",
+              "dimensions": {
+                "Age": "<1M",
+                "Location": "ALLAREA",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_LIVE_BIRTHS",
+              "years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020
+              ],
+              "rows": 11
+            }
+          ],
+          "row_count": 22,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.2&pageSize=1000&areaCode=156&areaCode=392&page=1",
+            "retrieved_at": "2026-09-16T06:37:05.669127+00:00",
+            "attempt": 1,
+            "bytes": 55641,
+            "sha256": "8b92367fa0ae368d192ed48fe082cb666a9d8f56bca664b940771a6c259dc531"
+          }
+        ],
+        "returned_locations": [
+          "156",
+          "392"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 3.281,
+      "executed_at": "2026-09-16T06:37:05.672728+00:00"
+    },
+    {
+      "id": "maternal_ratio",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Keep observed years from 2015 through 2023 inclusive.",
+        "State the unit from returned metadata and preserve uncertainty bounds; do not label the ratio as a number of deaths."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.1.1"
+        ],
+        "series_codes": [
+          "SH_STA_MORT"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 9,
+        "retrieved_rows": 24,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_STA_MORT",
+              "dimensions": {
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_100000_LIVE_BIRTHS",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 9
+            }
+          ],
+          "row_count": 9,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.1.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:07.818888+00:00",
+            "attempt": 1,
+            "bytes": 15846,
+            "sha256": "72d7d308a8ce3f6837393cfa02192194c54aa6071820fcabe3c7de7b8ab4d69f"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.14,
+      "executed_at": "2026-09-16T06:37:07.822055+00:00"
+    },
+    {
+      "id": "skilled_births",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all observed years from 2015 inclusive.",
+        "Retain missingness and any reporting-type differences rather than creating annual observations."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.1.2"
+        ],
+        "series_codes": [
+          "SH_STA_BRTC"
+        ],
+        "area_codes": [
+          "360"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 6,
+        "retrieved_rows": 10,
+        "pages": 1,
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "360",
+              "series": "SH_STA_BRTC",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2016,
+                2017,
+                2018,
+                2019,
+                2023,
+                2024
+              ],
+              "rows": 6
+            }
+          ],
+          "row_count": 6,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.1.2&pageSize=1000&areaCode=360&page=1",
+            "retrieved_at": "2026-09-16T06:37:09.367613+00:00",
+            "attempt": 1,
+            "bytes": 6030,
+            "sha256": "c51df342aa15a4c189d396f3101bfb78fc78cb61cba75298301ff54d52afe13a"
+          }
+        ],
+        "returned_locations": [
+          "360"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.547,
+      "executed_at": "2026-09-16T06:37:09.369651+00:00"
+    },
+    {
+      "id": "hiv_strata",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve 2020 only and retain each distinct sex/age stratum.",
+        "Do not collapse all age groups into a national estimate. A display value such as <0.01 remains text if it is not numeric."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.1"
+        ],
+        "series_codes": [
+          "SH_HIV_INCD"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 13,
+        "retrieved_rows": 325,
+        "pages": 1,
+        "years": [
+          2020
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "15-24",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "50+",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "15-49",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "15-24",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "15-49",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "15-24",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "<15Y",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "50+",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "50+",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            },
+            {
+              "location": "608",
+              "series": "SH_HIV_INCD",
+              "dimensions": {
+                "Age": "15-49",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_1000_UNINFECTED_POP",
+              "years": [
+                2020
+              ],
+              "rows": 1
+            }
+          ],
+          "row_count": 13,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.3.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:12.797346+00:00",
+            "attempt": 1,
+            "bytes": 215054,
+            "sha256": "814fcb370b12ff9c98f48a6c592096e9f538e5b1cc41284e28f7228ba56a52af"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 3.438,
+      "executed_at": "2026-09-16T06:37:12.806362+00:00"
+    },
+    {
+      "id": "malaria_incidence",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every observed year from 2015 inclusive.",
+        "The population at risk is the denominator, not all residents."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.3"
+        ],
+        "series_codes": [
+          "SH_STA_MALR"
+        ],
+        "area_codes": [
+          "598"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "retrieved_rows": 25,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "598",
+              "series": "SH_STA_MALR",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "PER_1000_POP",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 10,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.3.3&pageSize=1000&areaCode=598&page=1",
+            "retrieved_at": "2026-09-16T06:37:14.788679+00:00",
+            "attempt": 1,
+            "bytes": 23549,
+            "sha256": "99e0b5f780650485df59f51b054b9bdc9a34b9b0812cdf3f6e06faa51ac9f2c5"
+          }
+        ],
+        "returned_locations": [
+          "598"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.984,
+      "executed_at": "2026-09-16T06:37:14.793684+00:00"
+    },
+    {
+      "id": "ncd_probability",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve complete available history for the selected series.",
+        "Describe the series as the published probability measure and preserve sex; do not invent a crude rate."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.4.1"
+        ],
+        "series_codes": [
+          "SH_DTH_NCOM"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 21,
+        "retrieved_rows": 21,
+        "pages": 1,
+        "years": [
+          2000,
+          2005,
+          2010,
+          2015,
+          2019,
+          2020,
+          2021
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "392",
+              "series": "SH_DTH_NCOM",
+              "dimensions": {
+                "Age": "30-69",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2005,
+                2010,
+                2015,
+                2019,
+                2020,
+                2021
+              ],
+              "rows": 7
+            },
+            {
+              "location": "392",
+              "series": "SH_DTH_NCOM",
+              "dimensions": {
+                "Age": "30-69",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2005,
+                2010,
+                2015,
+                2019,
+                2020,
+                2021
+              ],
+              "rows": 7
+            },
+            {
+              "location": "392",
+              "series": "SH_DTH_NCOM",
+              "dimensions": {
+                "Age": "30-69",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2005,
+                2010,
+                2015,
+                2019,
+                2020,
+                2021
+              ],
+              "rows": 7
+            }
+          ],
+          "row_count": 21,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.4.1&pageSize=1000&areaCode=392&page=1",
+            "retrieved_at": "2026-09-16T06:37:16.585600+00:00",
+            "attempt": 1,
+            "bytes": 19452,
+            "sha256": "efca4b2590a7b8d844e90d68a7763ea16323be39f21ff5dcb7810058f2eb62f8"
+          }
+        ],
+        "returned_locations": [
+          "392"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.797,
+      "executed_at": "2026-09-16T06:37:16.590670+00:00"
+    },
+    {
+      "id": "suicide_by_sex",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve observed years from 2015 inclusive, retaining separate female and male values.",
+        "Inspect dimension metadata before filtering and do not substitute both-sex results."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.4.2"
+        ],
+        "series_codes": [
+          "SH_STA_SCIDE"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 8,
+        "retrieved_rows": 21,
+        "pages": 1,
+        "years": [
+          2015,
+          2019,
+          2020,
+          2021
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "392",
+              "series": "SH_STA_SCIDE",
+              "dimensions": {
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_100000_POP",
+              "years": [
+                2015,
+                2019,
+                2020,
+                2021
+              ],
+              "rows": 4
+            },
+            {
+              "location": "392",
+              "series": "SH_STA_SCIDE",
+              "dimensions": {
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_100000_POP",
+              "years": [
+                2015,
+                2019,
+                2020,
+                2021
+              ],
+              "rows": 4
+            }
+          ],
+          "row_count": 8,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.4.2&pageSize=1000&areaCode=392&page=1",
+            "retrieved_at": "2026-09-16T06:38:27.326354+00:00",
+            "attempt": 1,
+            "bytes": 15117,
+            "sha256": "39686665f552101a4d0cabac27f7084b0f76888bb762cdf52c55e2a67b3f18dd"
+          }
+        ],
+        "baseline_probe": null,
+        "returned_locations": [
+          "392"
+        ],
+        "expectation_correction": "The initial test used SDMX aliases F/M. Official API metadata and observations use FEMALE/MALE in the code field. Query arguments were corrected; returned values were not changed."
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.141,
+      "executed_at": "2026-09-16T06:38:27.327334+00:00",
+      "previous_evidence": {
+        "id": "suicide_by_sex",
+        "operation": "data",
+        "contract": "failed",
+        "natural_language_review": "pending",
+        "should_clarify": false,
+        "review_criteria": [
+          "Retrieve observed years from 2015 inclusive, retaining separate female and male values.",
+          "Inspect dimension metadata before filtering and do not substitute both-sex results."
+        ],
+        "catalogue": {
+          "indicator_codes": [
+            "3.4.2"
+          ],
+          "series_codes": [
+            "SH_STA_SCIDE"
+          ],
+          "area_codes": [
+            "392"
+          ],
+          "releases": [
+            "2026.Q2.G.02"
+          ]
+        },
+        "failure": {
+          "type": "AssertionError",
+          "message": "Expected observations were not retrieved"
+        },
+        "elapsed_seconds": 1.781,
+        "executed_at": "2026-09-16T06:37:18.367571+00:00"
+      }
+    },
+    {
+      "id": "road_rate",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve 2021 only; if absent, report the empty filter rather than another year.",
+        "Select the per-100,000 rate rather than the deaths-count series."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.6.1"
+        ],
+        "series_codes": [
+          "SH_STA_TRAF"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 1,
+        "retrieved_rows": 2,
+        "pages": 1,
+        "years": [
+          2021
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_STA_TRAF",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "PER_100000_POP",
+              "years": [
+                2021
+              ],
+              "rows": 1
+            }
+          ],
+          "row_count": 1,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.6.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:20.888844+00:00",
+            "attempt": 1,
+            "bytes": 11441,
+            "sha256": "7c26dcbfa7e87aad27da288d2d77845b3572f2c6bfb18cbaa3b172de0bf9d2e3"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.532,
+      "executed_at": "2026-09-16T06:37:20.891355+00:00"
+    },
+    {
+      "id": "alcohol_consumption",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every observed year from 2010 inclusive.",
+        "Preserve litre units and age population; do not interpret the value as prevalence of alcohol use disorder."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.5.2"
+        ],
+        "series_codes": [
+          "SH_ALC_CONSPT"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 15,
+        "retrieved_rows": 25,
+        "pages": 1,
+        "years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "392",
+              "series": "SH_ALC_CONSPT",
+              "dimensions": {
+                "Age": "15+",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "LTPUREAL",
+              "years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 15
+            }
+          ],
+          "row_count": 15,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.5.2&pageSize=1000&areaCode=392&page=1",
+            "retrieved_at": "2026-09-16T06:37:22.700874+00:00",
+            "attempt": 1,
+            "bytes": 18443,
+            "sha256": "1fc0263da5d223bd742f0cf80db321bc7b3cfed1d8e010d55f813f5fa061a4f2"
+          }
+        ],
+        "returned_locations": [
+          "392"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.812,
+      "executed_at": "2026-09-16T06:37:22.706415+00:00"
+    },
+    {
+      "id": "family_planning",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve observed years from 2015 inclusive.",
+        "Inspect and retain relevant marital-status/population strata; do not merge overlapping groups."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.7.1"
+        ],
+        "series_codes": [
+          "SH_FPL_MTMM"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 2,
+        "retrieved_rows": 6,
+        "pages": 1,
+        "years": [
+          2017,
+          2022
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_FPL_MTMM",
+              "dimensions": {
+                "Age": "15-49",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2017,
+                2022
+              ],
+              "rows": 2
+            }
+          ],
+          "row_count": 2,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.7.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:24.252780+00:00",
+            "attempt": 1,
+            "bytes": 4803,
+            "sha256": "95082a4d0b1ad63874d776b1ff257b7f8dcdddf5d319478f6d258fdb60bbf078"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 1.547,
+      "executed_at": "2026-09-16T06:37:24.255277+00:00"
+    },
+    {
+      "id": "adolescent_age",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all available observation years for both requested age groups.",
+        "Keep ages 10–14 and 15–19 distinct and report per-1,000-women units."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.7.2"
+        ],
+        "series_codes": [
+          "SP_DYN_ADKL"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 37,
+        "retrieved_rows": 37,
+        "pages": 1,
+        "years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SP_DYN_ADKL",
+              "dimensions": {
+                "Age": "10-14",
+                "Location": "ALLAREA",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_POP",
+              "years": [
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2015,
+                2016,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022
+              ],
+              "rows": 18
+            },
+            {
+              "location": "608",
+              "series": "SP_DYN_ADKL",
+              "dimensions": {
+                "Age": "15-19",
+                "Location": "ALLAREA",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_1000_POP",
+              "years": [
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022
+              ],
+              "rows": 19
+            }
+          ],
+          "row_count": 37,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.7.2&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:26.267515+00:00",
+            "attempt": 1,
+            "bytes": 23855,
+            "sha256": "f2aaf45a0c56f7d57f7a52839b370e2bbafbaa1a74efac3bd13eff9d06af3beb"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.016,
+      "executed_at": "2026-09-16T06:37:26.272758+00:00"
+    },
+    {
+      "id": "dtp3",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Return every observed year from 2015 inclusive.",
+        "Confirm the DTP3 series; an indicator-level response may also contain MCV2, HPV and PCV3."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.b.1"
+        ],
+        "series_codes": [
+          "SH_ACS_DTP3"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "retrieved_rows": 82,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_ACS_DTP3",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 10,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.b.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:28.983900+00:00",
+            "attempt": 1,
+            "bytes": 52343,
+            "sha256": "3a77379b919e0a8c72dacd5a2e34f3740b94ffb6aeedfa64ca532d707c02797a"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.718,
+      "executed_at": "2026-09-16T06:37:28.987415+00:00"
+    },
+    {
+      "id": "mcv2",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all observed years from 2015 inclusive.",
+        "This is MCV2 coverage, not reported measles cases. Do not substitute the GHO reported-case indicator."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.b.1"
+        ],
+        "series_codes": [
+          "SH_ACS_MCV2"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "retrieved_rows": 82,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_ACS_MCV2",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 10,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.b.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:31.489415+00:00",
+            "attempt": 1,
+            "bytes": 52343,
+            "sha256": "3a77379b919e0a8c72dacd5a2e34f3740b94ffb6aeedfa64ca532d707c02797a"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.5,
+      "executed_at": "2026-09-16T06:37:31.491417+00:00"
+    },
+    {
+      "id": "vaccine_ambiguous",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Clarify the vaccine before retrieving the requested or complete history.",
+        "Different vaccines have different target populations; one combined vaccine percentage is invalid."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.b.1"
+        ],
+        "series_codes": [
+          "SH_ACS_DTP3",
+          "SH_ACS_MCV2",
+          "SH_ACS_HPV",
+          "SH_ACS_PCV3"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_DTP3",
+            "name": "Proportion of the target population who received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_HPV",
+            "name": "Proportion of the target population who received the final dose of human papillomavirus (HPV) vaccine (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_MCV2",
+            "name": "Proportion of the target population who received measles-containing-vaccine second-dose (MCV2) (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_PCV3",
+            "name": "Proportion of the target population who received a 3rd dose of pneumococcal conjugate (PCV3) vaccine (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": null,
+            "name": "Proportion of the target population covered by all vaccines included in their national programme",
+            "type": "indicator",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.11,
+      "executed_at": "2026-09-16T06:37:31.605052+00:00"
+    },
+    {
+      "id": "tobacco_sex",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all observed years from 2015 inclusive.",
+        "Keep the age-standardized population aged 15 and over and preserve sex strata."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.a.1"
+        ],
+        "series_codes": [
+          "SH_PRV_SMOK"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 9,
+        "retrieved_rows": 18,
+        "pages": 1,
+        "years": [
+          2015,
+          2020,
+          2024
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "392",
+              "series": "SH_PRV_SMOK",
+              "dimensions": {
+                "Age": "15+",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2020,
+                2024
+              ],
+              "rows": 3
+            },
+            {
+              "location": "392",
+              "series": "SH_PRV_SMOK",
+              "dimensions": {
+                "Age": "15+",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2020,
+                2024
+              ],
+              "rows": 3
+            },
+            {
+              "location": "392",
+              "series": "SH_PRV_SMOK",
+              "dimensions": {
+                "Age": "15+",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2020,
+                2024
+              ],
+              "rows": 3
+            }
+          ],
+          "row_count": 9,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.a.1&pageSize=1000&areaCode=392&page=1",
+            "retrieved_at": "2026-09-16T06:37:34.350958+00:00",
+            "attempt": 1,
+            "bytes": 16417,
+            "sha256": "ddb3968eea7fb6a9c8fd1d4498842514057a1b2a68d47caa6f89497a2e8aab1c"
+          }
+        ],
+        "returned_locations": [
+          "392"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.75,
+      "executed_at": "2026-09-16T06:37:34.356159+00:00"
+    },
+    {
+      "id": "healthworker_ambiguous",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Clarify occupation before selecting a comparable history.",
+        "Medical doctors, nursing staff and other occupations cannot be summed or treated as one interchangeable series."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.c.1"
+        ],
+        "series_codes": [
+          "SH_MED_DEN"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.c.1",
+            "series_code": null,
+            "name": "Health worker density and distribution",
+            "type": "indicator",
+            "score": 96.0,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "3.c.1",
+            "series_code": "SH_MED_DEN",
+            "name": "Health worker density, by type of occupation (per 10,000 population)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 93.0,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "3.c.1",
+            "series_code": "SH_MED_HWRKDIS",
+            "name": "Health worker distribution, by sex and type of occupation (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 55.76,
+            "relevance": "partial keyword match; compare the official meaning"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.297,
+      "executed_at": "2026-09-16T06:37:34.642269+00:00"
+    },
+    {
+      "id": "financial_current",
+      "operation": "describe",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Inspect the current catalogue and metadata; do not infer available years without querying coverage.",
+        "The current definition is expenditure exceeding 40% of household discretionary budget; preserve the changed methodology."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.2"
+        ],
+        "series_codes": [
+          "SH_OOP_XPD_EARNNET40"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "indicator": "3.8.2",
+        "series": [
+          {
+            "goal": [
+              "3"
+            ],
+            "target": [
+              "3.8"
+            ],
+            "indicator": [
+              "3.8.2"
+            ],
+            "release": "2026.Q2.G.02",
+            "code": "SH_OOP_XPD_EARNNET40",
+            "description": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+            "uri": "/v1/sdg/Series/SH_OOP_XPD_EARNNET40",
+            "definition": null,
+            "available_years": null,
+            "dimensions": [
+              {
+                "id": "Age",
+                "codes": [
+                  {
+                    "code": "ALLAGE",
+                    "description": "All age ranges or no breaks by age",
+                    "sdmx": "_T"
+                  },
+                  {
+                    "code": "60+",
+                    "description": "60 years old and over",
+                    "sdmx": "Y_GE60"
+                  },
+                  {
+                    "code": "0-59",
+                    "description": "under 59 years old",
+                    "sdmx": "Y0T59"
+                  }
+                ]
+              },
+              {
+                "id": "Location",
+                "codes": [
+                  {
+                    "code": "RURAL",
+                    "description": "Rural",
+                    "sdmx": "R"
+                  },
+                  {
+                    "code": "ALLAREA",
+                    "description": "All areas",
+                    "sdmx": "_T"
+                  },
+                  {
+                    "code": "URBAN",
+                    "description": "Urban",
+                    "sdmx": "U"
+                  }
+                ]
+              },
+              {
+                "id": "Sex",
+                "codes": [
+                  {
+                    "code": "FEMALE",
+                    "description": "Female",
+                    "sdmx": "F"
+                  },
+                  {
+                    "code": "MALE",
+                    "description": "Male",
+                    "sdmx": "M"
+                  },
+                  {
+                    "code": "BOTHSEX",
+                    "description": "Both sexes",
+                    "sdmx": "_T"
+                  }
+                ]
+              },
+              {
+                "id": "Reporting Type",
+                "codes": [
+                  {
+                    "code": "N",
+                    "description": "National",
+                    "sdmx": "N"
+                  },
+                  {
+                    "code": "G",
+                    "description": "Global",
+                    "sdmx": "G"
+                  },
+                  {
+                    "code": "R",
+                    "description": "Regional",
+                    "sdmx": "R"
+                  }
+                ]
+              },
+              {
+                "id": "Quantile",
+                "codes": [
+                  {
+                    "code": "Q1",
+                    "description": "Quantile 1 (poorest)",
+                    "sdmx": "Q1"
+                  },
+                  {
+                    "code": "Q2",
+                    "description": "Quantile 2",
+                    "sdmx": "Q2"
+                  },
+                  {
+                    "code": "Q3",
+                    "description": "Quantile 3",
+                    "sdmx": "Q3"
+                  },
+                  {
+                    "code": "Q4",
+                    "description": "Quantile 4",
+                    "sdmx": "Q4"
+                  },
+                  {
+                    "code": "Q5",
+                    "description": "Quantile 5 (richest)",
+                    "sdmx": "Q5"
+                  },
+                  {
+                    "code": "_T",
+                    "description": "Total (national average) or no breakdown",
+                    "sdmx": "_T"
+                  }
+                ]
+              },
+              {
+                "id": "Type_of_household",
+                "codes": [
+                  {
+                    "code": "HH_ADTONLY",
+                    "description": "Households composed only of people aged between 20 and 59 years old",
+                    "sdmx": "HH_ADTONLY"
+                  },
+                  {
+                    "code": "HH_ADTWCHLDADO",
+                    "description": "Adults living with children (0 to 9 years old) and/or adolescents (10 to 19 years old)",
+                    "sdmx": "HH_ADTWCHLDADO"
+                  },
+                  {
+                    "code": "HH_MULTIGEN",
+                    "description": "Households include adults living with people below 20 years old (children and/or adolescents) as well as older adults (60 years old or more)",
+                    "sdmx": "HH_MULTIGEN"
+                  },
+                  {
+                    "code": "HH_ADTWOLDER",
+                    "description": "Households composed of adults living with at least one older person (60 years and older)",
+                    "sdmx": "HH_ADTWOLDER"
+                  },
+                  {
+                    "code": "HH_ONLYOLDER",
+                    "description": "Households exclusively composed of older people ( (60 years and older)",
+                    "sdmx": "HH_ONLYOLDER"
+                  },
+                  {
+                    "code": "_T",
+                    "description": "All type of households",
+                    "sdmx": "_T"
+                  }
+                ]
+              }
+            ],
+            "attributes": [
+              {
+                "id": "Nature",
+                "codes": [
+                  {
+                    "code": "C",
+                    "description": "Country data",
+                    "sdmx": "C"
+                  },
+                  {
+                    "code": "CA",
+                    "description": "Country adjusted data",
+                    "sdmx": "CA"
+                  },
+                  {
+                    "code": "E",
+                    "description": "Estimated data",
+                    "sdmx": "E"
+                  },
+                  {
+                    "code": "G",
+                    "description": "Global monitoring data",
+                    "sdmx": "G"
+                  },
+                  {
+                    "code": "M",
+                    "description": "Modeled data",
+                    "sdmx": "M"
+                  },
+                  {
+                    "code": "N",
+                    "description": "Non-relevant",
+                    "sdmx": "N"
+                  },
+                  {
+                    "code": "NA",
+                    "description": "Data nature not available",
+                    "sdmx": "_X"
+                  }
+                ]
+              },
+              {
+                "id": "Units",
+                "codes": [
+                  {
+                    "code": "PERCENT",
+                    "description": "Percentage",
+                    "sdmx": "PT"
+                  }
+                ]
+              }
+            ],
+            "units": [
+              {
+                "id": "Units",
+                "codes": [
+                  {
+                    "code": "PERCENT",
+                    "description": "Percentage",
+                    "sdmx": "PT"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "metadata_errors": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.421,
+      "executed_at": "2026-09-16T06:37:37.067576+00:00"
+    },
+    {
+      "id": "financial_old10",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Determine whether the requested legacy definition is available before any time-series retrieval.",
+        "The verified current series is a related candidate, not a substitute for >10%. Explain the mismatch and ask whether the user needs the historical definition or the current one."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.2"
+        ],
+        "series_codes": [
+          "SH_OOP_XPD_EARNNET40"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "no_matches",
+        "matches": [],
+        "notes": [
+          "Check the threshold and denominator: a current 40% discretionary-budget series is not a substitute for an older 10%/25% total-budget series. A related search match is not confirmation of the requested definition."
+        ],
+        "selection_allowed": false
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.485,
+      "executed_at": "2026-09-16T06:37:37.557438+00:00"
+    },
+    {
+      "id": "financial_current_data",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve complete available history without generating annual values between surveys.",
+        "Label the 40%-of-discretionary-budget definition explicitly and keep all disaggregations separate."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.2"
+        ],
+        "series_codes": [
+          "SH_OOP_XPD_EARNNET40"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 108,
+        "retrieved_rows": 108,
+        "pages": 1,
+        "years": [
+          2000,
+          2003,
+          2006,
+          2009,
+          2012,
+          2015,
+          2018,
+          2021,
+          2023
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "Q1",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2003,
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 9
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2003,
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 9
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "Q3",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2003,
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 9
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "Q5",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2003,
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 9
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "Q4",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2003,
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 9
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "Q2",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2000,
+                2003,
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 9
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "60+",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015,
+                2018
+              ],
+              "rows": 5
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "MALE",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015,
+                2018
+              ],
+              "rows": 5
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "FEMALE",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015,
+                2018
+              ],
+              "rows": 5
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "HH_MULTIGEN"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015
+              ],
+              "rows": 4
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "HH_ADTWOLDER"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015
+              ],
+              "rows": 4
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "HH_ADTWCHLDADO"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015
+              ],
+              "rows": 4
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "HH_ADTONLY"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015
+              ],
+              "rows": 4
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "0-59",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015,
+                2018
+              ],
+              "rows": 5
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "URBAN",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 7
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "RURAL",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "_T"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015,
+                2018,
+                2021,
+                2023
+              ],
+              "rows": 7
+            },
+            {
+              "location": "608",
+              "series": "SH_OOP_XPD_EARNNET40",
+              "dimensions": {
+                "Age": "ALLAGE",
+                "Location": "ALLAREA",
+                "Quantile": "_T",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX",
+                "Type_of_household": "HH_ONLYOLDER"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2006,
+                2009,
+                2012,
+                2015
+              ],
+              "rows": 4
+            }
+          ],
+          "row_count": 108,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.2&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:42.833984+00:00",
+            "attempt": 1,
+            "bytes": 102448,
+            "sha256": "25f5a875979cdadc65542ce6dc385a161df9e686ae887b9d56807db54ffeba15"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 5.297,
+      "executed_at": "2026-09-16T06:37:42.846506+00:00"
+    },
+    {
+      "id": "safe_water",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every observed year from 2015 inclusive.",
+        "Keep urban/rural categories distinct; basic water service is a different concept."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "6.1.1"
+        ],
+        "series_codes": [
+          "SH_H2O_SAFE"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 30,
+        "retrieved_rows": 75,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_H2O_SAFE",
+              "dimensions": {
+                "Location": "URBAN",
+                "Reporting Type": "G"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            },
+            {
+              "location": "608",
+              "series": "SH_H2O_SAFE",
+              "dimensions": {
+                "Location": "ALLAREA",
+                "Reporting Type": "G"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            },
+            {
+              "location": "608",
+              "series": "SH_H2O_SAFE",
+              "dimensions": {
+                "Location": "RURAL",
+                "Reporting Type": "G"
+              },
+              "unit": "PERCENT",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 30,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=6.1.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:45.166724+00:00",
+            "attempt": 1,
+            "bytes": 49276,
+            "sha256": "a1c752057b86571ee197ca795b6a30d46fde279fafddf108c0686eb26486add2"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.328,
+      "executed_at": "2026-09-16T06:37:45.170551+00:00"
+    },
+    {
+      "id": "safe_sanitation",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve observed years from 2015 inclusive; a valid area can have no rows for a selected series.",
+        "Tokelau is in the UNSD area catalogue but not the DSIR WHO Member State mapping. Retain M49 772, preserve the UN name and leave ISO3 missing."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "6.2.1"
+        ],
+        "series_codes": [
+          "SH_SAN_SAFE"
+        ],
+        "area_codes": [
+          "772"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "filters_no_data",
+        "rows": 0,
+        "retrieved_rows": 50,
+        "pages": 1,
+        "years": [],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [],
+          "row_count": 0,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=6.2.1&pageSize=1000&areaCode=772&page=1",
+            "retrieved_at": "2026-09-16T06:37:47.391291+00:00",
+            "attempt": 1,
+            "bytes": 31963,
+            "sha256": "3ace59420a8fd8c3aa52165f6f3c09e7ae588dc6677994d9b9abb094128eae69"
+          }
+        ],
+        "returned_locations": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.219,
+      "executed_at": "2026-09-16T06:37:47.397299+00:00"
+    },
+    {
+      "id": "child_stunting",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every available observation year from 2015 inclusive.",
+        "Select the percentage series rather than the number in thousands; preserve strata."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "2.2.1"
+        ],
+        "series_codes": [
+          "SH_STA_STNT"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 30,
+        "retrieved_rows": 150,
+        "pages": 1,
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "qa": {
+          "status": "warning",
+          "issues": [
+            {
+              "severity": "warning",
+              "code": "multiple_strata",
+              "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+            }
+          ],
+          "summaries": [
+            {
+              "location": "608",
+              "series": "SH_STA_STNT",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "FEMALE"
+              },
+              "unit": "PER_POP_U5",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            },
+            {
+              "location": "608",
+              "series": "SH_STA_STNT",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "MALE"
+              },
+              "unit": "PER_POP_U5",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            },
+            {
+              "location": "608",
+              "series": "SH_STA_STNT",
+              "dimensions": {
+                "Age": "<5Y",
+                "Reporting Type": "G",
+                "Sex": "BOTHSEX"
+              },
+              "unit": "PER_POP_U5",
+              "years": [
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024
+              ],
+              "rows": 10
+            }
+          ],
+          "row_count": 30,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=2.2.1&pageSize=1000&areaCode=608&page=1",
+            "retrieved_at": "2026-09-16T06:37:51.625255+00:00",
+            "attempt": 1,
+            "bytes": 108604,
+            "sha256": "719094aab9537016126ea4530ff41d6b937a90267bfb9fd953a19d5b89cd9612"
+          }
+        ],
+        "returned_locations": [
+          "608"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 4.234,
+      "executed_at": "2026-09-16T06:37:51.631255+00:00"
+    },
+    {
+      "id": "water_vs_basic",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "This is discovery only; no observation-year filter is needed.",
+        "Do not choose the 1.4.1 basic drinking water series."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "6.1.1"
+        ],
+        "series_codes": [
+          "SH_H2O_SAFE"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "6.1.1",
+            "series_code": null,
+            "name": "Proportion of population using safely managed drinking water services",
+            "type": "indicator",
+            "score": 94.0,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "6.1.1",
+            "series_code": "SH_H2O_SAFE",
+            "name": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 93.2,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "6.2.1",
+            "series_code": null,
+            "name": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+            "type": "indicator",
+            "score": 62.31,
+            "relevance": "partial keyword match; compare the official meaning"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.266,
+      "executed_at": "2026-09-16T06:37:51.898571+00:00"
+    },
+    {
+      "id": "world_uhc",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every available global observation year.",
+        "Use the published World aggregate, not a mean of countries and not World by SDG regions."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "1"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "rows": 24,
+        "retrieved_rows": 24,
+        "pages": 1,
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "qa": {
+          "status": "pass",
+          "issues": [],
+          "summaries": [
+            {
+              "location": "1",
+              "series": "SH_ACS_UNHC_25",
+              "dimensions": {
+                "Reporting Type": "G"
+              },
+              "unit": "INDEX",
+              "years": [
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+              ],
+              "rows": 24
+            }
+          ],
+          "row_count": 24,
+          "missing_numeric": 0
+        },
+        "requests": [
+          {
+            "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=1&page=1",
+            "retrieved_at": "2026-09-16T06:37:54.293280+00:00",
+            "attempt": 1,
+            "bytes": 14423,
+            "sha256": "cc2bf6d3df595aa23d1c923636fd2737ac4dcbda2fbfed45e27ca0be9842ff0c"
+          }
+        ],
+        "returned_locations": [
+          "1"
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 2.406,
+      "executed_at": "2026-09-16T06:37:54.296281+00:00"
+    },
+    {
+      "id": "wpr_membership",
+      "operation": "review",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Clarify the intended fixed membership and comparison period before analysis.",
+        "The official aggregate is available but does not answer a custom fixed-membership index request. Do not average country UHC indexes; no derived regional index is produced."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "99047"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "manual_review_required",
+        "retrieval_attempted": false,
+        "reason": "A human must assess the assistant's clarification and membership explanation."
+      },
+      "execution": "manual_review_only",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:37:54.296281+00:00"
+    },
+    {
+      "id": "sdg_unknown_indicator",
+      "operation": "negative",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Reject the unverified indicator before fetching observations; no year rule applies.",
+        "Return indicator_not_found after successful catalogue validation; never fabricate an indicator."
+      ],
+      "catalogue": {
+        "indicator_codes": [],
+        "series_codes": [],
+        "area_codes": [
+          "608"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "indicator_not_found",
+          "message": "Indicator is absent from the current UN SDG catalogue.",
+          "details": {
+            "indicator": "99.99.99"
+          }
+        }
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:37:54.296281+00:00"
+    },
+    {
+      "id": "sdg_unknown_location",
+      "operation": "negative",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Resolve the location before retrieving any observations.",
+        "Ask for a real geographic scope after unknown_location; do not silently request all countries."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "needs_clarification",
+        "locations": [],
+        "unresolved": [
+          {
+            "input": "Atlantis",
+            "reason": "unrecognized",
+            "candidates": []
+          }
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.015,
+      "executed_at": "2026-09-16T06:37:54.311137+00:00"
+    },
+    {
+      "id": "sdg_legacy_series",
+      "operation": "negative",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Validate the supplied series against the current catalogue before retrieving historical observations.",
+        "The supplied legacy series is absent from the verified catalogue. Explain that SH_ACS_UNHC_25 uses the 2025 methodology; do not silently substitute it."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [],
+        "area_codes": [
+          "608"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "series_not_found",
+          "message": "Series is not linked to this indicator in the current catalogue.",
+          "details": {
+            "indicator": "3.8.1"
+          }
+        }
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:37:54.312135+00:00"
+    },
+    {
+      "id": "phl_name_iso3_m49",
+      "operation": "resolve",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Location resolution only; no time-period selection is needed.",
+        "Resolve equivalent forms without duplicate requests. The API uses M49 area codes."
+      ],
+      "catalogue": {
+        "indicator_codes": [],
+        "series_codes": [],
+        "area_codes": [
+          "608"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "input": "Philippines",
+            "code": "608",
+            "name": "Philippines",
+            "iso3": "PHL",
+            "scope_note": null
+          },
+          {
+            "input": "PHL",
+            "code": "608",
+            "name": "Philippines",
+            "iso3": "PHL",
+            "scope_note": null
+          },
+          {
+            "input": "608",
+            "code": "608",
+            "name": "Philippines",
+            "iso3": "PHL",
+            "scope_note": null
+          }
+        ],
+        "unresolved": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:37:54.324889+00:00"
+    },
+    {
+      "id": "wpro_alias",
+      "operation": "resolve",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Location resolution only; historical membership cannot be inferred from a code alone.",
+        "Resolve all aliases to the official UNSD WHO Western Pacific area; no hardcoded country expansion."
+      ],
+      "catalogue": {
+        "indicator_codes": [],
+        "series_codes": [],
+        "area_codes": [
+          "99047"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "input": "西太区",
+            "code": "99047",
+            "name": "WHO Western Pacific",
+            "iso3": null,
+            "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+          },
+          {
+            "input": "WPRO",
+            "code": "99047",
+            "name": "WHO Western Pacific",
+            "iso3": null,
+            "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+          },
+          {
+            "input": "Western Pacific Region",
+            "code": "99047",
+            "name": "WHO Western Pacific",
+            "iso3": null,
+            "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+          }
+        ],
+        "unresolved": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.016,
+      "executed_at": "2026-09-16T06:37:54.329887+00:00"
+    }
+  ],
+  "catalogue_requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:38:19.380243+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:38:21.890107+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+      "retrieved_at": "2026-09-16T06:38:23.079259+00:00",
+      "attempt": 1,
+      "bytes": 27544,
+      "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+    }
+  ]
+}

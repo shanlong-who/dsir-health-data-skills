@@ -1,0 +1,1847 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "34.89",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "HH_MULTIGEN"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "17.31",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "URBAN",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "18.27",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "HH_ADTWOLDER"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "39.59",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "HH_ADTWCHLDADO"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "70.34",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q2",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "48.98",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "RURAL",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "2.46",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q5",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "2.49",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q4",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "95.39",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q1",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "5.35",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q3",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "35.21",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "25.71",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "HH_ONLYOLDER"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "9.61",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "HH_ADTONLY"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "37.60",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "25.34",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "36.44",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Age": "0-59",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "31.61",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Family Income and Expenditure Survey 2015",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Age": "60+",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "18.48",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "URBAN",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "27.58",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Age": "60+",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "56.92",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q2",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "45.93",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "RURAL",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "1.36",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q5",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "1.30",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q4",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "2.58",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q3",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "32.92",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Age": "0-59",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "95.85",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q1",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "31.60",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "34.01",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "22.32",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2018",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "33.85",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "99.52",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q1",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "3.08",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q3",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "63.14",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q2",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "21.18",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "URBAN",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "1.96",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q5",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "1.54",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q4",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "47.69",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2021",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "RURAL",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "51.92",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q2",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "97.14",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q1",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "30.99",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "1.47",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q4",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "2.65",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q3",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "1.76",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "Q5",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "19.74",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "URBAN",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.2"
+    ],
+    "series": "SH_OOP_XPD_EARNNET40",
+    "seriesDescription": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+    "seriesCount": "12271",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "44.89",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "Philippines - Household Income and Expenditure Survey 2023",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Survey-based estimate, using household total consumption expenditure in the denominator"
+    ],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Location": "RURAL",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Quantile": "_T",
+      "Type_of_household": "_T"
+    }
+  }
+]

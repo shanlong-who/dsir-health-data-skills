@@ -1,0 +1,838 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.4",
+    "code": "3.4.2",
+    "description": "Suicide mortality rate",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.4.2",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.4"
+        ],
+        "indicator": [
+          "3.4.2"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_STA_SCIDE",
+        "description": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+        "uri": "/v1/sdg/Series/SH_STA_SCIDE"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "indicator": [
+        "3.4.2"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_STA_SCIDE",
+      "description": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "uri": "/v1/sdg/Series/SH_STA_SCIDE"
+    }
+  ],
+  "query": {
+    "indicator": "3.4.2",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 12,
+  "retrieved_row_count": 21,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2019,
+        2020,
+        2021
+      ],
+      "row_count": 12
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Location",
+        "codes": [
+          {
+            "code": "RURAL",
+            "description": "Rural",
+            "sdmx": "R"
+          },
+          {
+            "code": "ALLAREA",
+            "description": "All areas",
+            "sdmx": "_T"
+          },
+          {
+            "code": "URBAN",
+            "description": "Urban",
+            "sdmx": "U"
+          }
+        ]
+      },
+      {
+        "id": "Sex",
+        "codes": [
+          {
+            "code": "FEMALE",
+            "description": "Female",
+            "sdmx": "F"
+          },
+          {
+            "code": "MALE",
+            "description": "Male",
+            "sdmx": "M"
+          },
+          {
+            "code": "BOTHSEX",
+            "description": "Both sexes",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "NUMBER",
+            "description": "Number",
+            "sdmx": "NUMBER"
+          },
+          {
+            "code": "PER_100000_POP",
+            "description": "Per 100,000 population",
+            "sdmx": "PER_100000_POP"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "warning",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "multiple_strata",
+        "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+      }
+    ],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_STA_SCIDE",
+        "dimensions": {
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_100000_POP",
+        "years": [
+          2015,
+          2019,
+          2020,
+          2021
+        ],
+        "rows": 4
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_SCIDE",
+        "dimensions": {
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_100000_POP",
+        "years": [
+          2015,
+          2019,
+          2020,
+          2021
+        ],
+        "rows": 4
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_SCIDE",
+        "dimensions": {
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_100000_POP",
+        "years": [
+          2015,
+          2019,
+          2020,
+          2021
+        ],
+        "rows": 4
+      }
+    ],
+    "row_count": 12,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "1.4",
+      "value_num": 1.4,
+      "low": 1.1,
+      "high": 1.7,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "4.9",
+      "value_num": 4.9,
+      "low": 4.1,
+      "high": 5.7,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "3.1",
+      "value_num": 3.1,
+      "low": 2.6,
+      "high": 3.7,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "4.8",
+      "value_num": 4.8,
+      "low": 3.8,
+      "high": 5.6,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "1.3",
+      "value_num": 1.3,
+      "low": 0.9,
+      "high": 1.5,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "3",
+      "value_num": 3.0,
+      "low": 2.3,
+      "high": 3.5,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "3.2",
+      "value_num": 3.2,
+      "low": 2.5,
+      "high": 3.7,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "4.9",
+      "value_num": 4.9,
+      "low": 4.0,
+      "high": 5.7,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "1.5",
+      "value_num": 1.5,
+      "low": 1.1,
+      "high": 1.8,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "1.8",
+      "value_num": 1.8,
+      "low": 1.2,
+      "high": 2.4,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "5.2",
+      "value_num": 5.2,
+      "low": 4.0,
+      "high": 6.8,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.4.2",
+      "indicator": "Suicide mortality rate, by sex (deaths per 100,000 population)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "3.5",
+      "value_num": 3.5,
+      "low": 2.6,
+      "high": 4.5,
+      "series": "SH_STA_SCIDE",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 8,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 9,
+      "raw_row_index": 9,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 10,
+      "raw_row_index": 10,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 11,
+      "raw_row_index": 11,
+      "indicator": [
+        "3.4.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.4"
+      ],
+      "dimensions": {
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "PER_100000_POP"
+      },
+      "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.4.2&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:31:58.060311+00:00",
+        "attempt": 1,
+        "bytes": 15155,
+        "sha256": "0bce25571704cede9b342585fbacd30b1f9ec13e598484d880dba3d9c53961fc"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:31:58.064312+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

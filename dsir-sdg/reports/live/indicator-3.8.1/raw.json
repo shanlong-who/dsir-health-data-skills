@@ -1,0 +1,2594 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2000,
+    "value": "64",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2001,
+    "value": "64",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2002,
+    "value": "65",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2003,
+    "value": "66",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2004,
+    "value": "67",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2005,
+    "value": "68",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2006,
+    "value": "69",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2007,
+    "value": "70",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2008,
+    "value": "71",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2009,
+    "value": "72",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2010,
+    "value": "73",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2011,
+    "value": "74",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2012,
+    "value": "75",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2013,
+    "value": "77",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2014,
+    "value": "78",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2015,
+    "value": "79",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2016,
+    "value": "80",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2017,
+    "value": "81",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2018,
+    "value": "81",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2019,
+    "value": "82",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2020,
+    "value": "83",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2021,
+    "value": "84",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2022,
+    "value": "84",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "156",
+    "geoAreaName": "China",
+    "timePeriodStart": 2023,
+    "value": "85",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2000,
+    "value": "76",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2001,
+    "value": "77",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2002,
+    "value": "77",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2003,
+    "value": "78",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2004,
+    "value": "78",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2005,
+    "value": "79",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2006,
+    "value": "79",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2007,
+    "value": "80",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2008,
+    "value": "80",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2009,
+    "value": "80",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2010,
+    "value": "81",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2011,
+    "value": "81",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2012,
+    "value": "82",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2013,
+    "value": "82",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2014,
+    "value": "82",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2015,
+    "value": "82",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2016,
+    "value": "83",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2017,
+    "value": "83",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2018,
+    "value": "84",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2019,
+    "value": "84",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2020,
+    "value": "84",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2021,
+    "value": "85",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2022,
+    "value": "85",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "392",
+    "geoAreaName": "Japan",
+    "timePeriodStart": 2023,
+    "value": "86",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2000,
+    "value": "56",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2001,
+    "value": "56",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2002,
+    "value": "57",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2003,
+    "value": "57",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2004,
+    "value": "57",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2005,
+    "value": "58",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2006,
+    "value": "59",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2007,
+    "value": "59",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2008,
+    "value": "62",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2009,
+    "value": "61",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2010,
+    "value": "59",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2011,
+    "value": "63",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2012,
+    "value": "64",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2013,
+    "value": "65",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2014,
+    "value": "66",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "66",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "68",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "68",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "67",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "66",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "69",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "68",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "69",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.8"
+    ],
+    "indicator": [
+      "3.8.1"
+    ],
+    "series": "SH_ACS_UNHC_25",
+    "seriesDescription": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+    "seriesCount": "5184",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "69",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO Global Health Observatory (GHO),December 2025 update",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "INDEX"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  }
+]

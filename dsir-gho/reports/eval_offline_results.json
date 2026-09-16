@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T05:27:54.139868+00:00",
+  "kind": "executable_api_contracts",
+  "model_evaluated": false,
+  "scope": "offline injected fixtures",
+  "passed": 10,
+  "failed": 0,
+  "manual_review_pending": 1,
+  "cases": [
+    {
+      "id": "failure_network",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "who_api_request_failed",
+          "message": "WHO API could not be reached; check network permissions and connectivity.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24top=1&%24skip=0&%24count=true",
+            "attempts": 3,
+            "reason": "Injected timeout for a failure-path test"
+          }
+        }
+      },
+      "elapsed_seconds": 0.031
+    },
+    {
+      "id": "failure_http_503",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "who_api_request_failed",
+          "message": "WHO API request failed.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24top=1&%24skip=0&%24count=true",
+            "http_status": 503,
+            "attempts": 3
+          }
+        }
+      },
+      "elapsed_seconds": 0.031
+    },
+    {
+      "id": "retry_then_success",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok"
+      },
+      "elapsed_seconds": 0.016
+    },
+    {
+      "id": "failure_invalid_schema",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "invalid_response",
+          "message": "WHO response is missing an OData value array.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24top=1&%24skip=0&%24count=true"
+          }
+        }
+      },
+      "elapsed_seconds": 0.031
+    },
+    {
+      "id": "failure_paging_cycle",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "incomplete_data",
+          "message": "Pagination cycle detected; no complete result is available.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?repeat=1"
+          }
+        }
+      },
+      "elapsed_seconds": 0.032
+    },
+    {
+      "id": "failure_count_changes",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "incomplete_data",
+          "message": "WHO row count changed during pagination; retry the query.",
+          "details": {}
+        }
+      },
+      "elapsed_seconds": 0.031
+    },
+    {
+      "id": "failure_missing_page",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "incomplete_data",
+          "message": "Pagination ended before the declared total.",
+          "details": {}
+        }
+      },
+      "elapsed_seconds": 0.031
+    },
+    {
+      "id": "failure_unsafe_next_link",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "unsafe_api_link",
+          "message": "WHO returned a link outside the approved GHO API.",
+          "details": {
+            "url": "https://example.com/untrusted-page"
+          }
+        }
+      },
+      "elapsed_seconds": 0.031
+    },
+    {
+      "id": "indicator_no_data_classification",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "indicator_no_data"
+      },
+      "elapsed_seconds": 0.032
+    },
+    {
+      "id": "preserve_source_missingness",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Preserve text values, null numeric values, disaggregation, and unknown location missingness."
+      ],
+      "observed": {
+        "status": "ok"
+      },
+      "elapsed_seconds": 0.031
+    }
+  ]
+}

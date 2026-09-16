@@ -1,0 +1,103 @@
+{
+  "status": "ok",
+  "query": "TB incidence",
+  "expanded_queries": [
+    "tb incidence",
+    "incidence tuberculosis",
+    "incident tuberculosis",
+    "tuberculosis incidence"
+  ],
+  "candidates": [
+    {
+      "code": "TB_e_inc_num",
+      "name": "Number of incident tuberculosis cases",
+      "language": "EN",
+      "description": null,
+      "unit": "Number of incident tuberculosis cases",
+      "type": "count",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('TB_e_inc_num')",
+      "score": 822.703,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "TB_e_inc_tbhiv_num",
+      "name": "Number of incident tuberculosis cases,  (HIV-positive cases)",
+      "language": "EN",
+      "description": null,
+      "unit": "Number of incident tuberculosis cases,  (HIV-positive cases)",
+      "type": "count",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('TB_e_inc_tbhiv_num')",
+      "score": 815.0,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "TB_e_inc_num_014",
+      "name": "Number of incident tuberculosis cases in children aged 0 - 14",
+      "language": "EN",
+      "description": null,
+      "unit": "Number of incident tuberculosis cases in children aged 0 - 14",
+      "type": "count",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('TB_e_inc_num_014')",
+      "score": 814.237,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "MDG_0000000020",
+      "name": "Incidence of tuberculosis (per 100 000 population per year)",
+      "language": "EN",
+      "description": "Estimated incidence of tuberculosis, including HIV-positive cases, with uncertainty where supplied by WHO.",
+      "unit": "per 100 000 population per year",
+      "type": "rate",
+      "metadata_source": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/incidence-of-tuberculosis-%28per-100-000-population-per-year%29",
+      "score": 667.778,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "TB_e_inc_tbhiv_100k",
+      "name": "Incidence of tuberculosis (per 100 000 population) (HIV-positive cases)",
+      "language": "EN",
+      "description": null,
+      "unit": "per 100 000 population",
+      "type": "rate",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('TB_e_inc_tbhiv_100k')",
+      "score": 666.0,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "TB_e_inc_rr_num",
+      "name": "Estimated number of MDR/RR-TB incident cases",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('TB_e_inc_rr_num')",
+      "score": 491.176,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    }
+  ],
+  "total_matches": 6,
+  "selection_notes": [
+    "Incidence rate and incident case count are different measures. Confirm the unit and whether HIV-specific or age-specific estimates are intended."
+  ],
+  "catalogue_source": "https://ghoapi.azureedge.net/api/Indicator",
+  "catalogue_size": 3098,
+  "note": "Search rank is not a clinical decision. Check population, unit, method and dimensions."
+}

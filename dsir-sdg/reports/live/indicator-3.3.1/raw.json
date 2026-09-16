@@ -1,0 +1,5072 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.00358",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.011",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.18403",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.03485",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.01405",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.18218",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.02453",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.09838",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.0011",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.33947",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.00553",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.4399",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "0.24317",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.2737",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.49613",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.38114",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.11101",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.02821",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.2055",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.00621",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.01614",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.00399",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.04015",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.20692",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.01224",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "0.00125",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.0044",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.01343",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.00139",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.04558",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.22933",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.22855",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.00686",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.42206",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.55312",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.03195",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.01827",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.12348",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "0.30437",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.13576",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.3347",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.46191",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.03636",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.02076",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.60943",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.25098",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.00751",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.25137",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.01456",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.05199",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.00156",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "0.00482",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.00174",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.05883",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.00507",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.01569",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.27263",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.27239",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.50019",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.04105",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.02336",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.66381",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.00817",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.14756",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "0.36407",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.16305",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.40182",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.00903",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.04629",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.02635",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.73258",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.55022",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.30061",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.06654",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.00551",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.00195",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.01725",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "0.30018",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.33713",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.01923",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.00643",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.07654",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.33922",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.61716",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.0101",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.03041",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.82445",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.00222",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.18431",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.05309",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "0.45303",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.50933",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.20801",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.05878",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.00244",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.03403",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.92777",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.01129",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.02153",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.69258",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.38318",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.08496",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.00778",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "0.37774",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.4267",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.09578",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.43566",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.78306",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.0242",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.06603",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "1.05272",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.00272",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.03844",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.00891",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.23634",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.57784",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "0.01268",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.64949",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.01414",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.26615",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.01011",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "<15Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.00313",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "1.17897",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.04468",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.07648",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.48931",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "ALLAGE",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.87407",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.11132",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-24",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.02687",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Sex": "MALE",
+      "Reporting Type": "G",
+      "Age": "50+"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.1"
+    ],
+    "series": "SH_HIV_INCD",
+    "seriesDescription": "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)",
+    "seriesCount": "66300",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "0.47748",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "UNAIDS 2025 HIV ESTIMATES",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PER_1000_UNINFECTED_POP",
+      "Observation Status": "E"
+    },
+    "dimensions": {
+      "Age": "15-49",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  }
+]

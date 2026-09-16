@@ -1,0 +1,91 @@
+{
+  "status": "ok",
+  "code": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+  "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (millions)",
+  "definition": null,
+  "unit": "millions",
+  "type": "count",
+  "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('FINPROTECTION_CATA_TOT_10_LEVEL_MILLION')",
+  "metadata_reviewed_on": null,
+  "metadata_basis": "explicit official catalogue name",
+  "available_dimensions": [
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "PUBLISHSTATE",
+      "DimensionName": "Publish States"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "UNREGION",
+      "DimensionName": "UN Region"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "UNSDGREGION",
+      "DimensionName": "UN SDG Region"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "WORLDBANKINCOMEGROUP",
+      "DimensionName": "World Bank income group"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "WORLDBANKREGION",
+      "DimensionName": "World Bank Region"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "YEAR",
+      "DimensionName": "Year"
+    },
+    {
+      "IndicatorCode": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "Language": "EN",
+      "Dimension": "REGION",
+      "DimensionName": "WHO region"
+    }
+  ],
+  "observed_dimension_values": {
+    "dim1": [],
+    "dim2": [],
+    "dim3": []
+  },
+  "available_years": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2017,
+    2019
+  ],
+  "spatial_types": [
+    "GLOBAL",
+    "REGION",
+    "UNREGION",
+    "UNSDGREGION",
+    "WORLDBANKINCOMEGROUP",
+    "WORLDBANKREGION"
+  ],
+  "coverage_scope": "All observations for this indicator, before user filters; years need not be available in every location.",
+  "observation_count": 216,
+  "provenance": {
+    "query_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_LEVEL_MILLION?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+    "urls": [
+      "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_LEVEL_MILLION?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true"
+    ],
+    "pages": 1,
+    "row_count": 216,
+    "declared_count": 216,
+    "complete": true,
+    "pagination": "count-verified nextLink/skip",
+    "retrieved_at": "2026-09-09T05:33:21.639754+00:00",
+    "source": "WHO GHO"
+  }
+}

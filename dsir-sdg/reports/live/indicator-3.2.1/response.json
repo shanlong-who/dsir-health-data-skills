@@ -1,0 +1,6118 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.2",
+    "code": "3.2.1",
+    "description": "Under‑5 mortality rate",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.2.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_IMRTN",
+        "description": "Infant deaths (number)",
+        "uri": "/v1/sdg/Series/SH_DYN_IMRTN"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_MORT",
+        "description": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+        "uri": "/v1/sdg/Series/SH_DYN_MORT"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_IMRT",
+        "description": "Infant mortality rate (deaths per 1,000 live births)",
+        "uri": "/v1/sdg/Series/SH_DYN_IMRT"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_MORTN",
+        "description": "Under-five deaths (number)",
+        "uri": "/v1/sdg/Series/SH_DYN_MORTN"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_IMRT",
+      "description": "Infant mortality rate (deaths per 1,000 live births)",
+      "uri": "/v1/sdg/Series/SH_DYN_IMRT"
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_IMRTN",
+      "description": "Infant deaths (number)",
+      "uri": "/v1/sdg/Series/SH_DYN_IMRTN"
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_MORT",
+      "description": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "uri": "/v1/sdg/Series/SH_DYN_MORT"
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_MORTN",
+      "description": "Under-five deaths (number)",
+      "uri": "/v1/sdg/Series/SH_DYN_MORTN"
+    }
+  ],
+  "query": {
+    "indicator": "3.2.1",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 120,
+  "retrieved_row_count": 300,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "row_count": 120
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Age",
+        "codes": [
+          {
+            "code": "<1Y",
+            "description": "under 1 year old",
+            "sdmx": "Y0"
+          },
+          {
+            "code": "<5Y",
+            "description": "under 5 years old",
+            "sdmx": "Y0T4"
+          }
+        ]
+      },
+      {
+        "id": "Sex",
+        "codes": [
+          {
+            "code": "FEMALE",
+            "description": "Female",
+            "sdmx": "F"
+          },
+          {
+            "code": "MALE",
+            "description": "Male",
+            "sdmx": "M"
+          },
+          {
+            "code": "BOTHSEX",
+            "description": "Both sexes",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "NUMBER",
+            "description": "Number",
+            "sdmx": "NUMBER"
+          },
+          {
+            "code": "PER_1000_LIVE_BIRTHS",
+            "description": "Per 1,000 live births",
+            "sdmx": "PER_1000_LIVE_BIRTHS"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "warning",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "multiple_strata",
+        "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+      }
+    ],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_DYN_IMRTN",
+        "dimensions": {
+          "Age": "<1Y",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_IMRTN",
+        "dimensions": {
+          "Age": "<1Y",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_IMRTN",
+        "dimensions": {
+          "Age": "<1Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_MORT",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_MORT",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_MORT",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_IMRT",
+        "dimensions": {
+          "Age": "<1Y",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_IMRT",
+        "dimensions": {
+          "Age": "<1Y",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_IMRT",
+        "dimensions": {
+          "Age": "<1Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_MORTN",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_MORTN",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_MORTN",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      }
+    ],
+    "row_count": 120,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "30645",
+      "value_num": 30645.0,
+      "low": 27129.0,
+      "high": 34758.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "22710",
+      "value_num": 22710.0,
+      "low": 20101.0,
+      "high": 25791.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "53355",
+      "value_num": 53355.0,
+      "low": 47470.0,
+      "high": 60108.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "24.90843478",
+      "value_num": 24.90843478,
+      "low": 22.0402,
+      "high": 28.1971,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "30.63956031",
+      "value_num": 30.63956031,
+      "low": 27.1309,
+      "high": 34.684,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "27.85787761",
+      "value_num": 27.85787761,
+      "low": 24.775,
+      "high": 31.3974,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "19.59305106",
+      "value_num": 19.59305106,
+      "low": 17.3164,
+      "high": 22.2326,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "24.50081662",
+      "value_num": 24.50081662,
+      "low": 21.6529,
+      "high": 27.7694,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "22.11377239",
+      "value_num": 22.11377239,
+      "low": 19.6666,
+      "high": 24.9235,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "29148",
+      "value_num": 29148.0,
+      "low": 25820.0,
+      "high": 33027.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "38676",
+      "value_num": 38676.0,
+      "low": 34284.0,
+      "high": 43792.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "67824",
+      "value_num": 67824.0,
+      "low": 60332.0,
+      "high": 76425.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "52279",
+      "value_num": 52279.0,
+      "low": 46109.0,
+      "high": 59513.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "22248",
+      "value_num": 22248.0,
+      "low": 19516.0,
+      "high": 25545.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "30031",
+      "value_num": 30031.0,
+      "low": 26390.0,
+      "high": 34441.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "27.80141641",
+      "value_num": 27.80141641,
+      "low": 24.5101,
+      "high": 31.6611,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "30.61212327",
+      "value_num": 30.61212327,
+      "low": 26.912,
+      "high": 35.0005,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "24.84318306",
+      "value_num": 24.84318306,
+      "low": 21.7867,
+      "high": 28.4351,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "22.16072887",
+      "value_num": 22.16072887,
+      "low": 19.5372,
+      "high": 25.2373,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "24.55390794",
+      "value_num": 24.55390794,
+      "low": 21.5426,
+      "high": 28.1452,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "19.62933963",
+      "value_num": 19.62933963,
+      "low": 17.1939,
+      "high": 22.5228,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "66299",
+      "value_num": 66299.0,
+      "low": 58463.0,
+      "high": 75501.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "37833",
+      "value_num": 37833.0,
+      "low": 33305.0,
+      "high": 43286.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "28466",
+      "value_num": 28466.0,
+      "low": 25004.0,
+      "high": 32613.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "28969",
+      "value_num": 28969.0,
+      "low": 25156.0,
+      "high": 33638.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "21463",
+      "value_num": 21463.0,
+      "low": 18575.0,
+      "high": 25025.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "50432",
+      "value_num": 50432.0,
+      "low": 43890.0,
+      "high": 58133.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "24.87026247",
+      "value_num": 24.87026247,
+      "low": 21.5165,
+      "high": 28.9055,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "30.6548926",
+      "value_num": 30.6548926,
+      "low": 26.6116,
+      "high": 35.4648,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "27.82591705",
+      "value_num": 27.82591705,
+      "low": 24.2066,
+      "high": 32.0953,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "19.74603292",
+      "value_num": 19.74603292,
+      "low": 17.0518,
+      "high": 22.9936,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "24.69876855",
+      "value_num": 24.69876855,
+      "low": 21.397,
+      "high": 28.6482,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "22.27692987",
+      "value_num": 22.27692987,
+      "low": 19.3794,
+      "high": 25.6949,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "27473",
+      "value_num": 27473.0,
+      "low": 23807.0,
+      "high": 31975.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "36515",
+      "value_num": 36515.0,
+      "low": 31756.0,
+      "high": 42300.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "63988",
+      "value_num": 63988.0,
+      "low": 55670.0,
+      "high": 73777.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "48650",
+      "value_num": 48650.0,
+      "low": 41597.0,
+      "high": 57100.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "20704",
+      "value_num": 20704.0,
+      "low": 17586.0,
+      "high": 24524.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "27946",
+      "value_num": 27946.0,
+      "low": 23832.0,
+      "high": 32957.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "27.94817186",
+      "value_num": 27.94817186,
+      "low": 23.8869,
+      "high": 32.8187,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "30.76726807",
+      "value_num": 30.76726807,
+      "low": 26.236,
+      "high": 36.2615,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "24.97190511",
+      "value_num": 24.97190511,
+      "low": 21.2401,
+      "high": 29.4974,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "22.46418414",
+      "value_num": 22.46418414,
+      "low": 19.1999,
+      "high": 26.379,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "24.90503223",
+      "value_num": 24.90503223,
+      "low": 21.1904,
+      "high": 29.3399,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "19.90960326",
+      "value_num": 19.90960326,
+      "low": 16.8754,
+      "high": 23.5551,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "61714",
+      "value_num": 61714.0,
+      "low": 52762.0,
+      "high": 72472.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "35207",
+      "value_num": 35207.0,
+      "low": 30065.0,
+      "high": 41534.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "26507",
+      "value_num": 26507.0,
+      "low": 22579.0,
+      "high": 31353.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "26719",
+      "value_num": 26719.0,
+      "low": 22333.0,
+      "high": 32362.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "19810",
+      "value_num": 19810.0,
+      "low": 16506.0,
+      "high": 23960.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "46529",
+      "value_num": 46529.0,
+      "low": 39006.0,
+      "high": 55944.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "25.06357609",
+      "value_num": 25.06357609,
+      "low": 20.8729,
+      "high": 30.2698,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "30.88729014",
+      "value_num": 30.88729014,
+      "low": 25.8043,
+      "high": 37.2996,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "28.04025806",
+      "value_num": 28.04025806,
+      "low": 23.494,
+      "high": 33.7347,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "20.05035878",
+      "value_num": 20.05035878,
+      "low": 16.6767,
+      "high": 24.2353,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "25.06034043",
+      "value_num": 25.06034043,
+      "low": 20.9077,
+      "high": 30.3393,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "22.6233522",
+      "value_num": 22.6233522,
+      "low": 18.9554,
+      "high": 27.2178,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "25357",
+      "value_num": 25357.0,
+      "low": 21148.0,
+      "high": 30671.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "33681",
+      "value_num": 33681.0,
+      "low": 28194.0,
+      "high": 40718.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "59038",
+      "value_num": 59038.0,
+      "low": 49476.0,
+      "high": 71037.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "44244",
+      "value_num": 44244.0,
+      "low": 36155.0,
+      "high": 54643.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "18823",
+      "value_num": 18823.0,
+      "low": 15299.0,
+      "high": 23443.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "25421",
+      "value_num": 25421.0,
+      "low": 20728.0,
+      "high": 31526.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "28.04633067",
+      "value_num": 28.04633067,
+      "low": 22.9051,
+      "high": 34.6634,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "30.92719651",
+      "value_num": 30.92719651,
+      "low": 25.2354,
+      "high": 38.3293,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "25.00090604",
+      "value_num": 25.00090604,
+      "low": 20.3446,
+      "high": 31.0384,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "22.71130808",
+      "value_num": 22.71130808,
+      "low": 18.5481,
+      "high": 28.0696,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "25.16634441",
+      "value_num": 25.16634441,
+      "low": 20.4848,
+      "high": 31.2102,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "20.10778823",
+      "value_num": 20.10778823,
+      "low": 16.3172,
+      "high": 25.0345,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "56088",
+      "value_num": 56088.0,
+      "low": 45816.0,
+      "high": 69309.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "32051",
+      "value_num": 32051.0,
+      "low": 26192.0,
+      "high": 39752.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "24037",
+      "value_num": 24037.0,
+      "low": 19584.0,
+      "high": 29854.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "24141",
+      "value_num": 24141.0,
+      "low": 19225.0,
+      "high": 30866.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "17869",
+      "value_num": 17869.0,
+      "low": 14199.0,
+      "high": 22883.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "42010",
+      "value_num": 42010.0,
+      "low": 33553.0,
+      "high": 53398.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "24.84244748",
+      "value_num": 24.84244748,
+      "low": 19.7267,
+      "high": 31.778,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "30.7005277",
+      "value_num": 30.7005277,
+      "low": 24.4924,
+      "high": 39.168,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "27.85034282",
+      "value_num": 27.85034282,
+      "low": 22.2265,
+      "high": 35.4317,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "20.04191423",
+      "value_num": 20.04191423,
+      "low": 15.8933,
+      "high": 25.6479,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "25.09225847",
+      "value_num": 25.09225847,
+      "low": 19.9351,
+      "high": 32.0709,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "22.62913137",
+      "value_num": 22.62913137,
+      "low": 18.0596,
+      "high": 28.7892,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "22754",
+      "value_num": 22754.0,
+      "low": 18088.0,
+      "high": 29133.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "30306",
+      "value_num": 30306.0,
+      "low": 24209.0,
+      "high": 38693.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "53060",
+      "value_num": 53060.0,
+      "low": 42363.0,
+      "high": 67505.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "40705",
+      "value_num": 40705.0,
+      "low": 31697.0,
+      "high": 53344.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "23372",
+      "value_num": 23372.0,
+      "low": 18181.0,
+      "high": 30766.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "17333",
+      "value_num": 17333.0,
+      "low": 13412.0,
+      "high": 22869.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "27.45935203",
+      "value_num": 27.45935203,
+      "low": 21.3664,
+      "high": 36.0226,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "30.28567494",
+      "value_num": 30.28567494,
+      "low": 23.5221,
+      "high": 39.8403,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "24.51218786",
+      "value_num": 24.51218786,
+      "low": 18.9521,
+      "high": 32.2668,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "22.37703444",
+      "value_num": 22.37703444,
+      "low": 17.4118,
+      "high": 29.3553,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "24.80005339",
+      "value_num": 24.80005339,
+      "low": 19.2405,
+      "high": 32.6261,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "19.84632105",
+      "value_num": 19.84632105,
+      "low": 15.3187,
+      "high": 26.1619,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "50938",
+      "value_num": 50938.0,
+      "low": 39649.0,
+      "high": 66806.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "29096",
+      "value_num": 29096.0,
+      "low": 22653.0,
+      "high": 38304.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "21842",
+      "value_num": 21842.0,
+      "low": 16924.0,
+      "high": 28795.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "17157",
+      "value_num": 17157.0,
+      "low": 12943.0,
+      "high": 23252.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "23143",
+      "value_num": 23143.0,
+      "low": 17491.0,
+      "high": 31307.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "40300",
+      "value_num": 40300.0,
+      "low": 30539.0,
+      "high": 54315.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "24.07406352",
+      "value_num": 24.07406352,
+      "low": 18.1483,
+      "high": 32.6024,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "29.78078018",
+      "value_num": 29.78078018,
+      "low": 22.4729,
+      "high": 40.1911,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "26.98154875",
+      "value_num": 26.98154875,
+      "low": 20.4294,
+      "high": 36.4079,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "19.54144107",
+      "value_num": 19.54144107,
+      "low": 14.7059,
+      "high": 26.4643,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "24.42666073",
+      "value_num": 24.42666073,
+      "low": 18.4149,
+      "high": 33.034,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "22.0405343",
+      "value_num": 22.0405343,
+      "low": 16.6883,
+      "high": 29.7407,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "21339",
+      "value_num": 21339.0,
+      "low": 16124.0,
+      "high": 28937.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "28477",
+      "value_num": 28477.0,
+      "low": 21542.0,
+      "high": 38482.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "49816",
+      "value_num": 49816.0,
+      "low": 37729.0,
+      "high": 67178.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "39731",
+      "value_num": 39731.0,
+      "low": 29168.0,
+      "high": 54745.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "22809",
+      "value_num": 22809.0,
+      "low": 16648.0,
+      "high": 31656.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "16922",
+      "value_num": 16922.0,
+      "low": 12396.0,
+      "high": 23483.0,
+      "series": "SH_DYN_IMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "26.45559768",
+      "value_num": 26.45559768,
+      "low": 19.4044,
+      "high": 36.4941,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "29.16662895",
+      "value_num": 29.16662895,
+      "low": 21.2784,
+      "high": 40.5144,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "23.59589155",
+      "value_num": 23.59589155,
+      "low": 17.2692,
+      "high": 32.7098,
+      "series": "SH_DYN_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "21.66237016",
+      "value_num": 21.66237016,
+      "low": 15.8887,
+      "high": 29.8821,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "24.00187264",
+      "value_num": 24.00187264,
+      "low": 17.482,
+      "high": 33.333,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Infant mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "19.18979656",
+      "value_num": 19.18979656,
+      "low": 14.0305,
+      "high": 26.6296,
+      "series": "SH_DYN_IMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "48685",
+      "value_num": 48685.0,
+      "low": 35731.0,
+      "high": 67132.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "27811",
+      "value_num": 27811.0,
+      "low": 20328.0,
+      "high": 38639.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.1",
+      "indicator": "Under-five deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "20874",
+      "value_num": 20874.0,
+      "low": 15303.0,
+      "high": 28954.0,
+      "series": "SH_DYN_MORTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 30,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 31,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 32,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 60,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 61,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 62,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 9,
+      "raw_row_index": 90,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 10,
+      "raw_row_index": 91,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 11,
+      "raw_row_index": 92,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 12,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 13,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 14,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 15,
+      "raw_row_index": 33,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 16,
+      "raw_row_index": 34,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 17,
+      "raw_row_index": 35,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 18,
+      "raw_row_index": 63,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 19,
+      "raw_row_index": 64,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 20,
+      "raw_row_index": 65,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 21,
+      "raw_row_index": 93,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 22,
+      "raw_row_index": 94,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 23,
+      "raw_row_index": 95,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 24,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 25,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 26,
+      "raw_row_index": 8,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 27,
+      "raw_row_index": 36,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 28,
+      "raw_row_index": 37,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 29,
+      "raw_row_index": 38,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 30,
+      "raw_row_index": 66,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 31,
+      "raw_row_index": 67,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 32,
+      "raw_row_index": 68,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 33,
+      "raw_row_index": 96,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 34,
+      "raw_row_index": 97,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 35,
+      "raw_row_index": 98,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 36,
+      "raw_row_index": 9,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 37,
+      "raw_row_index": 10,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 38,
+      "raw_row_index": 11,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 39,
+      "raw_row_index": 39,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 40,
+      "raw_row_index": 40,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 41,
+      "raw_row_index": 41,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 42,
+      "raw_row_index": 69,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 43,
+      "raw_row_index": 70,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 44,
+      "raw_row_index": 71,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 45,
+      "raw_row_index": 99,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 46,
+      "raw_row_index": 100,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 47,
+      "raw_row_index": 101,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 48,
+      "raw_row_index": 12,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 49,
+      "raw_row_index": 13,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 50,
+      "raw_row_index": 14,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 51,
+      "raw_row_index": 42,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 52,
+      "raw_row_index": 43,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 53,
+      "raw_row_index": 44,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 54,
+      "raw_row_index": 72,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 55,
+      "raw_row_index": 73,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 56,
+      "raw_row_index": 74,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 57,
+      "raw_row_index": 102,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 58,
+      "raw_row_index": 103,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 59,
+      "raw_row_index": 104,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 60,
+      "raw_row_index": 15,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 61,
+      "raw_row_index": 16,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 62,
+      "raw_row_index": 17,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 63,
+      "raw_row_index": 45,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 64,
+      "raw_row_index": 46,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 65,
+      "raw_row_index": 47,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 66,
+      "raw_row_index": 75,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 67,
+      "raw_row_index": 76,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 68,
+      "raw_row_index": 77,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 69,
+      "raw_row_index": 105,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 70,
+      "raw_row_index": 106,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 71,
+      "raw_row_index": 107,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 72,
+      "raw_row_index": 18,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 73,
+      "raw_row_index": 19,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 74,
+      "raw_row_index": 20,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 75,
+      "raw_row_index": 48,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 76,
+      "raw_row_index": 49,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 77,
+      "raw_row_index": 50,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 78,
+      "raw_row_index": 78,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 79,
+      "raw_row_index": 79,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 80,
+      "raw_row_index": 80,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 81,
+      "raw_row_index": 108,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 82,
+      "raw_row_index": 109,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 83,
+      "raw_row_index": 110,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 84,
+      "raw_row_index": 21,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 85,
+      "raw_row_index": 22,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 86,
+      "raw_row_index": 23,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 87,
+      "raw_row_index": 51,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 88,
+      "raw_row_index": 52,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 89,
+      "raw_row_index": 53,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 90,
+      "raw_row_index": 81,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 91,
+      "raw_row_index": 82,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 92,
+      "raw_row_index": 83,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 93,
+      "raw_row_index": 111,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 94,
+      "raw_row_index": 112,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 95,
+      "raw_row_index": 113,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 96,
+      "raw_row_index": 24,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 97,
+      "raw_row_index": 25,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 98,
+      "raw_row_index": 26,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 99,
+      "raw_row_index": 54,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 100,
+      "raw_row_index": 55,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 101,
+      "raw_row_index": 56,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 102,
+      "raw_row_index": 84,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 103,
+      "raw_row_index": 85,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 104,
+      "raw_row_index": 86,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 105,
+      "raw_row_index": 114,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 106,
+      "raw_row_index": 115,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 107,
+      "raw_row_index": 116,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 108,
+      "raw_row_index": 27,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 109,
+      "raw_row_index": 28,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 110,
+      "raw_row_index": 29,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 111,
+      "raw_row_index": 57,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 112,
+      "raw_row_index": 58,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 113,
+      "raw_row_index": 59,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 114,
+      "raw_row_index": 87,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 115,
+      "raw_row_index": 88,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 116,
+      "raw_row_index": 89,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 117,
+      "raw_row_index": 117,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 118,
+      "raw_row_index": 118,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 119,
+      "raw_row_index": 119,
+      "indicator": [
+        "3.2.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:31:50.131225+00:00",
+        "attempt": 1,
+        "bytes": 163479,
+        "sha256": "9d1b83705cf12d1166f7c0dc1612316c26fe5d314daacf16d37a34a2e4706995"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:31:50.135110+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

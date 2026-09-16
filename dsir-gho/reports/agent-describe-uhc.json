@@ -1,0 +1,107 @@
+{
+  "status": "ok",
+  "code": "UHC_INDEX_REPORTED",
+  "name": "UHC Service Coverage Index (SDG 3.8.1)",
+  "definition": "A summary index of essential health service coverage based on tracer indicators across reproductive and child health, infectious diseases, noncommunicable diseases, and service capacity and access.",
+  "unit": "unitless index (0-100)",
+  "type": "index",
+  "metadata_source": "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/4834",
+  "metadata_reviewed_on": "2026-09-09",
+  "metadata_basis": "reviewed WHO metadata summary; not refreshed on each query",
+  "available_dimensions": [
+    {
+      "IndicatorCode": "UHC_INDEX_REPORTED",
+      "Language": "EN",
+      "Dimension": "PUBLISHSTATE",
+      "DimensionName": "Publish States"
+    },
+    {
+      "IndicatorCode": "UHC_INDEX_REPORTED",
+      "Language": "EN",
+      "Dimension": "WORLDBANKINCOMEGROUP",
+      "DimensionName": "World Bank income group"
+    },
+    {
+      "IndicatorCode": "UHC_INDEX_REPORTED",
+      "Language": "EN",
+      "Dimension": "WORLDBANKREGION",
+      "DimensionName": "World Bank Region"
+    },
+    {
+      "IndicatorCode": "UHC_INDEX_REPORTED",
+      "Language": "EN",
+      "Dimension": "COUNTRY",
+      "DimensionName": "Country"
+    },
+    {
+      "IndicatorCode": "UHC_INDEX_REPORTED",
+      "Language": "EN",
+      "Dimension": "REGION",
+      "DimensionName": "WHO region"
+    },
+    {
+      "IndicatorCode": "UHC_INDEX_REPORTED",
+      "Language": "EN",
+      "Dimension": "YEAR",
+      "DimensionName": "Year"
+    }
+  ],
+  "observed_dimension_values": {
+    "dim1": [],
+    "dim2": [],
+    "dim3": []
+  },
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "spatial_types": [
+    "COUNTRY",
+    "GLOBAL",
+    "REGION",
+    "WORLDBANKINCOMEGROUP",
+    "WORLDBANKREGION"
+  ],
+  "coverage_scope": "All observations for this indicator, before user filters; years need not be available in every location.",
+  "observation_count": 5160,
+  "provenance": {
+    "query_url": "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+    "urls": [
+      "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+      "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=1000&%24count=true",
+      "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=2000&%24count=true",
+      "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=3000&%24count=true",
+      "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=4000&%24count=true",
+      "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=5000&%24count=true"
+    ],
+    "pages": 6,
+    "row_count": 5160,
+    "declared_count": 5160,
+    "complete": true,
+    "pagination": "count-verified nextLink/skip",
+    "retrieved_at": "2026-09-09T05:28:53.842114+00:00",
+    "source": "WHO GHO"
+  }
+}

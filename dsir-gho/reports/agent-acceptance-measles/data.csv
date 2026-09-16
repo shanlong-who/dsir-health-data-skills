@@ -1,0 +1,12 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2015,619,619.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2016,716,716.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2017,2428,2428.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2018,20 827,20827.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2019,48 525,48525.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2020,3832,3832.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2021,206,206.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2022,589,589.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2023,2892,2892.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2024,3844,3844.0,,,,,,
+gho,WHS3_62,Measles - number of reported cases,PHL,PHL,Philippines,2025,5042,5042.0,,,,,,

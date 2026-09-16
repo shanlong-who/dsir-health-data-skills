@@ -1,0 +1,72 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.2"
+    ],
+    "series": "SH_STA_BRTC",
+    "seriesDescription": "Proportion of births attended by skilled health personnel (%)",
+    "seriesCount": "3585",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "84.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "MNCH_SRC_1797",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.2"
+    ],
+    "series": "SH_STA_BRTC",
+    "seriesDescription": "Proportion of births attended by skilled health personnel (%)",
+    "seriesCount": "3585",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "89.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "MNCH_SRC_2865",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PERCENT",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  }
+]

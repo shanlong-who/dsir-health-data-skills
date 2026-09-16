@@ -1,0 +1,3 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3,dimensions_json,attributes_json,unit,observation_source,footnotes_json,indicator_codes_json
+sdg,3.1.2,Proportion of births attended by skilled health personnel (%),608,PHL,Philippines,2017,84.4,84.4,,,SH_STA_BRTC,,,,"{""Reporting Type"": ""G""}","{""Nature"": ""C"", ""Units"": ""PERCENT"", ""Observation Status"": ""A""}",PERCENT,MNCH_SRC_1797,[],"[""3.1.2""]"
+sdg,3.1.2,Proportion of births attended by skilled health personnel (%),608,PHL,Philippines,2022,89.6,89.6,,,SH_STA_BRTC,,,,"{""Reporting Type"": ""G""}","{""Nature"": ""C"", ""Units"": ""PERCENT"", ""Observation Status"": ""A""}",PERCENT,MNCH_SRC_2865,[],"[""3.1.2""]"

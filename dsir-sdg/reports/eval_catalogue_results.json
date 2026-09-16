@@ -1,0 +1,1448 @@
+{
+  "generated_at": "2026-09-16T06:35:58.923451+00:00",
+  "model_evaluated": false,
+  "validation": {
+    "total_cases": 40,
+    "real_health_data_questions": 35,
+    "synthetic_cases": 0,
+    "required_fields_valid": true
+  },
+  "mode": "catalogue_contracts",
+  "catalogue_evidence": "live UNSD API",
+  "scope_note": "Cases use explicit expected arguments. Natural-language interpretation, clarification and response quality require a separate assistant review.",
+  "passed": 40,
+  "failed": 0,
+  "cases": [
+    {
+      "id": "wpr_uhc_history",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every available observation year; do not interpolate missing years.",
+        "Use the published UNSD WHO Western Pacific aggregate. Identify the 2025 UHC methodology and report any membership caveat; never average country indexes."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "99047"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 5.687,
+      "executed_at": "2026-09-16T06:34:31.913033+00:00"
+    },
+    {
+      "id": "uhc_three_countries",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all available years for each country; retain unequal coverage.",
+        "Keep the series and methodology constant across countries; do not fabricate missing years."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "156",
+          "392",
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:31.914023+00:00"
+    },
+    {
+      "id": "uhc_phl_since2015",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retain observed years greater than or equal to 2015, including the latest available.",
+        "The latest available year can precede the current year."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:31.914023+00:00"
+    },
+    {
+      "id": "uhc_latest",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve complete coverage, then select the maximum observed year for this series and scope.",
+        "State the actual observation year; the current calendar year is not a data value."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:31.915014+00:00"
+    },
+    {
+      "id": "uhc_2026",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Apply the explicit 2026 to 2026 filter; do not substitute the latest available year.",
+        "If no rows survive the filter, report filters_no_data. Do not extrapolate or claim the indicator does not exist."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:31.915014+00:00"
+    },
+    {
+      "id": "tb_rate_phl",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Return every available year from 2015 inclusive.",
+        "Use the rate series, state the denominator, and preserve any sex or age strata."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.2"
+        ],
+        "series_codes": [
+          "SH_TBS_INCD"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:31.915014+00:00"
+    },
+    {
+      "id": "tb_generic_phl",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "After selecting the verified SDG series, retrieve all available years.",
+        "The SDG catalogue offers a standard incidence rate. State that choice explicitly; do not claim it is a count."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.2"
+        ],
+        "series_codes": [
+          "SH_TBS_INCD"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.3.2",
+            "series_code": "SH_TBS_INCD",
+            "name": "Tuberculosis incidence (per 100,000 population)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 93.2,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "3.3.2",
+            "series_code": null,
+            "name": "Tuberculosis incidence per 100,000 population",
+            "type": "indicator",
+            "score": 93.2,
+            "relevance": "all keywords match"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.235,
+      "executed_at": "2026-09-16T06:34:32.143305+00:00"
+    },
+    {
+      "id": "under5_rate",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Return all available observed years from 2015 inclusive.",
+        "Keep sex categories separate. Do not sum rates or average female and male rates."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.1"
+        ],
+        "series_codes": [
+          "SH_DYN_MORT"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.143305+00:00"
+    },
+    {
+      "id": "under5_count",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve the requested observation year 2020 only.",
+        "Select the deaths count series, not the under-five mortality rate."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.1"
+        ],
+        "series_codes": [
+          "SH_DYN_MORTN"
+        ],
+        "area_codes": [
+          "156"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.143305+00:00"
+    },
+    {
+      "id": "under5_ambiguous",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Discuss the requested series before retrieving all available years.",
+        "The indicator includes a mortality rate and a deaths count; they have different units and cannot be merged into one result."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.1"
+        ],
+        "series_codes": [
+          "SH_DYN_MORT",
+          "SH_DYN_MORTN"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_IMRT",
+            "name": "Infant mortality rate (deaths per 1,000 live births)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_IMRTN",
+            "name": "Infant deaths (number)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_MORT",
+            "name": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": "SH_DYN_MORTN",
+            "name": "Under-five deaths (number)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.2.1",
+            "series_code": null,
+            "name": "Under‑5 mortality rate",
+            "type": "indicator",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.093,
+      "executed_at": "2026-09-16T06:34:32.241981+00:00"
+    },
+    {
+      "id": "neonatal_rate",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Keep years from 2010 through 2020 inclusive.",
+        "Use neonatal rate, not number of neonatal deaths; preserve bounds and sex."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.2.2"
+        ],
+        "series_codes": [
+          "SH_DYN_NMRT"
+        ],
+        "area_codes": [
+          "156",
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.241981+00:00"
+    },
+    {
+      "id": "maternal_ratio",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Keep observed years from 2015 through 2023 inclusive.",
+        "State the unit from returned metadata and preserve uncertainty bounds; do not label the ratio as a number of deaths."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.1.1"
+        ],
+        "series_codes": [
+          "SH_STA_MORT"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.241981+00:00"
+    },
+    {
+      "id": "skilled_births",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all observed years from 2015 inclusive.",
+        "Retain missingness and any reporting-type differences rather than creating annual observations."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.1.2"
+        ],
+        "series_codes": [
+          "SH_STA_BRTC"
+        ],
+        "area_codes": [
+          "360"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.241981+00:00"
+    },
+    {
+      "id": "hiv_strata",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve 2020 only and retain each distinct sex/age stratum.",
+        "Do not collapse all age groups into a national estimate. A display value such as <0.01 remains text if it is not numeric."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.1"
+        ],
+        "series_codes": [
+          "SH_HIV_INCD"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.241981+00:00"
+    },
+    {
+      "id": "malaria_incidence",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every observed year from 2015 inclusive.",
+        "The population at risk is the denominator, not all residents."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.3.3"
+        ],
+        "series_codes": [
+          "SH_STA_MALR"
+        ],
+        "area_codes": [
+          "598"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.242973+00:00"
+    },
+    {
+      "id": "ncd_probability",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve complete available history for the selected series.",
+        "Describe the series as the published probability measure and preserve sex; do not invent a crude rate."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.4.1"
+        ],
+        "series_codes": [
+          "SH_DTH_NCOM"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.242973+00:00"
+    },
+    {
+      "id": "suicide_by_sex",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve observed years from 2015 inclusive, retaining separate female and male values.",
+        "Inspect dimension metadata before filtering and do not substitute both-sex results."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.4.2"
+        ],
+        "series_codes": [
+          "SH_STA_SCIDE"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.242973+00:00"
+    },
+    {
+      "id": "road_rate",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve 2021 only; if absent, report the empty filter rather than another year.",
+        "Select the per-100,000 rate rather than the deaths-count series."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.6.1"
+        ],
+        "series_codes": [
+          "SH_STA_TRAF"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.242973+00:00"
+    },
+    {
+      "id": "alcohol_consumption",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every observed year from 2010 inclusive.",
+        "Preserve litre units and age population; do not interpret the value as prevalence of alcohol use disorder."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.5.2"
+        ],
+        "series_codes": [
+          "SH_ALC_CONSPT"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.242973+00:00"
+    },
+    {
+      "id": "family_planning",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve observed years from 2015 inclusive.",
+        "Inspect and retain relevant marital-status/population strata; do not merge overlapping groups."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.7.1"
+        ],
+        "series_codes": [
+          "SH_FPL_MTMM"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.243974+00:00"
+    },
+    {
+      "id": "adolescent_age",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all available observation years for both requested age groups.",
+        "Keep ages 10–14 and 15–19 distinct and report per-1,000-women units."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.7.2"
+        ],
+        "series_codes": [
+          "SP_DYN_ADKL"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.243974+00:00"
+    },
+    {
+      "id": "dtp3",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Return every observed year from 2015 inclusive.",
+        "Confirm the DTP3 series; an indicator-level response may also contain MCV2, HPV and PCV3."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.b.1"
+        ],
+        "series_codes": [
+          "SH_ACS_DTP3"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.243974+00:00"
+    },
+    {
+      "id": "mcv2",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all observed years from 2015 inclusive.",
+        "This is MCV2 coverage, not reported measles cases. Do not substitute the GHO reported-case indicator."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.b.1"
+        ],
+        "series_codes": [
+          "SH_ACS_MCV2"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.243974+00:00"
+    },
+    {
+      "id": "vaccine_ambiguous",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Clarify the vaccine before retrieving the requested or complete history.",
+        "Different vaccines have different target populations; one combined vaccine percentage is invalid."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.b.1"
+        ],
+        "series_codes": [
+          "SH_ACS_DTP3",
+          "SH_ACS_MCV2",
+          "SH_ACS_HPV",
+          "SH_ACS_PCV3"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_DTP3",
+            "name": "Proportion of the target population who received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_HPV",
+            "name": "Proportion of the target population who received the final dose of human papillomavirus (HPV) vaccine (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_MCV2",
+            "name": "Proportion of the target population who received measles-containing-vaccine second-dose (MCV2) (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": "SH_ACS_PCV3",
+            "name": "Proportion of the target population who received a 3rd dose of pneumococcal conjugate (PCV3) vaccine (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          },
+          {
+            "indicator_code": "3.b.1",
+            "series_code": null,
+            "name": "Proportion of the target population covered by all vaccines included in their national programme",
+            "type": "indicator",
+            "score": 100.0,
+            "relevance": "exact catalogue code"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.11,
+      "executed_at": "2026-09-16T06:34:32.343743+00:00"
+    },
+    {
+      "id": "tobacco_sex",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve all observed years from 2015 inclusive.",
+        "Keep the age-standardized population aged 15 and over and preserve sex strata."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.a.1"
+        ],
+        "series_codes": [
+          "SH_PRV_SMOK"
+        ],
+        "area_codes": [
+          "392"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.343743+00:00"
+    },
+    {
+      "id": "healthworker_ambiguous",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Clarify occupation before selecting a comparable history.",
+        "Medical doctors, nursing staff and other occupations cannot be summed or treated as one interchangeable series."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.c.1"
+        ],
+        "series_codes": [
+          "SH_MED_DEN"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "3.c.1",
+            "series_code": null,
+            "name": "Health worker density and distribution",
+            "type": "indicator",
+            "score": 96.0,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "3.c.1",
+            "series_code": "SH_MED_DEN",
+            "name": "Health worker density, by type of occupation (per 10,000 population)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 93.0,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "3.c.1",
+            "series_code": "SH_MED_HWRKDIS",
+            "name": "Health worker distribution, by sex and type of occupation (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 55.76,
+            "relevance": "partial keyword match; compare the official meaning"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.203,
+      "executed_at": "2026-09-16T06:34:32.544937+00:00"
+    },
+    {
+      "id": "financial_current",
+      "operation": "describe",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Inspect the current catalogue and metadata; do not infer available years without querying coverage.",
+        "The current definition is expenditure exceeding 40% of household discretionary budget; preserve the changed methodology."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.2"
+        ],
+        "series_codes": [
+          "SH_OOP_XPD_EARNNET40"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.544937+00:00"
+    },
+    {
+      "id": "financial_old10",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Determine whether the requested legacy definition is available before any time-series retrieval.",
+        "The verified current series is a related candidate, not a substitute for >10%. Explain the mismatch and ask whether the user needs the historical definition or the current one."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.2"
+        ],
+        "series_codes": [
+          "SH_OOP_XPD_EARNNET40"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "no_matches",
+        "matches": [],
+        "notes": [
+          "Check the threshold and denominator: a current 40% discretionary-budget series is not a substitute for an older 10%/25% total-budget series. A related search match is not confirmation of the requested definition."
+        ],
+        "selection_allowed": false
+      },
+      "execution": "executed",
+      "elapsed_seconds": 6.454,
+      "executed_at": "2026-09-16T06:36:05.394128+00:00",
+      "previous_evidence": {
+        "id": "financial_old10",
+        "operation": "search",
+        "contract": "passed",
+        "natural_language_review": "pending",
+        "should_clarify": true,
+        "review_criteria": [
+          "Determine whether the requested legacy definition is available before any time-series retrieval.",
+          "The verified current series is a related candidate, not a substitute for >10%. Explain the mismatch and ask whether the user needs the historical definition or the current one."
+        ],
+        "catalogue": {
+          "indicator_codes": [
+            "3.8.2"
+          ],
+          "series_codes": [
+            "SH_OOP_XPD_EARNNET40"
+          ],
+          "area_codes": [],
+          "releases": [
+            "2026.Q2.G.02"
+          ]
+        },
+        "observed": {
+          "status": "ok",
+          "matches": [
+            {
+              "indicator_code": "3.8.2",
+              "series_code": "SH_OOP_XPD_EARNNET40",
+              "name": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+              "type": "series",
+              "release": "2026.Q2.G.02",
+              "score": 92.11,
+              "relevance": "all keywords match"
+            },
+            {
+              "indicator_code": "3.8.2",
+              "series_code": null,
+              "name": "Proportion of population with positive out-of-pocket household expenditures on health exceeding 40 per cent of household discretionary budget",
+              "type": "indicator",
+              "score": 67.83,
+              "relevance": "partial keyword match; compare the official meaning"
+            }
+          ],
+          "notes": [],
+          "selection_allowed": false
+        },
+        "execution": "executed",
+        "elapsed_seconds": 0.328,
+        "executed_at": "2026-09-16T06:34:32.888040+00:00"
+      }
+    },
+    {
+      "id": "financial_current_data",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve complete available history without generating annual values between surveys.",
+        "Label the 40%-of-discretionary-budget definition explicitly and keep all disaggregations separate."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.2"
+        ],
+        "series_codes": [
+          "SH_OOP_XPD_EARNNET40"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.888040+00:00"
+    },
+    {
+      "id": "safe_water",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every observed year from 2015 inclusive.",
+        "Keep urban/rural categories distinct; basic water service is a different concept."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "6.1.1"
+        ],
+        "series_codes": [
+          "SH_H2O_SAFE"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.888040+00:00"
+    },
+    {
+      "id": "safe_sanitation",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve observed years from 2015 inclusive; a valid area can have no rows for a selected series.",
+        "Tokelau is in the UNSD area catalogue but not the DSIR WHO Member State mapping. Retain M49 772, preserve the UN name and leave ISO3 missing."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "6.2.1"
+        ],
+        "series_codes": [
+          "SH_SAN_SAFE"
+        ],
+        "area_codes": [
+          "772"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:32.888040+00:00"
+    },
+    {
+      "id": "child_stunting",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every available observation year from 2015 inclusive.",
+        "Select the percentage series rather than the number in thousands; preserve strata."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "2.2.1"
+        ],
+        "series_codes": [
+          "SH_STA_STNT"
+        ],
+        "area_codes": [
+          "608"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.016,
+      "executed_at": "2026-09-16T06:34:32.889094+00:00"
+    },
+    {
+      "id": "water_vs_basic",
+      "operation": "search",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "This is discovery only; no observation-year filter is needed.",
+        "Do not choose the 1.4.1 basic drinking water series."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "6.1.1"
+        ],
+        "series_codes": [
+          "SH_H2O_SAFE"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "ok",
+        "matches": [
+          {
+            "indicator_code": "6.1.1",
+            "series_code": null,
+            "name": "Proportion of population using safely managed drinking water services",
+            "type": "indicator",
+            "score": 94.0,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "6.1.1",
+            "series_code": "SH_H2O_SAFE",
+            "name": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+            "type": "series",
+            "release": "2026.Q2.G.02",
+            "score": 93.2,
+            "relevance": "all keywords match"
+          },
+          {
+            "indicator_code": "6.2.1",
+            "series_code": null,
+            "name": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+            "type": "indicator",
+            "score": 62.31,
+            "relevance": "partial keyword match; compare the official meaning"
+          }
+        ],
+        "notes": [],
+        "selection_allowed": true
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.265,
+      "executed_at": "2026-09-16T06:34:33.155935+00:00"
+    },
+    {
+      "id": "world_uhc",
+      "operation": "data",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Retrieve every available global observation year.",
+        "Use the published World aggregate, not a mean of countries and not World by SDG regions."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "1"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.156940+00:00"
+    },
+    {
+      "id": "wpr_membership",
+      "operation": "review",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Clarify the intended fixed membership and comparison period before analysis.",
+        "The official aggregate is available but does not answer a custom fixed-membership index request. Do not average country UHC indexes; no derived regional index is produced."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [
+          "99047"
+        ],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "execution": "not_run_in_catalogue_mode",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.156940+00:00"
+    },
+    {
+      "id": "sdg_unknown_indicator",
+      "operation": "negative",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Reject the unverified indicator before fetching observations; no year rule applies.",
+        "Return indicator_not_found after successful catalogue validation; never fabricate an indicator."
+      ],
+      "catalogue": {
+        "indicator_codes": [],
+        "series_codes": [],
+        "area_codes": [
+          "608"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "indicator_not_found",
+          "message": "Indicator is absent from the current UN SDG catalogue.",
+          "details": {
+            "indicator": "99.99.99"
+          }
+        }
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.156940+00:00"
+    },
+    {
+      "id": "sdg_unknown_location",
+      "operation": "negative",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Resolve the location before retrieving any observations.",
+        "Ask for a real geographic scope after unknown_location; do not silently request all countries."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [
+          "SH_ACS_UNHC_25"
+        ],
+        "area_codes": [],
+        "releases": [
+          "2026.Q2.G.02"
+        ]
+      },
+      "observed": {
+        "status": "needs_clarification",
+        "locations": [],
+        "unresolved": [
+          {
+            "input": "Atlantis",
+            "reason": "unrecognized",
+            "candidates": []
+          }
+        ]
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.159952+00:00"
+    },
+    {
+      "id": "sdg_legacy_series",
+      "operation": "negative",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": true,
+      "review_criteria": [
+        "Validate the supplied series against the current catalogue before retrieving historical observations.",
+        "The supplied legacy series is absent from the verified catalogue. Explain that SH_ACS_UNHC_25 uses the 2025 methodology; do not silently substitute it."
+      ],
+      "catalogue": {
+        "indicator_codes": [
+          "3.8.1"
+        ],
+        "series_codes": [],
+        "area_codes": [
+          "608"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "series_not_found",
+          "message": "Series is not linked to this indicator in the current catalogue.",
+          "details": {
+            "indicator": "3.8.1"
+          }
+        }
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.159952+00:00"
+    },
+    {
+      "id": "phl_name_iso3_m49",
+      "operation": "resolve",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Location resolution only; no time-period selection is needed.",
+        "Resolve equivalent forms without duplicate requests. The API uses M49 area codes."
+      ],
+      "catalogue": {
+        "indicator_codes": [],
+        "series_codes": [],
+        "area_codes": [
+          "608"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "input": "Philippines",
+            "code": "608",
+            "name": "Philippines",
+            "iso3": "PHL",
+            "scope_note": null
+          },
+          {
+            "input": "PHL",
+            "code": "608",
+            "name": "Philippines",
+            "iso3": "PHL",
+            "scope_note": null
+          },
+          {
+            "input": "608",
+            "code": "608",
+            "name": "Philippines",
+            "iso3": "PHL",
+            "scope_note": null
+          }
+        ],
+        "unresolved": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.161964+00:00"
+    },
+    {
+      "id": "wpro_alias",
+      "operation": "resolve",
+      "contract": "passed",
+      "natural_language_review": "pending",
+      "should_clarify": false,
+      "review_criteria": [
+        "Location resolution only; historical membership cannot be inferred from a code alone.",
+        "Resolve all aliases to the official UNSD WHO Western Pacific area; no hardcoded country expansion."
+      ],
+      "catalogue": {
+        "indicator_codes": [],
+        "series_codes": [],
+        "area_codes": [
+          "99047"
+        ],
+        "releases": []
+      },
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "input": "西太区",
+            "code": "99047",
+            "name": "WHO Western Pacific",
+            "iso3": null,
+            "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+          },
+          {
+            "input": "WPRO",
+            "code": "99047",
+            "name": "WHO Western Pacific",
+            "iso3": null,
+            "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+          },
+          {
+            "input": "Western Pacific Region",
+            "code": "99047",
+            "name": "WHO Western Pacific",
+            "iso3": null,
+            "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+          }
+        ],
+        "unresolved": []
+      },
+      "execution": "executed",
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-16T06:34:33.164930+00:00"
+    }
+  ]
+}

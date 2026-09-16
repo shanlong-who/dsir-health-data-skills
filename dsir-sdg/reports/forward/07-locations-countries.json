@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "locations": [
+    {
+      "input": "China",
+      "code": "156",
+      "name": "China",
+      "iso3": "CHN",
+      "scope_note": null
+    },
+    {
+      "input": "Japan",
+      "code": "392",
+      "name": "Japan",
+      "iso3": "JPN",
+      "scope_note": null
+    },
+    {
+      "input": "Philippines",
+      "code": "608",
+      "name": "Philippines",
+      "iso3": "PHL",
+      "scope_note": null
+    }
+  ],
+  "unresolved": []
+}

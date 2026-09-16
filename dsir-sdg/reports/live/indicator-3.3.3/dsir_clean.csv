@@ -1,0 +1,11 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2015,0.45653,0.45653,0.32396,0.61204,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2016,0.2794,0.2794,0.19922,0.36939,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2017,0.26431,0.26431,0.18589,0.35341,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2018,0.17157,0.17157,0.1206,0.23022,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2019,0.21048,0.21048,0.14886,0.28162,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2020,0.23194,0.23194,0.1635,0.31019,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2021,0.16157,0.16157,0.11367,0.21686,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2022,0.12337,0.12337,0.08655,0.16505,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2023,0.23252,0.23252,0.16316,0.31248,SH_STA_MALR,,,
+sdg,3.3.3,"Malaria incidence per 1,000 population at risk (per 1,000 population)",608,PHL,Philippines,2024,0.35312,0.35312,0.24754,0.47311,SH_STA_MALR,,,

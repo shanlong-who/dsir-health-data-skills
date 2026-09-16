@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "status": "filters_no_data",
+  "indicator": {
+    "goal": "3",
+    "target": "3.8",
+    "code": "3.8.1",
+    "description": "Coverage of essential health services",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.8.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.8"
+        ],
+        "indicator": [
+          "3.8.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_ACS_UNHC_25",
+        "description": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+        "uri": "/v1/sdg/Series/SH_ACS_UNHC_25"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "indicator": [
+        "3.8.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_ACS_UNHC_25",
+      "description": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "uri": "/v1/sdg/Series/SH_ACS_UNHC_25"
+    }
+  ],
+  "query": {
+    "indicator": "3.8.1",
+    "locations": [
+      "99047"
+    ],
+    "year_from": null,
+    "year_to": null,
+    "series": [
+      "SH_ACS_UNHC_25"
+    ],
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": {
+    "status": "ok",
+    "locations": [
+      {
+        "input": "WPRO",
+        "code": "99047",
+        "name": "WHO Western Pacific",
+        "iso3": null,
+        "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+      }
+    ],
+    "unresolved": []
+  },
+  "row_count": 0,
+  "retrieved_row_count": 0,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "99047",
+      "years": [],
+      "row_count": 0
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          },
+          {
+            "code": "R",
+            "description": "Regional",
+            "sdmx": "R"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "INDEX",
+            "description": "Index",
+            "sdmx": "IX"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "warning",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "locations_without_data",
+        "message": "No matching observations for: 99047"
+      }
+    ],
+    "summaries": [],
+    "row_count": 0,
+    "missing_numeric": 0
+  },
+  "data": [],
+  "observation_context": [],
+  "baseline_probe": {
+    "global_indicator_rows": 5184
+  },
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+        "retrieved_at": "2026-09-16T06:34:29.715890+00:00",
+        "attempt": 1,
+        "bytes": 27544,
+        "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+        "retrieved_at": "2026-09-16T06:34:32.453631+00:00",
+        "attempt": 1,
+        "bytes": 255827,
+        "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+        "retrieved_at": "2026-09-16T06:34:35.368562+00:00",
+        "attempt": 1,
+        "bytes": 181420,
+        "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=99047&page=1",
+        "retrieved_at": "2026-09-16T06:34:36.491465+00:00",
+        "attempt": 1,
+        "bytes": 791,
+        "sha256": "0fdd476bf8558beb9f59b79376b63c9eba1d1e14aa8cca97bc42104de36903e0"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1&page=1",
+        "retrieved_at": "2026-09-16T06:34:38.351872+00:00",
+        "attempt": 1,
+        "bytes": 1367,
+        "sha256": "bd57dbfc9f932e59432cb32ed3b561de171baab7819ddee7bdb423ed36c78ee7"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:34:38.356667+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

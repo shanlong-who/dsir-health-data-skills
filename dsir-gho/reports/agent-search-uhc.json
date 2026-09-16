@@ -1,0 +1,112 @@
+{
+  "status": "ok",
+  "query": "UHC Service Coverage Index",
+  "expanded_queries": [
+    "uhc service coverage index"
+  ],
+  "candidates": [
+    {
+      "code": "UHC_INDEX_REPORTED",
+      "name": "UHC Service Coverage Index (SDG 3.8.1)",
+      "language": "EN",
+      "description": "A summary index of essential health service coverage based on tracer indicators across reproductive and child health, infectious diseases, noncommunicable diseases, and service capacity and access.",
+      "unit": "unitless index (0-100)",
+      "type": "index",
+      "metadata_source": "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/4834",
+      "score": 828.889,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "UHC_AVAILABILITY_SCORE",
+      "name": "Primary data availability for UHC Service Coverage Index (SDG 3.8.1) (%)",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('UHC_AVAILABILITY_SCORE')",
+      "score": 815.294,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "UHC_SCI_INFECT",
+      "name": "UHC Service Coverage sub-index on infectious diseases",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('UHC_SCI_INFECT')",
+      "score": 690.0,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "UHC_SCI_NCD",
+      "name": "UHC Service Coverage sub-index on noncommunicable diseases",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('UHC_SCI_NCD')",
+      "score": 690.0,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "UHC_SCI_CAPACITY",
+      "name": "UHC Service Coverage sub-index on service capacity and access",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('UHC_SCI_CAPACITY')",
+      "score": 682.0,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "UHC_DATA_AVAIL_CODE",
+      "name": "Data availability for UHC index of essential service coverage (ranking)",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('UHC_DATA_AVAIL_CODE')",
+      "score": 682.0,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "UHC_SCI_RMNCH",
+      "name": "UHC Service Coverage sub-index on reproductive, maternal, newborn and child health",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('UHC_SCI_RMNCH')",
+      "score": 676.667,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    }
+  ],
+  "total_matches": 7,
+  "selection_notes": [],
+  "catalogue_source": "https://ghoapi.azureedge.net/api/Indicator",
+  "catalogue_size": 3098,
+  "note": "Search rank is not a clinical decision. Check population, unit, method and dimensions."
+}

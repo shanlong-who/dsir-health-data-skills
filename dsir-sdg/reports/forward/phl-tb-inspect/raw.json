@@ -1,0 +1,362 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "550",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "860",
+    "lowerBound": "309",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "554",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "866",
+    "lowerBound": "311",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "554",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "866",
+    "lowerBound": "311",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "554",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "866",
+    "lowerBound": "311",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "554",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "866",
+    "lowerBound": "311",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "544",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "863",
+    "lowerBound": "304",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "579",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "934",
+    "lowerBound": "325",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "627",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1010",
+    "lowerBound": "346",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "632",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1020",
+    "lowerBound": "348",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.3"
+    ],
+    "indicator": [
+      "3.3.2"
+    ],
+    "series": "SH_TBS_INCD",
+    "seriesDescription": "Tuberculosis incidence (per 100,000 population)",
+    "seriesCount": "6347",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "625",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1020",
+    "lowerBound": "344",
+    "basePeriod": null,
+    "source": "WHO Global Tuberculosis Report 2025 (https://www.who.int/teams/global-tuberculosis-programme/data)",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data extracted as of 2026-01-05 based on data originally compiled for the 2025 WHO Global TB Report"
+    ],
+    "attributes": {
+      "Nature": "G",
+      "Units": "PER_100000_POP"
+    },
+    "dimensions": {
+      "Reporting Type": "G"
+    }
+  }
+]

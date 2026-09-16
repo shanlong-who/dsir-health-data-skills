@@ -1,0 +1,68 @@
+{
+  "plugin": "dsir-sdg",
+  "version": "0.1.0",
+  "official_skill_validator": "passed",
+  "official_plugin_validator": "passed",
+  "archive_integrity_paths_and_asset_references": "passed",
+  "runtime_contains_R_or_recorded_observations": false,
+  "runtime_files_equal_source": true,
+  "final_python_scripts_identical_to_relocated_live_smoke": true,
+  "relocated_smoke": {
+    "status": "ok",
+    "rows": 10,
+    "qa": "pass",
+    "coverage": [
+      {
+        "location": "608",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "row_count": 10
+      }
+    ],
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+        "retrieved_at": "2026-09-16T06:37:20.524013+00:00",
+        "attempt": 1,
+        "bytes": 27544,
+        "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+        "retrieved_at": "2026-09-16T06:37:23.146105+00:00",
+        "attempt": 1,
+        "bytes": 255827,
+        "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+        "retrieved_at": "2026-09-16T06:37:25.637605+00:00",
+        "attempt": 1,
+        "bytes": 181420,
+        "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.3.2&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:37:27.226905+00:00",
+        "attempt": 1,
+        "bytes": 27547,
+        "sha256": "ebfc91b63c29af3d3da749de54ec933166a282fc423057d23d3351671c5e8cb7"
+      }
+    ]
+  },
+  "plugin_sha256": "8e1f0755ea5e7acad6748b5bf37ec3217b153948df94958ce75d09523d8992c4",
+  "standalone_sha256": "52417049da266941e8315ee22bdb48e5d2f2a5cb9393c4b5ef9eddaf000f2315",
+  "publicly_submitted": false,
+  "published": false,
+  "installed_in_receiving_chatgpt_account": false
+}

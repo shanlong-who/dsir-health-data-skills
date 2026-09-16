@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "code": "TB_e_inc_num",
+  "name": "Number of incident tuberculosis cases",
+  "definition": null,
+  "unit": "Number of incident tuberculosis cases",
+  "type": "count",
+  "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('TB_e_inc_num')",
+  "metadata_reviewed_on": null,
+  "metadata_basis": "explicit official catalogue name",
+  "available_dimensions": [
+    {
+      "IndicatorCode": "TB_e_inc_num",
+      "Language": "EN",
+      "Dimension": "PUBLISHSTATE",
+      "DimensionName": "Publish States"
+    },
+    {
+      "IndicatorCode": "TB_e_inc_num",
+      "Language": "EN",
+      "Dimension": "WORLDBANKINCOMEGROUP",
+      "DimensionName": "World Bank income group"
+    },
+    {
+      "IndicatorCode": "TB_e_inc_num",
+      "Language": "EN",
+      "Dimension": "COUNTRY",
+      "DimensionName": "Country"
+    },
+    {
+      "IndicatorCode": "TB_e_inc_num",
+      "Language": "EN",
+      "Dimension": "REGION",
+      "DimensionName": "WHO region"
+    },
+    {
+      "IndicatorCode": "TB_e_inc_num",
+      "Language": "EN",
+      "Dimension": "YEAR",
+      "DimensionName": "Year"
+    }
+  ],
+  "observed_dimension_values": {
+    "dim1": [],
+    "dim2": [],
+    "dim3": []
+  },
+  "available_years": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "spatial_types": [
+    "COUNTRY",
+    "GLOBAL",
+    "REGION",
+    "WORLDBANKINCOMEGROUP"
+  ],
+  "coverage_scope": "All observations for this indicator, before user filters; years need not be available in every location.",
+  "observation_count": 5177,
+  "provenance": {
+    "query_url": "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+    "urls": [
+      "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+      "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=1000&%24count=true",
+      "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=2000&%24count=true",
+      "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=3000&%24count=true",
+      "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=4000&%24count=true",
+      "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=5000&%24count=true"
+    ],
+    "pages": 6,
+    "row_count": 5177,
+    "declared_count": 5177,
+    "complete": true,
+    "pagination": "count-verified nextLink/skip",
+    "retrieved_at": "2026-09-09T05:29:21.494006+00:00",
+    "source": "WHO GHO"
+  }
+}

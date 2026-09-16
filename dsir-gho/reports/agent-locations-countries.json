@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "locations": [
+    {
+      "code": "CHN",
+      "name": "China",
+      "spatial_type": "country",
+      "matched_by": "country_alias"
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "spatial_type": "country",
+      "matched_by": "country_alias"
+    },
+    {
+      "code": "PHL",
+      "name": "Philippines",
+      "spatial_type": "country",
+      "matched_by": "country_alias"
+    }
+  ],
+  "candidates": [],
+  "notes": [],
+  "unresolved": []
+}

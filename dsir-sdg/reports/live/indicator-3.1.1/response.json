@@ -1,0 +1,694 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.1",
+    "code": "3.1.1",
+    "description": "Maternal mortality ratio",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.1.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.1"
+        ],
+        "indicator": [
+          "3.1.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_STA_MORT",
+        "description": "Maternal mortality ratio",
+        "uri": "/v1/sdg/Series/SH_STA_MORT"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "indicator": [
+        "3.1.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_STA_MORT",
+      "description": "Maternal mortality ratio",
+      "uri": "/v1/sdg/Series/SH_STA_MORT"
+    }
+  ],
+  "query": {
+    "indicator": "3.1.1",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 9,
+  "retrieved_row_count": 24,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "row_count": 9
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Age",
+        "codes": [
+          {
+            "code": "ALLAGE",
+            "description": "All age ranges or no breaks by age",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Freq",
+        "codes": [
+          {
+            "code": "ANNUAL",
+            "description": "Annual",
+            "sdmx": "A"
+          }
+        ]
+      },
+      {
+        "id": "Location",
+        "codes": [
+          {
+            "code": "RURAL",
+            "description": "Rural",
+            "sdmx": "R"
+          },
+          {
+            "code": "ALLAREA",
+            "description": "All areas",
+            "sdmx": "_T"
+          },
+          {
+            "code": "URBAN",
+            "description": "Urban",
+            "sdmx": "U"
+          }
+        ]
+      },
+      {
+        "id": "Sex",
+        "codes": [
+          {
+            "code": "FEMALE",
+            "description": "Female",
+            "sdmx": "F"
+          },
+          {
+            "code": "BOTHSEX",
+            "description": "Both sexes",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "PER_100000_LIVE_BIRTHS",
+            "description": "Per 100,000 live births",
+            "sdmx": "PER_100000_LIVE_BIRTHS"
+          }
+        ]
+      },
+      {
+        "id": "UnitMultiplier",
+        "codes": [
+          {
+            "code": "UNIT",
+            "description": "Units",
+            "sdmx": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "pass",
+    "issues": [],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_STA_MORT",
+        "dimensions": {
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_100000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "rows": 9
+      }
+    ],
+    "row_count": 9,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "103.51507",
+      "value_num": 103.51507,
+      "low": 86.59277,
+      "high": 126.87041,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "97.95528",
+      "value_num": 97.95528,
+      "low": 81.05303,
+      "high": 120.71005,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "85.87139",
+      "value_num": 85.87139,
+      "low": 70.57523,
+      "high": 107.40585,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "92.4242",
+      "value_num": 92.4242,
+      "low": 75.57691,
+      "high": 118.14744,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "91.94279",
+      "value_num": 91.94279,
+      "low": 74.14899,
+      "high": 119.26921,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "88.45692",
+      "value_num": 88.45692,
+      "low": 71.14937,
+      "high": 118.33032,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "152.67588",
+      "value_num": 152.67588,
+      "low": 101.52507,
+      "high": 252.08325,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "92.29797",
+      "value_num": 92.29797,
+      "low": 71.87944,
+      "high": 130.16507,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.1",
+      "indicator": "Maternal mortality ratio",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "83.75268",
+      "value_num": 83.75268,
+      "low": 64.02125,
+      "high": 119.25994,
+      "series": "SH_STA_MORT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 8,
+      "indicator": [
+        "3.1.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_100000_LIVE_BIRTHS"
+      },
+      "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.1.1&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:31:46.040517+00:00",
+        "attempt": 1,
+        "bytes": 15846,
+        "sha256": "72d7d308a8ce3f6837393cfa02192194c54aa6071820fcabe3c7de7b8ab4d69f"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:31:46.047537+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

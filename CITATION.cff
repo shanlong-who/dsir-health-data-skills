@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata and cite WHO GHO or UN SDG separately for the observations."
+type: software
+title: "DSIR Health Data Skills"
+authors:
+  - family-names: Ding
+    given-names: Shanlong
+repository-code: "https://github.com/shanlong-who/dsir-health-data-skills"
+url: "https://github.com/shanlong-who/dsir-health-data-skills"
+version: "2026.09.16"
+date-released: 2026-09-16
+license: MIT

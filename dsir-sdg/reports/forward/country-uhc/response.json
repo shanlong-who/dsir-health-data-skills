@@ -1,0 +1,3733 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.8",
+    "code": "3.8.1",
+    "description": "Coverage of essential health services",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.8.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.8"
+        ],
+        "indicator": [
+          "3.8.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_ACS_UNHC_25",
+        "description": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+        "uri": "/v1/sdg/Series/SH_ACS_UNHC_25"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "indicator": [
+        "3.8.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_ACS_UNHC_25",
+      "description": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "uri": "/v1/sdg/Series/SH_ACS_UNHC_25"
+    }
+  ],
+  "query": {
+    "indicator": "3.8.1",
+    "locations": [
+      "156",
+      "392",
+      "608"
+    ],
+    "year_from": null,
+    "year_to": null,
+    "series": [
+      "SH_ACS_UNHC_25"
+    ],
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": {
+    "status": "ok",
+    "locations": [
+      {
+        "input": "CHN",
+        "code": "156",
+        "name": "China",
+        "iso3": "CHN",
+        "scope_note": null
+      },
+      {
+        "input": "JPN",
+        "code": "392",
+        "name": "Japan",
+        "iso3": "JPN",
+        "scope_note": null
+      },
+      {
+        "input": "PHL",
+        "code": "608",
+        "name": "Philippines",
+        "iso3": "PHL",
+        "scope_note": null
+      }
+    ],
+    "unresolved": []
+  },
+  "row_count": 72,
+  "retrieved_row_count": 72,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "156",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "row_count": 24
+    },
+    {
+      "location": "392",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "row_count": 24
+    },
+    {
+      "location": "608",
+      "years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "row_count": 24
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          },
+          {
+            "code": "R",
+            "description": "Regional",
+            "sdmx": "R"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "INDEX",
+            "description": "Index",
+            "sdmx": "IX"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "pass",
+    "issues": [],
+    "summaries": [
+      {
+        "location": "156",
+        "series": "SH_ACS_UNHC_25",
+        "dimensions": {
+          "Reporting Type": "G"
+        },
+        "unit": "INDEX",
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "rows": 24
+      },
+      {
+        "location": "392",
+        "series": "SH_ACS_UNHC_25",
+        "dimensions": {
+          "Reporting Type": "G"
+        },
+        "unit": "INDEX",
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "rows": 24
+      },
+      {
+        "location": "608",
+        "series": "SH_ACS_UNHC_25",
+        "dimensions": {
+          "Reporting Type": "G"
+        },
+        "unit": "INDEX",
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "rows": 24
+      }
+    ],
+    "row_count": 72,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2000,
+      "value": "64",
+      "value_num": 64.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2001,
+      "value": "64",
+      "value_num": 64.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2002,
+      "value": "65",
+      "value_num": 65.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2003,
+      "value": "66",
+      "value_num": 66.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2004,
+      "value": "67",
+      "value_num": 67.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2005,
+      "value": "68",
+      "value_num": 68.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2006,
+      "value": "69",
+      "value_num": 69.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2007,
+      "value": "70",
+      "value_num": 70.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2008,
+      "value": "71",
+      "value_num": 71.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2009,
+      "value": "72",
+      "value_num": 72.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2010,
+      "value": "73",
+      "value_num": 73.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2011,
+      "value": "74",
+      "value_num": 74.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2012,
+      "value": "75",
+      "value_num": 75.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2013,
+      "value": "77",
+      "value_num": 77.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2014,
+      "value": "78",
+      "value_num": 78.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2015,
+      "value": "79",
+      "value_num": 79.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2016,
+      "value": "80",
+      "value_num": 80.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2017,
+      "value": "81",
+      "value_num": 81.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2018,
+      "value": "81",
+      "value_num": 81.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2019,
+      "value": "82",
+      "value_num": 82.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2020,
+      "value": "83",
+      "value_num": 83.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2021,
+      "value": "84",
+      "value_num": 84.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2022,
+      "value": "84",
+      "value_num": 84.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "156",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2023,
+      "value": "85",
+      "value_num": 85.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2000,
+      "value": "76",
+      "value_num": 76.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2001,
+      "value": "77",
+      "value_num": 77.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2002,
+      "value": "77",
+      "value_num": 77.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2003,
+      "value": "78",
+      "value_num": 78.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2004,
+      "value": "78",
+      "value_num": 78.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2005,
+      "value": "79",
+      "value_num": 79.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2006,
+      "value": "79",
+      "value_num": 79.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2007,
+      "value": "80",
+      "value_num": 80.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2008,
+      "value": "80",
+      "value_num": 80.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2009,
+      "value": "80",
+      "value_num": 80.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2010,
+      "value": "81",
+      "value_num": 81.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2011,
+      "value": "81",
+      "value_num": 81.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2012,
+      "value": "82",
+      "value_num": 82.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2013,
+      "value": "82",
+      "value_num": 82.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2014,
+      "value": "82",
+      "value_num": 82.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2015,
+      "value": "82",
+      "value_num": 82.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2016,
+      "value": "83",
+      "value_num": 83.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2017,
+      "value": "83",
+      "value_num": 83.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2018,
+      "value": "84",
+      "value_num": 84.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2019,
+      "value": "84",
+      "value_num": 84.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2020,
+      "value": "84",
+      "value_num": 84.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2021,
+      "value": "85",
+      "value_num": 85.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2022,
+      "value": "85",
+      "value_num": 85.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "392",
+      "iso3": "JPN",
+      "location_name": "Japan",
+      "year": 2023,
+      "value": "86",
+      "value_num": 86.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2000,
+      "value": "56",
+      "value_num": 56.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2001,
+      "value": "56",
+      "value_num": 56.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2002,
+      "value": "57",
+      "value_num": 57.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2003,
+      "value": "57",
+      "value_num": 57.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2004,
+      "value": "57",
+      "value_num": 57.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2005,
+      "value": "58",
+      "value_num": 58.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2006,
+      "value": "59",
+      "value_num": 59.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2007,
+      "value": "59",
+      "value_num": 59.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2008,
+      "value": "62",
+      "value_num": 62.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2009,
+      "value": "61",
+      "value_num": 61.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2010,
+      "value": "59",
+      "value_num": 59.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2011,
+      "value": "63",
+      "value_num": 63.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2012,
+      "value": "64",
+      "value_num": 64.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2013,
+      "value": "65",
+      "value_num": 65.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2014,
+      "value": "66",
+      "value_num": 66.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "66",
+      "value_num": 66.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "68",
+      "value_num": 68.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "68",
+      "value_num": 68.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "67",
+      "value_num": 67.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "66",
+      "value_num": 66.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "69",
+      "value_num": 69.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "68",
+      "value_num": 68.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "69",
+      "value_num": 69.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.8.1",
+      "indicator": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "69",
+      "value_num": 69.0,
+      "low": null,
+      "high": null,
+      "series": "SH_ACS_UNHC_25",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 8,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 9,
+      "raw_row_index": 9,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 10,
+      "raw_row_index": 10,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 11,
+      "raw_row_index": 11,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 12,
+      "raw_row_index": 12,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 13,
+      "raw_row_index": 13,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 14,
+      "raw_row_index": 14,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 15,
+      "raw_row_index": 15,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 16,
+      "raw_row_index": 16,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 17,
+      "raw_row_index": 17,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 18,
+      "raw_row_index": 18,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 19,
+      "raw_row_index": 19,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 20,
+      "raw_row_index": 20,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 21,
+      "raw_row_index": 21,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 22,
+      "raw_row_index": 22,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 23,
+      "raw_row_index": 23,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 24,
+      "raw_row_index": 24,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 25,
+      "raw_row_index": 25,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 26,
+      "raw_row_index": 26,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 27,
+      "raw_row_index": 27,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 28,
+      "raw_row_index": 28,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 29,
+      "raw_row_index": 29,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 30,
+      "raw_row_index": 30,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 31,
+      "raw_row_index": 31,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 32,
+      "raw_row_index": 32,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 33,
+      "raw_row_index": 33,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 34,
+      "raw_row_index": 34,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 35,
+      "raw_row_index": 35,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 36,
+      "raw_row_index": 36,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 37,
+      "raw_row_index": 37,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 38,
+      "raw_row_index": 38,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 39,
+      "raw_row_index": 39,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 40,
+      "raw_row_index": 40,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 41,
+      "raw_row_index": 41,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 42,
+      "raw_row_index": 42,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 43,
+      "raw_row_index": 43,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 44,
+      "raw_row_index": 44,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 45,
+      "raw_row_index": 45,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 46,
+      "raw_row_index": 46,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 47,
+      "raw_row_index": 47,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 48,
+      "raw_row_index": 48,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 49,
+      "raw_row_index": 49,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 50,
+      "raw_row_index": 50,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 51,
+      "raw_row_index": 51,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 52,
+      "raw_row_index": 52,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 53,
+      "raw_row_index": 53,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 54,
+      "raw_row_index": 54,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 55,
+      "raw_row_index": 55,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 56,
+      "raw_row_index": 56,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 57,
+      "raw_row_index": 57,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 58,
+      "raw_row_index": 58,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 59,
+      "raw_row_index": 59,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 60,
+      "raw_row_index": 60,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 61,
+      "raw_row_index": 61,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 62,
+      "raw_row_index": 62,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 63,
+      "raw_row_index": 63,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 64,
+      "raw_row_index": 64,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 65,
+      "raw_row_index": 65,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 66,
+      "raw_row_index": 66,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 67,
+      "raw_row_index": 67,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 68,
+      "raw_row_index": 68,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 69,
+      "raw_row_index": 69,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 70,
+      "raw_row_index": 70,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 71,
+      "raw_row_index": 71,
+      "indicator": [
+        "3.8.1"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "E",
+        "Units": "INDEX"
+      },
+      "source": "WHO Global Health Observatory (GHO),December 2025 update",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+        "retrieved_at": "2026-09-16T06:34:30.932060+00:00",
+        "attempt": 1,
+        "bytes": 27544,
+        "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+        "retrieved_at": "2026-09-16T06:34:33.054171+00:00",
+        "attempt": 1,
+        "bytes": 255827,
+        "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+        "retrieved_at": "2026-09-16T06:34:34.791385+00:00",
+        "attempt": 1,
+        "bytes": 181420,
+        "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+      },
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.8.1&pageSize=1000&areaCode=156&areaCode=392&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:34:36.798619+00:00",
+        "attempt": 1,
+        "bytes": 41975,
+        "sha256": "456d2d5f6f1f3a4b870af6714019fd595033ab6830cf821c528b7cce8c87e351"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:34:36.804974+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

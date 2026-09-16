@@ -1,0 +1,662 @@
+{
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.2",
+    "code": "3.2.1",
+    "description": "Under‑5 mortality rate",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.2.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_IMRTN",
+        "description": "Infant deaths (number)",
+        "uri": "/v1/sdg/Series/SH_DYN_IMRTN"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_MORT",
+        "description": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+        "uri": "/v1/sdg/Series/SH_DYN_MORT"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_IMRT",
+        "description": "Infant mortality rate (deaths per 1,000 live births)",
+        "uri": "/v1/sdg/Series/SH_DYN_IMRT"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_MORTN",
+        "description": "Under-five deaths (number)",
+        "uri": "/v1/sdg/Series/SH_DYN_MORTN"
+      }
+    ]
+  },
+  "series": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_IMRT",
+      "description": "Infant mortality rate (deaths per 1,000 live births)",
+      "uri": "/v1/sdg/Series/SH_DYN_IMRT",
+      "definition": null,
+      "available_years": null,
+      "dimensions": [
+        {
+          "id": "Age",
+          "codes": [
+            {
+              "code": "<1Y",
+              "description": "under 1 year old",
+              "sdmx": "Y0"
+            }
+          ]
+        },
+        {
+          "id": "Sex",
+          "codes": [
+            {
+              "code": "FEMALE",
+              "description": "Female",
+              "sdmx": "F"
+            },
+            {
+              "code": "MALE",
+              "description": "Male",
+              "sdmx": "M"
+            },
+            {
+              "code": "BOTHSEX",
+              "description": "Both sexes",
+              "sdmx": "_T"
+            }
+          ]
+        },
+        {
+          "id": "Reporting Type",
+          "codes": [
+            {
+              "code": "N",
+              "description": "National",
+              "sdmx": "N"
+            },
+            {
+              "code": "G",
+              "description": "Global",
+              "sdmx": "G"
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "id": "Nature",
+          "codes": [
+            {
+              "code": "C",
+              "description": "Country data",
+              "sdmx": "C"
+            },
+            {
+              "code": "CA",
+              "description": "Country adjusted data",
+              "sdmx": "CA"
+            },
+            {
+              "code": "E",
+              "description": "Estimated data",
+              "sdmx": "E"
+            },
+            {
+              "code": "G",
+              "description": "Global monitoring data",
+              "sdmx": "G"
+            },
+            {
+              "code": "M",
+              "description": "Modeled data",
+              "sdmx": "M"
+            },
+            {
+              "code": "N",
+              "description": "Non-relevant",
+              "sdmx": "N"
+            },
+            {
+              "code": "NA",
+              "description": "Data nature not available",
+              "sdmx": "_X"
+            }
+          ]
+        },
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "PER_1000_LIVE_BIRTHS",
+              "description": "Per 1,000 live births",
+              "sdmx": "PER_1000_LIVE_BIRTHS"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "PER_1000_LIVE_BIRTHS",
+              "description": "Per 1,000 live births",
+              "sdmx": "PER_1000_LIVE_BIRTHS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_IMRTN",
+      "description": "Infant deaths (number)",
+      "uri": "/v1/sdg/Series/SH_DYN_IMRTN",
+      "definition": null,
+      "available_years": null,
+      "dimensions": [
+        {
+          "id": "Age",
+          "codes": [
+            {
+              "code": "<1Y",
+              "description": "under 1 year old",
+              "sdmx": "Y0"
+            }
+          ]
+        },
+        {
+          "id": "Sex",
+          "codes": [
+            {
+              "code": "FEMALE",
+              "description": "Female",
+              "sdmx": "F"
+            },
+            {
+              "code": "MALE",
+              "description": "Male",
+              "sdmx": "M"
+            },
+            {
+              "code": "BOTHSEX",
+              "description": "Both sexes",
+              "sdmx": "_T"
+            }
+          ]
+        },
+        {
+          "id": "Reporting Type",
+          "codes": [
+            {
+              "code": "N",
+              "description": "National",
+              "sdmx": "N"
+            },
+            {
+              "code": "G",
+              "description": "Global",
+              "sdmx": "G"
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "id": "Nature",
+          "codes": [
+            {
+              "code": "C",
+              "description": "Country data",
+              "sdmx": "C"
+            },
+            {
+              "code": "CA",
+              "description": "Country adjusted data",
+              "sdmx": "CA"
+            },
+            {
+              "code": "E",
+              "description": "Estimated data",
+              "sdmx": "E"
+            },
+            {
+              "code": "G",
+              "description": "Global monitoring data",
+              "sdmx": "G"
+            },
+            {
+              "code": "M",
+              "description": "Modeled data",
+              "sdmx": "M"
+            },
+            {
+              "code": "N",
+              "description": "Non-relevant",
+              "sdmx": "N"
+            },
+            {
+              "code": "NA",
+              "description": "Data nature not available",
+              "sdmx": "_X"
+            }
+          ]
+        },
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "NUMBER",
+              "description": "Number",
+              "sdmx": "NUMBER"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "NUMBER",
+              "description": "Number",
+              "sdmx": "NUMBER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_MORT",
+      "description": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "uri": "/v1/sdg/Series/SH_DYN_MORT",
+      "definition": null,
+      "available_years": null,
+      "dimensions": [
+        {
+          "id": "Age",
+          "codes": [
+            {
+              "code": "<5Y",
+              "description": "under 5 years old",
+              "sdmx": "Y0T4"
+            }
+          ]
+        },
+        {
+          "id": "Sex",
+          "codes": [
+            {
+              "code": "FEMALE",
+              "description": "Female",
+              "sdmx": "F"
+            },
+            {
+              "code": "MALE",
+              "description": "Male",
+              "sdmx": "M"
+            },
+            {
+              "code": "BOTHSEX",
+              "description": "Both sexes",
+              "sdmx": "_T"
+            }
+          ]
+        },
+        {
+          "id": "Reporting Type",
+          "codes": [
+            {
+              "code": "N",
+              "description": "National",
+              "sdmx": "N"
+            },
+            {
+              "code": "G",
+              "description": "Global",
+              "sdmx": "G"
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "id": "Nature",
+          "codes": [
+            {
+              "code": "C",
+              "description": "Country data",
+              "sdmx": "C"
+            },
+            {
+              "code": "CA",
+              "description": "Country adjusted data",
+              "sdmx": "CA"
+            },
+            {
+              "code": "E",
+              "description": "Estimated data",
+              "sdmx": "E"
+            },
+            {
+              "code": "G",
+              "description": "Global monitoring data",
+              "sdmx": "G"
+            },
+            {
+              "code": "M",
+              "description": "Modeled data",
+              "sdmx": "M"
+            },
+            {
+              "code": "N",
+              "description": "Non-relevant",
+              "sdmx": "N"
+            },
+            {
+              "code": "NA",
+              "description": "Data nature not available",
+              "sdmx": "_X"
+            }
+          ]
+        },
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "PER_1000_LIVE_BIRTHS",
+              "description": "Per 1,000 live births",
+              "sdmx": "PER_1000_LIVE_BIRTHS"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "PER_1000_LIVE_BIRTHS",
+              "description": "Per 1,000 live births",
+              "sdmx": "PER_1000_LIVE_BIRTHS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_MORTN",
+      "description": "Under-five deaths (number)",
+      "uri": "/v1/sdg/Series/SH_DYN_MORTN",
+      "definition": null,
+      "available_years": null,
+      "dimensions": [
+        {
+          "id": "Age",
+          "codes": [
+            {
+              "code": "<5Y",
+              "description": "under 5 years old",
+              "sdmx": "Y0T4"
+            }
+          ]
+        },
+        {
+          "id": "Sex",
+          "codes": [
+            {
+              "code": "FEMALE",
+              "description": "Female",
+              "sdmx": "F"
+            },
+            {
+              "code": "MALE",
+              "description": "Male",
+              "sdmx": "M"
+            },
+            {
+              "code": "BOTHSEX",
+              "description": "Both sexes",
+              "sdmx": "_T"
+            }
+          ]
+        },
+        {
+          "id": "Reporting Type",
+          "codes": [
+            {
+              "code": "N",
+              "description": "National",
+              "sdmx": "N"
+            },
+            {
+              "code": "G",
+              "description": "Global",
+              "sdmx": "G"
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "id": "Nature",
+          "codes": [
+            {
+              "code": "C",
+              "description": "Country data",
+              "sdmx": "C"
+            },
+            {
+              "code": "CA",
+              "description": "Country adjusted data",
+              "sdmx": "CA"
+            },
+            {
+              "code": "E",
+              "description": "Estimated data",
+              "sdmx": "E"
+            },
+            {
+              "code": "G",
+              "description": "Global monitoring data",
+              "sdmx": "G"
+            },
+            {
+              "code": "M",
+              "description": "Modeled data",
+              "sdmx": "M"
+            },
+            {
+              "code": "N",
+              "description": "Non-relevant",
+              "sdmx": "N"
+            },
+            {
+              "code": "NA",
+              "description": "Data nature not available",
+              "sdmx": "_X"
+            }
+          ]
+        },
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "NUMBER",
+              "description": "Number",
+              "sdmx": "NUMBER"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "NUMBER",
+              "description": "Number",
+              "sdmx": "NUMBER"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_errors": [],
+  "metadata_repository": "https://unstats.un.org/sdgs/metadata/",
+  "note": "Descriptions are catalogue labels, not full definitions. Available years depend on area, series and disaggregation; inspect retrieval coverage.",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:34:58.676125+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:35:00.655304+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_IMRT/Dimensions",
+      "retrieved_at": "2026-09-16T06:35:01.470402+00:00",
+      "attempt": 1,
+      "bytes": 395,
+      "sha256": "7dc6a67026bad4ddaae169d32ae7e89847e0168a9dd1e8304c15e8e7b8221e4c"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_IMRT/Attributes",
+      "retrieved_at": "2026-09-16T06:35:02.279080+00:00",
+      "attempt": 1,
+      "bytes": 561,
+      "sha256": "d64f5080b53cd373f90cfd667c5fbfbbfa2d52257f1d942014f331206e8232ba"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_IMRTN/Dimensions",
+      "retrieved_at": "2026-09-16T06:35:03.096989+00:00",
+      "attempt": 1,
+      "bytes": 395,
+      "sha256": "7dc6a67026bad4ddaae169d32ae7e89847e0168a9dd1e8304c15e8e7b8221e4c"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_IMRTN/Attributes",
+      "retrieved_at": "2026-09-16T06:35:03.915968+00:00",
+      "attempt": 1,
+      "bytes": 518,
+      "sha256": "23799d61ce8f853946271da895655eff5863675387a0dc698c65ab830f601e5d"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_MORT/Dimensions",
+      "retrieved_at": "2026-09-16T06:35:04.713760+00:00",
+      "attempt": 1,
+      "bytes": 398,
+      "sha256": "a5b011503a282eb7c2ded7b2c8e5b51c230a58c938709ca3062698583d003e8d"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_MORT/Attributes",
+      "retrieved_at": "2026-09-16T06:35:06.340977+00:00",
+      "attempt": 1,
+      "bytes": 561,
+      "sha256": "d64f5080b53cd373f90cfd667c5fbfbbfa2d52257f1d942014f331206e8232ba"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_MORTN/Dimensions",
+      "retrieved_at": "2026-09-16T06:35:07.951913+00:00",
+      "attempt": 1,
+      "bytes": 398,
+      "sha256": "a5b011503a282eb7c2ded7b2c8e5b51c230a58c938709ca3062698583d003e8d"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_DYN_MORTN/Attributes",
+      "retrieved_at": "2026-09-16T06:35:08.767343+00:00",
+      "attempt": 1,
+      "bytes": 518,
+      "sha256": "23799d61ce8f853946271da895655eff5863675387a0dc698c65ab830f601e5d"
+    }
+  ]
+}

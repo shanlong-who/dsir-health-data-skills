@@ -1,0 +1,3395 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "2",
+    "target": "2.2",
+    "code": "2.2.1",
+    "description": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/2.2.1",
+    "series": [
+      {
+        "goal": [
+          "2"
+        ],
+        "target": [
+          "2.2"
+        ],
+        "indicator": [
+          "2.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_STA_STNT",
+        "description": "Proportion of children moderately or severely stunted (%)",
+        "uri": "/v1/sdg/Series/SH_STA_STNT"
+      },
+      {
+        "goal": [
+          "2"
+        ],
+        "target": [
+          "2.2"
+        ],
+        "indicator": [
+          "2.2.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_STA_STNTN",
+        "description": "Children moderately or severely stunted (thousands)",
+        "uri": "/v1/sdg/Series/SH_STA_STNTN"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "indicator": [
+        "2.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_STA_STNT",
+      "description": "Proportion of children moderately or severely stunted (%)",
+      "uri": "/v1/sdg/Series/SH_STA_STNT"
+    },
+    {
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "indicator": [
+        "2.2.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_STA_STNTN",
+      "description": "Children moderately or severely stunted (thousands)",
+      "uri": "/v1/sdg/Series/SH_STA_STNTN"
+    }
+  ],
+  "query": {
+    "indicator": "2.2.1",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 60,
+  "retrieved_row_count": 150,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "row_count": 60
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Age",
+        "codes": [
+          {
+            "code": "<5Y",
+            "description": "under 5 years old",
+            "sdmx": "Y0T4"
+          }
+        ]
+      },
+      {
+        "id": "Location",
+        "codes": [
+          {
+            "code": "RURAL",
+            "description": "Rural",
+            "sdmx": "R"
+          },
+          {
+            "code": "ALLAREA",
+            "description": "All areas",
+            "sdmx": "_T"
+          },
+          {
+            "code": "URBAN",
+            "description": "Urban",
+            "sdmx": "U"
+          }
+        ]
+      },
+      {
+        "id": "Sex",
+        "codes": [
+          {
+            "code": "FEMALE",
+            "description": "Female",
+            "sdmx": "F"
+          },
+          {
+            "code": "MALE",
+            "description": "Male",
+            "sdmx": "M"
+          },
+          {
+            "code": "BOTHSEX",
+            "description": "Both sexes",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          },
+          {
+            "code": "R",
+            "description": "Regional",
+            "sdmx": "R"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "NUMBER",
+            "description": "Number",
+            "sdmx": "NUMBER"
+          },
+          {
+            "code": "PERCENT",
+            "description": "Percentage",
+            "sdmx": "PT"
+          },
+          {
+            "code": "NUM_TH",
+            "description": "Thousands",
+            "sdmx": "NUMBER"
+          },
+          {
+            "code": "NUM_U5_M",
+            "description": "Millions of children aged 0-59 months",
+            "sdmx": "NUM_U5_M"
+          },
+          {
+            "code": "PER_POP_U5",
+            "description": "% of children aged 0-59 months",
+            "sdmx": "PT"
+          }
+        ]
+      },
+      {
+        "id": "UnitMultiplier",
+        "codes": [
+          {
+            "code": "UNIT",
+            "description": "Units",
+            "sdmx": "0"
+          }
+        ]
+      },
+      {
+        "id": "Observation Status",
+        "codes": [
+          {
+            "code": "A",
+            "description": "Normal value",
+            "sdmx": "A"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "warning",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "multiple_strata",
+        "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+      }
+    ],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_STA_STNT",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "PER_POP_U5",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_STNT",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "PER_POP_U5",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_STNT",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_POP_U5",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_STNTN",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "NUM_TH",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_STNTN",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "MALE"
+        },
+        "unit": "NUM_TH",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_STA_STNTN",
+        "dimensions": {
+          "Age": "<5Y",
+          "Reporting Type": "G",
+          "Sex": "FEMALE"
+        },
+        "unit": "NUM_TH",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      }
+    ],
+    "row_count": 60,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "29.1",
+      "value_num": 29.1,
+      "low": 28.0,
+      "high": 30.3,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "32.4",
+      "value_num": 32.4,
+      "low": 31.2,
+      "high": 33.8,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "30.8",
+      "value_num": 30.8,
+      "low": 29.6,
+      "high": 32.0,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "3734.2",
+      "value_num": 3734.2,
+      "low": 3591.7,
+      "high": 3879.7,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "2031.2",
+      "value_num": 2031.2,
+      "low": 1958.4,
+      "high": 2116.3,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "1703",
+      "value_num": 1703.0,
+      "low": 1639.7,
+      "high": 1776.9,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "28.7",
+      "value_num": 28.7,
+      "low": 27.6,
+      "high": 30.0,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "32",
+      "value_num": 32.0,
+      "low": 30.9,
+      "high": 33.4,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "30.4",
+      "value_num": 30.4,
+      "low": 29.3,
+      "high": 31.6,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "1963.9",
+      "value_num": 1963.9,
+      "low": 1892.9,
+      "high": 2046.2,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "1657.5",
+      "value_num": 1657.5,
+      "low": 1594.9,
+      "high": 1730.1,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "3621.4",
+      "value_num": 3621.4,
+      "low": 3485.8,
+      "high": 3760.0,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "29.7",
+      "value_num": 29.7,
+      "low": 28.5,
+      "high": 30.8,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "31.3",
+      "value_num": 31.3,
+      "low": 30.1,
+      "high": 32.6,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "28",
+      "value_num": 28.0,
+      "low": 26.9,
+      "high": 29.2,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "1874.4",
+      "value_num": 1874.4,
+      "low": 1804.8,
+      "high": 1954.6,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "3465",
+      "value_num": 3465.0,
+      "low": 3330.1,
+      "high": 3602.9,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "1590.5",
+      "value_num": 1590.5,
+      "low": 1528.7,
+      "high": 1661.6,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "30.5",
+      "value_num": 30.5,
+      "low": 29.2,
+      "high": 31.9,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "27.2",
+      "value_num": 27.2,
+      "low": 26.0,
+      "high": 28.4,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "28.8",
+      "value_num": 28.8,
+      "low": 27.6,
+      "high": 30.2,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "1790.5",
+      "value_num": 1790.5,
+      "low": 1714.3,
+      "high": 1876.5,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "1530",
+      "value_num": 1530.0,
+      "low": 1465.7,
+      "high": 1603.0,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "3320.5",
+      "value_num": 3320.5,
+      "low": 3172.6,
+      "high": 3472.5,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "28.6",
+      "value_num": 28.6,
+      "low": 27.2,
+      "high": 30.0,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "30.2",
+      "value_num": 30.2,
+      "low": 28.8,
+      "high": 31.7,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "26.9",
+      "value_num": 26.9,
+      "low": 25.6,
+      "high": 28.4,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "1751",
+      "value_num": 1751.0,
+      "low": 1669.9,
+      "high": 1841.4,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "3259.6",
+      "value_num": 3259.6,
+      "low": 3104.1,
+      "high": 3419.6,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "1508.6",
+      "value_num": 1508.6,
+      "low": 1434.6,
+      "high": 1591.1,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "29.7",
+      "value_num": 29.7,
+      "low": 28.2,
+      "high": 31.4,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "28.1",
+      "value_num": 28.1,
+      "low": 26.5,
+      "high": 29.7,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "26.4",
+      "value_num": 26.4,
+      "low": 25.0,
+      "high": 28.1,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "3132.6",
+      "value_num": 3132.6,
+      "low": 2956.1,
+      "high": 3315.3,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "1683.8",
+      "value_num": 1683.8,
+      "low": 1595.3,
+      "high": 1781.9,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "1448.8",
+      "value_num": 1448.8,
+      "low": 1368.8,
+      "high": 1537.8,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "25.9",
+      "value_num": 25.9,
+      "low": 24.3,
+      "high": 27.8,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "29.2",
+      "value_num": 29.2,
+      "low": 27.4,
+      "high": 31.1,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "27.6",
+      "value_num": 27.6,
+      "low": 25.9,
+      "high": 29.4,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "1351.2",
+      "value_num": 1351.2,
+      "low": 1266.2,
+      "high": 1446.3,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "1584.2",
+      "value_num": 1584.2,
+      "low": 1490.0,
+      "high": 1689.4,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "2935.5",
+      "value_num": 2935.5,
+      "low": 2755.3,
+      "high": 3122.7,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "26.1",
+      "value_num": 26.1,
+      "low": 24.3,
+      "high": 28.1,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "27.7",
+      "value_num": 27.7,
+      "low": 25.8,
+      "high": 29.7,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "29.3",
+      "value_num": 29.3,
+      "low": 27.4,
+      "high": 31.5,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "1283.8",
+      "value_num": 1283.8,
+      "low": 1195.9,
+      "high": 1382.6,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "2801.5",
+      "value_num": 2801.5,
+      "low": 2607.4,
+      "high": 3004.2,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "1517.6",
+      "value_num": 1517.6,
+      "low": 1417.5,
+      "high": 1629.8,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "26.2",
+      "value_num": 26.2,
+      "low": 24.1,
+      "high": 28.6,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "29.5",
+      "value_num": 29.5,
+      "low": 27.3,
+      "high": 31.9,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "27.9",
+      "value_num": 27.9,
+      "low": 25.7,
+      "high": 30.2,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "2679.5",
+      "value_num": 2679.5,
+      "low": 2467.7,
+      "high": 2902.1,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "1222",
+      "value_num": 1222.0,
+      "low": 1124.7,
+      "high": 1331.7,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "1457.5",
+      "value_num": 1457.5,
+      "low": 1349.7,
+      "high": 1578.6,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "26",
+      "value_num": 26.0,
+      "low": 23.7,
+      "high": 28.6,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "27.7",
+      "value_num": 27.7,
+      "low": 25.3,
+      "high": 30.3,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Proportion of children moderately or severely stunted (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "29.3",
+      "value_num": 29.3,
+      "low": 26.8,
+      "high": 32.1,
+      "series": "SH_STA_STNT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "1388.4",
+      "value_num": 1388.4,
+      "low": 1270.9,
+      "high": 1520.8,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "2541.8",
+      "value_num": 2541.8,
+      "low": 2320.8,
+      "high": 2775.3,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "2.2.1",
+      "indicator": "Children moderately or severely stunted (thousands)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "1153.4",
+      "value_num": 1153.4,
+      "low": 1052.0,
+      "high": 1268.5,
+      "series": "SH_STA_STNTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 2,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 30,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 31,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 32,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 3,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 4,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 5,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 9,
+      "raw_row_index": 33,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 10,
+      "raw_row_index": 34,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 11,
+      "raw_row_index": 35,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 12,
+      "raw_row_index": 6,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 13,
+      "raw_row_index": 7,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 14,
+      "raw_row_index": 8,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 15,
+      "raw_row_index": 36,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 16,
+      "raw_row_index": 37,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 17,
+      "raw_row_index": 38,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 18,
+      "raw_row_index": 9,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 19,
+      "raw_row_index": 10,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 20,
+      "raw_row_index": 11,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 21,
+      "raw_row_index": 39,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 22,
+      "raw_row_index": 40,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 23,
+      "raw_row_index": 41,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 24,
+      "raw_row_index": 12,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 25,
+      "raw_row_index": 13,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 26,
+      "raw_row_index": 14,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 27,
+      "raw_row_index": 42,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 28,
+      "raw_row_index": 43,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 29,
+      "raw_row_index": 44,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 30,
+      "raw_row_index": 15,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 31,
+      "raw_row_index": 16,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 32,
+      "raw_row_index": 17,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 33,
+      "raw_row_index": 45,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 34,
+      "raw_row_index": 46,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 35,
+      "raw_row_index": 47,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 36,
+      "raw_row_index": 18,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 37,
+      "raw_row_index": 19,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 38,
+      "raw_row_index": 20,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 39,
+      "raw_row_index": 48,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 40,
+      "raw_row_index": 49,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 41,
+      "raw_row_index": 50,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 42,
+      "raw_row_index": 21,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 43,
+      "raw_row_index": 22,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 44,
+      "raw_row_index": 23,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 45,
+      "raw_row_index": 51,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 46,
+      "raw_row_index": 52,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 47,
+      "raw_row_index": 53,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 48,
+      "raw_row_index": 24,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 49,
+      "raw_row_index": 25,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 50,
+      "raw_row_index": 26,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 51,
+      "raw_row_index": 54,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 52,
+      "raw_row_index": 55,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 53,
+      "raw_row_index": 56,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 54,
+      "raw_row_index": 27,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 55,
+      "raw_row_index": 28,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 56,
+      "raw_row_index": 29,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "PER_POP_U5",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 57,
+      "raw_row_index": 57,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "MALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 58,
+      "raw_row_index": 58,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 59,
+      "raw_row_index": 59,
+      "indicator": [
+        "2.2.1"
+      ],
+      "goal": [
+        "2"
+      ],
+      "target": [
+        "2.2"
+      ],
+      "dimensions": {
+        "Age": "<5Y",
+        "Sex": "FEMALE",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "M",
+        "Units": "NUM_TH",
+        "Observation Status": "A"
+      },
+      "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+      "footnotes": [
+        ""
+      ],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=2.2.1&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:32:04.340413+00:00",
+        "attempt": 1,
+        "bytes": 108604,
+        "sha256": "719094aab9537016126ea4530ff41d6b937a90267bfb9fd953a19d5b89cd9612"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:32:04.344413+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

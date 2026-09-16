@@ -1,0 +1,59 @@
+{
+  "status": "ok",
+  "query": "catastrophic health expenditure >10%",
+  "expanded_queries": [
+    "catastrophic health expenditure 10 %",
+    "household spending health greater than 10 %"
+  ],
+  "candidates": [
+    {
+      "code": "FINPROTECTION_CATA_TOT_10_POP",
+      "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, reported data) (%)",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('FINPROTECTION_CATA_TOT_10_POP')",
+      "score": 676.667,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "FINPROTECTION_CATA_TOT_10_LEVEL_SH",
+      "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (%)",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('FINPROTECTION_CATA_TOT_10_LEVEL_SH')",
+      "score": 676.667,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+      "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (millions)",
+      "language": "EN",
+      "description": null,
+      "unit": "millions",
+      "type": "count",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('FINPROTECTION_CATA_TOT_10_LEVEL_MILLION')",
+      "score": 676.667,
+      "relevance": [
+        "all search keywords"
+      ],
+      "verified_in_catalogue": true
+    }
+  ],
+  "total_matches": 3,
+  "selection_notes": [
+    "For retrieval distinguish reported versus estimated data, percentage versus population count, and population strata. Discovery can list these candidates without asking first."
+  ],
+  "catalogue_source": "https://ghoapi.azureedge.net/api/Indicator",
+  "catalogue_size": 3098,
+  "note": "Search rank is not a clinical decision. Check population, unit, method and dimensions."
+}

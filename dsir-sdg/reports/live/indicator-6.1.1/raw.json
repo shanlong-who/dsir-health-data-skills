@@ -1,0 +1,1052 @@
+[
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "61.39131927",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "46.46747208",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "33.60844421",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "33.81772995",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "46.67518997",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "61.48305511",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "61.57478714",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "46.88686752",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "34.0270195",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "34.23630524",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "47.10299301",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "61.66651917",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "61.75825119",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "47.32323456",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "34.44559097",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "34.65487671",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "47.54753113",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "61.84998322",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "61.94171524",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "47.77582169",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "34.86416245",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "35.07344818",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "48.00804901",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "62.03344727",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "62.12517929",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "48.24414444",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "35.28273392",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "35.49201965",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "RURAL",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "48.48405838",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "ALLAREA",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "6"
+    ],
+    "target": [
+      "6.1"
+    ],
+    "indicator": [
+      "6.1.1"
+    ],
+    "series": "SH_H2O_SAFE",
+    "seriesDescription": "Proportion of population using safely managed drinking water services, by urban/rural (%)",
+    "seriesCount": "10780",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "62.21691132",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": null,
+    "lowerBound": null,
+    "basePeriod": null,
+    "source": "WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2025)",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Location": "URBAN",
+      "Reporting Type": "G"
+    }
+  }
+]

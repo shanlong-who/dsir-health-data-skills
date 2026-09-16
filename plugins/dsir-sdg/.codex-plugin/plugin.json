@@ -1,0 +1,35 @@
+{
+  "name": "dsir-sdg",
+  "version": "0.1.0",
+  "description": "Discover UN SDG indicators and series, retrieve complete observations, and preserve DSIR cleaning semantics with dimensions and provenance.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "license": "MIT",
+  "keywords": [
+    "DSIR",
+    "SDG",
+    "UN",
+    "health-data",
+    "sustainable-development"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DSIR SDG Data Skill",
+    "shortDescription": "Find UN SDG data with verified series and scope.",
+    "longDescription": "Query public UN SDG data using natural language. Confirm indicators, series, locations, units and population dimensions; export complete CSV and JSON. Requires Python 3.10+ and script HTTPS access, with no R or hosted service.",
+    "developerName": "Shanlong Ding",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "composerIcon": "./assets/dsir-logo.jpg",
+    "logo": "./assets/dsir-logo.jpg",
+    "defaultPrompt": [
+      "Compare UHC service coverage in China, Japan and the Philippines.",
+      "Get Philippine TB incidence since 2015 from UN SDG.",
+      "Find the current SDG financial protection measure."
+    ]
+  }
+}

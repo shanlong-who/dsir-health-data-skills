@@ -1,0 +1,458 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "18.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "21.1",
+    "lowerBound": "17.8",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "25.3",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.9",
+    "lowerBound": "23.5",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "32.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "40.3",
+    "lowerBound": "29.2",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "25.3",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.4",
+    "lowerBound": "22.3",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "19.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "22",
+    "lowerBound": "16.5",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "31.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "37.3",
+    "lowerBound": "28.7",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "32",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "37.6",
+    "lowerBound": "29.2",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "18",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "20.6",
+    "lowerBound": "15.5",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "24.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.9",
+    "lowerBound": "22.1",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "31.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "39.8",
+    "lowerBound": "25.8",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "25.3",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.3",
+    "lowerBound": "19.9",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.4"
+    ],
+    "indicator": [
+      "3.4.1"
+    ],
+    "series": "SH_DTH_NCOM",
+    "seriesDescription": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)",
+    "seriesCount": "4326",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "38.7",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "48.6",
+    "lowerBound": "32.3",
+    "basePeriod": null,
+    "source": "Global Health Estimates 2021: Deaths by Cause, Age, Sex, by Country and by Region, 2000-2021. Geneva, World Health Organization, 2024",
+    "geoInfoUrl": null,
+    "footnotes": [
+      "Data was previously disseminated with a different age group. The age group has been corrected in December 2024."
+    ],
+    "attributes": {
+      "Nature": "E",
+      "Units": "PERCENT"
+    },
+    "dimensions": {
+      "Age": "30-69",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  }
+]

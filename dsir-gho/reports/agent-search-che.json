@@ -1,0 +1,13 @@
+{
+  "status": "no_matches",
+  "query": "catastrophic health expenditure",
+  "expanded_queries": [
+    "catastrophic health expenditure"
+  ],
+  "candidates": [],
+  "total_matches": 0,
+  "selection_notes": [],
+  "catalogue_source": "https://ghoapi.azureedge.net/api/Indicator",
+  "catalogue_size": 3098,
+  "note": "Search rank is not a clinical decision. Check population, unit, method and dimensions."
+}

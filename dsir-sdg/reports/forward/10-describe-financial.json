@@ -1,0 +1,296 @@
+{
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.8",
+    "code": "3.8.2",
+    "description": "Proportion of population with positive out-of-pocket household expenditures on health exceeding 40 per cent of household discretionary budget",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.8.2",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.8"
+        ],
+        "indicator": [
+          "3.8.2"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_OOP_XPD_EARNNET40",
+        "description": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+        "uri": "/v1/sdg/Series/SH_OOP_XPD_EARNNET40"
+      }
+    ]
+  },
+  "series": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "indicator": [
+        "3.8.2"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_OOP_XPD_EARNNET40",
+      "description": "Proportion of the population with positive out-of-pocket household expenditure on health exceeding 40% of household discretionary budget, by location, quintile, type of household and characteristics of the head of household (%)",
+      "uri": "/v1/sdg/Series/SH_OOP_XPD_EARNNET40",
+      "definition": null,
+      "available_years": null,
+      "dimensions": [
+        {
+          "id": "Age",
+          "codes": [
+            {
+              "code": "ALLAGE",
+              "description": "All age ranges or no breaks by age",
+              "sdmx": "_T"
+            },
+            {
+              "code": "60+",
+              "description": "60 years old and over",
+              "sdmx": "Y_GE60"
+            },
+            {
+              "code": "0-59",
+              "description": "under 59 years old",
+              "sdmx": "Y0T59"
+            }
+          ]
+        },
+        {
+          "id": "Location",
+          "codes": [
+            {
+              "code": "RURAL",
+              "description": "Rural",
+              "sdmx": "R"
+            },
+            {
+              "code": "ALLAREA",
+              "description": "All areas",
+              "sdmx": "_T"
+            },
+            {
+              "code": "URBAN",
+              "description": "Urban",
+              "sdmx": "U"
+            }
+          ]
+        },
+        {
+          "id": "Sex",
+          "codes": [
+            {
+              "code": "FEMALE",
+              "description": "Female",
+              "sdmx": "F"
+            },
+            {
+              "code": "MALE",
+              "description": "Male",
+              "sdmx": "M"
+            },
+            {
+              "code": "BOTHSEX",
+              "description": "Both sexes",
+              "sdmx": "_T"
+            }
+          ]
+        },
+        {
+          "id": "Reporting Type",
+          "codes": [
+            {
+              "code": "N",
+              "description": "National",
+              "sdmx": "N"
+            },
+            {
+              "code": "G",
+              "description": "Global",
+              "sdmx": "G"
+            },
+            {
+              "code": "R",
+              "description": "Regional",
+              "sdmx": "R"
+            }
+          ]
+        },
+        {
+          "id": "Quantile",
+          "codes": [
+            {
+              "code": "Q1",
+              "description": "Quantile 1 (poorest)",
+              "sdmx": "Q1"
+            },
+            {
+              "code": "Q2",
+              "description": "Quantile 2",
+              "sdmx": "Q2"
+            },
+            {
+              "code": "Q3",
+              "description": "Quantile 3",
+              "sdmx": "Q3"
+            },
+            {
+              "code": "Q4",
+              "description": "Quantile 4",
+              "sdmx": "Q4"
+            },
+            {
+              "code": "Q5",
+              "description": "Quantile 5 (richest)",
+              "sdmx": "Q5"
+            },
+            {
+              "code": "_T",
+              "description": "Total (national average) or no breakdown",
+              "sdmx": "_T"
+            }
+          ]
+        },
+        {
+          "id": "Type_of_household",
+          "codes": [
+            {
+              "code": "HH_ADTONLY",
+              "description": "Households composed only of people aged between 20 and 59 years old",
+              "sdmx": "HH_ADTONLY"
+            },
+            {
+              "code": "HH_ADTWCHLDADO",
+              "description": "Adults living with children (0 to 9 years old) and/or adolescents (10 to 19 years old)",
+              "sdmx": "HH_ADTWCHLDADO"
+            },
+            {
+              "code": "HH_MULTIGEN",
+              "description": "Households include adults living with people below 20 years old (children and/or adolescents) as well as older adults (60 years old or more)",
+              "sdmx": "HH_MULTIGEN"
+            },
+            {
+              "code": "HH_ADTWOLDER",
+              "description": "Households composed of adults living with at least one older person (60 years and older)",
+              "sdmx": "HH_ADTWOLDER"
+            },
+            {
+              "code": "HH_ONLYOLDER",
+              "description": "Households exclusively composed of older people ( (60 years and older)",
+              "sdmx": "HH_ONLYOLDER"
+            },
+            {
+              "code": "_T",
+              "description": "All type of households",
+              "sdmx": "_T"
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "id": "Nature",
+          "codes": [
+            {
+              "code": "C",
+              "description": "Country data",
+              "sdmx": "C"
+            },
+            {
+              "code": "CA",
+              "description": "Country adjusted data",
+              "sdmx": "CA"
+            },
+            {
+              "code": "E",
+              "description": "Estimated data",
+              "sdmx": "E"
+            },
+            {
+              "code": "G",
+              "description": "Global monitoring data",
+              "sdmx": "G"
+            },
+            {
+              "code": "M",
+              "description": "Modeled data",
+              "sdmx": "M"
+            },
+            {
+              "code": "N",
+              "description": "Non-relevant",
+              "sdmx": "N"
+            },
+            {
+              "code": "NA",
+              "description": "Data nature not available",
+              "sdmx": "_X"
+            }
+          ]
+        },
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "PERCENT",
+              "description": "Percentage",
+              "sdmx": "PT"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "PERCENT",
+              "description": "Percentage",
+              "sdmx": "PT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_errors": [],
+  "metadata_repository": "https://unstats.un.org/sdgs/metadata/",
+  "note": "Descriptions are catalogue labels, not full definitions. Available years depend on area, series and disaggregation; inspect retrieval coverage.",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:34:05.522787+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:34:08.556592+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_OOP_XPD_EARNNET40/Dimensions",
+      "retrieved_at": "2026-09-16T06:34:10.306293+00:00",
+      "attempt": 1,
+      "bytes": 2047,
+      "sha256": "12f1f14b53b86ff7ca6367588c7bc464b12b4591a147258d63e55a74b759b76a"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_OOP_XPD_EARNNET40/Attributes",
+      "retrieved_at": "2026-09-16T06:34:11.104819+00:00",
+      "attempt": 1,
+      "bytes": 519,
+      "sha256": "025027d49aa899eefabfac069f9b16543626dcd2c8e591ebb77c4bee8a98dba6"
+    }
+  ]
+}

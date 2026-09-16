@@ -1,0 +1,30 @@
+{
+  "kind": "local_schema_negative_controls",
+  "checks": [
+    {
+      "check": "missing user_question",
+      "rejected": true,
+      "reason": "Case is missing required question-level fields"
+    },
+    {
+      "check": "conflicting indicator code",
+      "rejected": true,
+      "reason": "main_01_wpr_uhc: indicator expectation conflicts with executable args"
+    },
+    {
+      "check": "conflicting location code",
+      "rejected": true,
+      "reason": "main_01_wpr_uhc: location expectation conflicts with executable args"
+    },
+    {
+      "check": "non-boolean clarification expectation",
+      "rejected": true,
+      "reason": "main_01_wpr_uhc: should_clarify must be boolean"
+    },
+    {
+      "check": "synthetic-only book below minimum real questions",
+      "rejected": true,
+      "reason": "At least 20 nonsynthetic natural-language health-data questions are required"
+    }
+  ]
+}

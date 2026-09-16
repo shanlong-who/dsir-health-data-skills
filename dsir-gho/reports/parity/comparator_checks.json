@@ -1,0 +1,47 @@
+{
+  "purpose": "Deliberate test-evidence corruptions, never runtime data",
+  "checks": [
+    {
+      "check": "unchanged reference",
+      "expected_parity": true,
+      "observed_parity": true,
+      "passed": true
+    },
+    {
+      "check": "numeric corruption detected",
+      "expected_parity": false,
+      "observed_parity": false,
+      "passed": true
+    },
+    {
+      "check": "dropped row detected",
+      "expected_parity": false,
+      "observed_parity": false,
+      "passed": true
+    },
+    {
+      "check": "dimension corruption detected",
+      "expected_parity": false,
+      "observed_parity": false,
+      "passed": true
+    },
+    {
+      "check": "missingness corruption detected",
+      "expected_parity": false,
+      "observed_parity": false,
+      "passed": true
+    },
+    {
+      "check": "year type corruption detected",
+      "expected_parity": false,
+      "observed_parity": false,
+      "passed": true
+    },
+    {
+      "check": "schema corruption detected",
+      "expected_parity": false,
+      "observed_parity": false,
+      "passed": true
+    }
+  ]
+}

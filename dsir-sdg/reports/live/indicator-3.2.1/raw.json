@@ -1,0 +1,4322 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "30645",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34758",
+    "lowerBound": "27129",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "22710",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25791",
+    "lowerBound": "20101",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "53355",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "60108",
+    "lowerBound": "47470",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "52279",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "59513",
+    "lowerBound": "46109",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "22248",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25545",
+    "lowerBound": "19516",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "30031",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34441",
+    "lowerBound": "26390",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "28969",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33638",
+    "lowerBound": "25156",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "21463",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25025",
+    "lowerBound": "18575",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "50432",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "58133",
+    "lowerBound": "43890",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "48650",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "57100",
+    "lowerBound": "41597",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "20704",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "24524",
+    "lowerBound": "17586",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "27946",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32957",
+    "lowerBound": "23832",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "26719",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32362",
+    "lowerBound": "22333",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "19810",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "23960",
+    "lowerBound": "16506",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "46529",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "55944",
+    "lowerBound": "39006",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "44244",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "54643",
+    "lowerBound": "36155",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "18823",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "23443",
+    "lowerBound": "15299",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "25421",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31526",
+    "lowerBound": "20728",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "24141",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30866",
+    "lowerBound": "19225",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "17869",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "22883",
+    "lowerBound": "14199",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "42010",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "53398",
+    "lowerBound": "33553",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "40705",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "53344",
+    "lowerBound": "31697",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "23372",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30766",
+    "lowerBound": "18181",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "17333",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "22869",
+    "lowerBound": "13412",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "17157",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "23252",
+    "lowerBound": "12943",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "23143",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31307",
+    "lowerBound": "17491",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "40300",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "54315",
+    "lowerBound": "30539",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "39731",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "54745",
+    "lowerBound": "29168",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "22809",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31656",
+    "lowerBound": "16648",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRTN",
+    "seriesDescription": "Infant deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "16922",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "23483",
+    "lowerBound": "12396",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "24.90843478",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.1971",
+    "lowerBound": "22.0402",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "30.63956031",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34.684",
+    "lowerBound": "27.1309",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "27.85787761",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.3974",
+    "lowerBound": "24.775",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "27.80141641",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.6611",
+    "lowerBound": "24.5101",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "30.61212327",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "35.0005",
+    "lowerBound": "26.912",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "24.84318306",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.4351",
+    "lowerBound": "21.7867",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "24.87026247",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.9055",
+    "lowerBound": "21.5165",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "30.6548926",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "35.4648",
+    "lowerBound": "26.6116",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "27.82591705",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.0953",
+    "lowerBound": "24.2066",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "27.94817186",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.8187",
+    "lowerBound": "23.8869",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "30.76726807",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36.2615",
+    "lowerBound": "26.236",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "24.97190511",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.4974",
+    "lowerBound": "21.2401",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "25.06357609",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.2698",
+    "lowerBound": "20.8729",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "30.88729014",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "37.2996",
+    "lowerBound": "25.8043",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "28.04025806",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33.7347",
+    "lowerBound": "23.494",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "28.04633067",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34.6634",
+    "lowerBound": "22.9051",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "30.92719651",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "38.3293",
+    "lowerBound": "25.2354",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "25.00090604",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.0384",
+    "lowerBound": "20.3446",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "24.84244748",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.778",
+    "lowerBound": "19.7267",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "30.7005277",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "39.168",
+    "lowerBound": "24.4924",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "27.85034282",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "35.4317",
+    "lowerBound": "22.2265",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "27.45935203",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36.0226",
+    "lowerBound": "21.3664",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "30.28567494",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "39.8403",
+    "lowerBound": "23.5221",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "24.51218786",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.2668",
+    "lowerBound": "18.9521",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "24.07406352",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.6024",
+    "lowerBound": "18.1483",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "29.78078018",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "40.1911",
+    "lowerBound": "22.4729",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "26.98154875",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36.4079",
+    "lowerBound": "20.4294",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "26.45559768",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36.4941",
+    "lowerBound": "19.4044",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "29.16662895",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "40.5144",
+    "lowerBound": "21.2784",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORT",
+    "seriesDescription": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "23.59589155",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.7098",
+    "lowerBound": "17.2692",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "19.59305106",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "22.2326",
+    "lowerBound": "17.3164",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "24.50081662",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "27.7694",
+    "lowerBound": "21.6529",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "22.11377239",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "24.9235",
+    "lowerBound": "19.6666",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "22.16072887",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25.2373",
+    "lowerBound": "19.5372",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "24.55390794",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.1452",
+    "lowerBound": "21.5426",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "19.62933963",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "22.5228",
+    "lowerBound": "17.1939",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "19.74603292",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "22.9936",
+    "lowerBound": "17.0518",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "24.69876855",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.6482",
+    "lowerBound": "21.397",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "22.27692987",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25.6949",
+    "lowerBound": "19.3794",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "22.46418414",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "26.379",
+    "lowerBound": "19.1999",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "24.90503223",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.3399",
+    "lowerBound": "21.1904",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "19.90960326",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "23.5551",
+    "lowerBound": "16.8754",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "20.05035878",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "24.2353",
+    "lowerBound": "16.6767",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "25.06034043",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.3393",
+    "lowerBound": "20.9077",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "22.6233522",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "27.2178",
+    "lowerBound": "18.9554",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "22.71130808",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.0696",
+    "lowerBound": "18.5481",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "25.16634441",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.2102",
+    "lowerBound": "20.4848",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "20.10778823",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25.0345",
+    "lowerBound": "16.3172",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "20.04191423",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "25.6479",
+    "lowerBound": "15.8933",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "25.09225847",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.0709",
+    "lowerBound": "19.9351",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "22.62913137",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.7892",
+    "lowerBound": "18.0596",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "22.37703444",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.3553",
+    "lowerBound": "17.4118",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "24.80005339",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.6261",
+    "lowerBound": "19.2405",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "19.84632105",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "26.1619",
+    "lowerBound": "15.3187",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "19.54144107",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "26.4643",
+    "lowerBound": "14.7059",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "24.42666073",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33.034",
+    "lowerBound": "18.4149",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "22.0405343",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.7407",
+    "lowerBound": "16.6883",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "21.66237016",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.8821",
+    "lowerBound": "15.8887",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "24.00187264",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33.333",
+    "lowerBound": "17.482",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_IMRT",
+    "seriesDescription": "Infant mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "19.18979656",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "26.6296",
+    "lowerBound": "14.0305",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "29148",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33027",
+    "lowerBound": "25820",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "38676",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "43792",
+    "lowerBound": "34284",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "67824",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "76425",
+    "lowerBound": "60332",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "66299",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "75501",
+    "lowerBound": "58463",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "37833",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "43286",
+    "lowerBound": "33305",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "28466",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32613",
+    "lowerBound": "25004",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "27473",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31975",
+    "lowerBound": "23807",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "36515",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "42300",
+    "lowerBound": "31756",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "63988",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "73777",
+    "lowerBound": "55670",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "61714",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "72472",
+    "lowerBound": "52762",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "35207",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "41534",
+    "lowerBound": "30065",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "26507",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31353",
+    "lowerBound": "22579",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "25357",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30671",
+    "lowerBound": "21148",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "33681",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "40718",
+    "lowerBound": "28194",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "59038",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "71037",
+    "lowerBound": "49476",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "56088",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "69309",
+    "lowerBound": "45816",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "32051",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "39752",
+    "lowerBound": "26192",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "24037",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29854",
+    "lowerBound": "19584",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "22754",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29133",
+    "lowerBound": "18088",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "30306",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "38693",
+    "lowerBound": "24209",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "53060",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "67505",
+    "lowerBound": "42363",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "50938",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "66806",
+    "lowerBound": "39649",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "29096",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "38304",
+    "lowerBound": "22653",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "21842",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28795",
+    "lowerBound": "16924",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "21339",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28937",
+    "lowerBound": "16124",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "28477",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "38482",
+    "lowerBound": "21542",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "49816",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "67178",
+    "lowerBound": "37729",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "48685",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "67132",
+    "lowerBound": "35731",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "27811",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "38639",
+    "lowerBound": "20328",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.1"
+    ],
+    "series": "SH_DYN_MORTN",
+    "seriesDescription": "Under-five deaths (number)",
+    "seriesCount": "16575",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "20874",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28954",
+    "lowerBound": "15303",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  }
+]

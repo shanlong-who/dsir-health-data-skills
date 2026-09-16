@@ -1,0 +1,34 @@
+{
+  "name": "dsir-gho",
+  "version": "0.1.1",
+  "description": "Discover and retrieve public WHO GHO health data with verified indicators and DSIR-compatible cleaning.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "license": "MIT",
+  "keywords": [
+    "WHO",
+    "GHO",
+    "health-data",
+    "DSIR"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DSIR GHO Health Data Skill",
+    "shortDescription": "Find and retrieve WHO GHO data with source details.",
+    "longDescription": "Use natural language to find WHO GHO indicators, retrieve complete observations, and export CSV and JSON. Requires Python 3.10+ and permitted HTTPS access in the agent runtime. No R or hosted server is required.",
+    "developerName": "Shanlong Ding",
+    "category": "Productivity",
+    "composerIcon": "./assets/dsir-logo.jpg",
+    "logo": "./assets/dsir-logo.jpg",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show historical UHC service coverage for the Western Pacific Region.",
+      "Get measles reported cases in the Philippines since 2015.",
+      "Find WHO indicators for catastrophic health expenditure above 10%."
+    ]
+  }
+}

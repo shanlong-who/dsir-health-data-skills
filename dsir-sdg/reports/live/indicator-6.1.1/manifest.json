@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-09-16T06:32:05.258862+00:00",
+  "files": {
+    "dsir_clean.csv": "72d7c301a78d8b0cf7c1fe12e5dafdf81d2fe306ec7cdf28ca04e7fef17441e2",
+    "observations.csv": "c585716e39e4cfe734b1ec4514f5d8353614d17f2587706e1750c04defca9dae",
+    "raw.json": "236fee174f14fcc5a1dff49b6afc1362bbf5a40e9bacb1e9704c41044dc08e93",
+    "response.json": "379761f42d552e8f0efea8c9a8e4abae1166255c9caf35511b85eb434209d8a4"
+  }
+}

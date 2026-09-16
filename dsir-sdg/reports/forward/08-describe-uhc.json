@@ -1,0 +1,161 @@
+{
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.8",
+    "code": "3.8.1",
+    "description": "Coverage of essential health services",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.8.1",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.8"
+        ],
+        "indicator": [
+          "3.8.1"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_ACS_UNHC_25",
+        "description": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+        "uri": "/v1/sdg/Series/SH_ACS_UNHC_25"
+      }
+    ]
+  },
+  "series": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.8"
+      ],
+      "indicator": [
+        "3.8.1"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_ACS_UNHC_25",
+      "description": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+      "uri": "/v1/sdg/Series/SH_ACS_UNHC_25",
+      "definition": null,
+      "available_years": null,
+      "dimensions": [
+        {
+          "id": "Reporting Type",
+          "codes": [
+            {
+              "code": "G",
+              "description": "Global",
+              "sdmx": "G"
+            },
+            {
+              "code": "R",
+              "description": "Regional",
+              "sdmx": "R"
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "id": "Nature",
+          "codes": [
+            {
+              "code": "C",
+              "description": "Country data",
+              "sdmx": "C"
+            },
+            {
+              "code": "CA",
+              "description": "Country adjusted data",
+              "sdmx": "CA"
+            },
+            {
+              "code": "E",
+              "description": "Estimated data",
+              "sdmx": "E"
+            },
+            {
+              "code": "G",
+              "description": "Global monitoring data",
+              "sdmx": "G"
+            },
+            {
+              "code": "M",
+              "description": "Modeled data",
+              "sdmx": "M"
+            },
+            {
+              "code": "N",
+              "description": "Non-relevant",
+              "sdmx": "N"
+            },
+            {
+              "code": "NA",
+              "description": "Data nature not available",
+              "sdmx": "_X"
+            }
+          ]
+        },
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "INDEX",
+              "description": "Index",
+              "sdmx": "IX"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "Units",
+          "codes": [
+            {
+              "code": "INDEX",
+              "description": "Index",
+              "sdmx": "IX"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_errors": [],
+  "metadata_repository": "https://unstats.un.org/sdgs/metadata/",
+  "note": "Descriptions are catalogue labels, not full definitions. Available years depend on area, series and disaggregation; inspect retrieval coverage.",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:34:03.878498+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:34:06.560469+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_ACS_UNHC_25/Dimensions",
+      "retrieved_at": "2026-09-16T06:34:07.379963+00:00",
+      "attempt": 1,
+      "bytes": 131,
+      "sha256": "73edb23651f99550c18e9a52b89da08bfb367437e2ba203e5f5ba8707e1ac73b"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/SH_ACS_UNHC_25/Attributes",
+      "retrieved_at": "2026-09-16T06:34:08.216654+00:00",
+      "attempt": 1,
+      "bytes": 512,
+      "sha256": "c355af6cba8de7edadb3d195b6183cfa05f6fdca37be8edab9cde6452faa9f09"
+    }
+  ]
+}

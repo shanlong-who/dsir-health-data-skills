@@ -1,0 +1,3 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,GHED_GGHE-DGDP_SHA2011,Domestic general government health expenditure (GGHE-D) as percentage of gross domestic product (GDP) (%),PHL,PHL,Philippines,2022,2.32,2.3236084,,,,,,
+gho,GHED_GGHE-DGDP_SHA2011,Domestic general government health expenditure (GGHE-D) as percentage of gross domestic product (GDP) (%),PHL,PHL,Philippines,2023,2.16,2.16258121,,,,,,

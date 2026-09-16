@@ -1,0 +1,732 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "32665",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "37436",
+    "lowerBound": "28469",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "31824",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36877",
+    "lowerBound": "27506",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "30925",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36449",
+    "lowerBound": "26330",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "30001",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "36081",
+    "lowerBound": "25071",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "28664",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "35345",
+    "lowerBound": "23410",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "27439",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34772",
+    "lowerBound": "21807",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "26141",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34132",
+    "lowerBound": "20239",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "25888",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "34842",
+    "lowerBound": "19509",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "25588",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "35357",
+    "lowerBound": "18701",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRTN",
+    "seriesDescription": "Neonatal deaths (number)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "25061",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "35624",
+    "lowerBound": "17810",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "NUMBER"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "13.52542121",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "15.5012",
+    "lowerBound": "11.7875",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "13.68856634",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "15.8623",
+    "lowerBound": "11.8307",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "13.88867462",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "16.37",
+    "lowerBound": "11.8248",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "14.09815066",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "16.9556",
+    "lowerBound": "11.7808",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "14.26671907",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "17.593",
+    "lowerBound": "11.6514",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "14.36765298",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "18.2081",
+    "lowerBound": "11.4186",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "14.33231131",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "18.7145",
+    "lowerBound": "11.0959",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "14.15168342",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "19.047",
+    "lowerBound": "10.664",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "13.90780057",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "19.2184",
+    "lowerBound": "10.1638",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.2"
+    ],
+    "indicator": [
+      "3.2.2"
+    ],
+    "series": "SH_DYN_NMRT",
+    "seriesDescription": "Neonatal mortality rate (deaths per 1,000 live births)",
+    "seriesCount": "5525",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "13.61345752",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "19.3528",
+    "lowerBound": "9.67453",
+    "basePeriod": null,
+    "source": "UN_IGME",
+    "geoInfoUrl": null,
+    "footnotes": [],
+    "attributes": {
+      "Nature": "C",
+      "Units": "PER_1000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Age": "<1M",
+      "Location": "ALLAREA",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  }
+]

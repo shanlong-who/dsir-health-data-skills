@@ -1,0 +1,1523 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T05:30:03.884026+00:00",
+  "kind": "executable_api_contracts",
+  "model_evaluated": false,
+  "rechecked_cases": [
+    "resolve_wpr",
+    "resolve_wpr_without_idn"
+  ],
+  "earlier_report_generated_at": "2026-09-09T05:29:24.487490+00:00",
+  "scope": "live WHO API plus injected failure fixtures",
+  "passed": 46,
+  "failed": 0,
+  "manual_review_pending": 11,
+  "cases": [
+    {
+      "id": "main_01_wpr_uhc",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Select UHC_INDEX_REPORTED from the live catalogue.",
+        "Return the official WPR aggregate for all available years; do not average countries.",
+        "Explain WPR versus WPR_WO_IDN and Indonesia membership using source metadata.",
+        "Supply source URLs, retrieval time, coverage, and raw/clean downloadable artifacts."
+      ],
+      "observed": {
+        "status": "ok",
+        "rows": 24,
+        "locations": [
+          "WPR"
+        ],
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 24,
+          "declared_count": 24,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:19.016295+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 1.266,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "main_02_phl_measles",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Resolve Philippines to PHL.",
+        "Use reported case counts, not measles vaccine coverage.",
+        "Retain every available year from 2015 and disclose missing years.",
+        "Do not invent values or replace missing observations with zero."
+      ],
+      "observed": {
+        "status": "ok",
+        "rows": 11,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 11,
+          "declared_count": 11,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:20.480317+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 1.453,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "main_03_uhc_compare",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Select the same UHC index and unit for all three countries.",
+        "Compare shared years and disclose country coverage differences.",
+        "Do not describe an index as a percentage of people covered."
+      ],
+      "observed": {
+        "status": "ok",
+        "rows": 72,
+        "locations": [
+          "CHN",
+          "JPN",
+          "PHL"
+        ],
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27CHN%27%2C%27JPN%27%2C%27PHL%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27CHN%27%2C%27JPN%27%2C%27PHL%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 72,
+          "declared_count": 72,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:22.471821+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 2.0,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "main_04_financial_search",
+      "operation": "search",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Show reported versus estimated indicators and percentage versus millions.",
+        "Distinguish the 10% threshold from 25%.",
+        "Ask which variant is wanted before extracting an ambiguous financial-protection series."
+      ],
+      "observed": {
+        "status": "ok",
+        "candidates": [
+          {
+            "code": "FINPROTECTION_CATA_TOT_10_POP",
+            "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, reported data) (%)"
+          },
+          {
+            "code": "FINPROTECTION_CATA_TOT_10_LEVEL_SH",
+            "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (%)"
+          },
+          {
+            "code": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+            "name": "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (millions)"
+          }
+        ]
+      },
+      "elapsed_seconds": 6.953,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "main_05_tb_ambiguity",
+      "operation": "search",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Resolve Philippines to PHL.",
+        "Clarify incidence rate versus number and overall TB versus HIV-positive TB.",
+        "Do not silently select notification counts or the top search result."
+      ],
+      "observed": {
+        "status": "ok",
+        "candidates": [
+          {
+            "code": "TB_e_inc_num",
+            "name": "Number of incident tuberculosis cases"
+          },
+          {
+            "code": "TB_e_inc_tbhiv_num",
+            "name": "Number of incident tuberculosis cases,  (HIV-positive cases)"
+          },
+          {
+            "code": "TB_e_inc_num_014",
+            "name": "Number of incident tuberculosis cases in children aged 0 - 14"
+          },
+          {
+            "code": "MDG_0000000020",
+            "name": "Incidence of tuberculosis (per 100 000 population per year)"
+          },
+          {
+            "code": "TB_e_inc_tbhiv_100k",
+            "name": "Incidence of tuberculosis (per 100 000 population) (HIV-positive cases)"
+          },
+          {
+            "code": "TB_e_inc_rr_num",
+            "name": "Estimated number of MDR/RR-TB incident cases"
+          }
+        ]
+      },
+      "elapsed_seconds": 3.469,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "search_exact_uhc",
+      "operation": "search",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "candidates": [
+          {
+            "code": "UHC_INDEX_REPORTED",
+            "name": "UHC Service Coverage Index (SDG 3.8.1)"
+          }
+        ]
+      },
+      "elapsed_seconds": 0.844,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "search_measles_count",
+      "operation": "search",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "candidates": [
+          {
+            "code": "WHS3_62",
+            "name": "Measles - number of reported cases"
+          }
+        ]
+      },
+      "elapsed_seconds": 1.406,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "search_tb_hiv",
+      "operation": "search",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Explain HIV-positive population and rate/count difference."
+      ],
+      "observed": {
+        "status": "ok",
+        "candidates": [
+          {
+            "code": "TB_e_inc_tbhiv_num",
+            "name": "Number of incident tuberculosis cases,  (HIV-positive cases)"
+          },
+          {
+            "code": "TB_e_inc_tbhiv_100k",
+            "name": "Incidence of tuberculosis (per 100 000 population) (HIV-positive cases)"
+          }
+        ]
+      },
+      "elapsed_seconds": 1.547,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "search_no_match",
+      "operation": "search",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "no_matches",
+        "candidates": []
+      },
+      "elapsed_seconds": 1.125,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "resolve_iso3",
+      "operation": "resolve",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "code": "PHL",
+            "name": "Philippines",
+            "spatial_type": "country",
+            "matched_by": "iso3"
+          },
+          {
+            "code": "CHN",
+            "name": "China",
+            "spatial_type": "country",
+            "matched_by": "iso3"
+          },
+          {
+            "code": "JPN",
+            "name": "Japan",
+            "spatial_type": "country",
+            "matched_by": "iso3"
+          }
+        ]
+      },
+      "elapsed_seconds": 0.015,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "resolve_english",
+      "operation": "resolve",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "code": "PHL",
+            "name": "Philippines",
+            "spatial_type": "country",
+            "matched_by": "country_name"
+          },
+          {
+            "code": "IDN",
+            "name": "Indonesia",
+            "spatial_type": "country",
+            "matched_by": "country_name"
+          }
+        ]
+      },
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "resolve_wpr",
+      "operation": "resolve",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "code": "WPR",
+            "name": "Western Pacific",
+            "spatial_type": "region",
+            "matched_by": "official_aggregate"
+          }
+        ]
+      },
+      "elapsed_seconds": 0.625,
+      "executed_at": "2026-09-09T05:30:03.879697+00:00",
+      "previous_evidence": {
+        "id": "resolve_wpr",
+        "operation": "resolve",
+        "contract": "failed",
+        "review_status": "not_applicable",
+        "review_criteria": [],
+        "failure": "AssertionError: Wrong spatial type",
+        "elapsed_seconds": 0.172
+      }
+    },
+    {
+      "id": "resolve_wpr_without_idn",
+      "operation": "resolve",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "locations": [
+          {
+            "code": "WPR_WO_IDN",
+            "name": "Western Pacific without Indonesia",
+            "spatial_type": "region",
+            "matched_by": "official_aggregate"
+          }
+        ]
+      },
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-09T05:30:03.884026+00:00",
+      "previous_evidence": {
+        "id": "resolve_wpr_without_idn",
+        "operation": "resolve",
+        "contract": "failed",
+        "review_status": "not_applicable",
+        "review_criteria": [],
+        "failure": "AssertionError: Wrong spatial type",
+        "elapsed_seconds": 0.0
+      }
+    },
+    {
+      "id": "resolve_unknown",
+      "operation": "resolve",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "unknown_location"
+      },
+      "elapsed_seconds": 2.438,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "tb_rate_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/MDG_0000000020?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/MDG_0000000020?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 10,
+          "declared_count": 10,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:40.632184+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.187,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "tb_number_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/TB_e_inc_num?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 10,
+          "declared_count": 10,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:41.186309+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.563,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "tb_hiv_rate_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 9,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/TB_e_inc_tbhiv_100k?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/TB_e_inc_tbhiv_100k?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 9,
+          "declared_count": 9,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:41.356730+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.156,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "tb_hiv_number_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 10,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/TB_e_inc_tbhiv_num?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/TB_e_inc_tbhiv_num?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 10,
+          "declared_count": 10,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:41.576981+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.234,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "financial_reported_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 13,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 13,
+          "declared_count": 13,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:41.773507+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.188,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "financial_estimated_wpr",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 6,
+        "locations": [
+          "WPR"
+        ],
+        "years": [
+          2000,
+          2005,
+          2010,
+          2015,
+          2017,
+          2019
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_LEVEL_SH?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_LEVEL_SH?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 6,
+          "declared_count": 6,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:42.109236+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.344,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "financial_millions_wpr",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 6,
+        "locations": [
+          "WPR"
+        ],
+        "years": [
+          2000,
+          2005,
+          2010,
+          2015,
+          2017,
+          2019
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_LEVEL_MILLION?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_LEVEL_MILLION?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 6,
+          "declared_count": 6,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:42.669982+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.546,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "life_expectancy_sex_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 21,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 21,
+          "declared_count": 21,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:42.836217+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.172,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "obesity_age_sex_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 30,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/NCD_BMI_30A?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/NCD_BMI_30A?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 30,
+          "declared_count": 30,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:43.047154+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.219,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "health_expenditure_currency_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 9,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 9,
+          "declared_count": 9,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:43.219645+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.172,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "doctors_rate_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 8,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2024
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/HWF_0001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/HWF_0001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 8,
+          "declared_count": 8,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:44.175664+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.953,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "anaemia_pregnancy_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 27,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/NUTRITION_ANAEMIA_REPRODUCTIVEAGE_PREV?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/NUTRITION_ANAEMIA_REPRODUCTIVEAGE_PREV?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 27,
+          "declared_count": 27,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:44.349291+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.172,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "vaccine_percentage_phl",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 11,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHS8_110?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHS8_110?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 11,
+          "declared_count": 11,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:44.506024+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.156,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "sex_filter_current_code",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 7,
+        "locations": [
+          "PHL"
+        ],
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015%20and%20Dim1%20in%20%28%27SEX_BTSX%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202015%20and%20Dim1%20in%20%28%27SEX_BTSX%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 7,
+          "declared_count": 7,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:45.514482+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 1.016,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "sex_filter_old_code_no_rows",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Explain unavailable filter combination, inspect current dimension codes, and avoid claiming the indicator has no data."
+      ],
+      "observed": {
+        "status": "filters_no_data",
+        "rows": 0,
+        "locations": [],
+        "years": [],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20Dim1%20in%20%28%27BTSX%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20Dim1%20in%20%28%27BTSX%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 0,
+          "declared_count": 0,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:46.491957+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 1.937,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "future_year_no_rows",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "No fabricated future values or zeros."
+      ],
+      "observed": {
+        "status": "filters_no_data",
+        "rows": 0,
+        "locations": [],
+        "years": [],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202098%20and%20TimeDim%20le%202099&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202098%20and%20TimeDim%20le%202099&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 0,
+          "declared_count": 0,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:48.676477+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 2.188,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "financial_reported_region_no_rows",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Offer the distinct estimated aggregate only after explaining the change of measure."
+      ],
+      "observed": {
+        "status": "filters_no_data",
+        "rows": 0,
+        "locations": [],
+        "years": [],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/FINPROTECTION_CATA_TOT_10_POP?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=1000&%24skip=0&%24count=true"
+          ],
+          "pages": 1,
+          "row_count": 0,
+          "declared_count": 0,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:50.615155+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 1.953,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "metadata_uhc",
+      "operation": "describe",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "available_years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "dimensions": [
+          "COUNTRY",
+          "PUBLISHSTATE",
+          "REGION",
+          "WORLDBANKINCOMEGROUP",
+          "WORLDBANKREGION",
+          "YEAR"
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=1000&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=2000&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=3000&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=4000&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=5000&%24count=true"
+          ],
+          "pages": 6,
+          "row_count": 5160,
+          "declared_count": 5160,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:28:53.842114+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 2.25,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "metadata_measles",
+      "operation": "describe",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "available_years": [
+          1974,
+          1975,
+          1976,
+          1977,
+          1978,
+          1979,
+          1980,
+          1981,
+          1982,
+          1983,
+          1984,
+          1985,
+          1986,
+          1987,
+          1988,
+          1989,
+          1990,
+          1991,
+          1992,
+          1993,
+          1994,
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "dimensions": [
+          "COUNTRY",
+          "PUBLISHSTATE",
+          "REGION",
+          "WORLDBANKINCOMEGROUP",
+          "YEAR"
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=0&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=1000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=2000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=3000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=4000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=5000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=6000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=7000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=8000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=9000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=10000&%24count=true",
+            "https://ghoapi.azureedge.net/api/WHS3_62?%24select=TimeDim%2CSpatialDimType%2CDim1Type%2CDim1%2CDim2Type%2CDim2%2CDim3Type%2CDim3&%24orderby=Id&%24top=1000&%24skip=11000&%24count=true"
+          ],
+          "pages": 12,
+          "row_count": 11062,
+          "declared_count": 11062,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:29:23.157317+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 29.312,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "invalid_indicator",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Distinguish catalogue-confirmed invalid code from WHO/API failure."
+      ],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "indicator_not_found",
+          "message": "Indicator is not present in the successfully retrieved WHO catalogue.",
+          "details": {
+            "indicator": "NOT_A_REAL_GHO_INDICATOR"
+          }
+        }
+      },
+      "elapsed_seconds": 0.0,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "reversed_years",
+      "operation": "data",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "invalid_query",
+          "message": "year_from must not exceed year_to.",
+          "details": {}
+        }
+      },
+      "elapsed_seconds": 0.016,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_network",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "who_api_request_failed",
+          "message": "WHO API could not be reached; check network permissions and connectivity.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24top=1&%24skip=0&%24count=true",
+            "attempts": 3,
+            "reason": "Injected timeout for a failure-path test"
+          }
+        }
+      },
+      "elapsed_seconds": 0.047,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_http_503",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "who_api_request_failed",
+          "message": "WHO API request failed.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24top=1&%24skip=0&%24count=true",
+            "http_status": 503,
+            "attempts": 3
+          }
+        }
+      },
+      "elapsed_seconds": 0.047,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "retry_then_success",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok"
+      },
+      "elapsed_seconds": 0.109,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_invalid_schema",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "invalid_response",
+          "message": "WHO response is missing an OData value array.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24top=1&%24skip=0&%24count=true"
+          }
+        }
+      },
+      "elapsed_seconds": 0.094,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_paging_cycle",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "incomplete_data",
+          "message": "Pagination cycle detected; no complete result is available.",
+          "details": {
+            "url": "https://ghoapi.azureedge.net/api/WHS3_62?repeat=1"
+          }
+        }
+      },
+      "elapsed_seconds": 0.078,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_count_changes",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "incomplete_data",
+          "message": "WHO row count changed during pagination; retry the query.",
+          "details": {}
+        }
+      },
+      "elapsed_seconds": 0.063,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_missing_page",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "incomplete_data",
+          "message": "Pagination ended before the declared total.",
+          "details": {}
+        }
+      },
+      "elapsed_seconds": 0.031,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "failure_unsafe_next_link",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "error",
+        "error": {
+          "code": "unsafe_api_link",
+          "message": "WHO returned a link outside the approved GHO API.",
+          "details": {
+            "url": "https://example.com/untrusted-page"
+          }
+        }
+      },
+      "elapsed_seconds": 0.078,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "indicator_no_data_classification",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "indicator_no_data"
+      },
+      "elapsed_seconds": 0.062,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "forced_live_pagination",
+      "operation": "pagination",
+      "contract": "passed",
+      "review_status": "not_applicable",
+      "review_criteria": [],
+      "observed": {
+        "status": "ok",
+        "rows": 24,
+        "locations": [
+          "WPR"
+        ],
+        "years": [
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023
+        ],
+        "provenance": {
+          "query_url": "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=7&%24skip=0&%24count=true",
+          "urls": [
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=7&%24skip=0&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=7&%24skip=7&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=7&%24skip=14&%24count=true",
+            "https://ghoapi.azureedge.net/api/UHC_INDEX_REPORTED?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27REGION%27%20and%20SpatialDim%20in%20%28%27WPR%27%29&%24top=7&%24skip=21&%24count=true"
+          ],
+          "pages": 4,
+          "row_count": 24,
+          "declared_count": 24,
+          "complete": true,
+          "pagination": "count-verified nextLink/skip",
+          "retrieved_at": "2026-09-09T05:29:24.441600+00:00",
+          "source": "WHO GHO"
+        }
+      },
+      "elapsed_seconds": 0.657,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    },
+    {
+      "id": "preserve_source_missingness",
+      "operation": "fixture",
+      "contract": "passed",
+      "review_status": "manual_review_pending",
+      "review_criteria": [
+        "Preserve text values, null numeric values, disaggregation, and unknown location missingness."
+      ],
+      "observed": {
+        "status": "ok"
+      },
+      "elapsed_seconds": 0.047,
+      "executed_at": "2026-09-09T05:29:24.487490+00:00"
+    }
+  ]
+}

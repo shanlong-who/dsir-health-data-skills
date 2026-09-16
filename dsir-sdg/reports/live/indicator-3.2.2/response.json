@@ -1,0 +1,1254 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.2",
+    "code": "3.2.2",
+    "description": "Neonatal mortality rate",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.2.2",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.2"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_NMRTN",
+        "description": "Neonatal deaths (number)",
+        "uri": "/v1/sdg/Series/SH_DYN_NMRTN"
+      },
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.2"
+        ],
+        "indicator": [
+          "3.2.2"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_DYN_NMRT",
+        "description": "Neonatal mortality rate (deaths per 1,000 live births)",
+        "uri": "/v1/sdg/Series/SH_DYN_NMRT"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.2"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_NMRT",
+      "description": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "uri": "/v1/sdg/Series/SH_DYN_NMRT"
+    },
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "indicator": [
+        "3.2.2"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_DYN_NMRTN",
+      "description": "Neonatal deaths (number)",
+      "uri": "/v1/sdg/Series/SH_DYN_NMRTN"
+    }
+  ],
+  "query": {
+    "indicator": "3.2.2",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 20,
+  "retrieved_row_count": 50,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "row_count": 20
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Age",
+        "codes": [
+          {
+            "code": "<1M",
+            "description": "under 1 month old",
+            "sdmx": "M0"
+          }
+        ]
+      },
+      {
+        "id": "Location",
+        "codes": [
+          {
+            "code": "RURAL",
+            "description": "Rural",
+            "sdmx": "R"
+          },
+          {
+            "code": "ALLAREA",
+            "description": "All areas",
+            "sdmx": "_T"
+          },
+          {
+            "code": "URBAN",
+            "description": "Urban",
+            "sdmx": "U"
+          }
+        ]
+      },
+      {
+        "id": "Sex",
+        "codes": [
+          {
+            "code": "FEMALE",
+            "description": "Female",
+            "sdmx": "F"
+          },
+          {
+            "code": "MALE",
+            "description": "Male",
+            "sdmx": "M"
+          },
+          {
+            "code": "BOTHSEX",
+            "description": "Both sexes",
+            "sdmx": "_T"
+          }
+        ]
+      },
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "CA",
+            "description": "Country adjusted data",
+            "sdmx": "CA"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "G",
+            "description": "Global monitoring data",
+            "sdmx": "G"
+          },
+          {
+            "code": "M",
+            "description": "Modeled data",
+            "sdmx": "M"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          },
+          {
+            "code": "NA",
+            "description": "Data nature not available",
+            "sdmx": "_X"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "NUMBER",
+            "description": "Number",
+            "sdmx": "NUMBER"
+          },
+          {
+            "code": "PER_1000_LIVE_BIRTHS",
+            "description": "Per 1,000 live births",
+            "sdmx": "PER_1000_LIVE_BIRTHS"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "warning",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "multiple_strata",
+        "message": "Multiple series, dimensions or units remain. Report separately or clarify the intended population; do not sum/average them."
+      }
+    ],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_DYN_NMRTN",
+        "dimensions": {
+          "Age": "<1M",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "NUMBER",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      },
+      {
+        "location": "608",
+        "series": "SH_DYN_NMRT",
+        "dimensions": {
+          "Age": "<1M",
+          "Location": "ALLAREA",
+          "Reporting Type": "G",
+          "Sex": "BOTHSEX"
+        },
+        "unit": "PER_1000_LIVE_BIRTHS",
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "rows": 10
+      }
+    ],
+    "row_count": 20,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "32665",
+      "value_num": 32665.0,
+      "low": 28469.0,
+      "high": 37436.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2015,
+      "value": "13.52542121",
+      "value_num": 13.52542121,
+      "low": 11.7875,
+      "high": 15.5012,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "31824",
+      "value_num": 31824.0,
+      "low": 27506.0,
+      "high": 36877.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2016,
+      "value": "13.68856634",
+      "value_num": 13.68856634,
+      "low": 11.8307,
+      "high": 15.8623,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "30925",
+      "value_num": 30925.0,
+      "low": 26330.0,
+      "high": 36449.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "13.88867462",
+      "value_num": 13.88867462,
+      "low": 11.8248,
+      "high": 16.37,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "30001",
+      "value_num": 30001.0,
+      "low": 25071.0,
+      "high": 36081.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2018,
+      "value": "14.09815066",
+      "value_num": 14.09815066,
+      "low": 11.7808,
+      "high": 16.9556,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "28664",
+      "value_num": 28664.0,
+      "low": 23410.0,
+      "high": 35345.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2019,
+      "value": "14.26671907",
+      "value_num": 14.26671907,
+      "low": 11.6514,
+      "high": 17.593,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "27439",
+      "value_num": 27439.0,
+      "low": 21807.0,
+      "high": 34772.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "14.36765298",
+      "value_num": 14.36765298,
+      "low": 11.4186,
+      "high": 18.2081,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "26141",
+      "value_num": 26141.0,
+      "low": 20239.0,
+      "high": 34132.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "14.33231131",
+      "value_num": 14.33231131,
+      "low": 11.0959,
+      "high": 18.7145,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "25888",
+      "value_num": 25888.0,
+      "low": 19509.0,
+      "high": 34842.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "14.15168342",
+      "value_num": 14.15168342,
+      "low": 10.664,
+      "high": 19.047,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "25588",
+      "value_num": 25588.0,
+      "low": 18701.0,
+      "high": 35357.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2023,
+      "value": "13.90780057",
+      "value_num": 13.90780057,
+      "low": 10.1638,
+      "high": 19.2184,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal deaths (number)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "25061",
+      "value_num": 25061.0,
+      "low": 17810.0,
+      "high": 35624.0,
+      "series": "SH_DYN_NMRTN",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.2.2",
+      "indicator": "Neonatal mortality rate (deaths per 1,000 live births)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2024,
+      "value": "13.61345752",
+      "value_num": 13.61345752,
+      "low": 9.67453,
+      "high": 19.3528,
+      "series": "SH_DYN_NMRT",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 10,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 2,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 3,
+      "raw_row_index": 11,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 4,
+      "raw_row_index": 2,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 5,
+      "raw_row_index": 12,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 6,
+      "raw_row_index": 3,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 7,
+      "raw_row_index": 13,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 8,
+      "raw_row_index": 4,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 9,
+      "raw_row_index": 14,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 10,
+      "raw_row_index": 5,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 11,
+      "raw_row_index": 15,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 12,
+      "raw_row_index": 6,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 13,
+      "raw_row_index": 16,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 14,
+      "raw_row_index": 7,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 15,
+      "raw_row_index": 17,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 16,
+      "raw_row_index": 8,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 17,
+      "raw_row_index": 18,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 18,
+      "raw_row_index": 9,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "NUMBER"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 19,
+      "raw_row_index": 19,
+      "indicator": [
+        "3.2.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.2"
+      ],
+      "dimensions": {
+        "Age": "<1M",
+        "Location": "ALLAREA",
+        "Sex": "BOTHSEX",
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PER_1000_LIVE_BIRTHS"
+      },
+      "source": "UN_IGME",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.2&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:31:49.527112+00:00",
+        "attempt": 1,
+        "bytes": 28789,
+        "sha256": "462fa16c60cba256586a7af7e7bc85344719b20f428acd2a68d770ad8684da7b"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:31:49.536987+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

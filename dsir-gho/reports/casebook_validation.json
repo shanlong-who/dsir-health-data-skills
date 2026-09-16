@@ -1,0 +1,10 @@
+{
+  "kind": "local_casebook_schema_validation",
+  "model_evaluated": false,
+  "generated_at": "2026-09-09T05:35:13.031001+00:00",
+  "total_cases": 46,
+  "non_synthetic_questions": 33,
+  "non_synthetic_health_data_questions": 29,
+  "synthetic_cases": 13,
+  "required_fields_valid": true
+}

@@ -1,0 +1,224 @@
+{
+  "status": "ok",
+  "query": "measles",
+  "expanded_queries": [
+    "measles"
+  ],
+  "candidates": [
+    {
+      "code": "WHS3_62",
+      "name": "Measles - number of reported cases",
+      "language": "EN",
+      "description": "Measles cases reported through surveillance. Reported cases are not necessarily all infections or estimated incidence.",
+      "unit": "reported cases",
+      "type": "count",
+      "metadata_source": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/measles---number-of-reported-cases",
+      "score": 808.75,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "mslv",
+      "name": "Measles immunization coverage among one-year-olds (%)",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('mslv')",
+      "score": 805.49,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "WHS2_168",
+      "name": "Distribution of causes of death among children aged <5 years (%) - Measles",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('WHS2_168')",
+      "score": 804.058,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "WHS8_110",
+      "name": "Measles-containing-vaccine first-dose (MCV1) immunization coverage among 1-year-olds (%) (WUENIC)",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('WHS8_110')",
+      "score": 803.077,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "MCV2",
+      "name": "Measles-containing-vaccine second-dose (MCV2) immunization coverage by the locally recommended age (%) (WUENIC)",
+      "language": "EN",
+      "description": null,
+      "unit": "%",
+      "type": "percentage",
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('MCV2')",
+      "score": 802.667,
+      "relevance": [
+        "partial official name"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "SA_0000001730",
+      "name": "Price measures",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('SA_0000001730')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "SA_0000001730_ARCHIVED",
+      "name": "Price measures",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('SA_0000001730_ARCHIVED')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "SA_0000001650",
+      "name": "Standard drink measures, in grams per unit",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('SA_0000001650')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "SA_0000001650_ARCHIVED",
+      "name": "Standard drink measures, in grams per unit",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('SA_0000001650_ARCHIVED')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "RADON_Q701",
+      "name": "Mandatory preventive measures (new buildings)",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('RADON_Q701')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "ORALHEALTH_DENTALAMALGAMPHASEDOWN",
+      "name": "Measures to phase down the use of dental amalgam",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('ORALHEALTH_DENTALAMALGAMPHASEDOWN')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "SA_0000001721",
+      "name": "Importance of measures for enhancing compliance with age limits",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('SA_0000001721')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "SA_0000001721_ARCHIVED",
+      "name": "Importance of measures for enhancing compliance with age limits",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('SA_0000001721_ARCHIVED')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "ORALHEALTH_FREESUGARSREDUCTION",
+      "name": "Implementing policy measures aiming to reduce free sugars intake",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('ORALHEALTH_FREESUGARSREDUCTION')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    },
+    {
+      "code": "RADON_Q702",
+      "name": "Mandatory mitigation measures if legal value is exceeded (existing buildings)",
+      "language": "EN",
+      "description": null,
+      "unit": null,
+      "type": null,
+      "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('RADON_Q702')",
+      "score": 480.0,
+      "relevance": [
+        "fuzzy keyword match; review before selection"
+      ],
+      "verified_in_catalogue": true
+    }
+  ],
+  "total_matches": 15,
+  "selection_notes": [],
+  "catalogue_source": "https://ghoapi.azureedge.net/api/Indicator",
+  "catalogue_size": 3098,
+  "note": "Search rank is not a clinical decision. Check population, unit, method and dimensions."
+}

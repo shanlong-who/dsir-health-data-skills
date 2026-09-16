@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "query": "child mortality",
+  "expanded_query": "under five mortality",
+  "matches": [
+    {
+      "indicator_code": "3.2.1",
+      "series_code": "SH_DYN_MORT",
+      "name": "Under-five mortality rate, by sex (deaths per 1,000 live births)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 92.4,
+      "relevance": "all keywords match"
+    },
+    {
+      "indicator_code": "3.2.1",
+      "series_code": "SH_DYN_MORTN",
+      "name": "Under-five deaths (number)",
+      "type": "series",
+      "release": "2026.Q2.G.02",
+      "score": 55.11,
+      "relevance": "partial keyword match; compare the official meaning"
+    },
+    {
+      "indicator_code": "3.2.1",
+      "series_code": null,
+      "name": "Under‑5 mortality rate",
+      "type": "indicator",
+      "score": 55.0,
+      "relevance": "partial keyword match; compare the official meaning"
+    }
+  ],
+  "total_matches": 3,
+  "notes": [],
+  "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+  "requests": [
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+      "retrieved_at": "2026-09-16T06:35:36.350336+00:00",
+      "attempt": 1,
+      "bytes": 255827,
+      "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+    },
+    {
+      "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+      "retrieved_at": "2026-09-16T06:35:38.167097+00:00",
+      "attempt": 1,
+      "bytes": 181420,
+      "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+    }
+  ]
+}

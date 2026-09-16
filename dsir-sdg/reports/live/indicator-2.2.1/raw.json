@@ -1,0 +1,2342 @@
+[
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "29.1",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.3",
+    "lowerBound": "28",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "32.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33.8",
+    "lowerBound": "31.2",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "30.8",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32",
+    "lowerBound": "29.6",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "28.7",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30",
+    "lowerBound": "27.6",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "32",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "33.4",
+    "lowerBound": "30.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "30.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.6",
+    "lowerBound": "29.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "29.7",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.8",
+    "lowerBound": "28.5",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "31.3",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.6",
+    "lowerBound": "30.1",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "28",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.2",
+    "lowerBound": "26.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "30.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.9",
+    "lowerBound": "29.2",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "27.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.4",
+    "lowerBound": "26",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "28.8",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.2",
+    "lowerBound": "27.6",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "28.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30",
+    "lowerBound": "27.2",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "30.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.7",
+    "lowerBound": "28.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "26.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.4",
+    "lowerBound": "25.6",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "29.7",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.4",
+    "lowerBound": "28.2",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "28.1",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.7",
+    "lowerBound": "26.5",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "26.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.1",
+    "lowerBound": "25",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "25.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "27.8",
+    "lowerBound": "24.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "29.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.1",
+    "lowerBound": "27.4",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "27.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.4",
+    "lowerBound": "25.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "26.1",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.1",
+    "lowerBound": "24.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "27.7",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "29.7",
+    "lowerBound": "25.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "29.3",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.5",
+    "lowerBound": "27.4",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "26.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.6",
+    "lowerBound": "24.1",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "29.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "31.9",
+    "lowerBound": "27.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "27.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.2",
+    "lowerBound": "25.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "26",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "28.6",
+    "lowerBound": "23.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "27.7",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "30.3",
+    "lowerBound": "25.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNT",
+    "seriesDescription": "Proportion of children moderately or severely stunted (%)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "29.3",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "32.1",
+    "lowerBound": "26.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_POP_U5",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "3734.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3879.7",
+    "lowerBound": "3591.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "2031.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "2116.3",
+    "lowerBound": "1958.4",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "1703",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1776.9",
+    "lowerBound": "1639.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "1963.9",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "2046.2",
+    "lowerBound": "1892.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "1657.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1730.1",
+    "lowerBound": "1594.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "3621.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3760",
+    "lowerBound": "3485.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "1874.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1954.6",
+    "lowerBound": "1804.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "3465",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3602.9",
+    "lowerBound": "3330.1",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "1590.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1661.6",
+    "lowerBound": "1528.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "1790.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1876.5",
+    "lowerBound": "1714.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "1530",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1603",
+    "lowerBound": "1465.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "3320.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3472.5",
+    "lowerBound": "3172.6",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "1751",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1841.4",
+    "lowerBound": "1669.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "3259.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3419.6",
+    "lowerBound": "3104.1",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "1508.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1591.1",
+    "lowerBound": "1434.6",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "3132.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3315.3",
+    "lowerBound": "2956.1",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "1683.8",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1781.9",
+    "lowerBound": "1595.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "1448.8",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1537.8",
+    "lowerBound": "1368.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "1351.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1446.3",
+    "lowerBound": "1266.2",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "1584.2",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1689.4",
+    "lowerBound": "1490",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "2935.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3122.7",
+    "lowerBound": "2755.3",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "1283.8",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1382.6",
+    "lowerBound": "1195.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "2801.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "3004.2",
+    "lowerBound": "2607.4",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "1517.6",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1629.8",
+    "lowerBound": "1417.5",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "2679.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "2902.1",
+    "lowerBound": "2467.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "1222",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1331.7",
+    "lowerBound": "1124.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "1457.5",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1578.6",
+    "lowerBound": "1349.7",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "1388.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1520.8",
+    "lowerBound": "1270.9",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "MALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "2541.8",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "2775.3",
+    "lowerBound": "2320.8",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "BOTHSEX",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "2"
+    ],
+    "target": [
+      "2.2"
+    ],
+    "indicator": [
+      "2.2.1"
+    ],
+    "series": "SH_STA_STNTN",
+    "seriesDescription": "Children moderately or severely stunted (thousands)",
+    "seriesCount": "14850",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2024,
+    "value": "1153.4",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "1268.5",
+    "lowerBound": "1052",
+    "basePeriod": null,
+    "source": "Joint Child Malnutrition Estimates (2025 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "NUM_TH",
+      "Observation Status": "A"
+    },
+    "dimensions": {
+      "Age": "<5Y",
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  }
+]

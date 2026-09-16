@@ -1,0 +1,271 @@
+{
+  "schema_version": "0.1.0",
+  "status": "ok",
+  "indicator": {
+    "goal": "3",
+    "target": "3.1",
+    "code": "3.1.2",
+    "description": "Proportion of births attended by skilled health personnel",
+    "tier": "1",
+    "uri": "/v1/sdg/Indicator/3.1.2",
+    "series": [
+      {
+        "goal": [
+          "3"
+        ],
+        "target": [
+          "3.1"
+        ],
+        "indicator": [
+          "3.1.2"
+        ],
+        "release": "2026.Q2.G.02",
+        "code": "SH_STA_BRTC",
+        "description": "Proportion of births attended by skilled health personnel (%)",
+        "uri": "/v1/sdg/Series/SH_STA_BRTC"
+      }
+    ]
+  },
+  "series_catalogue": [
+    {
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "indicator": [
+        "3.1.2"
+      ],
+      "release": "2026.Q2.G.02",
+      "code": "SH_STA_BRTC",
+      "description": "Proportion of births attended by skilled health personnel (%)",
+      "uri": "/v1/sdg/Series/SH_STA_BRTC"
+    }
+  ],
+  "query": {
+    "indicator": "3.1.2",
+    "locations": [
+      "608"
+    ],
+    "year_from": 2015,
+    "year_to": null,
+    "series": null,
+    "dimensions": {},
+    "attributes": {}
+  },
+  "resolved_locations": null,
+  "row_count": 2,
+  "retrieved_row_count": 7,
+  "pages": 1,
+  "coverage_by_location": [
+    {
+      "location": "608",
+      "years": [
+        2017,
+        2022
+      ],
+      "row_count": 2
+    }
+  ],
+  "metadata": {
+    "dimensions": [
+      {
+        "id": "Reporting Type",
+        "codes": [
+          {
+            "code": "N",
+            "description": "National",
+            "sdmx": "N"
+          },
+          {
+            "code": "G",
+            "description": "Global",
+            "sdmx": "G"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "id": "Nature",
+        "codes": [
+          {
+            "code": "C",
+            "description": "Country data",
+            "sdmx": "C"
+          },
+          {
+            "code": "E",
+            "description": "Estimated data",
+            "sdmx": "E"
+          },
+          {
+            "code": "N",
+            "description": "Non-relevant",
+            "sdmx": "N"
+          }
+        ]
+      },
+      {
+        "id": "Units",
+        "codes": [
+          {
+            "code": "PERCENT",
+            "description": "Percentage",
+            "sdmx": "PT"
+          }
+        ]
+      },
+      {
+        "id": "Observation Status",
+        "codes": [
+          {
+            "code": "A",
+            "description": "Normal value",
+            "sdmx": "A"
+          }
+        ]
+      }
+    ]
+  },
+  "qa": {
+    "status": "pass",
+    "issues": [],
+    "summaries": [
+      {
+        "location": "608",
+        "series": "SH_STA_BRTC",
+        "dimensions": {
+          "Reporting Type": "G"
+        },
+        "unit": "PERCENT",
+        "years": [
+          2017,
+          2022
+        ],
+        "rows": 2
+      }
+    ],
+    "row_count": 2,
+    "missing_numeric": 0
+  },
+  "data": [
+    {
+      "source": "sdg",
+      "id": "3.1.2",
+      "indicator": "Proportion of births attended by skilled health personnel (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2017,
+      "value": "84.4",
+      "value_num": 84.4,
+      "low": null,
+      "high": null,
+      "series": "SH_STA_BRTC",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "sdg",
+      "id": "3.1.2",
+      "indicator": "Proportion of births attended by skilled health personnel (%)",
+      "location": "608",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2022,
+      "value": "89.6",
+      "value_num": 89.6,
+      "low": null,
+      "high": null,
+      "series": "SH_STA_BRTC",
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "indicator": [
+        "3.1.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PERCENT",
+        "Observation Status": "A"
+      },
+      "source": "MNCH_SRC_1797",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "indicator": [
+        "3.1.2"
+      ],
+      "goal": [
+        "3"
+      ],
+      "target": [
+        "3.1"
+      ],
+      "dimensions": {
+        "Reporting Type": "G"
+      },
+      "attributes": {
+        "Nature": "C",
+        "Units": "PERCENT",
+        "Observation Status": "A"
+      },
+      "source": "MNCH_SRC_2865",
+      "footnotes": [],
+      "time_detail": null,
+      "timeCoverage": null,
+      "basePeriod": null,
+      "valueType": "Float",
+      "geoInfoUrl": null
+    }
+  ],
+  "baseline_probe": null,
+  "provenance": {
+    "source": "UN SDG Global Database (UNSD)",
+    "api": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+    "requests": [
+      {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.1.2&pageSize=1000&areaCode=608&page=1",
+        "retrieved_at": "2026-09-16T06:31:46.273438+00:00",
+        "attempt": 1,
+        "bytes": 4411,
+        "sha256": "eadaa52e9c2b9603bd81605183c13d4b867224c00e2d18a1a9bb0f04fa8d805a"
+      }
+    ],
+    "retrieved_at": "2026-09-16T06:31:46.280436+00:00",
+    "skill_version": "0.1.0",
+    "dsir_reference_version": "0.9.0",
+    "dsir_reference_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"
+  },
+  "limitations": [
+    "Official UN observations may include WHO as a custodian; do not relabel this API as WHO GHO.",
+    "The live release may revise historical values and definitions. Do not splice different methodologies.",
+    "Regional observations use the group definition of the current source release; no country averages or historical membership reconstruction were computed.",
+    "The 15-column DSIR core omits SDG dimensions and units; use observation_context and observations.csv when interpreting values."
+  ]
+}

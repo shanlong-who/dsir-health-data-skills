@@ -1,0 +1,235 @@
+{
+  "searches": [
+    {
+      "status": "ok",
+      "query": "UHC SCI",
+      "expanded_query": "universal health coverage service coverage index",
+      "matches": [
+        {
+          "indicator_code": "3.8.1",
+          "series_code": "SH_ACS_UNHC_25",
+          "name": "Universal health coverage (UHC) service coverage index, 2025 methodology",
+          "type": "series",
+          "release": "2026.Q2.G.02",
+          "score": 95.0,
+          "relevance": "all keywords match"
+        }
+      ],
+      "total_matches": 1,
+      "notes": [],
+      "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+      "requests": [
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+          "retrieved_at": "2026-09-16T06:31:40.449708+00:00",
+          "attempt": 1,
+          "bytes": 255827,
+          "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+          "retrieved_at": "2026-09-16T06:31:42.373094+00:00",
+          "attempt": 1,
+          "bytes": 181420,
+          "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+          "retrieved_at": "2026-09-16T06:31:43.577721+00:00",
+          "attempt": 1,
+          "bytes": 27544,
+          "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "query": "maternal mortality",
+      "expanded_query": "maternal mortality",
+      "matches": [
+        {
+          "indicator_code": "3.1.1",
+          "series_code": "SH_STA_MORT",
+          "name": "Maternal mortality ratio",
+          "type": "series",
+          "release": "2026.Q2.G.02",
+          "score": 95.33,
+          "relevance": "all keywords match"
+        },
+        {
+          "indicator_code": "3.1.1",
+          "series_code": null,
+          "name": "Maternal mortality ratio",
+          "type": "indicator",
+          "score": 95.33,
+          "relevance": "all keywords match"
+        }
+      ],
+      "total_matches": 2,
+      "notes": [],
+      "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+      "requests": [
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+          "retrieved_at": "2026-09-16T06:31:40.449708+00:00",
+          "attempt": 1,
+          "bytes": 255827,
+          "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+          "retrieved_at": "2026-09-16T06:31:42.373094+00:00",
+          "attempt": 1,
+          "bytes": 181420,
+          "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+          "retrieved_at": "2026-09-16T06:31:43.577721+00:00",
+          "attempt": 1,
+          "bytes": 27544,
+          "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "query": "TB incidence",
+      "expanded_query": "tuberculosis incidence",
+      "matches": [
+        {
+          "indicator_code": "3.3.2",
+          "series_code": "SH_TBS_INCD",
+          "name": "Tuberculosis incidence (per 100,000 population)",
+          "type": "series",
+          "release": "2026.Q2.G.02",
+          "score": 93.2,
+          "relevance": "all keywords match"
+        },
+        {
+          "indicator_code": "3.3.2",
+          "series_code": null,
+          "name": "Tuberculosis incidence per 100,000 population",
+          "type": "indicator",
+          "score": 93.2,
+          "relevance": "all keywords match"
+        }
+      ],
+      "total_matches": 2,
+      "notes": [],
+      "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+      "requests": [
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+          "retrieved_at": "2026-09-16T06:31:40.449708+00:00",
+          "attempt": 1,
+          "bytes": 255827,
+          "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+          "retrieved_at": "2026-09-16T06:31:42.373094+00:00",
+          "attempt": 1,
+          "bytes": 181420,
+          "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+          "retrieved_at": "2026-09-16T06:31:43.577721+00:00",
+          "attempt": 1,
+          "bytes": 27544,
+          "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+        }
+      ]
+    },
+    {
+      "status": "no_matches",
+      "query": "catastrophic health expenditure above 10%",
+      "expanded_query": "catastrophic health expenditure above 10%",
+      "matches": [],
+      "total_matches": 0,
+      "notes": [
+        "Check the threshold and denominator: a current 40% discretionary-budget series is not a substitute for an older 10%/25% total-budget series. A related search match is not confirmation of the requested definition."
+      ],
+      "source": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg",
+      "requests": [
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/List",
+          "retrieved_at": "2026-09-16T06:31:40.449708+00:00",
+          "attempt": 1,
+          "bytes": 255827,
+          "sha256": "f260c6858480a9d9b27acaebab7ca3050004ed36c7342c9bc5b7e06046cd55e1"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Series/List",
+          "retrieved_at": "2026-09-16T06:31:42.373094+00:00",
+          "attempt": 1,
+          "bytes": 181420,
+          "sha256": "10e3df8435c523eeb7512c4d0c45486429a9c4137d53054625ea9c66ebcc939a"
+        },
+        {
+          "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/GeoArea/List",
+          "retrieved_at": "2026-09-16T06:31:43.577721+00:00",
+          "attempt": 1,
+          "bytes": 27544,
+          "sha256": "80fd4f8501bdb2cf102ac27dd3d03e4f869e5186ff785accf46e082045b8c0cd"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "status": "ok",
+      "locations": [
+        {
+          "input": "WPRO",
+          "code": "99047",
+          "name": "WHO Western Pacific",
+          "iso3": null,
+          "scope_note": "Official UN-published WHO regional group; membership is defined by this release, not reconstructed by historical year."
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "status": "ok",
+      "locations": [
+        {
+          "input": "PHL",
+          "code": "608",
+          "name": "Philippines",
+          "iso3": "PHL",
+          "scope_note": null
+        },
+        {
+          "input": "China",
+          "code": "156",
+          "name": "China",
+          "iso3": "CHN",
+          "scope_note": null
+        },
+        {
+          "input": "Japan",
+          "code": "392",
+          "name": "Japan",
+          "iso3": "JPN",
+          "scope_note": null
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "status": "ok",
+      "locations": [
+        {
+          "input": "Congo",
+          "code": "178",
+          "name": "Congo",
+          "iso3": "COG",
+          "scope_note": null
+        }
+      ],
+      "unresolved": []
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2015,
+    "value": "103.51507",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "126.87041",
+    "lowerBound": "86.59277",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2016,
+    "value": "97.95528",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "120.71005",
+    "lowerBound": "81.05303",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2017,
+    "value": "85.87139",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "107.40585",
+    "lowerBound": "70.57523",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2018,
+    "value": "92.4242",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "118.14744",
+    "lowerBound": "75.57691",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2019,
+    "value": "91.94279",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "119.26921",
+    "lowerBound": "74.14899",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2020,
+    "value": "88.45692",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "118.33032",
+    "lowerBound": "71.14937",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2021,
+    "value": "152.67588",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "252.08325",
+    "lowerBound": "101.52507",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2022,
+    "value": "92.29797",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "130.16507",
+    "lowerBound": "71.87944",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  },
+  {
+    "goal": [
+      "3"
+    ],
+    "target": [
+      "3.1"
+    ],
+    "indicator": [
+      "3.1.1"
+    ],
+    "series": "SH_STA_MORT",
+    "seriesDescription": "Maternal mortality ratio",
+    "seriesCount": "5640",
+    "geoAreaCode": "608",
+    "geoAreaName": "Philippines",
+    "timePeriodStart": 2023,
+    "value": "83.75268",
+    "valueType": "Float",
+    "time_detail": null,
+    "timeCoverage": null,
+    "upperBound": "119.25994",
+    "lowerBound": "64.02125",
+    "basePeriod": null,
+    "source": "MMEIG estimates available at https://www.who.int/publications/i/item/9789240108462",
+    "geoInfoUrl": null,
+    "footnotes": [
+      ""
+    ],
+    "attributes": {
+      "Nature": "M",
+      "Units": "PER_100000_LIVE_BIRTHS"
+    },
+    "dimensions": {
+      "Sex": "FEMALE",
+      "Reporting Type": "G"
+    }
+  }
+]

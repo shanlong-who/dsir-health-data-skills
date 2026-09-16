@@ -1,0 +1,102 @@
+[
+  {
+    "directory": "wpro-uhc",
+    "file": "dsir_clean.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "wpro-uhc",
+    "file": "observations.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "wpro-uhc",
+    "file": "raw.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "wpro-uhc",
+    "file": "response.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "wpro-uhc",
+    "file": "row counts",
+    "hash_matches": true
+  },
+  {
+    "directory": "country-uhc",
+    "file": "dsir_clean.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "country-uhc",
+    "file": "observations.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "country-uhc",
+    "file": "raw.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "country-uhc",
+    "file": "response.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "country-uhc",
+    "file": "row counts",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb",
+    "file": "dsir_clean.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb",
+    "file": "observations.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb",
+    "file": "raw.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb",
+    "file": "response.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb",
+    "file": "row counts",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb-inspect",
+    "file": "dsir_clean.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb-inspect",
+    "file": "observations.csv",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb-inspect",
+    "file": "raw.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb-inspect",
+    "file": "response.json",
+    "hash_matches": true
+  },
+  {
+    "directory": "phl-tb-inspect",
+    "file": "row counts",
+    "hash_matches": true
+  }
+]
