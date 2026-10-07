@@ -14,15 +14,24 @@ from locations import resolve_locations
 from clean import clean_records, CORE_FIELDS, _as_string, _as_integer
 from qa import qa_records
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
+REFERENCE = json.loads((Path(__file__).resolve().parents[1] / "references/metadata/dsir_reference.json").read_text(encoding="utf-8"))
 
 
 def build_response(result, client, resolved=None):
     raw = result["records"]
     data = clean_records(raw, client.catalogue())
     query = result["query"]
-    expected = {**query, **query["dimensions"]}
+    expected = {**query, **{k: v for k, v in query["dimensions"].items() if k in {"dim1", "dim2", "dim3"}}}
     qa = qa_records(data, raw=raw, expected=expected)
+    if client.backend == "xmart":
+        for field, allowed in query["dimensions"].items():
+            if field not in {"dim1", "dim2", "dim3"} and any(
+                    not client._xmart.matches_named_dimension(row, field, allowed)
+                    for row in result["source_records"]):
+                qa["issues"].append({"severity": "error", "code": "named_dimension_filter_mismatch",
+                                     "message": f"Returned rows violate the requested {field} filter."})
+                qa["status"] = "fail"
     meta = basic_metadata(result["indicator"])
     summaries, metadata_errors = {}, []
     for number in range(1, 4):
@@ -40,10 +49,11 @@ def build_response(result, client, resolved=None):
             values += [{"type": dimension or None, "code": code, "label": lookup.get(code)}
                        for dim, code in pairs if dim == dimension]
         summaries[code_key.lower()] = values
-    context_fields = ["Id", "SpatialDimType", "SpatialDim", "TimeDim", "TimeDimType",
+    context_fields = ["Id", "SpatialDimType", "SpatialDimTypeOriginal", "SpatialDim", "SpatialName", "TimeDim", "TimeDimType",
                       "Dim1Type", "Dim1", "Dim2Type", "Dim2", "Dim3Type", "Dim3",
                       "ParentLocationCode", "ParentLocation", "DataSourceDimType", "DataSourceDim",
-                      "Comments", "Date", "TimeDimensionValue", "TimeDimensionBegin", "TimeDimensionEnd"]
+                      "Comments", "Date", "TimeDimensionValue", "TimeDimensionBegin", "TimeDimensionEnd", "Unit", "MeasureField"]
+    context_fields += sorted({field for row in raw for field in row if field.startswith("DIM_")})
     # Keep the WHO Id with all raw context; core `id` is the indicator code in DSIR.
     raw_order = sorted(enumerate(raw), key=lambda pair: (
         _as_string(pair[1].get("SpatialDim")) is None, _as_string(pair[1].get("SpatialDim")) or "",
@@ -74,16 +84,17 @@ def build_response(result, client, resolved=None):
             "available_years_in_result": years, "coverage_by_location": coverage, "row_count": len(data),
             "dimension_summary": summaries, "metadata_errors": metadata_errors, "qa": qa,
             "provenance": {**result["provenance"], "requests": client.trace,
-                           "skill_version": VERSION, "reference_dsir_version": "0.9.0",
-                           "reference_dsir_commit": "e2ff6735d174769b55f9a3e55f9f36c75ce9f397"},
+                           "skill_version": VERSION, "reference_dsir_version": "0.11.0",
+                           "reference_dsir_commit": "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5",
+                           "reference_source_sha256": REFERENCE["source_hashes"]},
             "baseline_probe": result.get("baseline_probe"), "data": data,
             "observation_context": context,
             "limitations": ["A WHO release may revise past observations. Retrieval time is not the observation year.",
                             "All returned strata are preserved. Do not sum or average rows with different dimensions or sources.",
-                            "WHO has announced retirement of this GHO API; availability is checked for each run."]}
+                            "The public xMart directory differs from the legacy GHO catalogue. No backend fallback or code substitution is performed."]}
 
 
-def write_result(output_dir, response, raw):
+def write_result(output_dir, response, raw, source_raw=None):
     destination = Path(output_dir).expanduser().resolve()
     try:
         destination.mkdir(parents=True, exist_ok=False)
@@ -98,15 +109,22 @@ def write_result(output_dir, response, raw):
         writer.writeheader()
         writer.writerows(response["data"])
     files = {"response_json": str(json_path), "raw_json": str(raw_path), "data_csv": str(csv_path)}
+    paths = [json_path, raw_path, csv_path]
+    if source_raw is not None:
+        source_path = destination / "source_raw.json"
+        source_path.write_text(json.dumps(source_raw, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+        paths.append(source_path)
+        files["source_raw_json"] = str(source_path)
     manifest = {"created_at": utc_now(), "files": {path.name: hashlib.sha256(path.read_bytes()).hexdigest()
-                                                   for path in (json_path, raw_path, csv_path)}}
+                                                   for path in paths}}
     (destination / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     return files
 
 
 def parser():
     root = argparse.ArgumentParser(description="Discover and retrieve public WHO GHO data, without R.")
-    root.add_argument("--page-size", type=int, default=1000)
+    root.add_argument("--page-size", type=int, default=5000)
+    root.add_argument("--backend", choices=["xmart", "legacy"], default="xmart")
     commands = root.add_subparsers(dest="command", required=True)
     commands.add_parser("doctor", help="Check Python and actual WHO API connectivity.")
     search = commands.add_parser("search")
@@ -125,6 +143,8 @@ def parser():
     get.add_argument("--year-to", type=int)
     for number in range(1, 4):
         get.add_argument(f"--dim{number}", nargs="+")
+    get.add_argument("--dimension", action="append", nargs="+", metavar="FIELD_OR_CODE",
+                     help="Exact named xMart field followed by native codes; repeat for multiple fields.")
     get.add_argument("--output-dir", required=True, help="New directory for complete JSON, CSV and raw observations.")
     return root
 
@@ -132,13 +152,13 @@ def parser():
 def main(argv=None):
     args = parser().parse_args(argv)
     try:
-        client = GHOClient(page_size=args.page_size)
+        client = GHOClient(backend=args.backend, page_size=args.page_size)
         if args.command == "doctor":
-            probe = client.collection("Indicator", {"$top": 1})
-            if not probe["records"] or "IndicatorCode" not in probe["records"][0]:
+            probe = client.catalogue()
+            if not probe or "IndicatorCode" not in probe[0]:
                 raise GHOError("invalid_response", "WHO catalogue connectivity check returned no valid entry.")
             output = {"status": "ok", "python_version": sys.version.split()[0],
-                      "r_required": False, "who_api_access": True, "source": BASE_URL,
+                      "r_required": False, "who_api_access": True, "source": client.base_url, "backend": client.backend,
                       "checked_at": utc_now(), "note": "This check applies to this execution environment only."}
         elif args.command == "search":
             output = search_indicators(args.query, client=client, limit=args.limit)
@@ -157,9 +177,13 @@ def main(argv=None):
                 raise GHOError("invalid_query", "Query countries and regional aggregates separately.")
             spatial_type = next(iter(types)) if types else args.spatial_type
             dimensions = {f"dim{i}": getattr(args, f"dim{i}") for i in range(1, 4) if getattr(args, f"dim{i}")}
+            for restriction in args.dimension or []:
+                if len(restriction) < 2 or restriction[0] in dimensions:
+                    raise GHOError("invalid_query", "Each named dimension must be unique and supply at least one native code.")
+                dimensions[restriction[0]] = restriction[1:]
             result = client.get_gho_data(args.indicator, codes, args.year_from, args.year_to, dimensions, spatial_type)
             response = build_response(result, client, resolved)
-            files = write_result(args.output_dir, response, result["records"])
+            files = write_result(args.output_dir, response, result["records"], result.get("source_records"))
             output = {key: value for key, value in response.items() if key not in {"data", "observation_context"}}
             output.update({"files": files, "preview": response["data"][:12],
                            "preview_is_complete": len(response["data"]) <= 12,

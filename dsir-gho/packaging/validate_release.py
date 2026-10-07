@@ -48,16 +48,21 @@ def validate(archive_path, work_dir, live=False):
     if live:
         result = subprocess.run(base_command + ["doctor"], env=environment, capture_output=True, text=True, encoding="utf-8", timeout=180)
         doctor = json.loads(result.stdout)
-        assert result.returncode == 0 and doctor["status"] == "ok", doctor
+        report["doctor"] = doctor
+        if result.returncode != 0 or doctor["status"] != "ok":
+            report.update(live_passed=False, live_status="failed_directory_check", live_error=doctor)
+            return report
         output_dir = workspace / "live-wpr"
         result = subprocess.run(base_command + ["--page-size", "7", "get", "UHC_INDEX_REPORTED", "--locations", "WPRO",
                                                 "--output-dir", str(output_dir)], env=environment,
                                 capture_output=True, text=True, encoding="utf-8", timeout=240)
         summary = json.loads(result.stdout)
-        assert result.returncode == 0 and summary["status"] == "ok", summary
+        if result.returncode != 0 or summary["status"] != "ok":
+            report.update(live_passed=False, live_status="failed_retrieval", live_error=summary)
+            return report
         response = json.loads((output_dir / "response.json").read_text(encoding="utf-8"))
         assert response["provenance"]["complete"] and response["qa"]["status"] == "pass"
-        report.update(doctor=doctor, live_status=response["status"], live_rows=response["row_count"],
+        report.update(live_passed=True, doctor=doctor, live_status=response["status"], live_rows=response["row_count"],
                       live_years=response["available_years_in_result"], live_pages=response["provenance"]["pages"],
                       live_qa=response["qa"]["status"], live_evidence=str(output_dir))
     return report
@@ -74,3 +79,4 @@ if __name__ == "__main__":
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, indent=2))
+    raise SystemExit(1 if args.live and not report.get("live_passed") else 0)

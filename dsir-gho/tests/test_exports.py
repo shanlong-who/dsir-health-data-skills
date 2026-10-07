@@ -4,16 +4,20 @@ import json
 import sys
 import tempfile
 import unittest
+import csv
+import io
+from contextlib import redirect_stdout
+from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from cli import build_response, write_result
+from cli import build_response, write_result, main
 from gho_client import GHOClient, GHOError
 
 
 class ExportTests(unittest.TestCase):
     def build(self):
-        client = GHOClient()
+        client = GHOClient(backend="legacy")
         client._catalogue = [{"IndicatorCode": "X", "IndicatorName": "Synthetic measure"}]
         records = [
             {"Id": 10, "IndicatorCode": "X", "SpatialDim": "PHL", "SpatialDimType": "COUNTRY", "TimeDim": 2021, "NumericValue": 7, "Value": "NA"},
@@ -48,6 +52,28 @@ class ExportTests(unittest.TestCase):
             with self.assertRaises(GHOError) as caught:
                 write_result(output, response, records)
             self.assertEqual(caught.exception.code, "output_exists")
+
+    def test_xmart_cli_exports_native_raw_without_changing_core_schema(self):
+        from test_xmart import FixtureTransport, wide
+        from clean import CORE_FIELDS
+        client = GHOClient(transport=FixtureTransport())
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "fresh"
+            stream = io.StringIO()
+            with patch("cli.GHOClient", return_value=client), redirect_stdout(stream):
+                status = main(["get", "TEST", "--locations", "PHL", "--dimension", "DIM_SEX", "FEMALE",
+                               "--output-dir", str(output)])
+            self.assertEqual(status, 0, stream.getvalue())
+            self.assertEqual(json.loads((output / "source_raw.json").read_text()), [wide()])
+            with (output / "data.csv").open(encoding="utf-8-sig", newline="") as handle:
+                self.assertEqual(next(csv.reader(handle)), list(CORE_FIELDS))
+            manifest = json.loads((output / "manifest.json").read_text())
+            self.assertEqual(len(manifest["files"]), 4)
+            for name, digest in manifest["files"].items():
+                self.assertEqual(hashlib.sha256((output / name).read_bytes()).hexdigest(), digest)
+            response = json.loads((output / "response.json").read_text())
+            self.assertEqual(response["provenance"]["backend"], "xmart")
+            self.assertEqual(response["observation_context"][0]["raw_row_index"], 0)
 
 
 if __name__ == "__main__":

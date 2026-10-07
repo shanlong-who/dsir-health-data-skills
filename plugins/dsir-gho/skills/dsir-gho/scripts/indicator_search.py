@@ -23,6 +23,10 @@ def _load(name):
 
 def basic_metadata(entry):
     code, name = entry["IndicatorCode"], entry["IndicatorName"]
+    if "MetadataSource" in entry:
+        return {"definition": None, "unit": entry.get("Unit"), "type": None,
+                "metadata_source": entry["MetadataSource"], "metadata_reviewed_on": None,
+                "metadata_basis": "live WHO public xMart directory; definition not supplied"}
     registry = _load("indicator_notes.json")
     note = registry["indicators"].get(code)
     if note and note["official_name"] == name:
@@ -111,10 +115,13 @@ def describe_indicator(indicator_code, client=None):
     code = entry["IndicatorCode"]
     declared = client.indicator_dimensions(code)
     fields = ["TimeDim", "SpatialDimType", "Dim1Type", "Dim1", "Dim2Type", "Dim2", "Dim3Type", "Dim3"]
-    coverage = client.collection(code, {"$select": ",".join(fields), "$orderby": "Id"}, paged=True)
+    coverage = (client.get_gho_data(code) if client.backend == "xmart" else
+                client.collection(code, {"$select": ",".join(fields), "$orderby": "Id"}, paged=True))
     rows = coverage["records"]
     years = sorted({r["TimeDim"] for r in rows if isinstance(r.get("TimeDim"), int)})
     observed = {}
+    named = {field: sorted({r[field] for r in rows if r.get(field) is not None})
+             for field in sorted({field for r in rows for field in r if field.startswith("DIM_")})}
     for number in range(1, 4):
         type_key, value_key = f"Dim{number}Type", f"Dim{number}"
         pairs = sorted({(str(r.get(type_key) or ""), str(r[value_key])) for r in rows if r.get(value_key) is not None})
@@ -122,6 +129,7 @@ def describe_indicator(indicator_code, client=None):
     return {"status": "ok", "code": code, "name": entry["IndicatorName"],
             **basic_metadata(entry), "available_dimensions": declared,
             "observed_dimension_values": observed, "available_years": years,
+            "observed_named_dimension_values": named,
             "spatial_types": sorted({r["SpatialDimType"] for r in rows if r.get("SpatialDimType")}),
             "coverage_scope": "All observations for this indicator, before user filters; years need not be available in every location.",
             "observation_count": len(rows), "provenance": coverage["provenance"]}

@@ -1,5 +1,9 @@
 # WHO API and metadata audit
 
+Historical legacy evidence. See [xMart behavior](../references/xmart_behavior.md)
+and [current validation](../reports/VALIDATION.md) for the DSIR 0.11.0 migration.
+This older audit is not a new xMart live check.
+
 Verified on 9 September 2026 using public WHO endpoints. This document records observations; the skill must refresh metadata and data at execution time. Files in `reports/` and the development `.runtime/new-gho-audit/` directory are test evidence, never runtime indicator data.
 
 ## Current endpoints and lifecycle

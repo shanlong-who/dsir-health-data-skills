@@ -1,0 +1,29 @@
+{
+  "source_dir": "<DSIR_SOURCE>",
+  "source_revision": "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5",
+  "source_files": [
+    "R/http.R",
+    "R/clean_schema.R",
+    "R/clean_metadata.R",
+    "R/who_backend.R",
+    "R/who_gho.R",
+    "R/who_legacy.R",
+    "R/gho.R",
+    "DESCRIPTION",
+    "data/who_countries.rda"
+  ],
+  "source_hashes": {
+    "R/http.R": "ec25d8707696938b51f3498740ed1d8a6b9ed09b2823850d75e59421c47b28a9",
+    "R/clean_schema.R": "5e6a336d87d12e9c82864e8bd15c4e2b223a3db9f3a461eaf9f2a886f3752e51",
+    "R/clean_metadata.R": "f10c3bc865abad9f34d33822f936a9aa630bd7bce530e95ff8e4bfbebb4ca319",
+    "R/who_backend.R": "937ae95ae085b2083c472394a602e6029185f5b87baacae25c35f158858d31bb",
+    "R/who_gho.R": "f6659d1de9dafd55d2320afe3fc8be4d1707a8fba942b20315e019a74980b5a0",
+    "R/who_legacy.R": "424edc1232bd4f60ea5f543f353485f34bfc4c34534f485789dc9a5e7c23524e",
+    "R/gho.R": "dcdc79177087169e7bf9ec3a4da9545824241edebab04dc0ee391e91a2806ee5",
+    "DESCRIPTION": "c56b95844f4e97f569b8c4118cf3fd16315749be5e225ba2728b210cd482c1e4",
+    "data/who_countries.rda": "6509eb42b1cf5d56a1f73103a808f7a6360e4f38ce7fa20a77cd4a2e35568f36"
+  },
+  "common_raw_path": "<REPORT_DIR>/common_raw_input.json",
+  "offline": true,
+  "queries": []
+}

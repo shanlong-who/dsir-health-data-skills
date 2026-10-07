@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-07T08:33:00.876463+08:00",
+  "archive": "dsir-gho-0.1.1.zip",
+  "archive_sha256": "cdfcb748d581daf2afe93d32384f42aa2f424f77d7e63f7e6dd3316dc8c1fd31",
+  "entries": 26,
+  "static_checks": "pass",
+  "python": "3.14.6",
+  "path_empty": true,
+  "r_home_unavailable": true,
+  "import_and_help": "pass",
+  "live_checked": true,
+  "doctor": {
+    "status": "error",
+    "error": {
+      "code": "unsafe_api_link",
+      "message": "WHO returned a link outside the approved GHO API.",
+      "details": {
+        "url": "http://www.who.int/sorry/",
+        "request_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+        "http_status": 302,
+        "backend": "xmart"
+      }
+    }
+  },
+  "live_passed": false,
+  "live_status": "failed_directory_check",
+  "live_error": {
+    "status": "error",
+    "error": {
+      "code": "unsafe_api_link",
+      "message": "WHO returned a link outside the approved GHO API.",
+      "details": {
+        "url": "http://www.who.int/sorry/",
+        "request_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+        "http_status": 302,
+        "backend": "xmart"
+      }
+    }
+  }
+}

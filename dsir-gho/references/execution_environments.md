@@ -8,6 +8,11 @@ Resolve the client from the actual skill location and run `doctor` before the fi
 
 Do not replace TLS verification, alter proxy settings, disable a sandbox, install an unrequested runtime, or route around workspace restrictions to make a failed check pass. Report the concrete requirement and use the host's normal permission mechanism when available.
 
+Default requests use public production `xmart-api-public.who.int`. Explicit legacy
+mode uses `ghoapi.azureedge.net`. One-row probes do not establish complete directory
+access. Redirects to WHO's HTML sorry page are failures, never empty data or a
+reason to select a different backend.
+
 ## Local Codex
 
 The provided installers copy the skill to `~/.agents/skills/dsir-gho` and refuse an existing destination. Alternatively, copy the complete folder there manually. OpenAI documents user-level skills in `$HOME/.agents/skills` and repository skills in `.agents/skills`. Codex normally detects changes; restart if the skill is not visible. Invoke it with `$dsir-gho` in Codex CLI or the IDE extension. [Build skills](https://learn.chatgpt.com/docs/build-skills).

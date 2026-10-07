@@ -7,7 +7,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 RUNTIME_DIRS = {"agents", "scripts", "references", "packaging"}
 RUNTIME_ROOT = {"SKILL.md", "README.md", "DESIGN.md", "LICENSE"}
 
@@ -32,7 +32,7 @@ def build(destination):
         output = destination / f"dsir-gho-{VERSION}{suffix}.zip"
         with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
             for path, relative in files(source):
-                info = zipfile.ZipInfo("dsir-gho/" + relative.as_posix(), (2026, 9, 9, 0, 0, 0))
+                info = zipfile.ZipInfo("dsir-gho/" + relative.as_posix(), (2026, 10, 7, 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 content = path.read_bytes()
                 if not source and relative.as_posix() == "README.md":
@@ -40,7 +40,7 @@ def build(destination):
                     start = text.find("## Tests and evaluation")
                     end = text.find("\n## ", start + 4) if start >= 0 else -1
                     if start >= 0:
-                        text = text[:start] + "## Tests and evaluation\n\nThe separate source archive contains the test scripts, 46 evaluation cases, and validation reports. These maintainer files and recorded observations are excluded from this runtime package. R is used only in that archive for parity checks.\n" + (text[end:] if end >= 0 else "")
+                        text = text[:start] + "## Tests and evaluation\n\nThe separate source archive contains offline tests, fresh live-check results and pinned DSIR 0.11.0 R parity evidence. Live retrieval remains unverified in this maintenance candidate. These maintainer files and recorded observations are excluded from this runtime package. R is used only for parity.\n" + (text[end:] if end >= 0 else "")
                     text = re.sub(r"\[([^\]]+)\]\(((?:evals|reports)/[^)]+)\)",
                                   r"\1 (in the separate source archive: `\2`)", text)
                     content = text.encode("utf-8")

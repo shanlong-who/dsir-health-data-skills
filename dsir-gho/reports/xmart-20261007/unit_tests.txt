@@ -1,0 +1,105 @@
+test_exact_mapping_and_source_name_precedence (test_clean_locations.CleanTests.test_exact_mapping_and_source_name_precedence) ... ok
+test_invalid_inputs_and_nonfinite_numbers (test_clean_locations.CleanTests.test_invalid_inputs_and_nonfinite_numbers) ... ok
+test_missing_columns_empty_data_and_first_catalogue_match (test_clean_locations.CleanTests.test_missing_columns_empty_data_and_first_catalogue_match) ... ok
+test_nonmember_region_variant_and_case_sensitive_country_identity (test_clean_locations.CleanTests.test_nonmember_region_variant_and_case_sensitive_country_identity) ... ok
+test_stable_sort_does_not_drop_duplicates_or_dimensions (test_clean_locations.CleanTests.test_stable_sort_does_not_drop_duplicates_or_dimensions) ... ok
+test_value_is_independent_of_numeric_and_strings_are_literal (test_clean_locations.CleanTests.test_value_is_independent_of_numeric_and_strings_are_literal) ... ok
+test_congo_and_korea_require_explicit_choice (test_clean_locations.LocationTests.test_congo_and_korea_require_explicit_choice) ... ok
+test_country_codes_names_and_reviewable_aliases (test_clean_locations.LocationTests.test_country_codes_names_and_reviewable_aliases) ... ok
+test_export_hash_matches_provenance (test_clean_locations.LocationTests.test_export_hash_matches_provenance) ... ok
+test_live_nonmember_and_region_variant (test_clean_locations.LocationTests.test_live_nonmember_and_region_variant) ... ok
+test_metadata_snapshot_has_complete_identifiers (test_clean_locations.LocationTests.test_metadata_snapshot_has_complete_identifiers) ... ok
+test_unknown_batch_member_is_reported_and_service_errors_propagate (test_clean_locations.LocationTests.test_unknown_batch_member_is_reported_and_service_errors_propagate) ... ok
+test_wpr_aliases_use_official_aggregate_not_static_members (test_clean_locations.LocationTests.test_wpr_aliases_use_official_aggregate_not_static_members) ... ok
+test_cleaning_reordering_is_not_a_dimension_error (test_clean_locations.QATests.test_cleaning_reordering_is_not_a_dimension_error) ... ok
+test_dimension_corruption_and_filter_mismatches_fail (test_clean_locations.QATests.test_dimension_corruption_and_filter_mismatches_fail) ... ok
+test_duplicates_missingness_years_and_bounds_are_reported (test_clean_locations.QATests.test_duplicates_missingness_years_and_bounds_are_reported) ... ok
+test_empty_and_nonmember_outputs_are_not_false_passes (test_clean_locations.QATests.test_empty_and_nonmember_outputs_are_not_false_passes) ... ok
+test_valid_pull_passes_all_source_filters (test_clean_locations.QATests.test_valid_pull_passes_all_source_filters) ... ok
+test_baseline_probe_failure_not_no_data (test_client_search.ClientTests.test_baseline_probe_failure_not_no_data) ... ok
+test_changed_entity_is_failure (test_client_search.ClientTests.test_changed_entity_is_failure) ... ok
+test_count_changed_fails (test_client_search.ClientTests.test_count_changed_fails) ... ok
+test_cycle_is_failure (test_client_search.ClientTests.test_cycle_is_failure) ... ok
+test_empty_array_stays_zero_rows (test_client_search.ClientTests.test_empty_array_stays_zero_rows) ... ok
+test_empty_result_classification (test_client_search.ClientTests.test_empty_result_classification) ... ok
+test_explicit_type_cannot_bypass_location_validation (test_client_search.ClientTests.test_explicit_type_cannot_bypass_location_validation) ... ok
+test_filter_escaping (test_client_search.ClientTests.test_filter_escaping) ... ok
+test_foreign_nextlink_is_failure (test_client_search.ClientTests.test_foreign_nextlink_is_failure) ... ok
+test_http_404_not_indicator_absence (test_client_search.ClientTests.test_http_404_not_indicator_absence) ... ok
+test_http_retry_then_success (test_client_search.ClientTests.test_http_retry_then_success) ... C:\Users\dings\AppData\Local\Programs\Python\Python314\Lib\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 503: 'unavailable'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_hyphens_are_valid_but_catalogue_confirmation_still_required (test_client_search.ClientTests.test_hyphens_are_valid_but_catalogue_confirmation_still_required) ... ok
+test_invalid_filter_shapes (test_client_search.ClientTests.test_invalid_filter_shapes) ... ok
+test_invalid_shape_not_empty (test_client_search.ClientTests.test_invalid_shape_not_empty) ... ok
+test_malformed_nextlink_port_is_structured_failure (test_client_search.ClientTests.test_malformed_nextlink_port_is_structured_failure) ... ok
+test_manual_skip_without_nextlink (test_client_search.ClientTests.test_manual_skip_without_nextlink) ... ok
+test_missing_count_managed_paging_fails (test_client_search.ClientTests.test_missing_count_managed_paging_fails) ... ok
+test_network_error_not_absence (test_client_search.ClientTests.test_network_error_not_absence) ... ok
+test_nextlink_and_empty_page (test_client_search.ClientTests.test_nextlink_and_empty_page) ... ok
+test_no_fabricated_indicator (test_client_search.ClientTests.test_no_fabricated_indicator) ... ok
+test_page_limit_fails (test_client_search.ClientTests.test_page_limit_fails) ... ok
+test_premature_end_not_success (test_client_search.ClientTests.test_premature_end_not_success) ... ok
+test_repeated_ids_fail_without_dropping (test_client_search.ClientTests.test_repeated_ids_fail_without_dropping) ... ok
+test_successful_catalogue_cache_only (test_client_search.ClientTests.test_successful_catalogue_cache_only) ... ok
+test_top_probe_is_marked_incomplete (test_client_search.ClientTests.test_top_probe_is_marked_incomplete) ... ok
+test_truncated_http_read_is_structured_failure (test_client_search.ClientTests.test_truncated_http_read_is_structured_failure) ... ok
+test_validated_years (test_client_search.ClientTests.test_validated_years) ... ok
+test_aliases_select_only_real_catalogue_candidates (test_client_search.SearchTests.test_aliases_select_only_real_catalogue_candidates) ... ok
+test_exact_code_case_insensitive (test_client_search.SearchTests.test_exact_code_case_insensitive) ... ok
+test_explicit_unit_extraction (test_client_search.SearchTests.test_explicit_unit_extraction) ... ok
+test_no_matches_not_api_failure (test_client_search.SearchTests.test_no_matches_not_api_failure) ... ok
+test_tb_incidence_preserves_ambiguity (test_client_search.SearchTests.test_tb_incidence_preserves_ambiguity) ... ok
+test_typo_fuzzy (test_client_search.SearchTests.test_typo_fuzzy) ... ok
+test_unknown_unit_remains_null (test_client_search.SearchTests.test_unknown_unit_remains_null) ... ok
+test_context_preserves_raw_and_clean_linkage (test_exports.ExportTests.test_context_preserves_raw_and_clean_linkage) ... ok
+test_export_hashes_and_literal_strings (test_exports.ExportTests.test_export_hashes_and_literal_strings) ... ok
+test_xmart_cli_exports_native_raw_without_changing_core_schema (test_exports.ExportTests.test_xmart_cli_exports_native_raw_without_changing_core_schema) ... C:\Users\dings\AppData\Local\Programs\Python\Python314\Lib\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 500: 'bad'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+C:\Users\dings\AppData\Local\Programs\Python\Python314\Lib\tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'missing'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_numeric_serialization_rounding_is_tolerated (test_parity_comparator.ParityComparatorTests.test_numeric_serialization_rounding_is_tolerated) ... ok
+test_values_labels_and_missingness_cannot_be_changed_to_pass (test_parity_comparator.ParityComparatorTests.test_values_labels_and_missingness_cannot_be_changed_to_pass) ... ok
+test_count_changes_missing_pages_and_overlap_are_failures (test_xmart.XMartTests.test_count_changes_missing_pages_and_overlap_are_failures) ... ok
+test_country_and_year_filters_use_source_fields (test_xmart.XMartTests.test_country_and_year_filters_use_source_fields) ... ok
+test_declared_row_limit_is_enforced_before_more_pages (test_xmart.XMartTests.test_declared_row_limit_is_enforced_before_more_pages) ... ok
+test_default_and_explicit_backend_selection (test_xmart.XMartTests.test_default_and_explicit_backend_selection) ... ok
+test_describe_exposes_native_named_values (test_xmart.XMartTests.test_describe_exposes_native_named_values) ... ok
+test_dimension_order_comes_from_schema_even_all_null (test_xmart.XMartTests.test_dimension_order_comes_from_schema_even_all_null) ... ok
+test_directory_deduplicates_catalogue_but_prefers_downloadable_route (test_xmart.XMartTests.test_directory_deduplicates_catalogue_but_prefers_downloadable_route) ... ok
+test_directory_name_fallback_is_catalogue_only (test_xmart.XMartTests.test_directory_name_fallback_is_catalogue_only) ... ok
+test_directory_routing_extracts_object_never_follows_hostname (test_xmart.XMartTests.test_directory_routing_extracts_object_never_follows_hostname) ... ok
+test_duplicate_directory_identity_fails (test_xmart.XMartTests.test_duplicate_directory_identity_fails) ... ok
+test_empty_baseline_without_valid_count_is_a_failure (test_xmart.XMartTests.test_empty_baseline_without_valid_count_is_a_failure) ... ok
+test_failed_directory_is_not_cached (test_xmart.XMartTests.test_failed_directory_is_not_cached) ... ok
+test_geography_converts_m49_and_distinguishes_who_and_un_regions (test_xmart.XMartTests.test_geography_converts_m49_and_distinguishes_who_and_un_regions) ... ok
+test_groupby_uses_short_pages_and_ignores_underlying_fact_count (test_xmart.XMartTests.test_groupby_uses_short_pages_and_ignores_underlying_fact_count) ... ok
+test_long_normalization_retains_row_types_and_beyond_core_positions (test_xmart.XMartTests.test_long_normalization_retains_row_types_and_beyond_core_positions) ... ok
+test_long_queries_use_read_only_post_query (test_xmart.XMartTests.test_long_queries_use_read_only_post_query) ... ok
+test_long_type_discovery_batches_at_most_six_order_fields (test_xmart.XMartTests.test_long_type_discovery_batches_at_most_six_order_fields) ... ok
+test_missing_count_and_identifiers_are_failures (test_xmart.XMartTests.test_missing_count_and_identifiers_are_failures) ... ok
+test_missing_display_uses_dsir_numeric_formatting (test_xmart.XMartTests.test_missing_display_uses_dsir_numeric_formatting) ... ok
+test_missing_numeric_preserves_literal_thresholds (test_xmart.XMartTests.test_missing_numeric_preserves_literal_thresholds) ... ok
+test_multiple_measure_families_are_failure_not_arbitrary_choice (test_xmart.XMartTests.test_multiple_measure_families_are_failure_not_arbitrary_choice) ... ok
+test_named_long_filters_discover_actual_type_positions (test_xmart.XMartTests.test_named_long_filters_discover_actual_type_positions) ... ok
+test_named_long_qa_checks_types_without_dim_prefix (test_xmart.XMartTests.test_named_long_qa_checks_types_without_dim_prefix) ... ok
+test_named_long_qa_uses_native_fields_beyond_core_positions (test_xmart.XMartTests.test_named_long_qa_uses_native_fields_beyond_core_positions) ... ok
+test_named_wide_filters_use_exact_native_codes (test_xmart.XMartTests.test_named_wide_filters_use_exact_native_codes) ... ok
+test_no_route_or_unknown_code_never_falls_back (test_xmart.XMartTests.test_no_route_or_unknown_code_never_falls_back) ... ok
+test_nonannual_time_retains_detail_without_invented_year (test_xmart.XMartTests.test_nonannual_time_retains_detail_without_invented_year) ... ok
+test_positional_long_supports_population_sex_and_age (test_xmart.XMartTests.test_positional_long_supports_population_sex_and_age) ... ok
+test_positional_wide_translates_canonical_sex_and_age_only (test_xmart.XMartTests.test_positional_wide_translates_canonical_sex_and_age_only) ... ok
+test_query_encoding_preserves_odata_parameter_names (test_xmart.XMartTests.test_query_encoding_preserves_odata_parameter_names) ... ok
+test_response_provenance_context_and_named_filter_qa (test_xmart.XMartTests.test_response_provenance_context_and_named_filter_qa) ... ok
+test_schema_and_type_drift_are_failures (test_xmart.XMartTests.test_schema_and_type_drift_are_failures) ... ok
+test_source_name_and_nonmember_spatial_name_match_dsir_0110 (test_xmart.XMartTests.test_source_name_and_nonmember_spatial_name_match_dsir_0110) ... ok
+test_urls_reject_legacy_uat_private_or_other_marts (test_xmart.XMartTests.test_urls_reject_legacy_uat_private_or_other_marts) ... ok
+test_verified_empty_classification_uses_counted_baseline (test_xmart.XMartTests.test_verified_empty_classification_uses_counted_baseline) ... ok
+test_wide_normalization_preserves_core_bounds_and_extra_dimensions (test_xmart.XMartTests.test_wide_normalization_preserves_core_bounds_and_extra_dimensions) ... ok
+test_wrong_indicator_and_nested_fields_are_not_results (test_xmart.XMartTests.test_wrong_indicator_and_nested_fields_are_not_results) ... ok
+
+----------------------------------------------------------------------
+Ran 94 tests in 1.219s
+
+OK

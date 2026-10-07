@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from gho_client import GHOClient, GHOError, BASE_URL
+from gho_client import GHOClient, GHOError, LEGACY_BASE_URL as BASE_URL
 from indicator_search import search_indicators, describe_indicator
 from locations import resolve_locations
 from clean import clean_records, CORE_FIELDS
@@ -110,7 +110,7 @@ def fixture_case(name):
             return {"value": [], "@odata.count": 0}
         return {"value": [sample], "@odata.count": 1}
 
-    client = GHOClient(transport=transport, retries=3, page_size=1, sleep=lambda _: None)
+    client = GHOClient(backend="legacy", transport=transport, retries=3, page_size=1, sleep=lambda _: None)
     # A real catalogue identity; test responses are explicitly synthetic.
     client._catalogue = [{"IndicatorCode": "WHS3_62",
                           "IndicatorName": "Measles - number of reported cases", "Language": "EN"}]
@@ -153,7 +153,7 @@ def check_case(case, client, catalogue):
     elif operation in {"data", "pagination"}:
         use_client = client
         if operation == "pagination":
-            use_client = GHOClient(page_size=7)
+            use_client = GHOClient(backend=client.backend, page_size=7)
             use_client._catalogue = catalogue
         result = use_client.get_gho_data(**case["args"])
     else:
@@ -226,6 +226,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--validate-only", action="store_true", help="Validate all question-level case fields locally; make no WHO requests")
     parser.add_argument("--offline", action="store_true", help="Run injected transport and cleaner contracts only")
+    parser.add_argument("--backend", choices=["xmart", "legacy"], default="xmart")
     parser.add_argument("--case", action="append", help="Run named cases only; repeat for multiple IDs")
     parser.add_argument("--merge-from", type=Path, help="Retain earlier case evidence and replace only the selected rechecked cases")
     parser.add_argument("--output", type=Path, default=ROOT / "reports" / "eval_results.json")
@@ -245,7 +246,9 @@ def main():
         cases = [case for case in cases if case["operation"] == "fixture"]
     if args.case:
         cases = [case for case in cases if case["id"] in args.case]
-    client = GHOClient()
+    if not args.offline and args.backend != "legacy":
+        parser.error("This dated casebook targets legacy. Select --backend legacy explicitly, or run run_xmart_live.py for xMart.")
+    client = GHOClient(backend=args.backend)
     catalogue = []
     if any(c["operation"] != "fixture" for c in cases):
         catalogue = client.catalogue()
@@ -286,6 +289,7 @@ def main():
         results = merged + list(updates.values())
     report = {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
               "kind": "executable_api_contracts", "model_evaluated": False,
+              "backend": "legacy injected fixtures" if args.offline else args.backend,
               "casebook_validation": validation,
               "rechecked_cases": rechecked if previous else [],
               "earlier_report_generated_at": previous["generated_at"] if previous else None,

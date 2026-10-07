@@ -25,6 +25,11 @@ The presence or label of these series does not establish historical WHO regional
 
 Never replace a published regional value with an unweighted mean of countries. For a requested custom regional calculation, clarify the included places and aggregation method before calculating, and label the output as a derived result.
 
+For xMart, verify geography in `REF_GEO`: WHO WPR maps to M49 `958` only when
+that reference contains it. Other WHO groups and global `001` use verified
+mappings. WHO Africa is `953`, distinct from UN Africa `002`. A legacy variant may
+be absent from xMart; do not substitute another geography or switch backends.
+
 ## Country groups and missing coverage
 
 For requests for “all countries in a region”, show or retain the selected country list and its provenance. A fixed country lookup is not proof of historical membership. If the requested grouping is unavailable or its vintage is unknown, say so rather than silently substituting an aggregate or unsupported member list.

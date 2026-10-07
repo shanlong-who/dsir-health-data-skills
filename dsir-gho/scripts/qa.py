@@ -160,7 +160,8 @@ def qa_records(cleaned: list[dict], raw: list[dict] | None = None, expected: dic
         if raw is None:
             issue("warning", "spatial_type_unverified", "Raw records are needed to verify SpatialDimType.")
         else:
-            bad = sum(str(row.get("SpatialDimType", "")).casefold() != str(spatial_type).casefold() for row in raw)
+            bad = sum(str(row.get("SpatialDimType", "")).casefold() not in
+                      ({"global", "world"} if str(spatial_type).casefold() == "global" else {str(spatial_type).casefold()}) for row in raw)
             if bad:
                 issue("error", "spatial_type_filter_mismatch", "Raw rows violate the requested spatial type filter.", bad)
     counts["locations"] = len({row.get("location") for row in cleaned if isinstance(row.get("location"), str)})

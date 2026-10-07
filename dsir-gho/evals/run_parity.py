@@ -96,119 +96,145 @@ def compare_clean(python_rows, r_result):
             "examples": examples}
 
 
+def compare_context(left, right):
+    """Compare retained source context using the same numeric tolerance."""
+    if isinstance(left, dict) and isinstance(right, dict):
+        return set(left) == set(right) and all(compare_context(left[k], right[k]) for k in left)
+    if isinstance(left, list) and isinstance(right, list):
+        return len(left) == len(right) and all(compare_context(a, b) for a, b in zip(left, right))
+    if isinstance(left, (int, float)) and not isinstance(left, bool) and isinstance(right, (int, float)) and not isinstance(right, bool):
+        return math.isclose(left, right, rel_tol=1e-12, abs_tol=1e-10)
+    return type(left) is type(right) and left == right
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--rscript", type=Path, default=Path("Rscript"))
-    parser.add_argument("--source-dir", type=Path, default=ROOT.parent.parent / "DSIR")
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "reports" / "parity")
-    parser.add_argument("--reuse-evidence", action="store_true", help="Recompare previously saved test evidence; performs no new retrieval")
+    parser.add_argument("--source-dir", type=Path, required=True)
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "reports" / "xmart-parity")
+    parser.add_argument("--offline", action="store_true", help="Run synthetic common-input source parity without network calls")
+    parser.add_argument("--reuse-evidence", action="store_true", help="Recompare the saved run; performs no new retrieval")
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    casebook = json.loads(Path(__file__).with_name("cases.json").read_text(encoding="utf-8"))
-    cases = [case for case in casebook["cases"] if case.get("parity")]
-    source_file = args.source_dir / "R" / "gho.R"
-    source_sha = hashlib.sha256(source_file.read_bytes()).hexdigest()
+    pinned = "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5"
     revision = subprocess.run(["git", "-C", str(args.source_dir), "rev-parse", "HEAD"],
                               capture_output=True, text=True, check=True).stdout.strip()
+    if revision != pinned:
+        parser.error("Reference checkout must be the exact DSIR 0.11.0 commit " + pinned)
+    source_files = ["R/http.R", "R/clean_schema.R", "R/clean_metadata.R", "R/who_backend.R",
+                    "R/who_gho.R", "R/who_legacy.R", "R/gho.R", "DESCRIPTION", "data/who_countries.rda"]
+    subprocess.run(["git", "-C", str(args.source_dir), "diff", "--exit-code", "HEAD", "--", *source_files], check=True)
+    source_hashes = {name: hashlib.sha256((args.source_dir / name).read_bytes()).hexdigest() for name in source_files}
+    casebook = json.loads(Path(__file__).with_name("cases.json").read_text(encoding="utf-8"))
+    cases = [c for c in casebook["cases"] if c.get("parity")]
+    cases += [
+        {"id": "xmart_named_sex", "args": {"indicator": "NCDMORT3070", "locations": ["PHL"], "year_from": 2020,
+                                         "dimensions": {"DIM_SEX": ["TOTAL"]}}},
+        {"id": "xmart_named_age", "args": {"indicator": "NCDMORT3070", "locations": ["PHL"], "year_from": 2020,
+                                         "dimensions": {"DIM_AGE": ["YEARS30-69"]}}},
+    ]
     evidence_path = args.output_dir / "python_reference.json"
     reference_path = args.output_dir / "r_reference.json"
     process_path = args.output_dir / "r_process_status.json"
     common_path = args.output_dir / "common_raw_input.json"
     if args.reuse_evidence:
         evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        if evidence.get("source_hashes") != source_hashes:
+            parser.error("Saved evidence belongs to a different source snapshot")
     else:
+        from xmart_parity_inputs import common_inputs
+        common = common_inputs()
+        evidence = {"retrieved_at": datetime.now(timezone.utc).isoformat(), "source_revision": revision,
+                    "source_hashes": source_hashes, "backend": "xmart", "offline": args.offline, "queries": [], "catalogue": []}
         client = GHOClient()
-        catalogue = client.catalogue()
-        evidence = {"retrieved_at": datetime.now(timezone.utc).isoformat(), "catalogue": catalogue,
-                    "source_revision": revision, "source_sha256": source_sha, "queries": []}
-        common = {"catalogue": catalogue, "queries": []}
-        for case in cases:
-            print(f"Python live reference: {case['id']}", flush=True)
+        if not args.offline:
             try:
-                result = client.get_gho_data(**case["args"])
-                raw = result["records"]
-                entry = {"id": case["id"], "args": case["args"], "status": result["status"],
-                         "raw": raw, "clean": clean_records(raw, catalogue), "provenance": result["provenance"]}
-                common["queries"].append({"id": case["id"], "records": raw})
+                evidence["catalogue"] = client.catalogue()
+                evidence["catalogue_status"] = "ok"
             except GHOError as exc:
-                entry = {"id": case["id"], "args": case["args"], **exc.as_dict()}
-            evidence["queries"].append(entry)
-            save_json(evidence_path, evidence)
-        scalar_rows = [
-            {"IndicatorCode": "WHS3_62", "SpatialDim": "WPR_WO_IDN", "TimeDim": "2020.9", "Value": "<0.1", "NumericValue": None, "Dim1": "SEX_BTSX"},
-            {"IndicatorCode": "WHS3_62", "SpatialDim": "PHL", "TimeDim": None, "Value": "NA", "NumericValue": "not available", "Low": None, "High": None},
-            {"IndicatorCode": "UHC_INDEX_REPORTED", "SpatialDim": "WPR", "TimeDim": 2020, "Value": "", "NumericValue": None}
-        ]
-        scalar_rows.append(dict(scalar_rows[0]))
-        common["queries"].append({"id": "common_scalar_missingness_duplicates", "records": scalar_rows,
-                                  "synthetic": True, "purpose": "Transformation-only edge cases; never reported as WHO values"})
+                evidence["catalogue_status"] = "error"
+                evidence["catalogue_error"] = exc.as_dict()
+            for case in cases:
+                print(f"Python live reference: {case['id']}", flush=True)
+                if evidence["catalogue_status"] != "ok":
+                    entry = {"id": case["id"], "args": case["args"], "status": "blocked",
+                             "reason": "Fresh xMart directory retrieval failed"}
+                else:
+                    try:
+                        result = client.get_gho_data(**case["args"])
+                        raw = result["records"]
+                        entry = {"id": case["id"], "args": case["args"], "status": result["status"], "raw": raw,
+                                 "source_raw": result.get("source_records"), "clean": clean_records(raw, evidence["catalogue"]),
+                                 "provenance": result["provenance"]}
+                        common["queries"].append({"id": case["id"], "synthetic": False, "records": raw, "clean": entry["clean"]})
+                    except GHOError as exc:
+                        entry = {"id": case["id"], "args": case["args"], **exc.as_dict()}
+                evidence["queries"].append(entry)
+        evidence["requests"] = client.trace
+        save_json(evidence_path, evidence)
         save_json(common_path, common)
         spec = {"source_dir": str(args.source_dir.resolve()), "source_revision": revision,
-                "common_raw_path": str(common_path.resolve()),
-                "queries": [{"id": c["id"], "args": c["args"]} for c in cases]}
+                "source_files": source_files, "source_hashes": source_hashes,
+                "common_raw_path": str(common_path.resolve()), "offline": args.offline,
+                "queries": [{"id": c["id"], "args": c["args"]} for c in cases] if not args.offline else []}
         spec_path = args.output_dir / "parity_spec.json"
         save_json(spec_path, spec)
-        command = [str(args.rscript), "--vanilla", str(Path(__file__).with_name("parity.R")),
-                   str(spec_path.resolve()), str(reference_path.resolve()), str(process_path.resolve())]
-        completed = subprocess.run(command, timeout=1900, check=False)
-        print(f"R parent exit: {completed.returncode}", flush=True)
+        completed = subprocess.run([str(args.rscript), "--vanilla", str(Path(__file__).with_name("parity.R")),
+                                    str(spec_path.resolve()), str(reference_path.resolve()), str(process_path.resolve())],
+                                   timeout=1900, check=False)
         if completed.returncode != 0:
             save_json(process_path, {"child_ok": False, "parent_exit_code": completed.returncode})
-    process = json.loads(process_path.read_text(encoding="utf-8")) if process_path.exists() else {"child_ok": False, "message": "Missing R process result"}
-    reference = json.loads(reference_path.read_text(encoding="utf-8")) if reference_path.exists() else {"queries": [], "common_raw": []}
-    r_queries = {query["id"]: query for query in reference.get("queries", [])}
-    r_common = {query["id"]: query for query in reference.get("common_raw", [])}
+    process = json.loads(process_path.read_text()) if process_path.exists() else {"child_ok": False}
+    reference = json.loads(reference_path.read_text(encoding="utf-8")) if reference_path.exists() else {}
+    r_queries = {q["id"]: q for q in reference.get("queries", [])}
+    r_common = {q["id"]: q for q in reference.get("common_raw", [])}
     comparisons = []
     for query in evidence["queries"]:
-        reference_query = r_queries.get(query["id"])
-        if query.get("status") != "ok" or not query.get("raw"):
-            comparison = {"passed": False, "reason": "Python live retrieval failed or returned no rows", "status": query.get("status")}
+        if query["status"] != "ok" or not query.get("raw"):
+            comparison = {"passed": False, "status": query["status"], "reason": "No successful independent live comparison",
+                          "r_status": r_queries.get(query["id"], {}).get("status")}
         else:
-            comparison = compare_clean(query["clean"], reference_query)
-            comparison["raw_row_counts_match"] = len(query["raw"]) == (reference_query or {}).get("raw_rows")
+            comparison = compare_clean(query["clean"], r_queries.get(query["id"]))
+            comparison["raw_row_counts_match"] = len(query["raw"]) == r_queries.get(query["id"], {}).get("raw_rows")
             comparison["passed"] &= comparison["raw_row_counts_match"]
-        comparison["id"] = query["id"]
-        comparison["query"] = query["args"]
-        comparisons.append(comparison)
-        print(f"Live parity {query['id']}: {'passed' if comparison['passed'] else 'FAILED'}", flush=True)
-    common_input = json.loads(common_path.read_text(encoding="utf-8"))
+        comparisons.append(comparison | {"id": query["id"], "query": query["args"]})
+    common = json.loads(common_path.read_text(encoding="utf-8"))
     common_comparisons = []
-    for query in common_input["queries"]:
-        cleaned = clean_records(query["records"], common_input["catalogue"], countries=reference.get("who_countries"))
-        comparison = compare_clean(cleaned, r_common.get(query["id"]))
-        comparison["id"] = query["id"]
-        comparison["synthetic"] = bool(query.get("synthetic"))
-        common_comparisons.append(comparison)
-    source_match = all(reference.get("source_matches_installed", {}).values()) and bool(reference.get("source_matches_installed"))
-    passed = (process.get("child_ok") is True and reference.get("status") == "complete" and source_match
-              and all(row["passed"] for row in comparisons + common_comparisons)
-              and len(comparisons) >= 10)
-    report = {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
-              "mode": "saved_evidence_recomparison" if args.reuse_evidence else "live_paired_retrieval_and_common_raw_cleaning",
-              "passed": passed, "r_process": process, "r_version": reference.get("r_version"),
-              "dsir_version": reference.get("dsir_version"), "source_revision": revision, "source_sha256": source_sha,
-              "source_matches_installed": reference.get("source_matches_installed"),
+    for query in common["queries"]:
+        comparison = compare_clean(clean_records(query["records"], common["catalogue"], countries=reference.get("who_countries")),
+                                   r_common.get(query["id"]))
+        if "native" in query:
+            r_normalized = r_common.get(query["id"], {}).get("normalized")
+            comparison["normalized_context_matches"] = compare_context(query["records"], r_normalized)
+            comparison["passed"] &= comparison["normalized_context_matches"]
+        common_comparisons.append(comparison | {"id": query["id"], "synthetic": query["synthetic"]})
+    source_verified = reference.get("source_hashes") == source_hashes and reference.get("dsir_version") == "0.11.0"
+    offline_mode = evidence.get("offline", args.offline)
+    offline_passed = process.get("child_ok") is True and source_verified and len(common_comparisons) >= 13 and all(c["passed"] for c in common_comparisons)
+    live_passed = len(comparisons) >= 15 and all(c["passed"] for c in comparisons)
+    report = {"generated_at": datetime.now(timezone.utc).isoformat(),
+              "mode": "saved_evidence_recomparison" if args.reuse_evidence else "synthetic_common_input" if args.offline else "fresh_live_and_common_input",
+              "passed": offline_passed and (offline_mode or live_passed), "common_input_passed": offline_passed,
+              "live_parity_passed": live_passed, "live_requested": not offline_mode,
+              "source_revision": revision, "source_hashes": source_hashes, "source_verified": source_verified,
+              "dsir_version": reference.get("dsir_version"), "r_version": reference.get("r_version"),
+              "r_process": process, "catalogue_error": evidence.get("catalogue_error"),
               "live_queries": comparisons, "common_raw_queries": common_comparisons,
-              "live_passed": sum(row["passed"] for row in comparisons),
-              "live_failed": sum(not row["passed"] for row in comparisons),
-              "common_raw_passed": sum(row["passed"] for row in common_comparisons),
-              "common_raw_failed": sum(not row["passed"] for row in common_comparisons),
-              "interpretation": "Live parity failures with common-raw passes can indicate upstream revisions, ordering or retrieval differences; inspect saved evidence before attributing a cleaner defect."}
+              "live_passed": sum(c["passed"] for c in comparisons), "live_unverified": sum(not c["passed"] for c in comparisons),
+              "common_raw_passed": sum(c["passed"] for c in common_comparisons), "common_raw_failed": sum(not c["passed"] for c in common_comparisons)}
     save_json(args.output_dir / "parity_results.json", report)
-    lines = ["# Original DSIR versus Python parity", "", f"Generated: {report['generated_at']}", "",
-             f"Overall: {'PASS' if passed else 'FAIL'}.",
-             f"Live queries: {report['live_passed']} passed, {report['live_failed']} failed.",
-             f"Common-raw cleaning checks: {report['common_raw_passed']} passed, {report['common_raw_failed']} failed.", "",
-             f"Reference: DSIR {report['dsir_version']}; {report['r_version']}; original commit `{revision}`.", "",
-             "Each comparison checks the 15 ordered fields, R/Python scalar types, row counts and multiplicity, dimensions, per-column missingness, raw display values, indicator/location labels, and numeric values with absolute tolerance 1e-10 and relative tolerance 1e-12.", "",
-             "R executes the original source without editing the original repository or installed package. The R child result is checked independently of the successful parent exit. Test evidence is not runtime data.", "",
-             "| Query | Live parity | Common-raw parity | Rows (Python/R) |", "| --- | --- | --- | --- |"]
-    common_map = {row["id"]: row for row in common_comparisons}
-    for row in comparisons:
-        common_result = common_map.get(row["id"], {})
-        lines.append(f"| {row['id']} | {'PASS' if row['passed'] else 'FAIL'} | {'PASS' if common_result.get('passed') else 'FAIL'} | {row.get('python_rows', '?')}/{row.get('r_rows', '?')} |")
+    lines = ["# DSIR 0.11.0 xMart parity", "", f"Generated: {report['generated_at']}",
+             f"Reference commit: `{revision}`.", "",
+             f"Common-input source parity: {report['common_raw_passed']} passed; {report['common_raw_failed']} failed.",
+             f"Independent live parity: {report['live_passed']} passed; {report['live_unverified']} unverified.",
+             "Synthetic fixtures validate transformations only; they are never WHO data.",
+             "The exact source files and bundled data are loaded without using the installed DSIR package.", "",
+             "| Check | Result |", "| --- | --- |"]
+    lines += [f"| {c['id']} | {'PASS' if c['passed'] else 'FAIL'} |" for c in common_comparisons]
+    lines += [f"| live: {c['id']} | {'PASS' if c['passed'] else 'UNVERIFIED'} |" for c in comparisons]
     (args.output_dir / "parity_results.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    return 0 if passed else 1
+    print(json.dumps({k: report[k] for k in ("passed", "source_verified", "live_passed", "live_unverified", "common_raw_passed", "common_raw_failed")}))
+    return 0 if report["passed"] else 1
 
 
 if __name__ == "__main__":

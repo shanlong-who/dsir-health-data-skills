@@ -2,16 +2,23 @@
 
 **Author and maintainer: [Shanlong Ding](https://github.com/shanlong-who)**
 
+The 7 October 2026 maintenance candidate aligns GHO with DSIR 0.11.0's
+public xMart backend: GHO plugin 0.1.2 and skill 0.1.1. Offline tests and 13
+common-input R comparisons passed; independent live retrieval remains unverified.
+It is available as the [v2026.10.07 pre-release](https://github.com/shanlong-who/dsir-health-data-skills/releases/tag/v2026.10.07).
+See [release notes](RELEASE_NOTES.md), [validation](dsir-gho/reports/VALIDATION.md)
+and [publishing](PUBLISHING.md) before using it.
+
 Use natural language to discover and retrieve public health and development data.
 Powered by the data-access and cleaning logic developed in the
 [DSIR R package](https://github.com/shanlong-who/DSIR). Users do not need R or DSIR.
 
 | Plugin | Data source | Plugin version | Download |
 | --- | --- | --- | --- |
-| DSIR GHO Health Data Skill | WHO Global Health Observatory | 0.1.1 | [GHO plugin ZIP](https://github.com/shanlong-who/dsir-health-data-skills/releases/download/v2026.09.16/dsir-gho-plugin-0.1.1.zip) |
+| DSIR GHO Health Data Skill | WHO Global Health Observatory | 0.1.2 (pre-release) | [GHO plugin ZIP](https://github.com/shanlong-who/dsir-health-data-skills/releases/download/v2026.10.07/dsir-gho-plugin-0.1.2.zip) |
 | DSIR SDG Data Skill | UN SDG Global Database | 0.1.0 | [SDG plugin ZIP](https://github.com/shanlong-who/dsir-health-data-skills/releases/download/v2026.09.16/dsir-sdg-plugin-0.1.0.zip) |
 
-[Release downloads and checksums](https://github.com/shanlong-who/dsir-health-data-skills/releases/latest)
+[Maintenance candidate downloads and checksums](https://github.com/shanlong-who/dsir-health-data-skills/releases/tag/v2026.10.07)
 
 ## What the skills do
 
@@ -45,7 +52,8 @@ Attaching the ZIP to an ordinary ChatGPT conversation is not an installation ste
 
 ### Standalone skill for local Codex
 
-The release also provides `dsir-gho-0.1.0.zip` and `dsir-sdg-0.1.0.zip`.
+The maintenance candidate also provides `dsir-gho-0.1.1.zip` and the unchanged
+`dsir-sdg-0.1.0.zip`.
 Extract the chosen ZIP, then copy the whole `dsir-gho` or `dsir-sdg` folder into
 `~/.agents/skills/`. On Windows, this is the `.agents\skills` folder under your
 user home. File Explorer is sufficient; no PowerShell command is required.
@@ -72,14 +80,15 @@ Ordinary browsing access does not guarantee that the script runtime can use HTTP
 | --- | --- |
 | [dsir-gho](dsir-gho/) | GHO runtime, design, tests, evaluation cases and validation reports |
 | [dsir-sdg](dsir-sdg/) | SDG runtime, design, tests, evaluation cases and validation reports |
-| [plugins](plugins/) | Exact extracted contents of the two published plugin ZIPs |
+| [plugins](plugins/) | Exact extracted contents of the GHO candidate and unchanged SDG plugin ZIPs |
 | [packaging](packaging/) | Shared GHO plugin builder and branding asset |
 | [PUBLISHING.md](PUBLISHING.md) | Build steps, release provenance and validation scope |
+| [releases/v2026.10.07](releases/v2026.10.07/) | Candidate ZIP checksums and the original build manifest |
 
 The repository contains the full source. GitHub also supplies source ZIP and
 tar archives on the release page; these are for development, not plugin import.
 
-Recorded validation, conducted before this GitHub publication:
+Historical legacy/SDG validation, conducted before the September publication:
 
 | Check | GHO | SDG |
 | --- | --- | --- |

@@ -1,0 +1,287 @@
+{
+  "generated_at": "2026-10-07T00:28:46.248070+00:00",
+  "mode": "fresh_live_requests",
+  "backend": "xmart",
+  "reference_dsir_version": "0.11.0",
+  "reference_dsir_commit": "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5",
+  "passed": false,
+  "checks": [
+    {
+      "id": "geography_probe",
+      "status": "pass",
+      "details": {
+        "scope": "One-row connectivity/schema probe; not a complete catalogue or observation retrieval.",
+        "provenance": {
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$top=1",
+          "urls": [
+            "https://xmart-api-public.who.int/DATA_/REF_GEO?$top=1"
+          ],
+          "pages": 1,
+          "row_count": 1,
+          "declared_count": null,
+          "complete": false,
+          "pagination": "nextLink",
+          "retrieved_at": "2026-10-07T00:28:41.824155+00:00",
+          "source": "WHO GHO",
+          "backend": "xmart",
+          "base_url": "https://xmart-api-public.who.int",
+          "table": "DATA_/REF_GEO",
+          "filter": null,
+          "group_fields": null
+        }
+      }
+    },
+    {
+      "id": "disaggregation_probe",
+      "status": "pass",
+      "details": {
+        "scope": "One-row connectivity/schema probe; not a complete catalogue or observation retrieval.",
+        "provenance": {
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$top=1",
+          "urls": [
+            "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$top=1"
+          ],
+          "pages": 1,
+          "row_count": 1,
+          "declared_count": null,
+          "complete": false,
+          "pagination": "nextLink",
+          "retrieved_at": "2026-10-07T00:28:42.510029+00:00",
+          "source": "WHO GHO",
+          "backend": "xmart",
+          "base_url": "https://xmart-api-public.who.int",
+          "table": "DATA_/REF_DISAGGREGATIONS",
+          "filter": null,
+          "group_fields": null
+        }
+      }
+    },
+    {
+      "id": "relay_probe",
+      "status": "pass",
+      "details": {
+        "scope": "One-row connectivity/schema probe; not a complete catalogue or observation retrieval.",
+        "provenance": {
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1",
+          "urls": [
+            "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1"
+          ],
+          "pages": 1,
+          "row_count": 1,
+          "declared_count": null,
+          "complete": false,
+          "pagination": "nextLink",
+          "retrieved_at": "2026-10-07T00:28:43.248122+00:00",
+          "source": "WHO GHO",
+          "backend": "xmart",
+          "base_url": "https://xmart-api-public.who.int",
+          "table": "DATA_/RELAY_GHO",
+          "filter": null,
+          "group_fields": null
+        }
+      }
+    },
+    {
+      "id": "geography_reference",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "id": "disaggregation_reference",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "id": "raw_relay_forced_paging",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1&$orderby=Sys_PK",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "id": "indicator_directory",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "id": "measles_phl",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "uhc_wpr",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "named_sex",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "verified_empty_filter",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "live_search",
+      "status": "blocked",
+      "reason": "Live directory unavailable."
+    },
+    {
+      "id": "live_describe",
+      "status": "blocked",
+      "reason": "Live directory unavailable."
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$top=1",
+      "query_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$top=1",
+      "method": "GET",
+      "query_body_sha256": null,
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:41.824021+00:00",
+      "attempt": 1,
+      "bytes": 752,
+      "sha256": "f04b2286521927148d42d4cdade00a9be7b1040b7b0aa030426d3fc21ac103f6"
+    },
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$top=1",
+      "query_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$top=1",
+      "method": "GET",
+      "query_body_sha256": null,
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:42.509948+00:00",
+      "attempt": 1,
+      "bytes": 842,
+      "sha256": "f416b4f5749ef9bd24777d90fb28ff3f1a0cc52bdff5570812a44148cd534721"
+    },
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1",
+      "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1",
+      "method": "GET",
+      "query_body_sha256": null,
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:43.248043+00:00",
+      "attempt": 1,
+      "bytes": 1644,
+      "sha256": "fdce81b10565b2e8e353429736a0c9a95136a80b508eb32f101edd29ca3a1b88"
+    },
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+      "query_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+      "method": "GET",
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:43.993110+00:00",
+      "attempt": 1,
+      "status": "error",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+      "query_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+      "method": "GET",
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:44.741573+00:00",
+      "attempt": 1,
+      "status": "error",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1&$orderby=Sys_PK",
+      "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1&$orderby=Sys_PK",
+      "method": "GET",
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:45.511908+00:00",
+      "attempt": 1,
+      "status": "error",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/RELAY_GHO?$top=1&$orderby=Sys_PK",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    },
+    {
+      "url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+      "query_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+      "method": "GET",
+      "backend": "xmart",
+      "retrieved_at": "2026-10-07T00:28:46.247514+00:00",
+      "attempt": 1,
+      "status": "error",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/",
+          "request_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+          "http_status": 302,
+          "backend": "xmart"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "pass": 3,
+    "fail": 4,
+    "blocked": 6
+  }
+}

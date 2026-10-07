@@ -6,8 +6,8 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "dist/dsir-gho-0.1.0.zip"
-VERSION = "0.1.1"
+SOURCE = ROOT / "dist/dsir-gho-0.1.1.zip"
+VERSION = "0.1.2"
 LOGO = ROOT / "packaging/assets/dsir-logo.jpg"
 PLUGIN = ROOT / "plugins/dsir-gho"
 OUTPUT = ROOT / f"dist/dsir-gho-plugin-{VERSION}.zip"
@@ -59,16 +59,19 @@ def main():
     with zipfile.ZipFile(OUTPUT, "w", zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(PLUGIN.rglob("*")):
             if path.is_file() and "__pycache__" not in path.parts:
-                archive.write(path, "dsir-gho/" + path.relative_to(PLUGIN).as_posix())
+                info = zipfile.ZipInfo("dsir-gho/" + path.relative_to(PLUGIN).as_posix(), (2026, 10, 7, 0, 0, 0))
+                info.compress_type = zipfile.ZIP_DEFLATED
+                archive.writestr(info, path.read_bytes())
     with zipfile.ZipFile(OUTPUT) as archive:
         assert archive.testzip() is None
     report = {"artifact": OUTPUT.name, "bytes": OUTPUT.stat().st_size,
               "sha256": hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
               "source_skill_sha256": hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
-              "plugin_version": VERSION, "skill_runtime_version": "0.1.0",
+                "plugin_version": VERSION, "skill_runtime_version": "0.1.1",
               "branding_asset_sha256": hashlib.sha256(LOGO.read_bytes()).hexdigest(),
+              "validation_status": "maintenance_candidate_pending_live_retrieval_and_independent_parity",
               "packaged_files": copied, "runtime_files_identical_to_verified_skill": True,
-              "published": False, "marketplace_registered": False,
+        "published": False, "marketplace_registered": False,
               "mcp_server": False, "r_runtime_required": False}
     (ROOT / f"dist/dsir-gho-plugin-{VERSION}-checksums.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k != "packaged_files"}, indent=2))

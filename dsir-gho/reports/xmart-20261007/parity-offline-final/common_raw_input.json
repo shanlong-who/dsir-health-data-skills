@@ -1,0 +1,2209 @@
+{
+  "catalogue": [
+    {
+      "IndicatorCode": "TEST",
+      "IndicatorName": "Synthetic xMart measure",
+      "Language": "EN"
+    }
+  ],
+  "queries": [
+    {
+      "id": "wide_bounds_dimensions",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": "<10",
+          "AMOUNT_N": 10,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "<10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "<10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "long_row_specific_dimensions",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "VALUE_LABEL": "10",
+          "VALUE_NUMERIC": 10,
+          "VALUE_NUMERIC_LOWER": 9,
+          "VALUE_NUMERIC_UPPER": 11,
+          "DIM_1_CODE": "DIM_POP_SEX",
+          "DIM_MEMBER_1_CODE": "FMLE",
+          "DIM_2_CODE": "DIM_POP_AGE_GRP",
+          "DIM_MEMBER_2_CODE": "YEARS18-PLUS",
+          "DIM_3_CODE": null,
+          "DIM_MEMBER_3_CODE": null,
+          "DIM_4_CODE": "DIM_OTHER",
+          "DIM_MEMBER_4_CODE": "retained"
+        },
+        {
+          "Sys_PK": 2,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "VALUE_LABEL": "10",
+          "VALUE_NUMERIC": 10,
+          "VALUE_NUMERIC_LOWER": 9,
+          "VALUE_NUMERIC_UPPER": 11,
+          "DIM_1_CODE": "DIM_AGE",
+          "DIM_MEMBER_1_CODE": "Y40T44",
+          "DIM_2_CODE": "DIM_POP_AGE_GRP",
+          "DIM_MEMBER_2_CODE": "YEARS18-PLUS",
+          "DIM_3_CODE": null,
+          "DIM_MEMBER_3_CODE": null,
+          "DIM_4_CODE": "DIM_OTHER",
+          "DIM_MEMBER_4_CODE": "retained"
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "VALUE_LABEL",
+          "VALUE_NUMERIC",
+          "VALUE_NUMERIC_LOWER",
+          "VALUE_NUMERIC_UPPER",
+          "DIM_1_CODE",
+          "DIM_MEMBER_1_CODE",
+          "DIM_2_CODE",
+          "DIM_MEMBER_2_CODE",
+          "DIM_3_CODE",
+          "DIM_MEMBER_3_CODE",
+          "DIM_4_CODE",
+          "DIM_MEMBER_4_CODE"
+        ],
+        "dimensions": [],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": null,
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": null,
+          "Unit": "test units",
+          "MeasureField": "VALUE_NUMERIC",
+          "DataSourceDim": null,
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_YEARS18-PLUS",
+          "Dim3Type": null,
+          "Dim3": null,
+          "DIM_AGE": null,
+          "DIM_OTHER": "retained",
+          "DIM_POP_AGE_GRP": "YEARS18-PLUS",
+          "DIM_POP_SEX": "FMLE",
+          "DIM_1_CODE": "DIM_POP_SEX",
+          "DIM_MEMBER_1_CODE": "FMLE",
+          "DIM_2_CODE": "DIM_POP_AGE_GRP",
+          "DIM_MEMBER_2_CODE": "YEARS18-PLUS",
+          "DIM_3_CODE": null,
+          "DIM_MEMBER_3_CODE": null,
+          "DIM_4_CODE": "DIM_OTHER",
+          "DIM_MEMBER_4_CODE": "retained"
+        },
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": null,
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": null,
+          "Unit": "test units",
+          "MeasureField": "VALUE_NUMERIC",
+          "DataSourceDim": null,
+          "Comments": null,
+          "Dim1Type": "AGEGROUP",
+          "Dim1": "AGEGROUP_Y40T44",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_YEARS18-PLUS",
+          "Dim3Type": null,
+          "Dim3": null,
+          "DIM_AGE": "Y40T44",
+          "DIM_OTHER": "retained",
+          "DIM_POP_AGE_GRP": "YEARS18-PLUS",
+          "DIM_POP_SEX": null,
+          "DIM_1_CODE": "DIM_AGE",
+          "DIM_MEMBER_1_CODE": "Y40T44",
+          "DIM_2_CODE": "DIM_POP_AGE_GRP",
+          "DIM_MEMBER_2_CODE": "YEARS18-PLUS",
+          "DIM_3_CODE": null,
+          "DIM_MEMBER_3_CODE": null,
+          "DIM_4_CODE": "DIM_OTHER",
+          "DIM_MEMBER_4_CODE": "retained"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null
+        },
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "AGEGROUP_Y40T44",
+          "dim2": "AGEGROUP_YEARS18-PLUS",
+          "dim3": null
+        }
+      ]
+    },
+    {
+      "id": "long_canonical_sex_age",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "VALUE_LABEL": "10",
+          "VALUE_NUMERIC": 10,
+          "VALUE_NUMERIC_LOWER": 9,
+          "VALUE_NUMERIC_UPPER": 11,
+          "DIM_1_CODE": "DIM_SEX",
+          "DIM_MEMBER_1_CODE": "TOTAL",
+          "DIM_2_CODE": "DIM_AGE",
+          "DIM_MEMBER_2_CODE": "Y40T44",
+          "DIM_3_CODE": null,
+          "DIM_MEMBER_3_CODE": null,
+          "DIM_4_CODE": "DIM_OTHER",
+          "DIM_MEMBER_4_CODE": "retained"
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "VALUE_LABEL",
+          "VALUE_NUMERIC",
+          "VALUE_NUMERIC_LOWER",
+          "VALUE_NUMERIC_UPPER",
+          "DIM_1_CODE",
+          "DIM_MEMBER_1_CODE",
+          "DIM_2_CODE",
+          "DIM_MEMBER_2_CODE",
+          "DIM_3_CODE",
+          "DIM_MEMBER_3_CODE",
+          "DIM_4_CODE",
+          "DIM_MEMBER_4_CODE"
+        ],
+        "dimensions": [],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": null,
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": null,
+          "Unit": "test units",
+          "MeasureField": "VALUE_NUMERIC",
+          "DataSourceDim": null,
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_BTSX",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": null,
+          "Dim3": null,
+          "DIM_AGE": "Y40T44",
+          "DIM_OTHER": "retained",
+          "DIM_SEX": "TOTAL",
+          "DIM_1_CODE": "DIM_SEX",
+          "DIM_MEMBER_1_CODE": "TOTAL",
+          "DIM_2_CODE": "DIM_AGE",
+          "DIM_MEMBER_2_CODE": "Y40T44",
+          "DIM_3_CODE": null,
+          "DIM_MEMBER_3_CODE": null,
+          "DIM_4_CODE": "DIM_OTHER",
+          "DIM_MEMBER_4_CODE": "retained"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_BTSX",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": null
+        }
+      ]
+    },
+    {
+      "id": "wide_nonannual_time",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023-Q1",
+          "DIM_TIME_TYPE": "QUARTER",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": "<10",
+          "AMOUNT_N": 10,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": null,
+          "TimeDimType": "QUARTER",
+          "TimeDimensionValue": "2023-Q1",
+          "Value": "<10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": null,
+          "value": "<10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_literal_missing_numeric",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": "NA",
+          "AMOUNT_N": null,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "NA",
+          "NumericValue": null,
+          "Low": null,
+          "High": null,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": null,
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "NA",
+          "value_num": null,
+          "low": null,
+          "high": null,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_missing_display",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": null,
+          "AMOUNT_N": 123.12345678912345,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "123.123456789123",
+          "NumericValue": 123.12345678912345,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "123.123456789123",
+          "value_num": 123.12345678912345,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_small_display",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": null,
+          "AMOUNT_N": 1e-05,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "1e-05",
+          "NumericValue": 1e-05,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "1e-05",
+          "value_num": 1e-05,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_large_display",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": null,
+          "AMOUNT_N": 100000,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "1e+05",
+          "NumericValue": 100000.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "1e+05",
+          "value_num": 100000.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_nonmember_name",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "772",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Tokelau",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": "<10",
+          "AMOUNT_N": 10,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "TKL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Tokelau",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "<10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "TKL",
+          "iso3": null,
+          "location_name": "Tokelau",
+          "year": 2023,
+          "value": "<10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_who_region",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "958",
+          "DIM_GEO_CODE_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": "FEMALE",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": "<10",
+          "AMOUNT_N": 10,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "WPR",
+          "SpatialDimType": "REGION",
+          "SpatialDimTypeOriginal": "WHOREGION",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "<10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": "SEX",
+          "Dim1": "SEX_FMLE",
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": "FEMALE",
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "WPR",
+          "iso3": null,
+          "location_name": "Western Pacific",
+          "year": 2023,
+          "value": "<10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "wide_all_null_dimension",
+      "synthetic": true,
+      "native": [
+        {
+          "Sys_PK": 1,
+          "_RecordID": "source-test-1",
+          "IND_ID": "SYNTHETIC_ID",
+          "DIM_TIME": "2023",
+          "DIM_TIME_TYPE": "YEAR",
+          "DIM_GEO_CODE_M49": "608",
+          "DIM_GEO_CODE_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines",
+          "DIM_AGE": "Y40T44",
+          "DIM_SEX": null,
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra",
+          "VALUE_LABEL": "<10",
+          "AMOUNT_N": 10,
+          "AMOUNT_NL": 9,
+          "AMOUNT_NU": 11,
+          "Sys_CommitDateUtc": "2026-10-07",
+          "VALUE_PROVENANCE": "synthetic source",
+          "VALUE_COMMENTS": null
+        }
+      ],
+      "context": {
+        "path": "DATA_/RELAY_TEST",
+        "id": "SYNTHETIC_ID",
+        "code": "TEST",
+        "name": "Synthetic xMart measure",
+        "unit": "test units",
+        "directory_record": {
+          "IND_ID": "SYNTHETIC_ID",
+          "IND_PER_CODE": "TEST",
+          "IND_CODE_GHO": "TEST",
+          "IND_NAME_FULL": "Synthetic xMart measure",
+          "IND_NAME": "Synthetic measure",
+          "TERM_LANG": "en",
+          "IND_UNIT": "test units",
+          "IND_PUBLISH_TABLE": null,
+          "DWNL_QUERY": "https://private-uat.example/DATA_/data/RELAY_TEST?$select=DIM_AGE,DIM_SEX"
+        },
+        "catalogue_entry": {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "Language": "EN",
+          "Unit": "test units",
+          "MetadataSource": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=%28IND_CODE_GHO%20eq%20%27TEST%27%29"
+        },
+        "fields": [
+          "Sys_PK",
+          "_RecordID",
+          "IND_ID",
+          "DIM_TIME",
+          "DIM_TIME_TYPE",
+          "DIM_GEO_CODE_M49",
+          "DIM_GEO_CODE_TYPE",
+          "GEO_NAME_SHORT",
+          "DIM_AGE",
+          "DIM_SEX",
+          "DIM_CURRENCY",
+          "DIM_OTHER",
+          "VALUE_LABEL",
+          "AMOUNT_N",
+          "AMOUNT_NL",
+          "AMOUNT_NU",
+          "Sys_CommitDateUtc",
+          "VALUE_PROVENANCE",
+          "VALUE_COMMENTS"
+        ],
+        "dimensions": [
+          "DIM_SEX",
+          "DIM_AGE",
+          "DIM_CURRENCY",
+          "DIM_OTHER"
+        ],
+        "filter": "(IND_ID eq 'SYNTHETIC_ID')",
+        "query": {
+          "indicator": "TEST",
+          "locations": null,
+          "spatial_type": null,
+          "year_from": null,
+          "year_to": null,
+          "dimensions": {}
+        }
+      },
+      "geo": [
+        {
+          "Sys_PK": 1,
+          "GEO_CODE_M49": "608",
+          "GEO_CODE_ISO_3": "PHL",
+          "GEO_TYPE": "COUNTRY",
+          "GEO_NAME_SHORT": "Philippines"
+        },
+        {
+          "Sys_PK": 2,
+          "GEO_CODE_M49": "958",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Western Pacific"
+        },
+        {
+          "Sys_PK": 3,
+          "GEO_CODE_M49": "953",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "WHOREGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 4,
+          "GEO_CODE_M49": "002",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "REGION",
+          "GEO_NAME_SHORT": "Africa"
+        },
+        {
+          "Sys_PK": 5,
+          "GEO_CODE_M49": "001",
+          "GEO_CODE_ISO_3": null,
+          "GEO_TYPE": "GLOBAL",
+          "GEO_NAME_SHORT": "World"
+        },
+        {
+          "Sys_PK": 6,
+          "GEO_CODE_M49": "772",
+          "GEO_CODE_ISO_3": "TKL",
+          "GEO_TYPE": "TERRITORY",
+          "GEO_NAME_SHORT": "Tokelau"
+        }
+      ],
+      "records": [
+        {
+          "Id": "source-test-1",
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic xMart measure",
+          "SpatialDim": "PHL",
+          "SpatialDimType": "COUNTRY",
+          "SpatialDimTypeOriginal": "COUNTRY",
+          "SpatialName": "Philippines",
+          "TimeDim": 2023,
+          "TimeDimType": "YEAR",
+          "TimeDimensionValue": "2023",
+          "Value": "<10",
+          "NumericValue": 10.0,
+          "Low": 9.0,
+          "High": 11.0,
+          "Date": "2026-10-07",
+          "Unit": "test units",
+          "MeasureField": "AMOUNT_N",
+          "DataSourceDim": "synthetic source",
+          "Comments": null,
+          "Dim1Type": null,
+          "Dim1": null,
+          "Dim2Type": "AGEGROUP",
+          "Dim2": "AGEGROUP_Y40T44",
+          "Dim3Type": "DIM_CURRENCY",
+          "Dim3": "USD",
+          "DIM_SEX": null,
+          "DIM_AGE": "Y40T44",
+          "DIM_CURRENCY": "USD",
+          "DIM_OTHER": "extra"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic xMart measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2023,
+          "value": "<10",
+          "value_num": 10.0,
+          "low": 9.0,
+          "high": 11.0,
+          "series": null,
+          "dim1": null,
+          "dim2": "AGEGROUP_Y40T44",
+          "dim3": "USD"
+        }
+      ]
+    },
+    {
+      "id": "empty_clean",
+      "synthetic": true,
+      "records": [],
+      "clean": []
+    },
+    {
+      "id": "core_missingness_duplicates",
+      "synthetic": true,
+      "records": [
+        {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic edge measure",
+          "SpatialDim": "PHL",
+          "TimeDim": "2020.9",
+          "Value": "<0.1",
+          "NumericValue": null,
+          "Dim1": "SEX_BTSX"
+        },
+        {
+          "IndicatorCode": "TEST",
+          "IndicatorName": "Synthetic edge measure",
+          "SpatialDim": "PHL",
+          "TimeDim": "2020.9",
+          "Value": "<0.1",
+          "NumericValue": null,
+          "Dim1": "SEX_BTSX"
+        },
+        {
+          "IndicatorCode": "TEST",
+          "IndicatorName": null,
+          "SpatialDim": "TKL",
+          "SpatialName": "Tokelau",
+          "Value": "",
+          "NumericValue": "not available"
+        }
+      ],
+      "clean": [
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic edge measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2020,
+          "value": "<0.1",
+          "value_num": null,
+          "low": null,
+          "high": null,
+          "series": null,
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null
+        },
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": "Synthetic edge measure",
+          "location": "PHL",
+          "iso3": "PHL",
+          "location_name": "Philippines",
+          "year": 2020,
+          "value": "<0.1",
+          "value_num": null,
+          "low": null,
+          "high": null,
+          "series": null,
+          "dim1": "SEX_BTSX",
+          "dim2": null,
+          "dim3": null
+        },
+        {
+          "source": "gho",
+          "id": "TEST",
+          "indicator": null,
+          "location": "TKL",
+          "iso3": null,
+          "location_name": "Tokelau",
+          "year": null,
+          "value": "",
+          "value_num": null,
+          "low": null,
+          "high": null,
+          "series": null,
+          "dim1": null,
+          "dim2": null,
+          "dim3": null
+        }
+      ]
+    }
+  ],
+  "purpose": "Transformation-only test fixtures. All numeric values and indicator identities are synthetic."
+}

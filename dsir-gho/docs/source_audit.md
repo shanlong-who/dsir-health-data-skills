@@ -1,5 +1,10 @@
 # DSIR source audit
 
+Historical September legacy audit. Current GHO behavior follows DSIR 0.11.0 at
+`885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`; see [xMart behavior](../references/xmart_behavior.md)
+and [source hashes](../references/metadata/dsir_reference.json). The findings below
+retain their historical scope and do not validate xMart.
+
 The standalone skill was based on a read-only inspection of DSIR **0.9.0**,
 commit `e2ff6735d174769b55f9a3e55f9f36c75ce9f397` (`Edition 0.9.0`). The source
 working tree was clean before and after inspection. No source package files

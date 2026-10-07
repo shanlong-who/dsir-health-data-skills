@@ -1,4 +1,4 @@
-"""Clean GHO records to the exact, ordered DSIR 0.9.0 core schema."""
+"""Clean normalized GHO records to the ordered DSIR 0.11.0 core schema."""
 
 from __future__ import annotations
 
@@ -82,10 +82,10 @@ def clean_records(
         cleaned.append({
             "source": "gho",
             "id": code,
-            "indicator": indicator_names.get(code),
+            "indicator": _as_string(row.get("IndicatorName")) if "IndicatorName" in row else indicator_names.get(code),
             "location": location,
             "iso3": location if location in country_names else None,
-            "location_name": country_names.get(location, REGION_NAMES.get(location)),
+            "location_name": country_names.get(location, REGION_NAMES.get(location)) or _as_string(row.get("SpatialName")),
             "year": _as_integer(row.get("TimeDim")),
             "value": _as_string(row.get("Value")),
             "value_num": _as_number(row.get("NumericValue")),

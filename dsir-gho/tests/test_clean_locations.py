@@ -40,13 +40,13 @@ class FakeClient:
 
 
 class CleanTests(unittest.TestCase):
-    def test_exact_mapping_and_catalogue_precedence(self):
-        raw = [observation(IndicatorName="Do not use this source name")]
+    def test_exact_mapping_and_source_name_precedence(self):
+        raw = [observation(IndicatorName="Published source measure")]
         original = deepcopy(raw)
         cleaned = clean_records(raw, CATALOGUE)
         self.assertEqual(list(cleaned[0]), list(CORE_FIELDS))
         self.assertEqual(cleaned, [{
-            "source": "gho", "id": "X", "indicator": "Example estimate",
+            "source": "gho", "id": "X", "indicator": "Published source measure",
             "location": "PHL", "iso3": "PHL", "location_name": "Philippines",
             "year": 2020, "value": "12.3 [10.0-14.0]", "value_num": 12.3,
             "low": 10.0, "high": 14.0, "series": None,

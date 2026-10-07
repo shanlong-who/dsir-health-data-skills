@@ -1,6 +1,6 @@
 {
   "name": "dsir-gho",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Discover and retrieve public WHO GHO health data with verified indicators and DSIR-compatible cleaning.",
   "author": {
     "name": "Shanlong Ding"

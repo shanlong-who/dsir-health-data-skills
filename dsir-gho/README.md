@@ -4,6 +4,11 @@ Use natural language to discover and retrieve WHO Global Health Observatory data
 
 Powered by the data-access and cleaning logic developed in the DSIR R package.
 
+Maintenance candidate: skill 0.1.1, aligned to DSIR 0.11.0's public xMart GHO
+backend. Offline and common-input source parity passed. Complete live retrieval
+and independent parity remain unverified because production queries redirected
+to WHO's sorry page on 7 October 2026. See the validation evidence before use.
+
 A portable skill for finding and downloading WHO Global Health Observatory data. It combines `SKILL.md` with a Python 3.10+ client that uses only the standard library and calls WHO directly over HTTPS.
 
 There is no R dependency, DSIR runtime, MCP server, Docker image, service to host, or API key. The agent environment needs Python, permission to run the scripts, and internet access to WHO GHO. This package is separate from the earlier R service in the parent project.
@@ -39,7 +44,7 @@ From the extracted folder, run these examples using the available Python 3.10+ e
 ```sh
 python scripts/cli.py doctor
 python scripts/cli.py search "universal health coverage"
-python scripts/cli.py locations Philippines China WPR WPR_WO_IDN
+python scripts/cli.py locations Philippines China WPR
 ```
 
 Some systems use `python3` instead of `python`; Windows may also provide `py -3`. The agent should select an executable that meets the version requirement. No third-party packages need installing.
@@ -51,7 +56,7 @@ python scripts/cli.py describe CODE
 python scripts/cli.py get CODE --locations PHL CHN --year-from 2015 --year-to 2023 --output-dir outputs/uhc-phl-chn
 ```
 
-Replace `CODE` with a verified indicator code. Add `--dim1`, `--dim2`, or `--dim3` only after checking the indicator's observed dimension values. Query countries and regional aggregates in separate calls. Run `python scripts/cli.py get --help` for the supported arguments. The optional global `--page-size` setting goes before the subcommand. For example, after verifying the UHC code:
+Replace `CODE` with a verified xMart directory code. Prefer `--dimension FIELD CODE [CODE ...]` with exact native fields/values from `describe`; repeat it for multiple dimensions. Positional `--dim1`, `--dim2`, and `--dim3` use the current source schema and can differ from legacy. Query countries and regional aggregates separately. Global `--page-size` and `--backend` precede the subcommand. Legacy access requires explicit `--backend legacy`; a failed xMart request never selects it automatically. For example, after verifying the UHC code:
 
 ```sh
 python scripts/cli.py --page-size 10 get UHC_INDEX_REPORTED --locations WPR --output-dir outputs/uhc-wpr-small-pages
@@ -76,8 +81,9 @@ The skill should clarify a measure such as ambiguous TB incidence before retriev
 | --- | --- |
 | `data.csv` | The 15-column DSIR-compatible observation table. |
 | `response.json` | Full cleaned data with query details, metadata, location coverage, row-to-source mappings, QA, and provenance. |
-| `raw.json` | Original source observations for verification and reuse. |
-| `manifest.json` | SHA-256 checksums of the three result files. |
+| `raw.json` | DSIR-normalized observations for verification and reuse. |
+| `source_raw.json` | Original xMart rows, with every provider field; available for xMart retrievals. |
+| `manifest.json` | SHA-256 checksums of all result files. |
 
 The command prints a concise JSON summary and a preview of up to 12 rows. Read the saved files for the complete result. Existing output directories are refused, so select a new directory for each retrieval. The [output schema](references/output_schema.md) explains missing values, dimensions, geography, and numeric fields.
 
@@ -107,7 +113,7 @@ python evals/run_evals.py --offline --output reports/my_offline_evals.json
 When the environment can reach WHO directly, run the live evaluation cases:
 
 ```sh
-python evals/run_evals.py --output reports/my_live_evals.json
+python evals/run_xmart_live.py --output reports/my_live_evals.json
 ```
 
 Each evaluation run writes JSON and a Markdown summary. Choose a new report filename to preserve previous evidence. The [evaluation cases](evals/cases.json) include the five main questions above, catalogue discovery, geography, dimensions, empty selections, and failure conditions. The [recorded offline report](reports/eval_offline_results.md) documents the included offline run.
@@ -126,6 +132,6 @@ In ChatGPT Work, code and shell network access depends on the account's availabl
 
 ## Implementation background
 
-The interface follows the GHO workflow and 15-column cleaned schema reviewed in DSIR 0.9.0, source revision `e2ff673`. The Python client runs independently of the R package. See [design](DESIGN.md) for the implementation boundary and reproducibility approach.
+The interface follows DSIR 0.11.0, commit `885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`, while keeping the 15-column cleaned schema. The runtime runs independently of R. See [design](DESIGN.md) and [xMart behavior](references/xmart_behavior.md) for source routing, named dimensions, integrity checks and provenance.
 
 WHO GHO is the data source. Review [WHO's GHO API information](https://www.who.int/data/gho/info/gho-odata-api) for source context. The package does not establish endorsement by WHO, and software packaging does not change the source's data-reuse terms.

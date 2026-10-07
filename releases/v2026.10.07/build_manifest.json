@@ -1,0 +1,56 @@
+{
+  "candidate_tag": "v2026.10.07",
+  "generated_at": "2026-10-07T00:33:22Z",
+  "status": "candidate_pending_live_validation",
+  "published": false,
+  "release_ready": false,
+  "author": "Shanlong Ding",
+  "owner": "shanlong-who",
+  "gho_plugin_version": "0.1.2",
+  "gho_skill_version": "0.1.1",
+  "sdg_version": "0.1.0",
+  "dsir_gho_reference": "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5",
+  "independent_live_parity_passed": false,
+  "common_input_parity_passed": true,
+  "fresh_live_counts": {
+    "pass": 3,
+    "fail": 4,
+    "blocked": 6
+  },
+  "extracted_runtime_live_passed": false,
+  "plugin_manifests_verified": true,
+  "plugin_runtime_files_verified": 20,
+  "plugin_runtime_identical_to_standalone": true,
+  "sdg_runtime_hashes_match_previous_github_release": true,
+  "runtime_assets": [
+    {
+      "file": "dsir-gho-0.1.1.zip",
+      "bytes": 64205,
+      "sha256": "cdfcb748d581daf2afe93d32384f42aa2f424f77d7e63f7e6dd3316dc8c1fd31"
+    },
+    {
+      "file": "dsir-gho-plugin-0.1.2.zip",
+      "bytes": 73031,
+      "sha256": "3b614966fc4923511a8f874a1682b379e99557551ba70b332a38e050a195f131"
+    },
+    {
+      "file": "dsir-sdg-0.1.0.zip",
+      "bytes": 47944,
+      "sha256": "52417049da266941e8315ee22bdb48e5d2f2a5cb9393c4b5ef9eddaf000f2315"
+    },
+    {
+      "file": "dsir-sdg-plugin-0.1.0.zip",
+      "bytes": 63219,
+      "sha256": "8e1f0755ea5e7acad6748b5bf37ec3217b153948df94958ce75d09523d8992c4"
+    }
+  ],
+  "source_asset": {
+    "file": "dsir-gho-0.1.1-source.zip",
+    "bytes": 435772,
+    "sha256": "5980e065f90a5d67ede8825ff7185fb0d05f4bd8ab6781eebcfb0ff03b215bb5"
+  },
+  "checksum_files": {
+    "SHA256SUMS": "c9cfcec78b2d6ff26c626370752aec07328f566fd80fd05b22ea57efe9d83f4f",
+    "source_and_runtime": "421585c4781b9176984dd4020b997898c5656dcc92a7e72617c64f18ffd50678"
+  }
+}

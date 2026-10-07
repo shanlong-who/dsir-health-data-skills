@@ -10,7 +10,12 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from gho_client import GHOClient, GHOError, BASE_URL, literal, validate_url, validate_code
+from functools import partial
+from gho_client import GHOClient as BackendClient, GHOError, LEGACY_BASE_URL as BASE_URL, literal, validate_url as backend_url, validate_code
+
+# The original transport contracts explicitly exercise the retained adapter.
+GHOClient = partial(BackendClient, backend="legacy")
+validate_url = partial(backend_url, backend="legacy")
 from indicator_search import search_indicators, basic_metadata
 
 

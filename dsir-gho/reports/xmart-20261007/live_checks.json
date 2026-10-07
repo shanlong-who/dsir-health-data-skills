@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-10-07T00:11:31.116194+00:00",
+  "mode": "fresh_live_requests",
+  "backend": "xmart",
+  "reference_dsir_version": "0.11.0",
+  "reference_dsir_commit": "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5",
+  "passed": false,
+  "checks": [
+    {
+      "id": "geography_reference",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/"
+        }
+      }
+    },
+    {
+      "id": "disaggregation_reference",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/"
+        }
+      }
+    },
+    {
+      "id": "raw_relay_forced_paging",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/"
+        }
+      }
+    },
+    {
+      "id": "indicator_directory",
+      "status": "fail",
+      "error": {
+        "code": "unsafe_api_link",
+        "message": "WHO returned a link outside the approved GHO API.",
+        "details": {
+          "url": "http://www.who.int/sorry/"
+        }
+      }
+    },
+    {
+      "id": "measles_phl",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "uhc_wpr",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "named_sex",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "verified_empty_filter",
+      "status": "blocked",
+      "reason": "Live indicator directory failed; no cached routes, legacy fallback or code substitution used."
+    },
+    {
+      "id": "live_search",
+      "status": "blocked",
+      "reason": "Live directory unavailable."
+    },
+    {
+      "id": "live_describe",
+      "status": "blocked",
+      "reason": "Live directory unavailable."
+    }
+  ],
+  "requests": [],
+  "counts": {
+    "pass": 0,
+    "fail": 4,
+    "blocked": 6
+  }
+}
