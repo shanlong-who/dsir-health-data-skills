@@ -4,11 +4,11 @@ A skills-only maintenance candidate containing the DSIR GHO 0.1.1 runtime, align
 
 ## Package status
 
-Plugin version 0.1.2 updates the GHO runtime to 0.1.1. It retains the DSIR logo and author. Offline and common-input source parity passed; live production directory/count/order requests redirected to WHO's sorry page on 7 October 2026. Complete live retrieval and independent parity remain unverified. This candidate needs successful live checks before public release. GHE is outside this plugin.
+Plugin version 0.1.3 updates listing metadata and adds public website, privacy policy and support links. The GHO 0.1.1 runtime is unchanged from plugin 0.1.2. It retains the DSIR logo and author. Offline and common-input source parity passed; live production directory/count/order requests redirected to WHO's sorry page on 7 October 2026. Complete live retrieval and independent parity remain unverified. This candidate needs successful live checks before a stable release. GHE is outside this plugin.
 
 This is a plugin distribution artifact, not a published listing. It includes a portable root `plugin.json`, a `.codex-plugin/plugin.json` compatibility manifest, and the complete skill in `skills/dsir-gho/`. The runtime files are copied byte-for-byte from the verified standalone skill release. No marketplace was registered and no user-level installation was performed by the build.
 
-When uploading `dsir-gho-plugin-0.1.2.zip`, the portal may still report that it will convert the Agent Plugins manifest to Codex format. This is an expected format-normalization notice; review and confirm it if prompted. Both icon fields are now populated and the referenced square JPEG is included in the archive. Local validation is not evidence of portal acceptance or public review approval.
+When uploading `dsir-gho-plugin-0.1.3.zip`, the portal may still report that it will convert the Agent Plugins manifest to Codex format. This is an expected format-normalization notice; review and confirm it if prompted. Both icon fields are populated and the referenced square JPEG is included in the archive. Local validation is not evidence of portal acceptance or public review approval.
 
 The agent environment must supply Python 3.10+, script execution and outbound HTTPS to `xmart-api-public.who.int`; explicit legacy mode uses `ghoapi.azureedge.net`. Packaging cannot create those capabilities or override workspace policy. Code and script networking must be checked in the actual target account.
 
@@ -55,7 +55,7 @@ These are the steps for an available plugin, not proof this package is already d
 
 ## Publisher's next step
 
-Choose a target account/workspace and verify its plugin import or distribution controls. For public distribution, the official submission flow supports skills-only plugins and requires publisher verification and review. This package has not been submitted, approved or published. It does not include invented publisher websites, support addresses, or policy URLs; supply genuine details when a chosen distribution route requires them.
+For public distribution, the official submission flow supports skills-only plugins and requires publisher verification and review. This build does not establish submission or approval. The listing uses the [public website](https://shanlong-who.github.io/dsir-health-data-skills/), [privacy policy](https://shanlong-who.github.io/dsir-health-data-skills/privacy.html) and [GitHub Issues support](https://github.com/shanlong-who/dsir-health-data-skills/issues). The subtitle is `Find and download WHO GHO data` and the category is `Data & Analytics`. Confirm saved dashboard fields after uploading the new ZIP.
 
 Official references:
 

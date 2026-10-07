@@ -1,3 +1,16 @@
+# GHO listing and privacy update — 7 October 2026
+
+Pre-release `v2026.10.07.1` contains GHO plugin 0.1.3. The subtitle is now
+`Find and download WHO GHO data` (30 characters), the category is `Data & Analytics`,
+and both manifests include the public website, privacy policy and support links.
+The listing explains the plugin's data purpose and existing live-validation limits.
+The static policy website is published from `main:/docs` on GitHub Pages.
+
+The GHO 0.1.1 runtime is unchanged and byte-identical to the prior standalone ZIP.
+No API behavior, output contract or SDG files changed. The 0.1.2 assets and prior
+release remain intact. This listing update does not resolve the pending complete
+live retrieval or independent live parity checks documented below.
+
 # GHO xMart maintenance candidate — 7 October 2026
 
 Candidate collection: `v2026.10.07`. GHO plugin 0.1.2; GHO skill 0.1.1.

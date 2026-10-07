@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "dist/dsir-gho-0.1.1.zip"
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 LOGO = ROOT / "packaging/assets/dsir-logo.jpg"
 PLUGIN = ROOT / "plugins/dsir-gho"
 OUTPUT = ROOT / f"dist/dsir-gho-plugin-{VERSION}.zip"
@@ -21,9 +21,12 @@ def main():
         "keywords": ["WHO", "GHO", "health-data", "DSIR"]}
     interface = {
         "displayName": "DSIR GHO Health Data Skill",
-        "shortDescription": "Find and retrieve WHO GHO data with source details.",
-        "longDescription": "Use natural language to find WHO GHO indicators, retrieve complete observations, and export CSV and JSON. Requires Python 3.10+ and permitted HTTPS access in the agent runtime. No R or hosted server is required.",
-        "developerName": "Shanlong Ding", "category": "Productivity",
+        "shortDescription": "Find and download WHO GHO data",
+        "longDescription": "Find WHO Global Health Observatory indicators and retrieve public health statistics by country, region, year and named dimensions. Export CSV and JSON with source details and completeness checks. Intended for analysts and researchers; it does not provide clinical advice. Uses WHO public xMart, with an explicit legacy adapter. Requires Python 3.10+ and permitted HTTPS access in the agent runtime. No R or maintainer-hosted server is required. Maintenance candidate: offline checks and common-input parity passed, but complete live retrieval and independent live parity remain unverified after WHO requests redirected on 7 October 2026. Failed requests are reported; observations are not invented.",
+        "developerName": "Shanlong Ding", "category": "Data & Analytics",
+        "websiteURL": "https://shanlong-who.github.io/dsir-health-data-skills/",
+        "privacyPolicyURL": "https://shanlong-who.github.io/dsir-health-data-skills/privacy.html",
+        "supportURL": "https://github.com/shanlong-who/dsir-health-data-skills/issues",
         "composerIcon": "./assets/dsir-logo.jpg",
         "logo": "./assets/dsir-logo.jpg",
         "capabilities": ["Read", "Write"],
@@ -38,8 +41,8 @@ def main():
     (PLUGIN / "assets").mkdir(parents=True, exist_ok=True)
     shutil.copyfile(LOGO, PLUGIN / "assets/dsir-logo.jpg")
     (PLUGIN / ".codex-plugin").mkdir(parents=True, exist_ok=True)
-    (PLUGIN / "plugin.json").write_text(json.dumps(portable, indent=2) + "\n", encoding="utf-8")
-    (PLUGIN / ".codex-plugin/plugin.json").write_text(json.dumps(compatibility, indent=2) + "\n", encoding="utf-8")
+    (PLUGIN / "plugin.json").write_bytes((json.dumps(portable, indent=2) + "\n").encode("utf-8"))
+    (PLUGIN / ".codex-plugin/plugin.json").write_bytes((json.dumps(compatibility, indent=2) + "\n").encode("utf-8"))
     copied = []
     with zipfile.ZipFile(SOURCE) as archive:
         assert archive.testzip() is None

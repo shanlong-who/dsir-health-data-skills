@@ -1,0 +1,105 @@
+{
+  "artifact": "dsir-gho-plugin-0.1.3.zip",
+  "bytes": 73744,
+  "sha256": "462e6c40158325abc8a9a4a1c6121e5bbb9d3f51515ae540e5c6f63855085ba6",
+  "source_skill_sha256": "cdfcb748d581daf2afe93d32384f42aa2f424f77d7e63f7e6dd3316dc8c1fd31",
+  "plugin_version": "0.1.3",
+  "skill_runtime_version": "0.1.1",
+  "branding_asset_sha256": "946451be0138527d9508e2c3edf1c0cfab661229100bb0f553b9c2bba785afd7",
+  "validation_status": "maintenance_candidate_pending_live_retrieval_and_independent_parity",
+  "packaged_files": [
+    {
+      "path": "skills/dsir-gho/agents/openai.yaml",
+      "sha256": "7df57d4bdc06e839cff9d0c5e378c22f53b7cd98565ef34c1c33885766f06c61"
+    },
+    {
+      "path": "skills/dsir-gho/LICENSE",
+      "sha256": "f6eb6a758408c7190d692a5c3698b70fb152004d029db5b33147f6591e332144"
+    },
+    {
+      "path": "skills/dsir-gho/references/execution_environments.md",
+      "sha256": "96724c74c0a5fce6bf2b67e56c83d899b45385dc6ca436a4b4bb387f2f09c60a"
+    },
+    {
+      "path": "skills/dsir-gho/references/indicator_selection_rules.md",
+      "sha256": "ec39199e47660c628cc14afd8765ee9c10eabfa8387aa360f0bf12a71882fe8f"
+    },
+    {
+      "path": "skills/dsir-gho/references/location_rules.md",
+      "sha256": "930ec4386051240af5ccd4a591290eb6702165c54b62b14fbcbe8b14c11b84e5"
+    },
+    {
+      "path": "skills/dsir-gho/references/metadata/dsir_reference.json",
+      "sha256": "8ce6240026483516ec55b825db13afd3b3932bf13950a5d128686a6ba5440ce2"
+    },
+    {
+      "path": "skills/dsir-gho/references/metadata/indicator_aliases.json",
+      "sha256": "afc930fb1a0a9b9a7d97b3aeadadb04b56dcff4d018f0b2e99dab401a07ca7f7"
+    },
+    {
+      "path": "skills/dsir-gho/references/metadata/indicator_notes.json",
+      "sha256": "78a0a35c78f208f915170eac98f8ea50c931e172711d61b9b865a7a03f15aaee"
+    },
+    {
+      "path": "skills/dsir-gho/references/metadata/provenance.json",
+      "sha256": "15ad29c99e8071c591c190a2329ac4e3c7e3f287401b84fd4f500ed803dc29e8"
+    },
+    {
+      "path": "skills/dsir-gho/references/metadata/who_countries.json",
+      "sha256": "73e44ab541711ceafe5fa36c9ea1c044e805819d14a94820f70d757178715d62"
+    },
+    {
+      "path": "skills/dsir-gho/references/output_schema.md",
+      "sha256": "d373a760b90852f723d6d7b9b9830897eb7911bd09ce75a08fb068e263f0ca76"
+    },
+    {
+      "path": "skills/dsir-gho/references/xmart_behavior.md",
+      "sha256": "93bc97348cb29f7faa3fa3112aea8d1f8518532b3977e42b2504323ed3f0b491"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/clean.py",
+      "sha256": "a5948f4842e3d0279f86ae4f08a7b5656d0927f3905d334ddc1c1f569f62252e"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/cli.py",
+      "sha256": "7ab22a9790e8f33ad90acd58c246e413932917a4d3bd1a6075af4d3a40a8b0d2"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/gho_client.py",
+      "sha256": "b1889592a818670d028da97398847514a29e678c792c694824ae2f12137577e8"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/indicator_search.py",
+      "sha256": "27ac92f96bfed9febf4a3df97aee285c4c51163357cb1d2044782902bac224b3"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/locations.py",
+      "sha256": "68c52eb982b9f7000940cbc9578a3398e18bb1b00a6503533d0f9ce23f5bfdc8"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/qa.py",
+      "sha256": "8136b7905ec739f80ce658319efd9ac36d752179c27ad117dc2c871707d8d428"
+    },
+    {
+      "path": "skills/dsir-gho/scripts/xmart.py",
+      "sha256": "f58a65743e7e316c547195f6eb269df8f1d6307cf51e88e703339d8cc219da9b"
+    },
+    {
+      "path": "skills/dsir-gho/SKILL.md",
+      "sha256": "6eb1a2891c9e260372f4340ef6ce85da69fba3db95c43c0f9b3591d74aa88059"
+    }
+  ],
+  "runtime_files_identical_to_verified_skill": true,
+  "published": false,
+  "marketplace_registered": false,
+  "mcp_server": false,
+  "r_runtime_required": false,
+  "listing_validation_passed": true,
+  "runtime_file_count_verified": 20,
+  "subtitle_characters": 30,
+  "category": "Data & Analytics",
+  "privacy_policy_url": "https://shanlong-who.github.io/dsir-health-data-skills/privacy.html",
+  "live_validation_repeated": false,
+  "stable_release_validation_passed": false,
+  "previous_release": "v2026.10.07"
+}

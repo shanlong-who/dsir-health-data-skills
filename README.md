@@ -3,9 +3,9 @@
 **Author and maintainer: [Shanlong Ding](https://github.com/shanlong-who)**
 
 The 7 October 2026 maintenance candidate aligns GHO with DSIR 0.11.0's
-public xMart backend: GHO plugin 0.1.2 and skill 0.1.1. Offline tests and 13
+public xMart backend: GHO plugin 0.1.3 and skill 0.1.1. Offline tests and 13
 common-input R comparisons passed; independent live retrieval remains unverified.
-It is available as the [v2026.10.07 pre-release](https://github.com/shanlong-who/dsir-health-data-skills/releases/tag/v2026.10.07).
+The listing and privacy update is available as the [v2026.10.07.1 pre-release](https://github.com/shanlong-who/dsir-health-data-skills/releases/tag/v2026.10.07.1).
 See [release notes](RELEASE_NOTES.md), [validation](dsir-gho/reports/VALIDATION.md)
 and [publishing](PUBLISHING.md) before using it.
 
@@ -15,10 +15,14 @@ Powered by the data-access and cleaning logic developed in the
 
 | Plugin | Data source | Plugin version | Download |
 | --- | --- | --- | --- |
-| DSIR GHO Health Data Skill | WHO Global Health Observatory | 0.1.2 (pre-release) | [GHO plugin ZIP](https://github.com/shanlong-who/dsir-health-data-skills/releases/download/v2026.10.07/dsir-gho-plugin-0.1.2.zip) |
+| DSIR GHO Health Data Skill | WHO Global Health Observatory | 0.1.3 (pre-release) | [GHO plugin ZIP](https://github.com/shanlong-who/dsir-health-data-skills/releases/download/v2026.10.07.1/dsir-gho-plugin-0.1.3.zip) |
 | DSIR SDG Data Skill | UN SDG Global Database | 0.1.0 | [SDG plugin ZIP](https://github.com/shanlong-who/dsir-health-data-skills/releases/download/v2026.09.16/dsir-sdg-plugin-0.1.0.zip) |
 
 [Maintenance candidate downloads and checksums](https://github.com/shanlong-who/dsir-health-data-skills/releases/tag/v2026.10.07)
+
+[GHO plugin website](https://shanlong-who.github.io/dsir-health-data-skills/) ·
+[Privacy policy](https://shanlong-who.github.io/dsir-health-data-skills/privacy.html).
+The 0.1.3 plugin changes listing metadata only; the 0.1.1 skill runtime is unchanged.
 
 ## What the skills do
 

@@ -1,5 +1,23 @@
 # Publishing and reproducibility
 
+## Listing-only update: GHO plugin 0.1.3
+
+Pre-release `v2026.10.07.1` updates the subtitle (30 characters), category
+(`Data & Analytics`), purpose and limitations, and website/privacy/support URLs.
+GitHub Pages serves static files from `main:/docs`; no visitor scripts or forms
+are included. The policy describes runtime exports, direct WHO requests and
+independent host, WHO and GitHub data handling.
+
+Rebuild with `python packaging/build_gho_plugin.py` using the original
+`dsir-gho-0.1.1.zip` (SHA-256
+`cdfcb748d581daf2afe93d32384f42aa2f424f77d7e63f7e6dd3316dc8c1fd31`).
+Run `Rscript packaging/validate_gho_listing.R` to verify both manifests, final
+listing limits, exact ZIP contents and unchanged runtime. The script writes the
+new package's `SHA256SUMS.txt` and `release_manifest.json` under `dist/listing-0.1.3`.
+The historical maintenance finalizer below belongs to the original 0.1.2 release.
+Do not use it to overwrite historical metadata or assets. This update retains
+the existing live-validation gate and leaves SDG unchanged.
+
 ## Release identity and validation status
 
 - Owner and author: Shanlong Ding (`shanlong-who`).

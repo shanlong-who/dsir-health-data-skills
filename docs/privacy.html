@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the independently maintained DSIR GHO Health Data Skill plugin.">
+  <title>Privacy Policy | DSIR GHO Health Data Skill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+  <nav aria-label="Main"><a href="index.html">DSIR GHO Health Data Skill</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="meta">DSIR GHO Health Data Skill · Effective and last updated: 7 October 2026</p>
+  <h2>Scope and maintainer</h2>
+  <p>This policy describes the bundled DSIR GHO plugin and this website, maintained by Shanlong Ding. The plugin retrieves public WHO Global Health Observatory statistics. It is independently maintained and is not an official WHO or OpenAI service. It does not require a plugin account, WHO API key or payment details.</p>
+  <h2>What the bundled client sends</h2>
+  <p>The client sends requests directly from your agent runtime to WHO public xMart at <code>xmart-api-public.who.int</code>. If you explicitly select the legacy adapter, it uses <code>ghoapi.azureedge.net</code>. Requests include indicator and table identifiers, location and year filters, dimension codes, pagination parameters and standard HTTP headers. WHO also receives network information such as the runtime's IP address. Some read-only xMart queries use POST to send query parameters.</p>
+  <p>The bundled client does not send your full conversation, uploaded documents or patient records to a maintainer-operated server. The maintainer operates no backend for this plugin. Do not put personal or patient information into query parameters or use this public-data tool to process confidential records.</p>
+  <h2>Outputs, storage and retention</h2>
+  <p>The client processes returned public observations in the runtime. Exported CSV, JSON, provenance and diagnostic files are written to the output locations in that environment. Errors and diagnostics can contain request URLs, query parameters and source responses. The maintainer does not receive or store these files through a plugin backend.</p>
+  <p>Local or hosted runtime files remain until you or the host remove them under the host's storage rules. The plugin does not impose an automatic retention period. If you share an export, conversation or diagnostic report, the recipient may retain a copy.</p>
+  <h2>Third-party services</h2>
+  <p>ChatGPT or another agent host processes your prompts, files, tool execution and outputs under its own policies and account settings. WHO processes API requests under its own policies. Their logging, retention and deletion practices are outside the maintainer's control. See <a href="https://openai.com/policies/privacy-policy/">OpenAI's privacy policy</a> and <a href="https://www.who.int/about/policies/privacy">WHO's privacy policy</a>.</p>
+  <p>This static website is hosted on GitHub Pages. It includes no site-authored analytics, advertising, tracking scripts, forms or cookies. GitHub may collect visitor information and security logs through hosting; see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.</p>
+  <h2>Support information</h2>
+  <p>If you open a <a href="https://github.com/shanlong-who/dsir-health-data-skills/issues">GitHub issue</a>, your GitHub identity and anything you include are visible publicly and may be used by the maintainer to respond to the issue. GitHub manages that information under its own policy. Do not post sensitive information or secrets.</p>
+  <h2>Your choices and deletion</h2>
+  <p>You can stop requests by not invoking or by disabling the plugin. Delete exported files in your runtime and manage conversations and uploaded files through the host's controls. For information you post on GitHub, use GitHub's editing, deletion and support controls. The maintainer cannot delete information held independently by OpenAI, WHO or GitHub.</p>
+  <h2>Contact and updates</h2>
+  <p>For questions about this policy, contact Shanlong Ding through the repository's <a href="https://github.com/shanlong-who/dsir-health-data-skills/issues">GitHub Issues</a> without including sensitive details. Material changes to the plugin's data handling will be reflected here with a new update date. The source history is available in the <a href="https://github.com/shanlong-who/dsir-health-data-skills">public repository</a>.</p>
+</main></body>
+</html>
