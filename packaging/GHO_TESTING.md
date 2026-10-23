@@ -29,6 +29,9 @@ The output contains:
 
 Both ZIPs contain a `dsir-gho/` root. Each `BUILD.json` records the source Git commit,
 whether it was modified, the version and SHA-256 of every runtime file. Runtime
+identity must be checked here: the existing CLI's `schema_version` and
+`skill_version` fields still carry the historical `0.1.1` marker and do not
+identify this repaired package. The 15-column schema is unchanged. Runtime
 inputs come from tracked `dsir-gho/` source, never a historical ZIP or an old plugin
 runtime copy. Tests, raw observations, R reference code, secrets and caches are not
 runtime inputs. Both archives are checked byte for byte before the build succeeds.
@@ -160,8 +163,13 @@ options must precede `get`):
 
 ```sh
 python /path/to/extracted/dsir-gho/skills/dsir-gho/scripts/cli.py --page-size 1 get WHS4_100 --locations PHL --year-from 2020 --year-to 2021 --output-dir /path/to/new-legacy-output
-python /path/to/extracted/dsir-gho/skills/dsir-gho/scripts/cli.py --backend xmart --page-size 1 get WHS4_100 --locations PHL --year-from 2020 --year-to 2021 --output-dir /path/to/new-xmart-output
+python /path/to/extracted/dsir-gho/skills/dsir-gho/scripts/cli.py --backend xmart get WHS4_100 --locations PHL --year-from 2020 --year-to 2021 --output-dir /path/to/new-xmart-output
 ```
+
+Use the tiny page size only for the bounded legacy pagination check. xMart's
+page-size option also affects catalogue requests, so use its default for this
+live smoke test; mocked regressions cover xMart pagination. In R, read the
+Excel-compatible CSV with `read.csv(path, fileEncoding = "UTF-8-BOM")`.
 
 The Phase 1 report and independent R comparison evidence are retained in the
 source repository. They are not runtime observations and must not substitute for
