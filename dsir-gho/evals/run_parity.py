@@ -146,7 +146,7 @@ def main():
         common = common_inputs()
         evidence = {"retrieved_at": datetime.now(timezone.utc).isoformat(), "source_revision": revision,
                     "source_hashes": source_hashes, "backend": "xmart", "offline": args.offline, "queries": [], "catalogue": []}
-        client = GHOClient()
+        client = GHOClient(backend="xmart")
         if not args.offline:
             try:
                 evidence["catalogue"] = client.catalogue()

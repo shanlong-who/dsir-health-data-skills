@@ -1,0 +1,5 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,TB_mdr_prct,TB_mdr_prct,PHL,PHL,Philippines,2020,81.0126582278481,81.0126582278481,,,,NEW,,
+gho,TB_mdr_prct,TB_mdr_prct,PHL,PHL,Philippines,2020,79.1044776119403,79.1044776119403,,,,RETREATED,,
+gho,TB_mdr_prct,TB_mdr_prct,PHL,PHL,Philippines,2021,70.8433734939759,70.8433734939759,,,,NEW,,
+gho,TB_mdr_prct,TB_mdr_prct,PHL,PHL,Philippines,2021,77.7101096224117,77.7101096224117,,,,RETREATED,,

@@ -1,4 +1,4 @@
-"""WHO GHO transport; xMart by default, explicit legacy compatibility only."""
+"""WHO GHO transport; legacy by default, explicit xMart, no source fallback."""
 from __future__ import annotations
 
 import hashlib
@@ -39,7 +39,7 @@ def literal(value):
 
 
 def validate_code(value):
-    if not isinstance(value, str) or not re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]*", value):
+    if not isinstance(value, str) or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*", value):
         raise GHOError("invalid_query", "Indicator/dimension code must be a nonempty catalogue code.")
     return value
 
@@ -76,9 +76,11 @@ class _CheckedRedirect(urllib.request.HTTPRedirectHandler):
 
 
 class GHOClient:
-    def __init__(self, *, backend="xmart", timeout=30, retries=3, page_size=5000,
+    def __init__(self, *, backend="legacy", timeout=30, retries=3, page_size=None,
                  max_pages=10000, max_rows=1000000, max_bytes=500000000,
                  transport=None, sleep=time.sleep):
+        if page_size is None:
+            page_size = 1000 if backend == "legacy" else 5000
         if not all(isinstance(x, int) and not isinstance(x, bool) and x > 0
                    for x in (retries, page_size, max_pages, max_rows, max_bytes)) or timeout <= 0:
             raise GHOError("invalid_query", "Client limits must be positive.")
@@ -86,6 +88,8 @@ class GHOClient:
             raise GHOError("invalid_query", "backend must be xmart or legacy.")
         if backend == "xmart" and page_size > 120000:
             raise GHOError("invalid_query", "xMart page_size must not exceed 120000.")
+        if backend == "legacy" and page_size > 1000:
+            raise GHOError("invalid_query", "Legacy page_size must not exceed 1000.", backend=backend)
         self.backend = backend
         self.base_url = BASE_URL if backend == "xmart" else LEGACY_BASE_URL
         self.timeout, self.retries, self.page_size = timeout, retries, page_size
@@ -94,6 +98,7 @@ class GHOClient:
         self.trace = []
         self._catalogue = None
         self._dimensions = {}
+        self.catalogue_provenance = None
         self._opener = urllib.request.build_opener(_CheckedRedirect(backend))
         from xmart import XMartAdapter
         self._xmart = XMartAdapter(self) if backend == "xmart" else None
@@ -148,16 +153,25 @@ class GHOClient:
                                    "status": "error", "error": exc.as_dict()["error"]})
                 raise
             except urllib.error.HTTPError as exc:
+                failure_kind = ("invalid_request" if exc.code in {400, 422} else
+                                "temporarily_unavailable" if exc.code in TRANSIENT else "http_error")
+                self.trace.append({"url": url, "backend": self.backend, "retrieved_at": utc_now(),
+                                   "attempt": attempt, "status": "error", "http_status": exc.code,
+                                   "failure_kind": failure_kind})
                 if exc.code not in TRANSIENT or attempt == self.retries:
                     raise GHOError("who_api_request_failed", "WHO API request failed.",
-                                   url=url, http_status=exc.code, attempts=attempt) from exc
+                                   url=url, backend=self.backend, http_status=exc.code, attempts=attempt,
+                                   failure_kind=failure_kind) from exc
                 retry_after = exc.headers.get("Retry-After", "") if exc.headers else ""
                 delay = min(float(retry_after), 30) if retry_after.isdigit() else min(2 ** attempt, 30)
             except (urllib.error.URLError, socket.timeout, TimeoutError, ConnectionError,
                     http.client.HTTPException, OSError) as exc:
+                self.trace.append({"url": url, "backend": self.backend, "retrieved_at": utc_now(),
+                                   "attempt": attempt, "status": "error", "failure_kind": "network_error"})
                 if attempt == self.retries:
                     raise GHOError("who_api_request_failed", "WHO API could not be reached; check network permissions and connectivity.",
-                                   url=url, attempts=attempt, reason=str(exc)) from exc
+                                   url=url, backend=self.backend, attempts=attempt, reason=str(exc),
+                                   failure_kind="network_error") from exc
                 delay = min(2 ** attempt, 30)
             self.sleep(delay)
         raise AssertionError("unreachable")
@@ -167,7 +181,10 @@ class GHOClient:
         params = dict(params or {})
         if self.backend == "xmart" and params.get("$orderby") == "Sys_PK" and params.get("$select"):
             params["$select"] = ",".join(dict.fromkeys(["Sys_PK", *params["$select"].split(",")]))
-        effective_size = page_size or self.page_size
+        effective_size = self.page_size if page_size is None else page_size
+        if (not isinstance(effective_size, int) or isinstance(effective_size, bool)
+                or effective_size < 1 or self.backend == "legacy" and effective_size > 1000):
+            raise GHOError("invalid_query", "Invalid page size for the selected backend.", backend=self.backend)
         if self.backend == "xmart" and not 1 <= effective_size <= 120000:
             raise GHOError("invalid_query", "xMart page_size must be from 1 to 120000.")
         if group:
@@ -280,13 +297,16 @@ class GHOClient:
                                or not isinstance(row.get("IndicatorName"), str) for row in rows):
                 raise GHOError("invalid_catalogue", "WHO indicator catalogue is empty or malformed.")
             self._catalogue = rows
+            self.catalogue_provenance = data["provenance"]
         return self._catalogue
 
     def confirm_indicator(self, code):
         validate_code(code)
         matches = [row for row in self.catalogue() if row["IndicatorCode"].casefold() == code.casefold()]
         if not matches:
-            raise GHOError("indicator_not_found", "Indicator is not present in the successfully retrieved WHO catalogue.", indicator=code)
+            raise GHOError("indicator_not_found", "Indicator is absent from the selected backend's verified catalogue; other backends were not queried.",
+                           indicator=code, backend=self.backend, base_url=self.base_url,
+                           catalogue=self.catalogue_provenance, fallback_performed=False)
         return matches[0]
 
     def dimension_values(self, dimension):
@@ -303,6 +323,45 @@ class GHOClient:
             return self._xmart.indicator_dimensions(code)
         code = self.confirm_indicator(code)["IndicatorCode"]
         return self.collection(f"Indicator({literal(code)})/Dimensions")["records"]
+
+    def validate_legacy_dimensions(self, code, selected):
+        """Use observed position types and their live vocabularies, not guessed sex/age positions."""
+        for position, values in selected.items():
+            field = position.capitalize() + "Type"
+            remaining, seen = set(values), []
+            for _ in range(32):
+                clause = field + " ne null"
+                if seen:
+                    clause += " and " + " and ".join(field + " ne " + literal(t) for t in seen)
+                probe = self.collection(code, {"$filter": clause, "$select": field,
+                                               "$top": 1, "$count": "true"})
+                count = probe["provenance"]["declared_count"]
+                rows = probe["records"]
+                if count is None or bool(rows) != (count > 0):
+                    raise GHOError("incomplete_data", "Dimension type probe did not verify availability.")
+                if not rows:
+                    if not seen:
+                        baseline = self.collection(code, {"$top": 1, "$count": "true", "$select": "Id"})
+                        total = baseline["provenance"]["declared_count"]
+                        if total is None or bool(baseline["records"]) != (total > 0):
+                            raise GHOError("incomplete_data", "Indicator baseline did not verify availability.")
+                        if total == 0:
+                            break  # A valid indicator without observations has no observed positions.
+                    raise GHOError("invalid_query", "Requested codes are not valid for this observed dimension position.",
+                                   backend=self.backend, indicator=code, dimension=position,
+                                   codes=sorted(remaining), observed_types=seen)
+                kind = rows[0].get(field)
+                if not isinstance(kind, str) or not kind or kind in seen:
+                    raise GHOError("invalid_response", "Malformed or repeated dimension type probe.")
+                seen.append(kind)
+                vocabulary = self.dimension_values(kind)
+                if not vocabulary or any(not isinstance(r.get("Code"), str) for r in vocabulary):
+                    raise GHOError("invalid_response", "Dimension vocabulary is empty or malformed.", dimension=kind)
+                remaining -= {r["Code"] for r in vocabulary}
+                if not remaining:
+                    break
+            else:
+                raise GHOError("incomplete_data", "Dimension type validation exceeded its bounded probe limit.")
 
     def get_gho_data(self, indicator, locations=None, year_from=None, year_to=None,
                      dimensions=None, spatial_type=None):
@@ -356,6 +415,7 @@ class GHOClient:
                 raise GHOError("invalid_query", "Dimension filters require nonempty code lists.")
             selected[key] = values
             filters.append(key.capitalize() + " in (" + ",".join(map(literal, values)) + ")")
+        self.validate_legacy_dimensions(code, selected)
         params = {"$orderby": "Id"}
         if filters:
             params["$filter"] = " and ".join(filters)
@@ -368,13 +428,16 @@ class GHOClient:
             scalar_fields = required | {"Value", "NumericValue", "Low", "High", "Dim1", "Dim2", "Dim3"}
             if any(isinstance(row.get(field), (dict, list)) for row in records for field in scalar_fields):
                 raise GHOError("invalid_response", "WHO returned a non-scalar observation field.")
-            ids = [row["Id"] for row in records if row["Id"] is not None]
-            if len(set(ids)) != len(ids):
-                raise GHOError("incomplete_data", "Repeated observation IDs detected, possibly overlapping pages; retry.")
+            ids = [row["Id"] for row in records]
+            if any(value is None for value in ids) or len(set(ids)) != len(ids):
+                raise GHOError("incomplete_data", "Missing or repeated observation IDs detected; retry.")
             result["status"] = "ok"
         elif filters:
-            probe = self.collection(code, {"$top": 1, "$select": "Id"})
-            result["status"] = "filters_no_data" if probe["records"] else "indicator_no_data"
+            probe = self.collection(code, {"$top": 1, "$count": "true", "$select": "Id"})
+            count = probe["provenance"]["declared_count"]
+            if count is None or bool(probe["records"]) != (count > 0):
+                raise GHOError("incomplete_data", "Baseline probe cannot verify indicator observation availability.")
+            result["status"] = "filters_no_data" if count > 0 else "indicator_no_data"
             result["baseline_probe"] = probe["provenance"]
         else:
             result["status"] = "indicator_no_data"

@@ -1,0 +1,3 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,WHOSIS_000001,Life expectancy at birth (years),PHL,PHL,Philippines,2020,73.81604113,73.81604113,73.45771513,74.17657939,,SEX_FMLE,,
+gho,WHOSIS_000001,Life expectancy at birth (years),PHL,PHL,Philippines,2021,69.88256359,69.88256359,69.41504612,70.3761806,,SEX_FMLE,,

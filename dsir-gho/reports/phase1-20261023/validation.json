@@ -1,0 +1,856 @@
+{
+  "recorded_at": "2026-10-23T04:36:13.304920+00:00",
+  "status": "local_candidate_automated_checks_passed_manual_acceptance_pending",
+  "dsir_revision": "5a5accbedf51aa4a6b3288c82269edd7e831e831",
+  "skills_base_revision": "f95a853c9715914338230ca90a1be57da4268b82",
+  "catalogues": {
+    "legacy": {
+      "count": 3102,
+      "sha256": "0126f2904a682bdb5c66e9b1800068da224c89391fadb254e97666b170c7f830",
+      "provenance": {
+        "query_url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+        "urls": [
+          "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+          "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=1000&%24count=true",
+          "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=2000&%24count=true",
+          "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=3000&%24count=true"
+        ],
+        "pages": 4,
+        "row_count": 3102,
+        "declared_count": 3102,
+        "complete": true,
+        "pagination": "count-verified nextLink/skip",
+        "retrieved_at": "2026-10-23T03:32:13.192524+00:00",
+        "source": "WHO GHO",
+        "backend": "legacy",
+        "base_url": "https://ghoapi.azureedge.net/api",
+        "table": "Indicator",
+        "filter": null,
+        "group_fields": null
+      }
+    },
+    "xmart": {
+      "count": 937,
+      "sha256": "9df7e6c929173a5acf4776c990ab50a6719a0cf29b0ca480b571c7686e76b0b7",
+      "provenance": {
+        "query_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+        "urls": [
+          "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true"
+        ],
+        "pages": 1,
+        "row_count": 1065,
+        "declared_count": 1065,
+        "complete": true,
+        "pagination": "count-verified nextLink/skip",
+        "retrieved_at": "2026-10-23T03:32:19.679584+00:00",
+        "source": "WHO GHO",
+        "backend": "xmart",
+        "base_url": "https://xmart-api-public.who.int",
+        "table": "DATA_/IND_DIRECTORY_WIDE",
+        "filter": "TERM_LANG eq 'en'",
+        "group_fields": null
+      }
+    }
+  },
+  "catalogue_code_counts": {
+    "legacy": 3102,
+    "xmart": 937,
+    "shared": 229,
+    "legacy_only": 2873,
+    "xmart_only": 708
+  },
+  "python_offline": {
+    "tests": 114,
+    "passed": 114,
+    "failures": 0,
+    "errors": 0
+  },
+  "offline_evaluations": {
+    "passed": 10,
+    "failed": 0,
+    "evidence": "offline-evals.json"
+  },
+  "r_offline": {
+    "tests": 7,
+    "passed": 58,
+    "failed": 0,
+    "errors": 0
+  },
+  "live_cases": [
+    {
+      "case": "legacy-default-dtp",
+      "backend": "legacy",
+      "indicator": "WHS4_100",
+      "query": {
+        "locations": [
+          "PHL",
+          "CHN"
+        ],
+        "year_from": 2020,
+        "year_to": 2021
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 4,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHS4_100?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%2C%27CHN%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHS4_100?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%2C%27CHN%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:20.606514+00:00",
+          "attempt": 1,
+          "bytes": 2331,
+          "sha256": "d66d675081d3a982f8c56a5ee98003897343b35626c982931c3c2941e82c95b3"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "xmart-dtp",
+      "backend": "xmart",
+      "indicator": "WHS4_100",
+      "query": {
+        "locations": [
+          "PHL",
+          "CHN"
+        ],
+        "year_from": 2020,
+        "year_to": 2021
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 4,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$top=1",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$top=1",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:32:22.052523+00:00",
+          "attempt": 1,
+          "bytes": 2565,
+          "sha256": "f1e9fbfcf4595f0a4cc127bbbdec3eac8a20e17a8dd1246dfca637e04d9882e8"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$select=Sys_PK%2CGEO_CODE_ISO_3%2CGEO_CODE_M49%2CGEO_NAME_SHORT%2CGEO_TYPE&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$select=Sys_PK%2CGEO_CODE_ISO_3%2CGEO_CODE_M49%2CGEO_NAME_SHORT%2CGEO_TYPE&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:32:23.871768+00:00",
+          "attempt": 1,
+          "bytes": 43305,
+          "sha256": "d09142a20da33fbe0debfe8237478e88d40c4a74f31a000b0ba390aed02fcf8f"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$filter=%28IND_ID%20eq%20%27F8E084CWHS4_100%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20in%20%28%27608%27%2C%27156%27%29%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272021%27&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$filter=%28IND_ID%20eq%20%27F8E084CWHS4_100%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20in%20%28%27608%27%2C%27156%27%29%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272021%27&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:32:26.907298+00:00",
+          "attempt": 1,
+          "bytes": 9870,
+          "sha256": "701b8e701a89c5fb3317dc30845aab95069d70c8bbb82128c9816d9fb4230d7e"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy-only-measles",
+      "backend": "legacy",
+      "indicator": "WHS3_62",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2020,
+        "year_to": 2021
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 2,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:27.911734+00:00",
+          "attempt": 1,
+          "bytes": 1220,
+          "sha256": "c64d69f8af79336174a5afa6b9924d4a6d5c3ef9df7d8292c13712e576f5ba0e"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "xmart-absent-measles",
+      "backend": "xmart",
+      "indicator": "WHS3_62",
+      "query": {},
+      "expected": "indicator_not_found",
+      "actual": "indicator_not_found",
+      "error": {
+        "code": "indicator_not_found",
+        "message": "Indicator is absent from the selected backend's verified catalogue; other backends were not queried.",
+        "details": {
+          "indicator": "WHS3_62",
+          "backend": "xmart",
+          "base_url": "https://xmart-api-public.who.int",
+          "catalogue": {
+            "query_url": "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true",
+            "urls": [
+              "https://xmart-api-public.who.int/DATA_/IND_DIRECTORY_WIDE?$filter=TERM_LANG%20eq%20%27en%27&$select=IND_ID%2CIND_PER_CODE%2CIND_CODE_GHO%2CIND_NAME_FULL%2CIND_NAME%2CTERM_LANG%2CIND_UNIT%2CIND_PUBLISH_TABLE%2CDWNL_QUERY&$orderby=IND_ID%2CIND_PER_CODE&$top=5000&$skip=0&$count=true"
+            ],
+            "pages": 1,
+            "row_count": 1065,
+            "declared_count": 1065,
+            "complete": true,
+            "pagination": "count-verified nextLink/skip",
+            "retrieved_at": "2026-10-23T03:32:19.679584+00:00",
+            "source": "WHO GHO",
+            "backend": "xmart",
+            "base_url": "https://xmart-api-public.who.int",
+            "table": "DATA_/IND_DIRECTORY_WIDE",
+            "filter": "TERM_LANG eq 'en'",
+            "group_fields": null
+          },
+          "fallback_performed": false
+        }
+      },
+      "requests": [],
+      "passed": true
+    },
+    {
+      "case": "legacy-sex",
+      "backend": "legacy",
+      "indicator": "WHOSIS_000001",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2020,
+        "year_to": 2021,
+        "dimensions": {
+          "dim1": "SEX_FMLE"
+        }
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 2,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:29.335348+00:00",
+          "attempt": 1,
+          "bytes": 137,
+          "sha256": "7b34f04cf42f038231f6086873aee278741ddc6a2aa1e2a4a9948b37d6a40899"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/DIMENSION/SEX/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/DIMENSION/SEX/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:30.281163+00:00",
+          "attempt": 1,
+          "bytes": 594,
+          "sha256": "230c38db13ae58172c30bf0ac81346538ca129f0febdaf922ed0f5bc35930bb5"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:31.186739+00:00",
+          "attempt": 1,
+          "bytes": 1302,
+          "sha256": "d5f1a0ab54c91d2a5bf405fbedda824d8c85aa85eb450a249715f4ad758fe232"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy-valid-empty",
+      "backend": "legacy",
+      "indicator": "WHOSIS_000001",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2099,
+        "dimensions": {
+          "dim1": "SEX_FMLE"
+        }
+      },
+      "expected": "filters_no_data",
+      "actual": "filters_no_data",
+      "row_count": 0,
+      "qa": "warning",
+      "requests": [
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:31.452672+00:00",
+          "attempt": 1,
+          "bytes": 137,
+          "sha256": "7b34f04cf42f038231f6086873aee278741ddc6a2aa1e2a4a9948b37d6a40899"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202099%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202099%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:32.561816+00:00",
+          "attempt": 1,
+          "bytes": 105,
+          "sha256": "a1d69dc70abf9984884119aa7e5098bec7498baef6135c0050e527fdfda4988e"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24top=1&%24count=true&%24select=Id",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24top=1&%24count=true&%24select=Id",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:33.404958+00:00",
+          "attempt": 1,
+          "bytes": 123,
+          "sha256": "ea5ef3ffe2ed943b046114ecbe206e4aa51f9e89e01fa9c15995da3236c41d35"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy-invalid-sex",
+      "backend": "legacy",
+      "indicator": "WHOSIS_000001",
+      "query": {
+        "dimensions": {
+          "dim1": "SEX_TYP0"
+        }
+      },
+      "expected": "invalid_query",
+      "actual": "invalid_query",
+      "error": {
+        "code": "invalid_query",
+        "message": "Requested codes are not valid for this observed dimension position.",
+        "details": {
+          "backend": "legacy",
+          "indicator": "WHOSIS_000001",
+          "dimension": "dim1",
+          "codes": [
+            "SEX_TYP0"
+          ],
+          "observed_types": [
+            "SEX"
+          ]
+        }
+      },
+      "requests": [
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:33.602738+00:00",
+          "attempt": 1,
+          "bytes": 137,
+          "sha256": "7b34f04cf42f038231f6086873aee278741ddc6a2aa1e2a4a9948b37d6a40899"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null%20and%20Dim1Type%20ne%20%27SEX%27&%24select=Dim1Type&%24top=1&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null%20and%20Dim1Type%20ne%20%27SEX%27&%24select=Dim1Type&%24top=1&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:32:34.486569+00:00",
+          "attempt": 1,
+          "bytes": 115,
+          "sha256": "d7579eb8291da3de7eff7a8107daa44636397eb892a181077d467ef78afdfc8b"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "xmart-sex",
+      "backend": "xmart",
+      "indicator": "WHOSIS_000001",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2020,
+        "year_to": 2021,
+        "dimensions": {
+          "dim1": "SEX_FMLE"
+        }
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 2,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$apply=filter%28%28IND_ID%20eq%20%2790E2E48WHOSIS_000001%27%29%29%2Fgroupby%28%28DIM_SEX%29%29&$orderby=DIM_SEX&$top=5000&$skip=0",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$apply=filter%28%28IND_ID%20eq%20%2790E2E48WHOSIS_000001%27%29%29%2Fgroupby%28%28DIM_SEX%29%29&$orderby=DIM_SEX&$top=5000&$skip=0",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:32:36.847662+00:00",
+          "attempt": 1,
+          "bytes": 149,
+          "sha256": "97ed95c2669596daa632f6e6a7ed4f95c4cb03a1d215e04953437aa6337a6c9c"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$filter=%28IND_ID%20eq%20%2790E2E48WHOSIS_000001%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272021%27%20and%20%28DIM_SEX%20eq%20%27FEMALE%27%29&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$filter=%28IND_ID%20eq%20%2790E2E48WHOSIS_000001%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272021%27%20and%20%28DIM_SEX%20eq%20%27FEMALE%27%29&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:32:38.194562+00:00",
+          "attempt": 1,
+          "bytes": 5068,
+          "sha256": "fef009472f1e069bbf0a71e83e469874709da7ea09a472b720a8bda936643ec0"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$select=TERM_KEY%2CTERM_NAME_MAIN%2CTERM_SET&$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$select=TERM_KEY%2CTERM_NAME_MAIN%2CTERM_SET&$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:32:40.310190+00:00",
+          "attempt": 1,
+          "bytes": 24676,
+          "sha256": "86c4abffa3bb569920aad43c5b7fb714a6ddbed52dd18e2cc46401d30b8cafcd"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy-age-sex",
+      "backend": "legacy",
+      "indicator": "LIFE_0000000029",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2020,
+        "year_to": 2020,
+        "dimensions": {
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_YEARS15-19"
+        }
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 1,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://ghoapi.azureedge.net/api/LIFE_0000000029?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/LIFE_0000000029?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:35:15.832295+00:00",
+          "attempt": 1,
+          "bytes": 140,
+          "sha256": "d0199d46017d73f9ccd1eb5b99a4803af32617f8e4e7aa1eb14f0865ad0abc55"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/DIMENSION/SEX/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/DIMENSION/SEX/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:35:16.046332+00:00",
+          "attempt": 1,
+          "bytes": 594,
+          "sha256": "230c38db13ae58172c30bf0ac81346538ca129f0febdaf922ed0f5bc35930bb5"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/LIFE_0000000029?%24filter=Dim2Type%20ne%20null&%24select=Dim2Type&%24top=1&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/LIFE_0000000029?%24filter=Dim2Type%20ne%20null&%24select=Dim2Type&%24top=1&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:35:18.327258+00:00",
+          "attempt": 1,
+          "bytes": 145,
+          "sha256": "7c63880a2bd00c184d0b64a57448cda2e7f29023653acbb592363bc5ea17dc0a"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/DIMENSION/AGEGROUP/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/DIMENSION/AGEGROUP/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:35:20.127879+00:00",
+          "attempt": 1,
+          "bytes": 23154,
+          "sha256": "20705e2f3b7332c5894ef5cc8aa5651a19fef527e6ea7a73ef05aa5d58a7dc53"
+        },
+        {
+          "url": "https://ghoapi.azureedge.net/api/LIFE_0000000029?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202020%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29%20and%20Dim2%20in%20%28%27AGEGROUP_YEARS15-19%27%29&%24top=1000&%24skip=0&%24count=true",
+          "query_url": "https://ghoapi.azureedge.net/api/LIFE_0000000029?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202020%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29%20and%20Dim2%20in%20%28%27AGEGROUP_YEARS15-19%27%29&%24top=1000&%24skip=0&%24count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "legacy",
+          "retrieved_at": "2026-10-23T03:35:21.824300+00:00",
+          "attempt": 1,
+          "bytes": 706,
+          "sha256": "dba04ec60c73df39cb4d8e5f821914000b59c270ff3908236984b3332d6ced56"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "xmart-age-sex",
+      "backend": "xmart",
+      "indicator": "NCD_BMI_30A",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2020,
+        "year_to": 2020,
+        "dimensions": {
+          "dim1": "SEX_FMLE",
+          "dim2": "AGEGROUP_Y_GE18"
+        }
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 1,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$top=1",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$top=1",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:22.104438+00:00",
+          "attempt": 1,
+          "bytes": 2565,
+          "sha256": "f1e9fbfcf4595f0a4cc127bbbdec3eac8a20e17a8dd1246dfca637e04d9882e8"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$select=Sys_PK%2CGEO_CODE_ISO_3%2CGEO_CODE_M49%2CGEO_NAME_SHORT%2CGEO_TYPE&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$select=Sys_PK%2CGEO_CODE_ISO_3%2CGEO_CODE_M49%2CGEO_NAME_SHORT%2CGEO_TYPE&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:22.437754+00:00",
+          "attempt": 1,
+          "bytes": 43305,
+          "sha256": "d09142a20da33fbe0debfe8237478e88d40c4a74f31a000b0ba390aed02fcf8f"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$apply=filter%28%28IND_ID%20eq%20%27BEFA58BNCD_BMI_30A%27%29%29%2Fgroupby%28%28DIM_SEX%29%29&$orderby=DIM_SEX&$top=5000&$skip=0",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$apply=filter%28%28IND_ID%20eq%20%27BEFA58BNCD_BMI_30A%27%29%29%2Fgroupby%28%28DIM_SEX%29%29&$orderby=DIM_SEX&$top=5000&$skip=0",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:26.160117+00:00",
+          "attempt": 1,
+          "bytes": 149,
+          "sha256": "97ed95c2669596daa632f6e6a7ed4f95c4cb03a1d215e04953437aa6337a6c9c"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$apply=filter%28%28IND_ID%20eq%20%27BEFA58BNCD_BMI_30A%27%29%29%2Fgroupby%28%28DIM_AGE%29%29&$orderby=DIM_AGE&$top=5000&$skip=0",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$apply=filter%28%28IND_ID%20eq%20%27BEFA58BNCD_BMI_30A%27%29%29%2Fgroupby%28%28DIM_AGE%29%29&$orderby=DIM_AGE&$top=5000&$skip=0",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:29.656655+00:00",
+          "attempt": 1,
+          "bytes": 110,
+          "sha256": "6a944d2cdb9f16ecdc2f32f9b390613786a0429db3170bfd6bd2a79eeaed5bbd"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$filter=%28IND_ID%20eq%20%27BEFA58BNCD_BMI_30A%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272020%27%20and%20%28DIM_SEX%20eq%20%27FEMALE%27%29%20and%20%28DIM_AGE%20eq%20%27Y_GE18%27%29&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_WHS?$filter=%28IND_ID%20eq%20%27BEFA58BNCD_BMI_30A%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272020%27%20and%20%28DIM_SEX%20eq%20%27FEMALE%27%29%20and%20%28DIM_AGE%20eq%20%27Y_GE18%27%29&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:32.708714+00:00",
+          "attempt": 1,
+          "bytes": 2584,
+          "sha256": "15a8c8e40d87f2711631fd77984a1dd8408bf8339ac10d5dd2a5148c1efdaecf"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$select=TERM_KEY%2CTERM_NAME_MAIN%2CTERM_SET&$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_DISAGGREGATIONS?$select=TERM_KEY%2CTERM_NAME_MAIN%2CTERM_SET&$orderby=TERM_SET%2CTERM_KEY&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:32.983659+00:00",
+          "attempt": 1,
+          "bytes": 24676,
+          "sha256": "86c4abffa3bb569920aad43c5b7fb714a6ddbed52dd18e2cc46401d30b8cafcd"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "xmart-only-tb",
+      "backend": "xmart",
+      "indicator": "TB_mdr_prct",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2020,
+        "year_to": 2021
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 4,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_TB?$top=1",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_TB?$top=1",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:34.040575+00:00",
+          "attempt": 1,
+          "bytes": 1590,
+          "sha256": "7b3f3fe866144e2763691d5d340dd8c4c77cac68b1aec8f7ab6508559dd09e08"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_TB?$filter=%28IND_ID%20eq%20%271C634C9F655A83%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272021%27&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_TB?$filter=%28IND_ID%20eq%20%271C634C9F655A83%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272020%27%20and%20DIM_TIME%20le%20%272021%27&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:35:37.086806+00:00",
+          "attempt": 1,
+          "bytes": 5917,
+          "sha256": "e299705a028a91a22031bbbe5e2d41d34630375330e772519586e5f0c7ebf1f9"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "legacy-absent-tb",
+      "backend": "legacy",
+      "indicator": "TB_mdr_prct",
+      "query": {},
+      "expected": "indicator_not_found",
+      "actual": "indicator_not_found",
+      "error": {
+        "code": "indicator_not_found",
+        "message": "Indicator is absent from the selected backend's verified catalogue; other backends were not queried.",
+        "details": {
+          "indicator": "TB_mdr_prct",
+          "backend": "legacy",
+          "base_url": "https://ghoapi.azureedge.net/api",
+          "catalogue": {
+            "query_url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+            "urls": [
+              "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+              "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=1000&%24count=true",
+              "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=2000&%24count=true",
+              "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=3000&%24count=true"
+            ],
+            "pages": 4,
+            "row_count": 3102,
+            "declared_count": 3102,
+            "complete": true,
+            "pagination": "count-verified nextLink/skip",
+            "retrieved_at": "2026-10-23T03:35:12.939384+00:00",
+            "source": "WHO GHO",
+            "backend": "legacy",
+            "base_url": "https://ghoapi.azureedge.net/api",
+            "table": "Indicator",
+            "filter": null,
+            "group_fields": null
+          },
+          "fallback_performed": false
+        }
+      },
+      "requests": [],
+      "passed": true
+    },
+    {
+      "case": "xmart-dotted-code",
+      "backend": "xmart",
+      "indicator": "2017_AH_6.3",
+      "query": {
+        "locations": [
+          "PHL"
+        ],
+        "year_from": 2017,
+        "year_to": 2017
+      },
+      "expected": "ok",
+      "actual": "ok",
+      "row_count": 1,
+      "qa": "pass",
+      "requests": [
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_AMR?$top=1",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_AMR?$top=1",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:36:35.068584+00:00",
+          "attempt": 1,
+          "bytes": 1514,
+          "sha256": "4cb176f965e8254855716662bdfa17dd18fb10478935148431cee84f67a85918"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$select=Sys_PK%2CGEO_CODE_ISO_3%2CGEO_CODE_M49%2CGEO_NAME_SHORT%2CGEO_TYPE&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/REF_GEO?$select=Sys_PK%2CGEO_CODE_ISO_3%2CGEO_CODE_M49%2CGEO_NAME_SHORT%2CGEO_TYPE&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:36:35.334870+00:00",
+          "attempt": 1,
+          "bytes": 43305,
+          "sha256": "d09142a20da33fbe0debfe8237478e88d40c4a74f31a000b0ba390aed02fcf8f"
+        },
+        {
+          "url": "https://xmart-api-public.who.int/DATA_/RELAY_AMR?$filter=%28IND_ID%20eq%20%27TrACSS12017_AH_6.3%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272017%27%20and%20DIM_TIME%20le%20%272017%27&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "query_url": "https://xmart-api-public.who.int/DATA_/RELAY_AMR?$filter=%28IND_ID%20eq%20%27TrACSS12017_AH_6.3%27%29%20and%20%28DIM_GEO_CODE_TYPE%20in%20%28%27COUNTRY%27%2C%27NATIONAL%20LIBERATION%20MOVEMENT%27%2C%27ORGANIZED%2C%20UNINCORPORATED%20TERRITORY%27%2C%27TERRITORY%27%29%29%20and%20%28DIM_GEO_CODE_M49%20eq%20%27608%27%29%20and%20DIM_TIME%20ge%20%272017%27%20and%20DIM_TIME%20le%20%272017%27&$orderby=Sys_PK&$top=5000&$skip=0&$count=true",
+          "method": "GET",
+          "query_body_sha256": null,
+          "backend": "xmart",
+          "retrieved_at": "2026-10-23T03:36:36.691692+00:00",
+          "attempt": 1,
+          "bytes": 1528,
+          "sha256": "32b7b1aca8e45e13aca3e15e6649c81338df3c411ec8d9aec008bac81b59622f"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "live_case_count": 13,
+  "plugin_cli_smoke": {
+    "passed": true,
+    "backend": "legacy",
+    "rows": 2,
+    "pages": 2,
+    "qa": "pass",
+    "evidence": "plugin-cli/response.json"
+  },
+  "independent_r": {
+    "completed_at": "2026-10-23 03:34:23 UTC",
+    "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "dsir_version": "0.11.0",
+    "scope": "Independent same-backend WHS4_100, PHL/CHN, 2020/2021; no cross-backend equivalence claim",
+    "results": {
+      "legacy": {
+        "passed": true,
+        "rows": 4,
+        "field_matches": {
+          "source": true,
+          "id": true,
+          "indicator": true,
+          "location": true,
+          "iso3": true,
+          "location_name": true,
+          "year": true,
+          "value": true,
+          "value_num": true,
+          "low": true,
+          "high": true,
+          "series": true,
+          "dim1": true,
+          "dim2": true,
+          "dim3": true
+        },
+        "warnings": []
+      },
+      "xmart": {
+        "passed": true,
+        "rows": 4,
+        "field_matches": {
+          "source": true,
+          "id": true,
+          "indicator": true,
+          "location": true,
+          "iso3": true,
+          "location_name": true,
+          "year": true,
+          "value": true,
+          "value_num": true,
+          "low": true,
+          "high": true,
+          "series": true,
+          "dim1": true,
+          "dim2": true,
+          "dim3": true
+        },
+        "warnings": []
+      }
+    }
+  },
+  "skill_validation": {
+    "standalone": "passed",
+    "local_plugin": "passed",
+    "runtime_reference_files_equal": [
+      "scripts/clean.py",
+      "scripts/cli.py",
+      "scripts/gho_client.py",
+      "scripts/indicator_search.py",
+      "scripts/locations.py",
+      "scripts/qa.py",
+      "scripts/xmart.py",
+      "references/backend_comparison.md",
+      "references/execution_environments.md",
+      "references/indicator_selection_rules.md",
+      "references/location_rules.md",
+      "references/output_schema.md",
+      "references/xmart_behavior.md",
+      "references/metadata/dsir_reference.json",
+      "references/metadata/indicator_aliases.json",
+      "references/metadata/indicator_notes.json",
+      "references/metadata/provenance.json",
+      "references/metadata/who_countries.json",
+      "agents/openai.yaml"
+    ],
+    "skill_md_equal": true,
+    "relative_reference_links": "passed"
+  },
+  "runtime_source_sha256": {
+    "scripts/clean.py": "a5948f4842e3d0279f86ae4f08a7b5656d0927f3905d334ddc1c1f569f62252e",
+    "scripts/cli.py": "e6c435192cfbf92937ce1abfa9deb19fd1c3f53f66df0a5e6f4be4f54d0dbf2b",
+    "scripts/gho_client.py": "5f4b2e50bbd2e23625aba6870c1368cad3f7133e9b5dabb1bb67a3bcb9444352",
+    "scripts/indicator_search.py": "36a11d0a95c9a4282b678fe076d2964938d156927e12986327e6885389112021",
+    "scripts/locations.py": "68c52eb982b9f7000940cbc9578a3398e18bb1b00a6503533d0f9ce23f5bfdc8",
+    "scripts/qa.py": "8136b7905ec739f80ce658319efd9ac36d752179c27ad117dc2c871707d8d428",
+    "scripts/xmart.py": "f9f53a4730e70eaf16155c4554a8a6a375adbff4ddae6fe54fe0c001a385e31e"
+  },
+  "diagnostic_note": "initial-extended-diagnostic.json retains a wrong test assumption: 2017_AH_6.3 has a public route. The corrected PHL/2017 case passed. The initial run is not relabelled.",
+  "scope_limits": [
+    "No cross-backend equivalence or merging",
+    "No installed-plugin changes, release or deployment",
+    "No GHE or unified server work",
+    "Existing earlier audit edits preserved"
+  ],
+  "final_offline_suite_note": "114 tests passed after final describe-route metadata and explicit-xMart CLI regression assertions.",
+  "live_code_revision_note": "Live checks preceded the final describe-only metadata correction; retrieval code is unchanged. That correction is covered by the final offline suite."
+}

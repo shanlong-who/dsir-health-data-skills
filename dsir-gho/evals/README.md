@@ -4,6 +4,46 @@ These maintainer checks are excluded from runtime packages. End users need no R.
 The current reference is DSIR 0.11.0 at commit
 `885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`.
 
+This is an earlier development snapshot with an xMart default, not the final
+0.11.0 behavior. Released DSIR defaults to legacy. The existing parity runner
+sets xMart explicitly in R and tests same-backend implementation parity; it
+does not compare legacy observations with xMart observations. Keep historical
+source hashes and reports unchanged.
+
+## Phase 1 acceptance
+
+From the repository root, use a fresh output directory for every run:
+
+```sh
+python -m unittest discover -s dsir-gho/tests -v
+python dsir-gho/evals/phase1_live.py --output-dir /writable/new-live-directory
+Rscript dsir-gho/evals/verify_phase1.R /path/to/DSIR /writable/new-live-directory /writable/new-r-directory
+```
+
+The first command is offline. The second makes small live WHO queries and saves
+catalogues, source rows, exports and a status summary. Use `--suite base` or
+`--suite extended` for a subset, or `--case NAME` to repeat one failed case.
+The R check loads the specified DSIR source with test helpers disabled, retrieves
+each backend independently, and compares all 15 fields for PHL/CHN DTP3 in
+2020/2021. It never tests cross-backend equality. It needs jsonlite and pkgload
+plus DSIR dependencies. Configure TEMP/TMP to a writable directory if the host's
+sandbox cannot create normal test temporary files.
+
+## Cross-backend regression
+
+See [the comparison protocol](../references/backend_comparison.md). Run from
+the repository root:
+
+```r
+testthat::test_file("dsir-gho/tests/test_backend_comparison.R")
+```
+
+`compare_backends.R` requires a reviewed metadata mapping and independent,
+complete extracts. Its synthetic tests cover blocked metadata/release reviews,
+different source identifiers, reordered rows, different strata/coverage, changed
+values/bounds, NA versus zero, tolerance, duplicate keys and no overlap. They do
+not label any real indicator comparable or perform live validation.
+
 ## Offline contracts
 
 From the repository root:

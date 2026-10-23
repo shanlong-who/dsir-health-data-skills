@@ -1,0 +1,28 @@
+{
+  "approved": false,
+  "reviewed_by": "Codex source audit; release identity still requires review",
+  "reviewed_at": "2026-10-22",
+  "legacy_code": "WHS4_100",
+  "xmart_code": "WHS4_100",
+  "xmart_ind_id": "F8E084CWHS4_100",
+  "xmart_ind_per_code": "WHS4_100",
+  "scope": {"location": "PHL", "years": [2020, 2021]},
+  "key_fields": ["location", "year", "reviewed_stratum"],
+  "checks": {
+    "catalogues": {"status": "verified", "evidence": "2026-10-22 targeted live catalogues: legacy has one entry; xMart has eight rows including six translations, an MNCAH variant and a non-downloadable entry. Both clients selected F8E084CWHS4_100, not F8E08MNWHS4_100MNCAH or KO8G4W8WHS4_100."},
+    "definition": {"status": "verified", "evidence": "WHO GHO metadata registry 88 and data.who.int F8E084C describe DTP3 third-dose immunization coverage among surviving infants. https://www.who.int/data/gho/indicator-metadata-registry/imr-details/88 ; https://data.who.int/indicators/i/48D7D19/F8E084C"},
+    "unit": {"status": "verified", "evidence": "Both official definitions express a percentage. Legacy NumericValue maps to xMart RATE_PER_100_N for the selected route; IND_UNIT is a descriptive title, not a coded unit."},
+    "population": {"status": "verified", "evidence": "Official definitions use surviving infants receiving three DTP-containing vaccine doses in the year. The selected route is the DTP3 age-one coverage indicator; no other age group is substituted."},
+    "estimate_type": {"status": "verified", "evidence": "Legacy catalogue explicitly identifies WUENIC. WHO data.who.int F8E084C lists WHO/UNICEF Estimates of National Immunization Coverage. This review covers that selected route only, not administrative coverage or the MNCAH variant."},
+    "geography": {"status": "verified", "evidence": "Independently downloaded rows identify PHL/COUNTRY in legacy and M49 608/COUNTRY in xMart. No regional aggregation or historical membership mapping was used."},
+    "time": {"status": "verified", "evidence": "Both extracts contain exactly annual YEAR rows for 2020 and 2021. The legacy interval endpoints and xMart DIM_TIME are retained in raw evidence."},
+    "dimensions": {"status": "unverified", "evidence": "For these two rows only: all legacy Dim1-Dim3 and their types are null. All 24 native xMart breakdown fields are null. xMart publication state is PUBLISHED; legacy's catalogue lists PUBLISHSTATE but its returned observation fields do not expose that state. Native xMart numeric measures contain only RATE_PER_100_N. Breakdown structure is checked, but no identical publication-state assumption is made. reviewed_stratum is reserved for the specifically reviewed series; null is not generally mapped to total."},
+    "release": {"status": "unverified", "evidence": "Legacy Date is 2025-07-14T16:23:12.92+02:00; xMart Sys_CommitDateUtc is 2026-05-18T18:07:03.23+08:00. The official indicator page displays a 15 July 2025 update. These are different timestamp concepts and do not establish matching dataset release IDs. Do not approve cross-backend parity from the matching sample values."}
+  },
+  "limitations": [
+    "Review applies only to PHL, 2020-2021 and the selected native route.",
+    "No verified cross-backend parity claim while publication-state mapping and release identity remain unresolved.",
+    "Independent Skill legacy retrieval needs --backend legacy --page-size 1000; its default 5000-row page is rejected by the legacy service.",
+    "This narrow check does not complete the historical 17-case live suite."
+  ]
+}

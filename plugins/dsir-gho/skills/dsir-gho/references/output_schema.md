@@ -58,11 +58,17 @@ Do not append extra columns to this compatibility table. Additional metadata, ge
 
 ## Interpretation
 
+`source = "gho"` does not distinguish the backend. Always deliver the CSV with
+`response.json` and read `provenance.backend` and `base_url`; this local candidate
+and released DSIR 0.11.0 both default to legacy. Identical core
+columns do not establish comparable definitions, dimensions or values. See
+[backend comparison](backend_comparison.md). Retrieval time is not a release ID.
+
 JSON null and empty CSV cells indicate missing information. A missing numeric value is not zero. The reported `value` may contain text or formatting that cannot safely be parsed as an ordinary number; use `value_num` for numerical analysis and retain the text for interpretation.
 
 Do not infer missing uncertainty bounds or substitute a parsed display string for an absent source numeric value without explicitly documenting a separate transformation. Check that lower and upper bounds are meaningful for the same observation before displaying an interval.
 
-Units and full definitions are optional metadata. xMart exports use the live directory unit and leave unavailable definitions null. The bundled legacy summaries apply only to the explicit legacy path when the live code and official name match; they are not refreshed on each query. Do not invent a `unit` column or fill metadata from memory. An indicator title is not automatically a full definition.
+Units and full definitions are optional metadata. xMart exports use the selected route's live directory unit and leave unavailable definitions null. The bundled legacy summaries apply only to legacy when the live code and official name match; they are not refreshed on each query. Do not invent a `unit` column or fill metadata from memory. An indicator title is not automatically a full definition.
 
 Multiple rows may exist for a location and year because of different dimensions. Preserve these rows. An apparent duplicate must be assessed using all source dimensions and identifiers before any deduplication.
 
@@ -70,7 +76,7 @@ Multiple rows may exist for a location and year because of different dimensions.
 
 Use the saved response to inspect the normalized selection, observed years and locations, dimension information, retrieval status, and QA findings. `coverage_by_location` includes requested locations with no matching rows; QA also reports these as `locations_without_data` warnings. For gaps within a location, compare its observed years with the requested range. For stratum-specific gaps, inspect the full `data` array because each location summary combines selected strata. `available_years_in_result` alone is insufficient. A complete paginated retrieval means the selected source response was collected; it does not imply every requested country-year has data.
 
-Provenance records backend, origin, table, filters, directory route evidence, request method, long-query body checksum, response hashes, retrieval times, completeness, skill version and pinned DSIR source hashes. Legacy is explicit and never a fallback. Keep `raw.json` alongside `response.json` and `data.csv` so downstream users can check how the cleaned view relates to the source.
+Provenance records backend, origin, table, filters, directory route evidence, request method, long-query body checksum, response hashes, retrieval times, completeness, skill version and pinned DSIR source hashes. Legacy is the default; neither backend is an automatic fallback. Keep `raw.json` alongside `response.json` and `data.csv` so downstream users can check how the cleaned view relates to the source.
 
 Only a verified complete empty selection can be described as “no matching observations”. A network denial, timeout, invalid response, incomplete pagination, or other failure does not establish absence of data. Explain the returned status and error rather than treating the result as a successful zero-row dataset.
 
@@ -85,3 +91,12 @@ Only a verified complete empty selection can be described as “no matching obse
 | `error` | Read `error.code` and `error.message`; no successful data retrieval is implied. |
 
 Error codes can distinguish `indicator_not_found`, `invalid_query`, `who_api_request_failed`, `invalid_response`, `incomplete_data`, `output_exists`, and local output failures. A nonzero CLI exit code signals unresolved input, QA failure, or an execution error.
+
+`indicator_not_found` includes the selected backend and verified catalogue evidence.
+`unsupported_indicator_route` means catalogue presence without a supported route.
+`unverified_dimension` prevents an unverifiable code from being described as an
+empty data result. `who_api_request_failed` retains its compatible error code;
+`error.details.failure_kind` distinguishes `invalid_request` (HTTP 400/422),
+`temporarily_unavailable` (429/selected 5xx), `network_error` and other `http_error`
+responses. HTTP 404 alone never proves indicator absence. Failed attempts retain
+their backend and time in the request trace.

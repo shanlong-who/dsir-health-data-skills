@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria tetanus toxoid and pertussis third-dose  (DTP3) immunization coverage among 1-year-olds (%) (WUENIC)",
+      "location": "CHN",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2020,
+      "value": "99",
+      "value_num": 99,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria tetanus toxoid and pertussis third-dose  (DTP3) immunization coverage among 1-year-olds (%) (WUENIC)",
+      "location": "CHN",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2021,
+      "value": "99",
+      "value_num": 99,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria tetanus toxoid and pertussis third-dose  (DTP3) immunization coverage among 1-year-olds (%) (WUENIC)",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "83",
+      "value_num": 83,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria tetanus toxoid and pertussis third-dose  (DTP3) immunization coverage among 1-year-olds (%) (WUENIC)",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "69",
+      "value_num": 69,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "provenance": {
+    "backend": "legacy",
+    "base_url": "https://ghoapi.azureedge.net",
+    "query_url": "https://ghoapi.azureedge.net/api/WHS4_100?$filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%2C%27CHN%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021",
+    "retrieved": "2026-10-23 03:34:16",
+    "complete": true,
+    "rows": 4
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "schema_version": "0.1.1",
+  "status": "ok",
+  "indicator": {
+    "code": "WHOSIS_000001",
+    "name": "Life expectancy at birth (years)",
+    "definition": null,
+    "unit": "years",
+    "type": "years",
+    "metadata_source": "https://ghoapi.azureedge.net/api/Indicator('WHOSIS_000001')",
+    "metadata_reviewed_on": null,
+    "metadata_basis": "explicit official catalogue name"
+  },
+  "query": {
+    "indicator": "WHOSIS_000001",
+    "locations": [
+      "PHL"
+    ],
+    "spatial_type": "COUNTRY",
+    "year_from": 2020,
+    "year_to": 2021,
+    "dimensions": {
+      "dim1": [
+        "SEX_FMLE"
+      ]
+    }
+  },
+  "resolved_locations": null,
+  "region_scope_notes": [],
+  "available_years_in_result": [
+    2020,
+    2021
+  ],
+  "coverage_by_location": [
+    {
+      "location": "PHL",
+      "years": [
+        2020,
+        2021
+      ],
+      "row_count": 2
+    }
+  ],
+  "row_count": 2,
+  "dimension_summary": {
+    "dim1": [
+      {
+        "type": "SEX",
+        "code": "SEX_FMLE",
+        "label": "Female"
+      }
+    ],
+    "dim2": [],
+    "dim3": []
+  },
+  "metadata_errors": [],
+  "qa": {
+    "status": "pass",
+    "issues": [],
+    "counts": {
+      "rows": 2,
+      "raw_rows": 2,
+      "duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "missing_numeric": 0,
+      "missing_year": 0,
+      "missing_indicator_name": 0,
+      "missing_location_name": 0,
+      "invalid_bounds": 0,
+      "estimates_outside_bounds": 0,
+      "nonnumeric_years": 0,
+      "fractional_years": 0,
+      "dimensions_preserved": true,
+      "locations": 1,
+      "indicators": 1,
+      "dimension_combinations": 1
+    },
+    "rows_modified": false
+  },
+  "provenance": {
+    "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+    "urls": [
+      "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true"
+    ],
+    "pages": 1,
+    "row_count": 2,
+    "declared_count": 2,
+    "complete": true,
+    "pagination": "count-verified nextLink/skip",
+    "retrieved_at": "2026-10-23T03:32:31.186768+00:00",
+    "source": "WHO GHO",
+    "backend": "legacy",
+    "base_url": "https://ghoapi.azureedge.net/api",
+    "table": "WHOSIS_000001",
+    "filter": "SpatialDimType eq 'COUNTRY' and SpatialDim in ('PHL') and TimeDim ge 2020 and TimeDim le 2021 and Dim1 in ('SEX_FMLE')",
+    "group_fields": null,
+    "requests": [
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=0&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:11.478917+00:00",
+        "attempt": 1,
+        "bytes": 134678,
+        "sha256": "c0119910ee72beb6fd7d99a1dc2cda4f9d2b1dcaf0fc5092544cb7bfef61213f"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=1000&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=1000&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:11.849778+00:00",
+        "attempt": 1,
+        "bytes": 132550,
+        "sha256": "df6ae639bc94790d4e53980bd1cc3a5636d58e9748cbe9de62c55a574aef4e3a"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=2000&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=2000&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:12.968853+00:00",
+        "attempt": 1,
+        "bytes": 135520,
+        "sha256": "20307f744551c37f76fa0e2bf43cb968776969515e1c14dca6c354c5f0a352c2"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=3000&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/Indicator?%24orderby=IndicatorCode&%24top=1000&%24skip=3000&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:13.192484+00:00",
+        "attempt": 1,
+        "bytes": 12762,
+        "sha256": "e9afc1e61d64e6e33c91c14458d33b0159ac85581eb1f6857034af6a139d5e9e"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/WHS4_100?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%2C%27CHN%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/WHS4_100?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%2C%27CHN%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:20.606514+00:00",
+        "attempt": 1,
+        "bytes": 2331,
+        "sha256": "d66d675081d3a982f8c56a5ee98003897343b35626c982931c3c2941e82c95b3"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/WHS3_62?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021&%24top=1000&%24skip=0&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:27.911734+00:00",
+        "attempt": 1,
+        "bytes": 1220,
+        "sha256": "c64d69f8af79336174a5afa6b9924d4a6d5c3ef9df7d8292c13712e576f5ba0e"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24filter=Dim1Type%20ne%20null&%24select=Dim1Type&%24top=1&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:29.335348+00:00",
+        "attempt": 1,
+        "bytes": 137,
+        "sha256": "7b34f04cf42f038231f6086873aee278741ddc6a2aa1e2a4a9948b37d6a40899"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/DIMENSION/SEX/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/DIMENSION/SEX/DimensionValues?%24orderby=Code&%24top=1000&%24skip=0&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:30.281163+00:00",
+        "attempt": 1,
+        "bytes": 594,
+        "sha256": "230c38db13ae58172c30bf0ac81346538ca129f0febdaf922ed0f5bc35930bb5"
+      },
+      {
+        "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+        "query_url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?%24orderby=Id&%24filter=SpatialDimType%20eq%20%27COUNTRY%27%20and%20SpatialDim%20in%20%28%27PHL%27%29%20and%20TimeDim%20ge%202020%20and%20TimeDim%20le%202021%20and%20Dim1%20in%20%28%27SEX_FMLE%27%29&%24top=1000&%24skip=0&%24count=true",
+        "method": "GET",
+        "query_body_sha256": null,
+        "backend": "legacy",
+        "retrieved_at": "2026-10-23T03:32:31.186739+00:00",
+        "attempt": 1,
+        "bytes": 1302,
+        "sha256": "d5f1a0ab54c91d2a5bf405fbedda824d8c85aa85eb450a249715f4ad758fe232"
+      }
+    ],
+    "skill_version": "0.1.1",
+    "reference_dsir_version": "0.11.0",
+    "reference_dsir_commit": "885464b1fade2f8b6d02dde93f9080e4b3f4f2a5",
+    "reference_source_sha256": {
+      "R/http.R": "ec25d8707696938b51f3498740ed1d8a6b9ed09b2823850d75e59421c47b28a9",
+      "R/clean_schema.R": "5e6a336d87d12e9c82864e8bd15c4e2b223a3db9f3a461eaf9f2a886f3752e51",
+      "R/clean_metadata.R": "f10c3bc865abad9f34d33822f936a9aa630bd7bce530e95ff8e4bfbebb4ca319",
+      "R/who_backend.R": "937ae95ae085b2083c472394a602e6029185f5b87baacae25c35f158858d31bb",
+      "R/who_gho.R": "f6659d1de9dafd55d2320afe3fc8be4d1707a8fba942b20315e019a74980b5a0",
+      "R/who_legacy.R": "424edc1232bd4f60ea5f543f353485f34bfc4c34534f485789dc9a5e7c23524e",
+      "R/gho.R": "dcdc79177087169e7bf9ec3a4da9545824241edebab04dc0ee391e91a2806ee5",
+      "DESCRIPTION": "c56b95844f4e97f569b8c4118cf3fd16315749be5e225ba2728b210cd482c1e4",
+      "data/who_countries.rda": "6509eb42b1cf5d56a1f73103a808f7a6360e4f38ce7fa20a77cd4a2e35568f36"
+    }
+  },
+  "baseline_probe": null,
+  "data": [
+    {
+      "source": "gho",
+      "id": "WHOSIS_000001",
+      "indicator": "Life expectancy at birth (years)",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "74.2 [73.9-74.4]",
+      "value_num": 74.2,
+      "low": 73.9,
+      "high": 74.4,
+      "series": null,
+      "dim1": "SEX_FMLE",
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHOSIS_000001",
+      "indicator": "Life expectancy at birth (years)",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "70.2 [70-70.5]",
+      "value_num": 70.2,
+      "low": 70.0,
+      "high": 70.5,
+      "series": null,
+      "dim1": "SEX_FMLE",
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "observation_context": [
+    {
+      "clean_row_index": 0,
+      "raw_row_index": 0,
+      "Id": 4134148,
+      "SpatialDimType": "COUNTRY",
+      "SpatialDimTypeOriginal": null,
+      "SpatialDim": "PHL",
+      "SpatialName": null,
+      "TimeDim": 2020,
+      "TimeDimType": "YEAR",
+      "Dim1Type": "SEX",
+      "Dim1": "SEX_FMLE",
+      "Dim2Type": null,
+      "Dim2": null,
+      "Dim3Type": null,
+      "Dim3": null,
+      "ParentLocationCode": "WPR",
+      "ParentLocation": "Western Pacific",
+      "DataSourceDimType": null,
+      "DataSourceDim": null,
+      "Comments": null,
+      "Date": "2026-10-01T16:11:13.08+02:00",
+      "TimeDimensionValue": "2020",
+      "TimeDimensionBegin": "2020-01-01T00:00:00+01:00",
+      "TimeDimensionEnd": "2020-12-31T00:00:00+01:00",
+      "Unit": null,
+      "MeasureField": null
+    },
+    {
+      "clean_row_index": 1,
+      "raw_row_index": 1,
+      "Id": 5714219,
+      "SpatialDimType": "COUNTRY",
+      "SpatialDimTypeOriginal": null,
+      "SpatialDim": "PHL",
+      "SpatialName": null,
+      "TimeDim": 2021,
+      "TimeDimType": "YEAR",
+      "Dim1Type": "SEX",
+      "Dim1": "SEX_FMLE",
+      "Dim2Type": null,
+      "Dim2": null,
+      "Dim3Type": null,
+      "Dim3": null,
+      "ParentLocationCode": "WPR",
+      "ParentLocation": "Western Pacific",
+      "DataSourceDimType": null,
+      "DataSourceDim": null,
+      "Comments": null,
+      "Date": "2026-10-01T16:11:13.08+02:00",
+      "TimeDimensionValue": "2021",
+      "TimeDimensionBegin": "2021-01-01T00:00:00+01:00",
+      "TimeDimensionEnd": "2021-12-31T00:00:00+01:00",
+      "Unit": null,
+      "MeasureField": null
+    }
+  ],
+  "limitations": [
+    "A WHO release may revise past observations. Retrieval time is not the observation year.",
+    "All returned strata are preserved. Do not sum or average rows with different dimensions or sources.",
+    "The public xMart directory differs from the legacy GHO catalogue. No backend fallback or code substitution is performed."
+  ]
+}

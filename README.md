@@ -2,9 +2,16 @@
 
 **Author and maintainer: [Shanlong Ding](https://github.com/shanlong-who)**
 
-The 7 October 2026 maintenance candidate aligns GHO with DSIR 0.11.0's
-public xMart backend: GHO plugin 0.1.3 and skill 0.1.1. Offline tests and 13
-common-input R comparisons passed; independent live retrieval remains unverified.
+**Unreleased Phase 1 source candidate (23 October 2026):** GHO now defaults to legacy,
+supports explicit xMart, and never automatically switches sources. Paging,
+dimension validation and provenance have been repaired. See the
+[Phase 1 report](dsir-gho/reports/phase1-20261023.md). Published downloads below
+and installed plugins have not been updated; no new release was created.
+
+The historical 7 October 2026 maintenance candidate follows an earlier DSIR
+0.11.0 development snapshot's xMart backend: GHO plugin 0.1.3 and skill 0.1.1.
+Its offline tests and 13 common-input R comparisons passed; its full independent
+live suite remains unverified. The newer Phase 1 source has separate validation.
 The listing and privacy update is available as the [v2026.10.07.1 pre-release](https://github.com/shanlong-who/dsir-health-data-skills/releases/tag/v2026.10.07.1).
 See [release notes](RELEASE_NOTES.md), [validation](dsir-gho/reports/VALIDATION.md)
 and [publishing](PUBLISHING.md) before using it.
@@ -23,6 +30,27 @@ Powered by the data-access and cleaning logic developed in the
 [GHO plugin website](https://shanlong-who.github.io/dsir-health-data-skills/) ·
 [Privacy policy](https://shanlong-who.github.io/dsir-health-data-skills/privacy.html).
 The 0.1.3 plugin changes listing metadata only; the 0.1.1 skill runtime is unchanged.
+
+## GHO backend selection and historical downloads
+
+The published October candidate defaults to **WHO xMart**. This Phase 1
+source and released DSIR 0.11.0 default to the **legacy GHO OData API** (DSIR's
+session option can override that). Their common output
+schema does not guarantee the same catalogue, definitions, dimensions, revisions
+or values. For same-source comparisons, explicitly select the same backend in
+both tools. See the [source comparison guide](dsir-gho/references/backend_comparison.md).
+
+The Skill's pinned reference is the earlier DSIR commit
+`885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`, before
+[`5ee3a41`](https://github.com/shanlong-who/DSIR/commit/5ee3a41feca301c9dd007e323235268aa7a4dc91)
+restored DSIR's legacy default. "Aligned" refers to that snapshot's xMart
+adapter and cleaning contracts. It does not mean alignment with the final
+0.11.0 default or establish cross-backend data parity. Historical validation
+reports and published release archives retain their original scope and contents.
+
+The [22 October audit](dsir-gho/reports/backend-audit-20261022.md) records the
+current code review, narrow independent live samples, offline regression results,
+legacy paging limit, unresolved comparability checks and local R limitations.
 
 ## What the skills do
 
@@ -84,10 +112,11 @@ Ordinary browsing access does not guarantee that the script runtime can use HTTP
 | --- | --- |
 | [dsir-gho](dsir-gho/) | GHO runtime, design, tests, evaluation cases and validation reports |
 | [dsir-sdg](dsir-sdg/) | SDG runtime, design, tests, evaluation cases and validation reports |
-| [plugins](plugins/) | Exact extracted contents of the GHO candidate and unchanged SDG plugin ZIPs |
+| [plugins](plugins/) | Current GHO plugin source and unchanged SDG plugin; GHO source differs from historical ZIPs |
 | [packaging](packaging/) | Shared GHO plugin builder and branding asset |
 | [PUBLISHING.md](PUBLISHING.md) | Build steps, release provenance and validation scope |
 | [releases/v2026.10.07](releases/v2026.10.07/) | Candidate ZIP checksums and the original build manifest |
+| [PHASE2.md](PHASE2.md) | GHE readiness and option comparison; implementation is not started |
 
 The repository contains the full source. GitHub also supplies source ZIP and
 tar archives on the release page; these are for development, not plugin import.

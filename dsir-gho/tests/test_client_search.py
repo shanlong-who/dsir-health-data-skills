@@ -160,7 +160,8 @@ class ClientTests(unittest.TestCase):
         client = GHOClient(transport=transport)
         client._catalogue = CATALOGUE
         resolved = {"status": "ok", "locations": [{"code": "O'NEIL", "spatial_type": "country"}]}
-        with patch("locations.resolve_locations", return_value=resolved):
+        with patch("locations.resolve_locations", return_value=resolved), patch.object(client, "validate_legacy_dimensions"):
+            # This test isolates OData escaping; vocabulary validation has separate contracts.
             client.get_gho_data("UHC_TEST", ["O'NEIL"], dimensions={"dim1": ["A'B"]}, spatial_type="COUNTRY")
         query = parse_qs(urlsplit(urls[0]).query)["$filter"][0]
         self.assertIn("'O''NEIL'", query)
@@ -182,7 +183,7 @@ class ClientTests(unittest.TestCase):
         for baseline, expected in (([], "indicator_no_data"), ([{"Id": 99}], "filters_no_data")):
             def transport(url):
                 query = parse_qs(urlsplit(url).query)
-                return {"value": baseline} if "$select" in query else {"value": [], "@odata.count": 0}
+                return {"value": baseline, "@odata.count": len(baseline)} if "$select" in query else {"value": [], "@odata.count": 0}
             client = GHOClient(transport=transport)
             client._catalogue = CATALOGUE
             self.assertEqual(client.get_gho_data("UHC_TEST", year_from=2099)["status"], expected)

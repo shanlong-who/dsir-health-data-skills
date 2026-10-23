@@ -1,5 +1,21 @@
 # Publishing and reproducibility
 
+## Current source candidate: 23 October 2026
+
+The unreleased GHO source now defaults to legacy and supports explicit xMart.
+See the [Phase 1 report](dsir-gho/reports/phase1-20261023.md) and
+[evaluation guide](dsir-gho/evals/README.md) for current validation.
+Source publication does not rebuild or install a plugin. Manual acceptance,
+a version decision and a reviewed build remain necessary before a new release.
+
+The sections below describe historical releases. In particular,
+`packaging/build_gho_plugin.py` consumes the old standalone ZIP and rewrites the
+plugin source and listing. Do not run that historical builder in this working
+copy to package Phase 1: it can restore the old runtime and metadata. Reproduce
+old releases only from their tagged source in a separate directory. A future
+Phase 1 release must update and validate the build inputs and listing together.
+No new archive or release is produced by this source update.
+
 ## Listing-only update: GHO plugin 0.1.3
 
 Pre-release `v2026.10.07.1` updates the subtitle (30 characters), category

@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria-tetanus-pertussis (DTP3) immunization coverage among 1 year olds (%)",
+      "location": "CHN",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2020,
+      "value": "99",
+      "value_num": 99,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria-tetanus-pertussis (DTP3) immunization coverage among 1 year olds (%)",
+      "location": "CHN",
+      "iso3": "CHN",
+      "location_name": "China",
+      "year": 2021,
+      "value": "99",
+      "value_num": 99,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria-tetanus-pertussis (DTP3) immunization coverage among 1 year olds (%)",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2020,
+      "value": "83",
+      "value_num": 83,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    },
+    {
+      "source": "gho",
+      "id": "WHS4_100",
+      "indicator": "Diphtheria-tetanus-pertussis (DTP3) immunization coverage among 1 year olds (%)",
+      "location": "PHL",
+      "iso3": "PHL",
+      "location_name": "Philippines",
+      "year": 2021,
+      "value": "69",
+      "value_num": 69,
+      "low": null,
+      "high": null,
+      "series": null,
+      "dim1": null,
+      "dim2": null,
+      "dim3": null
+    }
+  ],
+  "provenance": {
+    "backend": "xmart",
+    "base_url": "https://xmart-api-public.who.int",
+    "table": "DATA_/RELAY_WHS",
+    "filter": "(IND_ID eq 'F8E084CWHS4_100') and (DIM_GEO_CODE_TYPE in ('COUNTRY','NATIONAL LIBERATION MOVEMENT','ORGANIZED, UNINCORPORATED TERRITORY','TERRITORY')) and (DIM_GEO_CODE_M49 in ('608','156')) and DIM_TIME ge '2020' and DIM_TIME le '2021'",
+    "retrieved": "2026-10-23 03:34:23",
+    "complete": true,
+    "rows": 4
+  }
+}

@@ -4,10 +4,13 @@ Use natural language to discover and retrieve WHO Global Health Observatory data
 
 Powered by the data-access and cleaning logic developed in the DSIR R package.
 
-Maintenance candidate: skill 0.1.1, aligned to DSIR 0.11.0's public xMart GHO
-backend. Offline and common-input source parity passed. Complete live retrieval
-and independent parity remain unverified because production queries redirected
-to WHO's sorry page on 7 October 2026. See the validation evidence before use.
+Unreleased Phase 1 source: legacy is now the default, matching released DSIR
+0.11.0. Select xMart explicitly with `--backend xmart`. Automatic fallback is
+disabled. No installed plugin, published archive or production service was changed.
+See the [Phase 1 report](reports/phase1-20261023.md) for tests, evidence and limits,
+and [backend comparison](references/backend_comparison.md) for source identity.
+The historical pinned DSIR hashes remain unchanged; they describe the earlier
+xMart reference, not a newly released package.
 
 A portable skill for finding and downloading WHO Global Health Observatory data. It combines `SKILL.md` with a Python 3.10+ client that uses only the standard library and calls WHO directly over HTTPS.
 
@@ -56,7 +59,13 @@ python scripts/cli.py describe CODE
 python scripts/cli.py get CODE --locations PHL CHN --year-from 2015 --year-to 2023 --output-dir outputs/uhc-phl-chn
 ```
 
-Replace `CODE` with a verified xMart directory code. Prefer `--dimension FIELD CODE [CODE ...]` with exact native fields/values from `describe`; repeat it for multiple dimensions. Positional `--dim1`, `--dim2`, and `--dim3` use the current source schema and can differ from legacy. Query countries and regional aggregates separately. Global `--page-size` and `--backend` precede the subcommand. Legacy access requires explicit `--backend legacy`; a failed xMart request never selects it automatically. For example, after verifying the UHC code:
+Replace `CODE` with a code verified in the selected backend. Legacy supports
+`--dim1`, `--dim2` and `--dim3`; verify their types with `describe`. For xMart,
+prefer exact named filters with `--dimension FIELD CODE [CODE ...]`. Repeat it for
+multiple dimensions. Never assume positions match between backends. Query
+countries and regional aggregates separately. Global `--page-size` and `--backend`
+precede the subcommand. Defaults are 1000 rows for legacy and 5000 for xMart;
+legacy sizes above 1000 are rejected locally. For example, after verifying the code:
 
 ```sh
 python scripts/cli.py --page-size 10 get UHC_INDEX_REPORTED --locations WPR --output-dir outputs/uhc-wpr-small-pages
@@ -84,6 +93,12 @@ The skill should clarify a measure such as ambiguous TB incidence before retriev
 | `raw.json` | DSIR-normalized observations for verification and reuse. |
 | `source_raw.json` | Original xMart rows, with every provider field; available for xMart retrievals. |
 | `manifest.json` | SHA-256 checksums of all result files. |
+
+The CSV field `source = "gho"` does not distinguish xMart from legacy. Keep
+`response.json` alongside it: `provenance.backend`, `base_url`, `query_url`,
+`table`, `filter`, `retrieved_at` and `complete` identify the retrieval. For
+xMart, also inspect `provenance.route` and keep `source_raw.json`. Retrieval
+time and row-update times do not establish the dataset release version.
 
 The command prints a concise JSON summary and a preview of up to 12 rows. Read the saved files for the complete result. Existing output directories are refused, so select a new directory for each retrieval. The [output schema](references/output_schema.md) explains missing values, dimensions, geography, and numeric fields.
 
@@ -122,6 +137,16 @@ The default live report path is `reports/eval_results.json`. The original-DSIR c
 
 Original-DSIR parity checks are maintainer validation against the reference R source. Repeating those comparisons requires that separate R reference environment; ordinary skill use and the Python tests above do not require R.
 
+Maintainers can run the new source-comparison regression tests in R:
+
+```r
+testthat::test_file("tests/test_backend_comparison.R")
+```
+
+These synthetic tests protect the metadata-review gate, matching keys, missing
+values, bounds, duplicate handling and coverage reporting. They are separate
+from live WHO validation and from same-backend R/client parity.
+
 ## ChatGPT distribution
 
 This ZIP is a standalone skill package. Uploading it as an ordinary chat attachment or as Custom GPT Knowledge is not documented here as an executable skill installation method. A host must actually load the skill and run its scripts.
@@ -132,6 +157,6 @@ In ChatGPT Work, code and shell network access depends on the account's availabl
 
 ## Implementation background
 
-The interface follows DSIR 0.11.0, commit `885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`, while keeping the 15-column cleaned schema. The runtime runs independently of R. See [design](DESIGN.md) and [xMart behavior](references/xmart_behavior.md) for source routing, named dimensions, integrity checks and provenance.
+The historical xMart reference follows DSIR 0.11.0 development commit `885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`, while keeping the 15-column cleaned schema. The runtime runs independently of R. See [design](DESIGN.md) and [xMart behavior](references/xmart_behavior.md) for source routing, named dimensions, integrity checks and provenance.
 
 WHO GHO is the data source. Review [WHO's GHO API information](https://www.who.int/data/gho/info/gho-odata-api) for source context. The package does not establish endorsement by WHO, and software packaging does not change the source's data-reuse terms.

@@ -4,12 +4,17 @@ Reference: DSIR 0.11.0, commit `885464b1fade2f8b6d02dde93f9080e4b3f4f2a5`.
 The installed runtime is independent of R. [Reference hashes](metadata/dsir_reference.json)
 identify the unmodified source files used for maintainer parity.
 
+This is an earlier development snapshot. Released DSIR 0.11.0 defaults to
+legacy, as does this local Skill candidate; select xMart explicitly. See [backend comparison](backend_comparison.md)
+for source identity and the limits of common-input and same-backend parity.
+
 ## Discovery and routes
 
 The English `DATA_/IND_DIRECTORY_WIDE` directory supplies verified GHO codes,
 names, units and routes. Multiple directory entries can share a GHO code.
 Catalogue names follow the first entry; retrieval prefers a downloadable entry
-and an exact `IND_PER_CODE` match, as in DSIR. The observation's published
+and an exact `IND_PER_CODE` match, as in DSIR. Retrieval metadata uses that selected
+route's name and unit, not metadata from another catalogue variant. The observation's published
 `IndicatorName` takes precedence during cleaning, including a missing source name.
 
 Only `DATA_/RELAY...` object identifiers are extracted from `DWNL_QUERY` and

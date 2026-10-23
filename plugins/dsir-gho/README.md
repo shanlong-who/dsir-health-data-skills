@@ -1,16 +1,23 @@
 # DSIR GHO Health Data Skill plugin
 
-A skills-only maintenance candidate containing the DSIR GHO 0.1.1 runtime, aligned to DSIR 0.11.0 public xMart. It discovers WHO GHO indicators, retrieves observations, preserves DSIR cleaning semantics, and exports CSV and JSON. No R, MCP server, hosted service or WHO API key is required.
+Unreleased Phase 1 source candidate for the existing skills-only GHO plugin. It keeps
+the same commands and 15-column exports, defaults to legacy, and supports explicit
+`--backend xmart`. No R, MCP server, hosted service or WHO API key is required.
+See the [source comparison guide](skills/dsir-gho/references/backend_comparison.md)
+and the source repository's `dsir-gho/reports/phase1-20261023.md` for validation.
 
 ## Package status
 
-Plugin version 0.1.3 updates listing metadata and adds public website, privacy policy and support links. The GHO 0.1.1 runtime is unchanged from plugin 0.1.2. It retains the DSIR logo and author. Offline and common-input source parity passed; live production directory/count/order requests redirected to WHO's sorry page on 7 October 2026. Complete live retrieval and independent parity remain unverified. This candidate needs successful live checks before a stable release. GHE is outside this plugin.
+Only source files were updated. Existing version strings identify the
+previous packaging baseline; release archives, installed plugins and marketplace
+configuration were not changed. A future release needs a separate reviewed build
+and version decision. The build script currently reads its standalone ZIP input;
+do not rebuild from an old ZIP and overwrite these repaired sources.
 
-This is a plugin distribution artifact, not a published listing. It includes a portable root `plugin.json`, a `.codex-plugin/plugin.json` compatibility manifest, and the complete skill in `skills/dsir-gho/`. The runtime files are copied byte-for-byte from the verified standalone skill release. No marketplace was registered and no user-level installation was performed by the build.
-
-When uploading `dsir-gho-plugin-0.1.3.zip`, the portal may still report that it will convert the Agent Plugins manifest to Codex format. This is an expected format-normalization notice; review and confirm it if prompted. Both icon fields are populated and the referenced square JPEG is included in the archive. Local validation is not evidence of portal acceptance or public review approval.
-
-The agent environment must supply Python 3.10+, script execution and outbound HTTPS to `xmart-api-public.who.int`; explicit legacy mode uses `ghoapi.azureedge.net`. Packaging cannot create those capabilities or override workspace policy. Code and script networking must be checked in the actual target account.
+The host needs Python 3.10+, script execution and HTTPS access to
+`ghoapi.azureedge.net` for legacy, or `xmart-api-public.who.int` for xMart.
+The following installation instructions describe existing distribution methods;
+they do not install this unbuilt source candidate.
 
 ## For colleagues using the existing standalone ZIP in local Codex
 

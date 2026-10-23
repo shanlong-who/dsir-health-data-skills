@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "DSIR GHO Health Data Skill",
     "shortDescription": "Find and download WHO GHO data",
-    "longDescription": "Find WHO Global Health Observatory indicators and retrieve public health statistics by country, region, year and named dimensions. Export CSV and JSON with source details and completeness checks. Intended for analysts and researchers; it does not provide clinical advice. Uses WHO public xMart, with an explicit legacy adapter. Requires Python 3.10+ and permitted HTTPS access in the agent runtime. No R or maintainer-hosted server is required. Maintenance candidate: offline checks and common-input parity passed, but complete live retrieval and independent live parity remain unverified after WHO requests redirected on 7 October 2026. Failed requests are reported; observations are not invented.",
+    "longDescription": "Find WHO GHO indicators and retrieve public health statistics by country, region, year and verified dimensions. Export CSV and JSON with source details and completeness checks. Uses legacy by default and xMart when explicitly selected; no automatic source fallback. Requires Python 3.10+ and permitted HTTPS access. No R or hosted server is required. Local Phase 1 candidate; existing published archives and installed plugins are unchanged.",
     "developerName": "Shanlong Ding",
     "category": "Data & Analytics",
     "websiteURL": "https://shanlong-who.github.io/dsir-health-data-skills/",

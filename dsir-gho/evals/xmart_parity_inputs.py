@@ -25,7 +25,7 @@ def common_inputs():
     ]
     result = []
     for label, native in cases:
-        client = GHOClient(transport=FixtureTransport(native))
+        client = GHOClient(backend="xmart", transport=FixtureTransport(native))
         context = client._xmart.context("TEST")
         normalized = client._xmart.normalize(native, context)
         result.append({"id": label, "synthetic": True, "native": native, "context": context,

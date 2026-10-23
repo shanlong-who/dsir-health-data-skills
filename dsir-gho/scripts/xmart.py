@@ -120,6 +120,7 @@ class XMartAdapter:
             if any(any(isinstance(v, (dict, list)) for v in r.values()) for r in rows) or len(set(keys)) != len(keys):
                 raise GHOError("invalid_catalogue", "xMart directory contains malformed or duplicate identifiers.")
             self.directory_provenance = result["provenance"]
+            self.client.catalogue_provenance = result["provenance"]
             return rows
         return self.cached("directory", fetch)
 
@@ -157,10 +158,14 @@ class XMartAdapter:
                 path = match.group().replace("/data/", "/")
                 if not re.fullmatch(r"DATA_/RELAY[A-Za-z0-9_]*", path):
                     continue
+                selected_entry = {**entry, "IndicatorName": row["IND_NAME_FULL"] or row["IND_NAME"],
+                                  "Unit": row["IND_UNIT"]}
                 return {"path": path, "id": row["IND_ID"], "code": indicator,
                         "name": row["IND_NAME_FULL"], "unit": row["IND_UNIT"],
-                        "directory_record": dict(row), "catalogue_entry": entry}
-        raise GHOError("unsupported_indicator_route", "The public xMart directory has no supported GHO RELAY route.", indicator=indicator)
+                        "directory_record": dict(row), "catalogue_entry": selected_entry}
+        raise GHOError("unsupported_indicator_route", "Indicator exists in xMart's directory but has no supported public GHO RELAY route.",
+                       indicator=indicator, backend="xmart", catalogue=self.directory_provenance,
+                       fallback_performed=False)
 
     def fields(self, path):
         def fetch():
@@ -215,7 +220,7 @@ class XMartAdapter:
                 raise GHOError("invalid_response", "Malformed xMart disaggregation reference.")
             return rows
         rows = self.cached("disaggregations", fetch)
-        return [{"Code": positional_value(r["TERM_SET"], r["TERM_KEY"]), "NativeCode": r["TERM_KEY"],
+        return [{"Code": positional_value(r["TERM_SET"], r["TERM_KEY"]), "NativeCode": r["TERM_KEY"], "Type": r["TERM_SET"],
                  "Title": r["TERM_NAME_MAIN"]} for r in rows if dimension_type(r["TERM_SET"]) == dimension_type(dimension)]
 
     def long_types(self, context):
@@ -381,8 +386,48 @@ class XMartAdapter:
             output.append(result)
         return output
 
+    def validate_dimensions(self, context):
+        """Validate each code independently; one valid code must not hide an invalid sibling."""
+        long = "DIM_1_CODE" in context["fields"]
+        for key, values in context["query"]["dimensions"].items():
+            positional = key in {"dim1", "dim2", "dim3"}
+            if long:
+                positions = ([f"DIM_{key[-1]}_CODE"] if positional else
+                             [f for f, types in self.long_types(context).items() if key in types])
+                observed, kinds = set(), set()
+                for field in positions:
+                    member = member_field(field, context["fields"])
+                    rows = self.client.collection(context["path"], {
+                        "$filter": in_filter("IND_ID", [context["id"]])}, group=[field, member])["records"]
+                    for row in rows:
+                        kind, value = row.get(field), row.get(member)
+                        if kind and value is not None and (positional or kind == key):
+                            kinds.add(kind)
+                            observed.add(positional_value(kind, value) if positional else value)
+            else:
+                field = context["dimensions"][int(key[-1]) - 1] if positional else key
+                rows = self.client.collection(context["path"], {
+                    "$filter": in_filter("IND_ID", [context["id"]])}, group=[field])["records"]
+                kinds = {field}
+                observed = {positional_value(field, r[field]) if positional else r[field]
+                            for r in rows if r.get(field) is not None}
+            missing = set(values) - observed
+            if not missing or not rows:
+                continue  # An entirely empty indicator is classified by the data query.
+            vocabulary = []
+            for kind in kinds:
+                vocabulary.extend(r for r in self.dimension_values(kind) if r["Type"] == kind)
+            if not vocabulary:
+                raise GHOError("unverified_dimension", "Requested dimension codes are neither observed nor verifiable in the source vocabulary.",
+                               backend="xmart", dimension=key, codes=sorted(missing))
+            allowed = {r["Code"] if positional else r["NativeCode"] for r in vocabulary}
+            if missing - allowed:
+                raise GHOError("invalid_query", "Unknown codes for the selected xMart dimension.",
+                               backend="xmart", dimension=key, codes=sorted(missing - allowed))
+
     def get_data(self, indicator, locations=None, year_from=None, year_to=None, dimensions=None, spatial_type=None):
         context = self.context(indicator, locations, year_from, year_to, dimensions, spatial_type)
+        self.validate_dimensions(context)
         result = self.client.collection(context["path"], {"$filter": context["filter"], "$orderby": "Sys_PK"}, paged=True)
         native = result["records"]
         result["source_records"] = native
