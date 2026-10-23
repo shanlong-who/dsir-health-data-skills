@@ -11,13 +11,14 @@ service is required. GHE is outside this plugin.
 
 ## Build and installation
 
-From a clean repository, run:
+From a clean repository with R and `digest`, `jsonlite` and `zip` installed, run:
 
-    python packaging/build_gho_plugin.py --output-dir dist/gho-0.1.4-test.1
+    Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.2
 
-The builder uses tracked dsir-gho source, not old ZIPs or the embedded runtime
+The R builder uses tracked dsir-gho source, not old ZIPs or the embedded runtime
 copy. It creates a plugin ZIP, a standalone skill ZIP, a local marketplace folder,
-checksums and TESTING.md. It never rewrites source or existing outputs.
+checksums and TESTING.md. It verifies the archive paths and every file byte before
+the build succeeds, and it never rewrites source or existing outputs.
 
 In the repository, read packaging/GHO_TESTING.md. In a built package, read
 TESTING.md for exact local installation and acceptance steps. BUILD.json identifies
