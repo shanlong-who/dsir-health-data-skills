@@ -11,11 +11,8 @@
   <h1>DSIR GHO Health Data Skill</h1>
   <p>Find WHO Global Health Observatory indicators, filter public observations by location, year and named dimensions, and export CSV and JSON with source details.</p>
   <p>Maintained by Shanlong Ding. This is an independently maintained data tool, not an official WHO or OpenAI service. It provides public health statistics, not clinical advice.</p>
-  <h2>Unreleased Phase 1 source</h2>
-  <p>The 23 October 2026 GHO source repair defaults to legacy and supports explicit xMart, with no automatic fallback. Offline regressions, bounded live queries and independent same-backend checks passed. User-facing acceptance and a reviewed package build remain pending. Published ZIPs and installed plugins do not contain this source update. See the <a href="https://github.com/shanlong-who/dsir-health-data-skills/blob/main/dsir-gho/reports/phase1-20261023.md">Phase 1 report</a> for scope and evidence.</p>
-  <h2>Historical published candidate: 7 October 2026</h2>
-  <p>Plugin 0.1.3 uses GHO skill 0.1.1, which defaults to WHO xMart. Released DSIR 0.11.0 defaults to the legacy GHO OData API when its session option is unset. The Skill follows an earlier pinned xMart implementation; equal output columns do not establish equal source definitions, dimensions, releases or values. Always retain the backend and source details in response.json alongside the CSV.</p>
-  <p>The 7 October 2026 offline and common-input checks passed, while complete live retrieval and independent live parity remained unverified. Later narrow checks do not complete that suite. Requests that fail are reported as failures; no observations are invented. See the <a href="https://github.com/shanlong-who/dsir-health-data-skills/blob/main/dsir-gho/references/backend_comparison.md">backend comparison guide</a>.</p>
+  <h2>Current maintenance candidate</h2>
+  <p>Plugin 0.1.3 uses the GHO skill 0.1.1, aligned to DSIR 0.11.0 public xMart. Offline tests and common-input parity passed. Complete live retrieval and independent live parity remain unverified after WHO requests redirected to its sorry page on 7 October 2026. Requests that fail are reported as failures; no observations are invented.</p>
   <p>The plugin requires Python 3.10+ and permitted HTTPS access in the host runtime. It has no maintainer-hosted backend.</p>
   <p><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/shanlong-who/dsir-health-data-skills">Source repository</a> · <a href="https://github.com/shanlong-who/dsir-health-data-skills/releases">Downloads and release notes</a></p>
   <h2>Support</h2>
