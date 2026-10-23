@@ -123,8 +123,9 @@ def write_result(output_dir, response, raw, source_raw=None):
 
 def parser():
     root = argparse.ArgumentParser(description="Discover and retrieve public WHO GHO data, without R.")
-    root.add_argument("--page-size", type=int, default=5000)
-    root.add_argument("--backend", choices=["xmart", "legacy"], default="xmart")
+    root.add_argument("--page-size", type=int, default=None, help="Default: legacy 1000; xMart 5000.")
+    root.add_argument("--backend", choices=["xmart", "legacy"], default="legacy",
+                      help="Selected source (default: legacy). No automatic fallback.")
     commands = root.add_subparsers(dest="command", required=True)
     commands.add_parser("doctor", help="Check Python and actual WHO API connectivity.")
     search = commands.add_parser("search")

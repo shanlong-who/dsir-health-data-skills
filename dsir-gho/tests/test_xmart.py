@@ -7,7 +7,9 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from gho_client import GHOClient, GHOError, BASE_URL, validate_url
+from functools import partial
+from gho_client import GHOClient as BackendClient, GHOError, BASE_URL, validate_url
+GHOClient = partial(BackendClient, backend="xmart")
 from xmart import dimension_fields, numeric_display
 from clean import clean_records, CORE_FIELDS
 from cli import build_response
@@ -68,7 +70,10 @@ class FixtureTransport:
         elif path.endswith("REF_GEO"):
             rows = GEO
         elif path.endswith("REF_DISAGGREGATIONS"):
-            rows = [{"TERM_SET": "DIM_SEX", "TERM_KEY": "FEMALE", "TERM_NAME_MAIN": "Female"}]
+            rows = [{"TERM_SET": kind, "TERM_KEY": value, "TERM_NAME_MAIN": value}
+                    for kind, values in {"DIM_SEX": ["TOTAL", "FEMALE", "MALE"],
+                                         "SEX": ["BTSX", "FMLE", "MLE"],
+                                         "DIM_AGE": ["Y40T44", "Y45T49"]}.items() for value in values]
         else:
             rows = self.observations
         if "$apply" in query:
@@ -93,6 +98,7 @@ class XMartTests(unittest.TestCase):
         self.assertEqual(caught.exception.code, expected)
 
     def test_default_and_explicit_backend_selection(self):
+        self.assertEqual(BackendClient().backend, "legacy")
         self.assertEqual(GHOClient().backend, "xmart")
         self.assertEqual(GHOClient(backend="legacy").backend, "legacy")
         self.assert_error("invalid_query", lambda: GHOClient(backend="auto"))

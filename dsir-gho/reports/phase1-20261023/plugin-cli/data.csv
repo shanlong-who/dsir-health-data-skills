@@ -1,0 +1,3 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,WHS4_100,Diphtheria tetanus toxoid and pertussis third-dose  (DTP3) immunization coverage among 1-year-olds (%) (WUENIC),PHL,PHL,Philippines,2020,83,83.0,,,,,,
+gho,WHS4_100,Diphtheria tetanus toxoid and pertussis third-dose  (DTP3) immunization coverage among 1-year-olds (%) (WUENIC),PHL,PHL,Philippines,2021,69,69.0,,,,,,

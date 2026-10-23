@@ -1,3 +1,30 @@
+# GHO Phase 1 repair — unreleased, 23 October 2026
+
+The current source defaults to legacy, matching released DSIR 0.11.0 when its
+session option is unset. Select xMart explicitly with `--backend xmart`; no
+automatic fallback occurs. Legacy pages default to 1,000 rows and xMart pages
+to 5,000. The existing commands and 15-column exports remain available.
+
+Repair backend-specific catalogue provenance, selected-route metadata, valid
+numeric/dotted codes, dimension validation and incomplete-response checks.
+Distinguish verified catalogue absence, empty observations, invalid selections,
+network/HTTP failures and malformed or incomplete retrieval. Preserve
+`response.json` and raw source evidence with CSV exports. The R comparison tool
+requires separate review of definitions, dimensions and releases before matching
+observations across backends.
+
+Validation: 114 GHO unit tests, 10 offline scenarios, 58 R comparison assertions,
+13 bounded live cases, a local plugin CLI check and independent same-backend
+DTP3 comparisons passed. The housekeeping run also passed all 69 unchanged SDG
+tests. See the [Phase 1 report](dsir-gho/reports/phase1-20261023.md) for exact scope
+and timestamps. Cross-backend equivalence and general catalogue coverage are
+not established; user-facing acceptance remains pending.
+
+This is a source update. Version strings still identify the previous packaging
+baseline; no release ZIP, installed plugin or SDG implementation was changed.
+Historical pinned DSIR hashes and release evidence retain their original scope.
+The [Phase 2 assessment](PHASE2.md) contains recommendations only.
+
 # GHO listing and privacy update — 7 October 2026
 
 Pre-release `v2026.10.07.1` contains GHO plugin 0.1.3. The subtitle is now

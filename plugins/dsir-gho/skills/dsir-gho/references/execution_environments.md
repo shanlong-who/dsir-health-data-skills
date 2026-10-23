@@ -8,8 +8,8 @@ Resolve the client from the actual skill location and run `doctor` before the fi
 
 Do not replace TLS verification, alter proxy settings, disable a sandbox, install an unrequested runtime, or route around workspace restrictions to make a failed check pass. Report the concrete requirement and use the host's normal permission mechanism when available.
 
-Default requests use public production `xmart-api-public.who.int`. Explicit legacy
-mode uses `ghoapi.azureedge.net`. One-row probes do not establish complete directory
+Default requests use `ghoapi.azureedge.net`. Explicit xMart
+mode uses public production `xmart-api-public.who.int`. One-row probes do not establish complete directory
 access. Redirects to WHO's HTML sorry page are failures, never empty data or a
 reason to select a different backend.
 

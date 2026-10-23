@@ -1,0 +1,2 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,NCD_BMI_30A,Age-standardized prevalence of obesity among adults (18+ years),PHL,PHL,Philippines,2020,9.5744886,9.5744886,7.4366942,11.892958,,SEX_FMLE,AGEGROUP_Y_GE18,

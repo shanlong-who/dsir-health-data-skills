@@ -11,10 +11,15 @@ The scope is WHO GHO. GHE is not added to this plugin. SDG remains a separate
 component. See [xMart behavior](references/xmart_behavior.md) for the adapter
 rules and [source hashes](references/metadata/dsir_reference.json) for provenance.
 
+The pinned snapshot predates the restoration of DSIR's legacy default.
+This local Skill candidate defaults to legacy, as does released DSIR 0.11.0 when
+its session option is unset. Shared normalization does not establish equal
+source definitions or observations. See [backend comparison](references/backend_comparison.md).
+
 ## Processing
 
-1. Verify indicator candidates in the live English xMart directory.
-2. Resolve a supported RELAY route without following directory hostnames.
+1. Select legacy by default or xMart explicitly; verify codes in that live catalogue.
+2. For xMart, resolve a supported RELAY route without following directory hostnames.
 3. Inspect the table schema and observed dimensions. Resolve requested areas
    through live geography references; do not expand regional membership.
 4. Apply exact native named dimensions, or the supported positional code
@@ -38,8 +43,9 @@ Unknown codes, unsupported routes, malformed responses, failed requests, changed
 counts, repeated IDs, schema/type drift, resource limits and unsafe redirects are
 explicit failures. A verified empty selection is distinct from all of them.
 
-The backend is selected explicitly and recorded. xMart errors never switch to
-legacy. Compatibility requests use `--backend legacy` and the legacy GHO origin.
+The backend is recorded. Legacy is the default; `--backend xmart` is explicit.
+Errors and empty selections never switch sources. See the comparison guide for
+the evaluated fallback policy. This phase adds no server or shared source framework.
 Provenance includes origin, table, filter, directory evidence, request method,
 request-body hash, response hashes, retrieval times, completion state, skill
 version and pinned DSIR source hashes.
@@ -54,10 +60,10 @@ inputs check all 15 core fields, numeric tolerance, missingness, multiplicity an
 retained context against unmodified source files. Typed fixtures preserve literal
 JSON strings such as `"NA"`; they are clearly synthetic, never WHO values.
 
-Fresh live checks and independent R retrieval are separate evidence. On 7 October
-2026, single-row probes succeeded but complete queries and directory retrieval
-redirected to WHO's sorry page. Independent live parity remains unverified.
-The maintenance packages are candidates until that gate passes.
+Fresh live checks and independent R retrieval are separate evidence. Historical
+7 October failures remain in their original reports. See the Phase 1 report for
+23 October results. Small successful samples do not verify every source route,
+all platforms or cross-backend release equivalence.
 
 A complete retrieval does not guarantee every requested country-year or stratum.
 The API does not expose a transaction snapshot token; source revisions can change

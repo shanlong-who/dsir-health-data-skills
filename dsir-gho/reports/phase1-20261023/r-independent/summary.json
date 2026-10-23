@@ -1,0 +1,52 @@
+{
+  "completed_at": "2026-10-23 03:34:23 UTC",
+  "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+  "dsir_version": "0.11.0",
+  "scope": "Independent same-backend WHS4_100, PHL/CHN, 2020/2021; no cross-backend equivalence claim",
+  "results": {
+    "legacy": {
+      "passed": true,
+      "rows": 4,
+      "field_matches": {
+        "source": true,
+        "id": true,
+        "indicator": true,
+        "location": true,
+        "iso3": true,
+        "location_name": true,
+        "year": true,
+        "value": true,
+        "value_num": true,
+        "low": true,
+        "high": true,
+        "series": true,
+        "dim1": true,
+        "dim2": true,
+        "dim3": true
+      },
+      "warnings": []
+    },
+    "xmart": {
+      "passed": true,
+      "rows": 4,
+      "field_matches": {
+        "source": true,
+        "id": true,
+        "indicator": true,
+        "location": true,
+        "iso3": true,
+        "location_name": true,
+        "year": true,
+        "value": true,
+        "value_num": true,
+        "low": true,
+        "high": true,
+        "series": true,
+        "dim1": true,
+        "dim2": true,
+        "dim3": true
+      },
+      "warnings": []
+    }
+  }
+}

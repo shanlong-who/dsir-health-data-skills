@@ -12,7 +12,7 @@ from cli import build_response
 
 
 def run(output):
-    client = GHOClient(retries=2, timeout=30)
+    client = GHOClient(backend="xmart", retries=2, timeout=30)
     checks = []
 
     def check(label, fn):

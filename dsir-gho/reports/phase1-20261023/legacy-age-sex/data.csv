@@ -1,0 +1,2 @@
+﻿source,id,indicator,location,iso3,location_name,year,value,value_num,low,high,series,dim1,dim2,dim3
+gho,LIFE_0000000029,nMx - age-specific death rate between ages x and x+n,PHL,PHL,Philippines,2020,0.00047,0.000471624,,,,SEX_FMLE,AGEGROUP_YEARS15-19,

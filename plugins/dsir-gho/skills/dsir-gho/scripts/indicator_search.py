@@ -6,7 +6,7 @@ import json
 import re
 import unicodedata
 from pathlib import Path
-from gho_client import GHOClient, GHOError, BASE_URL, literal
+from gho_client import GHOClient, GHOError, LEGACY_BASE_URL, literal
 
 METADATA = Path(__file__).resolve().parent.parent / "references" / "metadata"
 
@@ -48,7 +48,7 @@ def basic_metadata(entry):
     if unit is None and name.lower().startswith("number of "):
         unit, kind = name, "count"
     return {"definition": None, "unit": unit, "type": kind,
-            "metadata_source": BASE_URL + "/Indicator(" + literal(code) + ")",
+            "metadata_source": LEGACY_BASE_URL + "/Indicator(" + literal(code) + ")",
             "metadata_reviewed_on": None,
             "metadata_basis": "explicit official catalogue name" if unit else "not supplied by catalogue"}
 
@@ -105,7 +105,10 @@ def search_indicators(query, client=None, limit=10):
     return {"status": "ok" if candidates else "no_matches", "query": query,
             "expanded_queries": list(dict.fromkeys(variants)), "candidates": candidates[:limit],
             "total_matches": len(candidates), "selection_notes": notes,
-            "catalogue_source": BASE_URL + "/Indicator", "catalogue_size": len(catalogue),
+            "catalogue_source": (getattr(client, "base_url", LEGACY_BASE_URL) +
+                                 ("/DATA_/IND_DIRECTORY_WIDE" if getattr(client, "backend", "legacy") == "xmart" else "/Indicator")),
+            "backend": getattr(client, "backend", "legacy"),
+            "provenance": getattr(client, "catalogue_provenance", None), "catalogue_size": len(catalogue),
             "note": "Search rank is not a clinical decision. Check population, unit, method and dimensions."}
 
 
@@ -117,6 +120,8 @@ def describe_indicator(indicator_code, client=None):
     fields = ["TimeDim", "SpatialDimType", "Dim1Type", "Dim1", "Dim2Type", "Dim2", "Dim3Type", "Dim3"]
     coverage = (client.get_gho_data(code) if client.backend == "xmart" else
                 client.collection(code, {"$select": ",".join(fields), "$orderby": "Id"}, paged=True))
+    if client.backend == "xmart":
+        entry = coverage["indicator"]
     rows = coverage["records"]
     years = sorted({r["TimeDim"] for r in rows if isinstance(r.get("TimeDim"), int)})
     observed = {}

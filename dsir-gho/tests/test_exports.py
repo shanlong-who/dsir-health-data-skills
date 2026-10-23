@@ -56,13 +56,14 @@ class ExportTests(unittest.TestCase):
     def test_xmart_cli_exports_native_raw_without_changing_core_schema(self):
         from test_xmart import FixtureTransport, wide
         from clean import CORE_FIELDS
-        client = GHOClient(transport=FixtureTransport())
+        client = GHOClient(backend="xmart", transport=FixtureTransport())
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "fresh"
             stream = io.StringIO()
-            with patch("cli.GHOClient", return_value=client), redirect_stdout(stream):
-                status = main(["get", "TEST", "--locations", "PHL", "--dimension", "DIM_SEX", "FEMALE",
+            with patch("cli.GHOClient", return_value=client) as factory, redirect_stdout(stream):
+                status = main(["--backend", "xmart", "get", "TEST", "--locations", "PHL", "--dimension", "DIM_SEX", "FEMALE",
                                "--output-dir", str(output)])
+            factory.assert_called_once_with(backend="xmart", page_size=None)
             self.assertEqual(status, 0, stream.getvalue())
             self.assertEqual(json.loads((output / "source_raw.json").read_text()), [wide()])
             with (output / "data.csv").open(encoding="utf-8-sig", newline="") as handle:

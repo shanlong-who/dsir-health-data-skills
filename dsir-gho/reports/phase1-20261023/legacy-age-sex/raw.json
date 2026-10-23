@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 5712180,
+    "IndicatorCode": "LIFE_0000000029",
+    "SpatialDimType": "COUNTRY",
+    "SpatialDim": "PHL",
+    "TimeDimType": "YEAR",
+    "ParentLocationCode": "WPR",
+    "ParentLocation": "Western Pacific",
+    "Dim1Type": "SEX",
+    "Dim1": "SEX_FMLE",
+    "TimeDim": 2020,
+    "Dim2Type": "AGEGROUP",
+    "Dim2": "AGEGROUP_YEARS15-19",
+    "Dim3Type": null,
+    "Dim3": null,
+    "DataSourceDimType": null,
+    "DataSourceDim": null,
+    "Value": "0.00047",
+    "NumericValue": 0.000471624,
+    "Low": null,
+    "High": null,
+    "Comments": null,
+    "Date": "2026-10-01T15:50:18.463+02:00",
+    "TimeDimensionValue": "2020",
+    "TimeDimensionBegin": "2020-01-01T00:00:00+01:00",
+    "TimeDimensionEnd": "2020-12-31T00:00:00+01:00"
+  }
+]
