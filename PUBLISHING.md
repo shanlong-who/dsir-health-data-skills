@@ -5,13 +5,14 @@
 The unreleased GHO source now defaults to legacy and supports explicit xMart.
 See the [Phase 1 report](dsir-gho/reports/phase1-20261023.md) and
 [evaluation guide](dsir-gho/evals/README.md) for current validation.
-PR #1 is merged. The repaired builder now creates `0.1.4-test.1` directly from
+PR #1 is merged. The R-based builder now creates `0.1.4-test.2` directly from
 tracked source, without rewriting the source or reading historical ZIPs. It
 produces plugin and standalone runtime ZIPs, checksums, source identity and an
 unregistered local marketplace. See [local testing](packaging/GHO_TESTING.md)
 for build, installation and acceptance commands. The earlier standalone build
-entry point delegates to this builder. Commit source changes before an acceptance
-build; `--allow-dirty` is available only for explicitly marked development checks.
+entry point and Python builder remain for historical reference only. The R builder
+rejects modified source for acceptance builds; `--allow-dirty` is available only
+for explicitly marked development checks.
 
 There is no release, directory submission, installation or deployment step in
 this build. Public website content remains unchanged. Manual acceptance and
