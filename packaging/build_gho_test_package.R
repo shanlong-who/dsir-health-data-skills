@@ -10,7 +10,7 @@ script_arg <- grep("^--file=", commandArgs(), value = TRUE)
 script_path <- if (length(script_arg)) sub("^--file=", "", script_arg[[1]]) else
   "packaging/build_gho_test_package.R"
 repo_root <- normalizePath(file.path(dirname(script_path), ".."), winslash = "/", mustWork = TRUE)
-default_version <- "0.1.4-test.2"
+default_version <- "0.1.4-test.3"
 marketplace_name <- "dsir-gho-local-test"
 runtime_directories <- c("scripts", "references", "agents")
 fixed_zip_time <- as.POSIXct("2026-01-01 00:00:00", tz = "UTC")
@@ -63,7 +63,7 @@ read_source <- function(root, relative, tracked) {
 }
 
 sha256_raw <- function(value) digest::digest(value, algo = "sha256", serialize = FALSE)
-sha256_file <- function(path) digest::digest(file = path, algo = "sha256", serialize = FALSE)
+sha256_file <- function(path) sha256_raw(readBin(path, "raw", n = file.info(path)$size))
 
 json_raw <- function(value) charToRaw(paste0(jsonlite::toJSON(
   value, auto_unbox = TRUE, pretty = TRUE, null = "null", na = "null", digits = NA
@@ -129,23 +129,45 @@ write_archive <- function(path, files) {
     if (!identical(content, files[[relative]])) abort("Packaged bytes differ from source: ", relative)
   }
   if (!file.copy(temporary_archive, path, overwrite = FALSE)) abort("Could not copy validated archive to: ", path)
-  copied_size <- file.info(path)$size
   archive_size <- file.info(temporary_archive)$size
-  if (is.na(copied_size) || copied_size != archive_size) abort("Copied archive size does not match validated archive: ", basename(path))
-  list(file = basename(path), bytes = unname(archive_size), sha256 = sha256_file(temporary_archive))
+  expected_hash <- sha256_file(temporary_archive)
+  if (!identical(sha256_file(path), expected_hash)) abort("Copied archive differs from validated archive: ", basename(path))
+  list(file = basename(path), bytes = unname(archive_size), sha256 = expected_hash)
+}
+
+same_path <- function(left, right) {
+  if (.Platform$OS.type == "windows") identical(tolower(left), tolower(right)) else identical(left, right)
+}
+
+build_destination <- function(root, output_directory) {
+  if (length(output_directory) != 1L || is.na(output_directory) || !nzchar(output_directory)) {
+    abort("Supply one new output directory under dist.")
+  }
+  output_directory <- gsub("\\\\", "/", output_directory)
+  output_input <- if (grepl("^([A-Za-z]:/|/)", output_directory)) output_directory else file.path(root, output_directory)
+  parent_input <- dirname(output_input)
+  boundary_error <- "Output must be a new direct child of the repository's ignored dist directory."
+  if (!same_path(basename(parent_input), "dist") || basename(output_input) %in% c(".", "..")) abort(boundary_error)
+  ancestor <- normalizePath(dirname(parent_input), winslash = "/", mustWork = TRUE)
+  if (!same_path(ancestor, root)) abort(boundary_error)
+  dist_root <- file.path(root, "dist")
+  link <- Sys.readlink(dist_root)
+  if (!is.na(link) && nzchar(link)) abort("The dist directory must not be a symbolic link or junction.")
+  if (file.exists(dist_root) && !dir.exists(dist_root)) abort("The dist path is not a directory.")
+  if (dir.exists(dist_root) && !same_path(normalizePath(dist_root, winslash = "/", mustWork = TRUE), dist_root)) {
+    abort("The dist directory resolves outside its expected repository path.")
+  }
+  destination <- file.path(dist_root, basename(output_input))
+  if (file.exists(destination)) abort("Refusing to overwrite an existing build directory: ", destination)
+  destination
 }
 
 build_package <- function(output_directory, version = default_version, root = repo_root, allow_dirty = FALSE) {
   root <- normalizePath(root, winslash = "/", mustWork = TRUE)
   if (length(version) != 1L || !grepl("^[0-9]+\\.[0-9]+\\.[0-9]+-test\\.[0-9]+$", version)) {
-    abort("Only local test versions are allowed, for example 0.1.4-test.2.")
+    abort("Only local test versions are allowed, for example 0.1.4-test.3.")
   }
-  dist_root <- normalizePath(file.path(root, "dist"), winslash = "/", mustWork = TRUE)
-  output_input <- if (grepl("^([A-Za-z]:[/\\\\]|/)", output_directory, perl = TRUE)) output_directory else file.path(root, output_directory)
-  parent <- normalizePath(dirname(output_input), winslash = "/", mustWork = TRUE)
-  if (!identical(tolower(parent), tolower(dist_root))) abort("Output must be a new direct child of the repository's ignored dist directory.")
-  destination <- file.path(parent, basename(output_input))
-  if (file.exists(destination)) abort("Refusing to overwrite an existing build directory: ", destination)
+  destination <- build_destination(root, output_directory)
 
   state <- repository_state(root)
   if (state$dirty && !allow_dirty) abort("Commit and review source changes before an acceptance build. --allow-dirty is for development checks only.")
@@ -201,7 +223,7 @@ build_package <- function(output_directory, version = default_version, root = re
   validate_names(plugin)
   validate_names(standalone)
 
-  dir.create(destination)
+  if (!dir.create(destination, recursive = TRUE, showWarnings = FALSE)) abort("Could not create build directory: ", destination)
   plugin_with_root <- setNames(plugin, paste0("dsir-gho/", names(plugin)))
   standalone_with_root <- setNames(standalone, paste0("dsir-gho/", names(standalone)))
   plugin_artifact <- write_archive(file.path(destination, paste0("dsir-gho-plugin-", version, ".zip")),

@@ -7,7 +7,7 @@ supports explicit xMart, and never automatically switches sources. Paging,
 dimension validation and provenance have been repaired. See the
 [Phase 1 report](dsir-gho/reports/phase1-20261023.md). Published downloads below
 and installed plugins have not been updated; no new release was created.
-PR #1 is merged. Build the repaired `0.1.4-test.2` candidate from current source
+PR #1 is merged. Build the repaired `0.1.4-test.3` candidate from current source
 using the R-based [local test package guide](packaging/GHO_TESTING.md). The builder also
 prepares an unregistered local marketplace for desktop acceptance; it does not
 publish or install anything.

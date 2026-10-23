@@ -11,7 +11,7 @@ From a clean repository checkout, with Git, R, and the R packages `digest`,
 `jsonlite` and `zip` installed:
 
 ```powershell
-Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.2
+Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.3
 ```
 
 The R builder uses tracked runtime source, builds both ZIPs and the local
@@ -20,11 +20,24 @@ Use a new output directory for every build. A build from modified source is
 rejected by default; `--allow-dirty` is only for development checks and must not
 be used for an acceptance copy. The older Python builder and legacy release
 wrapper are retained for historical reference and are not the current build path.
+The builder creates `dist/` in a fresh checkout, rejects symbolic links and directory
+junctions at that location, and verifies the copied archive hashes before success.
+
+Run the offline packaging regressions with the additional R package `testthat`:
+
+```powershell
+Rscript -e 'testthat::test_file("packaging/tests/test_build_gho_test_package.R", stop_on_failure = TRUE)'
+```
+
+These use temporary Git fixtures to check fresh builds, identical runtime files
+across packages, repeatable archive hashes, existing-output protection, output
+containment, dirty-source rejection and manifest consistency. No API calls or
+plugin installation are involved.
 
 The output contains:
 
-- `dsir-gho-plugin-0.1.4-test.2.zip`: plugin manifests, branding and the repaired skill.
-- `dsir-gho-skill-0.1.4-test.2.zip`: the same runtime as a standalone skill, with safe installers.
+- `dsir-gho-plugin-0.1.4-test.3.zip`: plugin manifests, branding and the repaired skill.
+- `dsir-gho-skill-0.1.4-test.3.zip`: the same runtime as a standalone skill, with safe installers.
 - `local-marketplace/`: an unregistered local marketplace containing the exact plugin files.
 - `build-manifest.json`, `SHA256SUMS.txt`, and this guide as `TESTING.md`.
 
@@ -40,8 +53,8 @@ runtime inputs. Both archives are checked byte for byte before the build succeed
 On Windows, compare the ZIP hash with `SHA256SUMS.txt`:
 
 ```powershell
-Get-FileHash .\dist\gho-0.1.4-test.2\dsir-gho-plugin-0.1.4-test.2.zip -Algorithm SHA256
-Get-Content .\dist\gho-0.1.4-test.2\SHA256SUMS.txt
+Get-FileHash .\dist\gho-0.1.4-test.3\dsir-gho-plugin-0.1.4-test.3.zip -Algorithm SHA256
+Get-Content .\dist\gho-0.1.4-test.3\SHA256SUMS.txt
 ```
 
 ## Install the plugin locally in Codex
@@ -57,14 +70,14 @@ not required. Network errors must be reported as failures, never missing or zero
    path. Check `codex plugin --help` if your client has different capabilities.
 
    ```powershell
-   $ghoMarketplace = (Resolve-Path .\dist\gho-0.1.4-test.2\local-marketplace).Path
+   $ghoMarketplace = (Resolve-Path .\dist\gho-0.1.4-test.3\local-marketplace).Path
    codex plugin marketplace add "$ghoMarketplace" --json
    codex plugin add dsir-gho@dsir-gho-local-test --json
    codex plugin list --json
    ```
 
 2. Check the install result's `installedPath`. Read `BUILD.json` at that path:
-   `package_version` must be `0.1.4-test.2`, `source_dirty` must be `false`, and
+   `package_version` must be `0.1.4-test.3`, `source_dirty` must be `false`, and
    `source_commit` must match the delivered `build-manifest.json`. The plugin
    display name is **DSIR GHO Local Test**, from **dsir-gho-local-test**. Keep that
    source distinct from the existing public installation.
