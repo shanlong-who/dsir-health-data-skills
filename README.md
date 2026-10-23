@@ -2,11 +2,15 @@
 
 **Author and maintainer: [Shanlong Ding](https://github.com/shanlong-who)**
 
-**Unreleased Phase 1 source candidate (23 October 2026):** GHO now defaults to legacy,
+**Local Phase 1 test candidate (23 October 2026):** GHO now defaults to legacy,
 supports explicit xMart, and never automatically switches sources. Paging,
 dimension validation and provenance have been repaired. See the
 [Phase 1 report](dsir-gho/reports/phase1-20261023.md). Published downloads below
 and installed plugins have not been updated; no new release was created.
+PR #1 is merged. Build the repaired `0.1.4-test.1` candidate from current source
+using the [local test package guide](packaging/GHO_TESTING.md). The builder also
+prepares an unregistered local marketplace for desktop acceptance; it does not
+publish or install anything.
 
 The historical 7 October 2026 maintenance candidate follows an earlier DSIR
 0.11.0 development snapshot's xMart backend: GHO plugin 0.1.3 and skill 0.1.1.

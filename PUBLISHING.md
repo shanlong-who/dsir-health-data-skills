@@ -1,20 +1,25 @@
 # Publishing and reproducibility
 
-## Current source candidate: 23 October 2026
+## Current local test candidate: 23 October 2026
 
 The unreleased GHO source now defaults to legacy and supports explicit xMart.
 See the [Phase 1 report](dsir-gho/reports/phase1-20261023.md) and
 [evaluation guide](dsir-gho/evals/README.md) for current validation.
-Source publication does not rebuild or install a plugin. Manual acceptance,
-a version decision and a reviewed build remain necessary before a new release.
+PR #1 is merged. The repaired builder now creates `0.1.4-test.1` directly from
+tracked source, without rewriting the source or reading historical ZIPs. It
+produces plugin and standalone runtime ZIPs, checksums, source identity and an
+unregistered local marketplace. See [local testing](packaging/GHO_TESTING.md)
+for build, installation and acceptance commands. The earlier standalone build
+entry point delegates to this builder. Commit source changes before an acceptance
+build; `--allow-dirty` is available only for explicitly marked development checks.
 
-The sections below describe historical releases. In particular,
-`packaging/build_gho_plugin.py` consumes the old standalone ZIP and rewrites the
-plugin source and listing. Do not run that historical builder in this working
-copy to package Phase 1: it can restore the old runtime and metadata. Reproduce
-old releases only from their tagged source in a separate directory. A future
-Phase 1 release must update and validate the build inputs and listing together.
-No new archive or release is produced by this source update.
+There is no release, directory submission, installation or deployment step in
+this build. Public website content remains unchanged. Manual acceptance and
+explicit authorization are required before publication. GHE is not implemented.
+
+The remaining sections describe historical releases. Run their old builders,
+listing validator and maintenance finalizer only from the corresponding tagged
+source in a separate checkout. They do not validate or package this candidate.
 
 ## Listing-only update: GHO plugin 0.1.3
 
@@ -102,7 +107,7 @@ Its RDA and exported JSON are unchanged. GHO reference hashes are recorded in
 `dsir-gho/references/metadata/dsir_reference.json`. Historical September reports
 remain historical; they do not establish xMart behavior.
 
-## Rebuild packages
+## Rebuild historical packages (historical checkout only)
 
 ```sh
 python dsir-gho/packaging/build_release.py --output-dir dist
