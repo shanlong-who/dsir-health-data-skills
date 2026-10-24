@@ -1,0 +1,35 @@
+{
+  "name": "dsir-ghe",
+  "version": "0.1.0-test.1",
+  "description": "Discover and retrieve WHO Global Health Estimates with exact countries, causes, years, sex, age, measures, units and provenance.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "license": "MIT",
+  "keywords": [
+    "DSIR",
+    "WHO",
+    "GHE",
+    "mortality",
+    "disease-burden"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DSIR GHE Local Test",
+    "shortDescription": "Explore WHO mortality estimates",
+    "longDescription": "Discover causes and dimensions, retrieve WHO GHE estimates, and export verified CSV/JSON. Use the AI host's Python 3.10+ and permitted HTTPS; no R, DSIR, third-party package, API key or DSIR server. All-age rates are crude and selected-age rates are age-specific. No automatic age standardization or source substitution.",
+    "developerName": "Shanlong Ding",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "composerIcon": "./assets/dsir-logo.png",
+    "logo": "./assets/dsir-logo.png",
+    "defaultPrompt": [
+      "Get all-cause deaths in the Philippines for the latest available year.",
+      "Compare female and male mortality rates at ages 40-44 in the Philippines.",
+      "Find available GHE causes and measures for diabetes."
+    ]
+  }
+}

@@ -2,10 +2,18 @@
 
 ## Current local test candidate: 24 October 2026
 
+Two additional, independent candidates are available in source: SDG
+`0.1.1-test.2` (source boundaries and presentation) and GHE `0.1.0-test.2`
+(new retrieval client). Build them with `packaging/build_data_test_package.R`;
+see [SDG testing](packaging/SDG_TESTING.md) and [GHE testing](packaging/GHE_TESTING.md).
+This R entry point reuses the audited GHO archive helpers; it reads canonical
+root skills and separate manifest sources, not old embedded runtime copies.
+The GHE plugin metadata folder alone is not an installable package.
+
 The unreleased GHO source now defaults to legacy and supports explicit xMart.
 See the [Phase 1 report](dsir-gho/reports/phase1-20261023.md) and
 [evaluation guide](dsir-gho/evals/README.md) for current validation.
-PR #1 is merged. The R-based builder now creates `0.1.4-test.4` directly from
+PR #1 is merged. The R-based builder now creates `0.1.4-test.5` directly from
 tracked source, without rewriting the source or reading historical ZIPs. It
 produces plugin and standalone runtime ZIPs, checksums, source identity and an
 unregistered local marketplace. See [local testing](packaging/GHO_TESTING.md)
@@ -16,7 +24,8 @@ for explicitly marked development checks.
 
 There is no release, directory submission, installation or deployment step in
 this build. Public website content remains unchanged. Manual acceptance and
-explicit authorization are required before publication. GHE is not implemented.
+explicit authorization are required before publication. The GHE implementation
+is a local candidate and has not been installed into an end-user account.
 
 The remaining sections describe historical releases. Run their old builders,
 listing validator and maintenance finalizer only from the corresponding tagged

@@ -10,7 +10,7 @@ script_arg <- grep("^--file=", commandArgs(), value = TRUE)
 script_path <- if (length(script_arg)) sub("^--file=", "", script_arg[[1]]) else
   "packaging/build_gho_test_package.R"
 repo_root <- normalizePath(file.path(dirname(script_path), ".."), winslash = "/", mustWork = TRUE)
-default_version <- "0.1.4-test.4"
+default_version <- "0.1.4-test.5"
 marketplace_name <- "dsir-gho-local-test"
 runtime_directories <- c("scripts", "references", "agents")
 fixed_zip_time <- as.POSIXct("2026-01-01 00:00:00", tz = "UTC")
@@ -165,7 +165,7 @@ build_destination <- function(root, output_directory) {
 build_package <- function(output_directory, version = default_version, root = repo_root, allow_dirty = FALSE) {
   root <- normalizePath(root, winslash = "/", mustWork = TRUE)
   if (length(version) != 1L || !grepl("^[0-9]+\\.[0-9]+\\.[0-9]+-test\\.[0-9]+$", version)) {
-    abort("Only local test versions are allowed, for example 0.1.4-test.4.")
+    abort("Only local test versions are allowed, for example 0.1.4-test.5.")
   }
   destination <- build_destination(root, output_directory)
 
@@ -204,10 +204,10 @@ build_package <- function(output_directory, version = default_version, root = re
   build_info <- json_raw(metadata)
   guide_path <- safe_source_path(root, "packaging/GHO_TESTING.md", state$tracked)
   plugin_readme <- safe_source_path(root, "plugins/dsir-gho/README.md", state$tracked)
-  logo <- safe_source_path(root, "plugins/dsir-gho/assets/dsir-logo.jpg", state$tracked)
+  logo <- safe_source_path(root, "packaging/assets/dsir-logo.png", state$tracked)
   plugin <- setNames(runtime, paste0("skills/dsir-gho/", names(runtime)))
   plugin <- c(plugin, list("plugin.json" = json_raw(portable),
-    ".codex-plugin/plugin.json" = json_raw(compatibility), "assets/dsir-logo.jpg" = readBin(logo, "raw", n = file.info(logo)$size),
+    ".codex-plugin/plugin.json" = json_raw(compatibility), "assets/dsir-logo.png" = readBin(logo, "raw", n = file.info(logo)$size),
     "LICENSE" = runtime[["LICENSE"]], "README.md" = readBin(plugin_readme, "raw", n = file.info(plugin_readme)$size),
     "TESTING.md" = readBin(guide_path, "raw", n = file.info(guide_path)$size), "BUILD.json" = build_info))
   standalone_readme <- charToRaw(paste0("# DSIR GHO local test skill ", version,

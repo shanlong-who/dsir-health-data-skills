@@ -8,6 +8,15 @@ The skill retrieves public observations from the UN SDG Global Database. It
 supports health questions and other SDG topics represented in that database.
 It does not query WHO GHO, private WHO data or unrelated data sources.
 
+The unreleased `0.1.1-test.1` candidate adds explicit separation of retrieved
+observations, derived calculations and supplementary context. Reports adapt
+to a single value, discovery, full analysis, files-only or unsuccessful queries.
+See [presentation](references/result_presentation.md),
+[validation](reports/source-output-20261024.md) and the current
+[test package guide](../packaging/SDG_TESTING.md). Query scripts and exports are
+unchanged. The installation examples below describe the historical public
+`0.1.0` package; use the test guide for this candidate.
+
 ## Examples
 
 - Compare historical UHC service coverage in China, Japan and the Philippines.

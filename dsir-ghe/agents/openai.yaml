@@ -1,0 +1,4 @@
+interface:
+  display_name: "DSIR GHE Health Estimates"
+  short_description: "Retrieve WHO death and disease-burden estimates."
+  default_prompt: "Use $dsir-ghe to retrieve all-cause deaths and crude death rates for the Philippines in the latest available year."
