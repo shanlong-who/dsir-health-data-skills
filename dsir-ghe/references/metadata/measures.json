@@ -1,0 +1,68 @@
+[
+  {
+    "code": "deaths",
+    "field": "VAL_DTHS_COUNT_NUMERIC",
+    "label": "Deaths",
+    "unit": "deaths"
+  },
+  {
+    "code": "death_rate",
+    "field": "VAL_DTHS_RATE100K_NUMERIC",
+    "label": "Death rate",
+    "unit": "per 100,000 population"
+  },
+  {
+    "code": "yll",
+    "field": "VAL_YLL_COUNT_NUMERIC",
+    "label": "Years of life lost",
+    "unit": "years"
+  },
+  {
+    "code": "yll_rate",
+    "field": "VAL_YLL_RATE100K_NUMERIC",
+    "label": "YLL rate",
+    "unit": "per 100,000 population"
+  },
+  {
+    "code": "yld",
+    "field": "VAL_YLD_COUNT_NUMERIC",
+    "label": "Years lived with disability",
+    "unit": "years"
+  },
+  {
+    "code": "yld_rate",
+    "field": "VAL_YLD_RATE100K_NUMERIC",
+    "label": "YLD rate",
+    "unit": "per 100,000 population"
+  },
+  {
+    "code": "daly",
+    "field": "VAL_DALY_COUNT_NUMERIC",
+    "label": "Disability-adjusted life years",
+    "unit": "years"
+  },
+  {
+    "code": "daly_rate",
+    "field": "VAL_DALY_RATE100K_NUMERIC",
+    "label": "DALY rate",
+    "unit": "per 100,000 population"
+  },
+  {
+    "code": "deaths_percent",
+    "field": "VAL_PROP_DTHS_PERCENT",
+    "label": "Share of deaths",
+    "unit": "percent"
+  },
+  {
+    "code": "yld_percent",
+    "field": "VAL_PROP_YLD_PERCENT",
+    "label": "Share of YLD",
+    "unit": "percent"
+  },
+  {
+    "code": "daly_percent",
+    "field": "VAL_PROP_DALY_PERCENT",
+    "label": "Share of DALY",
+    "unit": "percent"
+  }
+]

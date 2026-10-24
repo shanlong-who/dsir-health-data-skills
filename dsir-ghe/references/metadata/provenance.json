@@ -1,0 +1,27 @@
+{
+  "source_package": "DSIR",
+  "source_version": "0.11.0",
+  "source_commit": "5a5accbedf51aa4a6b3288c82269edd7e831e831",
+  "source_repository": "https://github.com/shanlong-who/DSIR",
+  "source_files": {
+    "countries": {
+      "path": "data/who_countries.rda",
+      "sha256": "6509eb42b1cf5d56a1f73103a808f7a6360e4f38ce7fa20a77cd4a2e35568f36"
+    },
+    "measures": {
+      "path": "R/ghe.R",
+      "sha256": "b02e046ce5238bca215046b31b2a1d837de46b60009302009c35d32cf13d1872"
+    }
+  },
+  "exported_on": "2026-10-24",
+  "row_count": 194,
+  "export_method": "Country JSON reused after equality verification against pinned RDA; measure definitions exported from pinned DSIR using R.",
+  "files": {
+    "who_countries": "73e44ab541711ceafe5fa36c9ea1c044e805819d14a94820f70d757178715d62",
+    "measures": "6a27cd65bcfdd06340f50e3f2905e498cd95d17d561649651b8800eb055d9c5e"
+  },
+  "country_scope": "WHO Member States in a fixed DSIR snapshot, not all provider areas or historical membership.",
+  "regional_vintage_as_documented_by_dsir": "May 2025; Indonesia assigned to WPR.",
+  "income_vintage_as_documented_by_dsir": "World Bank FY2027, based on 2025 GNI per capita.",
+  "notes": ["M49 codes retain leading zeros; Namibia's ISO2 is the literal string NA.", "Country mappings do not establish GHE data availability.", "Measure definitions are retained only when their fields exist in the current API schema.", "This package is an independent DSIR tool, not an official WHO product."]
+}

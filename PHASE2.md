@@ -1,15 +1,16 @@
-# Phase 2 readiness and implementation options
+# Phase 2: approved GHE test architecture
 
-Assessment date: 23 October 2026. This is a recommendation, not approval to
-implement GHE or deploy a service.
+Updated: 24 October 2026. The maintainer has explicitly authorized GHE
+implementation and a host-supplied Python client. No deployment is authorized.
 
 ## Decision
 
-Phase 1 has passed its local engineering checks. Complete the maintainer's
-GHO user-facing acceptance before starting GHE implementation. A source PR is
-not an installed-plugin test or a release. No GHE code is included in this change.
+Phase 1 passed local engineering checks. The maintainer subsequently requested
+SDG instruction improvements and the start of GHE, with no end-user software
+installation. GHE is now an independent local test candidate. This authorization
+does not establish that GHO, SDG or GHE has passed installed-account acceptance.
 
-Recommend a separate `dsir-ghe` skill and plugin within this repository. Keep
+Use a separate `dsir-ghe` skill and plugin within this repository. Keep
 GHO and SDG entry points stable. Reuse DSIR's GHE function semantics and tests;
 share small implementation helpers only when a concrete second use justifies
 them. Do not start a general provider framework or hosted service now.
@@ -38,11 +39,11 @@ skills-only plugin wrappers. Neither uses the older R service prototype.
   independently verified non-overlapping mapping.
 - Some DSIR failures warn and return a typed empty table. A thin wrapper that
   only serializes that table would lose the distinction between failure and a
-  successful empty query. The future adapter needs explicit outcome evidence;
+  successful empty query. The new adapter retains explicit outcome evidence;
   inspecting zero rows alone is insufficient.
 - Current provenance records backend, table, filter, retrieval time, completeness
   and row count. It does not establish a release identifier or full methodology.
-  A future skill must retain available official release/method references and
+  The new skill retains available official release/method references and must
   report an unknown release when it cannot verify one. Retrieval date is not
   release date. Do not join different vintages by assumption.
 
@@ -50,7 +51,9 @@ The [DSIR GHE documentation](https://shanlong-who.github.io/DSIR/reference/ghe_d
 confirms these interface semantics. WHO's
 [GHE overview and methods](https://www.who.int/data/global-health-estimates)
 describe model-based estimates from multiple sources and currently link the
-2000-2023 methods. No new live GHE retrieval was run for this readiness review.
+2000-2023 methods. The new client passed six bounded cases in its live WHO
+suite and three independent live DSIR comparisons. See the
+[validation report](dsir-ghe/reports/validation-20261024.md) for exact scope.
 
 ## Packaging options
 
@@ -62,41 +65,52 @@ describe model-based estimates from multiple sources and currently link the
 
 ## Runtime choice is separate from packaging
 
-The maintainer's default is R. The earlier Python exception covers maintenance
-of the existing GHO client; it does not authorize a new Python GHE client.
+The maintainer's default remains R. On 24 October the maintainer explicitly
+approved a separate GHE exception: a Python standard-library client in the
+AI host's supplied environment, with R reserved for independent validation.
+No end-user interpreter, dependency or key installation is requested.
 
 | Runtime option | Reuse and tradeoff | Decision gate |
 | --- | --- | --- |
-| Local R adapter calling DSIR | Highest semantic reuse and consistent R maintenance; needs R, DSIR and HTTPS in the actual host | Preferred initial R validation path; verify the intended agent can execute it before promising non-R-user distribution |
-| Direct portable API client | Can follow the existing script-plugin pattern without a server; duplicates some DSIR semantics and needs independent parity checks | Requires explicit language approval and evidence about the target runtime |
+| Local R adapter calling DSIR | Highest semantic reuse; needs R, DSIR and HTTPS in the host | Used for development validation only |
+| Direct portable API client | Existing script-plugin pattern without a server; duplicates some DSIR semantics and needs parity checks | Selected and explicitly approved; host Python 3.12.14 tested |
 | Remote R wrapper | Reuses DSIR when client-side R is unavailable | Consider only after local execution is shown unsuitable and hosting is approved |
 
-No platform's R execution ability is assumed in this review. Non-R users can
-use an R-backed tool when the runtime is supplied, but the present plugin
-package itself does not provision R. The target account/runtime must be tested.
+The host must supply Python 3.10+, permitted WHO HTTPS and file output.
+If these are unavailable, report an unsupported environment; do not install
+software for the end user or introduce a server silently. A plugin ZIP does
+not itself create runtime permissions. The target account still needs testing.
 
-## Gate to start, and bounded first scope
+## Implemented scope and acceptance gate
 
-Before implementation:
+Before publication or a broader phase:
 
 1. Accept the GHO candidate using default-legacy measles, explicit-xMart DTP3,
    age/sex filtering, an empty selection and an invalid query. Confirm backend
    disclosure and CSV/JSON evidence in the intended agent environment.
-2. Explicitly authorize Phase 2 and choose a feasible runtime after checking
-   the target host. Source publication alone does not satisfy this gate.
-3. Agree the minimum query contract and statistical labels: exact cause codes,
-   country/year/sex/age, supported measures, missingness, model-estimate status,
-   source/release provenance, and prohibited aggregations.
+2. Accept SDG source boundaries and adaptive presentation using its
+   [test guide](packaging/SDG_TESTING.md).
+3. Accept GHE in the intended account using its [test guide](packaging/GHE_TESTING.md),
+   including no end-user installations, exact selections, exports and failures.
 
-The first implementation should offer discovery (dimensions and causes),
+The first implementation offers discovery (dimensions and causes),
 coverage checks, and bounded retrieval/export. These are user tasks rather than
 one plugin tool for each R function. Begin acceptance with deaths and death
-rates; add other provider-supported measures only after separate tests. Defer
+rates; the eleven current provider-supported definitions have also been
+compared with DSIR in the bounded sample. Defer
 automatic disease aggregation, rankings across overlapping categories and new
 age-standardization calculations.
 
-Use mocked network responses for error, missing-value, schema and pagination
-regressions. Then run a few real country/year/sex/age/cause queries and compare
-against independently loaded DSIR with the same source selection. Record
-release uncertainty explicitly. Passing these checks would establish a GHE
-candidate, not general equivalence to GHO or SDG series.
+Mocked failures, missingness, schema and pagination tests pass, alongside
+common-input and independent live DSIR comparisons. Release uncertainty remains
+explicit. These checks establish a local candidate, not general equivalence to
+GHO/SDG series or readiness for a public release.
+
+## Other DSIR functions
+
+Useful future additions include explicit QA summaries, reproducible changes
+over time and exports. Assess each against actual natural-language demand and
+test it independently. Age standardization, life tables, country-derived
+aggregates and cause hierarchies require validated statistical contracts and
+reference inputs. They are not implemented in this candidate. A single combined
+plugin, common MCP/REST service and broader platform adapters remain deferred.

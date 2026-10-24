@@ -2,6 +2,17 @@
 
 **Author and maintainer: [Shanlong Ding](https://github.com/shanlong-who)**
 
+**New local candidates (24 October 2026):** SDG `0.1.1-test.1` adds source
+boundaries and adaptive results while keeping its query runtime unchanged.
+GHE `0.1.0-test.1` adds a separate WHO GHE skill with bundled country metadata,
+exact-code discovery, retrieval and CSV/JSON export. The host supplies Python;
+end users do not install R, DSIR or additional packages. No hosted service,
+plugin consolidation or public release is included.
+See the [SDG test guide](packaging/SDG_TESTING.md), [GHE test guide](packaging/GHE_TESTING.md)
+and [GHE validation](dsir-ghe/reports/validation-20261024.md).
+These candidates still need acceptance in the intended ChatGPT account.
+The [Phase 2 decision](PHASE2.md) records the approved scope and runtime.
+
 **Local Phase 1 test candidate (24 October 2026):** GHO now defaults to legacy,
 supports explicit xMart, and never automatically switches sources. Paging,
 dimension validation and provenance have been repaired. See the
@@ -82,6 +93,8 @@ Example requests:
 
 GHO and UN SDG are distinct sources. Their releases, methods, geographic groups
 and available years can differ. The skills preserve that distinction.
+The new GHE candidate is a third distinct source for mortality and burden
+estimates, with its own statistical interpretation and validation.
 
 ## Install and use
 

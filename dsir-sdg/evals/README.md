@@ -69,6 +69,10 @@ compute a regional average.
 
 ## Manual assistant review
 
+The [source and presentation cases](source_output_cases.md) cover adaptive answer
+length, source boundaries, saved snapshots, incomplete results and derived
+findings. Evaluate actual responses separately from the API contracts below.
+
 Start a fresh task with the installed skill, submit the exact `user_question`
 without the expected codes, and retain the assistant's answer and tool evidence.
 Assess it against the case fields:
