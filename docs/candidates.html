@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Release candidate information for three independently maintained DSIR public health data plugins.">
+  <title>DSIR Health Data Skills | Release Candidates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+  <nav aria-label="Main"><a href="index.html">Existing GHO release</a></nav>
+  <h1>DSIR Health Data Skills</h1>
+  <p class="meta">Maintainer: Shanlong Ding · Candidate information: 24 October 2026</p>
+  <p>Three separate open-source plugins help users discover, retrieve and interpret public health data. These are release candidates undergoing private testing and draft checks. This page does not announce a public plugin release.</p>
+  <h2>DSIR GHO Health Data Skill — 0.1.4</h2>
+  <p>Find WHO Global Health Observatory indicators and observations by country, region, year and verified dimensions. The default backend is legacy GHO OData. xMart is used only when explicitly selected. The plugin never silently switches backends or merges their results.</p>
+  <h2>DSIR SDG Data Skill — 0.1.1</h2>
+  <p>Discover UN Sustainable Development Goal indicators and statistical series, verify their current definitions, and retrieve observations with units, dimensions and provenance. Data remain attributed to UN SDG even where WHO is the custodian.</p>
+  <h2>DSIR GHE Health Estimates — 0.1.0</h2>
+  <p>Discover WHO Global Health Estimates causes and dimensions, retrieve estimates by country, year, sex, age and measure, and export CSV and JSON. A verified WHO country mapping is bundled. All-age rates are crude; selected-age rates are age-specific. Unsupported age standardization and aggregation of overlapping causes are not performed.</p>
+  <h2>Using the plugins</h2>
+  <p>In ChatGPT Work, enable the relevant plugin, select it with @ and ask a question. The host must provide script execution, public HTTPS access and downloadable result files. Users do not install R, DSIR or extra packages, and these clients need no API key. Other hosts require separate validation.</p>
+  <p>Results can include metadata, a table, an appropriate chart and findings calculated in code. A short answer or files-only output is also supported. Missing observations, invalid queries and request failures are distinguished; failed queries do not produce invented zero values.</p>
+  <p>These are independent tools maintained by Shanlong Ding. They are not official WHO, UN or OpenAI services and do not provide clinical advice.</p>
+  <p><a href="privacy-candidates.html">Candidate privacy policy</a> · <a href="terms.html">Software and data terms</a> · <a href="https://github.com/shanlong-who/dsir-health-data-skills">Source repository</a></p>
+  <h2>Support</h2>
+  <p>Use <a href="https://github.com/shanlong-who/dsir-health-data-skills/issues">GitHub Issues</a> for questions and reproducible problems. Issues are public. Do not include patient records, confidential data, passwords or tokens.</p>
+</main></body>
+</html>
