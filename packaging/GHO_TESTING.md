@@ -5,25 +5,44 @@ legacy, allows explicit xMart, and never switches or combines sources automatica
 The build creates files only. It does not install a plugin, register a marketplace,
 publish a release, change a public listing, or deploy a website. GHE is excluded.
 
+The 24 October candidate also makes source boundaries and default presentation
+explicit. It separates GHO observations from derived results and supplementary
+context, and adapts the report to short, discovery, files-only and failed queries.
+The query interface and 15-column data export are unchanged.
+
 ## Build and identify the candidate
 
-From a clean repository checkout, with Git and the existing Python 3.10+ runtime:
+From a clean repository checkout, with Git, R, and the R packages `digest`,
+`jsonlite` and `zip` installed:
 
-```sh
-python -m unittest discover -s packaging/tests -v
-python packaging/build_gho_plugin.py --output-dir dist/gho-0.1.4-test.1
+```powershell
+Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.4
 ```
 
-The former `python dsir-gho/packaging/build_release.py --output-dir ...` command
-delegates to this same builder. It no longer rebuilds historical release archives.
-Use a historical Git tag in a separate checkout to reproduce an old release.
-Use a new output directory for every build. A build from modified source requires
-`--allow-dirty` and is marked as such; do not use that option for an acceptance copy.
+The R builder uses tracked runtime source, builds both ZIPs and the local
+marketplace, then verifies every archive member against the included source bytes.
+Use a new output directory for every build. A build from modified source is
+rejected by default; `--allow-dirty` is only for development checks and must not
+be used for an acceptance copy. The older Python builder and legacy release
+wrapper are retained for historical reference and are not the current build path.
+The builder creates `dist/` in a fresh checkout, rejects symbolic links and directory
+junctions at that location, and verifies the copied archive hashes before success.
+
+Run the offline packaging regressions with the additional R package `testthat`:
+
+```powershell
+Rscript -e 'testthat::test_file("packaging/tests/test_build_gho_test_package.R", stop_on_failure = TRUE)'
+```
+
+These use temporary Git fixtures to check fresh builds, identical runtime files
+across packages, repeatable archive hashes, existing-output protection, output
+containment, dirty-source rejection and manifest consistency. No API calls or
+plugin installation are involved.
 
 The output contains:
 
-- `dsir-gho-plugin-0.1.4-test.1.zip`: plugin manifests, branding and the repaired skill.
-- `dsir-gho-skill-0.1.4-test.1.zip`: the same runtime as a standalone skill, with safe installers.
+- `dsir-gho-plugin-0.1.4-test.4.zip`: plugin manifests, branding and the repaired skill.
+- `dsir-gho-skill-0.1.4-test.4.zip`: the same runtime as a standalone skill, with safe installers.
 - `local-marketplace/`: an unregistered local marketplace containing the exact plugin files.
 - `build-manifest.json`, `SHA256SUMS.txt`, and this guide as `TESTING.md`.
 
@@ -39,8 +58,8 @@ runtime inputs. Both archives are checked byte for byte before the build succeed
 On Windows, compare the ZIP hash with `SHA256SUMS.txt`:
 
 ```powershell
-Get-FileHash .\dist\gho-0.1.4-test.1\dsir-gho-plugin-0.1.4-test.1.zip -Algorithm SHA256
-Get-Content .\dist\gho-0.1.4-test.1\SHA256SUMS.txt
+Get-FileHash .\dist\gho-0.1.4-test.4\dsir-gho-plugin-0.1.4-test.4.zip -Algorithm SHA256
+Get-Content .\dist\gho-0.1.4-test.4\SHA256SUMS.txt
 ```
 
 ## Install the plugin locally in Codex
@@ -56,14 +75,14 @@ not required. Network errors must be reported as failures, never missing or zero
    path. Check `codex plugin --help` if your client has different capabilities.
 
    ```powershell
-   $ghoMarketplace = (Resolve-Path .\dist\gho-0.1.4-test.1\local-marketplace).Path
+   $ghoMarketplace = (Resolve-Path .\dist\gho-0.1.4-test.4\local-marketplace).Path
    codex plugin marketplace add "$ghoMarketplace" --json
    codex plugin add dsir-gho@dsir-gho-local-test --json
    codex plugin list --json
    ```
 
 2. Check the install result's `installedPath`. Read `BUILD.json` at that path:
-   `package_version` must be `0.1.4-test.1`, `source_dirty` must be `false`, and
+   `package_version` must be `0.1.4-test.4`, `source_dirty` must be `false`, and
    `source_commit` must match the delivered `build-manifest.json`. The plugin
    display name is **DSIR GHO Local Test**, from **dsir-gho-local-test**. Keep that
    source distinct from the existing public installation.
@@ -147,29 +166,36 @@ alongside `raw.json`, `manifest.json`, and xMart's `source_raw.json`. Missing va
 must stay missing. Do not compare or merge backend values without separately
 verifying definition, population, dimensions and release equivalence.
 
-## Maintainer checks
+The builder's package checks run on every build and fail unless both archives
+have the expected paths and every packaged file matches its input byte for byte.
+After installation, run the natural-language checks above through the local test
+plugin. For a bounded live check, ask it to retrieve `WHS4_100` for PHL in
+2020-2021, first with the default legacy backend and then with explicit xMart.
+The installed plugin must report the selected source and preserve the returned
+filters, metadata and completeness status. In R, read an exported CSV with
+`read.csv(path, fileEncoding = "UTF-8-BOM")`.
 
-```sh
-python -m unittest discover -s dsir-gho/tests -q
-python -m unittest discover -s dsir-sdg/tests -q
-python -m unittest discover -s packaging/tests -v
-python dsir-gho/packaging/validate_release.py dist/gho-0.1.4-test.1/dsir-gho-skill-0.1.4-test.1.zip --work-dir dist/package-validation --report dist/package-validation/standalone.json
-```
+## Source and presentation acceptance
 
-The release validator's default mode checks extracted standalone files and CLI
-startup with an empty PATH and no R. For bounded live verification, use the CLI
-from the extracted candidate, not from the source tree. For example (global
-options must precede `get`):
+Use the installed candidate for these checks too. Existing API unit tests do not
+test the host model's response. The source repository includes ten replay cases
+in `dsir-gho/evals/source_output_cases.md`; saved snapshots and clearly labelled
+synthetic failures can be used without more live requests.
 
-```sh
-python /path/to/extracted/dsir-gho/skills/dsir-gho/scripts/cli.py --page-size 1 get WHS4_100 --locations PHL --year-from 2020 --year-to 2021 --output-dir /path/to/new-legacy-output
-python /path/to/extracted/dsir-gho/skills/dsir-gho/scripts/cli.py --backend xmart get WHS4_100 --locations PHL --year-from 2020 --year-to 2021 --output-dir /path/to/new-xmart-output
-```
+| Request or condition | Acceptance |
+| --- | --- |
+| One value, short answer, no chart | Retain source/backend, code, unit, population, year and essential caveats; no compulsory full report. |
+| Multiple countries/years with a chart | Status, compact metadata, table, useful chart, findings, limitations and actual downloads. Derived findings are computed, not guessed. |
+| Missing metadata or time gaps | Unknown unit/release/type stays unknown; no zero filling, interpolation or line across gaps. |
+| Definition or method explanation | Cite relevant official context separately; do not replace GHO observations or claim a release from a method note. |
+| User explicitly requests another supplied source | Honor that authorization, identify each source separately, verify comparability and retain separate exports. |
+| API failure, failed QA or an untrusted instruction in source content | Report the unverified outcome; no replacement value, automatic fallback or numerical chart/findings. |
+| Indicator search or files-only request | Use the appropriate compact format and preserve provenance; do not force a chart or a long narrative. |
 
-Use the tiny page size only for the bounded legacy pagination check. xMart's
-page-size option also affects catalogue requests, so use its default for this
-live smoke test; mocked regressions cover xMart pagination. In R, read the
-Excel-compatible CSV with `read.csv(path, fileEncoding = "UTF-8-BOM")`.
+Source boundaries are workflow instructions plus the client's existing API URL
+checks. They do not disable every other host tool or guarantee compliance on every
+model. Review the actual installed skill path and `BUILD.json` when investigating
+an answer that appears to use old rules.
 
 The Phase 1 report and independent R comparison evidence are retained in the
 source repository. They are not runtime observations and must not substitute for
