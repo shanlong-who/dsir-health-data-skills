@@ -7,6 +7,7 @@ import hashlib
 import json
 import platform
 import sys
+import tempfile
 from pathlib import Path
 
 from ghe_client import DATA_FIELDS, GHEClient, METHODS_URL
@@ -14,7 +15,21 @@ from transport import BASE_URL, TABLE, GHEError, utc_now
 
 
 def write_result(output_dir, response):
+    """Expose a result directory only after every file and hash is written."""
     destination = Path(output_dir).expanduser().resolve()
+    if destination.exists():
+        raise GHEError("output_exists", "Choose a new directory; previous results are not overwritten.")
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".ghe-export-", dir=destination.parent) as folder:
+        stage = Path(folder) / "result"
+        files = write_files(stage, response)
+        if destination.exists():
+            raise GHEError("output_exists", "The output directory appeared during export; choose a new directory.")
+        stage.rename(destination)
+    return {name: str(destination / name) for name in files}
+
+
+def write_files(destination, response):
     try:
         destination.mkdir(parents=True, exist_ok=False)
     except FileExistsError as exc:

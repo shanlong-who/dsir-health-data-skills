@@ -1,6 +1,6 @@
 # SDG local test: installation and acceptance
 
-Candidate `0.1.1-test.1` adds source boundaries and adaptive presentation.
+Candidate `0.1.1-test.2` adds source boundaries and adaptive presentation.
 Its query scripts, tool interface and existing CSV/JSON formats are unchanged.
 It remains independent of GHO and GHE and retrieves UN SDG observations.
 
@@ -9,11 +9,11 @@ It remains independent of GHO and GHE and retrieves UN SDG observations.
 Maintainers use a clean checkout, R and `digest`, `jsonlite`, `zip`:
 
 ```text
-Rscript packaging/build_data_test_package.R --skill dsir-sdg --output-dir dist/sdg-0.1.1-test.1
+Rscript packaging/build_data_test_package.R --skill dsir-sdg --output-dir dist/sdg-0.1.1-test.2
 ```
 
-Outputs: `dsir-sdg-plugin-0.1.1-test.1.zip`,
-`dsir-sdg-skill-0.1.1-test.1.zip`, `local-marketplace/`, checksums, manifest
+Outputs: `dsir-sdg-plugin-0.1.1-test.2.zip`,
+`dsir-sdg-skill-0.1.1-test.2.zip`, `local-marketplace/`, checksums, manifest
 and this guide. The canonical runtime comes from root `dsir-sdg/`, not old
 embedded plugin copies. All member bytes are checked; tests, R and snapshots
 are excluded. No installation, submission or publication occurs.
@@ -27,13 +27,13 @@ availability and script/network permissions must be verified.
 For a local Codex test:
 
 ```powershell
-$sdgMarketplace = (Resolve-Path .\dist\sdg-0.1.1-test.1\local-marketplace).Path
+$sdgMarketplace = (Resolve-Path .\dist\sdg-0.1.1-test.2\local-marketplace).Path
 codex plugin marketplace add "$sdgMarketplace" --json
 codex plugin add dsir-sdg@dsir-sdg-local-test --json
 codex plugin list --json
 ```
 
-Check the installed path's `BUILD.json`: version `0.1.1-test.1`,
+Check the installed path's `BUILD.json`: version `0.1.1-test.2`,
 `source_dirty: false` and the delivered commit. Restart and start a fresh
 local task, disable the old SDG copy while testing, and select **DSIR SDG Local
 Test** with `@`. Ask the agent to identify the skill/CLI path and run `doctor`.

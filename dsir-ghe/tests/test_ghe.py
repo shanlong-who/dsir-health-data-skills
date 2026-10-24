@@ -335,6 +335,21 @@ class GHETests(unittest.TestCase):
             transport.opener.open.return_value = Response(content)
             self.assert_code(code, transport.request, TABLE)
 
+    def test_truncated_oversize_response_is_a_limit_error_before_json_parsing(self):
+        class Response(io.BytesIO):
+            headers = {"Content-Type": "application/json"}
+            def geturl(self):
+                return BASE_URL + "/" + TABLE
+        transport = Transport(max_bytes=20, retries=1)
+        transport.opener = mock.Mock()
+        transport.opener.open.return_value = Response(b'{"value":[' + b' ' * 100 + b']}')
+        self.assert_code("response_limit", transport.request, TABLE)
+        self.assertEqual(transport.trace[-1]["code"], "response_limit")
+
+    def test_out_of_range_number_is_an_invalid_response(self):
+        self.selected_row()["VAL_DTHS_COUNT_NUMERIC"] = 10 ** 400
+        self.assert_code("invalid_response", self.client.get_data, **self.selection)
+
     def test_urls_and_pagination_cannot_change_source(self):
         for url in ("http://xmart-api-public.who.int/DEX_CMS/GHE_FULL",
                     BASE_URL + "/DATA_/RELAY_WHS", BASE_URL + "/DEX_CMS/OTHER",
@@ -382,6 +397,37 @@ class GHETests(unittest.TestCase):
             self.assertEqual(response["error"]["code"], "invalid_query")
             self.assertFalse(response["provenance"]["complete"])
             self.assertFalse((destination / "data.csv").exists())
+
+    def test_export_write_failures_never_leave_a_successful_partial_result(self):
+        result = self.client.get_data(**self.selection)
+        original_write = Path.write_text
+        def fail_manifest(path, *args, **kwargs):
+            if path.name == "manifest.json":
+                raise OSError("synthetic manifest write failure")
+            return original_write(path, *args, **kwargs)
+        for failure in (mock.patch("cli.csv.DictWriter.writerows", side_effect=OSError("synthetic CSV failure")),
+                        mock.patch.object(Path, "write_text", fail_manifest)):
+            with self.subTest(failure=failure), tempfile.TemporaryDirectory() as folder, failure:
+                destination = Path(folder) / "export"
+                with self.assertRaises(OSError):
+                    write_result(destination, result)
+                self.assertFalse(destination.exists())
+                self.assertEqual(list(Path(folder).iterdir()), [])
+
+    def test_cli_export_failure_saves_only_error_diagnostics(self):
+        with tempfile.TemporaryDirectory() as folder:
+            destination = Path(folder) / "failure"
+            args = ["get", "--area", "PHL", "--year", "2023", "--sex", "TOTAL",
+                    "--age", "TOTAL", "--cause", "0", "--measure", "deaths", "--output-dir", str(destination)]
+            output = io.StringIO()
+            with mock.patch("cli.GHEClient", return_value=self.client), contextlib.redirect_stdout(output), \
+                    mock.patch("cli.csv.DictWriter.writerows", side_effect=OSError("synthetic CSV failure")):
+                self.assertEqual(main(args), 2)
+            response = json.loads((destination / "response.json").read_text())
+            self.assertEqual(response["status"], "error")
+            self.assertFalse(response["provenance"]["complete"])
+            self.assertEqual(set(path.name for path in destination.iterdir()), {"response.json", "manifest.json"})
+            self.assertEqual(json.loads(output.getvalue())["status"], "error")
 
     def test_client_limits_reject_invalid_inputs(self):
         for options in ({"page_size": 0}, {"page_size": 120001}, {"max_rows": True},

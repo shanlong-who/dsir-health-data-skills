@@ -101,6 +101,8 @@ class Transport:
                         validate_url(response.geturl())
                         content = response.read(min(self.max_bytes, 50000000) + 1)
                         content_type = response.headers.get("Content-Type", "").lower()
+                    if len(content) > min(self.max_bytes, 50000000) or self.total_bytes + len(content) > self.max_bytes:
+                        raise GHEError("response_limit", "GHE response exceeds the configured byte limit.")
                     if "text/html" in content_type or content.lstrip().startswith(b"<"):
                         raise GHEError("api_unavailable", "WHO returned HTML, not a GHE data response.")
                     try:

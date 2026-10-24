@@ -32,7 +32,7 @@ select_data_runtime <- function(root, skill, tracked) {
 build_data_package <- function(skill, output_directory, version = NULL,
                                root = data.repo.root, allow_dirty = FALSE) {
   if (!identical(skill, "dsir-sdg") && !identical(skill, "dsir-ghe")) helpers$abort("Select dsir-sdg or dsir-ghe.")
-  if (is.null(version)) version <- if (skill == "dsir-sdg") "0.1.1-test.1" else "0.1.0-test.1"
+  if (is.null(version)) version <- if (skill == "dsir-sdg") "0.1.1-test.2" else "0.1.0-test.2"
   if (length(version) != 1L || !grepl("^[0-9]+\\.[0-9]+\\.[0-9]+-test\\.[0-9]+$", version)) {
     helpers$abort("Only local test versions are allowed.")
   }

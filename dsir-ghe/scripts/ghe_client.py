@@ -80,8 +80,8 @@ def numeric(value, field, integer=False):
         raise GHEError("invalid_response", "Invalid numeric observation field.", field=field)
     try:
         number = float(value)
-    except ValueError as exc:
-        raise GHEError("invalid_response", "Nonnumeric text in a numeric GHE field.", field=field) from exc
+    except (ValueError, OverflowError) as exc:
+        raise GHEError("invalid_response", "Invalid or out-of-range numeric GHE field.", field=field) from exc
     if not math.isfinite(number) or integer and number != int(number):
         raise GHEError("invalid_response", "Nonfinite or noninteger GHE field.", field=field)
     return int(number) if integer else number

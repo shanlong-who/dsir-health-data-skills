@@ -1,6 +1,6 @@
 # GHE local test: installation and acceptance
 
-Candidate `0.1.0-test.1` is independent of GHO and SDG. It needs the AI host's
+Candidate `0.1.0-test.2` is independent of GHO and SDG. It needs the AI host's
 existing Python 3.10+, HTTPS to `xmart-api-public.who.int` and writable output.
 Users do not install R, Python packages or DSIR, supply keys, or download data
 manually. If the host has no permitted runtime/network, report that limitation.
@@ -11,11 +11,11 @@ Do not provision software or substitute another source.
 Maintainers, from a clean Git checkout with R and `digest`, `jsonlite`, `zip`:
 
 ```text
-Rscript packaging/build_data_test_package.R --skill dsir-ghe --output-dir dist/ghe-0.1.0-test.1
+Rscript packaging/build_data_test_package.R --skill dsir-ghe --output-dir dist/ghe-0.1.0-test.2
 ```
 
-The builder creates `dsir-ghe-plugin-0.1.0-test.1.zip`,
-`dsir-ghe-skill-0.1.0-test.1.zip`, `local-marketplace/`, `SHA256SUMS.txt`
+The builder creates `dsir-ghe-plugin-0.1.0-test.2.zip`,
+`dsir-ghe-skill-0.1.0-test.2.zip`, `local-marketplace/`, `SHA256SUMS.txt`
 and `build-manifest.json`. It verifies every archive member, refuses an
 existing output directory and excludes tests, R, API snapshots and caches.
 `BUILD.json` must show this version, the delivered source commit and
@@ -30,10 +30,35 @@ R sources or validation data. Attaching a ZIP to an ordinary conversation
 does not install or enable it. Account/workspace support must be verified;
 this local test does not prove browser-only account execution.
 
+In the account inspected on 24 October 2026, the path is **Plugins > Add >
+Upload plugin ZIP** (Chinese: **插件 > 添加 > 上传插件压缩包**). Upload
+`dsir-ghe-plugin-0.1.0-test.2.zip`, verify the private/test scope and candidate
+version, then enable **DSIR GHE Local Test** in a fresh conversation.
+Do not submit to the public directory or update an existing GHO/SDG listing.
+Use ChatGPT's hosted **Work** mode for script execution. If ordinary Chat mode
+cannot execute the bundled client or reach WHO, record that mode as unsupported;
+do not ask the user to install an interpreter to turn a failed test into a pass.
+
+Start with this prompt:
+
+> Use DSIR GHE Local Test. Verify BUILD.json is 0.1.0-test.2 and show its source
+> commit. Run doctor --live using the AI host's existing runtime. Do not install
+> R, Python, DSIR, packages or API keys. Query Philippines all-cause deaths and
+> the crude death rate in 2023, both sexes, all ages. Verify the exact codes from
+> the live catalogues. Provide the values with units, source and limitations,
+> then downloadable data.csv, response.json, raw.json and manifest.json.
+
+Download the actual files; a printed table, code block or missing file link is
+not a successful download. Check two clean rows (one measure per row), one
+original source row, `PHL`, `2023`, `TOTAL` sex/age and cause `0`. Verify
+`provenance.complete`, QA, units and the manifest hashes. Do not hard-code
+expected estimates from earlier tests because the live API can change.
+Follow with prompts 3, 5, 7 and 9 below. Record each mode independently.
+
 For local Codex, use the generated local marketplace:
 
 ```powershell
-$gheMarketplace = (Resolve-Path .\dist\ghe-0.1.0-test.1\local-marketplace).Path
+$gheMarketplace = (Resolve-Path .\dist\ghe-0.1.0-test.2\local-marketplace).Path
 codex plugin marketplace add "$gheMarketplace" --json
 codex plugin add dsir-ghe@dsir-ghe-local-test --json
 codex plugin list --json
@@ -78,6 +103,9 @@ Read full `response.json`, `data.csv`, `raw.json` and `manifest.json`. Verify
 country/year/sex/age/cause/measure, units, missing values, provider intervals,
 request source and hashes. Retrieval time is not release time; an unknown
 API release must stay unknown. A failed QA result must not support a final chart.
+Exports become visible only after all files and their hashes are written.
+If an export fails, the CLI reports an error and attempts a diagnostic-only
+bundle; it must not expose a successful response next to a partial data file.
 
 Record target app/account, package version/commit, exact prompt, returned files,
 expected scope, status and any limitation. These account-level checks remain

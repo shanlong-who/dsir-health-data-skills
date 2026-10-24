@@ -100,3 +100,39 @@ not approved for publication or Phase 3.
 
 No plugins were consolidated; no release, online configuration, deployment,
 API credential, public website update or production installation was performed.
+
+## PR review and test.2 regression checks
+
+Review of PRs #2 and #3 found three GHE failure-handling defects. A CSV or
+manifest write failure could leave `status: ok` in a partial export directory;
+an oversized truncated response was parsed before its size was checked; and
+an unrepresentably large numeric value escaped the structured response error.
+Four new tests reproduced the failures before the fixes. Exports now use a
+sibling staging directory and expose the final directory only after all files
+and hashes are written. Size limits are checked before parsing, and numeric
+overflow is classified as an invalid response. Existing result fields and
+source-selection semantics are unchanged.
+
+Post-fix validation on 24 October 2026:
+
+- GHE: 34 unit tests; GHO: 114 unit tests and 10 offline cases; SDG: 69 unit
+  tests. All passed. No SDG runtime changes were needed.
+- R packaging tests: 67 GHO and 69 SDG/GHE assertions passed, with no failures,
+  test warnings or skipped assertions. GHO review found no blocking defect.
+- Six fresh WHO live cases passed using 13 bounded requests: all 11 measures,
+  sex/age filtering with two pages, exact diabetes cause 800, verified empty
+  years, coverage, and an invalid sex code. The latest returned year was 2023.
+- The pinned DSIR 0.11.0 verifier matched five common-input cases across all
+  16 fields: 11, 8, 2, 0 and 88 rows. The last case is explicitly synthetic
+  missing/zero evidence. This check is not an independent live data release test.
+
+Evidence is under ignored `dist/pr-review-20261024/`. Initial Windows sandbox
+temporary-directory permissions affected export tests; they passed in the
+workspace test directory. R packaging fixtures used the normal short temporary
+directory. No environment or dependency installation is needed by end users.
+
+Refresh all three test packages after ordered merges using a clean main commit:
+GHO `0.1.4-test.5`, SDG `0.1.1-test.2`, GHE `0.1.0-test.2`. The GHE guide records
+the observed ChatGPT private upload entry and explicit download acceptance.
+Account-level query/download acceptance is separate from these code checks;
+do not infer a pass from the successful local tests.

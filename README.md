@@ -2,9 +2,9 @@
 
 **Author and maintainer: [Shanlong Ding](https://github.com/shanlong-who)**
 
-**New local candidates (24 October 2026):** SDG `0.1.1-test.1` adds source
+**New local candidates (24 October 2026):** SDG `0.1.1-test.2` adds source
 boundaries and adaptive results while keeping its query runtime unchanged.
-GHE `0.1.0-test.1` adds a separate WHO GHE skill with bundled country metadata,
+GHE `0.1.0-test.2` adds a separate WHO GHE skill with bundled country metadata,
 exact-code discovery, retrieval and CSV/JSON export. The host supplies Python;
 end users do not install R, DSIR or additional packages. No hosted service,
 plugin consolidation or public release is included.
@@ -18,7 +18,7 @@ supports explicit xMart, and never automatically switches sources. Paging,
 dimension validation and provenance have been repaired. See the
 [Phase 1 report](dsir-gho/reports/phase1-20261023.md). Published downloads below
 and installed plugins have not been updated; no new release was created.
-PR #1 is merged. Build the repaired `0.1.4-test.4` candidate from current source
+PR #1 is merged. Build the repaired `0.1.4-test.5` candidate from current source
 using the R-based [local test package guide](packaging/GHO_TESTING.md). The builder also
 prepares an unregistered local marketplace for desktop acceptance; it does not
 publish or install anything.
