@@ -67,7 +67,7 @@ build_data_package <- function(skill, output_directory, version = NULL,
   plugin <- setNames(runtime, paste0("skills/", skill, "/", names(runtime)))
   plugin <- c(plugin, list("plugin.json" = helpers$json_raw(portable),
     ".codex-plugin/plugin.json" = helpers$json_raw(compatibility),
-    "assets/dsir-logo.jpg" = read_input("packaging/assets/dsir-logo.jpg"),
+    "assets/dsir-logo.png" = read_input("packaging/assets/dsir-logo.png"),
     "LICENSE" = runtime[["LICENSE"]], "README.md" = read_input(paste0("plugins/", skill, "/README.md")),
     "TESTING.md" = guide, "BUILD.json" = build.info))
   standalone <- c(runtime, list("README.md" = charToRaw(paste0("# ", label, "\n\n",

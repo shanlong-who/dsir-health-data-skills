@@ -13,7 +13,7 @@ data_fixture <- function() {
   stopifnot(startsWith(root, boundary))
   withr::defer(unlink(root, recursive = TRUE), envir = parent.frame())
   files <- list(".gitignore" = charToRaw("/dist/\n.env\n__pycache__/\n"),
-    "packaging/assets/dsir-logo.jpg" = as.raw(c(1, 2, 255)))
+    "packaging/assets/dsir-logo.png" = as.raw(c(1, 2, 255)))
   for (skill in c("dsir-sdg", "dsir-ghe")) {
     paths <- c("SKILL.md", "LICENSE", "scripts/cli.py", "agents/openai.yaml",
       "references/metadata/who_countries.json", "references/metadata/provenance.json",

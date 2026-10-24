@@ -26,8 +26,8 @@
           "Read",
           "Write"
         ],
-        "composerIcon": "./assets/dsir-logo.jpg",
-        "logo": "./assets/dsir-logo.jpg",
+        "composerIcon": "./assets/dsir-logo.png",
+        "logo": "./assets/dsir-logo.png",
         "defaultPrompt": [
           "Compare UHC service coverage in China, Japan and the Philippines.",
           "Get Philippine TB incidence since 2015 from UN SDG.",

@@ -204,10 +204,10 @@ build_package <- function(output_directory, version = default_version, root = re
   build_info <- json_raw(metadata)
   guide_path <- safe_source_path(root, "packaging/GHO_TESTING.md", state$tracked)
   plugin_readme <- safe_source_path(root, "plugins/dsir-gho/README.md", state$tracked)
-  logo <- safe_source_path(root, "plugins/dsir-gho/assets/dsir-logo.jpg", state$tracked)
+  logo <- safe_source_path(root, "packaging/assets/dsir-logo.png", state$tracked)
   plugin <- setNames(runtime, paste0("skills/dsir-gho/", names(runtime)))
   plugin <- c(plugin, list("plugin.json" = json_raw(portable),
-    ".codex-plugin/plugin.json" = json_raw(compatibility), "assets/dsir-logo.jpg" = readBin(logo, "raw", n = file.info(logo)$size),
+    ".codex-plugin/plugin.json" = json_raw(compatibility), "assets/dsir-logo.png" = readBin(logo, "raw", n = file.info(logo)$size),
     "LICENSE" = runtime[["LICENSE"]], "README.md" = readBin(plugin_readme, "raw", n = file.info(plugin_readme)$size),
     "TESTING.md" = readBin(guide_path, "raw", n = file.info(guide_path)$size), "BUILD.json" = build_info))
   standalone_readme <- charToRaw(paste0("# DSIR GHO local test skill ", version,

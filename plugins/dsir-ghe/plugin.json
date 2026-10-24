@@ -26,8 +26,8 @@
           "Read",
           "Write"
         ],
-        "composerIcon": "./assets/dsir-logo.jpg",
-        "logo": "./assets/dsir-logo.jpg",
+        "composerIcon": "./assets/dsir-logo.png",
+        "logo": "./assets/dsir-logo.png",
         "defaultPrompt": [
           "Get all-cause deaths in the Philippines for the latest available year.",
           "Compare female and male mortality rates at ages 40-44 in the Philippines.",

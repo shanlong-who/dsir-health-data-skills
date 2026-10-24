@@ -33,7 +33,7 @@ new_fixture <- function() {
       list(extensions = list("com.openai" = list(interface = interface))))),
     "plugins/dsir-gho/.codex-plugin/plugin.json" = builder$json_raw(c(identity,
       list(skills = "./skills/", interface = interface))),
-    "plugins/dsir-gho/assets/dsir-logo.jpg" = as.raw(c(1, 2, 255)),
+    "packaging/assets/dsir-logo.png" = as.raw(c(1, 2, 255)),
     "plugins/dsir-gho/README.md" = charToRaw("readme"),
     "plugins/dsir-gho/skills/dsir-gho/scripts/cli.py" = charToRaw("STALE COPY"),
     "packaging/GHO_TESTING.md" = charToRaw("guide"),

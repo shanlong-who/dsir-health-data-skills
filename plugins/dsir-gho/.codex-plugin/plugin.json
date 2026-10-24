@@ -22,8 +22,8 @@
     "websiteURL": "https://shanlong-who.github.io/dsir-health-data-skills/",
     "privacyPolicyURL": "https://shanlong-who.github.io/dsir-health-data-skills/privacy.html",
     "supportURL": "https://github.com/shanlong-who/dsir-health-data-skills/issues",
-    "composerIcon": "./assets/dsir-logo.jpg",
-    "logo": "./assets/dsir-logo.jpg",
+    "composerIcon": "./assets/dsir-logo.png",
+    "logo": "./assets/dsir-logo.png",
     "capabilities": [
       "Read",
       "Write"

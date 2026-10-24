@@ -136,3 +136,10 @@ GHO `0.1.4-test.5`, SDG `0.1.1-test.2`, GHE `0.1.0-test.2`. The GHE guide record
 the observed ChatGPT private upload entry and explicit download acceptance.
 Account-level query/download acceptance is separate from these code checks;
 do not infer a pass from the successful local tests.
+
+The maintainer supplied a clearer shared plugin icon during this review. Both
+current builders now use `packaging/assets/dsir-logo.png`, and all three plugin
+manifest pairs reference the packaged PNG. The 1254 by 1254 RGBA image is copied
+without resampling or editing; transparency is preserved. Its SHA-256 is
+`63dd053e3e0a42b628fab7ced4b44bf92a1d2c221f8e3e8c7180664e604cb095`.
+Historical JPEG assets and published packages are unchanged.
