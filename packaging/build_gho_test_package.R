@@ -10,7 +10,7 @@ script_arg <- grep("^--file=", commandArgs(), value = TRUE)
 script_path <- if (length(script_arg)) sub("^--file=", "", script_arg[[1]]) else
   "packaging/build_gho_test_package.R"
 repo_root <- normalizePath(file.path(dirname(script_path), ".."), winslash = "/", mustWork = TRUE)
-default_version <- "0.1.4-test.3"
+default_version <- "0.1.4-test.4"
 marketplace_name <- "dsir-gho-local-test"
 runtime_directories <- c("scripts", "references", "agents")
 fixed_zip_time <- as.POSIXct("2026-01-01 00:00:00", tz = "UTC")
@@ -165,7 +165,7 @@ build_destination <- function(root, output_directory) {
 build_package <- function(output_directory, version = default_version, root = repo_root, allow_dirty = FALSE) {
   root <- normalizePath(root, winslash = "/", mustWork = TRUE)
   if (length(version) != 1L || !grepl("^[0-9]+\\.[0-9]+\\.[0-9]+-test\\.[0-9]+$", version)) {
-    abort("Only local test versions are allowed, for example 0.1.4-test.3.")
+    abort("Only local test versions are allowed, for example 0.1.4-test.4.")
   }
   destination <- build_destination(root, output_directory)
 

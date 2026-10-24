@@ -12,6 +12,13 @@ and [backend comparison](references/backend_comparison.md) for source identity.
 The historical pinned DSIR hashes remain unchanged; they describe the earlier
 xMart reference, not a newly released package.
 
+The 24 October local candidate makes the source boundary explicit: GHO observations,
+derived calculations and supplementary context remain identifiable. Its
+[default result presentation](references/result_presentation.md) starts with status
+and metadata, then a table, a useful chart, findings and downloads. Single-value,
+discovery, files-only and failed queries use shorter forms. The API interface and
+15-column export are unchanged.
+
 A portable skill for finding and downloading WHO Global Health Observatory data. It combines `SKILL.md` with a Python 3.10+ client that uses only the standard library and calls WHO directly over HTTPS.
 
 There is no R dependency, DSIR runtime, MCP server, Docker image, service to host, or API key. The agent environment needs Python, permission to run the scripts, and internet access to WHO GHO. This package is separate from the earlier R service in the parent project.

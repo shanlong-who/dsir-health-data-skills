@@ -13,7 +13,7 @@ service is required. GHE is outside this plugin.
 
 From a clean repository with R and `digest`, `jsonlite` and `zip` installed, run:
 
-    Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.3
+    Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.4
 
 The R builder uses tracked dsir-gho source, not old ZIPs or the embedded runtime
 copy. It creates a plugin ZIP, a standalone skill ZIP, a local marketplace folder,

@@ -5,13 +5,18 @@ legacy, allows explicit xMart, and never switches or combines sources automatica
 The build creates files only. It does not install a plugin, register a marketplace,
 publish a release, change a public listing, or deploy a website. GHE is excluded.
 
+The 24 October candidate also makes source boundaries and default presentation
+explicit. It separates GHO observations from derived results and supplementary
+context, and adapts the report to short, discovery, files-only and failed queries.
+The query interface and 15-column data export are unchanged.
+
 ## Build and identify the candidate
 
 From a clean repository checkout, with Git, R, and the R packages `digest`,
 `jsonlite` and `zip` installed:
 
 ```powershell
-Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.3
+Rscript packaging/build_gho_test_package.R --output-dir dist/gho-0.1.4-test.4
 ```
 
 The R builder uses tracked runtime source, builds both ZIPs and the local
@@ -36,8 +41,8 @@ plugin installation are involved.
 
 The output contains:
 
-- `dsir-gho-plugin-0.1.4-test.3.zip`: plugin manifests, branding and the repaired skill.
-- `dsir-gho-skill-0.1.4-test.3.zip`: the same runtime as a standalone skill, with safe installers.
+- `dsir-gho-plugin-0.1.4-test.4.zip`: plugin manifests, branding and the repaired skill.
+- `dsir-gho-skill-0.1.4-test.4.zip`: the same runtime as a standalone skill, with safe installers.
 - `local-marketplace/`: an unregistered local marketplace containing the exact plugin files.
 - `build-manifest.json`, `SHA256SUMS.txt`, and this guide as `TESTING.md`.
 
@@ -53,8 +58,8 @@ runtime inputs. Both archives are checked byte for byte before the build succeed
 On Windows, compare the ZIP hash with `SHA256SUMS.txt`:
 
 ```powershell
-Get-FileHash .\dist\gho-0.1.4-test.3\dsir-gho-plugin-0.1.4-test.3.zip -Algorithm SHA256
-Get-Content .\dist\gho-0.1.4-test.3\SHA256SUMS.txt
+Get-FileHash .\dist\gho-0.1.4-test.4\dsir-gho-plugin-0.1.4-test.4.zip -Algorithm SHA256
+Get-Content .\dist\gho-0.1.4-test.4\SHA256SUMS.txt
 ```
 
 ## Install the plugin locally in Codex
@@ -70,14 +75,14 @@ not required. Network errors must be reported as failures, never missing or zero
    path. Check `codex plugin --help` if your client has different capabilities.
 
    ```powershell
-   $ghoMarketplace = (Resolve-Path .\dist\gho-0.1.4-test.3\local-marketplace).Path
+   $ghoMarketplace = (Resolve-Path .\dist\gho-0.1.4-test.4\local-marketplace).Path
    codex plugin marketplace add "$ghoMarketplace" --json
    codex plugin add dsir-gho@dsir-gho-local-test --json
    codex plugin list --json
    ```
 
 2. Check the install result's `installedPath`. Read `BUILD.json` at that path:
-   `package_version` must be `0.1.4-test.3`, `source_dirty` must be `false`, and
+   `package_version` must be `0.1.4-test.4`, `source_dirty` must be `false`, and
    `source_commit` must match the delivered `build-manifest.json`. The plugin
    display name is **DSIR GHO Local Test**, from **dsir-gho-local-test**. Keep that
    source distinct from the existing public installation.
@@ -169,6 +174,28 @@ plugin. For a bounded live check, ask it to retrieve `WHS4_100` for PHL in
 The installed plugin must report the selected source and preserve the returned
 filters, metadata and completeness status. In R, read an exported CSV with
 `read.csv(path, fileEncoding = "UTF-8-BOM")`.
+
+## Source and presentation acceptance
+
+Use the installed candidate for these checks too. Existing API unit tests do not
+test the host model's response. The source repository includes ten replay cases
+in `dsir-gho/evals/source_output_cases.md`; saved snapshots and clearly labelled
+synthetic failures can be used without more live requests.
+
+| Request or condition | Acceptance |
+| --- | --- |
+| One value, short answer, no chart | Retain source/backend, code, unit, population, year and essential caveats; no compulsory full report. |
+| Multiple countries/years with a chart | Status, compact metadata, table, useful chart, findings, limitations and actual downloads. Derived findings are computed, not guessed. |
+| Missing metadata or time gaps | Unknown unit/release/type stays unknown; no zero filling, interpolation or line across gaps. |
+| Definition or method explanation | Cite relevant official context separately; do not replace GHO observations or claim a release from a method note. |
+| User explicitly requests another supplied source | Honor that authorization, identify each source separately, verify comparability and retain separate exports. |
+| API failure, failed QA or an untrusted instruction in source content | Report the unverified outcome; no replacement value, automatic fallback or numerical chart/findings. |
+| Indicator search or files-only request | Use the appropriate compact format and preserve provenance; do not force a chart or a long narrative. |
+
+Source boundaries are workflow instructions plus the client's existing API URL
+checks. They do not disable every other host tool or guarantee compliance on every
+model. Review the actual installed skill path and `BUILD.json` when investigating
+an answer that appears to use old rules.
 
 The Phase 1 report and independent R comparison evidence are retained in the
 source repository. They are not runtime observations and must not substitute for

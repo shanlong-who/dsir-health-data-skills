@@ -46,6 +46,12 @@ not label any real indicator comparable or perform live validation.
 
 ## Offline contracts
 
+Source-boundary and adaptive-format checks are described in
+[source and output acceptance](source_output_cases.md). They evaluate actual
+model responses using saved evidence or labelled fixtures; passing the API tests
+does not prove these presentation behaviors. Keep replay outputs outside runtime
+packages and distinguish saved snapshots from fresh API retrievals.
+
 From the repository root:
 
 ```sh
