@@ -32,6 +32,13 @@ if (dtp3) {
   manifest$indicator$metadata_url <- spec$metadata_url
   manifest$indicator$bounds_expected <- spec$bounds_expected
 }
+if (sdg) {
+  manifest$indicator$series <- spec$series
+  manifest$indicator$metadata_url <- spec$metadata_url
+  manifest$indicator$product <- prov$product
+  manifest$indicator$backend <- prov$actual_backend
+  manifest$indicator$reporting_type <- prov$reporting_type
+}
 file <- file.path(out, "manifest.json")
 write_json(manifest, file, auto_unbox = TRUE, pretty = TRUE, na = "null", null = "null", digits = NA)
 writeLines(paste0(digest(file = file, algo = "sha256"), "  manifest.json"),

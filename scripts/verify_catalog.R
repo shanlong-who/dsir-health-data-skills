@@ -5,10 +5,12 @@ suppressPackageStartupMessages({
 })
 
 public <- "--public" %in% commandArgs(TRUE)
-root <- if (public) file.path(tempdir(), "wpr-phase3") else "snapshots"
+phase4 <- "--phase4" %in% commandArgs(TRUE)
+branch <- if (phase4) "pilot/wpr-sdg-phase4" else "pilot/wpr-multi-phase3"
+root <- if (public) tempfile("wpr-catalog-") else "snapshots"
 dir.create(root, recursive = TRUE, showWarnings = FALSE)
 raw.base <- "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/"
-catalog.url <- paste0(raw.base, "refs/heads/pilot/wpr-multi-phase3/snapshots/catalog.json")
+catalog.url <- paste0(raw.base, "refs/heads/", branch, "/snapshots/catalog.json")
 fetch <- function(url, path) {
   if (public) {
     dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
@@ -32,7 +34,8 @@ sidecar <- fetch(sub("json$", "sha256", catalog.url), file.path(root, "catalog.s
 stopifnot(identical(readLines(sidecar), paste0(hash_file(catalog.path), "  catalog.json")))
 catalog <- read_json(catalog.path)
 ids <- vapply(catalog$indicators, "[[", character(1), "id")
-stopifnot(length(ids) == 2L, setequal(ids, c("wpr-tb", "wpr-dtp3")))
+expected.ids <- c("wpr-tb", "wpr-dtp3", if (phase4) "wpr-sba")
+stopifnot(!anyDuplicated(ids), setequal(ids, expected.ids))
 check_entry <- function(entry) {
   id <- entry$id
   folder <- file.path(root, id)
@@ -55,6 +58,11 @@ check_entry <- function(entry) {
   }
   p <- read_json(verify(m$files$provenance, "provenance.json", m$data_commit))
   stopifnot(identical(p$run_id, m$run_id), identical(p$observations_sha256, m$files$observations$sha256))
+  if (phase4) {
+    stopifnot(identical(entry$product, p$product), identical(entry$backend, p$actual_backend))
+    if (id == "wpr-sba") stopifnot(m$indicator$code == "3.1.2", m$indicator$series == "SH_STA_BRTC",
+                                    p$actual_backend == "unsdg", m$indicator$unit == "Percent of live births")
+  }
   full <- read.csv(verify(m$files$observations, "observations.csv", m$data_commit),
                    colClasses = "character", encoding = "UTF-8", na.strings = "")
   areas <- m$geography$areas
@@ -89,14 +97,22 @@ b <- data.frame(year = c(2019L, 2020L, 2021L), value_num = c(4, 7, 6))
 stopifnot(latest_years(list(a, b))$shared == 2019L,
           is.na(latest_years(list(a, b[2:3, ]))$shared))
 series <- lapply(info, "[[", "series")
+selected <- if (phase4) c("wpr-dtp3", "wpr-sba") else ids
+series <- series[selected]
 dates <- latest_years(series)
-fields <- c("id", "area_code", "year", "value_num", "low", "high", "unit", "observation_id")
+fields <- c("id", "area_code", "year", "value_num", "low", "high", "unit", "observation_id", "series", "record_key")
 rows_at <- function(years) {
-  lapply(names(series), function(id) series[[id]][series[[id]]$year %in% years[[id]], fields, drop = FALSE])
+  lapply(names(series), function(id) series[[id]][series[[id]]$year %in% years[[id]], intersect(fields, names(series[[id]])), drop = FALSE])
 }
 evidence <- list(public_downloads = public, catalog_sha256 = hash_file(catalog.path),
                  indicators = lapply(info, "[[", "summary"), latest = rows_at(dates$latest),
-                 common_year = dates$shared, common_rows = rows_at(setNames(rep(dates$shared, length(ids)), ids)))
+                 common_year = dates$shared, common_rows = rows_at(setNames(rep(dates$shared, length(selected)), selected)))
+if (phase4) {
+  births <- series[["wpr-sba"]]
+  evidence$comparison <- selected
+  evidence$vnm_births_2020_rows <- sum(births$year == 2020L)
+  evidence$vnm_births_years <- sort(births$year[!is.na(births$value_num)])
+}
 cat(toJSON(evidence, auto_unbox = TRUE, na = "null", pretty = TRUE), "\n")
-report <- Sys.getenv("PHASE3_RESULT_FILE")
+report <- Sys.getenv(if (phase4) "PHASE4_RESULT_FILE" else "PHASE3_RESULT_FILE")
 if (nzchar(report)) write_json(evidence, report, auto_unbox = TRUE, pretty = TRUE, na = "null")

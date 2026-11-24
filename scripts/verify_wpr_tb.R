@@ -30,14 +30,26 @@ data <- read_observations(verify_file(manifest$files$observations, "observations
 prov <- read_json(verify_file(manifest$files$provenance, "provenance.json"))
 unit <- spec$unit
 stopifnot(nrow(data) > 0L, identical(manifest$snapshot, snapshot.id), all(data$id == spec$code), all(data$unit == unit),
-          all(data$measure_field == spec$measure), all(data$time_type == "YEAR"),
           identical(manifest$indicator$code, unique(data$id)), identical(manifest$indicator$unit, unit),
-          !anyNA(data[c("area_code", "observation_id", "year")]), all(nzchar(data$observation_id)),
-          !anyDuplicated(data[c("area_code", "year")]), !anyDuplicated(data$observation_id),
+          !anyNA(data[c("area_code", "year")]),
+          !anyDuplicated(data[c("area_code", "year")]),
           all(data$area_code %in% roster$area_code), identical(prov$run_id, manifest$run_id),
           identical(prov$retrieved_at, manifest$retrieved_at),
           identical(prov$observations_sha256, manifest$files$observations$sha256),
           identical(prov$completeness, manifest$completeness))
+if (sdg) {
+  expected.key <- paste("UNSDG", spec$series, data$location, data$year, data$dim_reporting_type, sep = "/")
+  stopifnot(all(c("attr_units", "dim_reporting_type", "series", "record_key", "source", "location") %in% names(data)),
+            all(data$source == "sdg"), all(data$series == spec$series), all(data$attr_units == "PERCENT"),
+            all(data$dim_reporting_type == "G"), identical(data$record_key, expected.key),
+            !anyDuplicated(data$record_key), manifest$indicator$series == spec$series,
+            identical(manifest$indicator$product, prov$product), prov$actual_backend == "unsdg",
+            all(as.integer(data$location) == as.integer(roster$m49[match(data$area_code,roster$area_code)])))
+} else {
+  stopifnot(all(c("measure_field", "observation_id", "time_type") %in% names(data)),
+            all(data$measure_field == spec$measure), all(data$time_type == "YEAR"),
+            !anyNA(data$observation_id), all(nzchar(data$observation_id)), !anyDuplicated(data$observation_id))
+}
 numbers <- lapply(data[c("value_num", "low", "high")], as.numeric)
 for (field in names(numbers)) {
   x <- numbers[[field]]
@@ -85,6 +97,7 @@ stopifnot(qa$retrieval == "complete", qa$roster_areas == nrow(roster),
           qa$absent_area_years == qa$expected_area_years - nrow(data),
           qa$missing_estimates == sum(is.na(numbers$value_num)),
           qa$missing_lower_bounds == sum(is.na(numbers$low)), qa$missing_upper_bounds == sum(is.na(numbers$high)),
-          all(unlist(qa[c("duplicate_area_years", "duplicate_observation_ids", "invalid_units", "invalid_bounds")]) == 0))
+          qa$duplicate_area_years == 0L, qa$invalid_units == 0L, qa$invalid_bounds == 0L,
+          identical(if (sdg) qa$duplicate_record_keys else qa$duplicate_observation_ids, 0L))
 cat(sprintf("Verified %d roster entries, %d observations and %d area CSVs against the full file.\n",
             length(areas), nrow(data), length(unique(data$area_code))))

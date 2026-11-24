@@ -1,0 +1,70 @@
+name: DSIR Western Pacific GHO and SDG catalog
+on:
+  push:
+    branches: [pilot/wpr-sdg-phase4]
+    paths:
+      - '.github/workflows/wpr-sdg-phase4.yml'
+      - 'config/wpr-areas.csv'
+      - 'scripts/wpr_tb_manifest.R'
+      - 'scripts/wpr_sdg_snapshot.R'
+      - 'scripts/write_wpr_tables.R'
+      - 'scripts/verify_wpr_tb.R'
+      - 'scripts/wpr_indicator.R'
+      - 'scripts/wpr_catalog.R'
+      - 'scripts/verify_catalog.R'
+permissions:
+  contents: write
+concurrency:
+  group: dsir-wpr-sdg-phase4
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    if: github.repository == 'shanlong-who/dsir-health-data-skills' && github.event.repository.private == false
+    env:
+      DSIR_SNAPSHOT_ID: wpr-sba
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: r-lib/actions/setup-r@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05
+        with:
+          r-version: 'release'
+          use-public-rspm: true
+      - name: Install the Phase 1 DSIR revision and snapshot dependencies
+        shell: Rscript {0}
+        run: |
+          packages <- c("cli", "ggplot2", "httr2", "rlang", "tibble", "vctrs", "jsonlite", "digest", "openssl")
+          install.packages(setdiff(packages, rownames(installed.packages())), Ncpus = 2L)
+          revision <- "812127a997aa347647101f89c8eb43cc07e27255"
+          pkg <- tempfile(fileext = ".tar.gz")
+          download.file(paste0("https://codeload.github.com/shanlong-who/DSIR/tar.gz/", revision), pkg, mode = "wb")
+          install.packages(pkg, repos = NULL, type = "source")
+      - name: Retrieve and validate UN SDG observations
+        run: Rscript --vanilla scripts/wpr_sdg_snapshot.R
+      - name: Pin data files and verify the manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- snapshots/wpr-sba/observations.csv snapshots/wpr-sba/provenance.json snapshots/wpr-sba/areas
+          git commit -m "Record Western Pacific skilled birth attendance observations and provenance"
+          export SNAPSHOT_DATA_COMMIT="$(git rev-parse HEAD)"
+          Rscript --vanilla scripts/wpr_tb_manifest.R
+          Rscript --vanilla scripts/verify_wpr_tb.R
+          (cd snapshots/wpr-sba && sha256sum --check manifest.sha256)
+          git add -- snapshots/wpr-sba/manifest.json snapshots/wpr-sba/manifest.sha256
+          git commit -m "Record the verified SDG manifest"
+          export SNAPSHOT_MANIFEST_COMMIT="$(git rev-parse HEAD)"
+          Rscript --vanilla scripts/wpr_catalog.R
+          DSIR_SNAPSHOT_ID=wpr-tb Rscript --vanilla scripts/verify_wpr_tb.R
+          DSIR_SNAPSHOT_ID=wpr-dtp3 Rscript --vanilla scripts/verify_wpr_tb.R
+          Rscript --vanilla scripts/verify_catalog.R --phase4
+          git add -- snapshots/catalog.json snapshots/catalog.sha256
+          git commit -m "Publish the verified cross-source catalog"
+      - name: Publish the catalog and its data together on the pilot branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh auth setup-git
+          git push origin HEAD:refs/heads/pilot/wpr-sdg-phase4
