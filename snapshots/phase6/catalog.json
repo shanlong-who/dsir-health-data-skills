@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "region": "WHO Western Pacific Region",
+  "indicators": [
+    {
+      "id": "wpr-tb",
+      "indicator": {
+        "code": "MDG_0000000020",
+        "name": "Tuberculosis incidence",
+        "unit": "Tuberculosis incidence (per 100 000 population)"
+      },
+      "aliases": [
+        "TB incidence",
+        "tuberculosis incidence"
+      ],
+      "years": {
+        "first": 2000,
+        "last": 2024
+      },
+      "retrieved_at": "2026-11-24T10:08:45Z",
+      "run_id": "45371295568",
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/c9b2af42e92fd1383120ef5e0e1364b8e509e664/snapshots/wpr-tb/manifest.json",
+        "sha256": "9900a033456a4a2fc98626f7001def5e49237b06b96e46d303b50ad1a6098519"
+      },
+      "product": "WHO Global Health Observatory",
+      "backend": "xmart"
+    },
+    {
+      "id": "wpr-dtp3",
+      "indicator": {
+        "code": "WHS4_100",
+        "name": "DTP3 immunization coverage among one-year-olds",
+        "unit": "Diphtheria-tetanus-pertussis (DTP3) immunization coverage among 1-year-olds (%)",
+        "estimate_type": "WHO/UNICEF estimates of national immunization coverage (WUENIC)",
+        "metadata_url": "https://data.who.int/indicators/i/F8E084C",
+        "bounds_expected": false
+      },
+      "aliases": [
+        "DTP3",
+        "DPT3",
+        "third-dose DTP coverage"
+      ],
+      "years": {
+        "first": 2000,
+        "last": 2024
+      },
+      "retrieved_at": "2026-11-24T10:28:51Z",
+      "run_id": "45373699070",
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/b0d0ceff0236906345686be867b7965ebb8cf402/snapshots/wpr-dtp3/manifest.json",
+        "sha256": "13ee52e5ce9b9694ab61889e55a6fc2b0193cfc10dbb4438802032e2d0ebda58"
+      },
+      "product": "WHO Global Health Observatory",
+      "backend": "xmart"
+    },
+    {
+      "id": "wpr-sba",
+      "indicator": {
+        "code": "3.1.2",
+        "name": "Proportion of births attended by skilled health personnel",
+        "unit": "Percent of live births",
+        "series": "SH_STA_BRTC",
+        "metadata_url": "https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf",
+        "product": "United Nations Global SDG Indicators Database",
+        "backend": "unsdg",
+        "reporting_type": "G"
+      },
+      "aliases": [
+        "skilled birth attendance",
+        "skilled attendance at birth",
+        "SH_STA_BRTC"
+      ],
+      "years": {
+        "first": 2000,
+        "last": 2024
+      },
+      "retrieved_at": "2026-11-24T10:39:31Z",
+      "run_id": "45376726392",
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/30e89b004118364a5ba5e7284ff27069288bf230/snapshots/wpr-sba/manifest.json",
+        "sha256": "1868ea258e0298b7b4c85a35c2220a6a742bc5df503995735bae1d0966b7d224"
+      },
+      "product": "United Nations Global SDG Indicators Database",
+      "backend": "unsdg"
+    },
+    {
+      "id": "wpr-ghe-deaths",
+      "indicator": {
+        "code": "GHE/0/deaths",
+        "name": "All-cause deaths by sex",
+        "unit": "deaths",
+        "cause_code": "0",
+        "cause_name": "All Causes",
+        "measure": "deaths",
+        "age": "TOTAL",
+        "sex": [
+          "FEMALE",
+          "MALE",
+          "TOTAL"
+        ],
+        "product": "WHO Global Health Estimates",
+        "backend": "xmart"
+      },
+      "product": "WHO Global Health Estimates",
+      "backend": "xmart",
+      "scope": "regional",
+      "aliases": ["number of deaths", "all causes mortality count"],
+      "years": {
+        "first": 2000,
+        "last": 2023
+      },
+      "run_id": "45383539069",
+      "retrieved_at": "2026-11-24T11:23:18Z",
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/24fbeec1a422cb154b6242752e9fe00721ff5379/snapshots/wpr-ghe-deaths/manifest.json",
+        "bytes": 96502,
+        "sha256": "a24d487452f1763717aac149a4444f05389256def9134c5b9d2ed69dfe2a460e"
+      }
+    }
+  ]
+}
