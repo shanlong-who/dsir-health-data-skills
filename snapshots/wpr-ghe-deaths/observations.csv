@@ -1,0 +1,1585 @@
+"area_code","year","sex","age","cause_code","measure","area_name","cause_name","value","low","high","unit","population"
+"AUS",2000,"FEMALE","TOTAL","0","deaths","Australia","All Causes",60516.28,58959.21,62104.87,"deaths",9636168
+"AUS",2000,"MALE","TOTAL","0","deaths","Australia","All Causes",66209.25,64630.02,67835.5,"deaths",9496308
+"AUS",2000,"TOTAL","TOTAL","0","deaths","Australia","All Causes",126725.53,123589.23,129940.37,"deaths",19132476
+"AUS",2001,"FEMALE","TOTAL","0","deaths","Australia","All Causes",60387.86,58843.42,61931.81,"deaths",9755108
+"AUS",2001,"MALE","TOTAL","0","deaths","Australia","All Causes",65764.73,64259.48,67331.55,"deaths",9610321
+"AUS",2001,"TOTAL","TOTAL","0","deaths","Australia","All Causes",126152.59,123102.89,129263.36,"deaths",19365429
+"AUS",2002,"FEMALE","TOTAL","0","deaths","Australia","All Causes",62713.87,61145.15,64312.4,"deaths",9869902
+"AUS",2002,"MALE","TOTAL","0","deaths","Australia","All Causes",67355.37,65793.11,68959.73,"deaths",9725461
+"AUS",2002,"TOTAL","TOTAL","0","deaths","Australia","All Causes",130069.23,126938.26,133272.13,"deaths",19595363
+"AUS",2003,"FEMALE","TOTAL","0","deaths","Australia","All Causes",62096.07,60537.61,63677.78,"deaths",9981200
+"AUS",2003,"MALE","TOTAL","0","deaths","Australia","All Causes",66514.95,64956.9,68084.02,"deaths",9838253
+"AUS",2003,"TOTAL","TOTAL","0","deaths","Australia","All Causes",128611.01,125494.51,131761.79,"deaths",19819453
+"AUS",2004,"FEMALE","TOTAL","0","deaths","Australia","All Causes",63027.77,61447.38,64655.9,"deaths",10093828
+"AUS",2004,"MALE","TOTAL","0","deaths","Australia","All Causes",67542.29,65952.31,69198.05,"deaths",9952851
+"AUS",2004,"TOTAL","TOTAL","0","deaths","Australia","All Causes",130570.06,127399.69,133853.96,"deaths",20046679
+"AUS",2005,"FEMALE","TOTAL","0","deaths","Australia","All Causes",64790.95,63181.78,66439.44,"deaths",10216138
+"AUS",2005,"MALE","TOTAL","0","deaths","Australia","All Causes",69054.97,67408.44,70731.31,"deaths",10078353
+"AUS",2005,"TOTAL","TOTAL","0","deaths","Australia","All Causes",133845.92,130590.22,137170.75,"deaths",20294491
+"AUS",2006,"FEMALE","TOTAL","0","deaths","Australia","All Causes",66285.02,64665.8,67951.45,"deaths",10361255
+"AUS",2006,"MALE","TOTAL","0","deaths","Australia","All Causes",70281.97,68639.5,71974.59,"deaths",10229308
+"AUS",2006,"TOTAL","TOTAL","0","deaths","Australia","All Causes",136566.99,133305.3,139926.04,"deaths",20590563
+"AUS",2007,"FEMALE","TOTAL","0","deaths","Australia","All Causes",66400.71,64790.79,68065.62,"deaths",10537641
+"AUS",2007,"MALE","TOTAL","0","deaths","Australia","All Causes",69775.9,68159.27,71423.39,"deaths",10416915
+"AUS",2007,"TOTAL","TOTAL","0","deaths","Australia","All Causes",136176.61,132950.06,139489.01,"deaths",20954556
+"AUS",2008,"FEMALE","TOTAL","0","deaths","Australia","All Causes",69493.28,67837.8,71202.12,"deaths",10738038
+"AUS",2008,"MALE","TOTAL","0","deaths","Australia","All Causes",72725.89,71063.1,74429.07,"deaths",10632548
+"AUS",2008,"TOTAL","TOTAL","0","deaths","Australia","All Causes",142219.16,138900.9,145631.19,"deaths",21370586
+"AUS",2009,"FEMALE","TOTAL","0","deaths","Australia","All Causes",67652.52,65995.51,69314.41,"deaths",10938979
+"AUS",2009,"MALE","TOTAL","0","deaths","Australia","All Causes",71525.37,69918.48,73186.28,"deaths",10844032
+"AUS",2009,"TOTAL","TOTAL","0","deaths","Australia","All Causes",139177.89,135913.99,142500.69,"deaths",21783011
+"AUS",2010,"FEMALE","TOTAL","0","deaths","Australia","All Causes",69163.55,67499.14,70854.4,"deaths",11118500
+"AUS",2010,"MALE","TOTAL","0","deaths","Australia","All Causes",72645.67,70992.46,74338.51,"deaths",11023081
+"AUS",2010,"TOTAL","TOTAL","0","deaths","Australia","All Causes",141809.22,138491.61,145192.91,"deaths",22141581
+"AUS",2011,"FEMALE","TOTAL","0","deaths","Australia","All Causes",71424.97,69750.42,73178.28,"deaths",11290536
+"AUS",2011,"MALE","TOTAL","0","deaths","Australia","All Causes",75643.65,73922.4,77369.78,"deaths",11189243
+"AUS",2011,"TOTAL","TOTAL","0","deaths","Australia","All Causes",147068.62,143672.82,150548.06,"deaths",22479779
+"AUS",2012,"FEMALE","TOTAL","0","deaths","Australia","All Causes",72017.54,70309.71,73776.92,"deaths",11480022
+"AUS",2012,"MALE","TOTAL","0","deaths","Australia","All Causes",74977.85,73293.75,76726.02,"deaths",11372629
+"AUS",2012,"TOTAL","TOTAL","0","deaths","Australia","All Causes",146995.39,143603.46,150502.94,"deaths",22852651
+"AUS",2013,"FEMALE","TOTAL","0","deaths","Australia","All Causes",71553.63,69824.02,73328.29,"deaths",11677830
+"AUS",2013,"MALE","TOTAL","0","deaths","Australia","All Causes",75871.25,74176.58,77602.95,"deaths",11558445
+"AUS",2013,"TOTAL","TOTAL","0","deaths","Australia","All Causes",147424.88,144000.6,150931.23,"deaths",23236275
+"AUS",2014,"FEMALE","TOTAL","0","deaths","Australia","All Causes",74943.23,73156.06,76718.69,"deaths",11867692
+"AUS",2014,"MALE","TOTAL","0","deaths","Australia","All Causes",78498.76,76741.35,80287.02,"deaths",11727905
+"AUS",2014,"TOTAL","TOTAL","0","deaths","Australia","All Causes",153441.99,149897.41,157005.71,"deaths",23595597
+"AUS",2015,"FEMALE","TOTAL","0","deaths","Australia","All Causes",77550,75732.66,79361.48,"deaths",12055510
+"AUS",2015,"MALE","TOTAL","0","deaths","Australia","All Causes",81503.12,79678.27,83335.05,"deaths",11892487
+"AUS",2015,"TOTAL","TOTAL","0","deaths","Australia","All Causes",159053.13,155410.93,162696.53,"deaths",23947997
+"AUS",2016,"FEMALE","TOTAL","0","deaths","Australia","All Causes",76512.66,74743.62,78365.31,"deaths",12255924
+"AUS",2016,"MALE","TOTAL","0","deaths","Australia","All Causes",82034.58,80258.98,83812.34,"deaths",12074037
+"AUS",2016,"TOTAL","TOTAL","0","deaths","Australia","All Causes",158547.24,155002.6,162177.65,"deaths",24329961
+"AUS",2017,"FEMALE","TOTAL","0","deaths","Australia","All Causes",78197.95,76394.23,80073.39,"deaths",12460049
+"AUS",2017,"MALE","TOTAL","0","deaths","Australia","All Causes",83225.44,81437.32,85060.81,"deaths",12270986
+"AUS",2017,"TOTAL","TOTAL","0","deaths","Australia","All Causes",161423.38,157831.55,165134.19,"deaths",24731035
+"AUS",2018,"FEMALE","TOTAL","0","deaths","Australia","All Causes",76603.97,74831.84,78421.4,"deaths",12654149
+"AUS",2018,"MALE","TOTAL","0","deaths","Australia","All Causes",82847.64,81071.43,84653.94,"deaths",12465557
+"AUS",2018,"TOTAL","TOTAL","0","deaths","Australia","All Causes",159451.61,155903.27,163075.34,"deaths",25119706
+"AUS",2019,"FEMALE","TOTAL","0","deaths","Australia","All Causes",81562.22,79862.97,83318.49,"deaths",12836798
+"AUS",2019,"MALE","TOTAL","0","deaths","Australia","All Causes",88759.19,87042.82,90536.1,"deaths",12645922
+"AUS",2019,"TOTAL","TOTAL","0","deaths","Australia","All Causes",170321.41,166905.79,173854.58,"deaths",25482720
+"AUS",2020,"FEMALE","TOTAL","0","deaths","Australia","All Causes",77478.8,76638.78,78305.02,"deaths",12970042
+"AUS",2020,"MALE","TOTAL","0","deaths","Australia","All Causes",85142.88,84298.04,86020.58,"deaths",12773746
+"AUS",2020,"TOTAL","TOTAL","0","deaths","Australia","All Causes",162621.68,160936.82,164325.6,"deaths",25743788
+"AUS",2021,"FEMALE","TOTAL","0","deaths","Australia","All Causes",83286.22,82381.69,84198.58,"deaths",13077061
+"AUS",2021,"MALE","TOTAL","0","deaths","Australia","All Causes",90369.33,89467.76,91287.84,"deaths",12879359
+"AUS",2021,"TOTAL","TOTAL","0","deaths","Australia","All Causes",173655.56,171849.45,175486.41,"deaths",25956420
+"AUS",2022,"FEMALE","TOTAL","0","deaths","Australia","All Causes",92354.53,89735.18,95061.43,"deaths",13200522
+"AUS",2022,"MALE","TOTAL","0","deaths","Australia","All Causes",100510.71,97855.07,103252.7,"deaths",13000468
+"AUS",2022,"TOTAL","TOTAL","0","deaths","Australia","All Causes",192865.24,187590.24,198314.13,"deaths",26200990
+"AUS",2023,"FEMALE","TOTAL","0","deaths","Australia","All Causes",88259.77,85612.73,90993.87,"deaths",13327471
+"AUS",2023,"MALE","TOTAL","0","deaths","Australia","All Causes",96481.59,93811.81,99260.94,"deaths",13123651
+"AUS",2023,"TOTAL","TOTAL","0","deaths","Australia","All Causes",184741.36,179424.53,190254.81,"deaths",26451122
+"BRN",2000,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",407.48,373.13,445.18,"deaths",150383
+"BRN",2000,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",556.75,509.08,606.41,"deaths",176062
+"BRN",2000,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",964.23,882.2,1051.59,"deaths",326445
+"BRN",2001,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",420.95,385.27,459.66,"deaths",153775
+"BRN",2001,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",561.19,513.65,611.71,"deaths",179591
+"BRN",2001,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",982.14,898.92,1071.37,"deaths",333366
+"BRN",2002,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",431.55,395.08,471.15,"deaths",157084
+"BRN",2002,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",566.45,518.3,617.74,"deaths",183037
+"BRN",2002,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",998,913.38,1088.89,"deaths",340121
+"BRN",2003,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",440.62,403.35,480.68,"deaths",160303
+"BRN",2003,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",573.98,525.2,626.2,"deaths",186358
+"BRN",2003,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1014.61,928.55,1106.88,"deaths",346661
+"BRN",2004,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",448.48,410.35,489.25,"deaths",163391
+"BRN",2004,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",585.57,535.93,638.64,"deaths",189541
+"BRN",2004,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1034.05,946.28,1127.89,"deaths",352932
+"BRN",2005,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",457.08,418.16,498.24,"deaths",166356
+"BRN",2005,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",600.58,549.78,654.27,"deaths",192577
+"BRN",2005,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1057.66,967.94,1152.51,"deaths",358933
+"BRN",2006,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",469.46,429.86,512.06,"deaths",169207
+"BRN",2006,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",621.48,568.75,677.01,"deaths",195472
+"BRN",2006,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1090.95,998.62,1189.08,"deaths",364679
+"BRN",2007,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",483.16,442.25,527.08,"deaths",172560
+"BRN",2007,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",638.77,584.3,696.22,"deaths",198338
+"BRN",2007,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1121.92,1026.55,1223.3,"deaths",370898
+"BRN",2008,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",497.38,455.11,542.8,"deaths",176509
+"BRN",2008,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",653.28,597.36,712.18,"deaths",201305
+"BRN",2008,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1150.66,1052.48,1254.98,"deaths",377814
+"BRN",2009,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",509.67,465.84,556.21,"deaths",180537
+"BRN",2009,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",662.86,606.37,722.66,"deaths",204437
+"BRN",2009,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1172.53,1072.21,1278.88,"deaths",384974
+"BRN",2010,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",525.54,480.41,573.56,"deaths",184686
+"BRN",2010,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",675.78,618.34,736.72,"deaths",207668
+"BRN",2010,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1201.32,1098.75,1310.28,"deaths",392354
+"BRN",2011,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",543.85,497.2,594.1,"deaths",188471
+"BRN",2011,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",695.75,636.75,758.61,"deaths",210942
+"BRN",2011,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1239.59,1133.95,1352.71,"deaths",399413
+"BRN",2012,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",574.03,525.17,626.99,"deaths",191372
+"BRN",2012,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",729.21,667.31,794.49,"deaths",214212
+"BRN",2012,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1303.24,1192.48,1421.48,"deaths",405584
+"BRN",2013,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",607.14,555.41,663.67,"deaths",193805
+"BRN",2013,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",768.37,703.48,837.07,"deaths",217418
+"BRN",2013,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1375.51,1258.88,1500.74,"deaths",411223
+"BRN",2014,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",649.61,593.22,709.9,"deaths",196189
+"BRN",2014,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",806.11,737.26,879.1,"deaths",220579
+"BRN",2014,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1455.72,1330.49,1589.01,"deaths",416768
+"BRN",2015,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",691.24,631.02,754.5,"deaths",198541
+"BRN",2015,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",841.57,770.4,917.83,"deaths",223692
+"BRN",2015,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1532.81,1401.42,1672.33,"deaths",422233
+"BRN",2016,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",737.9,672.83,806.91,"deaths",200840
+"BRN",2016,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",879.84,804.19,960.64,"deaths",226745
+"BRN",2016,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1617.74,1477.03,1767.55,"deaths",427585
+"BRN",2017,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",775.26,707.12,849.87,"deaths",203075
+"BRN",2017,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",916.41,836.12,1002.06,"deaths",229714
+"BRN",2017,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1691.67,1543.24,1851.93,"deaths",432789
+"BRN",2018,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",813.22,741.01,892.08,"deaths",205226
+"BRN",2018,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",957.35,872.5,1048.82,"deaths",232606
+"BRN",2018,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1770.57,1613.51,1940.89,"deaths",437832
+"BRN",2019,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",806.86,732.94,887.3,"deaths",207297
+"BRN",2019,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",977.3,887.93,1073.98,"deaths",235403
+"BRN",2019,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1784.16,1620.88,1961.28,"deaths",442700
+"BRN",2020,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",823.13,744.95,908.37,"deaths",209309
+"BRN",2020,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",997.42,902.88,1099.58,"deaths",238109
+"BRN",2020,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1820.55,1647.82,2007.96,"deaths",447418
+"BRN",2021,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",879.81,790.21,979.55,"deaths",211327
+"BRN",2021,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",1102.99,989.38,1225.97,"deaths",240410
+"BRN",2021,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",1982.8,1779.59,2205.52,"deaths",451737
+"BRN",2022,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",933.95,819.56,1058.96,"deaths",213206
+"BRN",2022,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",1131.89,991.62,1283.3,"deaths",242177
+"BRN",2022,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",2065.84,1811.18,2342.26,"deaths",455383
+"BRN",2023,"FEMALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",988.56,835.97,1166.14,"deaths",215068
+"BRN",2023,"MALE","TOTAL","0","deaths","Brunei Darussalam","All Causes",1209.31,1018.46,1421.7,"deaths",243898
+"BRN",2023,"TOTAL","TOTAL","0","deaths","Brunei Darussalam","All Causes",2197.88,1854.43,2587.85,"deaths",458966
+"CHN",2000,"FEMALE","TOTAL","0","deaths","China","All Causes",3531008.5,3081769.85,4024055.38,"deaths",621107274
+"CHN",2000,"MALE","TOTAL","0","deaths","China","All Causes",4293400.5,3759190.63,4879891.26,"deaths",648473898
+"CHN",2000,"TOTAL","TOTAL","0","deaths","China","All Causes",7824409,6840960.48,8903946.64,"deaths",1269581172
+"CHN",2001,"FEMALE","TOTAL","0","deaths","China","All Causes",3545420.02,3080297.42,4056974.83,"deaths",625429614
+"CHN",2001,"MALE","TOTAL","0","deaths","China","All Causes",4348041.37,3781603.03,4973024.24,"deaths",653295456
+"CHN",2001,"TOTAL","TOTAL","0","deaths","China","All Causes",7893461.39,6861900.45,9029999.06,"deaths",1278725070
+"CHN",2002,"FEMALE","TOTAL","0","deaths","China","All Causes",3569000.21,3077520.89,4119194.92,"deaths",629275420
+"CHN",2002,"MALE","TOTAL","0","deaths","China","All Causes",4381643.51,3782236.23,5054008.96,"deaths",657591411
+"CHN",2002,"TOTAL","TOTAL","0","deaths","China","All Causes",7950643.71,6859757.11,9173203.88,"deaths",1286866831
+"CHN",2003,"FEMALE","TOTAL","0","deaths","China","All Causes",3587743.53,3086163.33,4152459.63,"deaths",632888524
+"CHN",2003,"MALE","TOTAL","0","deaths","China","All Causes",4411781.07,3803825.26,5095583.61,"deaths",661628800
+"CHN",2003,"TOTAL","TOTAL","0","deaths","China","All Causes",7999524.6,6889988.59,9248043.24,"deaths",1294517324
+"CHN",2004,"FEMALE","TOTAL","0","deaths","China","All Causes",3657633.72,3160257.47,4201026.33,"deaths",636473213
+"CHN",2004,"MALE","TOTAL","0","deaths","China","All Causes",4566785.87,3924039.2,5254579.77,"deaths",665627105
+"CHN",2004,"TOTAL","TOTAL","0","deaths","China","All Causes",8224419.59,7084296.67,9455606.1,"deaths",1302100318
+"CHN",2005,"FEMALE","TOTAL","0","deaths","China","All Causes",3617318.43,3134596.23,4137092.49,"deaths",640236365
+"CHN",2005,"MALE","TOTAL","0","deaths","China","All Causes",4611709.06,4010942.45,5292135.67,"deaths",669790767
+"CHN",2005,"TOTAL","TOTAL","0","deaths","China","All Causes",8229027.49,7145538.67,9429228.15,"deaths",1310027132
+"CHN",2006,"FEMALE","TOTAL","0","deaths","China","All Causes",3528100.81,3054439.98,4045984.76,"deaths",644059344
+"CHN",2006,"MALE","TOTAL","0","deaths","China","All Causes",4542768.54,3933116.73,5237631.42,"deaths",673994688
+"CHN",2006,"TOTAL","TOTAL","0","deaths","China","All Causes",8070869.35,6987556.71,9283616.18,"deaths",1318054032
+"CHN",2007,"FEMALE","TOTAL","0","deaths","China","All Causes",3486599.06,2999714.6,4014753.86,"deaths",647741109
+"CHN",2007,"MALE","TOTAL","0","deaths","China","All Causes",4588962.26,3967189.57,5299747.98,"deaths",678072475
+"CHN",2007,"TOTAL","TOTAL","0","deaths","China","All Causes",8075561.32,6966904.17,9314501.84,"deaths",1325813584
+"CHN",2008,"FEMALE","TOTAL","0","deaths","China","All Causes",3530291.02,3060548.25,4062033.62,"deaths",651542227
+"CHN",2008,"MALE","TOTAL","0","deaths","China","All Causes",4702962.71,4082258.93,5415758.16,"deaths",682278800
+"CHN",2008,"TOTAL","TOTAL","0","deaths","China","All Causes",8233253.74,7142807.18,9477791.78,"deaths",1333821027
+"CHN",2009,"FEMALE","TOTAL","0","deaths","China","All Causes",3421388.56,2985916.24,3908614.94,"deaths",655701716
+"CHN",2009,"MALE","TOTAL","0","deaths","China","All Causes",4675474.68,4082340.43,5327060.61,"deaths",686821006
+"CHN",2009,"TOTAL","TOTAL","0","deaths","China","All Causes",8096863.25,7068256.67,9235675.54,"deaths",1342522722
+"CHN",2010,"FEMALE","TOTAL","0","deaths","China","All Causes",3418148.92,3006656.28,3889136.88,"deaths",660037942
+"CHN",2010,"MALE","TOTAL","0","deaths","China","All Causes",4728128.81,4170884.89,5346711.78,"deaths",691523568
+"CHN",2010,"TOTAL","TOTAL","0","deaths","China","All Causes",8146277.73,7177541.17,9235848.65,"deaths",1351561510
+"CHN",2011,"FEMALE","TOTAL","0","deaths","China","All Causes",3498408.51,3052025.91,3979021.93,"deaths",664232357
+"CHN",2011,"MALE","TOTAL","0","deaths","China","All Causes",4803367.65,4202155.46,5462770.12,"deaths",696018307
+"CHN",2011,"TOTAL","TOTAL","0","deaths","China","All Causes",8301776.16,7254181.37,9441792.05,"deaths",1360250664
+"CHN",2012,"FEMALE","TOTAL","0","deaths","China","All Causes",3509338.4,3056959.93,4003060.38,"deaths",668737636
+"CHN",2012,"MALE","TOTAL","0","deaths","China","All Causes",4840009.64,4240856.48,5496807.39,"deaths",700783230
+"CHN",2012,"TOTAL","TOTAL","0","deaths","China","All Causes",8349348.03,7297816.41,9499867.77,"deaths",1369520866
+"CHN",2013,"FEMALE","TOTAL","0","deaths","China","All Causes",3549475.95,3121982.38,4017608.27,"deaths",673369544
+"CHN",2013,"MALE","TOTAL","0","deaths","China","All Causes",4872834.06,4322767.48,5467261.2,"deaths",705638495
+"CHN",2013,"TOTAL","TOTAL","0","deaths","China","All Causes",8422310.01,7444749.87,9484869.47,"deaths",1379008039
+"CHN",2014,"FEMALE","TOTAL","0","deaths","China","All Causes",3589977.22,3188724.09,4049865.13,"deaths",677770735
+"CHN",2014,"MALE","TOTAL","0","deaths","China","All Causes",4930767.74,4407677.35,5497180.24,"deaths",710181240
+"CHN",2014,"TOTAL","TOTAL","0","deaths","China","All Causes",8520744.95,7596401.44,9547045.37,"deaths",1387951975
+"CHN",2015,"FEMALE","TOTAL","0","deaths","China","All Causes",3711263.03,3309456.14,4154588.8,"deaths",681842484
+"CHN",2015,"MALE","TOTAL","0","deaths","China","All Causes",5058026.17,4536321.32,5615700.13,"deaths",714291692
+"CHN",2015,"TOTAL","TOTAL","0","deaths","China","All Causes",8769289.2,7845777.46,9770288.94,"deaths",1396134176
+"CHN",2016,"FEMALE","TOTAL","0","deaths","China","All Causes",3781436.84,3359427.32,4244326.62,"deaths",685829862
+"CHN",2016,"MALE","TOTAL","0","deaths","China","All Causes",5141077.18,4583502.79,5779501.71,"deaths",718222765
+"CHN",2016,"TOTAL","TOTAL","0","deaths","China","All Causes",8922514.02,7942930.11,10023828.33,"deaths",1404052627
+"CHN",2017,"FEMALE","TOTAL","0","deaths","China","All Causes",3866606.28,3442768.31,4330686.56,"deaths",690091757
+"CHN",2017,"MALE","TOTAL","0","deaths","China","All Causes",5258883.69,4667380.63,5881023.79,"deaths",722262965
+"CHN",2017,"TOTAL","TOTAL","0","deaths","China","All Causes",9125489.98,8110148.94,10211710.34,"deaths",1412354722
+"CHN",2018,"FEMALE","TOTAL","0","deaths","China","All Causes",3918914.32,3513441.94,4358312.78,"deaths",693603238
+"CHN",2018,"MALE","TOTAL","0","deaths","China","All Causes",5346713.5,4786810.08,5910235.38,"deaths",725405720
+"CHN",2018,"TOTAL","TOTAL","0","deaths","China","All Causes",9265627.82,8300252.03,10268548.15,"deaths",1419008958
+"CHN",2019,"FEMALE","TOTAL","0","deaths","China","All Causes",4004541.63,3695382.09,4328677.96,"deaths",696046219
+"CHN",2019,"MALE","TOTAL","0","deaths","China","All Causes",5464535.55,5065367.5,5901892.42,"deaths",727474138
+"CHN",2019,"TOTAL","TOTAL","0","deaths","China","All Causes",9469077.18,8760749.6,10230570.38,"deaths",1423520357
+"CHN",2020,"FEMALE","TOTAL","0","deaths","China","All Causes",4327557.55,4225291.83,4435196.36,"deaths",697654479
+"CHN",2020,"MALE","TOTAL","0","deaths","China","All Causes",5395297.24,5297844.59,5497130.82,"deaths",728451611
+"CHN",2020,"TOTAL","TOTAL","0","deaths","China","All Causes",9722854.79,9523136.41,9932327.18,"deaths",1426106090
+"CHN",2021,"FEMALE","TOTAL","0","deaths","China","All Causes",4382682.2,3994558.29,4805805.23,"deaths",698243858
+"CHN",2021,"MALE","TOTAL","0","deaths","China","All Causes",5682497.38,5210770.82,6195710.15,"deaths",728193411
+"CHN",2021,"TOTAL","TOTAL","0","deaths","China","All Causes",10065179.57,9205329.1,11001515.38,"deaths",1426437269
+"CHN",2022,"FEMALE","TOTAL","0","deaths","China","All Causes",4628877.6,3700962.97,5664653.5,"deaths",698088664
+"CHN",2022,"MALE","TOTAL","0","deaths","China","All Causes",6270456.46,5028297.27,7735668.37,"deaths",727090903
+"CHN",2022,"TOTAL","TOTAL","0","deaths","China","All Causes",10899334.06,8729260.24,13400321.87,"deaths",1425179567
+"CHN",2023,"FEMALE","TOTAL","0","deaths","China","All Causes",4926026.26,3725756.39,6351069.66,"deaths",697361642
+"CHN",2023,"MALE","TOTAL","0","deaths","China","All Causes",6660115.21,5054949.03,8591418.75,"deaths",725223295
+"CHN",2023,"TOTAL","TOTAL","0","deaths","China","All Causes",11586141.47,8780705.41,14942488.41,"deaths",1422584937
+"FJI",2000,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2602.77,2426.93,2789.94,"deaths",416192
+"FJI",2000,"MALE","TOTAL","0","deaths","Fiji","All Causes",3329.53,3110.3,3562.36,"deaths",424735
+"FJI",2000,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",5932.29,5537.23,6352.3,"deaths",840927
+"FJI",2001,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2509.39,2340.28,2689.92,"deaths",420347
+"FJI",2001,"MALE","TOTAL","0","deaths","Fiji","All Causes",3304.09,3085.56,3534.41,"deaths",429261
+"FJI",2001,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",5813.49,5425.83,6224.33,"deaths",849608
+"FJI",2002,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2568.04,2395.98,2751.97,"deaths",424399
+"FJI",2002,"MALE","TOTAL","0","deaths","Fiji","All Causes",3190.78,2981.07,3411.97,"deaths",433673
+"FJI",2002,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",5758.82,5377.04,6163.95,"deaths",858072
+"FJI",2003,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2658.32,2479.4,2847.19,"deaths",428327
+"FJI",2003,"MALE","TOTAL","0","deaths","Fiji","All Causes",3247.38,3034.38,3471.91,"deaths",437973
+"FJI",2003,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",5905.7,5513.78,6319.11,"deaths",866300
+"FJI",2004,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2618.29,2442.74,2804.26,"deaths",432138
+"FJI",2004,"MALE","TOTAL","0","deaths","Fiji","All Causes",3216.18,3005.2,3436.07,"deaths",442236
+"FJI",2004,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",5834.47,5447.94,6240.33,"deaths",874374
+"FJI",2005,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2667.4,2487.48,2858.39,"deaths",435939
+"FJI",2005,"MALE","TOTAL","0","deaths","Fiji","All Causes",3370.82,3151.14,3601.33,"deaths",446452
+"FJI",2005,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6038.22,5638.62,6459.72,"deaths",882391
+"FJI",2006,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2746.92,2562.77,2942.7,"deaths",439726
+"FJI",2006,"MALE","TOTAL","0","deaths","Fiji","All Causes",3462.2,3237.13,3697.83,"deaths",450648
+"FJI",2006,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6209.12,5799.91,6640.53,"deaths",890374
+"FJI",2007,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2831.84,2642.17,3031.42,"deaths",443240
+"FJI",2007,"MALE","TOTAL","0","deaths","Fiji","All Causes",3519.65,3289.43,3756.39,"deaths",454606
+"FJI",2007,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6351.48,5931.6,6787.82,"deaths",897846
+"FJI",2008,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",2968.71,2770.13,3178.3,"deaths",446231
+"FJI",2008,"MALE","TOTAL","0","deaths","Fiji","All Causes",3584.49,3349.48,3825,"deaths",457190
+"FJI",2008,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6553.2,6119.61,7003.31,"deaths",903421
+"FJI",2009,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3018.35,2818.32,3230.08,"deaths",448781
+"FJI",2009,"MALE","TOTAL","0","deaths","Fiji","All Causes",3563.54,3329.79,3801.9,"deaths",458469
+"FJI",2009,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6581.9,6148.11,7031.98,"deaths",907250
+"FJI",2010,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3031.24,2831.01,3245.29,"deaths",451036
+"FJI",2010,"MALE","TOTAL","0","deaths","Fiji","All Causes",3624.21,3388.06,3866.29,"deaths",459394
+"FJI",2010,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6655.45,6219.07,7111.58,"deaths",910430
+"FJI",2011,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3099.5,2895.62,3316.68,"deaths",452998
+"FJI",2011,"MALE","TOTAL","0","deaths","Fiji","All Causes",3703.43,3461.19,3950.82,"deaths",460013
+"FJI",2011,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6802.93,6356.82,7267.5,"deaths",913011
+"FJI",2012,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3123.7,2919.41,3340.44,"deaths",454674
+"FJI",2012,"MALE","TOTAL","0","deaths","Fiji","All Causes",3759.5,3516.57,4010.15,"deaths",460260
+"FJI",2012,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6883.19,6435.98,7350.59,"deaths",914934
+"FJI",2013,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3146.73,2940.15,3364.26,"deaths",456102
+"FJI",2013,"MALE","TOTAL","0","deaths","Fiji","All Causes",3769.64,3527.8,4024.74,"deaths",460262
+"FJI",2013,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6916.37,6467.95,7389,"deaths",916364
+"FJI",2014,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3177.38,2967.59,3397.5,"deaths",457430
+"FJI",2014,"MALE","TOTAL","0","deaths","Fiji","All Causes",3776.46,3533.33,4031.49,"deaths",460171
+"FJI",2014,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6953.84,6500.92,7429,"deaths",917601
+"FJI",2015,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3193.22,2981.79,3413.87,"deaths",458701
+"FJI",2015,"MALE","TOTAL","0","deaths","Fiji","All Causes",3792.69,3548.53,4046.77,"deaths",459893
+"FJI",2015,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6985.92,6530.32,7460.64,"deaths",918594
+"FJI",2016,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3231.41,3018.32,3454.9,"deaths",459680
+"FJI",2016,"MALE","TOTAL","0","deaths","Fiji","All Causes",3841.85,3593.86,4101.53,"deaths",459496
+"FJI",2016,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",7073.26,6612.18,7556.43,"deaths",919176
+"FJI",2017,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3209.42,2991.98,3435.43,"deaths",460157
+"FJI",2017,"MALE","TOTAL","0","deaths","Fiji","All Causes",3870.29,3618.24,4135.35,"deaths",458621
+"FJI",2017,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",7079.71,6610.22,7570.78,"deaths",918778
+"FJI",2018,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3222.59,3000.54,3454.33,"deaths",460103
+"FJI",2018,"MALE","TOTAL","0","deaths","Fiji","All Causes",3936,3675.62,4211.03,"deaths",457087
+"FJI",2018,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",7158.59,6676.16,7665.36,"deaths",917190
+"FJI",2019,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3282.18,3051.4,3522.84,"deaths",459671
+"FJI",2019,"MALE","TOTAL","0","deaths","Fiji","All Causes",3991,3721.31,4276.98,"deaths",455232
+"FJI",2019,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",7273.18,6772.71,7799.82,"deaths",914903
+"FJI",2020,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3387.12,3144.15,3641.13,"deaths",460292
+"FJI",2020,"MALE","TOTAL","0","deaths","Fiji","All Causes",4078.55,3793.53,4377.9,"deaths",454685
+"FJI",2020,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",7465.67,6937.67,8019.03,"deaths",914977
+"FJI",2021,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3842.51,3547.48,4151.38,"deaths",461607
+"FJI",2021,"MALE","TOTAL","0","deaths","Fiji","All Causes",4597.55,4250.68,4959.59,"deaths",455117
+"FJI",2021,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",8440.06,7798.16,9110.97,"deaths",916724
+"FJI",2022,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3269.23,2952.98,3601.54,"deaths",463161
+"FJI",2022,"MALE","TOTAL","0","deaths","Fiji","All Causes",3725.01,3375.74,4104.85,"deaths",456269
+"FJI",2022,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",6994.23,6328.72,7706.39,"deaths",919430
+"FJI",2023,"FEMALE","TOTAL","0","deaths","Fiji","All Causes",3497.03,3060.14,3960.37,"deaths",465501
+"FJI",2023,"MALE","TOTAL","0","deaths","Fiji","All Causes",4115.07,3614.62,4663.69,"deaths",458657
+"FJI",2023,"TOTAL","TOTAL","0","deaths","Fiji","All Causes",7612.1,6674.76,8624.07,"deaths",924158
+"FSM",2000,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",339.21,315.32,364.29,"deaths",56065
+"FSM",2000,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",442.58,411.81,475.59,"deaths",56018
+"FSM",2000,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",781.79,727.13,839.87,"deaths",112083
+"FSM",2001,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",339.32,314.85,365.04,"deaths",56214
+"FSM",2001,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",441.84,410.28,475.62,"deaths",56194
+"FSM",2001,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",781.16,725.13,840.66,"deaths",112408
+"FSM",2002,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",371.5,346.39,398.09,"deaths",56240
+"FSM",2002,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",465.76,433.67,500.39,"deaths",56254
+"FSM",2002,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",837.26,780.07,898.48,"deaths",112494
+"FSM",2003,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",340.63,315.84,366.6,"deaths",56142
+"FSM",2003,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",443.63,411.58,478.18,"deaths",56179
+"FSM",2003,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",784.26,727.42,844.77,"deaths",112321
+"FSM",2004,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",341.86,316.95,368.13,"deaths",55969
+"FSM",2004,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",444.8,412.57,479.61,"deaths",55987
+"FSM",2004,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",786.67,729.52,847.75,"deaths",111956
+"FSM",2005,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",342.2,317.06,368.72,"deaths",55734
+"FSM",2005,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",446.74,414.22,481.82,"deaths",55718
+"FSM",2005,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",788.94,731.29,850.54,"deaths",111452
+"FSM",2006,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",341.97,316.66,368.47,"deaths",55428
+"FSM",2006,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",447.25,414.45,482.4,"deaths",55335
+"FSM",2006,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",789.22,731.11,850.87,"deaths",110763
+"FSM",2007,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",340.33,314.98,366.86,"deaths",55045
+"FSM",2007,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",444.72,412.21,479.56,"deaths",54859
+"FSM",2007,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",785.05,727.19,846.42,"deaths",109904
+"FSM",2008,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",337.53,312.19,364.03,"deaths",54623
+"FSM",2008,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",441.63,409.3,476.08,"deaths",54353
+"FSM",2008,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",779.15,721.49,840.11,"deaths",108976
+"FSM",2009,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",333.56,308.09,360.02,"deaths",54173
+"FSM",2009,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",436.5,404.12,470.68,"deaths",53820
+"FSM",2009,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",770.06,712.21,830.71,"deaths",107993
+"FSM",2010,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",333.27,307.42,360.18,"deaths",53991
+"FSM",2010,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",434.14,401.63,468.51,"deaths",53589
+"FSM",2010,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",767.41,709.05,828.69,"deaths",107580
+"FSM",2011,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",335.5,309.42,362.84,"deaths",54069
+"FSM",2011,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",433.78,400.79,468.58,"deaths",53660
+"FSM",2011,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",769.28,710.21,831.42,"deaths",107729
+"FSM",2012,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",338.68,312.34,366.37,"deaths",54170
+"FSM",2012,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",434.35,401.2,469.62,"deaths",53752
+"FSM",2012,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",773.03,713.54,835.99,"deaths",107922
+"FSM",2013,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",343.52,316.4,371.74,"deaths",54295
+"FSM",2013,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",435.34,401.85,470.97,"deaths",53864
+"FSM",2013,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",778.86,718.24,842.72,"deaths",108159
+"FSM",2014,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",348.74,320.78,377.91,"deaths",54429
+"FSM",2014,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",439.16,405.11,475.4,"deaths",54001
+"FSM",2014,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",787.91,725.89,853.32,"deaths",108430
+"FSM",2015,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",356.18,327.65,386.09,"deaths",54596
+"FSM",2015,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",445.76,410.74,483.13,"deaths",54148
+"FSM",2015,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",801.93,738.39,869.22,"deaths",108744
+"FSM",2016,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",358.9,329.28,389.9,"deaths",54778
+"FSM",2016,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",448.03,412.25,486.32,"deaths",54324
+"FSM",2016,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",806.93,741.53,876.22,"deaths",109102
+"FSM",2017,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",365.67,335,398,"deaths",54985
+"FSM",2017,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",451.77,414.71,491.05,"deaths",54523
+"FSM",2017,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",817.44,749.71,889.05,"deaths",109508
+"FSM",2018,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",373.04,340.76,407.33,"deaths",55213
+"FSM",2018,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",456.18,417.78,497.03,"deaths",54728
+"FSM",2018,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",829.22,758.55,904.36,"deaths",109941
+"FSM",2019,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",380.78,346.72,416.86,"deaths",55414
+"FSM",2019,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",458.73,419.1,501.42,"deaths",54907
+"FSM",2019,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",839.52,765.82,918.29,"deaths",110321
+"FSM",2020,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",301.57,273.75,331.25,"deaths",55752
+"FSM",2020,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",533.7,486.09,585.62,"deaths",55199
+"FSM",2020,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",835.27,759.84,916.87,"deaths",110951
+"FSM",2021,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",314.38,283.38,347.74,"deaths",56126
+"FSM",2021,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",436.04,394.11,481.64,"deaths",55529
+"FSM",2021,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",750.42,677.49,829.38,"deaths",111655
+"FSM",2022,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",404.72,359.25,454.84,"deaths",56389
+"FSM",2022,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",583.26,518.99,652.62,"deaths",55753
+"FSM",2022,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",987.98,878.24,1107.45,"deaths",112142
+"FSM",2023,"FEMALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",434.51,373.99,501.45,"deaths",56676
+"FSM",2023,"MALE","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",497.17,428.9,572.85,"deaths",55988
+"FSM",2023,"TOTAL","TOTAL","0","deaths","Micronesia (Federated States of)","All Causes",931.68,802.88,1074.3,"deaths",112664
+"IDN",2000,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",725519.48,618387.13,843652.7,"deaths",107846665
+"IDN",2000,"MALE","TOTAL","0","deaths","Indonesia","All Causes",747198.01,640604.35,869283.41,"deaths",108231131
+"IDN",2000,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1472717.49,1258991.48,1712936.11,"deaths",216077796
+"IDN",2001,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",735164.67,627334.37,857219.22,"deaths",109328259
+"IDN",2001,"MALE","TOTAL","0","deaths","Indonesia","All Causes",756175.01,648726.77,878681.5,"deaths",109769637
+"IDN",2001,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1491339.67,1276061.14,1735900.73,"deaths",219097896
+"IDN",2002,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",749718.08,638989.74,877332.93,"deaths",110795412
+"IDN",2002,"MALE","TOTAL","0","deaths","Indonesia","All Causes",777158.27,665728.12,906066.16,"deaths",111293089
+"IDN",2002,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1526876.34,1304717.87,1783399.08,"deaths",222088501
+"IDN",2003,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",756127.66,644110.03,881614.29,"deaths",112246628
+"IDN",2003,"MALE","TOTAL","0","deaths","Indonesia","All Causes",791939.73,677183.28,922498.64,"deaths",112801380
+"IDN",2003,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1548067.39,1321293.31,1804112.93,"deaths",225048008
+"IDN",2004,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",853723.43,741848.69,980049.5,"deaths",113651695
+"IDN",2004,"MALE","TOTAL","0","deaths","Indonesia","All Causes",868469.67,749308.51,1000946.9,"deaths",114274957
+"IDN",2004,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1722193.1,1491157.2,1980996.39,"deaths",227926652
+"IDN",2005,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",765864.5,650316.62,895694.56,"deaths",115090097
+"IDN",2005,"MALE","TOTAL","0","deaths","Indonesia","All Causes",817373.32,697560.71,945376.48,"deaths",115781569
+"IDN",2005,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1583237.82,1347877.33,1841071.04,"deaths",230871666
+"IDN",2006,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",773221.19,659515.32,904654.9,"deaths",116600584
+"IDN",2006,"MALE","TOTAL","0","deaths","Indonesia","All Causes",829299.06,707335.23,961010.36,"deaths",117351071
+"IDN",2006,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1602520.25,1366850.55,1865665.26,"deaths",233951655
+"IDN",2007,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",784206.87,666750.11,919651.58,"deaths",118126862
+"IDN",2007,"MALE","TOTAL","0","deaths","Indonesia","All Causes",848334.85,724778.24,986285.34,"deaths",118935479
+"IDN",2007,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1632541.71,1391528.34,1905936.92,"deaths",237062341
+"IDN",2008,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",791365.44,670945.54,926646.63,"deaths",119646950
+"IDN",2008,"MALE","TOTAL","0","deaths","Indonesia","All Causes",858647.96,732335.33,1000397.28,"deaths",120510951
+"IDN",2008,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1650013.4,1403280.87,1927043.9,"deaths",240157901
+"IDN",2009,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",801081.93,678240.2,933849.08,"deaths",121150080
+"IDN",2009,"MALE","TOTAL","0","deaths","Indonesia","All Causes",873261.56,746423.68,1017846.18,"deaths",122069952
+"IDN",2009,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1674343.5,1424663.87,1951695.26,"deaths",243220032
+"IDN",2010,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",810321.07,687213.13,947806.01,"deaths",122663987
+"IDN",2010,"MALE","TOTAL","0","deaths","Indonesia","All Causes",883933.39,751593.19,1032708.62,"deaths",123641333
+"IDN",2010,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1694254.46,1438806.32,1980514.63,"deaths",246305320
+"IDN",2011,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",816883.61,688511.35,954735.91,"deaths",124217422
+"IDN",2011,"MALE","TOTAL","0","deaths","Indonesia","All Causes",893132.36,757279.07,1039994,"deaths",125252614
+"IDN",2011,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1710015.97,1445790.42,1994729.9,"deaths",249470036
+"IDN",2012,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",826983.27,702947.86,969513.56,"deaths",125802831
+"IDN",2012,"MALE","TOTAL","0","deaths","Indonesia","All Causes",908085.88,769761.48,1059797.67,"deaths",126895697
+"IDN",2012,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1735069.16,1472709.34,2029311.23,"deaths",252698528
+"IDN",2013,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",836124.48,707867.91,981794.73,"deaths",127353761
+"IDN",2013,"MALE","TOTAL","0","deaths","Indonesia","All Causes",916511.53,777182.62,1071006.46,"deaths",128498716
+"IDN",2013,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1752636.01,1485050.53,2052801.19,"deaths",255852477
+"IDN",2014,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",842153.71,713306.29,983196.88,"deaths",128844386
+"IDN",2014,"MALE","TOTAL","0","deaths","Indonesia","All Causes",926628.75,785075.08,1086819.29,"deaths",130033010
+"IDN",2014,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1768782.46,1498381.37,2070016.16,"deaths",258877396
+"IDN",2015,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",848823.87,721832.71,987554.56,"deaths",130285564
+"IDN",2015,"MALE","TOTAL","0","deaths","Indonesia","All Causes",933364.54,791704.65,1092250.3,"deaths",131513677
+"IDN",2015,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1782188.42,1513537.35,2079804.86,"deaths",261799241
+"IDN",2016,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",858346.4,729900.29,998698.31,"deaths",131680957
+"IDN",2016,"MALE","TOTAL","0","deaths","Indonesia","All Causes",941723.03,796229.24,1100044.9,"deaths",132946473
+"IDN",2016,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1800069.43,1526129.54,2098743.2,"deaths",264627430
+"IDN",2017,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",862192.99,728201.22,1013205.31,"deaths",133024272
+"IDN",2017,"MALE","TOTAL","0","deaths","Indonesia","All Causes",939541.13,794386.85,1096163.74,"deaths",134322387
+"IDN",2017,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1801734.11,1522588.07,2109369.05,"deaths",267346659
+"IDN",2018,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",869134.21,734349.28,1026948.73,"deaths",134314244
+"IDN",2018,"MALE","TOTAL","0","deaths","Indonesia","All Causes",942906.56,798258.07,1105687.49,"deaths",135637609
+"IDN",2018,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1812040.77,1532607.34,2132636.22,"deaths",269951853
+"IDN",2019,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",868964.81,729104.17,1022611.17,"deaths",135572406
+"IDN",2019,"MALE","TOTAL","0","deaths","Indonesia","All Causes",939924.37,794028.22,1109316.65,"deaths",136916978
+"IDN",2019,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1808889.17,1523132.39,2131927.82,"deaths",272489384
+"IDN",2020,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",843959.69,699450.19,1002913.01,"deaths",136741615
+"IDN",2020,"MALE","TOTAL","0","deaths","Indonesia","All Causes",1161253.24,967929.85,1386880.84,"deaths",138073251
+"IDN",2020,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",2005212.93,1667380.04,2389793.85,"deaths",274814866
+"IDN",2021,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",1287389.74,1046037.69,1571296.97,"deaths",137726596
+"IDN",2021,"MALE","TOTAL","0","deaths","Indonesia","All Causes",1679607.72,1350494.36,2047188.15,"deaths",139031451
+"IDN",2021,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",2966997.46,2396532.05,3618485.12,"deaths",276758047
+"IDN",2022,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",887061.94,683784.14,1132341.89,"deaths",138760034
+"IDN",2022,"MALE","TOTAL","0","deaths","Indonesia","All Causes",1185243.33,921848.92,1508632.86,"deaths",140070496
+"IDN",2022,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",2072305.26,1605633.06,2640974.75,"deaths",278830530
+"IDN",2023,"FEMALE","TOTAL","0","deaths","Indonesia","All Causes",809731.18,606773.22,1052640.4,"deaths",139934300
+"IDN",2023,"MALE","TOTAL","0","deaths","Indonesia","All Causes",1044003.41,781895.51,1366021.79,"deaths",141255774
+"IDN",2023,"TOTAL","TOTAL","0","deaths","Indonesia","All Causes",1853734.59,1388668.73,2418662.19,"deaths",281190074
+"JPN",2000,"FEMALE","TOTAL","0","deaths","Japan","All Causes",435779.95,431105.38,440346.45,"deaths",64550717
+"JPN",2000,"MALE","TOTAL","0","deaths","Japan","All Causes",525926.67,520823.81,530870.01,"deaths",62477074
+"JPN",2000,"TOTAL","TOTAL","0","deaths","Japan","All Causes",961706.62,951929.19,971216.46,"deaths",127027791
+"JPN",2001,"FEMALE","TOTAL","0","deaths","Japan","All Causes",441588.65,436951.5,446010.6,"deaths",64697043
+"JPN",2001,"MALE","TOTAL","0","deaths","Japan","All Causes",528788.31,523837.82,533862.31,"deaths",62563111
+"JPN",2001,"TOTAL","TOTAL","0","deaths","Japan","All Causes",970376.96,960789.32,979872.91,"deaths",127260154
+"JPN",2002,"FEMALE","TOTAL","0","deaths","Japan","All Causes",447090.1,442705.29,451508.25,"deaths",64842965
+"JPN",2002,"MALE","TOTAL","0","deaths","Japan","All Causes",535318.45,530528.1,540151.16,"deaths",62641636
+"JPN",2002,"TOTAL","TOTAL","0","deaths","Japan","All Causes",982408.55,973233.39,991659.42,"deaths",127484601
+"JPN",2003,"FEMALE","TOTAL","0","deaths","Japan","All Causes",463251.6,458803.9,467998.68,"deaths",64972059
+"JPN",2003,"MALE","TOTAL","0","deaths","Japan","All Causes",551780.79,546569.33,556893.25,"deaths",62699193
+"JPN",2003,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1015032.39,1005373.24,1024891.93,"deaths",127671252
+"JPN",2004,"FEMALE","TOTAL","0","deaths","Japan","All Causes",471717.6,466903.81,476350.93,"deaths",65081088
+"JPN",2004,"MALE","TOTAL","0","deaths","Japan","All Causes",557250.38,552287.31,562248.92,"deaths",62734679
+"JPN",2004,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1028967.98,1019191.12,1038599.85,"deaths",127815767
+"JPN",2005,"FEMALE","TOTAL","0","deaths","Japan","All Causes",498892.6,494188.5,503598.69,"deaths",65169336
+"JPN",2005,"MALE","TOTAL","0","deaths","Japan","All Causes",585020.42,579985.59,590380.49,"deaths",62743997
+"JPN",2005,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1083913.03,1074174.09,1093979.18,"deaths",127913333
+"JPN",2006,"FEMALE","TOTAL","0","deaths","Japan","All Causes",503166.55,498448.21,508164.8,"deaths",65249421
+"JPN",2006,"MALE","TOTAL","0","deaths","Japan","All Causes",581436.71,576410.8,586604.21,"deaths",62747820
+"JPN",2006,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1084603.26,1074859.02,1094769.01,"deaths",127997241
+"JPN",2007,"FEMALE","TOTAL","0","deaths","Japan","All Causes",515579.35,510697.05,520277.18,"deaths",65328437
+"JPN",2007,"MALE","TOTAL","0","deaths","Japan","All Causes",592816.22,587746.29,598079.7,"deaths",62759245
+"JPN",2007,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1108395.56,1098443.34,1118356.88,"deaths",128087682
+"JPN",2008,"FEMALE","TOTAL","0","deaths","Japan","All Causes",533723.28,528688.61,538506.29,"deaths",65396988
+"JPN",2008,"MALE","TOTAL","0","deaths","Japan","All Causes",608747.86,603391.41,614132.01,"deaths",62759010
+"JPN",2008,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1142471.14,1132080.01,1152638.3,"deaths",128155998
+"JPN",2009,"FEMALE","TOTAL","0","deaths","Japan","All Causes",532874.52,528015.56,537832.11,"deaths",65449720
+"JPN",2009,"MALE","TOTAL","0","deaths","Japan","All Causes",609088.58,604041.22,614428.72,"deaths",62742753
+"JPN",2009,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1141963.1,1132056.78,1152260.82,"deaths",128192473
+"JPN",2010,"FEMALE","TOTAL","0","deaths","Japan","All Causes",563329.33,558495.7,568274.64,"deaths",65479171
+"JPN",2010,"MALE","TOTAL","0","deaths","Japan","All Causes",633719.3,628521.68,639096.66,"deaths",62706106
+"JPN",2010,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1197048.63,1187017.38,1207371.3,"deaths",128185277
+"JPN",2011,"FEMALE","TOTAL","0","deaths","Japan","All Causes",606903.37,601325.66,612426.26,"deaths",65454815
+"JPN",2011,"MALE","TOTAL","0","deaths","Japan","All Causes",664713.86,659328.28,670075.82,"deaths",62641617
+"JPN",2011,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1271617.23,1260653.94,1282502.08,"deaths",128096432
+"JPN",2012,"FEMALE","TOTAL","0","deaths","Japan","All Causes",600958.38,595726.8,606094.73,"deaths",65379499
+"JPN",2012,"MALE","TOTAL","0","deaths","Japan","All Causes",655631.06,650288.38,660866.01,"deaths",62548779
+"JPN",2012,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1256589.44,1246015.18,1266960.74,"deaths",127928278
+"JPN",2013,"FEMALE","TOTAL","0","deaths","Japan","All Causes",609809.77,604928.6,614650.08,"deaths",65285757
+"JPN",2013,"MALE","TOTAL","0","deaths","Japan","All Causes",658739.12,653428.96,664104.57,"deaths",62437892
+"JPN",2013,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1268548.89,1258357.56,1278754.65,"deaths",127723649
+"JPN",2014,"FEMALE","TOTAL","0","deaths","Japan","All Causes",612847.98,607465.18,618031.69,"deaths",65175093
+"JPN",2014,"MALE","TOTAL","0","deaths","Japan","All Causes",660482.83,655234.51,666023.44,"deaths",62311509
+"JPN",2014,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1273330.81,1262699.69,1284055.13,"deaths",127486602
+"JPN",2015,"FEMALE","TOTAL","0","deaths","Japan","All Causes",623760.22,618803.35,628862.66,"deaths",65071437
+"JPN",2015,"MALE","TOTAL","0","deaths","Japan","All Causes",666729.77,661290.13,672249.95,"deaths",62204440
+"JPN",2015,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1290489.98,1280093.48,1301112.6,"deaths",127275877
+"JPN",2016,"FEMALE","TOTAL","0","deaths","Japan","All Causes",633079.28,627942.34,638351.95,"deaths",65013225
+"JPN",2016,"MALE","TOTAL","0","deaths","Japan","All Causes",674800.25,669608.18,680177.4,"deaths",62146732
+"JPN",2016,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1307879.53,1297550.53,1318529.35,"deaths",127159957
+"JPN",2017,"FEMALE","TOTAL","0","deaths","Japan","All Causes",649772.86,644367.33,654974.81,"deaths",64969710
+"JPN",2017,"MALE","TOTAL","0","deaths","Japan","All Causes",690737.24,685409.55,696089.53,"deaths",62094985
+"JPN",2017,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1340510.11,1329776.88,1351064.34,"deaths",127064695
+"JPN",2018,"FEMALE","TOTAL","0","deaths","Japan","All Causes",663632.17,658434.49,668688.37,"deaths",64897021
+"JPN",2018,"MALE","TOTAL","0","deaths","Japan","All Causes",699406.61,694269.37,704564.59,"deaths",62016414
+"JPN",2018,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1363038.78,1352703.86,1373252.96,"deaths",126913435
+"JPN",2019,"FEMALE","TOTAL","0","deaths","Japan","All Causes",673749.46,668822.66,678913.32,"deaths",64791066
+"JPN",2019,"MALE","TOTAL","0","deaths","Japan","All Causes",707493.67,702274.63,712661.57,"deaths",61908356
+"JPN",2019,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1381243.14,1371097.29,1391574.88,"deaths",126699422
+"JPN",2020,"FEMALE","TOTAL","0","deaths","Japan","All Causes",666007.1,663888.82,667971.48,"deaths",64600332
+"JPN",2020,"MALE","TOTAL","0","deaths","Japan","All Causes",706910.28,704836.11,709082.31,"deaths",61704212
+"JPN",2020,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1372917.38,1368724.92,1377053.79,"deaths",126304544
+"JPN",2021,"FEMALE","TOTAL","0","deaths","Japan","All Causes",701750.08,699664.49,703941.25,"deaths",64300222
+"JPN",2021,"MALE","TOTAL","0","deaths","Japan","All Causes",738176.68,735898.04,740346.74,"deaths",61379111
+"JPN",2021,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1439926.76,1435562.53,1444287.99,"deaths",125679333
+"JPN",2022,"FEMALE","TOTAL","0","deaths","Japan","All Causes",769653.22,763295.9,776138.92,"deaths",63971115
+"JPN",2022,"MALE","TOTAL","0","deaths","Japan","All Causes",799443,792864.83,806185.06,"deaths",61026471
+"JPN",2022,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1569096.21,1556160.72,1582323.98,"deaths",124997586
+"JPN",2023,"FEMALE","TOTAL","0","deaths","Japan","All Causes",773488.06,767004.23,779747.18,"deaths",63670973
+"JPN",2023,"MALE","TOTAL","0","deaths","Japan","All Causes",802545.28,795862.98,809331.49,"deaths",60699980
+"JPN",2023,"TOTAL","TOTAL","0","deaths","Japan","All Causes",1576033.35,1562867.2,1589078.66,"deaths",124370953
+"KHM",2000,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",51726.96,44395.01,59895.77,"deaths",6469499
+"KHM",2000,"MALE","TOTAL","0","deaths","Cambodia","All Causes",54635.32,46939.79,63143.35,"deaths",5992847
+"KHM",2000,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",106362.28,91334.8,123039.12,"deaths",12462346
+"KHM",2001,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",50331.77,43055.89,58463.47,"deaths",6561925
+"KHM",2001,"MALE","TOTAL","0","deaths","Cambodia","All Causes",53386.92,45768.55,61694.94,"deaths",6096567
+"KHM",2001,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",103718.69,88824.45,120158.42,"deaths",12658492
+"KHM",2002,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",48808.2,41687.39,56629.89,"deaths",6654776
+"KHM",2002,"MALE","TOTAL","0","deaths","Cambodia","All Causes",52065.67,44731.28,60221.07,"deaths",6200473
+"KHM",2002,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",100873.87,86418.68,116850.96,"deaths",12855249
+"KHM",2003,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",47365.65,40500.48,55141.34,"deaths",6747261
+"KHM",2003,"MALE","TOTAL","0","deaths","Cambodia","All Causes",50733.71,43445.13,58788.38,"deaths",6303715
+"KHM",2003,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",98099.36,83945.61,113929.72,"deaths",13050976
+"KHM",2004,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",46201.05,39351.02,53796.43,"deaths",6838471
+"KHM",2004,"MALE","TOTAL","0","deaths","Cambodia","All Causes",49668.97,42416.85,57541.87,"deaths",6406268
+"KHM",2004,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",95870.02,81767.87,111338.29,"deaths",13244739
+"KHM",2005,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",45161.77,38464.23,52626.33,"deaths",6929547
+"KHM",2005,"MALE","TOTAL","0","deaths","Cambodia","All Causes",48819,41720.36,56741.47,"deaths",6509664
+"KHM",2005,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",93980.77,80184.6,109367.8,"deaths",13439211
+"KHM",2006,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",44355.01,37753.58,51811.84,"deaths",7022484
+"KHM",2006,"MALE","TOTAL","0","deaths","Cambodia","All Causes",48216.17,41144.49,56174.81,"deaths",6616556
+"KHM",2006,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",92571.18,78898.07,107986.66,"deaths",13639040
+"KHM",2007,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",43780.3,37253.01,51273.34,"deaths",7116389
+"KHM",2007,"MALE","TOTAL","0","deaths","Cambodia","All Causes",48134.12,41123.75,56117.01,"deaths",6725390
+"KHM",2007,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",91914.42,78376.76,107390.35,"deaths",13841779
+"KHM",2008,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",43325.6,36849.36,50638.54,"deaths",7215505
+"KHM",2008,"MALE","TOTAL","0","deaths","Cambodia","All Causes",48028.67,40941.69,56020.1,"deaths",6837989
+"KHM",2008,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",91354.28,77791.05,106658.64,"deaths",14053494
+"KHM",2009,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",43008.77,36547.45,50227.29,"deaths",7323650
+"KHM",2009,"MALE","TOTAL","0","deaths","Cambodia","All Causes",48593.41,41343.71,56668.83,"deaths",6953170
+"KHM",2009,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",91602.18,77891.16,106896.12,"deaths",14276820
+"KHM",2010,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",43175.01,36643.64,50457.27,"deaths",7434755
+"KHM",2010,"MALE","TOTAL","0","deaths","Cambodia","All Causes",48975.19,41718.83,57116.47,"deaths",7065970
+"KHM",2010,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",92150.2,78362.47,107573.74,"deaths",14500725
+"KHM",2011,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",43572.54,37110.94,50932.63,"deaths",7544941
+"KHM",2011,"MALE","TOTAL","0","deaths","Cambodia","All Causes",49332.76,41983.6,57547.77,"deaths",7177657
+"KHM",2011,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",92905.3,79094.54,108480.4,"deaths",14722598
+"KHM",2012,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",43736.25,37151.2,51156.86,"deaths",7655654
+"KHM",2012,"MALE","TOTAL","0","deaths","Cambodia","All Causes",50318.59,42807.45,58638.56,"deaths",7289445
+"KHM",2012,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",94054.84,79958.65,109795.43,"deaths",14945099
+"KHM",2013,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",44193.2,37586.36,51681.35,"deaths",7767872
+"KHM",2013,"MALE","TOTAL","0","deaths","Cambodia","All Causes",50780.22,43250.47,59266.85,"deaths",7402329
+"KHM",2013,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",94973.42,80836.84,110948.2,"deaths",15170201
+"KHM",2014,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",44371.76,37727.4,51993.48,"deaths",7880960
+"KHM",2014,"MALE","TOTAL","0","deaths","Cambodia","All Causes",51317.29,43643.42,59975.01,"deaths",7515818
+"KHM",2014,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",95689.05,81370.82,111968.5,"deaths",15396778
+"KHM",2015,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",44101.71,37485.93,51678.58,"deaths",7994076
+"KHM",2015,"MALE","TOTAL","0","deaths","Cambodia","All Causes",50711.69,43107.05,59214.96,"deaths",7629190
+"KHM",2015,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",94813.4,80592.98,110893.53,"deaths",15623266
+"KHM",2016,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",44817.64,37952.4,52528.7,"deaths",8108586
+"KHM",2016,"MALE","TOTAL","0","deaths","Cambodia","All Causes",51076.83,43388.81,59865.05,"deaths",7744215
+"KHM",2016,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",95894.47,81341.21,112393.74,"deaths",15852801
+"KHM",2017,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",45438.58,38410.02,53139.11,"deaths",8218878
+"KHM",2017,"MALE","TOTAL","0","deaths","Cambodia","All Causes",51470.44,43663.46,60388.76,"deaths",7854506
+"KHM",2017,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",96909.02,82073.48,113527.87,"deaths",16073384
+"KHM",2018,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",46298.08,39065.12,54196.76,"deaths",8320127
+"KHM",2018,"MALE","TOTAL","0","deaths","Cambodia","All Causes",52192.47,44221.29,61240.15,"deaths",7954400
+"KHM",2018,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",98490.55,83286.41,115436.91,"deaths",16274527
+"KHM",2019,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",47150.55,39613,55537.22,"deaths",8423916
+"KHM",2019,"MALE","TOTAL","0","deaths","Cambodia","All Causes",53014.35,44706.65,62414.97,"deaths",8057388
+"KHM",2019,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",100164.9,84319.65,117952.2,"deaths",16481304
+"KHM",2020,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",47186.15,39010.76,56079.25,"deaths",8544840
+"KHM",2020,"MALE","TOTAL","0","deaths","Cambodia","All Causes",52853.25,44047.18,62989.25,"deaths",8180646
+"KHM",2020,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",100039.4,83057.93,119068.5,"deaths",16725486
+"KHM",2021,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",56212.34,45179.52,68629.42,"deaths",8667398
+"KHM",2021,"MALE","TOTAL","0","deaths","Cambodia","All Causes",61926.52,50069.89,75875.82,"deaths",8306915
+"KHM",2021,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",118138.86,95249.41,144505.24,"deaths",16974313
+"KHM",2022,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",53135.26,41101.2,67246.81,"deaths",8779879
+"KHM",2022,"MALE","TOTAL","0","deaths","Cambodia","All Causes",58789.61,45602.45,74413.02,"deaths",8421857
+"KHM",2022,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",111924.87,86703.65,141659.83,"deaths",17201736
+"KHM",2023,"FEMALE","TOTAL","0","deaths","Cambodia","All Causes",52591.61,39483.26,68128.24,"deaths",8889930
+"KHM",2023,"MALE","TOTAL","0","deaths","Cambodia","All Causes",58152.63,43720.92,75610.72,"deaths",8533947
+"KHM",2023,"TOTAL","TOTAL","0","deaths","Cambodia","All Causes",110744.24,83204.18,143738.96,"deaths",17423877
+"KIR",2000,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",356.22,330.71,383.71,"deaths",45396
+"KIR",2000,"MALE","TOTAL","0","deaths","Kiribati","All Causes",451.74,420.06,485.04,"deaths",43259
+"KIR",2000,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",807.96,750.77,868.75,"deaths",88655
+"KIR",2001,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",355.19,329.69,382.55,"deaths",46291
+"KIR",2001,"MALE","TOTAL","0","deaths","Kiribati","All Causes",450.76,418.73,483.9,"deaths",44079
+"KIR",2001,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",805.95,748.42,866.45,"deaths",90370
+"KIR",2002,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",358.37,332.38,385.69,"deaths",47278
+"KIR",2002,"MALE","TOTAL","0","deaths","Kiribati","All Causes",454.73,422,488.59,"deaths",45026
+"KIR",2002,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",813.09,754.37,874.28,"deaths",92304
+"KIR",2003,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",361.23,334.78,388.71,"deaths",48235
+"KIR",2003,"MALE","TOTAL","0","deaths","Kiribati","All Causes",459.08,425.65,493.71,"deaths",45979
+"KIR",2003,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",820.31,760.42,882.42,"deaths",94214
+"KIR",2004,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",369.04,341.86,397.02,"deaths",49210
+"KIR",2004,"MALE","TOTAL","0","deaths","Kiribati","All Causes",466.4,432.49,501.54,"deaths",46916
+"KIR",2004,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",835.44,774.35,898.56,"deaths",96126
+"KIR",2005,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",378.08,350.07,406.69,"deaths",50215
+"KIR",2005,"MALE","TOTAL","0","deaths","Kiribati","All Causes",475.25,440.63,511.46,"deaths",47861
+"KIR",2005,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",853.34,790.69,918.15,"deaths",98076
+"KIR",2006,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",386.18,357.17,415.5,"deaths",51249
+"KIR",2006,"MALE","TOTAL","0","deaths","Kiribati","All Causes",483.63,448.4,520.72,"deaths",48816
+"KIR",2006,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",869.81,805.56,936.22,"deaths",100065
+"KIR",2007,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",395.56,365.74,425.61,"deaths",52312
+"KIR",2007,"MALE","TOTAL","0","deaths","Kiribati","All Causes",492.31,456.43,530.7,"deaths",49792
+"KIR",2007,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",887.87,822.17,956.31,"deaths",102104
+"KIR",2008,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",406.14,375.32,437.22,"deaths",53428
+"KIR",2008,"MALE","TOTAL","0","deaths","Kiribati","All Causes",502.69,465.85,541.9,"deaths",50835
+"KIR",2008,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",908.83,841.18,979.12,"deaths",104263
+"KIR",2009,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",416.42,384.88,448.32,"deaths",54585
+"KIR",2009,"MALE","TOTAL","0","deaths","Kiribati","All Causes",513.08,475.01,553.75,"deaths",51920
+"KIR",2009,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",929.5,859.88,1002.07,"deaths",106505
+"KIR",2010,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",427.38,394.95,460.39,"deaths",55759
+"KIR",2010,"MALE","TOTAL","0","deaths","Kiribati","All Causes",522.89,483.91,564.78,"deaths",52977
+"KIR",2010,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",950.27,878.85,1025.17,"deaths",108736
+"KIR",2011,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",437.84,404.53,472.23,"deaths",56834
+"KIR",2011,"MALE","TOTAL","0","deaths","Kiribati","All Causes",532.37,492.44,574.78,"deaths",53849
+"KIR",2011,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",970.21,896.96,1047.01,"deaths",110683
+"KIR",2012,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",446.03,411.78,481.62,"deaths",57784
+"KIR",2012,"MALE","TOTAL","0","deaths","Kiribati","All Causes",541.29,500.66,585.11,"deaths",54539
+"KIR",2012,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",987.32,912.44,1066.73,"deaths",112323
+"KIR",2013,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",451.33,416.39,488.25,"deaths",58697
+"KIR",2013,"MALE","TOTAL","0","deaths","Kiribati","All Causes",547.39,505.56,592.52,"deaths",55178
+"KIR",2013,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",998.72,921.96,1080.77,"deaths",113875
+"KIR",2014,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",459.23,423.23,497.87,"deaths",59587
+"KIR",2014,"MALE","TOTAL","0","deaths","Kiribati","All Causes",553.36,510.28,600.08,"deaths",55772
+"KIR",2014,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1012.59,933.51,1097.95,"deaths",115359
+"KIR",2015,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",468.91,431.76,509.33,"deaths",60465
+"KIR",2015,"MALE","TOTAL","0","deaths","Kiribati","All Causes",561.36,516.88,609.34,"deaths",56384
+"KIR",2015,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1030.27,948.64,1118.67,"deaths",116849
+"KIR",2016,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",477.16,438.49,519.43,"deaths",61375
+"KIR",2016,"MALE","TOTAL","0","deaths","Kiribati","All Causes",570.42,524.12,620.31,"deaths",57139
+"KIR",2016,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1047.58,962.62,1139.75,"deaths",118514
+"KIR",2017,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",488.13,447.82,532.24,"deaths",62303
+"KIR",2017,"MALE","TOTAL","0","deaths","Kiribati","All Causes",579,530.36,631.38,"deaths",58000
+"KIR",2017,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1067.13,978.18,1163.62,"deaths",120303
+"KIR",2018,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",513.21,471.4,558.79,"deaths",63241
+"KIR",2018,"MALE","TOTAL","0","deaths","Kiribati","All Causes",649.34,600.25,702.88,"deaths",58878
+"KIR",2018,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1162.54,1071.64,1261.67,"deaths",122119
+"KIR",2019,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",508.28,463.1,557.11,"deaths",64191
+"KIR",2019,"MALE","TOTAL","0","deaths","Kiribati","All Causes",596.72,543.16,654.45,"deaths",59769
+"KIR",2019,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1105.01,1006.26,1211.55,"deaths",123960
+"KIR",2020,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",498.32,452.37,548.15,"deaths",65260
+"KIR",2020,"MALE","TOTAL","0","deaths","Kiribati","All Causes",645.09,585.45,709.33,"deaths",60872
+"KIR",2020,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1143.4,1037.83,1257.48,"deaths",126132
+"KIR",2021,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",443.36,399.21,491.23,"deaths",66353
+"KIR",2021,"MALE","TOTAL","0","deaths","Kiribati","All Causes",561.17,506.19,620.67,"deaths",62058
+"KIR",2021,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1004.53,905.4,1111.9,"deaths",128411
+"KIR",2022,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",535.04,474.06,602.71,"deaths",67350
+"KIR",2022,"MALE","TOTAL","0","deaths","Kiribati","All Causes",714.87,634.29,801.94,"deaths",63148
+"KIR",2022,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1249.91,1108.35,1404.65,"deaths",130498
+"KIR",2023,"FEMALE","TOTAL","0","deaths","Kiribati","All Causes",560.82,481.03,648.66,"deaths",68312
+"KIR",2023,"MALE","TOTAL","0","deaths","Kiribati","All Causes",723.03,621.1,837.89,"deaths",64247
+"KIR",2023,"TOTAL","TOTAL","0","deaths","Kiribati","All Causes",1283.84,1102.12,1486.54,"deaths",132559
+"KOR",2000,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",111134.53,103117,119340.6,"deaths",22879578
+"KOR",2000,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",138096.16,128844.71,147945.56,"deaths",23887089
+"KOR",2000,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",249230.69,231961.71,267286.16,"deaths",46766667
+"KOR",2001,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",108625.41,100966.1,116576.32,"deaths",23022200
+"KOR",2001,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",135336.69,126127.61,144894.92,"deaths",24021273
+"KOR",2001,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",243962.09,227093.71,261471.24,"deaths",47043473
+"KOR",2002,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",111755.28,104143.55,119793.02,"deaths",23168471
+"KOR",2002,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",135887.14,126764.69,145551.96,"deaths",24130660
+"KOR",2002,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",247642.42,230908.24,265344.98,"deaths",47299131
+"KOR",2003,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",110645.06,103014.64,118757.71,"deaths",23293237
+"KOR",2003,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",135824.69,126789.94,145300.39,"deaths",24220935
+"KOR",2003,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",246469.75,229804.58,264058.09,"deaths",47514172
+"KOR",2004,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",109944.9,102414.51,118187.64,"deaths",23401222
+"KOR",2004,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",136179.23,127185.82,145585.42,"deaths",24295850
+"KOR",2004,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",246124.13,229600.33,263773.06,"deaths",47697072
+"KOR",2005,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",110580.85,103005.49,118623.64,"deaths",23496324
+"KOR",2005,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",135390.33,126376.72,144926.29,"deaths",24355330
+"KOR",2005,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",245971.17,229382.21,263549.93,"deaths",47851654
+"KOR",2006,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",109589.06,102138.83,117582.93,"deaths",23589894
+"KOR",2006,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",134668.62,125824.99,143797.61,"deaths",24416625
+"KOR",2006,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",244257.68,227963.83,261380.55,"deaths",48006519
+"KOR",2007,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",110812.5,103315.35,118734.06,"deaths",23687704
+"KOR",2007,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",135660.7,126767.51,145001.19,"deaths",24490412
+"KOR",2007,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",246473.2,230082.87,263735.25,"deaths",48178116
+"KOR",2008,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",109164.45,101774.52,117104.28,"deaths",23787499
+"KOR",2008,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",137004.92,127943.62,146399.82,"deaths",24568988
+"KOR",2008,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",246169.37,229718.14,263504.1,"deaths",48356487
+"KOR",2009,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",109190.31,101691.63,117134.08,"deaths",23891628
+"KOR",2009,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",137786.32,128783.17,147088.49,"deaths",24655067
+"KOR",2009,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",246976.63,230474.8,264222.57,"deaths",48546695
+"KOR",2010,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",113080.14,105535.05,121160.12,"deaths",24013882
+"KOR",2010,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",142321.79,133224.94,151839.2,"deaths",24755454
+"KOR",2010,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",255401.93,238759.99,272999.32,"deaths",48769336
+"KOR",2011,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",114206.57,106618.73,122252.66,"deaths",24231648
+"KOR",2011,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",143254.83,134229.15,152710.49,"deaths",24895993
+"KOR",2011,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",257461.4,240847.88,274963.16,"deaths",49127641
+"KOR",2012,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",119847.87,112015.4,128035.51,"deaths",24530705
+"KOR",2012,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",147328.55,138284.27,157087.92,"deaths",25068876
+"KOR",2012,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",267176.42,250299.67,285123.43,"deaths",49599581
+"KOR",2013,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",119661.37,111931.05,127612.6,"deaths",24829484
+"KOR",2013,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",146606.16,137513.11,156287.89,"deaths",25241688
+"KOR",2013,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",266267.53,249444.16,283900.48,"deaths",50071172
+"KOR",2014,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",120370.54,112663.56,128514.49,"deaths",25126411
+"KOR",2014,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",147367.2,138254.67,156917.17,"deaths",25412648
+"KOR",2014,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",267737.75,250918.23,285431.66,"deaths",50539059
+"KOR",2015,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",125475.07,117621.18,133727.4,"deaths",25407163
+"KOR",2015,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",150456.9,141174.33,160181.19,"deaths",25576749
+"KOR",2015,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",275931.97,258795.51,293908.59,"deaths",50983912
+"KOR",2016,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",128307.81,120190.66,136752.17,"deaths",25599688
+"KOR",2016,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",152521.5,143178.84,162168.46,"deaths",25698153
+"KOR",2016,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",280829.31,263369.5,298920.63,"deaths",51297841
+"KOR",2017,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",131224.06,123316.65,139526.48,"deaths",25710722
+"KOR",2017,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",154320.15,145090.93,163959.79,"deaths",25775551
+"KOR",2017,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",285544.21,268407.58,303486.27,"deaths",51486273
+"KOR",2018,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",137609.63,129508.86,146032.34,"deaths",25804677
+"KOR",2018,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",161181.13,151826,171056.59,"deaths",25836218
+"KOR",2018,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",298790.76,281334.85,317088.93,"deaths",51640895
+"KOR",2019,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",134789.81,127353.82,142659.2,"deaths",25885086
+"KOR",2019,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",160315.72,151662.92,169594.72,"deaths",25882767
+"KOR",2019,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",295105.53,279016.74,312253.92,"deaths",51767853
+"KOR",2020,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",139879.87,136319.61,143636,"deaths",25955052
+"KOR",2020,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",165228.85,161076.45,169438.82,"deaths",25903433
+"KOR",2020,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",305108.72,297396.06,313074.82,"deaths",51858485
+"KOR",2021,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",145728.7,141913.37,149559.39,"deaths",25972160
+"KOR",2021,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",172001.18,167720.1,176430.05,"deaths",25876233
+"KOR",2021,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",317729.88,309633.47,325989.44,"deaths",51848393
+"KOR",2022,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",176471.84,164839.79,188772.34,"deaths",25941853
+"KOR",2022,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",196443.5,183419.48,210295.8,"deaths",25840654
+"KOR",2022,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",372915.34,348259.27,399068.15,"deaths",51782507
+"KOR",2023,"FEMALE","TOTAL","0","deaths","Republic of Korea","All Causes",163590.03,152292.63,175892.56,"deaths",25916887
+"KOR",2023,"MALE","TOTAL","0","deaths","Republic of Korea","All Causes",188956.66,175661.24,203239.08,"deaths",25831862
+"KOR",2023,"TOTAL","TOTAL","0","deaths","Republic of Korea","All Causes",352546.69,327953.86,379131.65,"deaths",51748749
+"LAO",2000,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24652.93,21176.24,28582.05,"deaths",2695529
+"LAO",2000,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",28134.32,24320.63,32377.44,"deaths",2735689
+"LAO",2000,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",52787.25,45496.87,60959.49,"deaths",5431218
+"LAO",2001,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24022.67,20579.78,27914.28,"deaths",2739883
+"LAO",2001,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",27488.37,23709.61,31674.03,"deaths",2781610
+"LAO",2001,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",51511.05,44289.39,59588.31,"deaths",5521493
+"LAO",2002,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",23245.58,19895.19,26958.17,"deaths",2783968
+"LAO",2002,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",26687.88,22915.81,30890.99,"deaths",2826930
+"LAO",2002,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",49933.46,42811,57849.16,"deaths",5610898
+"LAO",2003,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",22568.13,19330.77,26163.96,"deaths",2827143
+"LAO",2003,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",26085.7,22376.89,30156.88,"deaths",2870818
+"LAO",2003,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",48653.83,41707.67,56320.84,"deaths",5697961
+"LAO",2004,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21932.77,18756.85,25439.25,"deaths",2868928
+"LAO",2004,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25489.14,21862.56,29506.74,"deaths",2912711
+"LAO",2004,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",47421.9,40619.41,54945.98,"deaths",5781639
+"LAO",2005,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21341.08,18247.89,24777.43,"deaths",2913006
+"LAO",2005,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24869.25,21251.92,28832.56,"deaths",2956522
+"LAO",2005,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",46210.34,39499.81,53610,"deaths",5869528
+"LAO",2006,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20900.77,17893.58,24319.22,"deaths",2960082
+"LAO",2006,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24560.31,21061.12,28580.04,"deaths",3003128
+"LAO",2006,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45461.08,38954.7,52899.25,"deaths",5963210
+"LAO",2007,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20692.42,17677.34,24044.07,"deaths",3006872
+"LAO",2007,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24389.29,20866.01,28415.36,"deaths",3049369
+"LAO",2007,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45081.71,38543.34,52459.43,"deaths",6056241
+"LAO",2008,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20566.37,17527.93,23918.91,"deaths",3053511
+"LAO",2008,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24332.64,20792.17,28320.77,"deaths",3095471
+"LAO",2008,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",44899.01,38320.1,52239.68,"deaths",6148982
+"LAO",2009,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20382.7,17389.83,23734.8,"deaths",3100031
+"LAO",2009,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24289.3,20728.48,28248.63,"deaths",3141620
+"LAO",2009,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",44672,38118.31,51983.43,"deaths",6241651
+"LAO",2010,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20343.09,17322.98,23653.3,"deaths",3146410
+"LAO",2010,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24350.1,20732.82,28322.87,"deaths",3187797
+"LAO",2010,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",44693.19,38055.8,51976.17,"deaths",6334207
+"LAO",2011,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20550.69,17521.15,23907.38,"deaths",3192629
+"LAO",2011,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24554.93,20952.8,28561.48,"deaths",3233966
+"LAO",2011,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45105.62,38473.95,52468.86,"deaths",6426595
+"LAO",2012,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20888.1,17801.72,24313.53,"deaths",3238770
+"LAO",2012,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",24899.29,21253.83,29028.98,"deaths",3280213
+"LAO",2012,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45787.39,39055.55,53342.51,"deaths",6518983
+"LAO",2013,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21382.78,18247.45,24893.22,"deaths",3284861
+"LAO",2013,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25530.6,21811.51,29763.02,"deaths",3326536
+"LAO",2013,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",46913.38,40058.96,54656.24,"deaths",6611397
+"LAO",2014,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21760.68,18550.57,25352.69,"deaths",3330637
+"LAO",2014,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",26085.03,22220.6,30452.23,"deaths",3372535
+"LAO",2014,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",47845.72,40771.17,55804.92,"deaths",6703172
+"LAO",2015,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21659.49,18448.91,25349.5,"deaths",3379803
+"LAO",2015,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",26409,22537.18,30863.39,"deaths",3421852
+"LAO",2015,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",48068.49,40986.09,56212.9,"deaths",6801655
+"LAO",2016,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21027.51,17892.72,24565.92,"deaths",3433346
+"LAO",2016,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",26041.38,22165.57,30463.52,"deaths",3475460
+"LAO",2016,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",47068.89,40058.29,55029.45,"deaths",6908806
+"LAO",2017,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20555.9,17451.32,24072.04,"deaths",3488009
+"LAO",2017,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25761.73,21886.51,30150.33,"deaths",3530149
+"LAO",2017,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",46317.63,39337.83,54222.37,"deaths",7018158
+"LAO",2018,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20251.37,17146.36,23693.42,"deaths",3542967
+"LAO",2018,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25390.7,21509.28,29728.02,"deaths",3585093
+"LAO",2018,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45642.07,38655.64,53421.44,"deaths",7128060
+"LAO",2019,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",19985.11,16824.54,23535.41,"deaths",3597829
+"LAO",2019,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25286.93,21274.35,29776.47,"deaths",3639818
+"LAO",2019,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45272.04,38098.9,53311.88,"deaths",7237647
+"LAO",2020,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20248.49,16808.32,24115.61,"deaths",3652811
+"LAO",2020,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25235.81,20973.89,30033.65,"deaths",3693729
+"LAO",2020,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45484.3,37782.2,54149.26,"deaths",7346540
+"LAO",2021,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21966.54,17746.24,26785.26,"deaths",3706733
+"LAO",2021,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",27072.45,21753.17,33141.42,"deaths",3746472
+"LAO",2021,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",49038.99,39499.41,59926.68,"deaths",7453205
+"LAO",2022,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",21640.43,16736.14,27427.73,"deaths",3759856
+"LAO",2022,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",27423.04,21161.45,34768.55,"deaths",3799150
+"LAO",2022,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",49063.47,37897.59,62196.28,"deaths",7559006
+"LAO",2023,"FEMALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",20088.73,15075.27,26077.31,"deaths",3813118
+"LAO",2023,"MALE","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",25830.28,19392.32,33597.21,"deaths",3851871
+"LAO",2023,"TOTAL","TOTAL","0","deaths","Lao People's Democratic Republic","All Causes",45919.01,34467.59,59674.52,"deaths",7664989
+"MNG",2000,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",8134.32,7115.85,9246.54,"deaths",1251624
+"MNG",2000,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9737.74,8550.11,11059.18,"deaths",1203575
+"MNG",2000,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17872.06,15665.96,20305.73,"deaths",2455199
+"MNG",2001,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",8045.58,7027.57,9156.84,"deaths",1261047
+"MNG",2001,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9903.72,8682.93,11203.53,"deaths",1216662
+"MNG",2001,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17949.31,15710.5,20360.37,"deaths",2477709
+"MNG",2002,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",7670.82,6699.02,8747.35,"deaths",1270544
+"MNG",2002,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9479.51,8310.93,10735.49,"deaths",1229547
+"MNG",2002,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17150.32,15009.95,19482.84,"deaths",2500091
+"MNG",2003,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",7174.04,6256.44,8187.8,"deaths",1279922
+"MNG",2003,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9972.11,8785.3,11283.84,"deaths",1241896
+"MNG",2003,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17146.15,15041.75,19471.64,"deaths",2521818
+"MNG",2004,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6895.93,6014.53,7859.32,"deaths",1289133
+"MNG",2004,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10301.82,9065.4,11653.28,"deaths",1253671
+"MNG",2004,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17197.75,15079.93,19512.6,"deaths",2542804
+"MNG",2005,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6720.55,5857.46,7658.4,"deaths",1298358
+"MNG",2005,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10338.05,9092.01,11675.08,"deaths",1265112
+"MNG",2005,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17058.6,14949.47,19333.48,"deaths",2563470
+"MNG",2006,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6926.9,6039.21,7897.76,"deaths",1308019
+"MNG",2006,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10284.59,9061.24,11624.04,"deaths",1276740
+"MNG",2006,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17211.49,15100.46,19521.81,"deaths",2584759
+"MNG",2007,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6531.43,5689.39,7466.93,"deaths",1318666
+"MNG",2007,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10126.97,8914.92,11447.98,"deaths",1289312
+"MNG",2007,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16658.4,14604.31,18914.9,"deaths",2607978
+"MNG",2008,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6432.97,5609.97,7345.59,"deaths",1330857
+"MNG",2008,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9174.73,8068.59,10380.49,"deaths",1303582
+"MNG",2008,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",15607.7,13678.56,17726.08,"deaths",2634439
+"MNG",2009,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",7064.5,6174.37,8059.48,"deaths",1345201
+"MNG",2009,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9815.03,8650.93,11086.57,"deaths",1320136
+"MNG",2009,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16879.53,14825.3,19146.05,"deaths",2665337
+"MNG",2010,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",7048.2,6160.61,8047.66,"deaths",1362444
+"MNG",2010,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10297.33,9075.78,11647.65,"deaths",1339303
+"MNG",2010,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17345.53,15236.39,19695.32,"deaths",2701747
+"MNG",2011,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6680.6,5828.91,7634.66,"deaths",1384573
+"MNG",2011,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9829.19,8670.26,11092.68,"deaths",1360616
+"MNG",2011,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16509.78,14499.16,18727.34,"deaths",2745189
+"MNG",2012,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6610.29,5770.99,7532.05,"deaths",1411125
+"MNG",2012,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9761.71,8609.55,11024.38,"deaths",1384347
+"MNG",2012,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16372,14380.55,18556.44,"deaths",2795472
+"MNG",2013,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6572.46,5738.81,7494.78,"deaths",1440050
+"MNG",2013,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9748.41,8597.17,11017.49,"deaths",1411845
+"MNG",2013,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16320.87,14335.98,18512.27,"deaths",2851895
+"MNG",2014,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6550.13,5719.29,7474.11,"deaths",1470367
+"MNG",2014,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9766.63,8618.48,11000.89,"deaths",1442679
+"MNG",2014,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16316.76,14337.77,18475,"deaths",2913046
+"MNG",2015,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6537.45,5708.8,7457.08,"deaths",1500912
+"MNG",2015,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9815.96,8639.74,11093.54,"deaths",1475624
+"MNG",2015,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16353.41,14348.54,18550.62,"deaths",2976536
+"MNG",2016,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6384.93,5572.68,7280.6,"deaths",1531017
+"MNG",2016,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9725.81,8579.09,10988.44,"deaths",1509806
+"MNG",2016,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16110.74,14151.77,18269.04,"deaths",3040823
+"MNG",2017,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6107.51,5338.29,6944.87,"deaths",1560031
+"MNG",2017,"MALE","TOTAL","0","deaths","Mongolia","All Causes",9663.2,8538.76,10898.43,"deaths",1544338
+"MNG",2017,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",15770.71,13877.05,17843.3,"deaths",3104369
+"MNG",2018,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6803.07,5984.56,7696.19,"deaths",1588342
+"MNG",2018,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10419.64,9264.28,11680.98,"deaths",1579382
+"MNG",2018,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17222.71,15248.84,19377.17,"deaths",3167724
+"MNG",2019,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6693.37,5966.2,7489.57,"deaths",1616732
+"MNG",2019,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10642.5,9601.31,11767.55,"deaths",1615395
+"MNG",2019,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17335.86,15567.51,19257.12,"deaths",3232127
+"MNG",2020,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6342.38,5737.6,6993.92,"deaths",1644860
+"MNG",2020,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10021.8,9196.45,10911.25,"deaths",1645938
+"MNG",2020,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",16364.18,14934.05,17905.17,"deaths",3290798
+"MNG",2021,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",8132.29,7326.29,8991.55,"deaths",1670741
+"MNG",2021,"MALE","TOTAL","0","deaths","Mongolia","All Causes",11858.65,10845.23,12936.85,"deaths",1668938
+"MNG",2021,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",19990.94,18171.51,21928.4,"deaths",3339679
+"MNG",2022,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6442.49,5278.87,7776.89,"deaths",1695276
+"MNG",2022,"MALE","TOTAL","0","deaths","Mongolia","All Causes",11222.74,9406.63,13318.63,"deaths",1690747
+"MNG",2022,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17665.23,14685.5,21095.52,"deaths",3386023
+"MNG",2023,"FEMALE","TOTAL","0","deaths","Mongolia","All Causes",6430.23,5090.47,8000.41,"deaths",1719681
+"MNG",2023,"MALE","TOTAL","0","deaths","Mongolia","All Causes",10715.12,8671.63,13089.57,"deaths",1712268
+"MNG",2023,"TOTAL","TOTAL","0","deaths","Mongolia","All Causes",17145.35,13762.11,21089.98,"deaths",3431949
+"MYS",2000,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",44898.74,40783.78,49343.24,"deaths",11169537
+"MYS",2000,"MALE","TOTAL","0","deaths","Malaysia","All Causes",60543.51,55518.67,65912.86,"deaths",11798277
+"MYS",2000,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",105442.25,96302.45,115256.09,"deaths",22967814
+"MYS",2001,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",43872.38,39849.57,48173.12,"deaths",11427669
+"MYS",2001,"MALE","TOTAL","0","deaths","Malaysia","All Causes",59460.84,54514.4,64706.49,"deaths",12098873
+"MYS",2001,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",103333.22,94363.97,112879.61,"deaths",23526542
+"MYS",2002,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",44523.46,40405.09,48958.01,"deaths",11690930
+"MYS",2002,"MALE","TOTAL","0","deaths","Malaysia","All Causes",58803.15,53973.35,63929.24,"deaths",12411553
+"MYS",2002,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",103326.61,94378.44,112887.25,"deaths",24102483
+"MYS",2003,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",45647.13,41480.48,50056.21,"deaths",11954625
+"MYS",2003,"MALE","TOTAL","0","deaths","Malaysia","All Causes",61214.77,56188.18,66505.84,"deaths",12724984
+"MYS",2003,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",106861.9,97668.66,116562.05,"deaths",24679609
+"MYS",2004,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",45354.46,41217.35,49723.64,"deaths",12218200
+"MYS",2004,"MALE","TOTAL","0","deaths","Malaysia","All Causes",61549.01,56612.64,66791.75,"deaths",13038567
+"MYS",2004,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",106903.47,97829.99,116515.39,"deaths",25256767
+"MYS",2005,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",46792.19,42517.96,51334.76,"deaths",12482598
+"MYS",2005,"MALE","TOTAL","0","deaths","Malaysia","All Causes",62334.3,57272.12,67675.66,"deaths",13353475
+"MYS",2005,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",109126.49,99790.08,119010.42,"deaths",25836073
+"MYS",2006,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",48558.32,44170.21,53302.91,"deaths",12748162
+"MYS",2006,"MALE","TOTAL","0","deaths","Malaysia","All Causes",64032.09,58915.49,69460.03,"deaths",13669753
+"MYS",2006,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",112590.41,103085.7,122762.94,"deaths",26417915
+"MYS",2007,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",50075.62,45496.94,55043.09,"deaths",13013163
+"MYS",2007,"MALE","TOTAL","0","deaths","Malaysia","All Causes",66502.53,61020.44,72223.59,"deaths",13985233
+"MYS",2007,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",116578.15,106517.38,127266.68,"deaths",26998396
+"MYS",2008,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",53088.11,47864.8,58922.29,"deaths",13274121
+"MYS",2008,"MALE","TOTAL","0","deaths","Malaysia","All Causes",72388.52,65910.07,79443.17,"deaths",14295933
+"MYS",2008,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",125476.63,113774.87,138365.46,"deaths",27570054
+"MYS",2009,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",56039.09,49289.75,63563.56,"deaths",13527153
+"MYS",2009,"MALE","TOTAL","0","deaths","Malaysia","All Causes",77020.5,68110.48,86718.48,"deaths",14597631
+"MYS",2009,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",133059.59,117400.23,150282.04,"deaths",28124784
+"MYS",2010,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",58449.6,50498.3,67436.08,"deaths",13766512
+"MYS",2010,"MALE","TOTAL","0","deaths","Malaysia","All Causes",79260.8,68621.74,91108,"deaths",14889276
+"MYS",2010,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",137710.41,119120.04,158544.08,"deaths",28655788
+"MYS",2011,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",60809.7,52114.49,70570.8,"deaths",13988078
+"MYS",2011,"MALE","TOTAL","0","deaths","Malaysia","All Causes",81393.5,69863.99,94455.33,"deaths",15173965
+"MYS",2011,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",142203.2,121978.48,165026.13,"deaths",29162043
+"MYS",2012,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",61822.13,52955.78,71733.84,"deaths",14203262
+"MYS",2012,"MALE","TOTAL","0","deaths","Malaysia","All Causes",82518.28,70773.43,95612.27,"deaths",15459566
+"MYS",2012,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",144340.41,123729.21,167346.11,"deaths",29662828
+"MYS",2013,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",64161.67,55320.7,73870.35,"deaths",14423226
+"MYS",2013,"MALE","TOTAL","0","deaths","Malaysia","All Causes",85378.85,73937.89,98163.15,"deaths",15751051
+"MYS",2013,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",149540.52,129258.59,172033.5,"deaths",30174277
+"MYS",2014,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",65901.05,57847.06,74550.22,"deaths",14648657
+"MYS",2014,"MALE","TOTAL","0","deaths","Malaysia","All Causes",89106.74,79170.76,100097.86,"deaths",16047490
+"MYS",2014,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",155007.79,137017.82,174648.08,"deaths",30696147
+"MYS",2015,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",70750.36,64075.17,78087.74,"deaths",14882317
+"MYS",2015,"MALE","TOTAL","0","deaths","Malaysia","All Causes",96071.11,88049.67,104666.73,"deaths",16350475
+"MYS",2015,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",166821.46,152124.84,182754.46,"deaths",31232792
+"MYS",2016,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",73003.99,66591.13,80080.81,"deaths",15125579
+"MYS",2016,"MALE","TOTAL","0","deaths","Malaysia","All Causes",100761.7,93398.65,108753.42,"deaths",16664116
+"MYS",2016,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",173765.69,159989.79,188834.23,"deaths",31789695
+"MYS",2017,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",76947.22,70428.67,83994.46,"deaths",15374026
+"MYS",2017,"MALE","TOTAL","0","deaths","Malaysia","All Causes",104253.88,96817.04,112117.78,"deaths",16981621
+"MYS",2017,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",181201.1,167245.71,196112.25,"deaths",32355647
+"MYS",2018,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",78253.12,71691.36,85208.76,"deaths",15620144
+"MYS",2018,"MALE","TOTAL","0","deaths","Malaysia","All Causes",108344.8,100798.45,116159.09,"deaths",17290821
+"MYS",2018,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",186597.93,172489.81,201367.85,"deaths",32910965
+"MYS",2019,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",80443.94,74295.12,87029.25,"deaths",15854593
+"MYS",2019,"MALE","TOTAL","0","deaths","Malaysia","All Causes",109828.25,102911.83,117110.97,"deaths",17586005
+"MYS",2019,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",190272.19,177206.95,204140.23,"deaths",33440598
+"MYS",2020,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",72589.32,68027.32,77529.23,"deaths",16067732
+"MYS",2020,"MALE","TOTAL","0","deaths","Malaysia","All Causes",104870.01,100246.47,109757.19,"deaths",17821827
+"MYS",2020,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",177459.34,168273.79,187286.43,"deaths",33889559
+"MYS",2021,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",105383.42,98344.2,112815.84,"deaths",16273740
+"MYS",2021,"MALE","TOTAL","0","deaths","Malaysia","All Causes",140673.57,134576.17,147254.31,"deaths",18008672
+"MYS",2021,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",246056.99,232920.37,260070.14,"deaths",34282412
+"MYS",2022,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",97371.69,85286.68,110856.81,"deaths",16491015
+"MYS",2022,"MALE","TOTAL","0","deaths","Malaysia","All Causes",129131.39,116834.9,142573.24,"deaths",18204482
+"MYS",2022,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",226503.08,202121.58,253430.05,"deaths",34695497
+"MYS",2023,"FEMALE","TOTAL","0","deaths","Malaysia","All Causes",94020.52,80967.24,108482.24,"deaths",16716232
+"MYS",2023,"MALE","TOTAL","0","deaths","Malaysia","All Causes",123011.04,109419.92,137609.91,"deaths",18410072
+"MYS",2023,"TOTAL","TOTAL","0","deaths","Malaysia","All Causes",217031.56,190387.16,246092.15,"deaths",35126304
+"NZL",2000,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",12911.24,12300.49,13517.11,"deaths",1963887
+"NZL",2000,"MALE","TOTAL","0","deaths","New Zealand","All Causes",13787.45,13173.98,14408.79,"deaths",1893691
+"NZL",2000,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",26698.68,25474.47,27925.9,"deaths",3857578
+"NZL",2001,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",13942.95,13313.63,14603.07,"deaths",1982752
+"NZL",2001,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14131.07,13508.11,14773.45,"deaths",1909019
+"NZL",2001,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28074.02,26821.73,29376.52,"deaths",3891771
+"NZL",2002,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14131.22,13465.09,14805.39,"deaths",2013349
+"NZL",2002,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14135.61,13510.06,14766.54,"deaths",1937784
+"NZL",2002,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28266.83,26975.15,29571.93,"deaths",3951133
+"NZL",2003,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",13973.41,13327.12,14646.91,"deaths",2049949
+"NZL",2003,"MALE","TOTAL","0","deaths","New Zealand","All Causes",13978.93,13358.74,14622.07,"deaths",1972648
+"NZL",2003,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",27952.34,26685.87,29268.98,"deaths",4022597
+"NZL",2004,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14471.28,13824.28,15165.09,"deaths",2082125
+"NZL",2004,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14175.66,13535.35,14829.33,"deaths",2001793
+"NZL",2004,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28646.95,27359.63,29994.42,"deaths",4083918
+"NZL",2005,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",13678.72,13063.87,14317.63,"deaths",2109627
+"NZL",2005,"MALE","TOTAL","0","deaths","New Zealand","All Causes",13460.52,12860.59,14062.32,"deaths",2025383
+"NZL",2005,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",27139.24,25924.45,28379.96,"deaths",4135010
+"NZL",2006,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14408.76,13758.14,15089.5,"deaths",2135027
+"NZL",2006,"MALE","TOTAL","0","deaths","New Zealand","All Causes",13971.84,13352.78,14614.42,"deaths",2046915
+"NZL",2006,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28380.6,27110.92,29703.93,"deaths",4181942
+"NZL",2007,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14271.06,13618.38,14940.4,"deaths",2157237
+"NZL",2007,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14254.8,13619.96,14908.86,"deaths",2066032
+"NZL",2007,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28525.86,27238.34,29849.25,"deaths",4223269
+"NZL",2008,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14697.19,14024.79,15366.41,"deaths",2177459
+"NZL",2008,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14474.39,13846.68,15114.05,"deaths",2084374
+"NZL",2008,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",29171.58,27871.47,30480.46,"deaths",4261833
+"NZL",2009,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14533.16,13881.94,15242.66,"deaths",2199287
+"NZL",2009,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14451.62,13817.95,15112.76,"deaths",2105032
+"NZL",2009,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28984.78,27699.89,30355.42,"deaths",4304319
+"NZL",2010,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14193,13525.87,14857.1,"deaths",2221762
+"NZL",2010,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14141.63,13538.37,14771.76,"deaths",2126011
+"NZL",2010,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",28334.63,27064.25,29628.87,"deaths",4347773
+"NZL",2011,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",15284.1,14596.03,16000.65,"deaths",2240046
+"NZL",2011,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14770.31,14137.68,15440.13,"deaths",2142671
+"NZL",2011,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",30054.41,28733.71,31440.78,"deaths",4382717
+"NZL",2012,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14911.21,14266.44,15600.1,"deaths",2254990
+"NZL",2012,"MALE","TOTAL","0","deaths","New Zealand","All Causes",14820.66,14185.78,15482.39,"deaths",2156693
+"NZL",2012,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",29731.87,28452.21,31082.49,"deaths",4411683
+"NZL",2013,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",14769.85,14114.5,15467.68,"deaths",2274564
+"NZL",2013,"MALE","TOTAL","0","deaths","New Zealand","All Causes",15070.45,14423.71,15726.48,"deaths",2179292
+"NZL",2013,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",29840.3,28538.21,31194.17,"deaths",4453856
+"NZL",2014,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",15458.67,14760.25,16160.3,"deaths",2303864
+"NZL",2014,"MALE","TOTAL","0","deaths","New Zealand","All Causes",15708.51,15055.92,16412.38,"deaths",2219121
+"NZL",2014,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",31167.18,29816.16,32572.67,"deaths",4522985
+"NZL",2015,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",15924.34,15226.57,16667.75,"deaths",2342197
+"NZL",2015,"MALE","TOTAL","0","deaths","New Zealand","All Causes",15932.14,15266.08,16606.34,"deaths",2271834
+"NZL",2015,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",31856.48,30492.65,33274.09,"deaths",4614031
+"NZL",2016,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",15525.79,14865.85,16240.23,"deaths",2386400
+"NZL",2016,"MALE","TOTAL","0","deaths","New Zealand","All Causes",15854.33,15176.34,16516,"deaths",2328381
+"NZL",2016,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",31380.13,30042.19,32756.23,"deaths",4714781
+"NZL",2017,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",16705.59,15989.02,17461.97,"deaths",2430604
+"NZL",2017,"MALE","TOTAL","0","deaths","New Zealand","All Causes",17093.54,16403.68,17829.56,"deaths",2382155
+"NZL",2017,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",33799.13,32392.7,35291.53,"deaths",4812759
+"NZL",2018,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",16395.08,15705.4,17127.44,"deaths",2471081
+"NZL",2018,"MALE","TOTAL","0","deaths","New Zealand","All Causes",17220.48,16531.72,17941.09,"deaths",2429772
+"NZL",2018,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",33615.55,32237.12,35068.53,"deaths",4900853
+"NZL",2019,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",21618.83,20849.18,22439.36,"deaths",2513391
+"NZL",2019,"MALE","TOTAL","0","deaths","New Zealand","All Causes",20893.02,20136.51,21679.95,"deaths",2476013
+"NZL",2019,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",42511.85,40985.68,44119.31,"deaths",4989404
+"NZL",2020,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",15856.59,15467.79,16254.02,"deaths",2553139
+"NZL",2020,"MALE","TOTAL","0","deaths","New Zealand","All Causes",17098.46,16688.25,17507.97,"deaths",2516755
+"NZL",2020,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",32955.05,32156.04,33761.99,"deaths",5069894
+"NZL",2021,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",19022.51,18522.09,19522.61,"deaths",2572020
+"NZL",2021,"MALE","TOTAL","0","deaths","New Zealand","All Causes",19838.07,19383.15,20312.98,"deaths",2535678
+"NZL",2021,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",38860.58,37905.24,39835.59,"deaths",5107698
+"NZL",2022,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",21472.87,20218.35,22746.37,"deaths",2583405
+"NZL",2022,"MALE","TOTAL","0","deaths","New Zealand","All Causes",22096.24,20860.95,23390.13,"deaths",2548330
+"NZL",2022,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",43569.12,41079.3,46136.51,"deaths",5131735
+"NZL",2023,"FEMALE","TOTAL","0","deaths","New Zealand","All Causes",21489.62,20131.67,22847.96,"deaths",2603324
+"NZL",2023,"MALE","TOTAL","0","deaths","New Zealand","All Causes",22415.25,21074.31,23787.57,"deaths",2569517
+"NZL",2023,"TOTAL","TOTAL","0","deaths","New Zealand","All Causes",43904.87,41205.98,46635.53,"deaths",5172841
+"PHL",2000,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",164782.75,156246.52,173637.01,"deaths",39617866
+"PHL",2000,"MALE","TOTAL","0","deaths","Philippines","All Causes",261334.63,249611.52,273253.8,"deaths",40007540
+"PHL",2000,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",426117.38,405858.05,446890.81,"deaths",79625406
+"PHL",2001,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",171871.51,163072.64,180765.78,"deaths",40490412
+"PHL",2001,"MALE","TOTAL","0","deaths","Philippines","All Causes",270660.76,258376.46,283511.67,"deaths",40911089
+"PHL",2001,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",442532.27,421449.09,464277.45,"deaths",81401501
+"PHL",2002,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",176946.25,167926.81,186043.97,"deaths",41327367
+"PHL",2002,"MALE","TOTAL","0","deaths","Philippines","All Causes",279900.73,267452.07,292728.81,"deaths",41741522
+"PHL",2002,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",456846.98,435378.88,478772.78,"deaths",83068889
+"PHL",2003,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",179048.44,169812.24,188311.48,"deaths",42162750
+"PHL",2003,"MALE","TOTAL","0","deaths","Philippines","All Causes",282792.36,269775.78,295308.83,"deaths",42569086
+"PHL",2003,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",461840.8,439588.02,483620.32,"deaths",84731836
+"PHL",2004,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",183180.34,173825.96,192527.41,"deaths",42998909
+"PHL",2004,"MALE","TOTAL","0","deaths","Philippines","All Causes",288985.1,276068.27,301617.04,"deaths",43395584
+"PHL",2004,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",472165.44,449894.22,494144.44,"deaths",86394493
+"PHL",2005,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",194685.55,184932.58,204765.33,"deaths",43816641
+"PHL",2005,"MALE","TOTAL","0","deaths","Philippines","All Causes",303863.11,290489.71,317295.7,"deaths",44199334
+"PHL",2005,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",498548.66,475422.3,522061.03,"deaths",88015975
+"PHL",2006,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",203359.59,193269.68,213528.31,"deaths",44591095
+"PHL",2006,"MALE","TOTAL","0","deaths","Philippines","All Causes",310533.1,297060.41,324222.13,"deaths",44917893
+"PHL",2006,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",513892.69,490330.09,537750.44,"deaths",89508988
+"PHL",2007,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",204224.73,193880.25,214549.46,"deaths",45398890
+"PHL",2007,"MALE","TOTAL","0","deaths","Philippines","All Causes",308893.22,295725.79,322739.67,"deaths",45676297
+"PHL",2007,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",513117.94,489606.04,537289.12,"deaths",91075187
+"PHL",2008,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",211679.59,201639.22,222294.25,"deaths",46229389
+"PHL",2008,"MALE","TOTAL","0","deaths","Philippines","All Causes",316707.58,302970.48,330774.82,"deaths",46469708
+"PHL",2008,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",528387.17,504609.7,553069.06,"deaths",92699097
+"PHL",2009,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",220691.25,210370.83,231193.61,"deaths",47090211
+"PHL",2009,"MALE","TOTAL","0","deaths","Philippines","All Causes",322444.25,309157.29,336103.29,"deaths",47294048
+"PHL",2009,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",543135.5,519528.12,567296.9,"deaths",94384259
+"PHL",2010,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",224337.34,213724.06,235343.57,"deaths",48044638
+"PHL",2010,"MALE","TOTAL","0","deaths","Philippines","All Causes",325959.19,312584.08,339730.22,"deaths",48292492
+"PHL",2010,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",550296.53,526308.13,575073.79,"deaths",96337130
+"PHL",2011,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",229068.06,218337.13,240318.23,"deaths",48977032
+"PHL",2011,"MALE","TOTAL","0","deaths","Philippines","All Causes",331665.86,318242.45,345593.95,"deaths",49271587
+"PHL",2011,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",560733.92,536579.57,585912.18,"deaths",98248619
+"PHL",2012,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",232318.27,221568.2,243371.45,"deaths",49910857
+"PHL",2012,"MALE","TOTAL","0","deaths","Philippines","All Causes",331077.56,317561.69,344812.64,"deaths",50264657
+"PHL",2012,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",563395.83,539129.89,588184.09,"deaths",100175514
+"PHL",2013,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",239990.42,229338.01,251337.25,"deaths",50832020
+"PHL",2013,"MALE","TOTAL","0","deaths","Philippines","All Causes",332367.27,319236.06,346228,"deaths",51244315
+"PHL",2013,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",572357.69,548574.08,597565.25,"deaths",102076335
+"PHL",2014,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",238106.11,227439.59,249216.13,"deaths",51672025
+"PHL",2014,"MALE","TOTAL","0","deaths","Philippines","All Causes",331045.3,318013.81,344942.75,"deaths",52095112
+"PHL",2014,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",569151.4,545453.41,594158.89,"deaths",103767137
+"PHL",2015,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",247385.34,235906.21,258888.3,"deaths",52476449
+"PHL",2015,"MALE","TOTAL","0","deaths","Philippines","All Causes",343606.48,330171.55,357645.45,"deaths",52836554
+"PHL",2015,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",590991.82,566077.76,616533.75,"deaths",105313003
+"PHL",2016,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",253523.79,240060.55,267838.54,"deaths",53242091
+"PHL",2016,"MALE","TOTAL","0","deaths","Philippines","All Causes",356485.77,341097.36,372459.05,"deaths",53493630
+"PHL",2016,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",610009.57,581157.91,640297.59,"deaths",106735721
+"PHL",2017,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",254862.96,239523.54,271637.45,"deaths",53999408
+"PHL",2017,"MALE","TOTAL","0","deaths","Philippines","All Causes",352583.89,333429.06,372455.88,"deaths",54120287
+"PHL",2017,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",607446.86,572952.6,644093.32,"deaths",108119695
+"PHL",2018,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",259900.54,247767.66,272117.81,"deaths",54754964
+"PHL",2018,"MALE","TOTAL","0","deaths","Philippines","All Causes",355613.39,341066.95,370654.36,"deaths",54710320
+"PHL",2018,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",615513.93,588834.62,642772.17,"deaths",109465284
+"PHL",2019,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",269486.47,258920.31,279889.77,"deaths",55506899
+"PHL",2019,"MALE","TOTAL","0","deaths","Philippines","All Causes",369220.31,356686.9,381471.44,"deaths",55297782
+"PHL",2019,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",638706.78,615607.21,661361.21,"deaths",110804681
+"PHL",2020,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",270810.8,265103.29,276627.97,"deaths",56175776
+"PHL",2020,"MALE","TOTAL","0","deaths","Philippines","All Causes",376272.93,369758.6,382769.84,"deaths",55905493
+"PHL",2020,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",647083.73,634861.89,659397.81,"deaths",112081269
+"PHL",2021,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",395825.51,388667.69,403004.1,"deaths",56681259
+"PHL",2021,"MALE","TOTAL","0","deaths","Philippines","All Causes",520162.84,512459.87,527825.25,"deaths",56419689
+"PHL",2021,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",915988.36,901127.56,930829.36,"deaths",113100948
+"PHL",2022,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",290858.01,274739.05,307966.22,"deaths",57115097
+"PHL",2022,"MALE","TOTAL","0","deaths","Philippines","All Causes",405333.53,386346.96,425354.65,"deaths",56849251
+"PHL",2022,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",696191.54,661086,733320.87,"deaths",113964348
+"PHL",2023,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",287060.53,268944.75,307544.71,"deaths",57580390
+"PHL",2023,"MALE","TOTAL","0","deaths","Philippines","All Causes",405830.79,381979.47,430912.34,"deaths",57310824
+"PHL",2023,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",692891.31,650924.22,738457.05,"deaths",114891214
+"PNG",2000,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",17247.89,14674.22,20071.31,"deaths",2652973
+"PNG",2000,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",21250.07,18206.66,24671.1,"deaths",2884099
+"PNG",2000,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",38497.97,32880.88,44742.41,"deaths",5537072
+"PNG",2001,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",17826.71,15202.57,20687.78,"deaths",2746302
+"PNG",2001,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",21897.55,18761.12,25406.85,"deaths",2982149
+"PNG",2001,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",39724.26,33963.69,46094.64,"deaths",5728451
+"PNG",2002,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",18488.73,15818.67,21431.97,"deaths",2840524
+"PNG",2002,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",22592.3,19345.16,26214.07,"deaths",3083486
+"PNG",2002,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",41081.03,35163.83,47646.03,"deaths",5924010
+"PNG",2003,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",19072.84,16278.94,22151.14,"deaths",2936897
+"PNG",2003,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",23204.77,19862.34,26975.82,"deaths",3187117
+"PNG",2003,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",42277.61,36141.28,49126.96,"deaths",6124014
+"PNG",2004,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",19655.57,16795.85,22814.05,"deaths",3035235
+"PNG",2004,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",23901.78,20480.75,27710.15,"deaths",3292818
+"PNG",2004,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",43557.35,37276.6,50524.2,"deaths",6328053
+"PNG",2005,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",20229.49,17225.55,23581.49,"deaths",3135408
+"PNG",2005,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",24633.27,21073.34,28591.75,"deaths",3400509
+"PNG",2005,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",44862.76,38298.89,52173.24,"deaths",6535917
+"PNG",2006,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",20692.84,17641.81,24059.44,"deaths",3237504
+"PNG",2006,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",25271.03,21572.9,29302.41,"deaths",3510226
+"PNG",2006,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",45963.87,39214.71,53361.85,"deaths",6747730
+"PNG",2007,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",20975.18,17947.61,24404.73,"deaths",3341448
+"PNG",2007,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",25833.31,22032.23,30031.05,"deaths",3621905
+"PNG",2007,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",46808.49,39979.83,54435.78,"deaths",6963353
+"PNG",2008,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",21222.81,18119.37,24715.91,"deaths",3447419
+"PNG",2008,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",26428.52,22565.49,30731.39,"deaths",3735589
+"PNG",2008,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",47651.33,40684.86,55447.3,"deaths",7183008
+"PNG",2009,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",21472.57,18333.28,24973.04,"deaths",3555383
+"PNG",2009,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",26926.91,22965.52,31341.32,"deaths",3851068
+"PNG",2009,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",48399.48,41298.8,56314.36,"deaths",7406451
+"PNG",2010,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",21754.76,18551.49,25273.86,"deaths",3665308
+"PNG",2010,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",27418.82,23444.71,31919.63,"deaths",3968218
+"PNG",2010,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",49173.58,41996.2,57193.5,"deaths",7633526
+"PNG",2011,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",22072.64,18872.19,25654.46,"deaths",3775201
+"PNG",2011,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",28138.01,24014.34,32789.46,"deaths",4084150
+"PNG",2011,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",50210.66,42886.52,58443.93,"deaths",7859351
+"PNG",2012,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",22452.17,19182.79,26169.81,"deaths",3883974
+"PNG",2012,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",28906.47,24704.39,33685.32,"deaths",4197425
+"PNG",2012,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",51358.64,43887.18,59855.13,"deaths",8081399
+"PNG",2013,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",22671.56,19324.05,26379.59,"deaths",3992867
+"PNG",2013,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",29172.21,24850.6,34032.75,"deaths",4309843
+"PNG",2013,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",51843.77,44174.65,60412.34,"deaths",8302710
+"PNG",2014,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",23022.46,19622.73,26823.57,"deaths",4101910
+"PNG",2014,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",29601.73,25206.06,34435.67,"deaths",4421537
+"PNG",2014,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",52624.19,44828.79,61259.24,"deaths",8523447
+"PNG",2015,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",24167.14,20589.02,28135.16,"deaths",4210907
+"PNG",2015,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",30899.75,26336.78,35896.18,"deaths",4532353
+"PNG",2015,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",55066.89,46925.81,64031.34,"deaths",8743260
+"PNG",2016,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",23764.51,20247.18,27726.31,"deaths",4319600
+"PNG",2016,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",30623.33,26098.57,35727.78,"deaths",4642130
+"PNG",2016,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",54387.84,46345.75,63454.08,"deaths",8961730
+"PNG",2017,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",24006.89,20440.69,27993.7,"deaths",4427840
+"PNG",2017,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",30918.15,26277.8,36159.81,"deaths",4750879
+"PNG",2017,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",54925.04,46718.48,64153.51,"deaths",9178719
+"PNG",2018,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",24528.74,20807.58,28684.05,"deaths",4535716
+"PNG",2018,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",31503.24,26718.77,36984.23,"deaths",4858807
+"PNG",2018,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",56031.97,47526.35,65668.28,"deaths",9394523
+"PNG",2019,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",25026.38,21109.25,29409.09,"deaths",4643192
+"PNG",2019,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",32125.87,27100.58,37889.48,"deaths",4965833
+"PNG",2019,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",57152.25,48209.83,67298.57,"deaths",9609025
+"PNG",2020,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",25582.9,21303.78,30414.48,"deaths",4747807
+"PNG",2020,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",32000.76,26642.34,38075.28,"deaths",5067947
+"PNG",2020,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",57583.66,47946.13,68489.76,"deaths",9815754
+"PNG",2021,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",28153.95,22846.75,34506.61,"deaths",4848519
+"PNG",2021,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",36507.62,29630.98,44656.45,"deaths",5164392
+"PNG",2021,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",64661.57,52477.73,79163.05,"deaths",10012911
+"PNG",2022,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",27206.65,21174.24,34393.03,"deaths",4946021
+"PNG",2022,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",33050.85,25512.51,41845.87,"deaths",5257159
+"PNG",2022,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",60257.5,46686.75,76238.9,"deaths",10203180
+"PNG",2023,"FEMALE","TOTAL","0","deaths","Papua New Guinea","All Causes",26800.92,20306.42,34780.87,"deaths",5041663
+"PNG",2023,"MALE","TOTAL","0","deaths","Papua New Guinea","All Causes",33845.63,25568.99,44064.04,"deaths",5347987
+"PNG",2023,"TOTAL","TOTAL","0","deaths","Papua New Guinea","All Causes",60646.55,45875.41,78844.9,"deaths",10389650
+"SGP",2000,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7442.25,7018.92,7867.78,"deaths",1964126
+"SGP",2000,"MALE","TOTAL","0","deaths","Singapore","All Causes",9130.4,8604.09,9676.26,"deaths",2071128
+"SGP",2000,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",16572.65,15623.01,17544.04,"deaths",4035254
+"SGP",2001,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7274.03,6855.84,7697.4,"deaths",2008911
+"SGP",2001,"MALE","TOTAL","0","deaths","Singapore","All Causes",8962.86,8455.34,9503.94,"deaths",2107266
+"SGP",2001,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",16236.89,15311.18,17201.34,"deaths",4116177
+"SGP",2002,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7485.52,7059.83,7930.17,"deaths",2033743
+"SGP",2002,"MALE","TOTAL","0","deaths","Singapore","All Causes",8975.41,8461.86,9505.26,"deaths",2113163
+"SGP",2002,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",16460.93,15521.69,17435.43,"deaths",4146906
+"SGP",2003,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7384.66,6971.58,7815.43,"deaths",2041459
+"SGP",2003,"MALE","TOTAL","0","deaths","Singapore","All Causes",8994.62,8481.84,9528.92,"deaths",2096789
+"SGP",2003,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",16379.28,15453.42,17344.34,"deaths",4138248
+"SGP",2004,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7190.92,6783.49,7603.02,"deaths",2064226
+"SGP",2004,"MALE","TOTAL","0","deaths","Singapore","All Causes",8668.86,8179.96,9171.92,"deaths",2108553
+"SGP",2004,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",15859.78,14963.45,16774.94,"deaths",4172779
+"SGP",2005,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7431.39,7021.26,7859.5,"deaths",2108311
+"SGP",2005,"MALE","TOTAL","0","deaths","Singapore","All Causes",8896.01,8394.21,9414.13,"deaths",2160058
+"SGP",2005,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",16327.39,15415.47,17273.63,"deaths",4268369
+"SGP",2006,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",7584.49,7162.92,8027.47,"deaths",2163764
+"SGP",2006,"MALE","TOTAL","0","deaths","Singapore","All Causes",8896.92,8391.51,9415.75,"deaths",2243304
+"SGP",2006,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",16481.41,15554.43,17443.21,"deaths",4407068
+"SGP",2007,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",8047.07,7603.94,8515.39,"deaths",2231714
+"SGP",2007,"MALE","TOTAL","0","deaths","Singapore","All Causes",9974.99,9405.6,10550.44,"deaths",2364795
+"SGP",2007,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",18022.06,17009.54,19065.83,"deaths",4596509
+"SGP",2008,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",8326.37,7869.4,8806.55,"deaths",2308750
+"SGP",2008,"MALE","TOTAL","0","deaths","Singapore","All Causes",10092.61,9518.24,10678.31,"deaths",2497999
+"SGP",2008,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",18418.97,17387.64,19484.86,"deaths",4806749
+"SGP",2009,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",8351.98,7888.96,8831.92,"deaths",2378336
+"SGP",2009,"MALE","TOTAL","0","deaths","Singapore","All Causes",10162.84,9599.84,10753.72,"deaths",2590233
+"SGP",2009,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",18514.82,17488.8,19585.63,"deaths",4968569
+"SGP",2010,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",8585.7,8113.66,9076.64,"deaths",2434853
+"SGP",2010,"MALE","TOTAL","0","deaths","Singapore","All Causes",10520.49,9942.84,11124.98,"deaths",2642171
+"SGP",2010,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",19106.19,18056.5,20201.62,"deaths",5077024
+"SGP",2011,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",8801.97,8325.98,9297.34,"deaths",2488033
+"SGP",2011,"MALE","TOTAL","0","deaths","Singapore","All Causes",10539.16,9969.37,11144.74,"deaths",2694207
+"SGP",2011,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",19341.13,18295.34,20442.08,"deaths",5182240
+"SGP",2012,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",8948.25,8458.43,9445.9,"deaths",2535205
+"SGP",2012,"MALE","TOTAL","0","deaths","Singapore","All Causes",10726.78,10147.85,11350.29,"deaths",2758146
+"SGP",2012,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",19675.03,18606.29,20796.19,"deaths",5293351
+"SGP",2013,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",9199.66,8711.73,9711.92,"deaths",2569542
+"SGP",2013,"MALE","TOTAL","0","deaths","Singapore","All Causes",11089.23,10489.46,11718.79,"deaths",2816053
+"SGP",2013,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",20288.88,19201.19,21430.71,"deaths",5385595
+"SGP",2014,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",9433.38,8918.56,9959.84,"deaths",2600881
+"SGP",2014,"MALE","TOTAL","0","deaths","Singapore","All Causes",11291.01,10678.3,11928.59,"deaths",2857029
+"SGP",2014,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",20724.39,19596.86,21888.43,"deaths",5457910
+"SGP",2015,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",9626.65,9120.53,10163.28,"deaths",2637889
+"SGP",2015,"MALE","TOTAL","0","deaths","Singapore","All Causes",11484.12,10863.61,12131.81,"deaths",2887449
+"SGP",2015,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",21110.77,19984.14,22295.1,"deaths",5525338
+"SGP",2016,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",9556.88,9049.17,10082.95,"deaths",2675220
+"SGP",2016,"MALE","TOTAL","0","deaths","Singapore","All Causes",11678.16,11048.64,12327.44,"deaths",2902715
+"SGP",2016,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",21235.04,20097.81,22410.4,"deaths",5577935
+"SGP",2017,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",10100.47,9571.8,10656.76,"deaths",2707066
+"SGP",2017,"MALE","TOTAL","0","deaths","Singapore","All Causes",12144.06,11502.03,12817.88,"deaths",2897014
+"SGP",2017,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",22244.52,21073.83,23474.64,"deaths",5604080
+"SGP",2018,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",10244,9734.42,10776.41,"deaths",2729765
+"SGP",2018,"MALE","TOTAL","0","deaths","Singapore","All Causes",12311.33,11679.43,12976.86,"deaths",2904615
+"SGP",2018,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",22555.33,21413.84,23753.27,"deaths",5634380
+"SGP",2019,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",10263.1,9809.51,10735.73,"deaths",2737779
+"SGP",2019,"MALE","TOTAL","0","deaths","Singapore","All Causes",12328.96,11768.42,12904.94,"deaths",2931787
+"SGP",2019,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",22592.06,21577.93,23640.68,"deaths",5669566
+"SGP",2020,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",10205.67,9883.18,10538.53,"deaths",2710549
+"SGP",2020,"MALE","TOTAL","0","deaths","Singapore","All Causes",12904.27,12506.13,13317.86,"deaths",2909606
+"SGP",2020,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",23109.94,22389.3,23856.4,"deaths",5620155
+"SGP",2021,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",11546.21,11180.07,11925.2,"deaths",2679687
+"SGP",2021,"MALE","TOTAL","0","deaths","Singapore","All Causes",14133.61,13677.01,14602.47,"deaths",2866602
+"SGP",2021,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",25679.82,24857.08,26527.67,"deaths",5546289
+"SGP",2022,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",12884.31,12007.01,13812.59,"deaths",2730190
+"SGP",2022,"MALE","TOTAL","0","deaths","Singapore","All Causes",15305.33,14230.4,16457.42,"deaths",2919701
+"SGP",2022,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",28189.63,26237.41,30270,"deaths",5649891
+"SGP",2023,"FEMALE","TOTAL","0","deaths","Singapore","All Causes",12694.97,11754.1,13661.76,"deaths",2796710
+"SGP",2023,"MALE","TOTAL","0","deaths","Singapore","All Causes",14907.87,13801.25,16085.34,"deaths",2992385
+"SGP",2023,"TOTAL","TOTAL","0","deaths","Singapore","All Causes",27602.84,25555.35,29747.1,"deaths",5789095
+"SLB",2000,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1264.95,1172.01,1361.84,"deaths",212520
+"SLB",2000,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",1938.92,1799.43,2087.76,"deaths",227972
+"SLB",2000,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3203.87,2971.45,3449.59,"deaths",440492
+"SLB",2001,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1294.5,1199.21,1394.37,"deaths",217053
+"SLB",2001,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",1971.77,1830.13,2122.63,"deaths",232100
+"SLB",2001,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3266.27,3029.33,3517.01,"deaths",449153
+"SLB",2002,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1323.04,1225.86,1426.19,"deaths",221518
+"SLB",2002,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2013.64,1868.9,2168.53,"deaths",236176
+"SLB",2002,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3336.68,3094.76,3594.72,"deaths",457694
+"SLB",2003,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1349.03,1249.75,1454.1,"deaths",225961
+"SLB",2003,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2054.38,1906.71,2213.31,"deaths",240216
+"SLB",2003,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3403.41,3156.46,3667.41,"deaths",466177
+"SLB",2004,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1380.05,1277.7,1487.71,"deaths",230391
+"SLB",2004,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2092.42,1941.71,2254.39,"deaths",244247
+"SLB",2004,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3472.47,3219.42,3742.09,"deaths",474638
+"SLB",2005,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1409.02,1304.35,1519.22,"deaths",234825
+"SLB",2005,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2133.81,1978.38,2300.1,"deaths",248289
+"SLB",2005,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3542.83,3282.73,3819.32,"deaths",483114
+"SLB",2006,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1440.78,1332.54,1553.89,"deaths",239274
+"SLB",2006,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2171.71,2012.89,2342.86,"deaths",252346
+"SLB",2006,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3612.49,3345.42,3896.75,"deaths",491620
+"SLB",2007,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1490.62,1380.95,1605.62,"deaths",243736
+"SLB",2007,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2225.93,2065.28,2399.81,"deaths",256441
+"SLB",2007,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3716.55,3446.23,4005.43,"deaths",500177
+"SLB",2008,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1502.87,1390.04,1621.51,"deaths",248223
+"SLB",2008,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2257.85,2091.31,2435.81,"deaths",260597
+"SLB",2008,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3760.72,3481.35,4057.31,"deaths",508820
+"SLB",2009,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1535.29,1420.11,1655.75,"deaths",253043
+"SLB",2009,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2300.92,2131.47,2482.88,"deaths",265123
+"SLB",2009,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3836.21,3551.58,4138.63,"deaths",518166
+"SLB",2010,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1561.19,1442.11,1684.85,"deaths",260426
+"SLB",2010,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2328.47,2153.74,2515.53,"deaths",272570
+"SLB",2010,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3889.66,3595.85,4200.38,"deaths",532996
+"SLB",2011,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1607.56,1483.53,1736.26,"deaths",270207
+"SLB",2011,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2370.06,2189.79,2560.66,"deaths",282770
+"SLB",2011,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",3977.62,3673.32,4296.92,"deaths",552977
+"SLB",2012,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1654.45,1525.4,1787.44,"deaths",280301
+"SLB",2012,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2418.57,2232.33,2614.89,"deaths",293324
+"SLB",2012,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",4073.02,3757.73,4402.33,"deaths",573625
+"SLB",2013,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1711.03,1577.09,1849.2,"deaths",290724
+"SLB",2013,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2481.79,2287.07,2685.25,"deaths",304248
+"SLB",2013,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",4192.82,3864.16,4534.45,"deaths",594972
+"SLB",2014,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1781.21,1640.56,1925.87,"deaths",301418
+"SLB",2014,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2566.74,2363.23,2780.17,"deaths",315507
+"SLB",2014,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",4347.94,4003.78,4706.04,"deaths",616925
+"SLB",2015,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1848.03,1697.61,2004.59,"deaths",312382
+"SLB",2015,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2651.4,2435.7,2880.85,"deaths",327055
+"SLB",2015,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",4499.44,4133.31,4885.44,"deaths",639437
+"SLB",2016,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",1925.19,1764.77,2092.67,"deaths",323559
+"SLB",2016,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2751.84,2521.2,2996.24,"deaths",338843
+"SLB",2016,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",4677.02,4285.97,5088.91,"deaths",662402
+"SLB",2017,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2008.33,1836.62,2188.47,"deaths",334876
+"SLB",2017,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2865.21,2619.48,3127.33,"deaths",350822
+"SLB",2017,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",4873.53,4456.1,5315.8,"deaths",685698
+"SLB",2018,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2102.87,1918.84,2298.04,"deaths",346239
+"SLB",2018,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",2988.49,2726.45,3271.32,"deaths",362887
+"SLB",2018,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",5091.36,4645.29,5569.36,"deaths",709126
+"SLB",2019,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2159.35,1964.93,2367.31,"deaths",355517
+"SLB",2019,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",3056.09,2779.67,3355.03,"deaths",372652
+"SLB",2019,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",5215.43,4744.59,5722.33,"deaths",728169
+"SLB",2020,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2245.38,2038.32,2464.96,"deaths",363585
+"SLB",2020,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",3116.55,2827.61,3427,"deaths",380929
+"SLB",2020,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",5361.93,4865.93,5891.96,"deaths",744514
+"SLB",2021,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2398.54,2161.68,2653.02,"deaths",372529
+"SLB",2021,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",3302.45,2971.24,3658.38,"deaths",390087
+"SLB",2021,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",5700.99,5132.93,6311.4,"deaths",762616
+"SLB",2022,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2428.31,2152.96,2726.73,"deaths",381630
+"SLB",2022,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",3399.89,3014.44,3824.7,"deaths",399463
+"SLB",2022,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",5828.19,5167.4,6551.43,"deaths",781093
+"SLB",2023,"FEMALE","TOTAL","0","deaths","Solomon Islands","All Causes",2453.69,2110.62,2838.65,"deaths",390940
+"SLB",2023,"MALE","TOTAL","0","deaths","Solomon Islands","All Causes",3459.69,2978.46,3995.25,"deaths",409085
+"SLB",2023,"TOTAL","TOTAL","0","deaths","Solomon Islands","All Causes",5913.38,5089.08,6833.91,"deaths",800025
+"TON",2000,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",297.28,275.3,320.33,"deaths",50822
+"TON",2000,"MALE","TOTAL","0","deaths","Tonga","All Causes",332.66,308.69,357.77,"deaths",51891
+"TON",2000,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",629.94,583.99,678.1,"deaths",102713
+"TON",2001,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",296.59,274.76,319.87,"deaths",51150
+"TON",2001,"MALE","TOTAL","0","deaths","Tonga","All Causes",335.11,310.82,360.66,"deaths",52175
+"TON",2001,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",631.7,585.58,680.53,"deaths",103325
+"TON",2002,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",296.08,274.37,319.47,"deaths",51459
+"TON",2002,"MALE","TOTAL","0","deaths","Tonga","All Causes",336.5,312.05,362.06,"deaths",52454
+"TON",2002,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",632.58,586.42,681.53,"deaths",103913
+"TON",2003,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",294.65,273.02,317.94,"deaths",51766
+"TON",2003,"MALE","TOTAL","0","deaths","Tonga","All Causes",337.69,313.28,363.24,"deaths",52736
+"TON",2003,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",632.34,586.3,681.18,"deaths",104502
+"TON",2004,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",295.34,273.65,318.82,"deaths",52078
+"TON",2004,"MALE","TOTAL","0","deaths","Tonga","All Causes",340.91,316.11,366.64,"deaths",53031
+"TON",2004,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",636.24,589.76,685.46,"deaths",105109
+"TON",2005,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",297.06,275.23,320.88,"deaths",52384
+"TON",2005,"MALE","TOTAL","0","deaths","Tonga","All Causes",341.15,316.3,367.14,"deaths",53323
+"TON",2005,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",638.21,591.53,688.01,"deaths",105707
+"TON",2006,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",298.3,276.38,322.28,"deaths",52693
+"TON",2006,"MALE","TOTAL","0","deaths","Tonga","All Causes",341.11,316.14,367.26,"deaths",53603
+"TON",2006,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",639.41,592.53,689.54,"deaths",106296
+"TON",2007,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",301.47,279.4,325.66,"deaths",53002
+"TON",2007,"MALE","TOTAL","0","deaths","Tonga","All Causes",343.48,318.26,369.68,"deaths",53766
+"TON",2007,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",644.95,597.66,695.33,"deaths",106768
+"TON",2008,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",303.32,281.14,327.64,"deaths",53281
+"TON",2008,"MALE","TOTAL","0","deaths","Tonga","All Causes",345.95,320.34,372.21,"deaths",53779
+"TON",2008,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",649.28,601.48,699.86,"deaths",107060
+"TON",2009,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",321.06,298.54,345.84,"deaths",53507
+"TON",2009,"MALE","TOTAL","0","deaths","Tonga","All Causes",404.02,377.09,432.35,"deaths",53741
+"TON",2009,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",725.09,675.63,778.19,"deaths",107248
+"TON",2010,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",308.74,285.63,333.56,"deaths",53721
+"TON",2010,"MALE","TOTAL","0","deaths","Tonga","All Causes",347.45,321.38,374.52,"deaths",53718
+"TON",2010,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",656.19,607.01,708.07,"deaths",107439
+"TON",2011,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",310.19,286.63,335.32,"deaths",53923
+"TON",2011,"MALE","TOTAL","0","deaths","Tonga","All Causes",348.16,321.92,375.72,"deaths",53688
+"TON",2011,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",658.35,608.55,711.05,"deaths",107611
+"TON",2012,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",312.08,287.92,337.69,"deaths",53982
+"TON",2012,"MALE","TOTAL","0","deaths","Tonga","All Causes",347.43,320.84,375.5,"deaths",53522
+"TON",2012,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",659.51,608.76,713.19,"deaths",107504
+"TON",2013,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",313.86,289.25,340.16,"deaths",53902
+"TON",2013,"MALE","TOTAL","0","deaths","Tonga","All Causes",347.67,320.53,376.24,"deaths",53214
+"TON",2013,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",661.53,609.78,716.39,"deaths",107116
+"TON",2014,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",316.37,291.13,343.04,"deaths",53782
+"TON",2014,"MALE","TOTAL","0","deaths","Tonga","All Causes",348.33,320.5,377.53,"deaths",52870
+"TON",2014,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",664.7,611.63,720.57,"deaths",106652
+"TON",2015,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",317.46,291.6,344.94,"deaths",53633
+"TON",2015,"MALE","TOTAL","0","deaths","Tonga","All Causes",345.47,317.23,375.03,"deaths",52500
+"TON",2015,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",662.92,608.83,719.97,"deaths",106133
+"TON",2016,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",320.86,294.03,349.26,"deaths",53477
+"TON",2016,"MALE","TOTAL","0","deaths","Tonga","All Causes",341.85,313.28,371.97,"deaths",52088
+"TON",2016,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",662.7,607.31,721.23,"deaths",105565
+"TON",2017,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",321.67,293.99,350.76,"deaths",53585
+"TON",2017,"MALE","TOTAL","0","deaths","Tonga","All Causes",342.46,312.95,373.7,"deaths",51806
+"TON",2017,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",664.13,606.94,724.46,"deaths",105391
+"TON",2018,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",325.27,296.34,355.59,"deaths",53965
+"TON",2018,"MALE","TOTAL","0","deaths","Tonga","All Causes",343.47,312.85,375.8,"deaths",51644
+"TON",2018,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",668.74,609.19,731.39,"deaths",105609
+"TON",2019,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",327.57,297.4,359.14,"deaths",54289
+"TON",2019,"MALE","TOTAL","0","deaths","Tonga","All Causes",342.18,310.48,375.68,"deaths",51420
+"TON",2019,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",669.75,607.88,734.82,"deaths",105709
+"TON",2020,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",402.2,364.13,442.24,"deaths",54582
+"TON",2020,"MALE","TOTAL","0","deaths","Tonga","All Causes",427.59,386.84,471.24,"deaths",51160
+"TON",2020,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",829.79,750.97,913.48,"deaths",105742
+"TON",2021,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",345.79,311.13,382.3,"deaths",54790
+"TON",2021,"MALE","TOTAL","0","deaths","Tonga","All Causes",346.07,311.17,383.82,"deaths",50735
+"TON",2021,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",691.86,622.29,766.12,"deaths",105525
+"TON",2022,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",355.92,315.58,399.04,"deaths",54916
+"TON",2022,"MALE","TOTAL","0","deaths","Tonga","All Causes",344.14,304.36,388.23,"deaths",50165
+"TON",2022,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",700.06,619.94,787.27,"deaths",105081
+"TON",2023,"FEMALE","TOTAL","0","deaths","Tonga","All Causes",356.78,307.09,411.35,"deaths",55030
+"TON",2023,"MALE","TOTAL","0","deaths","Tonga","All Causes",343.1,294.25,397.4,"deaths",49605
+"TON",2023,"TOTAL","TOTAL","0","deaths","Tonga","All Causes",699.89,601.34,808.76,"deaths",104635
+"VNM",2000,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",187191.29,163482.88,214048.84,"deaths",39328955
+"VNM",2000,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",244205.75,215738.31,275029.84,"deaths",37825061
+"VNM",2000,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",431397.04,379221.19,489078.68,"deaths",77154016
+"VNM",2001,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",191325.81,164729.42,221572.18,"deaths",39768453
+"VNM",2001,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",247628.46,214218.37,284606.04,"deaths",38200917
+"VNM",2001,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",438954.26,378947.79,506178.22,"deaths",77969370
+"VNM",2002,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",195013.44,166599.26,227934.17,"deaths",40207734
+"VNM",2002,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",250959.4,215250.29,291379.65,"deaths",38564489
+"VNM",2002,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",445972.85,381849.55,519313.81,"deaths",78772223
+"VNM",2003,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",202345.66,172165.37,236590.43,"deaths",40653780
+"VNM",2003,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",256521.01,219078.28,298854.72,"deaths",38910000
+"VNM",2003,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",458866.67,391243.66,535445.15,"deaths",79563780
+"VNM",2004,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",208260.8,176933.19,243545.8,"deaths",41090419
+"VNM",2004,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",261781.98,223071.51,306223.15,"deaths",39248561
+"VNM",2004,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",470042.79,400004.7,549768.95,"deaths",80338980
+"VNM",2005,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",212585.73,179974.62,248526.27,"deaths",41508485
+"VNM",2005,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",266833.17,226859.31,312218.93,"deaths",39579832
+"VNM",2005,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",479418.9,406833.93,560745.2,"deaths",81088317
+"VNM",2006,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",216562.57,183698.54,252430.48,"deaths",42107118
+"VNM",2006,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",270115.21,229454.65,315766.71,"deaths",40060783
+"VNM",2006,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",486677.78,413153.19,568197.19,"deaths",82167901
+"VNM",2007,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",221662.99,187419.93,258790.38,"deaths",42909039
+"VNM",2007,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",277278.89,235499.36,324234.25,"deaths",40724336
+"VNM",2007,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",498941.88,422919.29,583024.62,"deaths",83633375
+"VNM",2008,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",228875.06,193462.42,267847.87,"deaths",43748396
+"VNM",2008,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",286148.73,243179.82,334029.91,"deaths",41427396
+"VNM",2008,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",515023.79,436642.24,601877.78,"deaths",85175792
+"VNM",2009,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",234491.23,198513.63,273935.96,"deaths",44421760
+"VNM",2009,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",293991.93,249349.14,344331.05,"deaths",42038252
+"VNM",2009,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",528483.16,447862.77,618267.01,"deaths",86460012
+"VNM",2010,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",239479.2,203119.45,280924.71,"deaths",44912421
+"VNM",2010,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",299376.02,253718.77,350750.49,"deaths",42542737
+"VNM",2010,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",538855.23,456838.22,631675.19,"deaths",87455158
+"VNM",2011,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",244469.17,207505.35,285887.22,"deaths",45410434
+"VNM",2011,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",304582.62,257882.78,355647.34,"deaths",43057884
+"VNM",2011,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",549051.79,465388.13,641534.56,"deaths",88468318
+"VNM",2012,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",248733.24,211102.78,290815.38,"deaths",45919530
+"VNM",2012,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",309522.26,261469.87,362504.74,"deaths",43590823
+"VNM",2012,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",558255.51,472572.65,653320.11,"deaths",89510353
+"VNM",2013,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",255084.86,216117.06,298214.76,"deaths",46434809
+"VNM",2013,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",316522.2,267665.69,371285.77,"deaths",44138299
+"VNM",2013,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",571607.06,483782.74,669500.53,"deaths",90573108
+"VNM",2014,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",261451.63,220956.42,306554.52,"deaths",46971118
+"VNM",2014,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",322759.21,273603.43,378452.66,"deaths",44708463
+"VNM",2014,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",584210.84,494559.84,685007.18,"deaths",91679581
+"VNM",2015,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",267934.45,227211.71,315047.47,"deaths",47527298
+"VNM",2015,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",329296.95,278823.23,385997,"deaths",45295953
+"VNM",2015,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",597231.4,506034.94,701044.48,"deaths",92823251
+"VNM",2016,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",270340.7,229931.08,317402.13,"deaths",48084839
+"VNM",2016,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",330144.74,279696.48,387441.25,"deaths",45915272
+"VNM",2016,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",600485.43,509627.56,704843.39,"deaths",94000111
+"VNM",2017,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",274254.11,232471.53,323196.5,"deaths",48636375
+"VNM",2017,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",332731.32,281793.56,390427.72,"deaths",46540600
+"VNM",2017,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",606985.43,514265.09,713624.22,"deaths",95176975
+"VNM",2018,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",277613.19,234488.06,326449.99,"deaths",49147631
+"VNM",2018,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",333913.04,281853.86,392560.65,"deaths",47089691
+"VNM",2018,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",611526.23,516341.92,719010.64,"deaths",96237322
+"VNM",2019,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",283329.53,238538.69,335097.7,"deaths",49610248
+"VNM",2019,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",337607.93,283080.67,399073.61,"deaths",47563532
+"VNM",2019,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",620937.45,521619.35,734171.31,"deaths",97173780
+"VNM",2020,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",302469.88,250988.29,360106.83,"deaths",50061596
+"VNM",2020,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",357188.84,296208.3,426518.82,"deaths",48017584
+"VNM",2020,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",659658.72,547196.59,786625.64,"deaths",98079180
+"VNM",2021,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",324859.22,261610.48,396385.09,"deaths",50486610
+"VNM",2021,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",383882.19,309660.36,468710.32,"deaths",48448492
+"VNM",2021,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",708741.41,571270.84,865095.41,"deaths",98935102
+"VNM",2022,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",373311.83,289641.89,474419.67,"deaths",50859445
+"VNM",2022,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",445360.04,343201.1,566306.94,"deaths",48821207
+"VNM",2022,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",818671.87,632842.99,1040726.61,"deaths",99680652
+"VNM",2023,"FEMALE","TOTAL","0","deaths","Viet Nam","All Causes",329815.03,248109.29,429848.89,"deaths",51201225
+"VNM",2023,"MALE","TOTAL","0","deaths","Viet Nam","All Causes",390191.31,293674.44,508698.92,"deaths",49150967
+"VNM",2023,"TOTAL","TOTAL","0","deaths","Viet Nam","All Causes",720006.34,541783.73,938547.81,"deaths",100352192
+"VUT",2000,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",404.48,374.7,435.59,"deaths",88983
+"VUT",2000,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",830.66,770,894.65,"deaths",97344
+"VUT",2000,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1235.14,1144.71,1330.24,"deaths",186327
+"VUT",2001,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",421.63,390.54,454.06,"deaths",91456
+"VUT",2001,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",852.45,790.59,918.53,"deaths",99607
+"VUT",2001,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1274.09,1181.12,1372.59,"deaths",191063
+"VUT",2002,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",436.38,403.99,470.29,"deaths",93972
+"VUT",2002,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",874.37,810.48,942.7,"deaths",101926
+"VUT",2002,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1310.75,1214.47,1412.99,"deaths",195898
+"VUT",2003,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",451.32,417.73,486.55,"deaths",96513
+"VUT",2003,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",896.37,830.78,966.89,"deaths",104261
+"VUT",2003,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1347.68,1248.51,1453.44,"deaths",200774
+"VUT",2004,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",466.25,431.83,502.79,"deaths",99094
+"VUT",2004,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",917.36,850.11,989.74,"deaths",106648
+"VUT",2004,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1383.61,1281.94,1492.53,"deaths",205742
+"VUT",2005,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",481.05,445.32,518.79,"deaths",101724
+"VUT",2005,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",938.54,869.18,1013.17,"deaths",109065
+"VUT",2005,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1419.59,1314.5,1531.96,"deaths",210789
+"VUT",2006,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",495.54,458.69,534.68,"deaths",104410
+"VUT",2006,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",958.52,886.91,1034.85,"deaths",111542
+"VUT",2006,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1454.06,1345.59,1569.53,"deaths",215952
+"VUT",2007,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",510.47,472.11,551.05,"deaths",107201
+"VUT",2007,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",977.61,904.11,1055.74,"deaths",114109
+"VUT",2007,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1488.08,1376.22,1606.79,"deaths",221310
+"VUT",2008,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",524.08,484.79,566,"deaths",110121
+"VUT",2008,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",995.62,920.88,1075.25,"deaths",116807
+"VUT",2008,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1519.7,1405.67,1641.25,"deaths",226928
+"VUT",2009,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",542.74,501.85,586.17,"deaths",113167
+"VUT",2009,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1020.41,943.14,1102.26,"deaths",119597
+"VUT",2009,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1563.15,1444.99,1688.44,"deaths",232764
+"VUT",2010,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",559.24,516.95,604.39,"deaths",116058
+"VUT",2010,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1043.58,964.17,1128.1,"deaths",122221
+"VUT",2010,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1602.82,1481.12,1732.49,"deaths",238279
+"VUT",2011,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",576.11,532.19,622.7,"deaths",118801
+"VUT",2011,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1069.34,987.29,1156.56,"deaths",124701
+"VUT",2011,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1645.45,1519.48,1779.27,"deaths",243502
+"VUT",2012,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",594.42,548.6,642.94,"deaths",121645
+"VUT",2012,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1091.4,1006.06,1180.93,"deaths",127277
+"VUT",2012,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1685.83,1554.66,1823.86,"deaths",248922
+"VUT",2013,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",611.03,563.4,661.46,"deaths",124565
+"VUT",2013,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1115.17,1026.45,1207.59,"deaths",129939
+"VUT",2013,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1726.2,1589.85,1869.05,"deaths",254504
+"VUT",2014,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",631.7,582.07,684.04,"deaths",127563
+"VUT",2014,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1142.06,1049.86,1238.09,"deaths",132699
+"VUT",2014,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1773.76,1631.93,1922.13,"deaths",260262
+"VUT",2015,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",650.84,599.1,705.93,"deaths",130614
+"VUT",2015,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1171.65,1075.26,1271.8,"deaths",135512
+"VUT",2015,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1822.49,1674.36,1977.73,"deaths",266126
+"VUT",2016,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",669.79,614.74,728.6,"deaths",133727
+"VUT",2016,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1201.82,1100.66,1307.95,"deaths",138388
+"VUT",2016,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1871.6,1715.4,2036.56,"deaths",272115
+"VUT",2017,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",689.6,631.57,751.97,"deaths",137074
+"VUT",2017,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1229.72,1124.04,1340.94,"deaths",141466
+"VUT",2017,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1919.32,1755.61,2092.9,"deaths",278540
+"VUT",2018,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",708.37,646.81,774.77,"deaths",140617
+"VUT",2018,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1242.86,1132.32,1359.44,"deaths",144679
+"VUT",2018,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1951.22,1779.13,2134.21,"deaths",285296
+"VUT",2019,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",731.02,665.06,801.81,"deaths",144140
+"VUT",2019,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1263.07,1147.04,1386.41,"deaths",147867
+"VUT",2019,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",1994.09,1812.1,2188.22,"deaths",292007
+"VUT",2020,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",750.07,680.11,825.21,"deaths",147707
+"VUT",2020,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1259.75,1140.23,1387.38,"deaths",151173
+"VUT",2020,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",2009.82,1820.34,2212.59,"deaths",298880
+"VUT",2021,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",809.32,728.87,895.64,"deaths",151305
+"VUT",2021,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1320.28,1186.38,1464.12,"deaths",154592
+"VUT",2021,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",2129.61,1915.25,2359.76,"deaths",305897
+"VUT",2022,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",812.97,720.33,912.6,"deaths",154930
+"VUT",2022,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1360.23,1202.57,1529.89,"deaths",158145
+"VUT",2022,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",2173.21,1922.9,2442.49,"deaths",313075
+"VUT",2023,"FEMALE","TOTAL","0","deaths","Vanuatu","All Causes",821.11,705.32,949.8,"deaths",158625
+"VUT",2023,"MALE","TOTAL","0","deaths","Vanuatu","All Causes",1373.42,1176.47,1590.63,"deaths",161813
+"VUT",2023,"TOTAL","TOTAL","0","deaths","Vanuatu","All Causes",2194.53,1881.79,2540.43,"deaths",320438
+"WSM",2000,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",463.66,429.99,499.4,"deaths",87837
+"WSM",2000,"MALE","TOTAL","0","deaths","Samoa","All Causes",560.54,519.09,604.04,"deaths",93880
+"WSM",2000,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1024.19,949.08,1103.44,"deaths",181717
+"WSM",2001,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",468.9,434.73,505.21,"deaths",88593
+"WSM",2001,"MALE","TOTAL","0","deaths","Samoa","All Causes",555.5,514.44,598.83,"deaths",94607
+"WSM",2001,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1024.4,949.18,1104.04,"deaths",183200
+"WSM",2002,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",474.32,439.44,511.04,"deaths",89290
+"WSM",2002,"MALE","TOTAL","0","deaths","Samoa","All Causes",554.14,512.94,597.02,"deaths",95206
+"WSM",2002,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1028.45,952.38,1108.05,"deaths",184496
+"WSM",2003,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",483.74,447.86,521.47,"deaths",89864
+"WSM",2003,"MALE","TOTAL","0","deaths","Samoa","All Causes",559.33,517.76,602.61,"deaths",95605
+"WSM",2003,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1043.07,965.62,1124.08,"deaths",185469
+"WSM",2004,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",497.11,460.49,536.28,"deaths",90360
+"WSM",2004,"MALE","TOTAL","0","deaths","Samoa","All Causes",561.88,519.98,605.55,"deaths",95921
+"WSM",2004,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1059,980.47,1141.82,"deaths",186281
+"WSM",2005,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",510.91,473.47,550.75,"deaths",90817
+"WSM",2005,"MALE","TOTAL","0","deaths","Samoa","All Causes",567.13,525.08,611.28,"deaths",96199
+"WSM",2005,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1078.04,998.55,1162.02,"deaths",187016
+"WSM",2006,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",521.61,483.13,562.95,"deaths",91276
+"WSM",2006,"MALE","TOTAL","0","deaths","Samoa","All Causes",573.17,529.99,618.15,"deaths",96466
+"WSM",2006,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1094.77,1013.11,1181.1,"deaths",187742
+"WSM",2007,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",537.03,497.16,579.81,"deaths",91881
+"WSM",2007,"MALE","TOTAL","0","deaths","Samoa","All Causes",579,535.14,624.89,"deaths",96896
+"WSM",2007,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1116.03,1032.29,1204.7,"deaths",188777
+"WSM",2008,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",545.61,504.92,589.27,"deaths",92647
+"WSM",2008,"MALE","TOTAL","0","deaths","Samoa","All Causes",582.25,538.49,628.35,"deaths",97492
+"WSM",2008,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1127.86,1043.42,1217.62,"deaths",190139
+"WSM",2009,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",637.87,593.88,685.02,"deaths",93442
+"WSM",2009,"MALE","TOTAL","0","deaths","Samoa","All Causes",647.93,602.66,695.88,"deaths",98102
+"WSM",2009,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1285.8,1196.54,1380.9,"deaths",191544
+"WSM",2010,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",571.23,527.43,617.33,"deaths",94297
+"WSM",2010,"MALE","TOTAL","0","deaths","Samoa","All Causes",594.27,548.96,641.77,"deaths",98761
+"WSM",2010,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1165.5,1076.39,1259.1,"deaths",193058
+"WSM",2011,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",583.97,538.78,631.81,"deaths",95245
+"WSM",2011,"MALE","TOTAL","0","deaths","Samoa","All Causes",596.48,550.91,644.58,"deaths",99500
+"WSM",2011,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1180.45,1089.68,1276.39,"deaths",194745
+"WSM",2012,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",602.08,555.2,651.7,"deaths",96242
+"WSM",2012,"MALE","TOTAL","0","deaths","Samoa","All Causes",604.54,558.4,653.59,"deaths",100292
+"WSM",2012,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1206.63,1113.6,1305.29,"deaths",196534
+"WSM",2013,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",614,564.9,666.19,"deaths",97222
+"WSM",2013,"MALE","TOTAL","0","deaths","Samoa","All Causes",618.76,570.46,670.14,"deaths",101080
+"WSM",2013,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1232.76,1135.36,1336.33,"deaths",198302
+"WSM",2014,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",626.51,575.55,680.72,"deaths",98208
+"WSM",2014,"MALE","TOTAL","0","deaths","Samoa","All Causes",632.78,582.32,686.46,"deaths",101865
+"WSM",2014,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1259.29,1157.87,1367.18,"deaths",200073
+"WSM",2015,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",635.5,583.26,691.4,"deaths",99192
+"WSM",2015,"MALE","TOTAL","0","deaths","Samoa","All Causes",645.58,593.11,701.49,"deaths",102626
+"WSM",2015,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1281.08,1176.37,1392.89,"deaths",201818
+"WSM",2016,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",644.96,590.15,703.05,"deaths",100187
+"WSM",2016,"MALE","TOTAL","0","deaths","Samoa","All Causes",658.11,603.15,717.04,"deaths",103344
+"WSM",2016,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1303.07,1193.3,1420.09,"deaths",203531
+"WSM",2017,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",654.66,597.34,715.02,"deaths",101332
+"WSM",2017,"MALE","TOTAL","0","deaths","Samoa","All Causes",665.38,608.15,726.73,"deaths",104108
+"WSM",2017,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1320.04,1205.49,1441.75,"deaths",205440
+"WSM",2018,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",666.19,606.46,729.56,"deaths",102646
+"WSM",2018,"MALE","TOTAL","0","deaths","Samoa","All Causes",675.92,616.15,740.32,"deaths",104971
+"WSM",2018,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1342.11,1222.62,1469.88,"deaths",207617
+"WSM",2019,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",694.11,630.61,761.25,"deaths",103966
+"WSM",2019,"MALE","TOTAL","0","deaths","Samoa","All Causes",701.59,638.47,769.66,"deaths",105846
+"WSM",2019,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1395.7,1269.09,1530.91,"deaths",209812
+"WSM",2020,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",694.39,628.32,764.78,"deaths",105269
+"WSM",2020,"MALE","TOTAL","0","deaths","Samoa","All Causes",861.72,780.24,950.1,"deaths",106706
+"WSM",2020,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1556.1,1408.55,1714.87,"deaths",211975
+"WSM",2021,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",503.03,451.8,558.09,"deaths",106276
+"WSM",2021,"MALE","TOTAL","0","deaths","Samoa","All Causes",585.32,525.66,650.19,"deaths",107532
+"WSM",2021,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1088.35,977.46,1208.28,"deaths",213808
+"WSM",2022,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",535.04,473.79,602.85,"deaths",106961
+"WSM",2022,"MALE","TOTAL","0","deaths","Samoa","All Causes",665.97,588.66,750.71,"deaths",108334
+"WSM",2022,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1201.01,1062.45,1353.57,"deaths",215295
+"WSM",2023,"FEMALE","TOTAL","0","deaths","Samoa","All Causes",518.21,445,600.08,"deaths",107610
+"WSM",2023,"MALE","TOTAL","0","deaths","Samoa","All Causes",623.07,534.59,723.01,"deaths",109089
+"WSM",2023,"TOTAL","TOTAL","0","deaths","Samoa","All Causes",1141.28,979.59,1323.09,"deaths",216699
