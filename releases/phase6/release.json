@@ -1,0 +1,16 @@
+{
+  "plugin_name": "dsir-snapshot-release-pilot",
+  "plugin_version": "0.6.0",
+  "snapshot": "wpr-ghe-deaths",
+  "scope": "regional",
+  "run_id": "45383539069",
+  "retrieved_at": "2026-11-24T11:23:18Z",
+  "catalog": {
+    "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/f29dca042b2df85505141976d92aa206aeec3a03/snapshots/phase6/catalog.json",
+    "sha256": "dfa27945b524d54f37932df6bacc4d920373276aa4b17be14ac10478dd3241e8"
+  },
+  "manifest": {
+    "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/24fbeec1a422cb154b6242752e9fe00721ff5379/snapshots/wpr-ghe-deaths/manifest.json",
+    "sha256": "a24d487452f1763717aac149a4444f05389256def9134c5b9d2ed69dfe2a460e"
+  }
+}
