@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsir-wpr-snapshot",
+  "version": "0.3.0",
+  "description": "Read dated Western Pacific tuberculosis incidence and DTP3 coverage snapshots through a verified indicator catalog.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DSIR Snapshot Pilot Phase 3",
+        "shortDescription": "Western Pacific health data",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": "For Viet Nam, show the latest estimate for each indicator and the latest year for which both have an estimate. Include units, bounds and file links."
+      }
+    }
+  }
+}

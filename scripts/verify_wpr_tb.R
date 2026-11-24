@@ -3,11 +3,11 @@ suppressPackageStartupMessages({
   library(openssl)
 })
 
-out <- Sys.getenv("DSIR_SNAPSHOT_DIR", "snapshots/wpr-tb")
+source("scripts/wpr_indicator.R")
 manifest <- read_json(file.path(out, "manifest.json"))
 roster <- read.csv("config/wpr-areas.csv", colClasses = "character")
 base.url <- paste0("https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/",
-                   manifest$data_commit, "/snapshots/wpr-tb/")
+                   manifest$data_commit, "/snapshots/", snapshot.id, "/")
 sha256_file <- function(path) {
   stream <- file(path, open = "rb")
   on.exit(close(stream))
@@ -28,9 +28,9 @@ stopifnot(identical(readLines(file.path(out, "manifest.sha256")),
           grepl("^[0-9a-f]{40}$", manifest$data_commit))
 data <- read_observations(verify_file(manifest$files$observations, "observations.csv"))
 prov <- read_json(verify_file(manifest$files$provenance, "provenance.json"))
-unit <- "Tuberculosis incidence (per 100 000 population)"
-stopifnot(nrow(data) > 0L, all(data$id == "MDG_0000000020"), all(data$unit == unit),
-          all(data$measure_field == "RATE_PER_100000_N"), all(data$time_type == "YEAR"),
+unit <- spec$unit
+stopifnot(nrow(data) > 0L, identical(manifest$snapshot, snapshot.id), all(data$id == spec$code), all(data$unit == unit),
+          all(data$measure_field == spec$measure), all(data$time_type == "YEAR"),
           identical(manifest$indicator$code, unique(data$id)), identical(manifest$indicator$unit, unit),
           !anyNA(data[c("area_code", "observation_id", "year")]), all(nzchar(data$observation_id)),
           !anyDuplicated(data[c("area_code", "year")]), !anyDuplicated(data$observation_id),
@@ -41,7 +41,7 @@ stopifnot(nrow(data) > 0L, all(data$id == "MDG_0000000020"), all(data$unit == un
 numbers <- lapply(data[c("value_num", "low", "high")], as.numeric)
 for (field in names(numbers)) {
   x <- numbers[[field]]
-  stopifnot(identical(is.na(x), is.na(data[[field]])), all(is.na(x) | (is.finite(x) & x >= 0)))
+  stopifnot(identical(is.na(x), is.na(data[[field]])), all(is.na(x) | (is.finite(x) & x >= 0 & x <= spec$maximum)))
 }
 stopifnot(all(numbers$low <= numbers$value_num, na.rm = TRUE),
           all(numbers$value_num <= numbers$high, na.rm = TRUE),
@@ -69,7 +69,7 @@ for (a in areas) {
     stopifnot(a$status == "no_observations", is.null(a$observations), is.null(a$first_year), is.null(a$last_year))
     next
   }
-  status <- if (length(absent) || anyNA(rows[c("value_num", "low", "high")])) "partial" else "complete"
+  status <- if (length(absent) || anyNA(rows[required.fields])) "partial" else "complete"
   stopifnot(a$status == status, a$first_year == min(y), a$last_year == max(y))
   slice <- read_observations(verify_file(a$observations, paste0("areas/", a$area_code, ".csv")))
   rownames(rows) <- NULL

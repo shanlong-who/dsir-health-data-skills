@@ -4,10 +4,10 @@ suppressPackageStartupMessages({
   library(jsonlite)
 })
 
-indicator.code <- "MDG_0000000020"
-expected.unit <- "Tuberculosis incidence (per 100 000 population)"
+source("scripts/wpr_indicator.R")
+indicator.code <- spec$code
+expected.unit <- spec$unit
 roster.url <- "https://www.who.int/westernpacific/about/where-we-work"
-out <- Sys.getenv("DSIR_SNAPSHOT_DIR", "snapshots/wpr-tb")
 roster <- read.csv("config/wpr-areas.csv", colClasses = "character")
 stopifnot(nrow(roster) == 38L, !anyNA(roster), !anyDuplicated(roster$area_code),
           !anyDuplicated(roster$m49), all(wpro_cty %in% roster$area_code),
@@ -56,10 +56,10 @@ stopifnot(!anyNA(data$year), all(data$time_type == "YEAR"),
           !anyDuplicated(data[c("area_code", "year")]),
           !anyNA(data$observation_id), all(nzchar(data$observation_id)),
           !anyDuplicated(data$observation_id), all(data$unit == expected.unit),
-          all(data$measure_field == "RATE_PER_100000_N"))
+          all(data$measure_field == spec$measure))
 for (field in c("value_num", "low", "high")) {
   x <- data[[field]]
-  stopifnot(is.numeric(x), all(is.na(x) | (is.finite(x) & x >= 0)))
+  stopifnot(is.numeric(x), all(is.na(x) | (is.finite(x) & x >= 0 & x <= spec$maximum)))
 }
 stopifnot(all(data$low <= data$high, na.rm = TRUE),
           all(data$low <= data$value_num, na.rm = TRUE),
@@ -82,7 +82,7 @@ area.coverage <- lapply(seq_len(nrow(roster)), function(i) {
   if (has.data) {
     path <- paste0("areas/", code, ".csv")
     write.csv(rows, file.path(out, path), row.names = FALSE, na = "", fileEncoding = "UTF-8")
-    status <- if (length(missing.years) || anyNA(rows[c("value_num", "low", "high")])) "partial" else "complete"
+    status <- if (length(missing.years) || anyNA(rows[required.fields])) "partial" else "complete"
   }
   list(area_code = code, area_name = roster$area_name[i], status = status,
        rows = nrow(rows), first_year = if (has.data) min(rows$year), last_year = if (has.data) max(rows$year),
@@ -108,6 +108,11 @@ prov <- list(product = "WHO Global Health Observatory", indicator_code = indicat
              run_id = Sys.getenv("GITHUB_RUN_ID"), run_attempt = Sys.getenv("GITHUB_RUN_ATTEMPT"),
              workflow_commit = Sys.getenv("GITHUB_SHA"), first_year = min(window), last_year = max(window),
              completeness = qa, areas = area.coverage, observations_sha256 = digest(file = csv, algo = "sha256"))
+if (dtp3) {
+  prov$estimate_type <- spec$estimate_type
+  prov$indicator_metadata <- spec$metadata_url
+  prov$bounds_expected <- spec$bounds_expected
+}
 write_json(prov, file.path(out, "provenance.json"), auto_unbox = TRUE, pretty = TRUE,
            na = "null", null = "null", digits = NA)
 print(qa)
