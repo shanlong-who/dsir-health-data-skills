@@ -1,0 +1,60 @@
+{
+  "product": "WHO Global Health Observatory",
+  "indicator_code": "MDG_0000000020",
+  "area": "PHL",
+  "requested_backend": "auto",
+  "actual_backend": "xmart",
+  "unit": "Tuberculosis incidence (per 100 000 population)",
+  "retrieval_status": "success",
+  "complete": true,
+  "sources": [
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DATA_/RELAY_WHS",
+      "retrieved_at": "2026-11-24T09:44:32Z",
+      "retrieval_status": "live",
+      "record_count": 25,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(IND_ID eq 'C288D13MDG_0000000020') and (DIM_GEO_CODE_TYPE in ('COUNTRY','NATIONAL LIBERATION MOVEMENT','ORGANIZED, UNINCORPORATED TERRITORY','TERRITORY')) and (DIM_GEO_CODE_M49 eq '608')",
+        "select": null,
+        "group": null,
+        "order": "Sys_PK"
+      }
+    }
+  ],
+  "query": {
+    "indicator": "MDG_0000000020",
+    "spatial_type": "country",
+    "area": "PHL",
+    "year_from": null,
+    "year_to": null,
+    "dim1": null,
+    "dim2": null,
+    "dim3": null,
+    "dimensions": null,
+    "requested_backend": "auto",
+    "actual_backend": "xmart"
+  },
+  "package_version": "0.15.0",
+  "run_id": "45367861887",
+  "workflow_commit": "f4dd1c6600b7e8872521c9f1e3b9a5f15a165793",
+  "query_seconds": 3.06,
+  "first_year": 2000,
+  "last_year": 2024,
+  "row_count": 25,
+  "latest": [
+    {
+      "year": 2024,
+      "value_num": 625,
+      "low": 344,
+      "high": 1020
+    }
+  ],
+  "observations_sha256": "9a78f941330236945aa1b78c84206723ffb853f098dadd0f7c4928ad290c7f8a"
+}
