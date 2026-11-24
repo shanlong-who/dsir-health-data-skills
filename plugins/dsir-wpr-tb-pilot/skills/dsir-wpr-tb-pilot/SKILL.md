@@ -1,0 +1,14 @@
+---
+name: dsir-wpr-tb-pilot
+description: Look up WHO Western Pacific tuberculosis incidence estimates by country or area and year through the Phase 2 DSIR snapshot manifest. Use for coverage, estimates, bounds, provenance and downloadable CSV files.
+---
+
+# Western Pacific tuberculosis incidence
+
+Open the [current manifest](https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/refs/heads/pilot/wpr-tb-phase2/snapshots/wpr-tb/manifest.json) for each new request. This is the entry point for Phase 2. Use the same manifest revision for every file in an answer. If the manifest cannot be read, explain the access problem and stop.
+
+1. Check the requested indicator, region and population against the manifest. Match the country or area to `geography.areas` by its label or ISO code, resolving common local names. Ask for clarification if a place name is ambiguous. The current roster applies across historical years. Treat Hong Kong SAR and Macao SAR as distinct area series. The snapshot contains country and area series. A regional aggregate or other disease measure requires a separate series.
+2. Distinguish a place outside the roster, a roster entry with `status = no_observations`, and a missing year within a covered area. Distinguish a year after or before the snapshot window from an internal gap. For a partial series, check the individual fields and years. Never impute, extrapolate, average rates to obtain a regional rate, or substitute a different area, indicator, database, or Phase 1.
+3. Follow the matched area's `observations.url` for a small CSV. For multi-area analysis use `files.observations.url`. If the small file fails, the full CSV from the same manifest is a valid fallback. Look up the actual row by `area_code` and `year`. With a request for the latest estimate, choose the latest row with a nonmissing `value_num` for that area and report its year. If a row has a missing estimate or bound, state which field is unavailable. A numeric zero is a reported value. If the CSV cannot be read, report what the manifest confirms and identify the file access limit.
+4. Read `files.provenance.url` for source, backend or retrieval questions. For integrity questions distinguish a recorded SHA-256 from a digest independently computed on the downloaded bytes. A checksum mismatch or inconsistent run, indicator, geography or unit means the figures cannot be verified. If a requested file is too large for the available tools, use the area CSV links for the requested places and identify any unverified files.
+5. Give country or area, year, estimate, reported bounds, unit and snapshot retrieval date. Cite the manifest and the CSV used. Include provenance and the full CSV download link when requested. Explain partial coverage in regional comparisons and name the denominator of any counts. Only compare the same indicator, year and unit. Preserve official precision and provide the observation ID when asked.

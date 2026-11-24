@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsir-wpr-tb-pilot",
+  "version": "0.2.0",
+  "description": "Read a dated WHO Western Pacific tuberculosis incidence snapshot published with DSIR.",
+  "author": { "name": "Shanlong Ding" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DSIR Snapshot Pilot Phase 2",
+        "shortDescription": "Western Pacific TB incidence",
+        "category": "Data & Analytics",
+        "capabilities": ["Read"],
+        "defaultPrompt": "Use the manifest to find the latest TB incidence estimate for Viet Nam, with bounds, units, retrieval date and file links."
+      }
+    }
+  }
+}

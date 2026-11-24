@@ -1,0 +1,56 @@
+name: DSIR Western Pacific TB snapshot
+on:
+  push:
+    branches: [pilot/wpr-tb-phase2]
+    paths:
+      - '.github/workflows/wpr-tb-phase2.yml'
+      - 'config/wpr-areas.csv'
+      - 'scripts/wpr_tb_*.R'
+      - 'scripts/verify_wpr_tb.R'
+permissions:
+  contents: write
+concurrency:
+  group: dsir-wpr-tb-phase2
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    if: github.repository == 'shanlong-who/dsir-health-data-skills' && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: r-lib/actions/setup-r@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05
+        with:
+          r-version: 'release'
+          use-public-rspm: true
+      - name: Install the Phase 1 DSIR revision and snapshot dependencies
+        shell: Rscript {0}
+        run: |
+          packages <- c("cli", "ggplot2", "httr2", "rlang", "tibble", "vctrs", "jsonlite", "digest", "openssl")
+          install.packages(setdiff(packages, rownames(installed.packages())), Ncpus = 2L)
+          revision <- "812127a997aa347647101f89c8eb43cc07e27255"
+          pkg <- tempfile(fileext = ".tar.gz")
+          download.file(paste0("https://codeload.github.com/shanlong-who/DSIR/tar.gz/", revision), pkg, mode = "wb")
+          install.packages(pkg, repos = NULL, type = "source")
+      - name: Retrieve and validate WHO observations
+        run: Rscript --vanilla scripts/wpr_tb_snapshot.R
+      - name: Pin data files and verify the manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- snapshots/wpr-tb/observations.csv snapshots/wpr-tb/provenance.json snapshots/wpr-tb/areas
+          git commit -m "Record Western Pacific TB observations and provenance"
+          export SNAPSHOT_DATA_COMMIT="$(git rev-parse HEAD)"
+          Rscript --vanilla scripts/wpr_tb_manifest.R
+          Rscript --vanilla scripts/verify_wpr_tb.R
+          (cd snapshots/wpr-tb && sha256sum --check manifest.sha256)
+          git add -- snapshots/wpr-tb/manifest.json snapshots/wpr-tb/manifest.sha256
+          git commit -m "Publish the verified Western Pacific TB manifest"
+      - name: Publish both commits together on the pilot branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh auth setup-git
+          git push origin HEAD:refs/heads/pilot/wpr-tb-phase2
