@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0",
   "snapshot": "wpr-ghe-deaths",
-  "run_id": "45379887521",
+  "run_id": "45383539069",
   "scope": "regional",
-  "data_commit": "ad1d476436d31f21118c4076c704b7dfbe5e88f3",
-  "retrieved_at": "2026-11-24T11:01:40Z",
+  "data_commit": "8e596511053240e516242ba665900079da8920f7",
+  "retrieved_at": "2026-11-24T11:23:18Z",
   "indicator": {
     "code": "GHE/0/deaths",
     "name": "All-cause deaths by sex",
@@ -224,7 +224,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/AUS.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/AUS.csv",
           "bytes": 8082,
           "sha256": "efcaf1acea8982afbe14bfbe444d6d14977fb01de85e066c5b5d90b2bc5c2d87"
         }
@@ -404,7 +404,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/BRN.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/BRN.csv",
           "bytes": 8092,
           "sha256": "29542156b7d42dfbfb1f07942fb2ff518820d854843a19ace1a4e0d5d66a2258"
         }
@@ -584,7 +584,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/KHM.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/KHM.csv",
           "bytes": 7922,
           "sha256": "5c6eacdee6f409eb12865ba3475906f9f27087d08f6e096a88ae5411a89f524c"
         }
@@ -764,7 +764,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/CHN.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/CHN.csv",
           "bytes": 8270,
           "sha256": "cf644c016e6e68128c274d16e897048320300f3747a270d23904545b1eaff5be"
         }
@@ -970,7 +970,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/FJI.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/FJI.csv",
           "bytes": 7282,
           "sha256": "01955afc44bde94a1043d27cdaf8ee98da1f51cc773a8baf3f4209d005f11d98"
         }
@@ -1228,7 +1228,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/IDN.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/IDN.csv",
           "bytes": 8410,
           "sha256": "315e5707625eb846d6577e1e89d9efec4d50d6e03941acd5ca0e4e4d54b0dfaa"
         }
@@ -1408,7 +1408,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/JPN.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/JPN.csv",
           "bytes": 8028,
           "sha256": "0e109fade5f579fc4caf719869f0bbfbd050a18561338ed480b9985cb4377140"
         }
@@ -1588,7 +1588,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/KIR.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/KIR.csv",
           "bytes": 7349,
           "sha256": "444a51ed185e31b72a135e9cd9a3707e46ece6e8d44aa56ca43e3f5d06cc17bd"
         }
@@ -1768,7 +1768,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/LAO.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/LAO.csv",
           "bytes": 9591,
           "sha256": "fb1b8625dcae582bb4cc8addcd39b812f9497e967e3ece6e82c9a306a7864b2d"
         }
@@ -1974,7 +1974,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/MYS.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/MYS.csv",
           "bytes": 8039,
           "sha256": "83c5ea0a824e8886192c15b80cd221111c4ccc95b5ee254be2c34bb18cea1019"
         }
@@ -2180,7 +2180,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/FSM.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/FSM.csv",
           "bytes": 9051,
           "sha256": "3c52d5cf00022e318ccd8c9683b7a88b043d01e0572f13a326b278c462c48d96"
         }
@@ -2360,7 +2360,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/MNG.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/MNG.csv",
           "bytes": 7757,
           "sha256": "4cd4efebc5eb4f40554255f87f0ef0d40dd20968f2d5bfd9f34bdc20b79d4782"
         }
@@ -2592,7 +2592,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/NZL.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/NZL.csv",
           "bytes": 8092,
           "sha256": "1b7e1f2d5c1dbc690c2b7fbd1b1d6bfbb4ab05295f11ebbb4647da16e749f613"
         }
@@ -2850,7 +2850,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/PNG.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/PNG.csv",
           "bytes": 8459,
           "sha256": "c34343fa39e44cc3e1655ed364978ef439c2181d40b55d22850701878958b2d7"
         }
@@ -3030,7 +3030,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/PHL.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/PHL.csv",
           "bytes": 8388,
           "sha256": "e1cea72d9505ca0ffb22fb6718913ae44f5bd647f79ddd95904b67a8840c6b79"
         }
@@ -3236,7 +3236,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/KOR.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/KOR.csv",
           "bytes": 8801,
           "sha256": "5ef055bc7125e037f9ad1002ee93e2e8d93879304cae179d89f4f4190ffd2c53"
         }
@@ -3416,7 +3416,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/WSM.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/WSM.csv",
           "bytes": 7178,
           "sha256": "6a38332b345d0cc29d5be4edae02c290106b88a09cf9c43726f7b75dfbe0d026"
         }
@@ -3596,7 +3596,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/SGP.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/SGP.csv",
           "bytes": 7862,
           "sha256": "9f0e1a75638b3fd036a447cd0758a39ee9fd058a61dab2ed537913f3b77b5e8d"
         }
@@ -3776,7 +3776,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/SLB.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/SLB.csv",
           "bytes": 8094,
           "sha256": "2f2cb2dd5a5669d029450195395f68acb83e49560120e0a9c6cbb378449019ba"
         }
@@ -3982,7 +3982,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/TON.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/TON.csv",
           "bytes": 7108,
           "sha256": "7c46535c7b4af797fa733ccc0ca6ab61f3d3554ba863b7f66af680c27ab1bb0a"
         }
@@ -4188,7 +4188,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/VUT.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/VUT.csv",
           "bytes": 7403,
           "sha256": "e73489bfef97c1b15576df4b526ba5568927768440bf18f6aeb2efd16fc913f3"
         }
@@ -4368,7 +4368,7 @@
           }
         ],
         "observations": {
-          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/areas/VNM.csv",
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/VNM.csv",
           "bytes": 8169,
           "sha256": "4491074792ac30a5b1155b6238060ba652ed956a1900ee41b056a3ebbfff6bc5"
         }
@@ -4418,14 +4418,14 @@
   },
   "files": {
     "observations": {
-      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/observations.csv",
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/observations.csv",
       "bytes": 174907,
       "sha256": "6cb97ac6f80b658b92da53bec194043e8e6028e3ef219ef564bcb09830ef494d"
     },
     "provenance": {
-      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/ad1d476436d31f21118c4076c704b7dfbe5e88f3/snapshots/wpr-ghe-deaths/provenance.json",
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/provenance.json",
       "bytes": 3414,
-      "sha256": "ea5d5ef18b11266cdc1c7a5cc12aef65946a74a9b3b8e53985f6817004346430"
+      "sha256": "adc8fc61e3b225e7365eb7b760fcd9c2e5c8429e42fdeedcd043faa659656b8d"
     }
   }
 }
