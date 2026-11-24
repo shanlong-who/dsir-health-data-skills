@@ -1,0 +1,48 @@
+name: DSIR Philippines TB snapshot pilot
+on:
+  push:
+    branches: [pilot/phl-tb-snapshot]
+    paths:
+      - '.github/workflows/phl-tb-snapshot.yml'
+      - 'scripts/phl_tb_snapshot.R'
+permissions:
+  contents: write
+concurrency:
+  group: dsir-phl-tb-pilot
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    if: github.repository == 'shanlong-who/dsir-health-data-skills' && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: r-lib/actions/setup-r@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05
+        with:
+          r-version: 'release'
+          use-public-rspm: true
+      - name: Install DSIR 0.15.0 and export dependencies
+        shell: Rscript {0}
+        run: |
+          packages <- c("cli", "ggplot2", "httr2", "rlang", "tibble", "vctrs", "jsonlite", "digest")
+          install.packages(setdiff(packages, rownames(installed.packages())), Ncpus = 2L)
+          revision <- "812127a997aa347647101f89c8eb43cc07e27255"
+          url <- paste0("https://codeload.github.com/shanlong-who/DSIR/tar.gz/", revision)
+          target <- tempfile(fileext = ".tar.gz")
+          download.file(url, target, mode = "wb", quiet = TRUE)
+          install.packages(target, repos = NULL, type = "source")
+          stopifnot(as.character(packageVersion("DSIR")) == "0.15.0")
+      - name: Query WHO and validate the two files
+        run: Rscript --vanilla scripts/phl_tb_snapshot.R
+      - name: Publish verified snapshot on the pilot branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          gh auth setup-git
+          git add -- snapshots/phl-tb/observations.csv snapshots/phl-tb/provenance.json snapshots/phl-tb/README.md
+          git commit -m "Publish verified Philippine TB incidence snapshot"
+          git push origin HEAD:refs/heads/pilot/phl-tb-snapshot
