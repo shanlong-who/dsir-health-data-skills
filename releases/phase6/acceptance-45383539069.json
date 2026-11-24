@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-24T11:29:22Z",
+  "test": "User-assisted ordinary Chat on the separate 0.6.0 candidate; answer checked against the cited public bytes",
+  "version": "0.6.0",
+  "candidate_catalog": {
+    "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/f29dca042b2df85505141976d92aa206aeec3a03/snapshots/phase6/catalog.json",
+    "sha256": "dfa27945b524d54f37932df6bacc4d920373276aa4b17be14ac10478dd3241e8"
+  },
+  "archive_sha256": "ac1ce0bd8557cd934f2e1b44244a1e413121cd2835a446432cb9fbdf697805f3",
+  "gates": {
+    "philippines_catalog": "rejected",
+    "accepted_baseline": "passed",
+    "previous_region_as_current": "rejected",
+    "candidate": "passed"
+  },
+  "fresh_ghe": {
+    "run_id": "45383539069",
+    "retrieved_at": "2026-11-24T11:23:18Z",
+    "rows": 1584,
+    "csv_identical_to_baseline": true,
+    "public_files_hashed": 26,
+    "viet_nam": [
+      {
+        "sex": "MALE",
+        "year": 2023,
+        "value": 390191.31,
+        "low": 293674.44,
+        "high": 508698.92,
+        "unit": "deaths",
+        "_row": "MALE"
+      },
+      {
+        "sex": "TOTAL",
+        "year": 2023,
+        "value": 720006.34,
+        "low": 541783.73,
+        "high": 938547.81,
+        "unit": "deaths",
+        "_row": "TOTAL"
+      }
+    ],
+    "guam_status": "no_observations"
+  },
+  "phase4_regression": {
+    "public_files_hashed": 96,
+    "dtp3_latest": {
+      "year": 2024,
+      "value": 97,
+      "denominator": "one-year-olds"
+    },
+    "skilled_birth_attendance_latest": {
+      "year": 2022,
+      "value": 98,
+      "denominator": "live births"
+    },
+    "latest_common_year": 2022,
+    "common_values": [91, 98],
+    "birth_records_2020": 0
+  },
+  "reply_files": [
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/f29dca042b2df85505141976d92aa206aeec3a03/snapshots/phase6/catalog.json",
+      "sha256": "dfa27945b524d54f37932df6bacc4d920373276aa4b17be14ac10478dd3241e8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/24fbeec1a422cb154b6242752e9fe00721ff5379/snapshots/wpr-ghe-deaths/manifest.json",
+      "sha256": "a24d487452f1763717aac149a4444f05389256def9134c5b9d2ed69dfe2a460e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/b0d0ceff0236906345686be867b7965ebb8cf402/snapshots/wpr-dtp3/manifest.json",
+      "sha256": "13ee52e5ce9b9694ab61889e55a6fc2b0193cfc10dbb4438802032e2d0ebda58"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/30e89b004118364a5ba5e7284ff27069288bf230/snapshots/wpr-sba/manifest.json",
+      "sha256": "1868ea258e0298b7b4c85a35c2220a6a742bc5df503995735bae1d0966b7d224"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/8e596511053240e516242ba665900079da8920f7/snapshots/wpr-ghe-deaths/areas/VNM.csv",
+      "sha256": "4491074792ac30a5b1155b6238060ba652ed956a1900ee41b056a3ebbfff6bc5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/9bb77e10d46990623c5cd2570cb888f4f639933d/snapshots/wpr-dtp3/areas/VNM.csv",
+      "sha256": "63e0e9bc4a06861121acfe270258c781fcc2e6d6176c51ee5e02a3129a13069e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/2c33893030dffe8460d0e2e27401f143dbf0304d/snapshots/wpr-sba/areas/VNM.csv",
+      "sha256": "aa27c97d4cda49ab0a9853628ac3e0ddc28543512478c88cb380c09516481117"
+    }
+  ]
+}
