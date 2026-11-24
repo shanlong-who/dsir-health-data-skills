@@ -25,7 +25,7 @@ fetch <- function(url, path) {
 hash_file <- function(path) {
   con <- file(path, "rb")
   on.exit(close(con))
-  as.character(sha256(con))
+  paste(as.character(sha256(con)), collapse = "")
 }
 catalog.path <- fetch(catalog.url, file.path(root, "catalog.json"))
 sidecar <- fetch(sub("json$", "sha256", catalog.url), file.path(root, "catalog.sha256"))
