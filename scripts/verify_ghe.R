@@ -5,7 +5,8 @@ suppressPackageStartupMessages({
 })
 source("scripts/ghe_spec.R")
 public <- "--public" %in% commandArgs(TRUE)
-prefix <- paste0(raw.base, "refs/heads/pilot/wpr-ghe-phase5/")
+revision <- Sys.getenv("DSIR_GHE_CATALOG_REVISION", "refs/heads/pilot/wpr-ghe-phase5")
+prefix <- paste0(raw.base, revision, "/")
 root <- if (public) tempfile("ghe-check-") else "."
 hash_file <- function(path) {
   con <- file(path, "rb")

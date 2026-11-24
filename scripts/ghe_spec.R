@@ -3,7 +3,7 @@ stopifnot(length(scope) == 1L, scope %in% c("philippines", "regional"))
 pilot <- scope == "philippines"
 snapshot.id <- if (pilot) "phl-ghe-deaths" else "wpr-ghe-deaths"
 out <- file.path("snapshots", snapshot.id)
-catalog.dir <- "snapshots/phase5"
+catalog.dir <- Sys.getenv("DSIR_GHE_CATALOG_DIR", "snapshots/phase5")
 roster <- read.csv("config/wpr-areas.csv", colClasses = "character")
 stopifnot(nrow(roster) == 38L, !anyNA(roster), !anyDuplicated(roster$area_code))
 if (pilot) roster <- subset(roster, area_code == "PHL")

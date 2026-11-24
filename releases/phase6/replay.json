@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-24T11:22:07Z",
+  "accepted_regional": {
+    "status": "passed",
+    "issues": [],
+    "archive_sha256": "37df720f034f6b22312fa99e93b89289fbb46a2a406371f716b5a3e283ab7fb1",
+    "expected": {
+      "plugin_name": "dsir-wpr-ghe-pilot",
+      "plugin_version": "0.5.1",
+      "snapshot": "wpr-ghe-deaths",
+      "scope": "regional",
+      "run_id": "45379887521",
+      "retrieved_at": "2026-11-24T11:01:40Z",
+      "catalog": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/17016b3f12e6729e1d151ac21a37a3455a62b662/snapshots/phase5/catalog.json",
+        "sha256": "6e314582d376d672b4185447bb8fdbaccce60607d077115eca4caa5d9d79d386"
+      },
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/a7382185415466540ef91c3f5d32decf5eb18ecd/snapshots/wpr-ghe-deaths/manifest.json",
+        "sha256": "388c8a025c45c153bfcbc8e60bd0a5cb44851f8f145364dc87b46e9d0eb13ef9"
+      }
+    },
+    "actual": {
+      "plugin_name": "dsir-wpr-ghe-pilot",
+      "plugin_version": "0.5.1",
+      "snapshot": "wpr-ghe-deaths",
+      "scope": "regional",
+      "run_id": "45379887521",
+      "retrieved_at": "2026-11-24T11:01:40Z",
+      "catalog": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/17016b3f12e6729e1d151ac21a37a3455a62b662/snapshots/phase5/catalog.json",
+        "sha256": "6e314582d376d672b4185447bb8fdbaccce60607d077115eca4caa5d9d79d386"
+      },
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/a7382185415466540ef91c3f5d32decf5eb18ecd/snapshots/wpr-ghe-deaths/manifest.json",
+        "sha256": "388c8a025c45c153bfcbc8e60bd0a5cb44851f8f145364dc87b46e9d0eb13ef9"
+      }
+    },
+    "checks": {
+      "catalog_sidecar": true,
+      "linked_manifest": true,
+      "manifest_digest": true,
+      "manifest_length": true,
+      "manifest_identity": true,
+      "dimensions": true,
+      "regional_roster": true,
+      "skill_identity": true
+    },
+    "transport": "public"
+  },
+  "stale_philippines": {
+    "status": "rejected",
+    "issues": [
+      "snapshot",
+      "scope",
+      "run_id",
+      "retrieved_at",
+      "catalog",
+      "manifest",
+      "regional_roster"
+    ],
+    "archive_sha256": "b614b5fe49cf593ff9dfeb6f25eb3a88393b900e95dc9d7d4767cf579beb592b",
+    "expected": {
+      "plugin_name": "dsir-wpr-ghe-pilot",
+      "plugin_version": "0.5.1",
+      "snapshot": "wpr-ghe-deaths",
+      "scope": "regional",
+      "run_id": "45379887521",
+      "retrieved_at": "2026-11-24T11:01:40Z",
+      "catalog": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/17016b3f12e6729e1d151ac21a37a3455a62b662/snapshots/phase5/catalog.json",
+        "sha256": "6e314582d376d672b4185447bb8fdbaccce60607d077115eca4caa5d9d79d386"
+      },
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/a7382185415466540ef91c3f5d32decf5eb18ecd/snapshots/wpr-ghe-deaths/manifest.json",
+        "sha256": "388c8a025c45c153bfcbc8e60bd0a5cb44851f8f145364dc87b46e9d0eb13ef9"
+      }
+    },
+    "actual": {
+      "plugin_name": "dsir-wpr-ghe-pilot",
+      "plugin_version": "0.5.1",
+      "snapshot": "phl-ghe-deaths",
+      "scope": "philippines",
+      "run_id": "45379334336",
+      "retrieved_at": "2026-11-24T10:56:36Z",
+      "catalog": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/2a2e030b29344c10e401f4d2168ebd5ad3aa7030/snapshots/phase5/catalog.json",
+        "sha256": "65b71adbb17ddfa8df3f550ae05ae86875706f18f156533b38e283e90c79118e"
+      },
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/da1c9991fb1c55466ba50f659da43ac585bd3c13/snapshots/phl-ghe-deaths/manifest.json",
+        "sha256": "65114587defaff5f520820dfc61289efdb2854cd4777a98638b030df236a2560"
+      }
+    },
+    "checks": {
+      "catalog_sidecar": true,
+      "linked_manifest": true,
+      "manifest_digest": true,
+      "manifest_length": true,
+      "manifest_identity": true,
+      "dimensions": true,
+      "regional_roster": false,
+      "skill_identity": true
+    },
+    "transport": "public"
+  }
+}

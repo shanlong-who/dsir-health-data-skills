@@ -1,0 +1,80 @@
+name: DSIR Phase 6 snapshot release rehearsal
+on:
+  push:
+    branches: [pilot/wpr-release-phase6]
+    paths:
+      - '.github/workflows/wpr-release-phase6.yml'
+      - 'config/phase6-plugin.json'
+      - 'config/release-baseline-0.5.1.json'
+      - 'scripts/check_release.R'
+      - 'scripts/replay_release.R'
+      - 'scripts/build_release.R'
+      - 'plugins/dsir-wpr-ghe-pilot/**'
+      - 'config/ghe-scope.txt'
+      - 'config/wpr-areas.csv'
+      - 'scripts/ghe_*.R'
+      - 'scripts/verify_ghe*.R'
+permissions:
+  contents: write
+concurrency:
+  group: dsir-phase6-release
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    if: github.repository == 'shanlong-who/dsir-health-data-skills' && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      DSIR_GHE_CATALOG_DIR: snapshots/phase6
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: r-lib/actions/setup-r@f9a764fea8d5c63df6ef9a5c7795bf7deb5d7e05
+        with:
+          r-version: 'release'
+          use-public-rspm: true
+      - name: Install the Phase 1 DSIR revision and snapshot dependencies
+        shell: Rscript {0}
+        run: |
+          packages <- c("cli", "ggplot2", "httr2", "rlang", "tibble", "vctrs", "jsonlite", "digest", "openssl", "curl", "magrittr", "zip", "yaml")
+          install.packages(setdiff(packages, rownames(installed.packages())), Ncpus = 2L)
+          revision <- "812127a997aa347647101f89c8eb43cc07e27255"
+          pkg <- tempfile(fileext = ".tar.gz")
+          download.file(paste0("https://codeload.github.com/shanlong-who/DSIR/tar.gz/", revision), pkg, mode = "wb")
+          install.packages(pkg, repos = NULL, type = "source")
+      - name: Reject the stale catalog before contacting WHO
+        run: Rscript --vanilla scripts/replay_release.R releases/phase6/ci-replay.json git
+      - name: Export DSIR rows and compare with independent WHO queries
+        run: |
+          mv snapshots/wpr-ghe-deaths/areas "$RUNNER_TEMP/previous-ghe-areas"
+          Rscript --vanilla scripts/ghe_snapshot.R
+          Rscript --vanilla scripts/verify_ghe_source.R
+      - name: Build and independently verify the pinned catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          folder="$(Rscript --vanilla -e 'source("scripts/ghe_spec.R"); cat(out)')"
+          git add -- "$folder/observations.csv" "$folder/provenance.json" "$folder/areas"
+          git commit -m "Record verified GHE observations and acquisition metadata"
+          Rscript --vanilla scripts/ghe_publish.R manifest "$(git rev-parse HEAD)"
+          (cd "$folder" && sha256sum -c manifest.sha256)
+          git add -- "$folder/manifest.json" "$folder/manifest.sha256"
+          git commit -m "Pin dimensional GHE coverage and data files"
+          Rscript --vanilla scripts/ghe_publish.R catalog "$(git rev-parse HEAD)"
+          Rscript --vanilla scripts/verify_ghe.R
+          Rscript --vanilla scripts/verify_catalog.R --phase4
+          git add -- snapshots/phase6
+          git commit -m "Pin the refreshed Phase 6 catalog"
+          Rscript --vanilla scripts/build_release.R "$(git rev-parse HEAD)" "$GITHUB_RUN_ID"
+          archive="$(Rscript --vanilla -e 'x <- jsonlite::read_json("config/phase6-plugin.json"); cat(paste0("releases/phase6/", x$name, "-", x$version, ".zip"))')"
+          Rscript --vanilla scripts/check_release.R "$archive" releases/phase6/release.json git releases/phase6/package-check.json
+          git add -- releases/phase6
+          git commit -m "Record the checked candidate package and release identity"
+      - name: Publish validated commits together
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh auth setup-git
+          git push origin HEAD:refs/heads/pilot/wpr-release-phase6
