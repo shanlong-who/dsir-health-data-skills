@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsir-wpr-ghe-pilot",
+  "version": "0.5.0",
+  "description": "Query dated Western Pacific health snapshots from WHO GHE, WHO GHO and the UN SDG database.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DSIR Snapshot Pilot Phase 5",
+        "shortDescription": "Western Pacific health data",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": "For the Philippines, find the latest female and both-sex all-cause death estimates with bounds, units and the original country CSV."
+      }
+    }
+  }
+}
