@@ -1,0 +1,4 @@
+"area_code","year","sex","age","cause_code","measure","area_name","cause_name","value","low","high","unit","population"
+"PHL",2023,"FEMALE","TOTAL","0","deaths","Philippines","All Causes",287060.53,268944.75,307544.71,"deaths",57580390
+"PHL",2023,"MALE","TOTAL","0","deaths","Philippines","All Causes",405830.79,381979.47,430912.34,"deaths",57310824
+"PHL",2023,"TOTAL","TOTAL","0","deaths","Philippines","All Causes",692891.31,650924.22,738457.05,"deaths",114891214

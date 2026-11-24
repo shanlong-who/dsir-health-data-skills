@@ -1,0 +1,45 @@
+{
+  "product": "WHO Global Health Estimates",
+  "actual_backend": "xmart",
+  "table": "DEX_CMS/GHE_FULL",
+  "scope": "philippines",
+  "selection": {
+    "code": "GHE/0/deaths",
+    "name": "All-cause deaths by sex",
+    "unit": "deaths",
+    "cause_code": "0",
+    "cause_name": "All Causes",
+    "measure": "deaths",
+    "age": "TOTAL",
+    "sex": ["FEMALE", "MALE", "TOTAL"],
+    "product": "WHO Global Health Estimates",
+    "backend": "xmart"
+  },
+  "package_version": "0.15.0",
+  "retrieved_at": "2026-11-24T10:56:36Z",
+  "run_id": "45379334336",
+  "sources": [
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL",
+      "retrieved_at": "2026-11-24T10:56:36Z",
+      "retrieval_status": "live",
+      "record_count": 3,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(DIM_COUNTRY_CODE eq 'PHL') and (DIM_YEAR_CODE eq 2023) and (DIM_SEX_CODE in ('FEMALE','MALE','TOTAL')) and (DIM_AGEGROUP_CODE eq 'TOTAL') and (DIM_GHECAUSE_CODE eq 0)",
+        "select": ["Sys_PK", "DIM_COUNTRY_CODE", "DIM_YEAR_CODE", "DIM_SEX_CODE", "DIM_AGEGROUP_CODE", "DIM_GHECAUSE_CODE", "DIM_GHECAUSE_TITLE", "ATTR_POPULATION_NUMERIC", "FLAG_LEVEL", "DIM_CAUSE_GROUP", "FLAG_RANKABLE", "VAL_DTHS_COUNT_NUMERIC", "VAL_DTHS_COUNT_LOW", "VAL_DTHS_COUNT_HIGH"],
+        "group": null,
+        "order": "Sys_PK"
+      }
+    }
+  ],
+  "roster_source": "https://www.who.int/westernpacific/about/where-we-work",
+  "geography_basis": "Philippines, 2023 pilot",
+  "observations_sha256": "b9985960ad8216e1adc81a156fa61888c1cd23fb77b3246fa3a8848075991188"
+}
