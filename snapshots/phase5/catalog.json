@@ -85,7 +85,7 @@
       "backend": "unsdg"
     },
     {
-      "id": "phl-ghe-deaths",
+      "id": "wpr-ghe-deaths",
       "indicator": {
         "code": "GHE/0/deaths",
         "name": "All-cause deaths by sex",
@@ -104,18 +104,18 @@
       },
       "product": "WHO Global Health Estimates",
       "backend": "xmart",
-      "scope": "philippines",
+      "scope": "regional",
       "aliases": ["number of deaths", "all causes mortality count"],
       "years": {
-        "first": 2023,
+        "first": 2000,
         "last": 2023
       },
-      "run_id": "45379334336",
-      "retrieved_at": "2026-11-24T10:56:36Z",
+      "run_id": "45379887521",
+      "retrieved_at": "2026-11-24T11:01:40Z",
       "manifest": {
-        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/da1c9991fb1c55466ba50f659da43ac585bd3c13/snapshots/phl-ghe-deaths/manifest.json",
-        "bytes": 2869,
-        "sha256": "65114587defaff5f520820dfc61289efdb2854cd4777a98638b030df236a2560"
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/a7382185415466540ef91c3f5d32decf5eb18ecd/snapshots/wpr-ghe-deaths/manifest.json",
+        "bytes": 96502,
+        "sha256": "388c8a025c45c153bfcbc8e60bd0a5cb44851f8f145364dc87b46e9d0eb13ef9"
       }
     }
   ]
