@@ -19,7 +19,9 @@
       "manifest": {
         "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/c9b2af42e92fd1383120ef5e0e1364b8e509e664/snapshots/wpr-tb/manifest.json",
         "sha256": "9900a033456a4a2fc98626f7001def5e49237b06b96e46d303b50ad1a6098519"
-      }
+      },
+      "product": "WHO Global Health Observatory",
+      "backend": "xmart"
     },
     {
       "id": "wpr-dtp3",
@@ -41,7 +43,35 @@
       "manifest": {
         "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/b0d0ceff0236906345686be867b7965ebb8cf402/snapshots/wpr-dtp3/manifest.json",
         "sha256": "13ee52e5ce9b9694ab61889e55a6fc2b0193cfc10dbb4438802032e2d0ebda58"
-      }
+      },
+      "product": "WHO Global Health Observatory",
+      "backend": "xmart"
+    },
+    {
+      "id": "wpr-sba",
+      "indicator": {
+        "code": "3.1.2",
+        "name": "Proportion of births attended by skilled health personnel",
+        "unit": "Percent of live births",
+        "series": "SH_STA_BRTC",
+        "metadata_url": "https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf",
+        "product": "United Nations Global SDG Indicators Database",
+        "backend": "unsdg",
+        "reporting_type": "G"
+      },
+      "aliases": ["skilled birth attendance", "skilled attendance at birth", "SH_STA_BRTC"],
+      "years": {
+        "first": 2000,
+        "last": 2024
+      },
+      "retrieved_at": "2026-11-24T10:39:31Z",
+      "run_id": "45376726392",
+      "manifest": {
+        "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/30e89b004118364a5ba5e7284ff27069288bf230/snapshots/wpr-sba/manifest.json",
+        "sha256": "1868ea258e0298b7b4c85a35c2220a6a742bc5df503995735bae1d0966b7d224"
+      },
+      "product": "United Nations Global SDG Indicators Database",
+      "backend": "unsdg"
     }
   ]
 }
