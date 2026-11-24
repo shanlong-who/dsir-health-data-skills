@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.0",
+  "snapshot": "phl-ghe-deaths",
+  "run_id": "45379334336",
+  "scope": "philippines",
+  "data_commit": "dd674b429e2b2c60cebfc30431dd5387e583bb73",
+  "retrieved_at": "2026-11-24T10:56:36Z",
+  "indicator": {
+    "code": "GHE/0/deaths",
+    "name": "All-cause deaths by sex",
+    "unit": "deaths",
+    "cause_code": "0",
+    "cause_name": "All Causes",
+    "measure": "deaths",
+    "age": "TOTAL",
+    "sex": ["FEMALE", "MALE", "TOTAL"],
+    "product": "WHO Global Health Estimates",
+    "backend": "xmart"
+  },
+  "observation_key": ["area_code", "year", "sex", "age", "cause_code", "measure"],
+  "geography": {
+    "region": "WHO Western Pacific Region",
+    "basis": "Philippines, 2023 pilot",
+    "roster_source": "https://www.who.int/westernpacific/about/where-we-work",
+    "areas": [
+      {
+        "area_code": "PHL",
+        "area_name": "Philippines",
+        "rows": 3,
+        "status": "complete",
+        "first_year": 2023,
+        "last_year": 2023,
+        "strata": [
+          {
+            "sex": "FEMALE",
+            "observed_years": [
+              2023
+            ],
+            "nonmissing_years": [
+              2023
+            ]
+          },
+          {
+            "sex": "MALE",
+            "observed_years": [
+              2023
+            ],
+            "nonmissing_years": [
+              2023
+            ]
+          },
+          {
+            "sex": "TOTAL",
+            "observed_years": [
+              2023
+            ],
+            "nonmissing_years": [
+              2023
+            ]
+          }
+        ],
+        "observations": {
+          "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/dd674b429e2b2c60cebfc30431dd5387e583bb73/snapshots/phl-ghe-deaths/areas/PHL.csv",
+          "bytes": 466,
+          "sha256": "b9985960ad8216e1adc81a156fa61888c1cd23fb77b3246fa3a8848075991188"
+        }
+      }
+    ]
+  },
+  "years": {
+    "first": 2023,
+    "last": 2023
+  },
+  "completeness": {
+    "retrieval": "complete",
+    "roster_areas": 1,
+    "observed_areas": 1,
+    "expected_area_year_sex": 3,
+    "observed_rows": 3,
+    "absent_area_year_sex": 0,
+    "missing_estimates": 0,
+    "missing_lower_bounds": 0,
+    "missing_upper_bounds": 0
+  },
+  "files": {
+    "observations": {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/dd674b429e2b2c60cebfc30431dd5387e583bb73/snapshots/phl-ghe-deaths/observations.csv",
+      "bytes": 466,
+      "sha256": "b9985960ad8216e1adc81a156fa61888c1cd23fb77b3246fa3a8848075991188"
+    },
+    "provenance": {
+      "url": "https://raw.githubusercontent.com/shanlong-who/dsir-health-data-skills/dd674b429e2b2c60cebfc30431dd5387e583bb73/snapshots/phl-ghe-deaths/provenance.json",
+      "bytes": 1728,
+      "sha256": "0ff77ec2d311eae616adfbfd3f8b424b64ebe1e3e782fc0c36e499ed1d77d918"
+    }
+  }
+}
