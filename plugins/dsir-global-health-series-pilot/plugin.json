@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsir-global-health-series-pilot",
+  "version": "0.8.0",
+  "description": "Query published worldwide health snapshots and discover candidate indicators across WHO GHO, UN SDG and WHO GHE.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DSIR Global Snapshot Pilot Phase 8",
+        "shortDescription": "Worldwide health series",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": "Compare female and male under-five mortality rates and death counts for the latest year in Viet Nam. Include bounds and the country CSV."
+      }
+    }
+  }
+}
