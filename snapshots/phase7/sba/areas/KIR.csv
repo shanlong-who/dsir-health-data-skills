@@ -1,0 +1,8 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+KIR,2000,SH_STA_BRTC,Percent of live births,85,,,G
+KIR,2002,SH_STA_BRTC,Percent of live births,76,,,G
+KIR,2005,SH_STA_BRTC,Percent of live births,63,,,G
+KIR,2008,SH_STA_BRTC,Percent of live births,65,,,G
+KIR,2009,SH_STA_BRTC,Percent of live births,79.8,,,G
+KIR,2010,SH_STA_BRTC,Percent of live births,98.3,,,G
+KIR,2019,SH_STA_BRTC,Percent of live births,91.9,,,G

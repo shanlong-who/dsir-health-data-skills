@@ -1,0 +1,8 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+VNM,2000,SH_STA_BRTC,Percent of live births,58.8,,,G
+VNM,2002,SH_STA_BRTC,Percent of live births,85,,,G
+VNM,2006,SH_STA_BRTC,Percent of live births,83.8,,,G
+VNM,2011,SH_STA_BRTC,Percent of live births,91.9,,,G
+VNM,2014,SH_STA_BRTC,Percent of live births,93.8,,,G
+VNM,2021,SH_STA_BRTC,Percent of live births,96.1,,,G
+VNM,2022,SH_STA_BRTC,Percent of live births,98,,,G

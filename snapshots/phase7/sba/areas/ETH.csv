@@ -1,0 +1,8 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+ETH,2000,SH_STA_BRTC,Percent of live births,5.6,,,G
+ETH,2004,SH_STA_BRTC,Percent of live births,6.4,,,G
+ETH,2005,SH_STA_BRTC,Percent of live births,5.7,,,G
+ETH,2011,SH_STA_BRTC,Percent of live births,10,,,G
+ETH,2014,SH_STA_BRTC,Percent of live births,15.5,,,G
+ETH,2016,SH_STA_BRTC,Percent of live births,27.7,,,G
+ETH,2019,SH_STA_BRTC,Percent of live births,49.8,,,G

@@ -1,0 +1,30 @@
+{
+  "audit_csv_sha256": "634efc9778f795e127d41553d93a26479afb33d1c0b6fa9cde25f2c40ce72173",
+  "DSIR_version": "0.15.0",
+  "sources": [
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DATA_/RELAY_WHS",
+      "retrieved_at": "2026-11-24T11:40:20Z",
+      "retrieval_status": "live",
+      "record_count": 5177,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(IND_ID eq 'C288D13MDG_0000000020')",
+        "select": null,
+        "group": null,
+        "order": "Sys_PK"
+      }
+    }
+  ],
+  "successful_fetch_seconds": 22.1681718826294,
+  "source_rows": 5177,
+  "geographic_aggregate_rows": 275,
+  "outside_selected_series_or_reporting_type": 0,
+  "export_rows": 4902
+}

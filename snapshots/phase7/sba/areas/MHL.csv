@@ -1,0 +1,6 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+MHL,2007,SH_STA_BRTC,Percent of live births,86.2,,,G
+MHL,2009,SH_STA_BRTC,Percent of live births,86.5,,,G
+MHL,2010,SH_STA_BRTC,Percent of live births,90,,,G
+MHL,2011,SH_STA_BRTC,Percent of live births,90.1,,,G
+MHL,2017,SH_STA_BRTC,Percent of live births,92.4,,,G

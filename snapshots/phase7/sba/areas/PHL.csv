@@ -1,0 +1,8 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+PHL,2000,SH_STA_BRTC,Percent of live births,58,,,G
+PHL,2003,SH_STA_BRTC,Percent of live births,59.8,,,G
+PHL,2008,SH_STA_BRTC,Percent of live births,62.2,,,G
+PHL,2011,SH_STA_BRTC,Percent of live births,72.2,,,G
+PHL,2013,SH_STA_BRTC,Percent of live births,72.8,,,G
+PHL,2017,SH_STA_BRTC,Percent of live births,84.4,,,G
+PHL,2022,SH_STA_BRTC,Percent of live births,89.6,,,G

@@ -1,0 +1,1215 @@
+{
+  "release": "0.7.0",
+  "dataset": "road",
+  "product": "United Nations Global SDG Indicators Database",
+  "indicator": "3.6.1",
+  "backend": "unsdg",
+  "retrieved_from": "2026-11-24T11:38:52Z",
+  "retrieved_through": "2026-11-24T11:38:52Z",
+  "scope": "global_country_area",
+  "area_count": 195,
+  "row_count": 390,
+  "geography": "geography.csv",
+  "series": [
+    {
+      "code": "SH_STA_TRAF",
+      "name": "Road traffic injury death rate",
+      "unit": "Deaths per 100000 population",
+      "denominator": "Population",
+      "first_year": 2021,
+      "last_year": 2021,
+      "areas": 195,
+      "rows": 195
+    },
+    {
+      "code": "SH_STA_TRAFN",
+      "name": "Road traffic injury deaths",
+      "unit": "Deaths",
+      "denominator": null,
+      "first_year": 2021,
+      "last_year": 2021,
+      "areas": 195,
+      "rows": 195
+    }
+  ],
+  "dimensions": {
+    "reporting_type": "G"
+  },
+  "areas": {
+    "AFG": {
+      "path": "road/areas/AFG.csv",
+      "sha256": "fb1e4fab5e08a6a3754027adc59123ede071dcdc9148237d2bb7b4a8b3c79a8f",
+      "bytes": 187,
+      "rows": 2
+    },
+    "AGO": {
+      "path": "road/areas/AGO.csv",
+      "sha256": "6f910f1198135ef8636d7e57c1ab8af0b3f880d15500a4f4753f844fc97d7046",
+      "bytes": 186,
+      "rows": 2
+    },
+    "ALB": {
+      "path": "road/areas/ALB.csv",
+      "sha256": "76ef5054c92fd9d80f4758c716d22092465ecab52c8fa6f29102564928da300e",
+      "bytes": 185,
+      "rows": 2
+    },
+    "AND": {
+      "path": "road/areas/AND.csv",
+      "sha256": "427c10f0dc0e7c71c0900b056a8038c3b6132908c5f983479b18b59010dfed5d",
+      "bytes": 176,
+      "rows": 2
+    },
+    "ARE": {
+      "path": "road/areas/ARE.csv",
+      "sha256": "b20d93e3cdcf9ca4587bd1eaa3df9890dc7baa65d4330bb1dfac22d1b8270082",
+      "bytes": 182,
+      "rows": 2
+    },
+    "ARG": {
+      "path": "road/areas/ARG.csv",
+      "sha256": "7eaad0b982c498bd1f08e9bf01cf94e65d0148037ab49789337224965cfac050",
+      "bytes": 185,
+      "rows": 2
+    },
+    "ARM": {
+      "path": "road/areas/ARM.csv",
+      "sha256": "11b539652b8c07be183ba804d08990c2c1eaebdac0b2527bf22ffe5589f5631a",
+      "bytes": 185,
+      "rows": 2
+    },
+    "ATG": {
+      "path": "road/areas/ATG.csv",
+      "sha256": "a3693d1c568b03c6a5e3ee9d87aa41c5f27cb0da4cded8051423d45e742a8db6",
+      "bytes": 176,
+      "rows": 2
+    },
+    "AUS": {
+      "path": "road/areas/AUS.csv",
+      "sha256": "88d56f5142cf2db82bf299f79b6ce2d5bd32aadd521741e536028f947313fcb1",
+      "bytes": 185,
+      "rows": 2
+    },
+    "AUT": {
+      "path": "road/areas/AUT.csv",
+      "sha256": "8299c1e822ba053623df444717ffe84397f5c0f5ab02e0a113a6a314b1593c87",
+      "bytes": 182,
+      "rows": 2
+    },
+    "AZE": {
+      "path": "road/areas/AZE.csv",
+      "sha256": "662c80aaa1796c39f4ddd2a3b630f8f2c8ce05eaf283df8d9d31ae0754456008",
+      "bytes": 188,
+      "rows": 2
+    },
+    "BDI": {
+      "path": "road/areas/BDI.csv",
+      "sha256": "ffdebbcb6e002b3dffe95a08171b29eeac52ab7dca6cab9746aeec143fa8ce24",
+      "bytes": 187,
+      "rows": 2
+    },
+    "BEL": {
+      "path": "road/areas/BEL.csv",
+      "sha256": "6449f247d19dff6d276ecb2b32b6c39801bea69d10d0f4e9193f264ecbe5b296",
+      "bytes": 180,
+      "rows": 2
+    },
+    "BEN": {
+      "path": "road/areas/BEN.csv",
+      "sha256": "a0cdb4663cf00ecb3d57022052a088d6099e98799e03d0452793d21cfe1b7ff4",
+      "bytes": 188,
+      "rows": 2
+    },
+    "BFA": {
+      "path": "road/areas/BFA.csv",
+      "sha256": "611271e78ebd18438f7f502615662c10d7d2db8830c5f2401582161f3d80f298",
+      "bytes": 188,
+      "rows": 2
+    },
+    "BGD": {
+      "path": "road/areas/BGD.csv",
+      "sha256": "a61dc6e8addad7dfd4ed4bd1cfa0421707b2b76f1a078d2a72038dc2829dd3db",
+      "bytes": 191,
+      "rows": 2
+    },
+    "BGR": {
+      "path": "road/areas/BGR.csv",
+      "sha256": "9cbc65c3164fb1e46086c29c3349e2853982007cc348d45529c61a640f7ebc59",
+      "bytes": 182,
+      "rows": 2
+    },
+    "BHR": {
+      "path": "road/areas/BHR.csv",
+      "sha256": "8f1e3543b308c5f945d77465c6af632ece3b7c245a0184d8e5279f9749bed606",
+      "bytes": 182,
+      "rows": 2
+    },
+    "BHS": {
+      "path": "road/areas/BHS.csv",
+      "sha256": "62de4646bbca7dd78bc9b71f717296fa0e87d8fa1dcbb5ce10520b904a999666",
+      "bytes": 182,
+      "rows": 2
+    },
+    "BIH": {
+      "path": "road/areas/BIH.csv",
+      "sha256": "430c4f6a893b4aaaba8d998f86c8e1410e4b332551457237ed40ca36b29ada07",
+      "bytes": 183,
+      "rows": 2
+    },
+    "BLR": {
+      "path": "road/areas/BLR.csv",
+      "sha256": "41a58d28e0020903f5b92a500290088067c03e962fef652ca12ec97d51313968",
+      "bytes": 182,
+      "rows": 2
+    },
+    "BLZ": {
+      "path": "road/areas/BLZ.csv",
+      "sha256": "2a5b986c7f926a98217c3f3d5fc5be19e441168d6b0f3588e238ef4f185f770a",
+      "bytes": 182,
+      "rows": 2
+    },
+    "BOL": {
+      "path": "road/areas/BOL.csv",
+      "sha256": "c1fe2b1c9563a18c18e0c818cd56f48376548ed8243e58c54472b95f6210f109",
+      "bytes": 188,
+      "rows": 2
+    },
+    "BRA": {
+      "path": "road/areas/BRA.csv",
+      "sha256": "837aa49838d688da242e0319bec7b04038746920cdc88e4b3283cd17bf969d5d",
+      "bytes": 191,
+      "rows": 2
+    },
+    "BRB": {
+      "path": "road/areas/BRB.csv",
+      "sha256": "4d9515c98394a2e7909cb62696a2a6d45b881fc5b7ff3a25f465c79aeacae4e3",
+      "bytes": 177,
+      "rows": 2
+    },
+    "BRN": {
+      "path": "road/areas/BRN.csv",
+      "sha256": "528365ddf126af034fa613ad46376a32c34788445370e8a72e9c362a880408e6",
+      "bytes": 177,
+      "rows": 2
+    },
+    "BTN": {
+      "path": "road/areas/BTN.csv",
+      "sha256": "bd10a5bed457245cb3b8533f5bd4aedc696b123c08f6bf6e19cfbd00b6a2cdae",
+      "bytes": 183,
+      "rows": 2
+    },
+    "BWA": {
+      "path": "road/areas/BWA.csv",
+      "sha256": "098d17130170b80271d98e82d530a9362eb90b2b36a2c3977e327994e968f93f",
+      "bytes": 185,
+      "rows": 2
+    },
+    "CAF": {
+      "path": "road/areas/CAF.csv",
+      "sha256": "d956bd8e5d9b53c36c8cf9043bcdc03adadd44f09d04b95e198aaae3506946a6",
+      "bytes": 188,
+      "rows": 2
+    },
+    "CAN": {
+      "path": "road/areas/CAN.csv",
+      "sha256": "9d97ff8b5d7506c523aa9bbf2f4dcc496838511ee4b81cea647ac715525c6aa6",
+      "bytes": 183,
+      "rows": 2
+    },
+    "CHE": {
+      "path": "road/areas/CHE.csv",
+      "sha256": "a695fbd9eb84f7afd2ffa967ba28073aa71abc5d6b46a71430c6876a942f6213",
+      "bytes": 182,
+      "rows": 2
+    },
+    "CHL": {
+      "path": "road/areas/CHL.csv",
+      "sha256": "80a375d1cf564b2c934ed7289cd8f7dd6ef4b440b7d7b423b8060b63b0b21770",
+      "bytes": 187,
+      "rows": 2
+    },
+    "CHN": {
+      "path": "road/areas/CHN.csv",
+      "sha256": "24a37db1a0fe171a34466e7fc16d07267bd7e7545987458589cb8aaed76c9df3",
+      "bytes": 194,
+      "rows": 2
+    },
+    "CIV": {
+      "path": "road/areas/CIV.csv",
+      "sha256": "f1214997d2ba4774612c21d68a4ca4f51bada61139cf9aa31d047009a5b56ecd",
+      "bytes": 188,
+      "rows": 2
+    },
+    "CMR": {
+      "path": "road/areas/CMR.csv",
+      "sha256": "252ecceafc1b1bfd75c7cdc626b60c6fcf7006fe3b706e287f91c51fbd02ec7c",
+      "bytes": 187,
+      "rows": 2
+    },
+    "COD": {
+      "path": "road/areas/COD.csv",
+      "sha256": "e6e5a484a38915031fde4f0a4266600b0d890801e777f8f7170468b908b5b5be",
+      "bytes": 191,
+      "rows": 2
+    },
+    "COG": {
+      "path": "road/areas/COG.csv",
+      "sha256": "55bfac19b78c5554e58b3818e955bf6f0057038fbf025e2e2204ee4e3cf69280",
+      "bytes": 182,
+      "rows": 2
+    },
+    "COK": {
+      "path": "road/areas/COK.csv",
+      "sha256": "37428a08595ee1c69a256e73b4b736c85591ae64858f61743ae78b6565c4c30a",
+      "bytes": 179,
+      "rows": 2
+    },
+    "COL": {
+      "path": "road/areas/COL.csv",
+      "sha256": "5e554f09ca4840fd1f2eaecd9d7945cbf1d180cedbe35b68970b2b0aa16edef7",
+      "bytes": 188,
+      "rows": 2
+    },
+    "COM": {
+      "path": "road/areas/COM.csv",
+      "sha256": "98cd481914889e82eb619e3b64ea962a6d7db465839e867292749f1f3c1afb05",
+      "bytes": 179,
+      "rows": 2
+    },
+    "CPV": {
+      "path": "road/areas/CPV.csv",
+      "sha256": "0b51499191284e6584a19074ade1a1084bd1e7b36dd802f6e4a0768995147c5e",
+      "bytes": 183,
+      "rows": 2
+    },
+    "CRI": {
+      "path": "road/areas/CRI.csv",
+      "sha256": "69ce3ae86d546dc3c5893fbc2a9fcbba0cd945e23c1198fa5abf9eaeb75ed4f2",
+      "bytes": 185,
+      "rows": 2
+    },
+    "CUB": {
+      "path": "road/areas/CUB.csv",
+      "sha256": "3ca887aa2b603f0e2cc2300406e907babf3d68e5e71eb3df5219614909bcef2f",
+      "bytes": 180,
+      "rows": 2
+    },
+    "CYP": {
+      "path": "road/areas/CYP.csv",
+      "sha256": "c95982a78de113c24b5b82ea763f528b4938baeb04d6209476163e9a3ef1fbc4",
+      "bytes": 179,
+      "rows": 2
+    },
+    "CZE": {
+      "path": "road/areas/CZE.csv",
+      "sha256": "57581395be5af4cc78da81cef35382adc5ba8e14f25d7e4b65248672e4a6a258",
+      "bytes": 182,
+      "rows": 2
+    },
+    "DEU": {
+      "path": "road/areas/DEU.csv",
+      "sha256": "4738d96aa3bed8e170084ff319e81ec19329c2dd5be8e650650dbc031debeb55",
+      "bytes": 185,
+      "rows": 2
+    },
+    "DJI": {
+      "path": "road/areas/DJI.csv",
+      "sha256": "bec8566124b8a86fc53c498d03ff7b33c2a29a1b277d028ef8846c4e126ff9db",
+      "bytes": 185,
+      "rows": 2
+    },
+    "DMA": {
+      "path": "road/areas/DMA.csv",
+      "sha256": "fbe11e6a7e90290e33a4f2bc77535504a7bce2735f67b537173dbb5d19780227",
+      "bytes": 176,
+      "rows": 2
+    },
+    "DNK": {
+      "path": "road/areas/DNK.csv",
+      "sha256": "e6ea74d6f01d40c7b2b04b050ed88e236ab2b8e31315c5a330e600c5c4d4faad",
+      "bytes": 182,
+      "rows": 2
+    },
+    "DOM": {
+      "path": "road/areas/DOM.csv",
+      "sha256": "b73ab55a10d8c1969f44632c46f7b60216f231e6fb0594f5cef6f210aa43b139",
+      "bytes": 188,
+      "rows": 2
+    },
+    "DZA": {
+      "path": "road/areas/DZA.csv",
+      "sha256": "7685e5c4e0193353700d804b4802e803fa7c8837137e9c2f52c3c72d2a20db97",
+      "bytes": 188,
+      "rows": 2
+    },
+    "ECU": {
+      "path": "road/areas/ECU.csv",
+      "sha256": "c5f0e31ba59b8ad735c7a7a7d0b167530962315159229bd0ab2850d9133b924f",
+      "bytes": 188,
+      "rows": 2
+    },
+    "EGY": {
+      "path": "road/areas/EGY.csv",
+      "sha256": "69898bae25783b7ba055237731eb7d3d02869e297475015cc04f85be21b800ce",
+      "bytes": 188,
+      "rows": 2
+    },
+    "ERI": {
+      "path": "road/areas/ERI.csv",
+      "sha256": "a81a1feb47b74485747e38b30486a4665fbfa92001958565a4bde20bce4bd4cf",
+      "bytes": 183,
+      "rows": 2
+    },
+    "ESP": {
+      "path": "road/areas/ESP.csv",
+      "sha256": "e26fbab13ec20e16faf2cf81f7ac17134e7f644f60f3ce0c53d571c909fd0fc9",
+      "bytes": 185,
+      "rows": 2
+    },
+    "EST": {
+      "path": "road/areas/EST.csv",
+      "sha256": "b70fefb72ad9ae151489c824ad878eda534eca4b00362e659733d471f137d3c0",
+      "bytes": 179,
+      "rows": 2
+    },
+    "ETH": {
+      "path": "road/areas/ETH.csv",
+      "sha256": "a81cb97eaa5e68caef54ed901e946338ec1a3b2e4b880d614e18e4ab828402ab",
+      "bytes": 191,
+      "rows": 2
+    },
+    "FIN": {
+      "path": "road/areas/FIN.csv",
+      "sha256": "c33a19c472d96ceb05cec5f60e498ad484ec87648a43e058afb66304f5d19c44",
+      "bytes": 182,
+      "rows": 2
+    },
+    "FJI": {
+      "path": "road/areas/FJI.csv",
+      "sha256": "acba12c7c528d90aca9a274ae78c972677904117225de12be492b890835e1d82",
+      "bytes": 177,
+      "rows": 2
+    },
+    "FRA": {
+      "path": "road/areas/FRA.csv",
+      "sha256": "593d9655980ebf5429fe46e06ee1866fa79f01d1ff76380885ef2c7bce82217b",
+      "bytes": 185,
+      "rows": 2
+    },
+    "FSM": {
+      "path": "road/areas/FSM.csv",
+      "sha256": "c5036566c57a72b7ea6c64c1b71c27cb74c97bd4a91ae3dc85da11ba2710122e",
+      "bytes": 182,
+      "rows": 2
+    },
+    "GAB": {
+      "path": "road/areas/GAB.csv",
+      "sha256": "25c6f06686d57d5126e2f4fb13f81eff250c8a409c191cfe6c8a1a82ae8eac05",
+      "bytes": 185,
+      "rows": 2
+    },
+    "GBR": {
+      "path": "road/areas/GBR.csv",
+      "sha256": "61004074c2a0a8beecdc378d3d4688ce39317a3840a2efff3c37807b7f4163bb",
+      "bytes": 185,
+      "rows": 2
+    },
+    "GEO": {
+      "path": "road/areas/GEO.csv",
+      "sha256": "c299692cf951f456999ea529fed46ba61fe2488abd816e9baf3f93ac4b4cbef6",
+      "bytes": 185,
+      "rows": 2
+    },
+    "GHA": {
+      "path": "road/areas/GHA.csv",
+      "sha256": "91bea518d345278937bcd282bcdd4886d8ae7949ffea43d80af3d4a6273cd9be",
+      "bytes": 188,
+      "rows": 2
+    },
+    "GIN": {
+      "path": "road/areas/GIN.csv",
+      "sha256": "3cab6b1fc8851b3afebedcb5ede82b3aece65ea3dd6607b851b4697ae8615b49",
+      "bytes": 188,
+      "rows": 2
+    },
+    "GMB": {
+      "path": "road/areas/GMB.csv",
+      "sha256": "bd0f17a46865506fd4c1396e2df0368cdcf42c573e27fd2fc88eef7bbb79a33b",
+      "bytes": 183,
+      "rows": 2
+    },
+    "GNB": {
+      "path": "road/areas/GNB.csv",
+      "sha256": "0087b67be21c34c3ae4adb8d8edd0c5eef9f2f2dae7eca5f764fdedeafa940aa",
+      "bytes": 185,
+      "rows": 2
+    },
+    "GNQ": {
+      "path": "road/areas/GNQ.csv",
+      "sha256": "87f74794627033812dd84877cbe2af9a5b8b94f6b756e42edf47bd6e3d22ed4c",
+      "bytes": 184,
+      "rows": 2
+    },
+    "GRC": {
+      "path": "road/areas/GRC.csv",
+      "sha256": "9d85e9d7a5cde74fdbfcbf12e3fe76297083548566640f3dca791ad688688694",
+      "bytes": 182,
+      "rows": 2
+    },
+    "GRD": {
+      "path": "road/areas/GRD.csv",
+      "sha256": "831ca492dcff4a3bccf5d4493ea23ce2bd9e8c61b0c54f47b98a63c86a0b1619",
+      "bytes": 176,
+      "rows": 2
+    },
+    "GTM": {
+      "path": "road/areas/GTM.csv",
+      "sha256": "16ef75dece6e17023302c638e58913e9a71828c8cfdf3457834f7aaa20ce2659",
+      "bytes": 188,
+      "rows": 2
+    },
+    "GUY": {
+      "path": "road/areas/GUY.csv",
+      "sha256": "e7bace871a35903279414ae54b5cd3240a4e4dfdc337470412892642a22e3293",
+      "bytes": 185,
+      "rows": 2
+    },
+    "HND": {
+      "path": "road/areas/HND.csv",
+      "sha256": "a58e7deb51e514f38663f55b44f67f39d4cce33ce5e39db9092f1219962748e2",
+      "bytes": 186,
+      "rows": 2
+    },
+    "HRV": {
+      "path": "road/areas/HRV.csv",
+      "sha256": "7a6d85a00e82c5a78bef4b63fca1bd8e7b665c553f399a74cd531a890b7877db",
+      "bytes": 182,
+      "rows": 2
+    },
+    "HTI": {
+      "path": "road/areas/HTI.csv",
+      "sha256": "c93426ee45be9cc222a19243e696eec610d866fe0cebd54371cec8bafa5d8b3e",
+      "bytes": 188,
+      "rows": 2
+    },
+    "HUN": {
+      "path": "road/areas/HUN.csv",
+      "sha256": "7e8323c08d1512fc6ef0cb4272cc3d877d298ae0cfc4f4b4f5f8779332ef870c",
+      "bytes": 180,
+      "rows": 2
+    },
+    "IDN": {
+      "path": "road/areas/IDN.csv",
+      "sha256": "0d80188fa5a465c74790f9d1a8b96d7b6cb59bcfc3dc816551aa57b36cf2c308",
+      "bytes": 190,
+      "rows": 2
+    },
+    "IND": {
+      "path": "road/areas/IND.csv",
+      "sha256": "824103f1374f7fab10828f48249080159f1d21f6613c6408e0c531939b87cc2b",
+      "bytes": 192,
+      "rows": 2
+    },
+    "IRL": {
+      "path": "road/areas/IRL.csv",
+      "sha256": "80714b57bc04771ff72db0694e0097eb5cdd4ac94405bc19fc094ce7fb3a62b7",
+      "bytes": 182,
+      "rows": 2
+    },
+    "IRN": {
+      "path": "road/areas/IRN.csv",
+      "sha256": "361e99d148f7a93b878f531524aa27662fc86f3067bd7a695ce050e55d89dcd5",
+      "bytes": 189,
+      "rows": 2
+    },
+    "IRQ": {
+      "path": "road/areas/IRQ.csv",
+      "sha256": "c9727430e23564f7393c3a71d128d50cf90d5f40dd66fe1b24456d4d2dc0aefa",
+      "bytes": 189,
+      "rows": 2
+    },
+    "ISL": {
+      "path": "road/areas/ISL.csv",
+      "sha256": "0c42d47c1081f3f6ec56d433b5163cdeeab3d411abebe2d89feab975c4d9b5eb",
+      "bytes": 177,
+      "rows": 2
+    },
+    "ISR": {
+      "path": "road/areas/ISR.csv",
+      "sha256": "dab0a8269ecc5a241de3ab4214d7610a13640808926d3dc5a7f15150fceedc9d",
+      "bytes": 182,
+      "rows": 2
+    },
+    "ITA": {
+      "path": "road/areas/ITA.csv",
+      "sha256": "7f11de11e2a6e2803f87c78f6544d9f26828ed658bf30d7e74314ecac0eb6608",
+      "bytes": 183,
+      "rows": 2
+    },
+    "JAM": {
+      "path": "road/areas/JAM.csv",
+      "sha256": "7e110f440f2bb0d5490fbc53d58fc4274d7ffc0f5d322f31b5501b2fcbd30433",
+      "bytes": 185,
+      "rows": 2
+    },
+    "JOR": {
+      "path": "road/areas/JOR.csv",
+      "sha256": "cbd6ea77b80e8f546b3c0ff536d55d43e7da655f1c3f0c3226359b6b68476b80",
+      "bytes": 188,
+      "rows": 2
+    },
+    "JPN": {
+      "path": "road/areas/JPN.csv",
+      "sha256": "6b6be64c63f3b66b71064f9bbf4670a080a51edffe71ad1435f59e04e9f6ed55",
+      "bytes": 183,
+      "rows": 2
+    },
+    "KAZ": {
+      "path": "road/areas/KAZ.csv",
+      "sha256": "d364e19be7a63edc2fbb9f3ac7917f7b51ac7c4f7d2f00cc0c76f840be44513b",
+      "bytes": 188,
+      "rows": 2
+    },
+    "KEN": {
+      "path": "road/areas/KEN.csv",
+      "sha256": "16892089b0bb5883f180053751d6b8bef225151eb9d22aef7924ad3165d62a3f",
+      "bytes": 191,
+      "rows": 2
+    },
+    "KGZ": {
+      "path": "road/areas/KGZ.csv",
+      "sha256": "a83ec9358eb60e8d498815c1f0b57f06cf7210933e7224960880a6cf223864e2",
+      "bytes": 185,
+      "rows": 2
+    },
+    "KHM": {
+      "path": "road/areas/KHM.csv",
+      "sha256": "5acd705b27c04b4e4f17333c08c29b6afaf3dbdd980ea56d435d06904a6834b9",
+      "bytes": 188,
+      "rows": 2
+    },
+    "KIR": {
+      "path": "road/areas/KIR.csv",
+      "sha256": "1854dd57af588a3fabe0053caff21804f6e1aeec813aa03c67461ca09ba5452e",
+      "bytes": 177,
+      "rows": 2
+    },
+    "KNA": {
+      "path": "road/areas/KNA.csv",
+      "sha256": "78d6c9a5d2883094a311390089de04870290d1dbcd974b96dd8d2d2ed8a73a66",
+      "bytes": 181,
+      "rows": 2
+    },
+    "KOR": {
+      "path": "road/areas/KOR.csv",
+      "sha256": "f1eadabc9c3f5ccf753a3b9d65669eec6eaa70e251fc8ab2eccb512d92218c58",
+      "bytes": 185,
+      "rows": 2
+    },
+    "KWT": {
+      "path": "road/areas/KWT.csv",
+      "sha256": "d8907892203ea490d3aac28bb53954279b71202b30ace69c8bc753dad4f46453",
+      "bytes": 183,
+      "rows": 2
+    },
+    "LAO": {
+      "path": "road/areas/LAO.csv",
+      "sha256": "53fa110bf12b566b9cffc5b500a67641dc3b3f8a47d96bf5086d75643d3cb8a5",
+      "bytes": 188,
+      "rows": 2
+    },
+    "LBN": {
+      "path": "road/areas/LBN.csv",
+      "sha256": "4992c46d871aac6857e58ac5f1b2418378f5a5232afcce62192cfb3f1d22978f",
+      "bytes": 181,
+      "rows": 2
+    },
+    "LBR": {
+      "path": "road/areas/LBR.csv",
+      "sha256": "a330cbc487eafce8acf157f307bf161b36650082bb8958bb9e3b932cfb654d92",
+      "bytes": 183,
+      "rows": 2
+    },
+    "LBY": {
+      "path": "road/areas/LBY.csv",
+      "sha256": "b54fd95f6e11e3cb882217e337f7942d24ded499e45359e3b30af77c9683052f",
+      "bytes": 186,
+      "rows": 2
+    },
+    "LCA": {
+      "path": "road/areas/LCA.csv",
+      "sha256": "5242dd35336ef650b4477fbee687a46bf6678418b291bdc73dee0c31159fe3d2",
+      "bytes": 178,
+      "rows": 2
+    },
+    "LKA": {
+      "path": "road/areas/LKA.csv",
+      "sha256": "f96135ef5db46128f0c0b869b3502b637e0a149cc65f119a149747a261928e39",
+      "bytes": 188,
+      "rows": 2
+    },
+    "LSO": {
+      "path": "road/areas/LSO.csv",
+      "sha256": "75f9f6b3f7243d4e56fcd2993675e9c33c905a88ef5bc70226da2b85283d414b",
+      "bytes": 185,
+      "rows": 2
+    },
+    "LTU": {
+      "path": "road/areas/LTU.csv",
+      "sha256": "c573a63538bcbd5470c09f1bf926efb029588b42e6d414dd6178d92c3a91da85",
+      "bytes": 182,
+      "rows": 2
+    },
+    "LUX": {
+      "path": "road/areas/LUX.csv",
+      "sha256": "cec1c4943614d341ea2dea8e37711132f6e8fd342eb39039d5ff67106fa19035",
+      "bytes": 179,
+      "rows": 2
+    },
+    "LVA": {
+      "path": "road/areas/LVA.csv",
+      "sha256": "cd032e7b2bbc96924ef06f45b7279814fd39076791c75d0d853530a44fd19be6",
+      "bytes": 181,
+      "rows": 2
+    },
+    "MAR": {
+      "path": "road/areas/MAR.csv",
+      "sha256": "fe4767cc1e910b6d2ba86af903a84dc827ae5bf4de64467109405419efdca1c0",
+      "bytes": 188,
+      "rows": 2
+    },
+    "MCO": {
+      "path": "road/areas/MCO.csv",
+      "sha256": "a8f5072518990b8a2529268b766887e14b2cf300013117359b1967e610cecda0",
+      "bytes": 172,
+      "rows": 2
+    },
+    "MDA": {
+      "path": "road/areas/MDA.csv",
+      "sha256": "13d612f99b1cb0e03dd504283698c8a4769dd11097c83c789280dc6b5b1dcefb",
+      "bytes": 182,
+      "rows": 2
+    },
+    "MDG": {
+      "path": "road/areas/MDG.csv",
+      "sha256": "397a9a6edd3960cdfc6775e0b3ff3a0541c7ca267b9699e320d319598abba9d3",
+      "bytes": 188,
+      "rows": 2
+    },
+    "MDV": {
+      "path": "road/areas/MDV.csv",
+      "sha256": "23f88631a4c053500cd1e155db68e1dcdbc16a7d3c58800479a62c469ab469b2",
+      "bytes": 176,
+      "rows": 2
+    },
+    "MEX": {
+      "path": "road/areas/MEX.csv",
+      "sha256": "bd12e68d38186de6ee9e29b0c08db8e22ae5f704a4078a11e544ee751aa71441",
+      "bytes": 189,
+      "rows": 2
+    },
+    "MHL": {
+      "path": "road/areas/MHL.csv",
+      "sha256": "d4d1ad42d916d91182be0baeca39853205656e8b2da3186cebb4943a31c07d19",
+      "bytes": 179,
+      "rows": 2
+    },
+    "MKD": {
+      "path": "road/areas/MKD.csv",
+      "sha256": "c0342afcf1631c6988322820daae70bf0b97a1e8805e376ffdd7ba089b21bbf4",
+      "bytes": 180,
+      "rows": 2
+    },
+    "MLI": {
+      "path": "road/areas/MLI.csv",
+      "sha256": "e47c9091599ae20dabbb1445fb1de745714384dce29a62c0396db2c2de1f1ba6",
+      "bytes": 188,
+      "rows": 2
+    },
+    "MLT": {
+      "path": "road/areas/MLT.csv",
+      "sha256": "ecbb9e83ec4087ca976ad37d2bdd73152b553a0d976777b14c290af010cf6f9c",
+      "bytes": 178,
+      "rows": 2
+    },
+    "MMR": {
+      "path": "road/areas/MMR.csv",
+      "sha256": "e44282e98f05af1ad51ef7a6e205d92644526a94ed94d61507fa34b85ffcce21",
+      "bytes": 188,
+      "rows": 2
+    },
+    "MNE": {
+      "path": "road/areas/MNE.csv",
+      "sha256": "c8a3c4c783576119493fc08235b5f201535291e3159f18efdde10edfc0aba611",
+      "bytes": 179,
+      "rows": 2
+    },
+    "MNG": {
+      "path": "road/areas/MNG.csv",
+      "sha256": "fd5ce0bda66d984615444655cde32efaeb47040d301bcf2b9aa63372ca63dc54",
+      "bytes": 185,
+      "rows": 2
+    },
+    "MOZ": {
+      "path": "road/areas/MOZ.csv",
+      "sha256": "68580ac98a7d27b9200138aa44992bae41ac578c3a6c411c6ce49b23b08ddf8f",
+      "bytes": 188,
+      "rows": 2
+    },
+    "MRT": {
+      "path": "road/areas/MRT.csv",
+      "sha256": "843c0107fbdd4c4be9413fa7dfea5c7b32dd94ea623f87453a6b97d1be77c580",
+      "bytes": 179,
+      "rows": 2
+    },
+    "MUS": {
+      "path": "road/areas/MUS.csv",
+      "sha256": "e2e374790f3b64a07844708b083333aa7ec4ce81f34d91a35773e947b4c4c6b8",
+      "bytes": 183,
+      "rows": 2
+    },
+    "MWI": {
+      "path": "road/areas/MWI.csv",
+      "sha256": "fff57c15810f4aaf05c34dfbbc56a22717510e4d80c5040fa274c5824943fa67",
+      "bytes": 188,
+      "rows": 2
+    },
+    "MYS": {
+      "path": "road/areas/MYS.csv",
+      "sha256": "faf92c8eda3765fc4ef39f6715299b28cadcb1a1d85eb44e2a6595400380c891",
+      "bytes": 188,
+      "rows": 2
+    },
+    "NAM": {
+      "path": "road/areas/NAM.csv",
+      "sha256": "d0303ed66d27b170b00690fd31ddfbd9fd448ca0f5aded23d37fb901b8b3d553",
+      "bytes": 183,
+      "rows": 2
+    },
+    "NER": {
+      "path": "road/areas/NER.csv",
+      "sha256": "912299362af71432ad7fda0e4b2628b28f0021d3d53140791b064924cd3a7e8d",
+      "bytes": 188,
+      "rows": 2
+    },
+    "NGA": {
+      "path": "road/areas/NGA.csv",
+      "sha256": "7687fc82cd4df7ef106bb428727c5f203fb834b3ade386c1f82210997b6431f1",
+      "bytes": 189,
+      "rows": 2
+    },
+    "NIC": {
+      "path": "road/areas/NIC.csv",
+      "sha256": "1a9c5c8a89993d212f5c5e76bbe54ce5f867eff497e122ea0f442cc8e97be54d",
+      "bytes": 186,
+      "rows": 2
+    },
+    "NIU": {
+      "path": "road/areas/NIU.csv",
+      "sha256": "081eb3b3443850472ddb152a5503b8b2b0d57d8d35119227896123d815dc7894",
+      "bytes": 168,
+      "rows": 2
+    },
+    "NLD": {
+      "path": "road/areas/NLD.csv",
+      "sha256": "e316b5507f6192985eb852ec779f74cea9ac80c1959b354b5ea580a54a82873c",
+      "bytes": 182,
+      "rows": 2
+    },
+    "NOR": {
+      "path": "road/areas/NOR.csv",
+      "sha256": "97cdb15fbf1ef355ac9a54cb93da3fab373bf48c6419ab13682e4900b4a496b4",
+      "bytes": 179,
+      "rows": 2
+    },
+    "NPL": {
+      "path": "road/areas/NPL.csv",
+      "sha256": "f25a9d481b7cd513e16bc8a09473fe410960fc641314befc2ffac4f804b5d8f5",
+      "bytes": 188,
+      "rows": 2
+    },
+    "NRU": {
+      "path": "road/areas/NRU.csv",
+      "sha256": "368eb2265751f0012f8f1f1ba67ce8b54ce37d599685e4d2084c65799c37faf6",
+      "bytes": 170,
+      "rows": 2
+    },
+    "NZL": {
+      "path": "road/areas/NZL.csv",
+      "sha256": "03ea20941697087574084ffa1a47a13cc4aa10761b04d5f10d8b4f43f40eb304",
+      "bytes": 180,
+      "rows": 2
+    },
+    "OMN": {
+      "path": "road/areas/OMN.csv",
+      "sha256": "c62fc4634c975b0de4feffd3a4b297a4b98f95fbc20748d33e04001106acdf33",
+      "bytes": 182,
+      "rows": 2
+    },
+    "PAK": {
+      "path": "road/areas/PAK.csv",
+      "sha256": "b032fd0cbd6065126993fb7dce52146b4abff90a08e211443f075b9f59c23dbc",
+      "bytes": 191,
+      "rows": 2
+    },
+    "PAN": {
+      "path": "road/areas/PAN.csv",
+      "sha256": "e2500154937e30f1094566434f23160335c88c3a574071be863c314bf285ee64",
+      "bytes": 182,
+      "rows": 2
+    },
+    "PER": {
+      "path": "road/areas/PER.csv",
+      "sha256": "c61ded400403d30fec59ce5b821a0761643650d418ae02668b892e49a5cdc426",
+      "bytes": 188,
+      "rows": 2
+    },
+    "PHL": {
+      "path": "road/areas/PHL.csv",
+      "sha256": "e093d9a770884c1ea6ade6de609165bd6f940a4f6f143fe6e8bfa08866bd528e",
+      "bytes": 189,
+      "rows": 2
+    },
+    "PLW": {
+      "path": "road/areas/PLW.csv",
+      "sha256": "d62801b6dda7deab04b2445aaeceb55f9a0ac3da3734d90b5bdce9e48c8b31c3",
+      "bytes": 179,
+      "rows": 2
+    },
+    "PNG": {
+      "path": "road/areas/PNG.csv",
+      "sha256": "44b232d620bc3c6921de63a4b19f867da368fcd74b966c3a1f0707ccfda0f831",
+      "bytes": 186,
+      "rows": 2
+    },
+    "POL": {
+      "path": "road/areas/POL.csv",
+      "sha256": "4ff9c554c14a459ff3d2fdc1344c00fcd02ad3ee76154413429a2b6eed682b80",
+      "bytes": 183,
+      "rows": 2
+    },
+    "PRI": {
+      "path": "road/areas/PRI.csv",
+      "sha256": "10c766cb2a5701594cc347ae6c3c6b5860e652010f5983e6a8ebd71b85096586",
+      "bytes": 185,
+      "rows": 2
+    },
+    "PRT": {
+      "path": "road/areas/PRT.csv",
+      "sha256": "f61ef0eaa6c43a16cc122a5073fc5362f8f58d68f45fcbceff035a873d2c6308",
+      "bytes": 182,
+      "rows": 2
+    },
+    "PRY": {
+      "path": "road/areas/PRY.csv",
+      "sha256": "e310fb8777f2d4ee2558bd452ed518b7cbb8bcc78f915b02382fde4076f35438",
+      "bytes": 186,
+      "rows": 2
+    },
+    "PSE": {
+      "path": "road/areas/PSE.csv",
+      "sha256": "6c0c4514d9c6fc88d7d7f191bc7365c810e1de6f53f15464b13d5df488d32c03",
+      "bytes": 182,
+      "rows": 2
+    },
+    "QAT": {
+      "path": "road/areas/QAT.csv",
+      "sha256": "7087746096fbb4bc7ea70854ced28663372a38f85c1ca082a0b0f58e4ec326c0",
+      "bytes": 182,
+      "rows": 2
+    },
+    "ROU": {
+      "path": "road/areas/ROU.csv",
+      "sha256": "7ed0513ce40484cb55a819348a194e516a7a22db2ebbc60fd22e01fbe8986be5",
+      "bytes": 186,
+      "rows": 2
+    },
+    "RUS": {
+      "path": "road/areas/RUS.csv",
+      "sha256": "04353f9929e90edcfc36fd0b0d347bcb686a5e676289e82ca6f3b2aad16f2048",
+      "bytes": 190,
+      "rows": 2
+    },
+    "RWA": {
+      "path": "road/areas/RWA.csv",
+      "sha256": "c07fb4cb34336432dc085cb1651846e57bfe73261ba4394eb6e7061fefac3ffa",
+      "bytes": 187,
+      "rows": 2
+    },
+    "SAU": {
+      "path": "road/areas/SAU.csv",
+      "sha256": "7bdd397145dfd9b51a541c2d512b63419736878e3e0d7c91e52d2ca0a283078c",
+      "bytes": 188,
+      "rows": 2
+    },
+    "SDN": {
+      "path": "road/areas/SDN.csv",
+      "sha256": "cf35e418dec29d0c7051cce94caf8267e7dc556708cbe6281ce2e97493660f22",
+      "bytes": 187,
+      "rows": 2
+    },
+    "SEN": {
+      "path": "road/areas/SEN.csv",
+      "sha256": "29ca3b5e10945e0356aa1449c3f4816789788041cec1477ac41175b0e4ba2f8b",
+      "bytes": 188,
+      "rows": 2
+    },
+    "SGP": {
+      "path": "road/areas/SGP.csv",
+      "sha256": "38c8de44d456bdd282c383dc7b87b2ae149ba18bd1403977ec6c5d08faa8ac7c",
+      "bytes": 181,
+      "rows": 2
+    },
+    "SLB": {
+      "path": "road/areas/SLB.csv",
+      "sha256": "b0021bd124298b8937c62b9cdc9b589ae317c0fa7ce39d3d3532c57ef40bb204",
+      "bytes": 180,
+      "rows": 2
+    },
+    "SLE": {
+      "path": "road/areas/SLE.csv",
+      "sha256": "c34047e64ac1b97720b9753d1452865661cba0b73b7022ce8330ad3597a9e2f6",
+      "bytes": 185,
+      "rows": 2
+    },
+    "SLV": {
+      "path": "road/areas/SLV.csv",
+      "sha256": "e6093e43468efc69a6c369262bc4591da3945e70b5f6057376b3a83b202dfca0",
+      "bytes": 184,
+      "rows": 2
+    },
+    "SMR": {
+      "path": "road/areas/SMR.csv",
+      "sha256": "0deec910084c0f86a1e618f602c7338b33b8ff7ad48d7f7c811d9dc77190256a",
+      "bytes": 176,
+      "rows": 2
+    },
+    "SOM": {
+      "path": "road/areas/SOM.csv",
+      "sha256": "9e836ba3a77a03ffe8d87e31c5bb38304f98e9557df5b1379f11ac09cd3d5eb2",
+      "bytes": 188,
+      "rows": 2
+    },
+    "SRB": {
+      "path": "road/areas/SRB.csv",
+      "sha256": "89d13687057a56f4598bb7c917c09779761853e0f6af79f19d6a8a1d47d5add2",
+      "bytes": 180,
+      "rows": 2
+    },
+    "SSD": {
+      "path": "road/areas/SSD.csv",
+      "sha256": "80b871219e9ec79ee2e76d5e3b3a5352f5215a9e0a6345b5ef23be006e130f26",
+      "bytes": 188,
+      "rows": 2
+    },
+    "STP": {
+      "path": "road/areas/STP.csv",
+      "sha256": "d0be14486c6800641590e989136df38e4b4f1792159fa2ed3f7237300b51a11f",
+      "bytes": 181,
+      "rows": 2
+    },
+    "SUR": {
+      "path": "road/areas/SUR.csv",
+      "sha256": "d2fd5379bc92336e75c429d8a2c9f96be6674b03a4f5e410d6883397d7a89704",
+      "bytes": 183,
+      "rows": 2
+    },
+    "SVK": {
+      "path": "road/areas/SVK.csv",
+      "sha256": "69e3be5ed5d27aaf38ee99dbe6e0bd9055a344e8645ca9b7f5deeb1f5d5f2388",
+      "bytes": 182,
+      "rows": 2
+    },
+    "SVN": {
+      "path": "road/areas/SVN.csv",
+      "sha256": "dcae057cc7eac39491f219c73c0faecbe67aee59680fa6a43b4c255f50cae7d4",
+      "bytes": 182,
+      "rows": 2
+    },
+    "SWE": {
+      "path": "road/areas/SWE.csv",
+      "sha256": "5bfbd55f5fdb7b66657ead8bfa5e3a2ab4223b6d2687f0a981ed5fe0f9f85091",
+      "bytes": 182,
+      "rows": 2
+    },
+    "SWZ": {
+      "path": "road/areas/SWZ.csv",
+      "sha256": "58471cc9ecf79a42ca361730afd8ab03bf0ad55b6532e01d9d79b1c3f2e0f85a",
+      "bytes": 185,
+      "rows": 2
+    },
+    "SYC": {
+      "path": "road/areas/SYC.csv",
+      "sha256": "b622a428ae47f6a69d7cc3529853c172aa046e10a423c4cd246e83e25a630ad2",
+      "bytes": 176,
+      "rows": 2
+    },
+    "SYR": {
+      "path": "road/areas/SYR.csv",
+      "sha256": "bd12087cfcbe6bab3347ce594920eb767582ed520be51384b6a70c4bd8dbd87c",
+      "bytes": 188,
+      "rows": 2
+    },
+    "TCD": {
+      "path": "road/areas/TCD.csv",
+      "sha256": "017b6965785231348691ff1ef8986d8c96a787b6e14cbde18e60c8f7b9c6ad3b",
+      "bytes": 188,
+      "rows": 2
+    },
+    "TGO": {
+      "path": "road/areas/TGO.csv",
+      "sha256": "f6c84abc2be92a41e055ef314a10dd0e529558d6a8247dff6668ee36e53c3e2c",
+      "bytes": 186,
+      "rows": 2
+    },
+    "THA": {
+      "path": "road/areas/THA.csv",
+      "sha256": "f49d2fa17e031044d62498fa7db23f6f6a7cc83ba1a1f893f6b01222d4fc402d",
+      "bytes": 191,
+      "rows": 2
+    },
+    "TJK": {
+      "path": "road/areas/TJK.csv",
+      "sha256": "ed61a8bb7d755550b91e8a7f6ca0c24d2429820e250bb966de7b3961bda6224a",
+      "bytes": 186,
+      "rows": 2
+    },
+    "TKM": {
+      "path": "road/areas/TKM.csv",
+      "sha256": "0f30b4c61152c63b6ff640d2369aa9dc61e40bcdf7502fbaad1d849e38abe6b4",
+      "bytes": 180,
+      "rows": 2
+    },
+    "TLS": {
+      "path": "road/areas/TLS.csv",
+      "sha256": "c675d22f8b6dc91992cb2505d1072c2e054304c5aff49b9e7527ba683532ea8e",
+      "bytes": 183,
+      "rows": 2
+    },
+    "TON": {
+      "path": "road/areas/TON.csv",
+      "sha256": "ba4e299dbddd6a74f8acd48465d30face0f37ea8b5a73411de835c2c7a9fa062",
+      "bytes": 177,
+      "rows": 2
+    },
+    "TTO": {
+      "path": "road/areas/TTO.csv",
+      "sha256": "ce8d6cd2dae8f9ed9659b80dd3426f5404685e6e2a1271732601ec5c7894a86e",
+      "bytes": 177,
+      "rows": 2
+    },
+    "TUN": {
+      "path": "road/areas/TUN.csv",
+      "sha256": "b647c154cad0c7777373689eabc07f66e22ca75f14ffd7215ce224f36ff28f4c",
+      "bytes": 188,
+      "rows": 2
+    },
+    "TUR": {
+      "path": "road/areas/TUR.csv",
+      "sha256": "2b1522ea420862ee9281910f809586a93803f91a726e890f06fd2f6b87e3413d",
+      "bytes": 185,
+      "rows": 2
+    },
+    "TUV": {
+      "path": "road/areas/TUV.csv",
+      "sha256": "2c426c3fd544e6418b8a75e6493b937a62977b974e4f16dd2c3fc79d8d195806",
+      "bytes": 179,
+      "rows": 2
+    },
+    "TZA": {
+      "path": "road/areas/TZA.csv",
+      "sha256": "9bb9a2809155cc6f3ab8811f0a5bef127b011ff81580f0d6eebf47525a7045b3",
+      "bytes": 188,
+      "rows": 2
+    },
+    "UGA": {
+      "path": "road/areas/UGA.csv",
+      "sha256": "59c9d51ec2ca2134324a71876848e28dc5ef5374d5875c2fe27b6818faa0bb49",
+      "bytes": 186,
+      "rows": 2
+    },
+    "UKR": {
+      "path": "road/areas/UKR.csv",
+      "sha256": "16303db3c1c02d2e401f1e8b776ba08833643908d45d2756e2b825b1fcf87216",
+      "bytes": 186,
+      "rows": 2
+    },
+    "URY": {
+      "path": "road/areas/URY.csv",
+      "sha256": "1a52a2798010a61ba4bafa940e61daa5c112ab341242677eb5bb8558a964db30",
+      "bytes": 183,
+      "rows": 2
+    },
+    "USA": {
+      "path": "road/areas/USA.csv",
+      "sha256": "9b159c4015b78acf88dd60341ec9fbdd9c86a9cf32486eeaffdfad94a2d56920",
+      "bytes": 191,
+      "rows": 2
+    },
+    "UZB": {
+      "path": "road/areas/UZB.csv",
+      "sha256": "bb48f6acccf396e589eecac26b9725221debe96ecc8ee3df4c0b2b58fa9e9090",
+      "bytes": 186,
+      "rows": 2
+    },
+    "VCT": {
+      "path": "road/areas/VCT.csv",
+      "sha256": "fc34ad9d12029a679d6eef8aecf1873483615a0b805941030463661c1abf540a",
+      "bytes": 176,
+      "rows": 2
+    },
+    "VEN": {
+      "path": "road/areas/VEN.csv",
+      "sha256": "ee7630aa6e5ebbaf74e7377d0cdd5da94e65b06960876e87d85365d9d440a3a2",
+      "bytes": 186,
+      "rows": 2
+    },
+    "VNM": {
+      "path": "road/areas/VNM.csv",
+      "sha256": "975036dc9033c2e91d68b9302453a1fe124974cae920e076cde388e9ded61e8f",
+      "bytes": 191,
+      "rows": 2
+    },
+    "VUT": {
+      "path": "road/areas/VUT.csv",
+      "sha256": "84e8380a6a3d68f891f7a09004abf8a5edc62dadca12869cf049df7b7fad0baa",
+      "bytes": 182,
+      "rows": 2
+    },
+    "WSM": {
+      "path": "road/areas/WSM.csv",
+      "sha256": "d08db7e9845355770294c4976a90ef718ae396eb2788c006b6ed98fc9960936b",
+      "bytes": 180,
+      "rows": 2
+    },
+    "YEM": {
+      "path": "road/areas/YEM.csv",
+      "sha256": "2d843e71f1306f24c7f0cd3e423c5654fe3419016ef2740e6bc05f5c9894da1e",
+      "bytes": 189,
+      "rows": 2
+    },
+    "ZAF": {
+      "path": "road/areas/ZAF.csv",
+      "sha256": "2c88b00d28166c844e7f59c7e1e8e917c4364965cf04a67c44614cbe0e92b74e",
+      "bytes": 191,
+      "rows": 2
+    },
+    "ZMB": {
+      "path": "road/areas/ZMB.csv",
+      "sha256": "ccdda8870b55e6001d14fd3f100eb448c53029895eff4b50c40725dc4b30f643",
+      "bytes": 188,
+      "rows": 2
+    },
+    "ZWE": {
+      "path": "road/areas/ZWE.csv",
+      "sha256": "e436662876cf03d61cb29777944f51a8258f76b92aba6f03a3f750f12c3017eb",
+      "bytes": 188,
+      "rows": 2
+    }
+  },
+  "provenance": {
+    "path": "road/provenance.json",
+    "sha256": "317db44b4103562d1e233913e1a3b71e564f47deb75f288310f53eb2aa761b7b",
+    "bytes": 933
+  }
+}

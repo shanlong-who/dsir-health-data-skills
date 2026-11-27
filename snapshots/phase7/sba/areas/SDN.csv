@@ -1,0 +1,4 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+SDN,2006,SH_STA_BRTC,Percent of live births,49.2,,,G
+SDN,2010,SH_STA_BRTC,Percent of live births,72.5,,,G
+SDN,2014,SH_STA_BRTC,Percent of live births,77.7,,,G

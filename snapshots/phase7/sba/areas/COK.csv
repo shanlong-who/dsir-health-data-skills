@@ -1,0 +1,5 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+COK,2000,SH_STA_BRTC,Percent of live births,98,,,G
+COK,2005,SH_STA_BRTC,Percent of live births,100,,,G
+COK,2008,SH_STA_BRTC,Percent of live births,100,,,G
+COK,2009,SH_STA_BRTC,Percent of live births,100,,,G

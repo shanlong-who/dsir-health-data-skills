@@ -1,0 +1,4 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+LUX,2003,SH_STA_BRTC,Percent of live births,99.9,,,G
+LUX,2009,SH_STA_BRTC,Percent of live births,99.9,,,G
+LUX,2019,SH_STA_BRTC,Percent of live births,99.8,,,G

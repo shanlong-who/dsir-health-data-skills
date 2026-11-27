@@ -1,0 +1,4 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+ZAF,2004,SH_STA_BRTC,Percent of live births,91.2,,,G
+ZAF,2008,SH_STA_BRTC,Percent of live births,94.3,,,G
+ZAF,2016,SH_STA_BRTC,Percent of live births,96.7,,,G

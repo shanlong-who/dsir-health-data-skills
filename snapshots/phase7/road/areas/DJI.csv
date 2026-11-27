@@ -1,0 +1,3 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+DJI,2021,SH_STA_TRAF,Deaths per 100000 population,23.3,20.5,26.1,G
+DJI,2021,SH_STA_TRAFN,Deaths,258,227,288,G

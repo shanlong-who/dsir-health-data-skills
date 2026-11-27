@@ -1,0 +1,3 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+AUS,2021,SH_STA_TRAF,Deaths per 100000 population,4.5,4.2,4.8,G
+AUS,2021,SH_STA_TRAFN,Deaths,1163,1086,1240,G

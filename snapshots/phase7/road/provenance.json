@@ -1,0 +1,30 @@
+{
+  "audit_csv_sha256": "12dfa695a9d6c8ffda73c6b015ad2999a3871069cd9062aad570b17de4f9e01e",
+  "DSIR_version": "0.15.0",
+  "sources": [
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-24T11:38:52Z",
+      "retrieval_status": "live",
+      "record_count": 399,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.6.1&pageSize=500",
+        "pages_received": 1,
+        "expected_pages": 1,
+        "expected_rows": 399
+      }
+    }
+  ],
+  "successful_fetch_seconds": 57.9923729896545,
+  "source_rows": 399,
+  "geographic_aggregate_rows": 9,
+  "outside_selected_series_or_reporting_type": 0,
+  "export_rows": 390
+}

@@ -1,0 +1,9 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+FSM,2000,SH_STA_BRTC,Percent of live births,82.8,,,G
+FSM,2001,SH_STA_BRTC,Percent of live births,85.7,,,G
+FSM,2002,SH_STA_BRTC,Percent of live births,81.6,,,G
+FSM,2003,SH_STA_BRTC,Percent of live births,84.6,,,G
+FSM,2005,SH_STA_BRTC,Percent of live births,82.7,,,G
+FSM,2006,SH_STA_BRTC,Percent of live births,85.3,,,G
+FSM,2008,SH_STA_BRTC,Percent of live births,90,,,G
+FSM,2009,SH_STA_BRTC,Percent of live births,100,,,G

@@ -1,0 +1,3 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+MEX,2021,SH_STA_TRAF,Deaths per 100000 population,12,11.3,12.8,G
+MEX,2021,SH_STA_TRAFN,Deaths,15267,14269,16265,G

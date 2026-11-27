@@ -1,0 +1,10 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+MWI,2000,SH_STA_BRTC,Percent of live births,55.6,,,G
+MWI,2004,SH_STA_BRTC,Percent of live births,54.4,,,G
+MWI,2005,SH_STA_BRTC,Percent of live births,56.1,,,G
+MWI,2006,SH_STA_BRTC,Percent of live births,53.6,,,G
+MWI,2010,SH_STA_BRTC,Percent of live births,71.4,,,G
+MWI,2014,SH_STA_BRTC,Percent of live births,87.4,,,G
+MWI,2016,SH_STA_BRTC,Percent of live births,89.8,,,G
+MWI,2020,SH_STA_BRTC,Percent of live births,96.4,,,G
+MWI,2024,SH_STA_BRTC,Percent of live births,96.3,,,G

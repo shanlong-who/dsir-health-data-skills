@@ -1,0 +1,4 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+DZA,2006,SH_STA_BRTC,Percent of live births,95.2,,,G
+DZA,2013,SH_STA_BRTC,Percent of live births,96.6,,,G
+DZA,2019,SH_STA_BRTC,Percent of live births,98.8,,,G

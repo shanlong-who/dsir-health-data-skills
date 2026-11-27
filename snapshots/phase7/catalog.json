@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "release": "0.7.0",
+  "scope": "global_country_area",
+  "snapshot_date": "2026-11-24",
+  "relative_to": "Directory containing catalog.json at the same Git commit",
+  "geography": {
+    "path": "geography.csv",
+    "sha256": "2b705568c164ad9f790d46fa310b84c6981298a237269ed9c463d4e189861dc3",
+    "bytes": 6913
+  },
+  "datasets": {
+    "tb": {
+      "indicator": "MDG_0000000020",
+      "product": "WHO Global Health Observatory",
+      "series": [
+        {
+          "code": "MDG_0000000020",
+          "name": "Tuberculosis incidence",
+          "unit": "Cases per 100000 population",
+          "denominator": "Population",
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 197,
+          "rows": 4902
+        }
+      ],
+      "manifest": {
+        "path": "tb/manifest.json",
+        "sha256": "7885d5a93bf0ed29ea91370f672c81cb5ccece471841f4fcdeae37c30b3f7e8c",
+        "bytes": 35481
+      }
+    },
+    "dtp3": {
+      "indicator": "WHS4_100",
+      "product": "WHO Global Health Observatory (WHO/UNICEF WUENIC)",
+      "series": [
+        {
+          "code": "WHS4_100",
+          "name": "DTP3 immunization coverage",
+          "unit": "Percent of one-year-olds",
+          "denominator": "One-year-old children",
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 194,
+          "rows": 4831
+        }
+      ],
+      "manifest": {
+        "path": "dtp3/manifest.json",
+        "sha256": "9df87f215ea244a04b59ff199b6679dea38050483c6434dd5d1d082d28ca3774",
+        "bytes": 35364
+      }
+    },
+    "sba": {
+      "indicator": "3.1.2",
+      "product": "United Nations Global SDG Indicators Database",
+      "series": [
+        {
+          "code": "SH_STA_BRTC",
+          "name": "Skilled birth attendance",
+          "unit": "Percent of live births",
+          "denominator": "Live births",
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 193,
+          "rows": 2597
+        }
+      ],
+      "manifest": {
+        "path": "sba/manifest.json",
+        "sha256": "6c0e80ff75680d6c65530b5ab0fd81add3e92a071084f99d733bd409b90fd6c8",
+        "bytes": 34804
+      }
+    },
+    "ghe": {
+      "indicator": "0",
+      "product": "WHO Global Health Estimates",
+      "series": [
+        {
+          "code": "deaths",
+          "name": "All-cause deaths by sex",
+          "unit": "Deaths",
+          "denominator": null,
+          "first_year": 2000,
+          "last_year": 2023,
+          "areas": 183,
+          "rows": 13176
+        }
+      ],
+      "manifest": {
+        "path": "ghe/manifest.json",
+        "sha256": "f09aba23cbe7718d22ab6613513847e1ffa7756c05eb3c336291b79f77926c0d",
+        "bytes": 33289
+      }
+    },
+    "road": {
+      "indicator": "3.6.1",
+      "product": "United Nations Global SDG Indicators Database",
+      "series": [
+        {
+          "code": "SH_STA_TRAF",
+          "name": "Road traffic injury death rate",
+          "unit": "Deaths per 100000 population",
+          "denominator": "Population",
+          "first_year": 2021,
+          "last_year": 2021,
+          "areas": 195,
+          "rows": 195
+        },
+        {
+          "code": "SH_STA_TRAFN",
+          "name": "Road traffic injury deaths",
+          "unit": "Deaths",
+          "denominator": null,
+          "first_year": 2021,
+          "last_year": 2021,
+          "areas": 195,
+          "rows": 195
+        }
+      ],
+      "manifest": {
+        "path": "road/manifest.json",
+        "sha256": "1cd05d91cc3a1f422de4f22e20c33fdd7f790f34e4803a7d7f9b45b00394e5dc",
+        "bytes": 35401
+      }
+    }
+  }
+}

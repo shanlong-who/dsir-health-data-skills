@@ -1,0 +1,12 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+PAK,2002,SH_STA_BRTC,Percent of live births,23,,,G
+PAK,2005,SH_STA_BRTC,Percent of live births,31,,,G
+PAK,2007,SH_STA_BRTC,Percent of live births,38.8,,,G
+PAK,2008,SH_STA_BRTC,Percent of live births,40,,,G
+PAK,2009,SH_STA_BRTC,Percent of live births,41,,,G
+PAK,2011,SH_STA_BRTC,Percent of live births,43,,,G
+PAK,2013,SH_STA_BRTC,Percent of live births,52.1,,,G
+PAK,2015,SH_STA_BRTC,Percent of live births,59,,,G
+PAK,2018,SH_STA_BRTC,Percent of live births,69.3,,,G
+PAK,2019,SH_STA_BRTC,Percent of live births,73.7,,,G
+PAK,2020,SH_STA_BRTC,Percent of live births,68,,,G

@@ -1,0 +1,3 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+CAN,2021,SH_STA_TRAF,Deaths per 100000 population,4.7,4.5,5,G
+CAN,2021,SH_STA_TRAFN,Deaths,1805,1701,1909,G

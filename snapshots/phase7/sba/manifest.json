@@ -1,0 +1,1193 @@
+{
+  "release": "0.7.0",
+  "dataset": "sba",
+  "product": "United Nations Global SDG Indicators Database",
+  "indicator": "3.1.2",
+  "backend": "unsdg",
+  "retrieved_from": "2026-11-24T11:44:53Z",
+  "retrieved_through": "2026-11-24T11:48:02Z",
+  "scope": "global_country_area",
+  "area_count": 193,
+  "row_count": 2597,
+  "geography": "geography.csv",
+  "series": [
+    {
+      "code": "SH_STA_BRTC",
+      "name": "Skilled birth attendance",
+      "unit": "Percent of live births",
+      "denominator": "Live births",
+      "first_year": 2000,
+      "last_year": 2024,
+      "areas": 193,
+      "rows": 2597
+    }
+  ],
+  "dimensions": {
+    "reporting_type": "G"
+  },
+  "areas": {
+    "AFG": {
+      "path": "sba/areas/AFG.csv",
+      "sha256": "faaab40934e65d4858dea265089aa933b9823bcab078bbc9bf0d760b78ef98c2",
+      "bytes": 605,
+      "rows": 10
+    },
+    "AGO": {
+      "path": "sba/areas/AGO.csv",
+      "sha256": "2400ce05d18ebf84f01292c51af327ed56559466221a5eb059c6b9b38c958b78",
+      "bytes": 181,
+      "rows": 2
+    },
+    "AIA": {
+      "path": "sba/areas/AIA.csv",
+      "sha256": "e1ef050e7b0f5018d3d33d5385adf47ce708d26d55e80ade323835f1d9a9cfb8",
+      "bytes": 1272,
+      "rows": 23
+    },
+    "ALB": {
+      "path": "sba/areas/ALB.csv",
+      "sha256": "31fa75551369e7ce511e606362d8233815b0d3a5c8635e29c5659ea3e723516e",
+      "bytes": 494,
+      "rows": 8
+    },
+    "AND": {
+      "path": "sba/areas/AND.csv",
+      "sha256": "355042e1a4e1f7c3b6434aeb1827935a86c74713baa9d877dfce82cd054cad1b",
+      "bytes": 231,
+      "rows": 3
+    },
+    "ARE": {
+      "path": "sba/areas/ARE.csv",
+      "sha256": "b3fc0c1dff61eaec5219060514e35458a9ec92bfbc356593eb64a37ebb955f25",
+      "bytes": 547,
+      "rows": 9
+    },
+    "ARG": {
+      "path": "sba/areas/ARG.csv",
+      "sha256": "e5a110279dade0ee3556e1cb3c6c63284a65573ab4a54ac4c44285fdb0e894ed",
+      "bytes": 1343,
+      "rows": 24
+    },
+    "ARM": {
+      "path": "sba/areas/ARM.csv",
+      "sha256": "426f9610a6aa6de2bb1278e6f244239d61aa0f01b18a8b88b96c935bbf463813",
+      "bytes": 918,
+      "rows": 16
+    },
+    "ATG": {
+      "path": "sba/areas/ATG.csv",
+      "sha256": "bd2c0923f6ebdd222889842ba69c726d67aa6a6e4f8058528735f677c36a63a5",
+      "bytes": 1112,
+      "rows": 20
+    },
+    "AUS": {
+      "path": "sba/areas/AUS.csv",
+      "sha256": "a7f4e607d45c89b1d07b101b32b2fbef18bab383b86d18a338191153635b73f9",
+      "bytes": 1345,
+      "rows": 24
+    },
+    "AUT": {
+      "path": "sba/areas/AUT.csv",
+      "sha256": "aab29c938a87ed2d908cfd5b8b3d8889819c5bc2b03541d635cbf07e3c33bece",
+      "bytes": 1345,
+      "rows": 24
+    },
+    "AZE": {
+      "path": "sba/areas/AZE.csv",
+      "sha256": "d7c5b685bd8e36473beeaa9e0bb3db49db33f1a4deb34a03553687e43e83395f",
+      "bytes": 1233,
+      "rows": 22
+    },
+    "BDI": {
+      "path": "sba/areas/BDI.csv",
+      "sha256": "521be87ac543be92925c552bd87b01d1faa87bbb0dd9705c85e22cb8fdb5f144",
+      "bytes": 658,
+      "rows": 11
+    },
+    "BEN": {
+      "path": "sba/areas/BEN.csv",
+      "sha256": "4bc214d6df25671ffbeae808b6c127152cc98422d7e63faadd2d3a5c1dabdb8b",
+      "bytes": 391,
+      "rows": 6
+    },
+    "BFA": {
+      "path": "sba/areas/BFA.csv",
+      "sha256": "438a7141aa952dadb7e250e34071035f077c176190b5c9e569670a29c65618d2",
+      "bytes": 340,
+      "rows": 5
+    },
+    "BGD": {
+      "path": "sba/areas/BGD.csv",
+      "sha256": "ca4b2e97305ab8a54766570682138818c15ae52d5e0420d8d3ab9c60dd156afe",
+      "bytes": 917,
+      "rows": 16
+    },
+    "BGR": {
+      "path": "sba/areas/BGR.csv",
+      "sha256": "e86d7086f5d95410a892584eeffec52e3623327f1dd5a0eee5a23596a89b0335",
+      "bytes": 1292,
+      "rows": 23
+    },
+    "BHR": {
+      "path": "sba/areas/BHR.csv",
+      "sha256": "290b91ad750b1b7aee164fc4085cecf1529f454090cd1ec8e1716f3c13abf305",
+      "bytes": 1294,
+      "rows": 23
+    },
+    "BHS": {
+      "path": "sba/areas/BHS.csv",
+      "sha256": "d5f2228ebaa1f596950044567e80a6bf4f044aaa784fe8b7a28995ff913a7754",
+      "bytes": 1323,
+      "rows": 24
+    },
+    "BIH": {
+      "path": "sba/areas/BIH.csv",
+      "sha256": "34611cdff0c374d90acf23c188d296851b8bdc17840696a899ac036265f12346",
+      "bytes": 1294,
+      "rows": 23
+    },
+    "BLR": {
+      "path": "sba/areas/BLR.csv",
+      "sha256": "716b41ab980b4710818ce780e8596fd40cac692a4433c8d13c94f4badad97b17",
+      "bytes": 1186,
+      "rows": 21
+    },
+    "BLZ": {
+      "path": "sba/areas/BLZ.csv",
+      "sha256": "7d8797dc2c7c59543a57f9305d6343820f66ec2d7f85f0489c51332183e01d84",
+      "bytes": 1288,
+      "rows": 23
+    },
+    "BMU": {
+      "path": "sba/areas/BMU.csv",
+      "sha256": "096ebc861621a9e635912d252a3ac81d85042ff0223cb04500c87d895e3cbc38",
+      "bytes": 1341,
+      "rows": 24
+    },
+    "BOL": {
+      "path": "sba/areas/BOL.csv",
+      "sha256": "0276405fda326320c51cdb539c001d31fb6755b45d120b3d2cf16ee6882f84a0",
+      "bytes": 1392,
+      "rows": 25
+    },
+    "BRA": {
+      "path": "sba/areas/BRA.csv",
+      "sha256": "8790069cd061fbb7607609346e493dfc758658ed55695589072d3627c5809685",
+      "bytes": 1392,
+      "rows": 25
+    },
+    "BRB": {
+      "path": "sba/areas/BRB.csv",
+      "sha256": "efdf33c9aeba035a610d05add210ea2db60af129b564a304129369c400b04cab",
+      "bytes": 1224,
+      "rows": 22
+    },
+    "BRN": {
+      "path": "sba/areas/BRN.csv",
+      "sha256": "da809a89922d4f4516f49ebf1abd0c3533b66b569eadece092d487ff10fde743",
+      "bytes": 1292,
+      "rows": 23
+    },
+    "BTN": {
+      "path": "sba/areas/BTN.csv",
+      "sha256": "95a464b301ab7c069049e019e2e44cb032419c29728ba0955dc14e5d4fb87c8b",
+      "bytes": 1123,
+      "rows": 20
+    },
+    "BWA": {
+      "path": "sba/areas/BWA.csv",
+      "sha256": "ff97c47c91c5634d2cb406c867ef803be75474bfcc0a2e14c4bd1fe6fbf4fed2",
+      "bytes": 1184,
+      "rows": 21
+    },
+    "CAF": {
+      "path": "sba/areas/CAF.csv",
+      "sha256": "1aceb10991723bb2ddd0c1362ca647596149ab986309901201b9cdadf9001bb8",
+      "bytes": 338,
+      "rows": 5
+    },
+    "CAN": {
+      "path": "sba/areas/CAN.csv",
+      "sha256": "300765fe3fc57c80fd65441441853df6ef6b97ad5807e74c7084ec0f61d3a0e9",
+      "bytes": 1340,
+      "rows": 24
+    },
+    "CHL": {
+      "path": "sba/areas/CHL.csv",
+      "sha256": "95ccb30ea02d0efdce9ead5e48b5dadd879a9ad02a5fbb733ed024fe3d8aa003",
+      "bytes": 1294,
+      "rows": 23
+    },
+    "CHN": {
+      "path": "sba/areas/CHN.csv",
+      "sha256": "75ac5ac59c9457f0906ae4139c67c4abf237e22f52823370b208ec36dfa2d74a",
+      "bytes": 976,
+      "rows": 17
+    },
+    "CIV": {
+      "path": "sba/areas/CIV.csv",
+      "sha256": "956182fcb8b62c92af5e1df3656172106464eefb8c061995c95614a03fe91502",
+      "bytes": 444,
+      "rows": 7
+    },
+    "CMR": {
+      "path": "sba/areas/CMR.csv",
+      "sha256": "3a244823de669ac663a8b72be220bf0f9128915bf4facd1f2ad6c0d7cafa4001",
+      "bytes": 389,
+      "rows": 6
+    },
+    "COD": {
+      "path": "sba/areas/COD.csv",
+      "sha256": "6cb3ca1baf443a8f735b2d20376ff07ec3329331f23bb87f1911c218515aa047",
+      "bytes": 391,
+      "rows": 6
+    },
+    "COG": {
+      "path": "sba/areas/COG.csv",
+      "sha256": "c739be5ed4522099204e5bc4064850403467e890995d07d522406703cb25ee1d",
+      "bytes": 234,
+      "rows": 3
+    },
+    "COK": {
+      "path": "sba/areas/COK.csv",
+      "sha256": "8f67df794ed36dde7eac2810fb2d1ba122e06f15890b121ad5a44f8ceea86d73",
+      "bytes": 282,
+      "rows": 4
+    },
+    "COL": {
+      "path": "sba/areas/COL.csv",
+      "sha256": "eb56a5f72b004a2f237967218ac27c862aacce7a39e497e5c029dc5e170db117",
+      "bytes": 1341,
+      "rows": 24
+    },
+    "COM": {
+      "path": "sba/areas/COM.csv",
+      "sha256": "7c3b3f8a64351644c76b88923ee3ee6dff0a2d3112134d80d675d2b00019e4f7",
+      "bytes": 234,
+      "rows": 3
+    },
+    "CPV": {
+      "path": "sba/areas/CPV.csv",
+      "sha256": "d7c85b4472bfd45dfad43ef712788aead412087650ffd6a16189b41842aa31c9",
+      "bytes": 817,
+      "rows": 14
+    },
+    "CRI": {
+      "path": "sba/areas/CRI.csv",
+      "sha256": "7f70e9c5f84f38d91df8f8195d72921e3dc7e91891eb0640a82b13e7db203d31",
+      "bytes": 1339,
+      "rows": 24
+    },
+    "CUB": {
+      "path": "sba/areas/CUB.csv",
+      "sha256": "d2850a1f18bb466726570094f0480274f561f1f1cbe3febffd1c647792c1ecbb",
+      "bytes": 1399,
+      "rows": 25
+    },
+    "CYP": {
+      "path": "sba/areas/CYP.csv",
+      "sha256": "f8297026eb9491859d836c4980c0a874b6b5710bb7af03f7ec4e11755115b713",
+      "bytes": 1081,
+      "rows": 19
+    },
+    "CZE": {
+      "path": "sba/areas/CZE.csv",
+      "sha256": "0f7b3f2e10b327dca574f6bb4aa74ff62edfac7f09aecd6c3770d1423bbb369b",
+      "bytes": 923,
+      "rows": 16
+    },
+    "DEU": {
+      "path": "sba/areas/DEU.csv",
+      "sha256": "66eb9657967cd886c121d65cb5b0c9bb32c6595b2ff6ce46146d673a7d85674a",
+      "bytes": 1292,
+      "rows": 23
+    },
+    "DJI": {
+      "path": "sba/areas/DJI.csv",
+      "sha256": "1dc2d81a4f4f6636a84c447a00ddc4b4f8ef19951b3fac3a3e9a57252e4778b0",
+      "bytes": 234,
+      "rows": 3
+    },
+    "DMA": {
+      "path": "sba/areas/DMA.csv",
+      "sha256": "2a218da99c9b4fd3e5c632aa0b1b1dc59de3fc6bf5f825a5593e66fa6b22fe4c",
+      "bytes": 1269,
+      "rows": 23
+    },
+    "DNK": {
+      "path": "sba/areas/DNK.csv",
+      "sha256": "8a4491e39ce56c2ca865a64134ff11e6533905528543b51168d87ad951d20120",
+      "bytes": 1347,
+      "rows": 24
+    },
+    "DOM": {
+      "path": "sba/areas/DOM.csv",
+      "sha256": "1af100fe8e7565b6bec0e374a78eb4125d49420fd23597966619120ed8ba2d2c",
+      "bytes": 870,
+      "rows": 15
+    },
+    "DZA": {
+      "path": "sba/areas/DZA.csv",
+      "sha256": "9a67d8a0899c80b35fa9e19b34f2741bafd87706ae3e24bab2291bf28476b02b",
+      "bytes": 234,
+      "rows": 3
+    },
+    "ECU": {
+      "path": "sba/areas/ECU.csv",
+      "sha256": "cdee8a2e68373005e838289f2c5b446eb44ee158f614138f444158e28f8bdb9f",
+      "bytes": 1396,
+      "rows": 25
+    },
+    "EGY": {
+      "path": "sba/areas/EGY.csv",
+      "sha256": "36d73d1995b3d6c2bdbd18b2df2990906b19e52ab65680888dcb570ec5097613",
+      "bytes": 393,
+      "rows": 6
+    },
+    "ERI": {
+      "path": "sba/areas/ERI.csv",
+      "sha256": "d09d3be9b1939c882b41938acce132e55ec3f18e3920ad109c576e92f473048f",
+      "bytes": 181,
+      "rows": 2
+    },
+    "ESP": {
+      "path": "sba/areas/ESP.csv",
+      "sha256": "d6e74b6d40c4c922bbfd01f38ea2d642ca89d79fd4af9a5abb26285b1c64cb0a",
+      "bytes": 552,
+      "rows": 9
+    },
+    "EST": {
+      "path": "sba/areas/EST.csv",
+      "sha256": "ec3c175e6a56bac1a0a2f2e5690fdf2a5747b6635f5b668a5c106ad0750a5e42",
+      "bytes": 1398,
+      "rows": 25
+    },
+    "ETH": {
+      "path": "sba/areas/ETH.csv",
+      "sha256": "5ce79edef0e220523015f1d538ca05ebd36f0729334e8b5c05f6acca37dc469b",
+      "bytes": 441,
+      "rows": 7
+    },
+    "FIN": {
+      "path": "sba/areas/FIN.csv",
+      "sha256": "ab77c48e1a1b1550f0a45585b9093ddc8190d6c791445b336bd0af60d9d2f29c",
+      "bytes": 1400,
+      "rows": 25
+    },
+    "FJI": {
+      "path": "sba/areas/FJI.csv",
+      "sha256": "a8d3e09ce4fc58c666e5108b362151fccb98750c2d7074986d4bb02f0484221a",
+      "bytes": 1025,
+      "rows": 18
+    },
+    "FRA": {
+      "path": "sba/areas/FRA.csv",
+      "sha256": "2e4d4da528c3523494c89686eee7625b893d4c191d971218fe1d70f26d6f6e51",
+      "bytes": 1129,
+      "rows": 20
+    },
+    "FSM": {
+      "path": "sba/areas/FSM.csv",
+      "sha256": "8ef424d5fd3bdeaacda136a43ae29588bf2745182c6482e7f2007df36499d046",
+      "bytes": 496,
+      "rows": 8
+    },
+    "GAB": {
+      "path": "sba/areas/GAB.csv",
+      "sha256": "a856f64529cd12fbd04573fa05727b5f811d00ab33885820ea02e729580fa351",
+      "bytes": 287,
+      "rows": 4
+    },
+    "GEO": {
+      "path": "sba/areas/GEO.csv",
+      "sha256": "0be1300104bbde6822a161c36add2b35b7c4de8afe620b15d5703d6af5b54745",
+      "bytes": 1347,
+      "rows": 24
+    },
+    "GHA": {
+      "path": "sba/areas/GHA.csv",
+      "sha256": "6db0df16af8d712f3768044576ead1be37f96c0f99fae5e1fdb821cc52ff255b",
+      "bytes": 605,
+      "rows": 10
+    },
+    "GIN": {
+      "path": "sba/areas/GIN.csv",
+      "sha256": "f58aa125b35531c80bb3fa677ff8b1d25971a4ba042a0af0e0d48612758119d0",
+      "bytes": 391,
+      "rows": 6
+    },
+    "GMB": {
+      "path": "sba/areas/GMB.csv",
+      "sha256": "18a9785451ccbd51266a9130fa31c89176ada9c82e16ee41f1b22f3abe2bc3fb",
+      "bytes": 393,
+      "rows": 6
+    },
+    "GNB": {
+      "path": "sba/areas/GNB.csv",
+      "sha256": "e4f611f65b7ca901417cba1f8636e8bd9dce7a8f2d8993ca73afbd7582624186",
+      "bytes": 334,
+      "rows": 5
+    },
+    "GNQ": {
+      "path": "sba/areas/GNQ.csv",
+      "sha256": "f54999a1aeb18e5d20cb4953052f243c515ea54070174cfeef3692201a7eb5bb",
+      "bytes": 181,
+      "rows": 2
+    },
+    "GRC": {
+      "path": "sba/areas/GRC.csv",
+      "sha256": "bb2257ad638abaddf3dc41c258386825d6ac0c2802572fadc006931c2953c4ea",
+      "bytes": 1336,
+      "rows": 24
+    },
+    "GRD": {
+      "path": "sba/areas/GRD.csv",
+      "sha256": "81f7194d7aa8c8c1bcd1a8215e23c45ad0c601623f8c0273826259bd56853d37",
+      "bytes": 1061,
+      "rows": 19
+    },
+    "GTM": {
+      "path": "sba/areas/GTM.csv",
+      "sha256": "417a4e0a4d9c68c7a9d75c1c7a97d8913e2aaaea3d8cab3771b7dd56d6c3e9ba",
+      "bytes": 964,
+      "rows": 17
+    },
+    "GUY": {
+      "path": "sba/areas/GUY.csv",
+      "sha256": "1f7eb26a33816e9e31405543e616c7fe55493a5531cc7db61f9cf79a502eda4b",
+      "bytes": 1125,
+      "rows": 20
+    },
+    "HND": {
+      "path": "sba/areas/HND.csv",
+      "sha256": "a6577bdc59c973b63cdc5ffe2e3fee6b11b223a8edd87ebdb3b1aedbf3a9793e",
+      "bytes": 389,
+      "rows": 6
+    },
+    "HRV": {
+      "path": "sba/areas/HRV.csv",
+      "sha256": "e8008f69356a3cea02550ed48d45a3ffe61eb418fd68fe779faca9a1b2b1b8b0",
+      "bytes": 1135,
+      "rows": 20
+    },
+    "HTI": {
+      "path": "sba/areas/HTI.csv",
+      "sha256": "e8a73f3e2f18f2644ad74208643308dbf47e05d59e50960bb9e066725949efa2",
+      "bytes": 658,
+      "rows": 11
+    },
+    "HUN": {
+      "path": "sba/areas/HUN.csv",
+      "sha256": "124a2ff8edc27411521e7c3f72c9ee1c7e6f79d006ba37e154e7a2fa6d0ca834",
+      "bytes": 1341,
+      "rows": 24
+    },
+    "IDN": {
+      "path": "sba/areas/IDN.csv",
+      "sha256": "33b53c3d216edc80a3d974a49a01c496049c2032772f576ae7515a38db0574ae",
+      "bytes": 603,
+      "rows": 10
+    },
+    "IND": {
+      "path": "sba/areas/IND.csv",
+      "sha256": "00fc6ad9d4a7b015213b0dd50595d7d48e76b63ceaefc10c15ee17e0ae068393",
+      "bytes": 393,
+      "rows": 6
+    },
+    "IRL": {
+      "path": "sba/areas/IRL.csv",
+      "sha256": "c7aeb38adc234c00ee75c9ba13c451960529007bc6b212288c4d6f8549785621",
+      "bytes": 1241,
+      "rows": 22
+    },
+    "IRN": {
+      "path": "sba/areas/IRN.csv",
+      "sha256": "67559d7831ee6164896ef55bf54e2e17759559160af9efb035c41507ad198881",
+      "bytes": 548,
+      "rows": 9
+    },
+    "IRQ": {
+      "path": "sba/areas/IRQ.csv",
+      "sha256": "210e80a3df34e9e93c14556868c27b7af2ee466e6668b35fa7e425a03027a58b",
+      "bytes": 603,
+      "rows": 10
+    },
+    "ISL": {
+      "path": "sba/areas/ISL.csv",
+      "sha256": "d36166ca32abf7a8ed292c422552c046fc579d2d73520ca99869602b5c8ce716",
+      "bytes": 1343,
+      "rows": 24
+    },
+    "ISR": {
+      "path": "sba/areas/ISR.csv",
+      "sha256": "cc201eee59299372e061e5db5a0313795020ae115ca37e77c045ecfb41e66a79",
+      "bytes": 340,
+      "rows": 5
+    },
+    "ITA": {
+      "path": "sba/areas/ITA.csv",
+      "sha256": "a09464ceb2b34349705e0ea2b3b7e68ca2ed5510143c0aa83148ef8485cc7424",
+      "bytes": 1241,
+      "rows": 22
+    },
+    "JAM": {
+      "path": "sba/areas/JAM.csv",
+      "sha256": "fbb4e8c33de341a8b6b4a4b7aa20f0020805702e5df6d3d837dd96ef9e5e2588",
+      "bytes": 1080,
+      "rows": 19
+    },
+    "JOR": {
+      "path": "sba/areas/JOR.csv",
+      "sha256": "a3e7ecf233e21449b6c98d363c3a249750c84e0ca6b7f41003fd8966bb6ad82d",
+      "bytes": 340,
+      "rows": 5
+    },
+    "JPN": {
+      "path": "sba/areas/JPN.csv",
+      "sha256": "413534adaf5fa037207479ec7e02b68494902e6d6cdb63c16b9675c87e159175",
+      "bytes": 1294,
+      "rows": 23
+    },
+    "KAZ": {
+      "path": "sba/areas/KAZ.csv",
+      "sha256": "b127b18e7d8b935248dc340aac04f4eedfad4fcbf98acf1ff534bb8e109d1026",
+      "bytes": 1026,
+      "rows": 18
+    },
+    "KEN": {
+      "path": "sba/areas/KEN.csv",
+      "sha256": "937859e0c99c5f675da6be2aa2178603f30d14d4aea52d219ef23fdf1beb05bc",
+      "bytes": 393,
+      "rows": 6
+    },
+    "KGZ": {
+      "path": "sba/areas/KGZ.csv",
+      "sha256": "8a0aea31ff4e47702aa5eaa50c721571abb03d0a6dc16f4c2ecb88af5eba4be5",
+      "bytes": 1026,
+      "rows": 18
+    },
+    "KHM": {
+      "path": "sba/areas/KHM.csv",
+      "sha256": "0a6bee680e1d04c7590ceffed87cbc382a6f2fedc5a8ebc693b16934665120e8",
+      "bytes": 495,
+      "rows": 8
+    },
+    "KIR": {
+      "path": "sba/areas/KIR.csv",
+      "sha256": "e355e041835c4c9f6058733cac07a5f8ccf9eaf287b46762b4bb6bc48112d1d3",
+      "bytes": 438,
+      "rows": 7
+    },
+    "KNA": {
+      "path": "sba/areas/KNA.csv",
+      "sha256": "96535f40221caa8a0931c84d7e58bffaa3e55a16c11be7609571e5b6f57f4956",
+      "bytes": 1170,
+      "rows": 21
+    },
+    "KOR": {
+      "path": "sba/areas/KOR.csv",
+      "sha256": "f915d729179ac3b659babfca8794c7f3f3af14c105812c1937b8f8222e4346ad",
+      "bytes": 444,
+      "rows": 7
+    },
+    "KWT": {
+      "path": "sba/areas/KWT.csv",
+      "sha256": "6931d6ea0b9bad3c91da67f84c72e8e922e0cbb21ee917ae282c8277acf51194",
+      "bytes": 1186,
+      "rows": 21
+    },
+    "LAO": {
+      "path": "sba/areas/LAO.csv",
+      "sha256": "db3b94aeac4b1bd82d86f71883367aa69c001cb13e59aeb523a08f58a7f7ee10",
+      "bytes": 495,
+      "rows": 8
+    },
+    "LBN": {
+      "path": "sba/areas/LBN.csv",
+      "sha256": "12de0e20727322426e57428444be52f5dc19ece6b42893dda4b5ee3853496c80",
+      "bytes": 181,
+      "rows": 2
+    },
+    "LBR": {
+      "path": "sba/areas/LBR.csv",
+      "sha256": "0941eda96c34f644fadb1e66c99b22a53320b359acae966b5097afc004953cb6",
+      "bytes": 287,
+      "rows": 4
+    },
+    "LBY": {
+      "path": "sba/areas/LBY.csv",
+      "sha256": "2c849368a823a5a085c28f7d9a0a06b639d25af74e8a1010572dcf2eb4195723",
+      "bytes": 340,
+      "rows": 5
+    },
+    "LCA": {
+      "path": "sba/areas/LCA.csv",
+      "sha256": "ac6f30ae9d9f7b84d30f65729118d3e604a0952ef325b19414db92300fe1b966",
+      "bytes": 1118,
+      "rows": 20
+    },
+    "LKA": {
+      "path": "sba/areas/LKA.csv",
+      "sha256": "74b341571e9361aa4c29f67bab6d8ff1d90b5b4c8715b9e80888c3f439371fc7",
+      "bytes": 232,
+      "rows": 3
+    },
+    "LSO": {
+      "path": "sba/areas/LSO.csv",
+      "sha256": "b3758e3acc259f0fbb4c31deed1ef439217b04579a630ba9780795d549a988da",
+      "bytes": 444,
+      "rows": 7
+    },
+    "LTU": {
+      "path": "sba/areas/LTU.csv",
+      "sha256": "81a7deb2017e9b8eed7026fd1f840d767538c05f16f8ba30fb4afbfbc9be32b2",
+      "bytes": 1323,
+      "rows": 24
+    },
+    "LUX": {
+      "path": "sba/areas/LUX.csv",
+      "sha256": "06354909daf6d3e3ef73bf3f57dd79c0e427e67787302102f15e327b40865d28",
+      "bytes": 234,
+      "rows": 3
+    },
+    "LVA": {
+      "path": "sba/areas/LVA.csv",
+      "sha256": "7ef57deb12aabc127b02e0a5d1135ec31a4a69ce0737b18862ef49f1d79bd761",
+      "bytes": 1027,
+      "rows": 18
+    },
+    "MAR": {
+      "path": "sba/areas/MAR.csv",
+      "sha256": "9c00841d0ba71c08017ba8c3642a4cd778250fffe0d6337e65b7b0fefc4e2a48",
+      "bytes": 287,
+      "rows": 4
+    },
+    "MDA": {
+      "path": "sba/areas/MDA.csv",
+      "sha256": "42bf84a584120e6034521a2494537b745bc2726b43f8934531c1f4a595059bf8",
+      "bytes": 1396,
+      "rows": 25
+    },
+    "MDG": {
+      "path": "sba/areas/MDG.csv",
+      "sha256": "b9548fcdb0c0b5275590edc8a90a4972375d42ed02ec7b749afe53470cacdfc8",
+      "bytes": 391,
+      "rows": 6
+    },
+    "MDV": {
+      "path": "sba/areas/MDV.csv",
+      "sha256": "c44cb6c5aef70ee47209732b76c2055bfb0fd2a3fa97b6d759c9fb6998b0a914",
+      "bytes": 921,
+      "rows": 16
+    },
+    "MEX": {
+      "path": "sba/areas/MEX.csv",
+      "sha256": "fce2ae335de095a417663aef997006086f64dd4c6b15220ff2597b58bae56d5f",
+      "bytes": 1290,
+      "rows": 23
+    },
+    "MHL": {
+      "path": "sba/areas/MHL.csv",
+      "sha256": "ccc04042f24dd38f2fbb8f04d9a336bfc20f832754f87315b8ce1b420c6c0793",
+      "bytes": 338,
+      "rows": 5
+    },
+    "MKD": {
+      "path": "sba/areas/MKD.csv",
+      "sha256": "adf84c5d244b2e363f7dad3a5185b09a641f253b35e135035cf13a08278e5756",
+      "bytes": 1338,
+      "rows": 24
+    },
+    "MLI": {
+      "path": "sba/areas/MLI.csv",
+      "sha256": "6ef93440c5b07c23c8f4bc5d6f61085a47109f20ac2c96e5715afff63472b2e6",
+      "bytes": 444,
+      "rows": 7
+    },
+    "MLT": {
+      "path": "sba/areas/MLT.csv",
+      "sha256": "bb549e6a5b6edc7600bd8c26c5ef5400f6977063fa73977cc5130253be06f208",
+      "bytes": 1294,
+      "rows": 23
+    },
+    "MMR": {
+      "path": "sba/areas/MMR.csv",
+      "sha256": "7f0bf09a363361e120861c5db620d7a43cf4fa5639d9833ef16a4c31dee959e4",
+      "bytes": 285,
+      "rows": 4
+    },
+    "MNE": {
+      "path": "sba/areas/MNE.csv",
+      "sha256": "b97353a8e308d57320d28dd181792252bdc190828afddc0504f9f6e01901482a",
+      "bytes": 705,
+      "rows": 12
+    },
+    "MNG": {
+      "path": "sba/areas/MNG.csv",
+      "sha256": "56cb3dc0c213105d972d67077fac4bc1b697516ec1143dd9c45d93ff0c910adb",
+      "bytes": 551,
+      "rows": 9
+    },
+    "MOZ": {
+      "path": "sba/areas/MOZ.csv",
+      "sha256": "ebd01871d4e5511456220f1ace62872dfda23bdadb4f60bbbe21590805c4d690",
+      "bytes": 338,
+      "rows": 5
+    },
+    "MRT": {
+      "path": "sba/areas/MRT.csv",
+      "sha256": "02de4504afddb578caa8ed80bf3c78537b5ac56eead2aeab9760f1dbe498535e",
+      "bytes": 340,
+      "rows": 5
+    },
+    "MSR": {
+      "path": "sba/areas/MSR.csv",
+      "sha256": "60eec1c812f4ccf2498e88e792d5c71e526d5683d46d1066a7d8e81ad2aaf301",
+      "bytes": 1268,
+      "rows": 23
+    },
+    "MUS": {
+      "path": "sba/areas/MUS.csv",
+      "sha256": "67caa9a5f563c4ac6445dcb1f93a76c64476c22e581830fb98ca8e53ec690683",
+      "bytes": 1082,
+      "rows": 19
+    },
+    "MWI": {
+      "path": "sba/areas/MWI.csv",
+      "sha256": "e39c43530c3755225127677e78da1a807ac9c16fd3050fc2cb9299c5b3abcc2e",
+      "bytes": 552,
+      "rows": 9
+    },
+    "MYS": {
+      "path": "sba/areas/MYS.csv",
+      "sha256": "5a3967a6592093a62489f46bbebc411456f61ab605302fccce4492e335fc95a2",
+      "bytes": 1182,
+      "rows": 21
+    },
+    "NAM": {
+      "path": "sba/areas/NAM.csv",
+      "sha256": "d167c731f42d88c53919fb7191d2c26a54ad9a5041961a9b3985242b764b4a79",
+      "bytes": 552,
+      "rows": 9
+    },
+    "NER": {
+      "path": "sba/areas/NER.csv",
+      "sha256": "86fd57aa2b1b143e84a84e4de1527f7059fedc146e7eb60c358fd70f7db7e954",
+      "bytes": 393,
+      "rows": 6
+    },
+    "NGA": {
+      "path": "sba/areas/NGA.csv",
+      "sha256": "15f8106b4798673a31dd497ccfb879452177fce7fe874cc4232fd1452f7c805f",
+      "bytes": 497,
+      "rows": 8
+    },
+    "NIC": {
+      "path": "sba/areas/NIC.csv",
+      "sha256": "4fb9d6e82fd62016fec7214f582839f5a3ce742f4ed3ca8f4908daa07055856f",
+      "bytes": 1073,
+      "rows": 19
+    },
+    "NIU": {
+      "path": "sba/areas/NIU.csv",
+      "sha256": "84a23f6133020fa25aa7fce7fae6089cf45662fdadaae536ee2d9bb394d4cda3",
+      "bytes": 491,
+      "rows": 8
+    },
+    "NOR": {
+      "path": "sba/areas/NOR.csv",
+      "sha256": "86576b6ee2f44f925ed65c6ac265b400d80e281e51b5e9fd97630933b7669b66",
+      "bytes": 1396,
+      "rows": 25
+    },
+    "NPL": {
+      "path": "sba/areas/NPL.csv",
+      "sha256": "449613cd4dbf941863b3abcfdaaf9ab541ac033b9d269b7cc6c8fe3c8f9001ec",
+      "bytes": 495,
+      "rows": 8
+    },
+    "NRU": {
+      "path": "sba/areas/NRU.csv",
+      "sha256": "e5081219e0788c36274a7ea7b9350c95b909a68c965080047e05ad05af9cd570",
+      "bytes": 179,
+      "rows": 2
+    },
+    "NZL": {
+      "path": "sba/areas/NZL.csv",
+      "sha256": "442bced993db57ce6576dfe03f604f64cd3180b28400a3dc7bdd8afe234c87ff",
+      "bytes": 1345,
+      "rows": 24
+    },
+    "OMN": {
+      "path": "sba/areas/OMN.csv",
+      "sha256": "77c916ee41172acc0173fc885068f4eb1f606cb5d7008014a4ef6bb82210279d",
+      "bytes": 1178,
+      "rows": 21
+    },
+    "PAK": {
+      "path": "sba/areas/PAK.csv",
+      "sha256": "8d96994c3730bb397a56251b6b40270a929214f1d00b034b0bc1f10f67596097",
+      "bytes": 644,
+      "rows": 11
+    },
+    "PAN": {
+      "path": "sba/areas/PAN.csv",
+      "sha256": "fa761b20c95ab72a46cf63cf3bc50306c4beeafdd51471365df0ace026e06b52",
+      "bytes": 1288,
+      "rows": 23
+    },
+    "PER": {
+      "path": "sba/areas/PER.csv",
+      "sha256": "421958ace82a4e2355567c769d73e04ce7ddd151b176648d98bde3c61ad6e8b4",
+      "bytes": 1076,
+      "rows": 19
+    },
+    "PHL": {
+      "path": "sba/areas/PHL.csv",
+      "sha256": "c772609dcdfcc68e44673cf32863e4e4c29e78a20f1096f40fc5c9331015742e",
+      "bytes": 444,
+      "rows": 7
+    },
+    "PLW": {
+      "path": "sba/areas/PLW.csv",
+      "sha256": "7b468de435d4ba11b6fc55d759085077620edaab71e0c2064f79d03ca4066e11",
+      "bytes": 1122,
+      "rows": 20
+    },
+    "PNG": {
+      "path": "sba/areas/PNG.csv",
+      "sha256": "5df04e42c73eff4103a0750f82dbef3acbe77cbc56b511348ca964f75cb1750a",
+      "bytes": 230,
+      "rows": 3
+    },
+    "POL": {
+      "path": "sba/areas/POL.csv",
+      "sha256": "00d313ab9a7298dea5199db79dc049a4fe6ebf553566432c123ce63b4c1c90f0",
+      "bytes": 1347,
+      "rows": 24
+    },
+    "PRI": {
+      "path": "sba/areas/PRI.csv",
+      "sha256": "55309e860761b62bfde6130e507f689edd6bb34ca68fcb7bfaa60553940d5636",
+      "bytes": 1290,
+      "rows": 23
+    },
+    "PRK": {
+      "path": "sba/areas/PRK.csv",
+      "sha256": "148d1e4f5b7fb0478cdb7a5de1eb9f34f9d2aeee9ca6dbe2fb278d94c94e4f9d",
+      "bytes": 286,
+      "rows": 4
+    },
+    "PRT": {
+      "path": "sba/areas/PRT.csv",
+      "sha256": "a506077a6b0a0c47a33d4f4e87b82c5d2b75743adcabd833c6ca94a389a0fd05",
+      "bytes": 764,
+      "rows": 13
+    },
+    "PRY": {
+      "path": "sba/areas/PRY.csv",
+      "sha256": "f6de7becf612e4c5b79888542e12e30e398215803ae36bef598c9d7396d782b8",
+      "bytes": 1345,
+      "rows": 24
+    },
+    "PSE": {
+      "path": "sba/areas/PSE.csv",
+      "sha256": "e7f85d471a76c8f7d639a1d452e3a04d2ee7b9e1024ad99e8b974c3f4cd2abbd",
+      "bytes": 391,
+      "rows": 6
+    },
+    "QAT": {
+      "path": "sba/areas/QAT.csv",
+      "sha256": "259e4fcc085b8f6904cc520fcd26200de601ccc3745a1279014879557b475b3d",
+      "bytes": 1221,
+      "rows": 22
+    },
+    "ROU": {
+      "path": "sba/areas/ROU.csv",
+      "sha256": "d8f34fc96fe6ad2fa324ae7376d7f399c4e48b515c61fc0b5eb4486521fc8374",
+      "bytes": 1288,
+      "rows": 23
+    },
+    "RUS": {
+      "path": "sba/areas/RUS.csv",
+      "sha256": "7d972f396074b7ea9501d2b6e1220c4dd70ac1b87b9522ce3e9e1425ba573095",
+      "bytes": 1347,
+      "rows": 24
+    },
+    "RWA": {
+      "path": "sba/areas/RWA.csv",
+      "sha256": "00c132b221e3303ea96e380c7276758fe489d44e3460f8b417f38b2d95335508",
+      "bytes": 444,
+      "rows": 7
+    },
+    "SAU": {
+      "path": "sba/areas/SAU.csv",
+      "sha256": "545be56683f75072123022b6382b195fbdf61689012039d414544d050eaa18d1",
+      "bytes": 850,
+      "rows": 15
+    },
+    "SDN": {
+      "path": "sba/areas/SDN.csv",
+      "sha256": "6d1aea17a75be957561a77d753d437b881162bcf4df55eb738e18509928748d7",
+      "bytes": 234,
+      "rows": 3
+    },
+    "SEN": {
+      "path": "sba/areas/SEN.csv",
+      "sha256": "157216c63a9c7cbe1dfbdd802c38dde9d392a78dab1dbbad4422782ec586389e",
+      "bytes": 709,
+      "rows": 12
+    },
+    "SGP": {
+      "path": "sba/areas/SGP.csv",
+      "sha256": "62c1d424dc0d4798e9f6a57c7134b682d24a30e36e7463e2c9833600713b080c",
+      "bytes": 1400,
+      "rows": 25
+    },
+    "SLB": {
+      "path": "sba/areas/SLB.csv",
+      "sha256": "8e593ac8cb6cf0ccd1139138932c27da4874026f566f588c419094d75768757a",
+      "bytes": 181,
+      "rows": 2
+    },
+    "SLE": {
+      "path": "sba/areas/SLE.csv",
+      "sha256": "972eabee9d13c434ca4b783e1944bca1cf6b0a8ddf027cbdfc6b127c49e94b56",
+      "bytes": 444,
+      "rows": 7
+    },
+    "SLV": {
+      "path": "sba/areas/SLV.csv",
+      "sha256": "cf6f2ef4a1daf00ce43bd74ce40b8bcf9bddf18e3375a7a3668fd89003290cb7",
+      "bytes": 1023,
+      "rows": 18
+    },
+    "SOM": {
+      "path": "sba/areas/SOM.csv",
+      "sha256": "5bcf16784881a278c2047b5c675706b9caa6d9ae469a0e38f9bf0efe673fd293",
+      "bytes": 286,
+      "rows": 4
+    },
+    "SRB": {
+      "path": "sba/areas/SRB.csv",
+      "sha256": "191073c59da85e7fc678658806e17ce476a3d5ce980eccf7c87a319400d6d135",
+      "bytes": 1129,
+      "rows": 20
+    },
+    "SSD": {
+      "path": "sba/areas/SSD.csv",
+      "sha256": "220dcd8ced033edf9e88cbe24c2b19a58c281fe99e037c879a61d46f47ea5dbb",
+      "bytes": 233,
+      "rows": 3
+    },
+    "STP": {
+      "path": "sba/areas/STP.csv",
+      "sha256": "cdd9902d3803299526e27448ed3521f5ced6739f860d85f5f8bad698c4cd7b5a",
+      "bytes": 340,
+      "rows": 5
+    },
+    "SUR": {
+      "path": "sba/areas/SUR.csv",
+      "sha256": "84c9325b4f792f54aec2c95abe3f056fc0bfa5150c26ee05715fde167647cbc4",
+      "bytes": 541,
+      "rows": 9
+    },
+    "SVK": {
+      "path": "sba/areas/SVK.csv",
+      "sha256": "22bf1d41468ae9009e45b414ac00a31806310daef5f51267c17848afce88900d",
+      "bytes": 1338,
+      "rows": 24
+    },
+    "SVN": {
+      "path": "sba/areas/SVN.csv",
+      "sha256": "b2b2c200cc17f30513f3ece615061fd3b161c42c3b68df0502b9c28ae87ab6d2",
+      "bytes": 764,
+      "rows": 13
+    },
+    "SWZ": {
+      "path": "sba/areas/SWZ.csv",
+      "sha256": "3d521db6f702d4ca9e73f87586f12953cd12967cab91a06d30165ed4ef22a1b4",
+      "bytes": 387,
+      "rows": 6
+    },
+    "SYC": {
+      "path": "sba/areas/SYC.csv",
+      "sha256": "bab5691ab684a7b2e3e028e4eaafc0c1c955563113dbab5286ec6731a9071dc8",
+      "bytes": 746,
+      "rows": 13
+    },
+    "SYR": {
+      "path": "sba/areas/SYR.csv",
+      "sha256": "163874fb659dba5491f15628e9e8147f98e7380669bbac878d14182b11798513",
+      "bytes": 181,
+      "rows": 2
+    },
+    "TCA": {
+      "path": "sba/areas/TCA.csv",
+      "sha256": "654ced6d6d07b57834ae6c3bc751c3775c12f2b626f78473341a8626cf9ea849",
+      "bytes": 127,
+      "rows": 1
+    },
+    "TCD": {
+      "path": "sba/areas/TCD.csv",
+      "sha256": "a50e475104fffc0ececaba37d69a5321f5a434f2f518f856a656096781b553ab",
+      "bytes": 340,
+      "rows": 5
+    },
+    "TGO": {
+      "path": "sba/areas/TGO.csv",
+      "sha256": "08dcd1355b37668380c094814137d1a983c4cfe8c3fdecd532adcc156b82a764",
+      "bytes": 393,
+      "rows": 6
+    },
+    "THA": {
+      "path": "sba/areas/THA.csv",
+      "sha256": "a6e50176d28d21f585a7e7f752e77a481f1d3cdab77b4d218d6dc0e3f56be9ee",
+      "bytes": 446,
+      "rows": 7
+    },
+    "TJK": {
+      "path": "sba/areas/TJK.csv",
+      "sha256": "7c21822e52e7006db3af17a31d5143ef4179669ab44395445dacedd590e24a6c",
+      "bytes": 1176,
+      "rows": 21
+    },
+    "TKM": {
+      "path": "sba/areas/TKM.csv",
+      "sha256": "45e4fd2f6de6d3859d35c4a338e1f0abc809e53582bd9a9a9648185eb85f8976",
+      "bytes": 444,
+      "rows": 7
+    },
+    "TLS": {
+      "path": "sba/areas/TLS.csv",
+      "sha256": "eb3d08b6fb7a5c65a229fd8f9031147618a4a1dd2f57b8c2d25854590dedab26",
+      "bytes": 338,
+      "rows": 5
+    },
+    "TON": {
+      "path": "sba/areas/TON.csv",
+      "sha256": "ae3f572c3870a030769008014c90a53f30cf1d11d36c90b255f781fc198f0333",
+      "bytes": 750,
+      "rows": 13
+    },
+    "TTO": {
+      "path": "sba/areas/TTO.csv",
+      "sha256": "64b501e1609b1156ceeea04b021b116ec40f541bf14d63a7ae824c3a721aaa74",
+      "bytes": 964,
+      "rows": 17
+    },
+    "TUN": {
+      "path": "sba/areas/TUN.csv",
+      "sha256": "49fd153cf8cfbdade6a30f993c6bc0dae985ad3169e2940842ebd1ba6ed3ac62",
+      "bytes": 391,
+      "rows": 6
+    },
+    "TUR": {
+      "path": "sba/areas/TUR.csv",
+      "sha256": "b747f36518fe7660c46f124bb635af57b617e14a8eef11bf61a7315aed913ac8",
+      "bytes": 491,
+      "rows": 8
+    },
+    "TUV": {
+      "path": "sba/areas/TUV.csv",
+      "sha256": "06bab124c56da17ccbd49d0410ba7adcf10cc0a6745d22b2667dfdb3e4bf8b87",
+      "bytes": 285,
+      "rows": 4
+    },
+    "TZA": {
+      "path": "sba/areas/TZA.csv",
+      "sha256": "07ad6fb3fdd6740bf8f3f1726a8f4dfb67ff7399b8b2271d14007079334e9687",
+      "bytes": 338,
+      "rows": 5
+    },
+    "UGA": {
+      "path": "sba/areas/UGA.csv",
+      "sha256": "9351e80a87ba703caf48178a9cc3d983322f14916607820b5f5a37f11b40d710",
+      "bytes": 389,
+      "rows": 6
+    },
+    "UKR": {
+      "path": "sba/areas/UKR.csv",
+      "sha256": "a79ad7ff359295567c69b29b28f501aa9c0f3d0fa3df6cd8f5d71dfbc0fbfa2c",
+      "bytes": 868,
+      "rows": 15
+    },
+    "URY": {
+      "path": "sba/areas/URY.csv",
+      "sha256": "13178148ab65f5776a7e441e0fce45dc878475ee1c6db5882f22484c7df6365d",
+      "bytes": 1339,
+      "rows": 24
+    },
+    "USA": {
+      "path": "sba/areas/USA.csv",
+      "sha256": "46441a66cc59369ad588dce6bbe251ee8dbf27a6fd6da5584ebf6a77163cab3d",
+      "bytes": 1345,
+      "rows": 24
+    },
+    "UZB": {
+      "path": "sba/areas/UZB.csv",
+      "sha256": "69c80d661f4d49b99d4fbee0e718f224015f449263dbe15edbf294cc906e79d3",
+      "bytes": 1220,
+      "rows": 22
+    },
+    "VCT": {
+      "path": "sba/areas/VCT.csv",
+      "sha256": "193d4eeebab6af01e924b115eb90a6cef1e05b4829eca9b75f7396a8d4f69554",
+      "bytes": 1125,
+      "rows": 20
+    },
+    "VEN": {
+      "path": "sba/areas/VEN.csv",
+      "sha256": "dea0349f5152b56b9503876f16047da1d73c05b1394219ee624d6bca2108f7ae",
+      "bytes": 546,
+      "rows": 9
+    },
+    "VNM": {
+      "path": "sba/areas/VNM.csv",
+      "sha256": "c49d0f341c02c81c86d3d81a7e426b160a0978e422e324a6c46c1a6bea4403cd",
+      "bytes": 442,
+      "rows": 7
+    },
+    "VUT": {
+      "path": "sba/areas/VUT.csv",
+      "sha256": "075134749d73047ae7bb722b319a299067c5c665ae91966fa261a9537da7742b",
+      "bytes": 438,
+      "rows": 7
+    },
+    "WSM": {
+      "path": "sba/areas/WSM.csv",
+      "sha256": "6a0e5ee9523ada90a480ace1098d673da18a4b8e269f18604ab2cec9d2df6aea",
+      "bytes": 285,
+      "rows": 4
+    },
+    "YEM": {
+      "path": "sba/areas/YEM.csv",
+      "sha256": "af7e3d655317f94bcdc1d455d77bc90c5b582c51ff02a26d32e7bfafc8329684",
+      "bytes": 340,
+      "rows": 5
+    },
+    "ZAF": {
+      "path": "sba/areas/ZAF.csv",
+      "sha256": "ff9cbf1f042d20f12cb9d1cdb29414652b22d85f1f7195e18ad2f3f46f79c0f7",
+      "bytes": 234,
+      "rows": 3
+    },
+    "ZMB": {
+      "path": "sba/areas/ZMB.csv",
+      "sha256": "7998f1b3c470b55f4207bd199ac5b16627ce4e82b99eb7f2edac04959c57205d",
+      "bytes": 393,
+      "rows": 6
+    },
+    "ZWE": {
+      "path": "sba/areas/ZWE.csv",
+      "sha256": "e3308984caef3f2054bf932e24a069b575ecc1188facb058e53c76d1656c34f8",
+      "bytes": 442,
+      "rows": 7
+    }
+  },
+  "provenance": {
+    "path": "sba/provenance.json",
+    "sha256": "31f6594557f06c87cc62f6b7c9a8b0fe364077d262ee048ad23a7f84d3b4ebaf",
+    "bytes": 21155
+  }
+}
