@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsir-global-snapshot-pilot",
+  "version": "0.7.0",
+  "description": "Look up and compare six dated worldwide health series from WHO GHO, UN SDG and WHO GHE.",
+  "author": {
+    "name": "Shanlong Ding"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DSIR Global Snapshot Pilot Phase 7",
+        "shortDescription": "Worldwide health data",
+        "longDescription": "Find country and area estimates, bounds, years and CSV downloads in a fixed DSIR snapshot of six series from WHO GHO, the UN SDG database and WHO Global Health Estimates.",
+        "developerName": "Shanlong Ding",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": "Compare the latest tuberculosis incidence estimates for Brazil and Viet Nam. Include each estimate, year, unit, uncertainty bounds and country CSV."
+      }
+    }
+  }
+}
