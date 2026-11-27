@@ -1,0 +1,577 @@
+area_code,year,series_code,audit_unit,estimate,low,high,age,sex,cause_code
+NZL,2000,death_rate,Deaths per 100000 population,657.43,,,TOTAL,FEMALE,0
+NZL,2000,death_rate,Deaths per 100000 population,83.01,,,TOTAL,FEMALE,1140
+NZL,2000,death_rate,Deaths per 100000 population,728.07,,,TOTAL,MALE,0
+NZL,2000,death_rate,Deaths per 100000 population,55.22,,,TOTAL,MALE,1140
+NZL,2000,death_rate,Deaths per 100000 population,692.11,,,TOTAL,TOTAL,0
+NZL,2000,death_rate,Deaths per 100000 population,69.37,,,TOTAL,TOTAL,1140
+NZL,2000,death_rate,Deaths per 100000 population,124.25,,,Y40T44,FEMALE,0
+NZL,2000,death_rate,Deaths per 100000 population,6.34,,,Y40T44,FEMALE,1140
+NZL,2000,death_rate,Deaths per 100000 population,188.76,,,Y40T44,MALE,0
+NZL,2000,death_rate,Deaths per 100000 population,6.38,,,Y40T44,MALE,1140
+NZL,2000,death_rate,Deaths per 100000 population,155.88,,,Y40T44,TOTAL,0
+NZL,2000,death_rate,Deaths per 100000 population,6.36,,,Y40T44,TOTAL,1140
+NZL,2000,deaths,Deaths,12911.24,12300.49,13517.11,TOTAL,FEMALE,0
+NZL,2000,deaths,Deaths,1630.2,1333.03,1871.13,TOTAL,FEMALE,1140
+NZL,2000,deaths,Deaths,13787.45,13173.98,14408.79,TOTAL,MALE,0
+NZL,2000,deaths,Deaths,1045.75,902.78,1195.5,TOTAL,MALE,1140
+NZL,2000,deaths,Deaths,26698.68,25474.47,27925.9,TOTAL,TOTAL,0
+NZL,2000,deaths,Deaths,2675.95,2235.81,3066.63,TOTAL,TOTAL,1140
+NZL,2000,deaths,Deaths,184.14,171.07,196.73,Y40T44,FEMALE,0
+NZL,2000,deaths,Deaths,9.4,7.74,11.1,Y40T44,FEMALE,1140
+NZL,2000,deaths,Deaths,268.99,252.97,285.18,Y40T44,MALE,0
+NZL,2000,deaths,Deaths,9.09,7.5,11,Y40T44,MALE,1140
+NZL,2000,deaths,Deaths,453.13,424.04,481.91,Y40T44,TOTAL,0
+NZL,2000,deaths,Deaths,18.49,15.23,22.1,Y40T44,TOTAL,1140
+NZL,2001,death_rate,Deaths per 100000 population,703.21,,,TOTAL,FEMALE,0
+NZL,2001,death_rate,Deaths per 100000 population,88.56,,,TOTAL,FEMALE,1140
+NZL,2001,death_rate,Deaths per 100000 population,740.23,,,TOTAL,MALE,0
+NZL,2001,death_rate,Deaths per 100000 population,54.27,,,TOTAL,MALE,1140
+NZL,2001,death_rate,Deaths per 100000 population,721.37,,,TOTAL,TOTAL,0
+NZL,2001,death_rate,Deaths per 100000 population,71.74,,,TOTAL,TOTAL,1140
+NZL,2001,death_rate,Deaths per 100000 population,111.96,,,Y40T44,FEMALE,0
+NZL,2001,death_rate,Deaths per 100000 population,7.57,,,Y40T44,FEMALE,1140
+NZL,2001,death_rate,Deaths per 100000 population,190.38,,,Y40T44,MALE,0
+NZL,2001,death_rate,Deaths per 100000 population,2.09,,,Y40T44,MALE,1140
+NZL,2001,death_rate,Deaths per 100000 population,150.28,,,Y40T44,TOTAL,0
+NZL,2001,death_rate,Deaths per 100000 population,4.89,,,Y40T44,TOTAL,1140
+NZL,2001,deaths,Deaths,13942.95,13313.63,14603.07,TOTAL,FEMALE,0
+NZL,2001,deaths,Deaths,1755.87,1433.9,2016.9,TOTAL,FEMALE,1140
+NZL,2001,deaths,Deaths,14131.07,13508.11,14773.45,TOTAL,MALE,0
+NZL,2001,deaths,Deaths,1036.06,893.2,1188.24,TOTAL,MALE,1140
+NZL,2001,deaths,Deaths,28074.02,26821.73,29376.52,TOTAL,TOTAL,0
+NZL,2001,deaths,Deaths,2791.93,2327.1,3205.15,TOTAL,TOTAL,1140
+NZL,2001,deaths,Deaths,170.56,159.14,183.2,Y40T44,FEMALE,0
+NZL,2001,deaths,Deaths,11.53,9.62,13.55,Y40T44,FEMALE,1140
+NZL,2001,deaths,Deaths,277.08,259.96,292.16,Y40T44,MALE,0
+NZL,2001,deaths,Deaths,3.04,2.51,3.68,Y40T44,MALE,1140
+NZL,2001,deaths,Deaths,447.65,419.11,475.36,Y40T44,TOTAL,0
+NZL,2001,deaths,Deaths,14.57,12.12,17.23,Y40T44,TOTAL,1140
+NZL,2002,death_rate,Deaths per 100000 population,701.88,,,TOTAL,FEMALE,0
+NZL,2002,death_rate,Deaths per 100000 population,87.32,,,TOTAL,FEMALE,1140
+NZL,2002,death_rate,Deaths per 100000 population,729.47,,,TOTAL,MALE,0
+NZL,2002,death_rate,Deaths per 100000 population,55.41,,,TOTAL,MALE,1140
+NZL,2002,death_rate,Deaths per 100000 population,715.41,,,TOTAL,TOTAL,0
+NZL,2002,death_rate,Deaths per 100000 population,71.67,,,TOTAL,TOTAL,1140
+NZL,2002,death_rate,Deaths per 100000 population,112.18,,,Y40T44,FEMALE,0
+NZL,2002,death_rate,Deaths per 100000 population,7.06,,,Y40T44,FEMALE,1140
+NZL,2002,death_rate,Deaths per 100000 population,180.37,,,Y40T44,MALE,0
+NZL,2002,death_rate,Deaths per 100000 population,6.75,,,Y40T44,MALE,1140
+NZL,2002,death_rate,Deaths per 100000 population,145.39,,,Y40T44,TOTAL,0
+NZL,2002,death_rate,Deaths per 100000 population,6.91,,,Y40T44,TOTAL,1140
+NZL,2002,deaths,Deaths,14131.22,13465.09,14805.39,TOTAL,FEMALE,0
+NZL,2002,deaths,Deaths,1758.05,1439.25,2021.6,TOTAL,FEMALE,1140
+NZL,2002,deaths,Deaths,14135.61,13510.06,14766.54,TOTAL,MALE,0
+NZL,2002,deaths,Deaths,1073.65,928.05,1228.55,TOTAL,MALE,1140
+NZL,2002,deaths,Deaths,28266.83,26975.15,29571.93,TOTAL,TOTAL,0
+NZL,2002,deaths,Deaths,2831.69,2367.3,3250.15,TOTAL,TOTAL,1140
+NZL,2002,deaths,Deaths,176.64,164.73,188.29,Y40T44,FEMALE,0
+NZL,2002,deaths,Deaths,11.12,9.27,12.94,Y40T44,FEMALE,1140
+NZL,2002,deaths,Deaths,269.72,254.3,283.56,Y40T44,MALE,0
+NZL,2002,deaths,Deaths,10.09,8.3,12.11,Y40T44,MALE,1140
+NZL,2002,deaths,Deaths,446.35,419.03,471.85,Y40T44,TOTAL,0
+NZL,2002,deaths,Deaths,21.21,17.56,25.05,Y40T44,TOTAL,1140
+NZL,2003,death_rate,Deaths per 100000 population,681.65,,,TOTAL,FEMALE,0
+NZL,2003,death_rate,Deaths per 100000 population,84.51,,,TOTAL,FEMALE,1140
+NZL,2003,death_rate,Deaths per 100000 population,708.64,,,TOTAL,MALE,0
+NZL,2003,death_rate,Deaths per 100000 population,48.83,,,TOTAL,MALE,1140
+NZL,2003,death_rate,Deaths per 100000 population,694.88,,,TOTAL,TOTAL,0
+NZL,2003,death_rate,Deaths per 100000 population,67.01,,,TOTAL,TOTAL,1140
+NZL,2003,death_rate,Deaths per 100000 population,114.97,,,Y40T44,FEMALE,0
+NZL,2003,death_rate,Deaths per 100000 population,8.66,,,Y40T44,FEMALE,1140
+NZL,2003,death_rate,Deaths per 100000 population,185.28,,,Y40T44,MALE,0
+NZL,2003,death_rate,Deaths per 100000 population,7.88,,,Y40T44,MALE,1140
+NZL,2003,death_rate,Deaths per 100000 population,149.14,,,Y40T44,TOTAL,0
+NZL,2003,death_rate,Deaths per 100000 population,8.28,,,Y40T44,TOTAL,1140
+NZL,2003,deaths,Deaths,13973.41,13327.12,14646.91,TOTAL,FEMALE,0
+NZL,2003,deaths,Deaths,1732.39,1416.43,1998.15,TOTAL,FEMALE,1140
+NZL,2003,deaths,Deaths,13978.93,13358.74,14622.07,TOTAL,MALE,0
+NZL,2003,deaths,Deaths,963.19,831.79,1102.24,TOTAL,MALE,1140
+NZL,2003,deaths,Deaths,27952.34,26685.87,29268.98,TOTAL,TOTAL,0
+NZL,2003,deaths,Deaths,2695.57,2248.21,3100.39,TOTAL,TOTAL,1140
+NZL,2003,deaths,Deaths,186.71,175.22,198.75,Y40T44,FEMALE,0
+NZL,2003,deaths,Deaths,14.07,11.76,16.47,Y40T44,FEMALE,1140
+NZL,2003,deaths,Deaths,284.42,267.07,301.11,Y40T44,MALE,0
+NZL,2003,deaths,Deaths,12.09,9.98,14.59,Y40T44,MALE,1140
+NZL,2003,deaths,Deaths,471.14,442.29,499.85,Y40T44,TOTAL,0
+NZL,2003,deaths,Deaths,26.16,21.74,31.06,Y40T44,TOTAL,1140
+NZL,2004,death_rate,Deaths per 100000 population,695.02,,,TOTAL,FEMALE,0
+NZL,2004,death_rate,Deaths per 100000 population,85.25,,,TOTAL,FEMALE,1140
+NZL,2004,death_rate,Deaths per 100000 population,708.15,,,TOTAL,MALE,0
+NZL,2004,death_rate,Deaths per 100000 population,52.31,,,TOTAL,MALE,1140
+NZL,2004,death_rate,Deaths per 100000 population,701.46,,,TOTAL,TOTAL,0
+NZL,2004,death_rate,Deaths per 100000 population,69.1,,,TOTAL,TOTAL,1140
+NZL,2004,death_rate,Deaths per 100000 population,112.08,,,Y40T44,FEMALE,0
+NZL,2004,death_rate,Deaths per 100000 population,4.86,,,Y40T44,FEMALE,1140
+NZL,2004,death_rate,Deaths per 100000 population,166.35,,,Y40T44,MALE,0
+NZL,2004,death_rate,Deaths per 100000 population,5.14,,,Y40T44,MALE,1140
+NZL,2004,death_rate,Deaths per 100000 population,138.4,,,Y40T44,TOTAL,0
+NZL,2004,death_rate,Deaths per 100000 population,5,,,Y40T44,TOTAL,1140
+NZL,2004,deaths,Deaths,14471.28,13824.28,15165.09,TOTAL,FEMALE,0
+NZL,2004,deaths,Deaths,1774.97,1444.06,2043.36,TOTAL,FEMALE,1140
+NZL,2004,deaths,Deaths,14175.66,13535.35,14829.33,TOTAL,MALE,0
+NZL,2004,deaths,Deaths,1047.19,905.9,1194.86,TOTAL,MALE,1140
+NZL,2004,deaths,Deaths,28646.95,27359.63,29994.42,TOTAL,TOTAL,0
+NZL,2004,deaths,Deaths,2822.16,2349.96,3238.22,TOTAL,TOTAL,1140
+NZL,2004,deaths,Deaths,185.58,172.91,198.47,Y40T44,FEMALE,0
+NZL,2004,deaths,Deaths,8.05,6.69,9.53,Y40T44,FEMALE,1140
+NZL,2004,deaths,Deaths,259.37,242.93,275.08,Y40T44,MALE,0
+NZL,2004,deaths,Deaths,8.01,6.53,9.66,Y40T44,MALE,1140
+NZL,2004,deaths,Deaths,444.94,415.84,473.56,Y40T44,TOTAL,0
+NZL,2004,deaths,Deaths,16.06,13.21,19.19,Y40T44,TOTAL,1140
+NZL,2005,death_rate,Deaths per 100000 population,648.4,,,TOTAL,FEMALE,0
+NZL,2005,death_rate,Deaths per 100000 population,79.19,,,TOTAL,FEMALE,1140
+NZL,2005,death_rate,Deaths per 100000 population,664.59,,,TOTAL,MALE,0
+NZL,2005,death_rate,Deaths per 100000 population,46.27,,,TOTAL,MALE,1140
+NZL,2005,death_rate,Deaths per 100000 population,656.33,,,TOTAL,TOTAL,0
+NZL,2005,death_rate,Deaths per 100000 population,63.07,,,TOTAL,TOTAL,1140
+NZL,2005,death_rate,Deaths per 100000 population,116.72,,,Y40T44,FEMALE,0
+NZL,2005,death_rate,Deaths per 100000 population,9.71,,,Y40T44,FEMALE,1140
+NZL,2005,death_rate,Deaths per 100000 population,187.51,,,Y40T44,MALE,0
+NZL,2005,death_rate,Deaths per 100000 population,6.49,,,Y40T44,MALE,1140
+NZL,2005,death_rate,Deaths per 100000 population,150.99,,,Y40T44,TOTAL,0
+NZL,2005,death_rate,Deaths per 100000 population,8.15,,,Y40T44,TOTAL,1140
+NZL,2005,deaths,Deaths,13678.72,13063.87,14317.63,TOTAL,FEMALE,0
+NZL,2005,deaths,Deaths,1670.67,1354.75,1933.26,TOTAL,FEMALE,1140
+NZL,2005,deaths,Deaths,13460.52,12860.59,14062.32,TOTAL,MALE,0
+NZL,2005,deaths,Deaths,937.12,810.97,1067.17,TOTAL,MALE,1140
+NZL,2005,deaths,Deaths,27139.24,25924.45,28379.96,TOTAL,TOTAL,0
+NZL,2005,deaths,Deaths,2607.79,2165.71,3000.43,TOTAL,TOTAL,1140
+NZL,2005,deaths,Deaths,194.58,182.11,207.27,Y40T44,FEMALE,0
+NZL,2005,deaths,Deaths,16.18,13.33,19.29,Y40T44,FEMALE,1140
+NZL,2005,deaths,Deaths,293.42,276.85,309.19,Y40T44,MALE,0
+NZL,2005,deaths,Deaths,10.15,8.36,12.14,Y40T44,MALE,1140
+NZL,2005,deaths,Deaths,488,458.96,516.46,Y40T44,TOTAL,0
+NZL,2005,deaths,Deaths,26.33,21.69,31.43,Y40T44,TOTAL,1140
+NZL,2006,death_rate,Deaths per 100000 population,674.87,,,TOTAL,FEMALE,0
+NZL,2006,death_rate,Deaths per 100000 population,79.33,,,TOTAL,FEMALE,1140
+NZL,2006,death_rate,Deaths per 100000 population,682.58,,,TOTAL,MALE,0
+NZL,2006,death_rate,Deaths per 100000 population,48.92,,,TOTAL,MALE,1140
+NZL,2006,death_rate,Deaths per 100000 population,678.65,,,TOTAL,TOTAL,0
+NZL,2006,death_rate,Deaths per 100000 population,64.45,,,TOTAL,TOTAL,1140
+NZL,2006,death_rate,Deaths per 100000 population,114.71,,,Y40T44,FEMALE,0
+NZL,2006,death_rate,Deaths per 100000 population,8.75,,,Y40T44,FEMALE,1140
+NZL,2006,death_rate,Deaths per 100000 population,161,,,Y40T44,MALE,0
+NZL,2006,death_rate,Deaths per 100000 population,5.81,,,Y40T44,MALE,1140
+NZL,2006,death_rate,Deaths per 100000 population,137.09,,,Y40T44,TOTAL,0
+NZL,2006,death_rate,Deaths per 100000 population,7.33,,,Y40T44,TOTAL,1140
+NZL,2006,deaths,Deaths,14408.76,13758.14,15089.5,TOTAL,FEMALE,0
+NZL,2006,deaths,Deaths,1693.82,1372.28,1950.39,TOTAL,FEMALE,1140
+NZL,2006,deaths,Deaths,13971.84,13352.78,14614.42,TOTAL,MALE,0
+NZL,2006,deaths,Deaths,1001.44,865.38,1137.94,TOTAL,MALE,1140
+NZL,2006,deaths,Deaths,28380.6,27110.92,29703.93,TOTAL,TOTAL,0
+NZL,2006,deaths,Deaths,2695.26,2237.66,3088.33,TOTAL,TOTAL,1140
+NZL,2006,deaths,Deaths,190.78,179.65,202.17,Y40T44,FEMALE,0
+NZL,2006,deaths,Deaths,14.56,12.21,17.47,Y40T44,FEMALE,1140
+NZL,2006,deaths,Deaths,250.57,239.32,264.06,Y40T44,MALE,0
+NZL,2006,deaths,Deaths,9.05,7.48,10.88,Y40T44,MALE,1140
+NZL,2006,deaths,Deaths,441.35,418.97,466.23,Y40T44,TOTAL,0
+NZL,2006,deaths,Deaths,23.61,19.69,28.35,Y40T44,TOTAL,1140
+NZL,2007,death_rate,Deaths per 100000 population,661.54,,,TOTAL,FEMALE,0
+NZL,2007,death_rate,Deaths per 100000 population,76.83,,,TOTAL,FEMALE,1140
+NZL,2007,death_rate,Deaths per 100000 population,689.96,,,TOTAL,MALE,0
+NZL,2007,death_rate,Deaths per 100000 population,47.63,,,TOTAL,MALE,1140
+NZL,2007,death_rate,Deaths per 100000 population,675.45,,,TOTAL,TOTAL,0
+NZL,2007,death_rate,Deaths per 100000 population,62.55,,,TOTAL,TOTAL,1140
+NZL,2007,death_rate,Deaths per 100000 population,128.64,,,Y40T44,FEMALE,0
+NZL,2007,death_rate,Deaths per 100000 population,8.61,,,Y40T44,FEMALE,1140
+NZL,2007,death_rate,Deaths per 100000 population,167.24,,,Y40T44,MALE,0
+NZL,2007,death_rate,Deaths per 100000 population,6.51,,,Y40T44,MALE,1140
+NZL,2007,death_rate,Deaths per 100000 population,147.26,,,Y40T44,TOTAL,0
+NZL,2007,death_rate,Deaths per 100000 population,7.6,,,Y40T44,TOTAL,1140
+NZL,2007,deaths,Deaths,14271.06,13618.38,14940.4,TOTAL,FEMALE,0
+NZL,2007,deaths,Deaths,1657.42,1324.67,1917.07,TOTAL,FEMALE,1140
+NZL,2007,deaths,Deaths,14254.8,13619.96,14908.86,TOTAL,MALE,0
+NZL,2007,deaths,Deaths,984.08,854.8,1116.15,TOTAL,MALE,1140
+NZL,2007,deaths,Deaths,28525.86,27238.34,29849.25,TOTAL,TOTAL,0
+NZL,2007,deaths,Deaths,2641.5,2179.47,3033.23,TOTAL,TOTAL,1140
+NZL,2007,deaths,Deaths,212.26,199.44,225.76,Y40T44,FEMALE,0
+NZL,2007,deaths,Deaths,14.2,11.8,17.13,Y40T44,FEMALE,1140
+NZL,2007,deaths,Deaths,257.32,243.33,270.24,Y40T44,MALE,0
+NZL,2007,deaths,Deaths,10.01,8.21,12.03,Y40T44,MALE,1140
+NZL,2007,deaths,Deaths,469.58,442.77,496.01,Y40T44,TOTAL,0
+NZL,2007,deaths,Deaths,24.22,20.01,29.15,Y40T44,TOTAL,1140
+NZL,2008,death_rate,Deaths per 100000 population,674.97,,,TOTAL,FEMALE,0
+NZL,2008,death_rate,Deaths per 100000 population,76.14,,,TOTAL,FEMALE,1140
+NZL,2008,death_rate,Deaths per 100000 population,694.42,,,TOTAL,MALE,0
+NZL,2008,death_rate,Deaths per 100000 population,46.42,,,TOTAL,MALE,1140
+NZL,2008,death_rate,Deaths per 100000 population,684.48,,,TOTAL,TOTAL,0
+NZL,2008,death_rate,Deaths per 100000 population,61.61,,,TOTAL,TOTAL,1140
+NZL,2008,death_rate,Deaths per 100000 population,111.33,,,Y40T44,FEMALE,0
+NZL,2008,death_rate,Deaths per 100000 population,7.51,,,Y40T44,FEMALE,1140
+NZL,2008,death_rate,Deaths per 100000 population,170.33,,,Y40T44,MALE,0
+NZL,2008,death_rate,Deaths per 100000 population,6.05,,,Y40T44,MALE,1140
+NZL,2008,death_rate,Deaths per 100000 population,139.74,,,Y40T44,TOTAL,0
+NZL,2008,death_rate,Deaths per 100000 population,6.81,,,Y40T44,TOTAL,1140
+NZL,2008,deaths,Deaths,14697.19,14024.79,15366.41,TOTAL,FEMALE,0
+NZL,2008,deaths,Deaths,1657.9,1324.83,1928.53,TOTAL,FEMALE,1140
+NZL,2008,deaths,Deaths,14474.39,13846.68,15114.05,TOTAL,MALE,0
+NZL,2008,deaths,Deaths,967.61,842.7,1098.66,TOTAL,MALE,1140
+NZL,2008,deaths,Deaths,29171.58,27871.47,30480.46,TOTAL,TOTAL,0
+NZL,2008,deaths,Deaths,2625.51,2167.53,3027.19,TOTAL,TOTAL,1140
+NZL,2008,deaths,Deaths,182.24,170.75,194.09,Y40T44,FEMALE,0
+NZL,2008,deaths,Deaths,12.3,10.15,15.02,Y40T44,FEMALE,1140
+NZL,2008,deaths,Deaths,258.92,243.8,273.54,Y40T44,MALE,0
+NZL,2008,deaths,Deaths,9.19,7.49,11.01,Y40T44,MALE,1140
+NZL,2008,deaths,Deaths,441.16,414.55,467.63,Y40T44,TOTAL,0
+NZL,2008,deaths,Deaths,21.49,17.64,26.03,Y40T44,TOTAL,1140
+NZL,2009,death_rate,Deaths per 100000 population,660.81,,,TOTAL,FEMALE,0
+NZL,2009,death_rate,Deaths per 100000 population,71.11,,,TOTAL,FEMALE,1140
+NZL,2009,death_rate,Deaths per 100000 population,686.53,,,TOTAL,MALE,0
+NZL,2009,death_rate,Deaths per 100000 population,44.32,,,TOTAL,MALE,1140
+NZL,2009,death_rate,Deaths per 100000 population,673.39,,,TOTAL,TOTAL,0
+NZL,2009,death_rate,Deaths per 100000 population,58.01,,,TOTAL,TOTAL,1140
+NZL,2009,death_rate,Deaths per 100000 population,115.39,,,Y40T44,FEMALE,0
+NZL,2009,death_rate,Deaths per 100000 population,3.1,,,Y40T44,FEMALE,1140
+NZL,2009,death_rate,Deaths per 100000 population,170.14,,,Y40T44,MALE,0
+NZL,2009,death_rate,Deaths per 100000 population,4.02,,,Y40T44,MALE,1140
+NZL,2009,death_rate,Deaths per 100000 population,141.68,,,Y40T44,TOTAL,0
+NZL,2009,death_rate,Deaths per 100000 population,3.55,,,Y40T44,TOTAL,1140
+NZL,2009,deaths,Deaths,14533.16,13881.94,15242.66,TOTAL,FEMALE,0
+NZL,2009,deaths,Deaths,1563.97,1253.42,1816.83,TOTAL,FEMALE,1140
+NZL,2009,deaths,Deaths,14451.62,13817.95,15112.76,TOTAL,MALE,0
+NZL,2009,deaths,Deaths,932.91,811.05,1062.44,TOTAL,MALE,1140
+NZL,2009,deaths,Deaths,28984.78,27699.89,30355.42,TOTAL,TOTAL,0
+NZL,2009,deaths,Deaths,2496.88,2064.47,2879.28,TOTAL,TOTAL,1140
+NZL,2009,deaths,Deaths,188.5,176.61,201.84,Y40T44,FEMALE,0
+NZL,2009,deaths,Deaths,5.07,4.12,6.16,Y40T44,FEMALE,1140
+NZL,2009,deaths,Deaths,256.66,241.16,272.21,Y40T44,MALE,0
+NZL,2009,deaths,Deaths,6.07,4.91,7.31,Y40T44,MALE,1140
+NZL,2009,deaths,Deaths,445.16,417.77,474.05,Y40T44,TOTAL,0
+NZL,2009,deaths,Deaths,11.14,9.03,13.46,Y40T44,TOTAL,1140
+NZL,2010,death_rate,Deaths per 100000 population,638.82,,,TOTAL,FEMALE,0
+NZL,2010,death_rate,Deaths per 100000 population,69.1,,,TOTAL,FEMALE,1140
+NZL,2010,death_rate,Deaths per 100000 population,665.17,,,TOTAL,MALE,0
+NZL,2010,death_rate,Deaths per 100000 population,44.05,,,TOTAL,MALE,1140
+NZL,2010,death_rate,Deaths per 100000 population,651.7,,,TOTAL,TOTAL,0
+NZL,2010,death_rate,Deaths per 100000 population,56.85,,,TOTAL,TOTAL,1140
+NZL,2010,death_rate,Deaths per 100000 population,117.62,,,Y40T44,FEMALE,0
+NZL,2010,death_rate,Deaths per 100000 population,6.27,,,Y40T44,FEMALE,1140
+NZL,2010,death_rate,Deaths per 100000 population,164.12,,,Y40T44,MALE,0
+NZL,2010,death_rate,Deaths per 100000 population,6.72,,,Y40T44,MALE,1140
+NZL,2010,death_rate,Deaths per 100000 population,139.86,,,Y40T44,TOTAL,0
+NZL,2010,death_rate,Deaths per 100000 population,6.48,,,Y40T44,TOTAL,1140
+NZL,2010,deaths,Deaths,14193,13525.87,14857.1,TOTAL,FEMALE,0
+NZL,2010,deaths,Deaths,1535.13,1224.36,1786.05,TOTAL,FEMALE,1140
+NZL,2010,deaths,Deaths,14141.63,13538.37,14771.76,TOTAL,MALE,0
+NZL,2010,deaths,Deaths,936.46,812.29,1064.85,TOTAL,MALE,1140
+NZL,2010,deaths,Deaths,28334.63,27064.25,29628.87,TOTAL,TOTAL,0
+NZL,2010,deaths,Deaths,2471.59,2036.66,2850.9,TOTAL,TOTAL,1140
+NZL,2010,deaths,Deaths,193.19,180.27,206.69,Y40T44,FEMALE,0
+NZL,2010,deaths,Deaths,10.29,8.44,12.59,Y40T44,FEMALE,1140
+NZL,2010,deaths,Deaths,247.01,233.65,262.51,Y40T44,MALE,0
+NZL,2010,deaths,Deaths,10.11,8.28,12.1,Y40T44,MALE,1140
+NZL,2010,deaths,Deaths,440.2,413.92,469.2,Y40T44,TOTAL,0
+NZL,2010,deaths,Deaths,20.4,16.71,24.69,Y40T44,TOTAL,1140
+NZL,2011,death_rate,Deaths per 100000 population,682.31,,,TOTAL,FEMALE,0
+NZL,2011,death_rate,Deaths per 100000 population,74.27,,,TOTAL,FEMALE,1140
+NZL,2011,death_rate,Deaths per 100000 population,689.34,,,TOTAL,MALE,0
+NZL,2011,death_rate,Deaths per 100000 population,46.91,,,TOTAL,MALE,1140
+NZL,2011,death_rate,Deaths per 100000 population,685.75,,,TOTAL,TOTAL,0
+NZL,2011,death_rate,Deaths per 100000 population,60.89,,,TOTAL,TOTAL,1140
+NZL,2011,death_rate,Deaths per 100000 population,114.74,,,Y40T44,FEMALE,0
+NZL,2011,death_rate,Deaths per 100000 population,3.4,,,Y40T44,FEMALE,1140
+NZL,2011,death_rate,Deaths per 100000 population,178.62,,,Y40T44,MALE,0
+NZL,2011,death_rate,Deaths per 100000 population,6.32,,,Y40T44,MALE,1140
+NZL,2011,death_rate,Deaths per 100000 population,145.17,,,Y40T44,TOTAL,0
+NZL,2011,death_rate,Deaths per 100000 population,4.79,,,Y40T44,TOTAL,1140
+NZL,2011,deaths,Deaths,15284.1,14596.03,16000.65,TOTAL,FEMALE,0
+NZL,2011,deaths,Deaths,1663.63,1322.03,1931.15,TOTAL,FEMALE,1140
+NZL,2011,deaths,Deaths,14770.31,14137.68,15440.13,TOTAL,MALE,0
+NZL,2011,deaths,Deaths,1005.04,871.17,1145.44,TOTAL,MALE,1140
+NZL,2011,deaths,Deaths,30054.41,28733.71,31440.78,TOTAL,TOTAL,0
+NZL,2011,deaths,Deaths,2668.67,2193.2,3076.59,TOTAL,TOTAL,1140
+NZL,2011,deaths,Deaths,190.07,177.44,202.55,Y40T44,FEMALE,0
+NZL,2011,deaths,Deaths,5.63,4.59,6.83,Y40T44,FEMALE,1140
+NZL,2011,deaths,Deaths,269.14,253.43,285.92,Y40T44,MALE,0
+NZL,2011,deaths,Deaths,9.53,7.78,11.46,Y40T44,MALE,1140
+NZL,2011,deaths,Deaths,459.22,430.87,488.47,Y40T44,TOTAL,0
+NZL,2011,deaths,Deaths,15.16,12.37,18.29,Y40T44,TOTAL,1140
+NZL,2012,death_rate,Deaths per 100000 population,661.25,,,TOTAL,FEMALE,0
+NZL,2012,death_rate,Deaths per 100000 population,72.94,,,TOTAL,FEMALE,1140
+NZL,2012,death_rate,Deaths per 100000 population,687.19,,,TOTAL,MALE,0
+NZL,2012,death_rate,Deaths per 100000 population,44.11,,,TOTAL,MALE,1140
+NZL,2012,death_rate,Deaths per 100000 population,673.93,,,TOTAL,TOTAL,0
+NZL,2012,death_rate,Deaths per 100000 population,58.85,,,TOTAL,TOTAL,1140
+NZL,2012,death_rate,Deaths per 100000 population,112.96,,,Y40T44,FEMALE,0
+NZL,2012,death_rate,Deaths per 100000 population,8.48,,,Y40T44,FEMALE,1140
+NZL,2012,death_rate,Deaths per 100000 population,161.2,,,Y40T44,MALE,0
+NZL,2012,death_rate,Deaths per 100000 population,7.53,,,Y40T44,MALE,1140
+NZL,2012,death_rate,Deaths per 100000 population,135.88,,,Y40T44,TOTAL,0
+NZL,2012,death_rate,Deaths per 100000 population,8.03,,,Y40T44,TOTAL,1140
+NZL,2012,deaths,Deaths,14911.21,14266.44,15600.1,TOTAL,FEMALE,0
+NZL,2012,deaths,Deaths,1644.88,1297.93,1917.01,TOTAL,FEMALE,1140
+NZL,2012,deaths,Deaths,14820.66,14185.78,15482.39,TOTAL,MALE,0
+NZL,2012,deaths,Deaths,951.24,822.05,1081.58,TOTAL,MALE,1140
+NZL,2012,deaths,Deaths,29731.87,28452.21,31082.49,TOTAL,TOTAL,0
+NZL,2012,deaths,Deaths,2596.12,2119.97,2998.59,TOTAL,TOTAL,1140
+NZL,2012,deaths,Deaths,188.03,175.42,200.67,Y40T44,FEMALE,0
+NZL,2012,deaths,Deaths,14.12,11.39,17.02,Y40T44,FEMALE,1140
+NZL,2012,deaths,Deaths,242.91,229.04,256.23,Y40T44,MALE,0
+NZL,2012,deaths,Deaths,11.34,9.19,14.03,Y40T44,MALE,1140
+NZL,2012,deaths,Deaths,430.94,404.46,456.9,Y40T44,TOTAL,0
+NZL,2012,deaths,Deaths,25.46,20.58,31.06,Y40T44,TOTAL,1140
+NZL,2013,death_rate,Deaths per 100000 population,649.35,,,TOTAL,FEMALE,0
+NZL,2013,death_rate,Deaths per 100000 population,62.63,,,TOTAL,FEMALE,1140
+NZL,2013,death_rate,Deaths per 100000 population,691.53,,,TOTAL,MALE,0
+NZL,2013,death_rate,Deaths per 100000 population,43.93,,,TOTAL,MALE,1140
+NZL,2013,death_rate,Deaths per 100000 population,669.99,,,TOTAL,TOTAL,0
+NZL,2013,death_rate,Deaths per 100000 population,53.48,,,TOTAL,TOTAL,1140
+NZL,2013,death_rate,Deaths per 100000 population,100.97,,,Y40T44,FEMALE,0
+NZL,2013,death_rate,Deaths per 100000 population,1.86,,,Y40T44,FEMALE,1140
+NZL,2013,death_rate,Deaths per 100000 population,153.22,,,Y40T44,MALE,0
+NZL,2013,death_rate,Deaths per 100000 population,5.38,,,Y40T44,MALE,1140
+NZL,2013,death_rate,Deaths per 100000 population,125.8,,,Y40T44,TOTAL,0
+NZL,2013,death_rate,Deaths per 100000 population,3.54,,,Y40T44,TOTAL,1140
+NZL,2013,deaths,Deaths,14769.85,14114.5,15467.68,TOTAL,FEMALE,0
+NZL,2013,deaths,Deaths,1424.46,1119.76,1663.83,TOTAL,FEMALE,1140
+NZL,2013,deaths,Deaths,15070.45,14423.71,15726.48,TOTAL,MALE,0
+NZL,2013,deaths,Deaths,957.31,824.97,1092.46,TOTAL,MALE,1140
+NZL,2013,deaths,Deaths,29840.3,28538.21,31194.17,TOTAL,TOTAL,0
+NZL,2013,deaths,Deaths,2381.77,1944.73,2756.29,TOTAL,TOTAL,1140
+NZL,2013,deaths,Deaths,167.81,156.71,178.22,Y40T44,FEMALE,0
+NZL,2013,deaths,Deaths,3.09,2.46,3.76,Y40T44,FEMALE,1140
+NZL,2013,deaths,Deaths,230.48,218.42,246.42,Y40T44,MALE,0
+NZL,2013,deaths,Deaths,8.1,6.56,9.9,Y40T44,MALE,1140
+NZL,2013,deaths,Deaths,398.3,375.13,424.64,Y40T44,TOTAL,0
+NZL,2013,deaths,Deaths,11.2,9.02,13.65,Y40T44,TOTAL,1140
+NZL,2014,death_rate,Deaths per 100000 population,670.99,,,TOTAL,FEMALE,0
+NZL,2014,death_rate,Deaths per 100000 population,67.78,,,TOTAL,FEMALE,1140
+NZL,2014,death_rate,Deaths per 100000 population,707.87,,,TOTAL,MALE,0
+NZL,2014,death_rate,Deaths per 100000 population,47.3,,,TOTAL,MALE,1140
+NZL,2014,death_rate,Deaths per 100000 population,689.08,,,TOTAL,TOTAL,0
+NZL,2014,death_rate,Deaths per 100000 population,57.73,,,TOTAL,TOTAL,1140
+NZL,2014,death_rate,Deaths per 100000 population,101.81,,,Y40T44,FEMALE,0
+NZL,2014,death_rate,Deaths per 100000 population,4.95,,,Y40T44,FEMALE,1140
+NZL,2014,death_rate,Deaths per 100000 population,149.79,,,Y40T44,MALE,0
+NZL,2014,death_rate,Deaths per 100000 population,8.19,,,Y40T44,MALE,1140
+NZL,2014,death_rate,Deaths per 100000 population,124.67,,,Y40T44,TOTAL,0
+NZL,2014,death_rate,Deaths per 100000 population,6.49,,,Y40T44,TOTAL,1140
+NZL,2014,deaths,Deaths,15458.67,14760.25,16160.3,TOTAL,FEMALE,0
+NZL,2014,deaths,Deaths,1561.59,1238.98,1811.9,TOTAL,FEMALE,1140
+NZL,2014,deaths,Deaths,15708.51,15055.92,16412.38,TOTAL,MALE,0
+NZL,2014,deaths,Deaths,1049.69,899.7,1197.35,TOTAL,MALE,1140
+NZL,2014,deaths,Deaths,31167.18,29816.16,32572.67,TOTAL,TOTAL,0
+NZL,2014,deaths,Deaths,2611.28,2138.68,3009.26,TOTAL,TOTAL,1140
+NZL,2014,deaths,Deaths,168.03,156.71,179.01,Y40T44,FEMALE,0
+NZL,2014,deaths,Deaths,8.17,6.52,9.85,Y40T44,FEMALE,1140
+NZL,2014,deaths,Deaths,225.05,213.87,237.28,Y40T44,MALE,0
+NZL,2014,deaths,Deaths,12.31,9.81,15.1,Y40T44,MALE,1140
+NZL,2014,deaths,Deaths,393.08,370.58,416.29,Y40T44,TOTAL,0
+NZL,2014,deaths,Deaths,20.47,16.32,24.95,Y40T44,TOTAL,1140
+NZL,2015,death_rate,Deaths per 100000 population,679.89,,,TOTAL,FEMALE,0
+NZL,2015,death_rate,Deaths per 100000 population,65.61,,,TOTAL,FEMALE,1140
+NZL,2015,death_rate,Deaths per 100000 population,701.29,,,TOTAL,MALE,0
+NZL,2015,death_rate,Deaths per 100000 population,43.19,,,TOTAL,MALE,1140
+NZL,2015,death_rate,Deaths per 100000 population,690.43,,,TOTAL,TOTAL,0
+NZL,2015,death_rate,Deaths per 100000 population,54.57,,,TOTAL,TOTAL,1140
+NZL,2015,death_rate,Deaths per 100000 population,96.7,,,Y40T44,FEMALE,0
+NZL,2015,death_rate,Deaths per 100000 population,3.72,,,Y40T44,FEMALE,1140
+NZL,2015,death_rate,Deaths per 100000 population,144.42,,,Y40T44,MALE,0
+NZL,2015,death_rate,Deaths per 100000 population,5.55,,,Y40T44,MALE,1140
+NZL,2015,death_rate,Deaths per 100000 population,119.56,,,Y40T44,TOTAL,0
+NZL,2015,death_rate,Deaths per 100000 population,4.6,,,Y40T44,TOTAL,1140
+NZL,2015,deaths,Deaths,15924.34,15226.57,16667.75,TOTAL,FEMALE,0
+NZL,2015,deaths,Deaths,1536.65,1215.84,1789.56,TOTAL,FEMALE,1140
+NZL,2015,deaths,Deaths,15932.14,15266.08,16606.34,TOTAL,MALE,0
+NZL,2015,deaths,Deaths,981.21,836.88,1121.08,TOTAL,MALE,1140
+NZL,2015,deaths,Deaths,31856.48,30492.65,33274.09,TOTAL,TOTAL,0
+NZL,2015,deaths,Deaths,2517.86,2052.72,2910.63,TOTAL,TOTAL,1140
+NZL,2015,deaths,Deaths,157.45,147.76,167.54,Y40T44,FEMALE,0
+NZL,2015,deaths,Deaths,6.06,4.84,7.31,Y40T44,FEMALE,1140
+NZL,2015,deaths,Deaths,216.24,204.67,227.53,Y40T44,MALE,0
+NZL,2015,deaths,Deaths,8.31,6.62,10.22,Y40T44,MALE,1140
+NZL,2015,deaths,Deaths,373.69,352.44,395.07,Y40T44,TOTAL,0
+NZL,2015,deaths,Deaths,14.38,11.47,17.53,Y40T44,TOTAL,1140
+NZL,2016,death_rate,Deaths per 100000 population,650.59,,,TOTAL,FEMALE,0
+NZL,2016,death_rate,Deaths per 100000 population,60.8,,,TOTAL,FEMALE,1140
+NZL,2016,death_rate,Deaths per 100000 population,680.92,,,TOTAL,MALE,0
+NZL,2016,death_rate,Deaths per 100000 population,39.7,,,TOTAL,MALE,1140
+NZL,2016,death_rate,Deaths per 100000 population,665.57,,,TOTAL,TOTAL,0
+NZL,2016,death_rate,Deaths per 100000 population,50.38,,,TOTAL,TOTAL,1140
+NZL,2016,death_rate,Deaths per 100000 population,103.5,,,Y40T44,FEMALE,0
+NZL,2016,death_rate,Deaths per 100000 population,5.68,,,Y40T44,FEMALE,1140
+NZL,2016,death_rate,Deaths per 100000 population,158.61,,,Y40T44,MALE,0
+NZL,2016,death_rate,Deaths per 100000 population,3.72,,,Y40T44,MALE,1140
+NZL,2016,death_rate,Deaths per 100000 population,130.08,,,Y40T44,TOTAL,0
+NZL,2016,death_rate,Deaths per 100000 population,4.73,,,Y40T44,TOTAL,1140
+NZL,2016,deaths,Deaths,15525.79,14865.85,16240.23,TOTAL,FEMALE,0
+NZL,2016,deaths,Deaths,1450.88,1148.99,1695.13,TOTAL,FEMALE,1140
+NZL,2016,deaths,Deaths,15854.33,15176.34,16516,TOTAL,MALE,0
+NZL,2016,deaths,Deaths,924.42,783.93,1060.8,TOTAL,MALE,1140
+NZL,2016,deaths,Deaths,31380.13,30042.19,32756.23,TOTAL,TOTAL,0
+NZL,2016,deaths,Deaths,2375.3,1932.92,2755.92,TOTAL,TOTAL,1140
+NZL,2016,deaths,Deaths,165.1,154.31,175.41,Y40T44,FEMALE,0
+NZL,2016,deaths,Deaths,9.06,7.29,10.94,Y40T44,FEMALE,1140
+NZL,2016,deaths,Deaths,235.82,221.94,249.86,Y40T44,MALE,0
+NZL,2016,deaths,Deaths,5.53,4.43,6.84,Y40T44,MALE,1140
+NZL,2016,deaths,Deaths,400.92,376.25,425.28,Y40T44,TOTAL,0
+NZL,2016,deaths,Deaths,14.58,11.72,17.78,Y40T44,TOTAL,1140
+NZL,2017,death_rate,Deaths per 100000 population,687.3,,,TOTAL,FEMALE,0
+NZL,2017,death_rate,Deaths per 100000 population,62.53,,,TOTAL,FEMALE,1140
+NZL,2017,death_rate,Deaths per 100000 population,717.57,,,TOTAL,MALE,0
+NZL,2017,death_rate,Deaths per 100000 population,43.33,,,TOTAL,MALE,1140
+NZL,2017,death_rate,Deaths per 100000 population,702.28,,,TOTAL,TOTAL,0
+NZL,2017,death_rate,Deaths per 100000 population,53.03,,,TOTAL,TOTAL,1140
+NZL,2017,death_rate,Deaths per 100000 population,74.31,,,Y40T44,FEMALE,0
+NZL,2017,death_rate,Deaths per 100000 population,1.98,,,Y40T44,FEMALE,1140
+NZL,2017,death_rate,Deaths per 100000 population,159.38,,,Y40T44,MALE,0
+NZL,2017,death_rate,Deaths per 100000 population,4.21,,,Y40T44,MALE,1140
+NZL,2017,death_rate,Deaths per 100000 population,115.64,,,Y40T44,TOTAL,0
+NZL,2017,death_rate,Deaths per 100000 population,3.06,,,Y40T44,TOTAL,1140
+NZL,2017,deaths,Deaths,16705.59,15989.02,17461.97,TOTAL,FEMALE,0
+NZL,2017,deaths,Deaths,1519.9,1196.9,1777.72,TOTAL,FEMALE,1140
+NZL,2017,deaths,Deaths,17093.54,16403.68,17829.56,TOTAL,MALE,0
+NZL,2017,deaths,Deaths,1032.07,871.49,1190.49,TOTAL,MALE,1140
+NZL,2017,deaths,Deaths,33799.13,32392.7,35291.53,TOTAL,TOTAL,0
+NZL,2017,deaths,Deaths,2551.97,2068.39,2968.21,TOTAL,TOTAL,1140
+NZL,2017,deaths,Deaths,116.17,108.78,123.24,Y40T44,FEMALE,0
+NZL,2017,deaths,Deaths,3.09,2.48,3.72,Y40T44,FEMALE,1140
+NZL,2017,deaths,Deaths,235.49,222.45,249.14,Y40T44,MALE,0
+NZL,2017,deaths,Deaths,6.22,5.01,7.78,Y40T44,MALE,1140
+NZL,2017,deaths,Deaths,351.65,331.23,372.38,Y40T44,TOTAL,0
+NZL,2017,deaths,Deaths,9.31,7.49,11.5,Y40T44,TOTAL,1140
+NZL,2018,death_rate,Deaths per 100000 population,663.48,,,TOTAL,FEMALE,0
+NZL,2018,death_rate,Deaths per 100000 population,60.06,,,TOTAL,FEMALE,1140
+NZL,2018,death_rate,Deaths per 100000 population,708.73,,,TOTAL,MALE,0
+NZL,2018,death_rate,Deaths per 100000 population,41.12,,,TOTAL,MALE,1140
+NZL,2018,death_rate,Deaths per 100000 population,685.91,,,TOTAL,TOTAL,0
+NZL,2018,death_rate,Deaths per 100000 population,50.67,,,TOTAL,TOTAL,1140
+NZL,2018,death_rate,Deaths per 100000 population,93.62,,,Y40T44,FEMALE,0
+NZL,2018,death_rate,Deaths per 100000 population,7.17,,,Y40T44,FEMALE,1140
+NZL,2018,death_rate,Deaths per 100000 population,156.37,,,Y40T44,MALE,0
+NZL,2018,death_rate,Deaths per 100000 population,5.57,,,Y40T44,MALE,1140
+NZL,2018,death_rate,Deaths per 100000 population,124.31,,,Y40T44,TOTAL,0
+NZL,2018,death_rate,Deaths per 100000 population,6.39,,,Y40T44,TOTAL,1140
+NZL,2018,deaths,Deaths,16395.08,15705.4,17127.44,TOTAL,FEMALE,0
+NZL,2018,deaths,Deaths,1484.08,1162.35,1736.59,TOTAL,FEMALE,1140
+NZL,2018,deaths,Deaths,17220.48,16531.72,17941.09,TOTAL,MALE,0
+NZL,2018,deaths,Deaths,999.1,846.12,1153.32,TOTAL,MALE,1140
+NZL,2018,deaths,Deaths,33615.55,32237.12,35068.53,TOTAL,TOTAL,0
+NZL,2018,deaths,Deaths,2483.19,2008.47,2889.91,TOTAL,TOTAL,1140
+NZL,2018,deaths,Deaths,144.52,136.34,154.6,Y40T44,FEMALE,0
+NZL,2018,deaths,Deaths,11.06,8.83,13.35,Y40T44,FEMALE,1140
+NZL,2018,deaths,Deaths,231.02,217.92,244.54,Y40T44,MALE,0
+NZL,2018,deaths,Deaths,8.23,6.67,10.45,Y40T44,MALE,1140
+NZL,2018,deaths,Deaths,375.54,354.26,399.14,Y40T44,TOTAL,0
+NZL,2018,deaths,Deaths,19.29,15.5,23.8,Y40T44,TOTAL,1140
+NZL,2019,death_rate,Deaths per 100000 population,860.15,,,TOTAL,FEMALE,0
+NZL,2019,death_rate,Deaths per 100000 population,75.22,,,TOTAL,FEMALE,1140
+NZL,2019,death_rate,Deaths per 100000 population,843.82,,,TOTAL,MALE,0
+NZL,2019,death_rate,Deaths per 100000 population,45.54,,,TOTAL,MALE,1140
+NZL,2019,death_rate,Deaths per 100000 population,852.04,,,TOTAL,TOTAL,0
+NZL,2019,death_rate,Deaths per 100000 population,60.49,,,TOTAL,TOTAL,1140
+NZL,2019,death_rate,Deaths per 100000 population,106.3,,,Y40T44,FEMALE,0
+NZL,2019,death_rate,Deaths per 100000 population,7.57,,,Y40T44,FEMALE,1140
+NZL,2019,death_rate,Deaths per 100000 population,147.77,,,Y40T44,MALE,0
+NZL,2019,death_rate,Deaths per 100000 population,5.18,,,Y40T44,MALE,1140
+NZL,2019,death_rate,Deaths per 100000 population,126.71,,,Y40T44,TOTAL,0
+NZL,2019,death_rate,Deaths per 100000 population,6.39,,,Y40T44,TOTAL,1140
+NZL,2019,deaths,Deaths,21618.83,20849.18,22439.36,TOTAL,FEMALE,0
+NZL,2019,deaths,Deaths,1890.52,1471.87,2214.07,TOTAL,FEMALE,1140
+NZL,2019,deaths,Deaths,20893.02,20136.51,21679.95,TOTAL,MALE,0
+NZL,2019,deaths,Deaths,1127.68,949.77,1307.09,TOTAL,MALE,1140
+NZL,2019,deaths,Deaths,42511.85,40985.68,44119.31,TOTAL,TOTAL,0
+NZL,2019,deaths,Deaths,3018.19,2421.64,3521.16,TOTAL,TOTAL,1140
+NZL,2019,deaths,Deaths,163.91,154.2,174.98,Y40T44,FEMALE,0
+NZL,2019,deaths,Deaths,11.67,9.37,14.38,Y40T44,FEMALE,1140
+NZL,2019,deaths,Deaths,220.71,208.03,234.22,Y40T44,MALE,0
+NZL,2019,deaths,Deaths,7.74,6.19,9.78,Y40T44,MALE,1140
+NZL,2019,deaths,Deaths,384.62,362.24,409.2,Y40T44,TOTAL,0
+NZL,2019,deaths,Deaths,19.41,15.57,24.16,Y40T44,TOTAL,1140
+NZL,2020,death_rate,Deaths per 100000 population,621.06,,,TOTAL,FEMALE,0
+NZL,2020,death_rate,Deaths per 100000 population,47.73,,,TOTAL,FEMALE,1140
+NZL,2020,death_rate,Deaths per 100000 population,679.39,,,TOTAL,MALE,0
+NZL,2020,death_rate,Deaths per 100000 population,33.98,,,TOTAL,MALE,1140
+NZL,2020,death_rate,Deaths per 100000 population,650.01,,,TOTAL,TOTAL,0
+NZL,2020,death_rate,Deaths per 100000 population,40.91,,,TOTAL,TOTAL,1140
+NZL,2020,death_rate,Deaths per 100000 population,86.11,,,Y40T44,FEMALE,0
+NZL,2020,death_rate,Deaths per 100000 population,2.92,,,Y40T44,FEMALE,1140
+NZL,2020,death_rate,Deaths per 100000 population,147.65,,,Y40T44,MALE,0
+NZL,2020,death_rate,Deaths per 100000 population,4.9,,,Y40T44,MALE,1140
+NZL,2020,death_rate,Deaths per 100000 population,116.53,,,Y40T44,TOTAL,0
+NZL,2020,death_rate,Deaths per 100000 population,3.9,,,Y40T44,TOTAL,1140
+NZL,2020,deaths,Deaths,15856.59,15467.79,16254.02,TOTAL,FEMALE,0
+NZL,2020,deaths,Deaths,1218.72,946.18,1425.95,TOTAL,FEMALE,1140
+NZL,2020,deaths,Deaths,17098.46,16688.25,17507.97,TOTAL,MALE,0
+NZL,2020,deaths,Deaths,855.3,722.54,987.9,TOTAL,MALE,1140
+NZL,2020,deaths,Deaths,32955.05,32156.04,33761.99,TOTAL,TOTAL,0
+NZL,2020,deaths,Deaths,2074.01,1668.73,2413.85,TOTAL,TOTAL,1140
+NZL,2020,deaths,Deaths,134.04,126.77,142.66,Y40T44,FEMALE,0
+NZL,2020,deaths,Deaths,4.55,3.66,5.54,Y40T44,FEMALE,1140
+NZL,2020,deaths,Deaths,224.67,213.05,237.28,Y40T44,MALE,0
+NZL,2020,deaths,Deaths,7.46,5.9,9.5,Y40T44,MALE,1140
+NZL,2020,deaths,Deaths,358.71,339.81,379.94,Y40T44,TOTAL,0
+NZL,2020,deaths,Deaths,12.01,9.56,15.04,Y40T44,TOTAL,1140
+NZL,2021,death_rate,Deaths per 100000 population,739.59,,,TOTAL,FEMALE,0
+NZL,2021,death_rate,Deaths per 100000 population,58.63,,,TOTAL,FEMALE,1140
+NZL,2021,death_rate,Deaths per 100000 population,782.36,,,TOTAL,MALE,0
+NZL,2021,death_rate,Deaths per 100000 population,40.81,,,TOTAL,MALE,1140
+NZL,2021,death_rate,Deaths per 100000 population,760.82,,,TOTAL,TOTAL,0
+NZL,2021,death_rate,Deaths per 100000 population,49.79,,,TOTAL,TOTAL,1140
+NZL,2021,death_rate,Deaths per 100000 population,82.17,,,Y40T44,FEMALE,0
+NZL,2021,death_rate,Deaths per 100000 population,4.73,,,Y40T44,FEMALE,1140
+NZL,2021,death_rate,Deaths per 100000 population,157.7,,,Y40T44,MALE,0
+NZL,2021,death_rate,Deaths per 100000 population,5.56,,,Y40T44,MALE,1140
+NZL,2021,death_rate,Deaths per 100000 population,119.57,,,Y40T44,TOTAL,0
+NZL,2021,death_rate,Deaths per 100000 population,5.14,,,Y40T44,TOTAL,1140
+NZL,2021,deaths,Deaths,19022.51,18522.09,19522.61,TOTAL,FEMALE,0
+NZL,2021,deaths,Deaths,1508.04,1179.2,1765.77,TOTAL,FEMALE,1140
+NZL,2021,deaths,Deaths,19838.07,19383.15,20312.98,TOTAL,MALE,0
+NZL,2021,deaths,Deaths,1034.88,870.32,1195.2,TOTAL,MALE,1140
+NZL,2021,deaths,Deaths,38860.58,37905.24,39835.59,TOTAL,TOTAL,0
+NZL,2021,deaths,Deaths,2542.92,2049.53,2960.97,TOTAL,TOTAL,1140
+NZL,2021,deaths,Deaths,129.38,121.01,138.08,Y40T44,FEMALE,0
+NZL,2021,deaths,Deaths,7.45,5.91,9.14,Y40T44,FEMALE,1140
+NZL,2021,deaths,Deaths,243.49,231.71,254.78,Y40T44,MALE,0
+NZL,2021,deaths,Deaths,8.58,6.67,10.71,Y40T44,MALE,1140
+NZL,2021,deaths,Deaths,372.87,352.72,392.87,Y40T44,TOTAL,0
+NZL,2021,deaths,Deaths,16.03,12.58,19.85,Y40T44,TOTAL,1140
+NZL,2022,death_rate,Deaths per 100000 population,831.18,,,TOTAL,FEMALE,0
+NZL,2022,death_rate,Deaths per 100000 population,61.42,,,TOTAL,FEMALE,1140
+NZL,2022,death_rate,Deaths per 100000 population,867.09,,,TOTAL,MALE,0
+NZL,2022,death_rate,Deaths per 100000 population,41.96,,,TOTAL,MALE,1140
+NZL,2022,death_rate,Deaths per 100000 population,849.01,,,TOTAL,TOTAL,0
+NZL,2022,death_rate,Deaths per 100000 population,51.76,,,TOTAL,TOTAL,1140
+NZL,2022,death_rate,Deaths per 100000 population,77.32,,,Y40T44,FEMALE,0
+NZL,2022,death_rate,Deaths per 100000 population,4,,,Y40T44,FEMALE,1140
+NZL,2022,death_rate,Deaths per 100000 population,150.57,,,Y40T44,MALE,0
+NZL,2022,death_rate,Deaths per 100000 population,5,,,Y40T44,MALE,1140
+NZL,2022,death_rate,Deaths per 100000 population,113.6,,,Y40T44,TOTAL,0
+NZL,2022,death_rate,Deaths per 100000 population,4.5,,,Y40T44,TOTAL,1140
+NZL,2022,deaths,Deaths,21472.87,20218.35,22746.37,TOTAL,FEMALE,0
+NZL,2022,deaths,Deaths,1586.84,1251.07,1869.53,TOTAL,FEMALE,1140
+NZL,2022,deaths,Deaths,22096.24,20860.95,23390.13,TOTAL,MALE,0
+NZL,2022,deaths,Deaths,1069.18,895.68,1244.43,TOTAL,MALE,1140
+NZL,2022,deaths,Deaths,43569.12,41079.3,46136.51,TOTAL,TOTAL,0
+NZL,2022,deaths,Deaths,2656.02,2146.75,3113.96,TOTAL,TOTAL,1140
+NZL,2022,deaths,Deaths,123.56,110.93,134.27,Y40T44,FEMALE,0
+NZL,2022,deaths,Deaths,6.4,4.96,8.02,Y40T44,FEMALE,1140
+NZL,2022,deaths,Deaths,236.24,216.72,256.91,Y40T44,MALE,0
+NZL,2022,deaths,Deaths,7.84,6.12,9.91,Y40T44,MALE,1140
+NZL,2022,deaths,Deaths,359.8,327.66,391.18,Y40T44,TOTAL,0
+NZL,2022,deaths,Deaths,14.24,11.08,17.93,Y40T44,TOTAL,1140
+NZL,2023,death_rate,Deaths per 100000 population,825.47,,,TOTAL,FEMALE,0
+NZL,2023,death_rate,Deaths per 100000 population,62.16,,,TOTAL,FEMALE,1140
+NZL,2023,death_rate,Deaths per 100000 population,872.35,,,TOTAL,MALE,0
+NZL,2023,death_rate,Deaths per 100000 population,44.11,,,TOTAL,MALE,1140
+NZL,2023,death_rate,Deaths per 100000 population,848.76,,,TOTAL,TOTAL,0
+NZL,2023,death_rate,Deaths per 100000 population,53.19,,,TOTAL,TOTAL,1140
+NZL,2023,death_rate,Deaths per 100000 population,86.72,,,Y40T44,FEMALE,0
+NZL,2023,death_rate,Deaths per 100000 population,5.85,,,Y40T44,FEMALE,1140
+NZL,2023,death_rate,Deaths per 100000 population,161.81,,,Y40T44,MALE,0
+NZL,2023,death_rate,Deaths per 100000 population,5.95,,,Y40T44,MALE,1140
+NZL,2023,death_rate,Deaths per 100000 population,123.96,,,Y40T44,TOTAL,0
+NZL,2023,death_rate,Deaths per 100000 population,5.9,,,Y40T44,TOTAL,1140
+NZL,2023,deaths,Deaths,21489.62,20131.67,22847.96,TOTAL,FEMALE,0
+NZL,2023,deaths,Deaths,1618.2,1251.07,1913.95,TOTAL,FEMALE,1140
+NZL,2023,deaths,Deaths,22415.25,21074.31,23787.57,TOTAL,MALE,0
+NZL,2023,deaths,Deaths,1133.5,939.85,1338.36,TOTAL,MALE,1140
+NZL,2023,deaths,Deaths,43904.87,41205.98,46635.53,TOTAL,TOTAL,0
+NZL,2023,deaths,Deaths,2751.69,2190.92,3252.31,TOTAL,TOTAL,1140
+NZL,2023,deaths,Deaths,141.48,125.9,155.47,Y40T44,FEMALE,0
+NZL,2023,deaths,Deaths,9.55,7.56,11.82,Y40T44,FEMALE,1140
+NZL,2023,deaths,Deaths,259.73,232.96,287.94,Y40T44,MALE,0
+NZL,2023,deaths,Deaths,9.55,7.43,12.21,Y40T44,MALE,1140
+NZL,2023,deaths,Deaths,401.21,358.86,443.42,Y40T44,TOTAL,0
+NZL,2023,deaths,Deaths,19.1,14.99,24.04,Y40T44,TOTAL,1140

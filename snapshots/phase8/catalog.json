@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "release": "0.8.0",
+  "scope": "global_country_area",
+  "snapshot_date": "2026-11-27",
+  "relative_to": "Directory containing catalog.json at the same Git commit",
+  "geography": {
+    "path": "geography.csv",
+    "sha256": "0497f01e4c5805299ce2884506a4c26ec0e5e0b91ceb510ebf6e7fb4f3602829",
+    "bytes": 10717
+  },
+  "datasets": {
+    "tb": {
+      "indicator": "MDG_0000000020",
+      "product": "WHO Global Health Observatory",
+      "series": [
+        {
+          "code": "MDG_0000000020",
+          "name": "Tuberculosis incidence",
+          "unit": "Cases per 100000 population",
+          "denominator": "Population",
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 197,
+          "rows": 4902
+        }
+      ],
+      "manifest": {
+        "path": "tb/manifest.json",
+        "sha256": "27cbbcd56eb016e3f73befb3836c32e871d49f24370361aafcfa988ac195e978",
+        "bytes": 35510
+      }
+    },
+    "dtp3": {
+      "indicator": "WHS4_100",
+      "product": "WHO Global Health Observatory (WHO/UNICEF WUENIC)",
+      "series": [
+        {
+          "code": "WHS4_100",
+          "name": "DTP3 immunization coverage",
+          "unit": "Percent of one-year-olds",
+          "denominator": "One-year-old children",
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 194,
+          "rows": 4831
+        }
+      ],
+      "manifest": {
+        "path": "dtp3/manifest.json",
+        "sha256": "a635602b47ac800b84c00dba0389e9eb5763913267c56434b347a509e3a195d4",
+        "bytes": 35393
+      }
+    },
+    "sba": {
+      "indicator": "3.1.2",
+      "product": "United Nations Global SDG Indicators Database",
+      "series": [
+        {
+          "code": "SH_STA_BRTC",
+          "name": "Skilled birth attendance",
+          "unit": "Percent of live births",
+          "denominator": "Live births",
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 193,
+          "rows": 2597
+        }
+      ],
+      "manifest": {
+        "path": "sba/manifest.json",
+        "sha256": "4a530afa2f5138631c75ec71737612428ad8e6d46972c7db57c8818bf70726a2",
+        "bytes": 34833
+      }
+    },
+    "ghe": {
+      "indicator": "0",
+      "product": "WHO Global Health Estimates",
+      "series": [
+        {
+          "code": "deaths",
+          "name": "All-cause deaths by sex",
+          "unit": "Deaths",
+          "denominator": null,
+          "first_year": 2000,
+          "last_year": 2023,
+          "areas": 183,
+          "rows": 13176
+        }
+      ],
+      "manifest": {
+        "path": "ghe/manifest.json",
+        "sha256": "60ca836a2aea27c7a581f62da34c822e83c01e7679b2c19bb43942c43adf57d9",
+        "bytes": 33318
+      }
+    },
+    "road": {
+      "indicator": "3.6.1",
+      "product": "United Nations Global SDG Indicators Database",
+      "series": [
+        {
+          "code": "SH_STA_TRAF",
+          "name": "Road traffic injury death rate",
+          "unit": "Deaths per 100000 population",
+          "denominator": "Population",
+          "first_year": 2021,
+          "last_year": 2021,
+          "areas": 195,
+          "rows": 195
+        },
+        {
+          "code": "SH_STA_TRAFN",
+          "name": "Road traffic injury deaths",
+          "unit": "Deaths",
+          "denominator": null,
+          "first_year": 2021,
+          "last_year": 2021,
+          "areas": 195,
+          "rows": 195
+        }
+      ],
+      "manifest": {
+        "path": "road/manifest.json",
+        "sha256": "ee388398abea923d96112f26bc6b32105669df596b8a265cfa6eb791880ac351",
+        "bytes": 35430
+      }
+    },
+    "uhc": {
+      "indicator": "UHC_INDEX_REPORTED",
+      "product": "WHO Global Health Observatory",
+      "series": [
+        {
+          "code": "UHC_INDEX_REPORTED",
+          "name": "UHC service coverage index",
+          "unit": "Index (0-100)",
+          "denominator": null,
+          "source_unit": "INDEX_N",
+          "dimensions": {},
+          "first_year": 2000,
+          "last_year": 2023,
+          "areas": 195,
+          "rows": 4680,
+          "valid_estimates": 4680,
+          "missing_bounds": 4680
+        }
+      ],
+      "manifest": {
+        "path": "uhc/manifest.json",
+        "sha256": "3c1696573a5ded43b84f21a94b5dacf2f4d92d2e09e68580204f763e3cc0f27d",
+        "bytes": 35470
+      }
+    },
+    "child": {
+      "indicator": "3.2.1",
+      "product": "United Nations Global SDG Indicators Database",
+      "series": [
+        {
+          "code": "SH_DYN_IMRT",
+          "name": "Infant mortality rate",
+          "unit": "Deaths per 1000 live births",
+          "denominator": "Live births",
+          "source_unit": "PER_1000_LIVE_BIRTHS",
+          "dimensions": {
+            "age": [
+              "<1Y"
+            ],
+            "sex": [
+              "BOTHSEX",
+              "FEMALE",
+              "MALE"
+            ],
+            "dim_reporting_type": [
+              "G"
+            ]
+          },
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 200,
+          "rows": 15000,
+          "valid_estimates": 15000,
+          "missing_bounds": 0
+        },
+        {
+          "code": "SH_DYN_IMRTN",
+          "name": "Infant deaths",
+          "unit": "Deaths",
+          "denominator": null,
+          "source_unit": "NUMBER",
+          "dimensions": {
+            "age": [
+              "<1Y"
+            ],
+            "sex": [
+              "BOTHSEX",
+              "FEMALE",
+              "MALE"
+            ],
+            "dim_reporting_type": [
+              "G"
+            ]
+          },
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 200,
+          "rows": 15000,
+          "valid_estimates": 15000,
+          "missing_bounds": 0
+        },
+        {
+          "code": "SH_DYN_MORT",
+          "name": "Under-five mortality rate",
+          "unit": "Deaths per 1000 live births",
+          "denominator": "Live births",
+          "source_unit": "PER_1000_LIVE_BIRTHS",
+          "dimensions": {
+            "age": [
+              "<5Y"
+            ],
+            "sex": [
+              "BOTHSEX",
+              "FEMALE",
+              "MALE"
+            ],
+            "dim_reporting_type": [
+              "G"
+            ]
+          },
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 200,
+          "rows": 15000,
+          "valid_estimates": 15000,
+          "missing_bounds": 0
+        },
+        {
+          "code": "SH_DYN_MORTN",
+          "name": "Under-five deaths",
+          "unit": "Deaths",
+          "denominator": null,
+          "source_unit": "NUMBER",
+          "dimensions": {
+            "age": [
+              "<5Y"
+            ],
+            "sex": [
+              "BOTHSEX",
+              "FEMALE",
+              "MALE"
+            ],
+            "dim_reporting_type": [
+              "G"
+            ]
+          },
+          "first_year": 2000,
+          "last_year": 2024,
+          "areas": 200,
+          "rows": 15000,
+          "valid_estimates": 15000,
+          "missing_bounds": 0
+        }
+      ],
+      "manifest": {
+        "path": "child/manifest.json",
+        "sha256": "948c9bf1761b5d2c67fcc3692afd7e1f3f420cdb5d01dafc6ae7ca5d346d9ecd",
+        "bytes": 42020
+      }
+    },
+    "ghe_extended": {
+      "indicator": "GHE/death_estimates",
+      "product": "WHO Global Health Estimates",
+      "series": [
+        {
+          "code": "deaths",
+          "name": "Deaths",
+          "unit": "Deaths",
+          "denominator": null,
+          "source_unit": "deaths",
+          "dimensions": {
+            "age": [
+              "TOTAL",
+              "Y40T44"
+            ],
+            "sex": [
+              "FEMALE",
+              "MALE",
+              "TOTAL"
+            ],
+            "cause_code": [
+              "0",
+              "1140"
+            ]
+          },
+          "first_year": 2000,
+          "last_year": 2023,
+          "areas": 183,
+          "rows": 52704,
+          "valid_estimates": 52704,
+          "missing_bounds": 0
+        },
+        {
+          "code": "death_rate",
+          "name": "Death rate",
+          "unit": "Deaths per 100000 population",
+          "denominator": "Population in the selected age stratum",
+          "source_unit": "per 100,000 population",
+          "dimensions": {
+            "age": [
+              "TOTAL",
+              "Y40T44"
+            ],
+            "sex": [
+              "FEMALE",
+              "MALE",
+              "TOTAL"
+            ],
+            "cause_code": [
+              "0",
+              "1140"
+            ]
+          },
+          "first_year": 2000,
+          "last_year": 2023,
+          "areas": 183,
+          "rows": 52704,
+          "valid_estimates": 52704,
+          "missing_bounds": 52704
+        }
+      ],
+      "manifest": {
+        "path": "ghe_extended/manifest.json",
+        "sha256": "b39d57262094d49c4408bc1f029d1e77c21d7a42cbc8a831c8ae5c0e819dd3ac",
+        "bytes": 41941
+      }
+    }
+  },
+  "baseline": {
+    "release": "0.7.0",
+    "data_commit": "04f9802eaf8053cddaccda0e4abd84a04be72887",
+    "carried_datasets": [
+      "tb",
+      "dtp3",
+      "sba",
+      "ghe",
+      "road"
+    ]
+  },
+  "index": {
+    "published": {
+      "path": "index/published-series.csv",
+      "sha256": "2dea1233612928cc2aaa2e0b6060f4ac54f0965cad29f81af1f3315f1a6b1655",
+      "bytes": 2337
+    },
+    "gho": {
+      "path": "index/gho-indicators.csv",
+      "sha256": "399c2b2922bbaa62d8977ff189085d8293836def201571a39770463624a9d930",
+      "bytes": 510123
+    },
+    "sdg": {
+      "path": "index/sdg-series.csv",
+      "sha256": "c586184299fb84b9bbc34bf5d3ca6928d922efbf7f4ab4edccf9ae54d1c700fb",
+      "bytes": 128320
+    },
+    "ghe_causes": {
+      "path": "index/ghe-causes.csv",
+      "sha256": "79da4fe30b5da52a4a43bc2e10b339c6c553b7bf467bc53b1a3ccdb5b089ae5e",
+      "bytes": 16837
+    },
+    "ghe_measures": {
+      "path": "index/ghe-measures.csv",
+      "sha256": "29cf31d80bc7ea8158db671dba0ea936003f6e9553736452f944954abf16739d",
+      "bytes": 1063
+    },
+    "discovery": {
+      "gho_and_ghe_audit_date": "2026-11-24",
+      "sdg_retrieved_at": "2026-11-27T02:16:27Z",
+      "pending": "Discovery entries require availability checks. GHE causes and measures do not imply a full cross-product."
+    }
+  }
+}

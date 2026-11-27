@@ -1,0 +1,577 @@
+area_code,year,series_code,audit_unit,estimate,low,high,age,sex,cause_code
+DJI,2000,death_rate,Deaths per 100000 population,850.36,,,TOTAL,FEMALE,0
+DJI,2000,death_rate,Deaths per 100000 population,7.77,,,TOTAL,FEMALE,1140
+DJI,2000,death_rate,Deaths per 100000 population,956.35,,,TOTAL,MALE,0
+DJI,2000,death_rate,Deaths per 100000 population,4.26,,,TOTAL,MALE,1140
+DJI,2000,death_rate,Deaths per 100000 population,903.07,,,TOTAL,TOTAL,0
+DJI,2000,death_rate,Deaths per 100000 population,6.03,,,TOTAL,TOTAL,1140
+DJI,2000,death_rate,Deaths per 100000 population,654.11,,,Y40T44,FEMALE,0
+DJI,2000,death_rate,Deaths per 100000 population,3.16,,,Y40T44,FEMALE,1140
+DJI,2000,death_rate,Deaths per 100000 population,979.19,,,Y40T44,MALE,0
+DJI,2000,death_rate,Deaths per 100000 population,2.79,,,Y40T44,MALE,1140
+DJI,2000,death_rate,Deaths per 100000 population,813.54,,,Y40T44,TOTAL,0
+DJI,2000,death_rate,Deaths per 100000 population,2.98,,,Y40T44,TOTAL,1140
+DJI,2000,deaths,Deaths,3194.46,2789.79,3637.63,TOTAL,FEMALE,0
+DJI,2000,deaths,Deaths,29.2,11.47,53.35,TOTAL,FEMALE,1140
+DJI,2000,deaths,Deaths,3554.55,3103.88,4052.69,TOTAL,MALE,0
+DJI,2000,deaths,Deaths,15.85,6.71,28.1,TOTAL,MALE,1140
+DJI,2000,deaths,Deaths,6749.01,5893.67,7690.32,TOTAL,TOTAL,0
+DJI,2000,deaths,Deaths,45.05,18.17,81.45,TOTAL,TOTAL,1140
+DJI,2000,deaths,Deaths,109.74,94.75,125.97,Y40T44,FEMALE,0
+DJI,2000,deaths,Deaths,0.53,0.19,1.03,Y40T44,FEMALE,1140
+DJI,2000,deaths,Deaths,158.11,137.07,181.64,Y40T44,MALE,0
+DJI,2000,deaths,Deaths,0.45,0.19,0.85,Y40T44,MALE,1140
+DJI,2000,deaths,Deaths,267.85,231.82,307.61,Y40T44,TOTAL,0
+DJI,2000,deaths,Deaths,0.98,0.38,1.89,Y40T44,TOTAL,1140
+DJI,2001,death_rate,Deaths per 100000 population,854.4,,,TOTAL,FEMALE,0
+DJI,2001,death_rate,Deaths per 100000 population,8.36,,,TOTAL,FEMALE,1140
+DJI,2001,death_rate,Deaths per 100000 population,950.24,,,TOTAL,MALE,0
+DJI,2001,death_rate,Deaths per 100000 population,4.38,,,TOTAL,MALE,1140
+DJI,2001,death_rate,Deaths per 100000 population,902.08,,,TOTAL,TOTAL,0
+DJI,2001,death_rate,Deaths per 100000 population,6.38,,,TOTAL,TOTAL,1140
+DJI,2001,death_rate,Deaths per 100000 population,689.07,,,Y40T44,FEMALE,0
+DJI,2001,death_rate,Deaths per 100000 population,2.83,,,Y40T44,FEMALE,1140
+DJI,2001,death_rate,Deaths per 100000 population,1004,,,Y40T44,MALE,0
+DJI,2001,death_rate,Deaths per 100000 population,2.59,,,Y40T44,MALE,1140
+DJI,2001,death_rate,Deaths per 100000 population,843.7,,,Y40T44,TOTAL,0
+DJI,2001,death_rate,Deaths per 100000 population,2.71,,,Y40T44,TOTAL,1140
+DJI,2001,deaths,Deaths,3311.9,2893.79,3781.53,TOTAL,FEMALE,0
+DJI,2001,deaths,Deaths,32.42,12.38,59.31,TOTAL,FEMALE,1140
+DJI,2001,deaths,Deaths,3646.2,3181.03,4155.66,TOTAL,MALE,0
+DJI,2001,deaths,Deaths,16.81,7.23,29.69,TOTAL,MALE,1140
+DJI,2001,deaths,Deaths,6958.11,6074.82,7937.19,TOTAL,TOTAL,0
+DJI,2001,deaths,Deaths,49.23,19.61,89.01,TOTAL,TOTAL,1140
+DJI,2001,deaths,Deaths,121.58,104.9,140.12,Y40T44,FEMALE,0
+DJI,2001,deaths,Deaths,0.5,0.18,0.96,Y40T44,FEMALE,1140
+DJI,2001,deaths,Deaths,170.87,147.2,196.78,Y40T44,MALE,0
+DJI,2001,deaths,Deaths,0.44,0.19,0.87,Y40T44,MALE,1140
+DJI,2001,deaths,Deaths,292.45,252.11,336.9,Y40T44,TOTAL,0
+DJI,2001,deaths,Deaths,0.94,0.38,1.83,Y40T44,TOTAL,1140
+DJI,2002,death_rate,Deaths per 100000 population,854.99,,,TOTAL,FEMALE,0
+DJI,2002,death_rate,Deaths per 100000 population,15.52,,,TOTAL,FEMALE,1140
+DJI,2002,death_rate,Deaths per 100000 population,944.5,,,TOTAL,MALE,0
+DJI,2002,death_rate,Deaths per 100000 population,6.63,,,TOTAL,MALE,1140
+DJI,2002,death_rate,Deaths per 100000 population,899.53,,,TOTAL,TOTAL,0
+DJI,2002,death_rate,Deaths per 100000 population,11.1,,,TOTAL,TOTAL,1140
+DJI,2002,death_rate,Deaths per 100000 population,720.67,,,Y40T44,FEMALE,0
+DJI,2002,death_rate,Deaths per 100000 population,4.2,,,Y40T44,FEMALE,1140
+DJI,2002,death_rate,Deaths per 100000 population,1026.27,,,Y40T44,MALE,0
+DJI,2002,death_rate,Deaths per 100000 population,4.46,,,Y40T44,MALE,1140
+DJI,2002,death_rate,Deaths per 100000 population,870.84,,,Y40T44,TOTAL,0
+DJI,2002,death_rate,Deaths per 100000 population,4.33,,,Y40T44,TOTAL,1140
+DJI,2002,deaths,Deaths,3417.83,2982.5,3904.2,TOTAL,FEMALE,0
+DJI,2002,deaths,Deaths,62.04,24.25,111.08,TOTAL,FEMALE,1140
+DJI,2002,deaths,Deaths,3738.74,3265.77,4264.61,TOTAL,MALE,0
+DJI,2002,deaths,Deaths,26.26,11.33,46.14,TOTAL,MALE,1140
+DJI,2002,deaths,Deaths,7156.57,6248.27,8168.81,TOTAL,TOTAL,0
+DJI,2002,deaths,Deaths,88.31,35.58,157.23,TOTAL,TOTAL,1140
+DJI,2002,deaths,Deaths,133.75,114.57,155.28,Y40T44,FEMALE,0
+DJI,2002,deaths,Deaths,0.78,0.28,1.51,Y40T44,FEMALE,1140
+DJI,2002,deaths,Deaths,184.02,158.09,212.22,Y40T44,MALE,0
+DJI,2002,deaths,Deaths,0.8,0.34,1.52,Y40T44,MALE,1140
+DJI,2002,deaths,Deaths,317.77,272.66,367.51,Y40T44,TOTAL,0
+DJI,2002,deaths,Deaths,1.58,0.62,3.03,Y40T44,TOTAL,1140
+DJI,2003,death_rate,Deaths per 100000 population,852.94,,,TOTAL,FEMALE,0
+DJI,2003,death_rate,Deaths per 100000 population,11.95,,,TOTAL,FEMALE,1140
+DJI,2003,death_rate,Deaths per 100000 population,937.93,,,TOTAL,MALE,0
+DJI,2003,death_rate,Deaths per 100000 population,6.85,,,TOTAL,MALE,1140
+DJI,2003,death_rate,Deaths per 100000 population,895.23,,,TOTAL,TOTAL,0
+DJI,2003,death_rate,Deaths per 100000 population,9.41,,,TOTAL,TOTAL,1140
+DJI,2003,death_rate,Deaths per 100000 population,724.29,,,Y40T44,FEMALE,0
+DJI,2003,death_rate,Deaths per 100000 population,4.45,,,Y40T44,FEMALE,1140
+DJI,2003,death_rate,Deaths per 100000 population,1009.21,,,Y40T44,MALE,0
+DJI,2003,death_rate,Deaths per 100000 population,4.39,,,Y40T44,MALE,1140
+DJI,2003,death_rate,Deaths per 100000 population,864.29,,,Y40T44,TOTAL,0
+DJI,2003,death_rate,Deaths per 100000 population,4.42,,,Y40T44,TOTAL,1140
+DJI,2003,deaths,Deaths,3486.36,3041.71,3978.36,TOTAL,FEMALE,0
+DJI,2003,deaths,Deaths,48.86,19.55,88.88,TOTAL,FEMALE,1140
+DJI,2003,deaths,Deaths,3796.73,3319.19,4335.97,TOTAL,MALE,0
+DJI,2003,deaths,Deaths,27.71,12.01,47.71,TOTAL,MALE,1140
+DJI,2003,deaths,Deaths,7283.09,6360.9,8314.33,TOTAL,TOTAL,0
+DJI,2003,deaths,Deaths,76.56,31.56,136.59,TOTAL,TOTAL,1140
+DJI,2003,deaths,Deaths,140.07,120.4,161.82,Y40T44,FEMALE,0
+DJI,2003,deaths,Deaths,0.86,0.31,1.67,Y40T44,FEMALE,1140
+DJI,2003,deaths,Deaths,188.56,161.73,218.07,Y40T44,MALE,0
+DJI,2003,deaths,Deaths,0.82,0.34,1.57,Y40T44,MALE,1140
+DJI,2003,deaths,Deaths,328.63,282.13,379.89,Y40T44,TOTAL,0
+DJI,2003,deaths,Deaths,1.68,0.65,3.24,Y40T44,TOTAL,1140
+DJI,2004,death_rate,Deaths per 100000 population,852.35,,,TOTAL,FEMALE,0
+DJI,2004,death_rate,Deaths per 100000 population,10.91,,,TOTAL,FEMALE,1140
+DJI,2004,death_rate,Deaths per 100000 population,930.94,,,TOTAL,MALE,0
+DJI,2004,death_rate,Deaths per 100000 population,8.06,,,TOTAL,MALE,1140
+DJI,2004,death_rate,Deaths per 100000 population,891.45,,,TOTAL,TOTAL,0
+DJI,2004,death_rate,Deaths per 100000 population,9.49,,,TOTAL,TOTAL,1140
+DJI,2004,death_rate,Deaths per 100000 population,739.49,,,Y40T44,FEMALE,0
+DJI,2004,death_rate,Deaths per 100000 population,4.45,,,Y40T44,FEMALE,1140
+DJI,2004,death_rate,Deaths per 100000 population,1007.41,,,Y40T44,MALE,0
+DJI,2004,death_rate,Deaths per 100000 population,4.61,,,Y40T44,MALE,1140
+DJI,2004,death_rate,Deaths per 100000 population,871.05,,,Y40T44,TOTAL,0
+DJI,2004,death_rate,Deaths per 100000 population,4.53,,,Y40T44,TOTAL,1140
+DJI,2004,deaths,Deaths,3538.13,3098.87,4029.04,TOTAL,FEMALE,0
+DJI,2004,deaths,Deaths,45.29,17.93,83,TOTAL,FEMALE,1140
+DJI,2004,deaths,Deaths,3826.56,3342.37,4361.34,TOTAL,MALE,0
+DJI,2004,deaths,Deaths,33.11,14.84,56.35,TOTAL,MALE,1140
+DJI,2004,deaths,Deaths,7364.69,6441.23,8390.38,TOTAL,TOTAL,0
+DJI,2004,deaths,Deaths,78.39,32.77,139.35,TOTAL,TOTAL,1140
+DJI,2004,deaths,Deaths,147.98,127.83,170.76,Y40T44,FEMALE,0
+DJI,2004,deaths,Deaths,0.89,0.32,1.75,Y40T44,FEMALE,1140
+DJI,2004,deaths,Deaths,194.51,168.69,224.99,Y40T44,MALE,0
+DJI,2004,deaths,Deaths,0.89,0.37,1.7,Y40T44,MALE,1140
+DJI,2004,deaths,Deaths,342.49,296.52,395.76,Y40T44,TOTAL,0
+DJI,2004,deaths,Deaths,1.78,0.7,3.46,Y40T44,TOTAL,1140
+DJI,2005,death_rate,Deaths per 100000 population,833.81,,,TOTAL,FEMALE,0
+DJI,2005,death_rate,Deaths per 100000 population,11.31,,,TOTAL,FEMALE,1140
+DJI,2005,death_rate,Deaths per 100000 population,909.99,,,TOTAL,MALE,0
+DJI,2005,death_rate,Deaths per 100000 population,8.27,,,TOTAL,MALE,1140
+DJI,2005,death_rate,Deaths per 100000 population,871.7,,,TOTAL,TOTAL,0
+DJI,2005,death_rate,Deaths per 100000 population,9.8,,,TOTAL,TOTAL,1140
+DJI,2005,death_rate,Deaths per 100000 population,753.78,,,Y40T44,FEMALE,0
+DJI,2005,death_rate,Deaths per 100000 population,4.63,,,Y40T44,FEMALE,1140
+DJI,2005,death_rate,Deaths per 100000 population,1006.75,,,Y40T44,MALE,0
+DJI,2005,death_rate,Deaths per 100000 population,4.65,,,Y40T44,MALE,1140
+DJI,2005,death_rate,Deaths per 100000 population,877.92,,,Y40T44,TOTAL,0
+DJI,2005,death_rate,Deaths per 100000 population,4.64,,,Y40T44,TOTAL,1140
+DJI,2005,deaths,Deaths,3516.29,3070.01,4012.94,TOTAL,FEMALE,0
+DJI,2005,deaths,Deaths,47.69,18.55,87.12,TOTAL,FEMALE,1140
+DJI,2005,deaths,Deaths,3798.92,3315.07,4337.05,TOTAL,MALE,0
+DJI,2005,deaths,Deaths,34.53,15.83,58.73,TOTAL,MALE,1140
+DJI,2005,deaths,Deaths,7315.21,6385.09,8349.99,TOTAL,TOTAL,0
+DJI,2005,deaths,Deaths,82.22,34.38,145.84,TOTAL,TOTAL,1140
+DJI,2005,deaths,Deaths,156.35,134.21,180.84,Y40T44,FEMALE,0
+DJI,2005,deaths,Deaths,0.96,0.34,1.99,Y40T44,FEMALE,1140
+DJI,2005,deaths,Deaths,201.21,174.28,231.79,Y40T44,MALE,0
+DJI,2005,deaths,Deaths,0.93,0.4,1.71,Y40T44,MALE,1140
+DJI,2005,deaths,Deaths,357.56,308.49,412.64,Y40T44,TOTAL,0
+DJI,2005,deaths,Deaths,1.89,0.74,3.7,Y40T44,TOTAL,1140
+DJI,2006,death_rate,Deaths per 100000 population,817.51,,,TOTAL,FEMALE,0
+DJI,2006,death_rate,Deaths per 100000 population,13.43,,,TOTAL,FEMALE,1140
+DJI,2006,death_rate,Deaths per 100000 population,908.54,,,TOTAL,MALE,0
+DJI,2006,death_rate,Deaths per 100000 population,10.49,,,TOTAL,MALE,1140
+DJI,2006,death_rate,Deaths per 100000 population,862.79,,,TOTAL,TOTAL,0
+DJI,2006,death_rate,Deaths per 100000 population,11.96,,,TOTAL,TOTAL,1140
+DJI,2006,death_rate,Deaths per 100000 population,757.47,,,Y40T44,FEMALE,0
+DJI,2006,death_rate,Deaths per 100000 population,4.67,,,Y40T44,FEMALE,1140
+DJI,2006,death_rate,Deaths per 100000 population,1038.58,,,Y40T44,MALE,0
+DJI,2006,death_rate,Deaths per 100000 population,4.9,,,Y40T44,MALE,1140
+DJI,2006,death_rate,Deaths per 100000 population,895.38,,,Y40T44,TOTAL,0
+DJI,2006,death_rate,Deaths per 100000 population,4.78,,,Y40T44,TOTAL,1140
+DJI,2006,deaths,Deaths,3516.35,3069.53,4014.37,TOTAL,FEMALE,0
+DJI,2006,deaths,Deaths,57.75,22.38,104.93,TOTAL,FEMALE,1140
+DJI,2006,deaths,Deaths,3867.24,3391.1,4392.52,TOTAL,MALE,0
+DJI,2006,deaths,Deaths,44.64,21.29,75.09,TOTAL,MALE,1140
+DJI,2006,deaths,Deaths,7383.6,6460.62,8406.9,TOTAL,TOTAL,0
+DJI,2006,deaths,Deaths,102.39,43.67,180.02,TOTAL,TOTAL,1140
+DJI,2006,deaths,Deaths,163.72,142.03,188.69,Y40T44,FEMALE,0
+DJI,2006,deaths,Deaths,1.01,0.37,2.09,Y40T44,FEMALE,1140
+DJI,2006,deaths,Deaths,216.17,188.29,246.78,Y40T44,MALE,0
+DJI,2006,deaths,Deaths,1.02,0.43,1.93,Y40T44,MALE,1140
+DJI,2006,deaths,Deaths,379.89,330.32,435.46,Y40T44,TOTAL,0
+DJI,2006,deaths,Deaths,2.03,0.8,4.02,Y40T44,TOTAL,1140
+DJI,2007,death_rate,Deaths per 100000 population,795.3,,,TOTAL,FEMALE,0
+DJI,2007,death_rate,Deaths per 100000 population,18.07,,,TOTAL,FEMALE,1140
+DJI,2007,death_rate,Deaths per 100000 population,862.27,,,TOTAL,MALE,0
+DJI,2007,death_rate,Deaths per 100000 population,14.34,,,TOTAL,MALE,1140
+DJI,2007,death_rate,Deaths per 100000 population,828.6,,,TOTAL,TOTAL,0
+DJI,2007,death_rate,Deaths per 100000 population,16.21,,,TOTAL,TOTAL,1140
+DJI,2007,death_rate,Deaths per 100000 population,730.2,,,Y40T44,FEMALE,0
+DJI,2007,death_rate,Deaths per 100000 population,4.91,,,Y40T44,FEMALE,1140
+DJI,2007,death_rate,Deaths per 100000 population,963.83,,,Y40T44,MALE,0
+DJI,2007,death_rate,Deaths per 100000 population,5.56,,,Y40T44,MALE,1140
+DJI,2007,death_rate,Deaths per 100000 population,844.8,,,Y40T44,TOTAL,0
+DJI,2007,death_rate,Deaths per 100000 population,5.21,,,Y40T44,TOTAL,1140
+DJI,2007,deaths,Deaths,3496.46,3047.88,3994.47,TOTAL,FEMALE,0
+DJI,2007,deaths,Deaths,79.44,31.41,146.1,TOTAL,FEMALE,1140
+DJI,2007,deaths,Deaths,3750.09,3278.14,4289.22,TOTAL,MALE,0
+DJI,2007,deaths,Deaths,62.35,30.09,104.08,TOTAL,MALE,1140
+DJI,2007,deaths,Deaths,7246.55,6326.02,8283.69,TOTAL,TOTAL,0
+DJI,2007,deaths,Deaths,141.79,61.51,250.19,TOTAL,TOTAL,1140
+DJI,2007,deaths,Deaths,165.04,142.82,190.66,Y40T44,FEMALE,0
+DJI,2007,deaths,Deaths,1.11,0.4,2.32,Y40T44,FEMALE,1140
+DJI,2007,deaths,Deaths,209.72,181.53,238.97,Y40T44,MALE,0
+DJI,2007,deaths,Deaths,1.21,0.53,2.23,Y40T44,MALE,1140
+DJI,2007,deaths,Deaths,374.76,324.35,429.63,Y40T44,TOTAL,0
+DJI,2007,deaths,Deaths,2.31,0.93,4.55,Y40T44,TOTAL,1140
+DJI,2008,death_rate,Deaths per 100000 population,781.96,,,TOTAL,FEMALE,0
+DJI,2008,death_rate,Deaths per 100000 population,17.29,,,TOTAL,FEMALE,1140
+DJI,2008,death_rate,Deaths per 100000 population,847.65,,,TOTAL,MALE,0
+DJI,2008,death_rate,Deaths per 100000 population,14.06,,,TOTAL,MALE,1140
+DJI,2008,death_rate,Deaths per 100000 population,814.62,,,TOTAL,TOTAL,0
+DJI,2008,death_rate,Deaths per 100000 population,15.69,,,TOTAL,TOTAL,1140
+DJI,2008,death_rate,Deaths per 100000 population,716.92,,,Y40T44,FEMALE,0
+DJI,2008,death_rate,Deaths per 100000 population,4.4,,,Y40T44,FEMALE,1140
+DJI,2008,death_rate,Deaths per 100000 population,928.7,,,Y40T44,MALE,0
+DJI,2008,death_rate,Deaths per 100000 population,5.15,,,Y40T44,MALE,1140
+DJI,2008,death_rate,Deaths per 100000 population,820.78,,,Y40T44,TOTAL,0
+DJI,2008,death_rate,Deaths per 100000 population,4.77,,,Y40T44,TOTAL,1140
+DJI,2008,deaths,Deaths,3510.02,3050.43,4009.95,TOTAL,FEMALE,0
+DJI,2008,deaths,Deaths,77.63,31.55,143.57,TOTAL,FEMALE,1140
+DJI,2008,deaths,Deaths,3762.47,3278.46,4299.4,TOTAL,MALE,0
+DJI,2008,deaths,Deaths,62.42,30.97,103.55,TOTAL,MALE,1140
+DJI,2008,deaths,Deaths,7272.49,6328.89,8309.35,TOTAL,TOTAL,0
+DJI,2008,deaths,Deaths,140.04,62.52,247.12,TOTAL,TOTAL,1140
+DJI,2008,deaths,Deaths,169.35,146.07,194.59,Y40T44,FEMALE,0
+DJI,2008,deaths,Deaths,1.04,0.39,2.18,Y40T44,FEMALE,1140
+DJI,2008,deaths,Deaths,211.14,182.6,241.21,Y40T44,MALE,0
+DJI,2008,deaths,Deaths,1.17,0.53,2.07,Y40T44,MALE,1140
+DJI,2008,deaths,Deaths,380.49,328.67,435.8,Y40T44,TOTAL,0
+DJI,2008,deaths,Deaths,2.21,0.92,4.26,Y40T44,TOTAL,1140
+DJI,2009,death_rate,Deaths per 100000 population,774.27,,,TOTAL,FEMALE,0
+DJI,2009,death_rate,Deaths per 100000 population,19.51,,,TOTAL,FEMALE,1140
+DJI,2009,death_rate,Deaths per 100000 population,836.69,,,TOTAL,MALE,0
+DJI,2009,death_rate,Deaths per 100000 population,15.8,,,TOTAL,MALE,1140
+DJI,2009,death_rate,Deaths per 100000 population,805.3,,,TOTAL,TOTAL,0
+DJI,2009,death_rate,Deaths per 100000 population,17.67,,,TOTAL,TOTAL,1140
+DJI,2009,death_rate,Deaths per 100000 population,710.73,,,Y40T44,FEMALE,0
+DJI,2009,death_rate,Deaths per 100000 population,4.58,,,Y40T44,FEMALE,1140
+DJI,2009,death_rate,Deaths per 100000 population,905.99,,,Y40T44,MALE,0
+DJI,2009,death_rate,Deaths per 100000 population,5.55,,,Y40T44,MALE,1140
+DJI,2009,death_rate,Deaths per 100000 population,806.48,,,Y40T44,TOTAL,0
+DJI,2009,death_rate,Deaths per 100000 population,5.06,,,Y40T44,TOTAL,1140
+DJI,2009,deaths,Deaths,3549.25,3086.89,4046.02,TOTAL,FEMALE,0
+DJI,2009,deaths,Deaths,89.45,37.01,166.23,TOTAL,FEMALE,1140
+DJI,2009,deaths,Deaths,3791.37,3309.12,4332.95,TOTAL,MALE,0
+DJI,2009,deaths,Deaths,71.59,35.61,118.29,TOTAL,MALE,1140
+DJI,2009,deaths,Deaths,7340.62,6396.01,8378.97,TOTAL,TOTAL,0
+DJI,2009,deaths,Deaths,161.04,72.62,284.52,TOTAL,TOTAL,1140
+DJI,2009,deaths,Deaths,175.53,152.1,201.29,Y40T44,FEMALE,0
+DJI,2009,deaths,Deaths,1.13,0.44,2.36,Y40T44,FEMALE,1140
+DJI,2009,deaths,Deaths,215.3,186.92,245.37,Y40T44,MALE,0
+DJI,2009,deaths,Deaths,1.32,0.61,2.35,Y40T44,MALE,1140
+DJI,2009,deaths,Deaths,390.83,339.02,446.65,Y40T44,TOTAL,0
+DJI,2009,deaths,Deaths,2.45,1.05,4.71,Y40T44,TOTAL,1140
+DJI,2010,death_rate,Deaths per 100000 population,769.52,,,TOTAL,FEMALE,0
+DJI,2010,death_rate,Deaths per 100000 population,20.13,,,TOTAL,FEMALE,1140
+DJI,2010,death_rate,Deaths per 100000 population,825.93,,,TOTAL,MALE,0
+DJI,2010,death_rate,Deaths per 100000 population,14.97,,,TOTAL,MALE,1140
+DJI,2010,death_rate,Deaths per 100000 population,797.56,,,TOTAL,TOTAL,0
+DJI,2010,death_rate,Deaths per 100000 population,17.57,,,TOTAL,TOTAL,1140
+DJI,2010,death_rate,Deaths per 100000 population,710,,,Y40T44,FEMALE,0
+DJI,2010,death_rate,Deaths per 100000 population,4.5,,,Y40T44,FEMALE,1140
+DJI,2010,death_rate,Deaths per 100000 population,882.63,,,Y40T44,MALE,0
+DJI,2010,death_rate,Deaths per 100000 population,5.6,,,Y40T44,MALE,1140
+DJI,2010,death_rate,Deaths per 100000 population,794.64,,,Y40T44,TOTAL,0
+DJI,2010,death_rate,Deaths per 100000 population,5.06,,,Y40T44,TOTAL,1140
+DJI,2010,deaths,Deaths,3600.45,3132.34,4115.29,TOTAL,FEMALE,0
+DJI,2010,deaths,Deaths,94.19,39.18,171.44,TOTAL,FEMALE,1140
+DJI,2010,deaths,Deaths,3818.89,3318.11,4366.6,TOTAL,MALE,0
+DJI,2010,deaths,Deaths,69.24,34.71,115.24,TOTAL,MALE,1140
+DJI,2010,deaths,Deaths,7419.35,6450.45,8481.89,TOTAL,TOTAL,0
+DJI,2010,deaths,Deaths,163.42,73.89,286.69,TOTAL,TOTAL,1140
+DJI,2010,deaths,Deaths,183.18,159.88,210.74,Y40T44,FEMALE,0
+DJI,2010,deaths,Deaths,1.16,0.44,2.43,Y40T44,FEMALE,1140
+DJI,2010,deaths,Deaths,219.06,189.81,252.5,Y40T44,MALE,0
+DJI,2010,deaths,Deaths,1.39,0.65,2.49,Y40T44,MALE,1140
+DJI,2010,deaths,Deaths,402.24,349.69,463.23,Y40T44,TOTAL,0
+DJI,2010,deaths,Deaths,2.56,1.09,4.92,Y40T44,TOTAL,1140
+DJI,2011,death_rate,Deaths per 100000 population,762.81,,,TOTAL,FEMALE,0
+DJI,2011,death_rate,Deaths per 100000 population,26.07,,,TOTAL,FEMALE,1140
+DJI,2011,death_rate,Deaths per 100000 population,817.05,,,TOTAL,MALE,0
+DJI,2011,death_rate,Deaths per 100000 population,19.85,,,TOTAL,MALE,1140
+DJI,2011,death_rate,Deaths per 100000 population,789.76,,,TOTAL,TOTAL,0
+DJI,2011,death_rate,Deaths per 100000 population,22.98,,,TOTAL,TOTAL,1140
+DJI,2011,death_rate,Deaths per 100000 population,702.77,,,Y40T44,FEMALE,0
+DJI,2011,death_rate,Deaths per 100000 population,5.79,,,Y40T44,FEMALE,1140
+DJI,2011,death_rate,Deaths per 100000 population,858.67,,,Y40T44,MALE,0
+DJI,2011,death_rate,Deaths per 100000 population,5.83,,,Y40T44,MALE,1140
+DJI,2011,death_rate,Deaths per 100000 population,779.19,,,Y40T44,TOTAL,0
+DJI,2011,death_rate,Deaths per 100000 population,5.81,,,Y40T44,TOTAL,1140
+DJI,2011,deaths,Deaths,3639.71,3161.45,4156.47,TOTAL,FEMALE,0
+DJI,2011,deaths,Deaths,124.37,52.67,226.38,TOTAL,FEMALE,1140
+DJI,2011,deaths,Deaths,3851.75,3347.92,4409.06,TOTAL,MALE,0
+DJI,2011,deaths,Deaths,93.58,48.11,154.66,TOTAL,MALE,1140
+DJI,2011,deaths,Deaths,7491.46,6509.37,8565.53,TOTAL,TOTAL,0
+DJI,2011,deaths,Deaths,217.95,100.78,381.05,TOTAL,TOTAL,1140
+DJI,2011,deaths,Deaths,189.2,164.55,219.92,Y40T44,FEMALE,0
+DJI,2011,deaths,Deaths,1.56,0.59,3.22,Y40T44,FEMALE,1140
+DJI,2011,deaths,Deaths,222.37,192.87,256.38,Y40T44,MALE,0
+DJI,2011,deaths,Deaths,1.51,0.7,2.7,Y40T44,MALE,1140
+DJI,2011,deaths,Deaths,411.56,357.42,476.31,Y40T44,TOTAL,0
+DJI,2011,deaths,Deaths,3.07,1.29,5.92,Y40T44,TOTAL,1140
+DJI,2012,death_rate,Deaths per 100000 population,753.97,,,TOTAL,FEMALE,0
+DJI,2012,death_rate,Deaths per 100000 population,30.52,,,TOTAL,FEMALE,1140
+DJI,2012,death_rate,Deaths per 100000 population,807.94,,,TOTAL,MALE,0
+DJI,2012,death_rate,Deaths per 100000 population,10.71,,,TOTAL,MALE,1140
+DJI,2012,death_rate,Deaths per 100000 population,780.79,,,TOTAL,TOTAL,0
+DJI,2012,death_rate,Deaths per 100000 population,20.67,,,TOTAL,TOTAL,1140
+DJI,2012,death_rate,Deaths per 100000 population,678.32,,,Y40T44,FEMALE,0
+DJI,2012,death_rate,Deaths per 100000 population,7.38,,,Y40T44,FEMALE,1140
+DJI,2012,death_rate,Deaths per 100000 population,824.42,,,Y40T44,MALE,0
+DJI,2012,death_rate,Deaths per 100000 population,6.26,,,Y40T44,MALE,1140
+DJI,2012,death_rate,Deaths per 100000 population,749.93,,,Y40T44,TOTAL,0
+DJI,2012,death_rate,Deaths per 100000 population,6.85,,,Y40T44,TOTAL,1140
+DJI,2012,deaths,Deaths,3667.08,3183.25,4187.19,TOTAL,FEMALE,0
+DJI,2012,deaths,Deaths,148.43,63.52,269.08,TOTAL,FEMALE,1140
+DJI,2012,deaths,Deaths,3881.26,3381.97,4424.42,TOTAL,MALE,0
+DJI,2012,deaths,Deaths,51.43,26.39,86.58,TOTAL,MALE,1140
+DJI,2012,deaths,Deaths,7548.34,6565.22,8611.6,TOTAL,TOTAL,0
+DJI,2012,deaths,Deaths,199.87,89.91,355.66,TOTAL,TOTAL,1140
+DJI,2012,deaths,Deaths,190.33,163.14,219.47,Y40T44,FEMALE,0
+DJI,2012,deaths,Deaths,2.07,0.78,4.28,Y40T44,FEMALE,1140
+DJI,2012,deaths,Deaths,222.47,192.8,253.34,Y40T44,MALE,0
+DJI,2012,deaths,Deaths,1.69,0.82,2.99,Y40T44,MALE,1140
+DJI,2012,deaths,Deaths,412.79,355.95,472.81,Y40T44,TOTAL,0
+DJI,2012,deaths,Deaths,3.77,1.6,7.27,Y40T44,TOTAL,1140
+DJI,2013,death_rate,Deaths per 100000 population,746.51,,,TOTAL,FEMALE,0
+DJI,2013,death_rate,Deaths per 100000 population,36.61,,,TOTAL,FEMALE,1140
+DJI,2013,death_rate,Deaths per 100000 population,800.31,,,TOTAL,MALE,0
+DJI,2013,death_rate,Deaths per 100000 population,13.36,,,TOTAL,MALE,1140
+DJI,2013,death_rate,Deaths per 100000 population,773.24,,,TOTAL,TOTAL,0
+DJI,2013,death_rate,Deaths per 100000 population,25.06,,,TOTAL,TOTAL,1140
+DJI,2013,death_rate,Deaths per 100000 population,652.19,,,Y40T44,FEMALE,0
+DJI,2013,death_rate,Deaths per 100000 population,8.88,,,Y40T44,FEMALE,1140
+DJI,2013,death_rate,Deaths per 100000 population,791.68,,,Y40T44,MALE,0
+DJI,2013,death_rate,Deaths per 100000 population,6.45,,,Y40T44,MALE,1140
+DJI,2013,death_rate,Deaths per 100000 population,720.58,,,Y40T44,TOTAL,0
+DJI,2013,death_rate,Deaths per 100000 population,7.69,,,Y40T44,TOTAL,1140
+DJI,2013,deaths,Deaths,3699.22,3218.8,4216.76,TOTAL,FEMALE,0
+DJI,2013,deaths,Deaths,181.44,78.25,324.6,TOTAL,FEMALE,1140
+DJI,2013,deaths,Deaths,3915.96,3422.65,4451.97,TOTAL,MALE,0
+DJI,2013,deaths,Deaths,65.35,33.93,109.3,TOTAL,MALE,1140
+DJI,2013,deaths,Deaths,7615.18,6641.45,8668.73,TOTAL,TOTAL,0
+DJI,2013,deaths,Deaths,246.79,112.18,433.9,TOTAL,TOTAL,1140
+DJI,2013,deaths,Deaths,190.33,164.89,218.92,Y40T44,FEMALE,0
+DJI,2013,deaths,Deaths,2.59,1.02,5.31,Y40T44,FEMALE,1140
+DJI,2013,deaths,Deaths,222.21,191.2,255.23,Y40T44,MALE,0
+DJI,2013,deaths,Deaths,1.81,0.89,3.15,Y40T44,MALE,1140
+DJI,2013,deaths,Deaths,412.54,356.09,474.16,Y40T44,TOTAL,0
+DJI,2013,deaths,Deaths,4.4,1.91,8.46,Y40T44,TOTAL,1140
+DJI,2014,death_rate,Deaths per 100000 population,736.05,,,TOTAL,FEMALE,0
+DJI,2014,death_rate,Deaths per 100000 population,38.2,,,TOTAL,FEMALE,1140
+DJI,2014,death_rate,Deaths per 100000 population,791.16,,,TOTAL,MALE,0
+DJI,2014,death_rate,Deaths per 100000 population,16.7,,,TOTAL,MALE,1140
+DJI,2014,death_rate,Deaths per 100000 population,763.42,,,TOTAL,TOTAL,0
+DJI,2014,death_rate,Deaths per 100000 population,27.52,,,TOTAL,TOTAL,1140
+DJI,2014,death_rate,Deaths per 100000 population,627.79,,,Y40T44,FEMALE,0
+DJI,2014,death_rate,Deaths per 100000 population,8.82,,,Y40T44,FEMALE,1140
+DJI,2014,death_rate,Deaths per 100000 population,767.93,,,Y40T44,MALE,0
+DJI,2014,death_rate,Deaths per 100000 population,6.28,,,Y40T44,MALE,1140
+DJI,2014,death_rate,Deaths per 100000 population,696.5,,,Y40T44,TOTAL,0
+DJI,2014,death_rate,Deaths per 100000 population,7.58,,,Y40T44,TOTAL,1140
+DJI,2014,deaths,Deaths,3714.32,3244.23,4228.4,TOTAL,FEMALE,0
+DJI,2014,deaths,Deaths,192.75,85.04,339.73,TOTAL,FEMALE,1140
+DJI,2014,deaths,Deaths,3940.8,3454.93,4468.77,TOTAL,MALE,0
+DJI,2014,deaths,Deaths,83.17,43.25,137.47,TOTAL,MALE,1140
+DJI,2014,deaths,Deaths,7655.11,6699.16,8697.17,TOTAL,TOTAL,0
+DJI,2014,deaths,Deaths,275.92,128.29,477.2,TOTAL,TOTAL,1140
+DJI,2014,deaths,Deaths,190.07,164.76,219.01,Y40T44,FEMALE,0
+DJI,2014,deaths,Deaths,2.67,1.07,5.27,Y40T44,FEMALE,1140
+DJI,2014,deaths,Deaths,223.63,193.59,256.9,Y40T44,MALE,0
+DJI,2014,deaths,Deaths,1.83,0.89,3.2,Y40T44,MALE,1140
+DJI,2014,deaths,Deaths,413.7,358.35,475.91,Y40T44,TOTAL,0
+DJI,2014,deaths,Deaths,4.5,1.96,8.48,Y40T44,TOTAL,1140
+DJI,2015,death_rate,Deaths per 100000 population,729.81,,,TOTAL,FEMALE,0
+DJI,2015,death_rate,Deaths per 100000 population,37.95,,,TOTAL,FEMALE,1140
+DJI,2015,death_rate,Deaths per 100000 population,787.53,,,TOTAL,MALE,0
+DJI,2015,death_rate,Deaths per 100000 population,15.96,,,TOTAL,MALE,1140
+DJI,2015,death_rate,Deaths per 100000 population,758.48,,,TOTAL,TOTAL,0
+DJI,2015,death_rate,Deaths per 100000 population,27.03,,,TOTAL,TOTAL,1140
+DJI,2015,death_rate,Deaths per 100000 population,599.11,,,Y40T44,FEMALE,0
+DJI,2015,death_rate,Deaths per 100000 population,9.13,,,Y40T44,FEMALE,1140
+DJI,2015,death_rate,Deaths per 100000 population,735.23,,,Y40T44,MALE,0
+DJI,2015,death_rate,Deaths per 100000 population,6.44,,,Y40T44,MALE,1140
+DJI,2015,death_rate,Deaths per 100000 population,665.87,,,Y40T44,TOTAL,0
+DJI,2015,death_rate,Deaths per 100000 population,7.8,,,Y40T44,TOTAL,1140
+DJI,2015,deaths,Deaths,3748.18,3273.18,4271.28,TOTAL,FEMALE,0
+DJI,2015,deaths,Deaths,194.91,87.31,343.3,TOTAL,FEMALE,1140
+DJI,2015,deaths,Deaths,3990.81,3497.94,4523.97,TOTAL,MALE,0
+DJI,2015,deaths,Deaths,80.87,41.52,133.14,TOTAL,MALE,1140
+DJI,2015,deaths,Deaths,7738.99,6771.12,8795.24,TOTAL,TOTAL,0
+DJI,2015,deaths,Deaths,275.78,128.84,476.44,TOTAL,TOTAL,1140
+DJI,2015,deaths,Deaths,187.6,162.71,217.03,Y40T44,FEMALE,0
+DJI,2015,deaths,Deaths,2.86,1.17,5.6,Y40T44,FEMALE,1140
+DJI,2015,deaths,Deaths,221.48,191.53,252.99,Y40T44,MALE,0
+DJI,2015,deaths,Deaths,1.94,0.94,3.35,Y40T44,MALE,1140
+DJI,2015,deaths,Deaths,409.09,354.24,470.02,Y40T44,TOTAL,0
+DJI,2015,deaths,Deaths,4.79,2.12,8.94,Y40T44,TOTAL,1140
+DJI,2016,death_rate,Deaths per 100000 population,720.99,,,TOTAL,FEMALE,0
+DJI,2016,death_rate,Deaths per 100000 population,40,,,TOTAL,FEMALE,1140
+DJI,2016,death_rate,Deaths per 100000 population,774.11,,,TOTAL,MALE,0
+DJI,2016,death_rate,Deaths per 100000 population,21.41,,,TOTAL,MALE,1140
+DJI,2016,death_rate,Deaths per 100000 population,747.36,,,TOTAL,TOTAL,0
+DJI,2016,death_rate,Deaths per 100000 population,30.77,,,TOTAL,TOTAL,1140
+DJI,2016,death_rate,Deaths per 100000 population,572.57,,,Y40T44,FEMALE,0
+DJI,2016,death_rate,Deaths per 100000 population,10.75,,,Y40T44,FEMALE,1140
+DJI,2016,death_rate,Deaths per 100000 population,698.15,,,Y40T44,MALE,0
+DJI,2016,death_rate,Deaths per 100000 population,7.79,,,Y40T44,MALE,1140
+DJI,2016,death_rate,Deaths per 100000 population,634.13,,,Y40T44,TOTAL,0
+DJI,2016,death_rate,Deaths per 100000 population,9.3,,,Y40T44,TOTAL,1140
+DJI,2016,deaths,Deaths,3766.56,3287.79,4294.5,TOTAL,FEMALE,0
+DJI,2016,deaths,Deaths,208.97,93.38,367.29,TOTAL,FEMALE,1140
+DJI,2016,deaths,Deaths,3988.61,3487.74,4530.64,TOTAL,MALE,0
+DJI,2016,deaths,Deaths,110.3,57.13,180.8,TOTAL,MALE,1140
+DJI,2016,deaths,Deaths,7755.16,6775.53,8825.14,TOTAL,TOTAL,0
+DJI,2016,deaths,Deaths,319.27,150.5,548.09,TOTAL,TOTAL,1140
+DJI,2016,deaths,Deaths,184.82,159.71,212.69,Y40T44,FEMALE,0
+DJI,2016,deaths,Deaths,3.47,1.44,6.95,Y40T44,FEMALE,1140
+DJI,2016,deaths,Deaths,216.83,187.88,248.19,Y40T44,MALE,0
+DJI,2016,deaths,Deaths,2.42,1.17,4.25,Y40T44,MALE,1140
+DJI,2016,deaths,Deaths,401.64,347.59,460.88,Y40T44,TOTAL,0
+DJI,2016,deaths,Deaths,5.89,2.61,11.19,Y40T44,TOTAL,1140
+DJI,2017,death_rate,Deaths per 100000 population,713.31,,,TOTAL,FEMALE,0
+DJI,2017,death_rate,Deaths per 100000 population,43.75,,,TOTAL,FEMALE,1140
+DJI,2017,death_rate,Deaths per 100000 population,768.58,,,TOTAL,MALE,0
+DJI,2017,death_rate,Deaths per 100000 population,29.58,,,TOTAL,MALE,1140
+DJI,2017,death_rate,Deaths per 100000 population,740.75,,,TOTAL,TOTAL,0
+DJI,2017,death_rate,Deaths per 100000 population,36.71,,,TOTAL,TOTAL,1140
+DJI,2017,death_rate,Deaths per 100000 population,539.7,,,Y40T44,FEMALE,0
+DJI,2017,death_rate,Deaths per 100000 population,12.88,,,Y40T44,FEMALE,1140
+DJI,2017,death_rate,Deaths per 100000 population,678.99,,,Y40T44,MALE,0
+DJI,2017,death_rate,Deaths per 100000 population,10.43,,,Y40T44,MALE,1140
+DJI,2017,death_rate,Deaths per 100000 population,608.02,,,Y40T44,TOTAL,0
+DJI,2017,death_rate,Deaths per 100000 population,11.68,,,Y40T44,TOTAL,1140
+DJI,2017,deaths,Deaths,3788.91,3298.68,4320.47,TOTAL,FEMALE,0
+DJI,2017,deaths,Deaths,232.37,103.9,407.22,TOTAL,FEMALE,1140
+DJI,2017,deaths,Deaths,4024.97,3512.97,4582.83,TOTAL,MALE,0
+DJI,2017,deaths,Deaths,154.9,80.6,255.29,TOTAL,MALE,1140
+DJI,2017,deaths,Deaths,7813.88,6811.65,8903.3,TOTAL,TOTAL,0
+DJI,2017,deaths,Deaths,387.27,184.49,662.52,TOTAL,TOTAL,1140
+DJI,2017,deaths,Deaths,178.96,153.31,205.25,Y40T44,FEMALE,0
+DJI,2017,deaths,Deaths,4.27,1.82,8.53,Y40T44,FEMALE,1140
+DJI,2017,deaths,Deaths,216.7,187.31,247.43,Y40T44,MALE,0
+DJI,2017,deaths,Deaths,3.33,1.61,5.81,Y40T44,MALE,1140
+DJI,2017,deaths,Deaths,395.66,340.62,452.68,Y40T44,TOTAL,0
+DJI,2017,deaths,Deaths,7.6,3.43,14.34,Y40T44,TOTAL,1140
+DJI,2018,death_rate,Deaths per 100000 population,708.89,,,TOTAL,FEMALE,0
+DJI,2018,death_rate,Deaths per 100000 population,44.36,,,TOTAL,FEMALE,1140
+DJI,2018,death_rate,Deaths per 100000 population,765.48,,,TOTAL,MALE,0
+DJI,2018,death_rate,Deaths per 100000 population,30.96,,,TOTAL,MALE,1140
+DJI,2018,death_rate,Deaths per 100000 population,736.98,,,TOTAL,TOTAL,0
+DJI,2018,death_rate,Deaths per 100000 population,37.71,,,TOTAL,TOTAL,1140
+DJI,2018,death_rate,Deaths per 100000 population,510.03,,,Y40T44,FEMALE,0
+DJI,2018,death_rate,Deaths per 100000 population,13.73,,,Y40T44,FEMALE,1140
+DJI,2018,death_rate,Deaths per 100000 population,657.34,,,Y40T44,MALE,0
+DJI,2018,death_rate,Deaths per 100000 population,10.95,,,Y40T44,MALE,1140
+DJI,2018,death_rate,Deaths per 100000 population,582.29,,,Y40T44,TOTAL,0
+DJI,2018,death_rate,Deaths per 100000 population,12.37,,,Y40T44,TOTAL,1140
+DJI,2018,deaths,Deaths,3827.01,3317.6,4365.77,TOTAL,FEMALE,0
+DJI,2018,deaths,Deaths,239.47,108.69,416.9,TOTAL,FEMALE,1140
+DJI,2018,deaths,Deaths,4072.62,3549.72,4648.23,TOTAL,MALE,0
+DJI,2018,deaths,Deaths,164.73,85.45,271.7,TOTAL,MALE,1140
+DJI,2018,deaths,Deaths,7899.63,6867.32,9014,TOTAL,TOTAL,0
+DJI,2018,deaths,Deaths,404.2,194.14,688.6,TOTAL,TOTAL,1140
+DJI,2018,deaths,Deaths,173.15,149.36,198.76,Y40T44,FEMALE,0
+DJI,2018,deaths,Deaths,4.66,1.97,9.46,Y40T44,FEMALE,1140
+DJI,2018,deaths,Deaths,214.85,184.57,246.97,Y40T44,MALE,0
+DJI,2018,deaths,Deaths,3.58,1.68,6.19,Y40T44,MALE,1140
+DJI,2018,deaths,Deaths,388,333.93,445.72,Y40T44,TOTAL,0
+DJI,2018,deaths,Deaths,8.24,3.65,15.65,Y40T44,TOTAL,1140
+DJI,2019,death_rate,Deaths per 100000 population,701.27,,,TOTAL,FEMALE,0
+DJI,2019,death_rate,Deaths per 100000 population,44.39,,,TOTAL,FEMALE,1140
+DJI,2019,death_rate,Deaths per 100000 population,763.79,,,TOTAL,MALE,0
+DJI,2019,death_rate,Deaths per 100000 population,32.95,,,TOTAL,MALE,1140
+DJI,2019,death_rate,Deaths per 100000 population,732.3,,,TOTAL,TOTAL,0
+DJI,2019,death_rate,Deaths per 100000 population,38.72,,,TOTAL,TOTAL,1140
+DJI,2019,death_rate,Deaths per 100000 population,495.97,,,Y40T44,FEMALE,0
+DJI,2019,death_rate,Deaths per 100000 population,13.8,,,Y40T44,FEMALE,1140
+DJI,2019,death_rate,Deaths per 100000 population,644.08,,,Y40T44,MALE,0
+DJI,2019,death_rate,Deaths per 100000 population,10.67,,,Y40T44,MALE,1140
+DJI,2019,death_rate,Deaths per 100000 population,568.64,,,Y40T44,TOTAL,0
+DJI,2019,death_rate,Deaths per 100000 population,12.26,,,Y40T44,TOTAL,1140
+DJI,2019,deaths,Deaths,3846.09,3327.81,4416.99,TOTAL,FEMALE,0
+DJI,2019,deaths,Deaths,243.48,112.53,419.91,TOTAL,FEMALE,1140
+DJI,2019,deaths,Deaths,4126.67,3588.09,4719.29,TOTAL,MALE,0
+DJI,2019,deaths,Deaths,178.03,96.5,290.69,TOTAL,MALE,1140
+DJI,2019,deaths,Deaths,7972.76,6915.91,9136.28,TOTAL,TOTAL,0
+DJI,2019,deaths,Deaths,421.51,209.04,710.59,TOTAL,TOTAL,1140
+DJI,2019,deaths,Deaths,171.8,148.76,198.62,Y40T44,FEMALE,0
+DJI,2019,deaths,Deaths,4.78,2.01,9.56,Y40T44,FEMALE,1140
+DJI,2019,deaths,Deaths,214.89,183.69,246.18,Y40T44,MALE,0
+DJI,2019,deaths,Deaths,3.56,1.73,6.22,Y40T44,MALE,1140
+DJI,2019,deaths,Deaths,386.69,332.45,444.8,Y40T44,TOTAL,0
+DJI,2019,deaths,Deaths,8.34,3.74,15.78,Y40T44,TOTAL,1140
+DJI,2020,death_rate,Deaths per 100000 population,716.26,,,TOTAL,FEMALE,0
+DJI,2020,death_rate,Deaths per 100000 population,41.6,,,TOTAL,FEMALE,1140
+DJI,2020,death_rate,Deaths per 100000 population,780.28,,,TOTAL,MALE,0
+DJI,2020,death_rate,Deaths per 100000 population,32.5,,,TOTAL,MALE,1140
+DJI,2020,death_rate,Deaths per 100000 population,748.02,,,TOTAL,TOTAL,0
+DJI,2020,death_rate,Deaths per 100000 population,37.09,,,TOTAL,TOTAL,1140
+DJI,2020,death_rate,Deaths per 100000 population,473.73,,,Y40T44,FEMALE,0
+DJI,2020,death_rate,Deaths per 100000 population,10.62,,,Y40T44,FEMALE,1140
+DJI,2020,death_rate,Deaths per 100000 population,615.69,,,Y40T44,MALE,0
+DJI,2020,death_rate,Deaths per 100000 population,9.25,,,Y40T44,MALE,1140
+DJI,2020,death_rate,Deaths per 100000 population,543.4,,,Y40T44,TOTAL,0
+DJI,2020,death_rate,Deaths per 100000 population,9.93,,,Y40T44,TOTAL,1140
+DJI,2020,deaths,Deaths,3988.66,3412.7,4612.56,TOTAL,FEMALE,0
+DJI,2020,deaths,Deaths,231.67,104.63,405.37,TOTAL,FEMALE,1140
+DJI,2020,deaths,Deaths,4278.48,3698.12,4938.53,TOTAL,MALE,0
+DJI,2020,deaths,Deaths,178.21,91.55,297.49,TOTAL,MALE,1140
+DJI,2020,deaths,Deaths,8267.14,7110.82,9551.09,TOTAL,TOTAL,0
+DJI,2020,deaths,Deaths,409.88,196.18,702.86,TOTAL,TOTAL,1140
+DJI,2020,deaths,Deaths,166.89,142.47,194.63,Y40T44,FEMALE,0
+DJI,2020,deaths,Deaths,3.74,1.62,7.23,Y40T44,FEMALE,1140
+DJI,2020,deaths,Deaths,209.05,176.89,244.96,Y40T44,MALE,0
+DJI,2020,deaths,Deaths,3.14,1.47,5.54,Y40T44,MALE,1140
+DJI,2020,deaths,Deaths,375.94,319.36,439.59,Y40T44,TOTAL,0
+DJI,2020,deaths,Deaths,6.87,3.09,12.77,Y40T44,TOTAL,1140
+DJI,2021,death_rate,Deaths per 100000 population,754.17,,,TOTAL,FEMALE,0
+DJI,2021,death_rate,Deaths per 100000 population,37.72,,,TOTAL,FEMALE,1140
+DJI,2021,death_rate,Deaths per 100000 population,835.46,,,TOTAL,MALE,0
+DJI,2021,death_rate,Deaths per 100000 population,31.99,,,TOTAL,MALE,1140
+DJI,2021,death_rate,Deaths per 100000 population,794.48,,,TOTAL,TOTAL,0
+DJI,2021,death_rate,Deaths per 100000 population,34.88,,,TOTAL,TOTAL,1140
+DJI,2021,death_rate,Deaths per 100000 population,564.74,,,Y40T44,FEMALE,0
+DJI,2021,death_rate,Deaths per 100000 population,14.31,,,Y40T44,FEMALE,1140
+DJI,2021,death_rate,Deaths per 100000 population,721.53,,,Y40T44,MALE,0
+DJI,2021,death_rate,Deaths per 100000 population,12.66,,,Y40T44,MALE,1140
+DJI,2021,death_rate,Deaths per 100000 population,641.7,,,Y40T44,TOTAL,0
+DJI,2021,death_rate,Deaths per 100000 population,13.5,,,Y40T44,TOTAL,1140
+DJI,2021,deaths,Deaths,4262.03,3578.31,5036.79,TOTAL,FEMALE,0
+DJI,2021,deaths,Deaths,213.15,86.99,398.92,TOTAL,FEMALE,1140
+DJI,2021,deaths,Deaths,4646.26,3936.61,5454.18,TOTAL,MALE,0
+DJI,2021,deaths,Deaths,177.9,73.35,319,TOTAL,MALE,1140
+DJI,2021,deaths,Deaths,8908.29,7514.92,10490.97,TOTAL,TOTAL,0
+DJI,2021,deaths,Deaths,391.05,160.34,717.92,TOTAL,TOTAL,1140
+DJI,2021,deaths,Deaths,201.72,167.11,239.21,Y40T44,FEMALE,0
+DJI,2021,deaths,Deaths,5.11,2.1,9.78,Y40T44,FEMALE,1140
+DJI,2021,deaths,Deaths,248.58,208.34,299.28,Y40T44,MALE,0
+DJI,2021,deaths,Deaths,4.36,1.7,8.18,Y40T44,MALE,1140
+DJI,2021,deaths,Deaths,450.29,375.44,538.49,Y40T44,TOTAL,0
+DJI,2021,deaths,Deaths,9.47,3.8,17.96,Y40T44,TOTAL,1140
+DJI,2022,death_rate,Deaths per 100000 population,708.54,,,TOTAL,FEMALE,0
+DJI,2022,death_rate,Deaths per 100000 population,41.79,,,TOTAL,FEMALE,1140
+DJI,2022,death_rate,Deaths per 100000 population,782.6,,,TOTAL,MALE,0
+DJI,2022,death_rate,Deaths per 100000 population,32.03,,,TOTAL,MALE,1140
+DJI,2022,death_rate,Deaths per 100000 population,745.26,,,TOTAL,TOTAL,0
+DJI,2022,death_rate,Deaths per 100000 population,36.95,,,TOTAL,TOTAL,1140
+DJI,2022,death_rate,Deaths per 100000 population,502.02,,,Y40T44,FEMALE,0
+DJI,2022,death_rate,Deaths per 100000 population,15.86,,,Y40T44,FEMALE,1140
+DJI,2022,death_rate,Deaths per 100000 population,632.83,,,Y40T44,MALE,0
+DJI,2022,death_rate,Deaths per 100000 population,12.1,,,Y40T44,MALE,1140
+DJI,2022,death_rate,Deaths per 100000 population,566.27,,,Y40T44,TOTAL,0
+DJI,2022,death_rate,Deaths per 100000 population,14.01,,,Y40T44,TOTAL,1140
+DJI,2022,deaths,Deaths,4061.63,3321.14,4935.06,TOTAL,FEMALE,0
+DJI,2022,deaths,Deaths,239.58,110.98,418.27,TOTAL,FEMALE,1140
+DJI,2022,deaths,Deaths,4412.83,3622.88,5330.88,TOTAL,MALE,0
+DJI,2022,deaths,Deaths,180.58,95.27,302.49,TOTAL,MALE,1140
+DJI,2022,deaths,Deaths,8474.46,6944.02,10265.93,TOTAL,TOTAL,0
+DJI,2022,deaths,Deaths,420.16,206.25,720.76,TOTAL,TOTAL,1140
+DJI,2022,deaths,Deaths,181.42,146.19,221.09,Y40T44,FEMALE,0
+DJI,2022,deaths,Deaths,5.73,2.47,10.78,Y40T44,FEMALE,1140
+DJI,2022,deaths,Deaths,220.77,177.44,270.41,Y40T44,MALE,0
+DJI,2022,deaths,Deaths,4.22,1.95,7.29,Y40T44,MALE,1140
+DJI,2022,deaths,Deaths,402.19,323.64,491.51,Y40T44,TOTAL,0
+DJI,2022,deaths,Deaths,9.95,4.42,18.07,Y40T44,TOTAL,1140
+DJI,2023,death_rate,Deaths per 100000 population,679.34,,,TOTAL,FEMALE,0
+DJI,2023,death_rate,Deaths per 100000 population,42.44,,,TOTAL,FEMALE,1140
+DJI,2023,death_rate,Deaths per 100000 population,770.85,,,TOTAL,MALE,0
+DJI,2023,death_rate,Deaths per 100000 population,32.8,,,TOTAL,MALE,1140
+DJI,2023,death_rate,Deaths per 100000 population,724.7,,,TOTAL,TOTAL,0
+DJI,2023,death_rate,Deaths per 100000 population,37.66,,,TOTAL,TOTAL,1140
+DJI,2023,death_rate,Deaths per 100000 population,415.03,,,Y40T44,FEMALE,0
+DJI,2023,death_rate,Deaths per 100000 population,10.24,,,Y40T44,FEMALE,1140
+DJI,2023,death_rate,Deaths per 100000 population,563.45,,,Y40T44,MALE,0
+DJI,2023,death_rate,Deaths per 100000 population,9.49,,,Y40T44,MALE,1140
+DJI,2023,death_rate,Deaths per 100000 population,487.99,,,Y40T44,TOTAL,0
+DJI,2023,death_rate,Deaths per 100000 population,9.87,,,Y40T44,TOTAL,1140
+DJI,2023,deaths,Deaths,3949.32,3143.72,4892.67,TOTAL,FEMALE,0
+DJI,2023,deaths,Deaths,246.72,104.4,436.83,TOTAL,FEMALE,1140
+DJI,2023,deaths,Deaths,4406.23,3514.81,5450.91,TOTAL,MALE,0
+DJI,2023,deaths,Deaths,187.47,96.73,318.96,TOTAL,MALE,1140
+DJI,2023,deaths,Deaths,8355.55,6658.54,10343.58,TOTAL,TOTAL,0
+DJI,2023,deaths,Deaths,434.19,201.13,755.79,TOTAL,TOTAL,1140
+DJI,2023,deaths,Deaths,151.61,118.7,193.96,Y40T44,FEMALE,0
+DJI,2023,deaths,Deaths,3.74,1.38,7.36,Y40T44,FEMALE,1140
+DJI,2023,deaths,Deaths,198.95,153.36,249.98,Y40T44,MALE,0
+DJI,2023,deaths,Deaths,3.35,1.48,5.97,Y40T44,MALE,1140
+DJI,2023,deaths,Deaths,350.57,272.06,443.94,Y40T44,TOTAL,0
+DJI,2023,deaths,Deaths,7.09,2.85,13.34,Y40T44,TOTAL,1140

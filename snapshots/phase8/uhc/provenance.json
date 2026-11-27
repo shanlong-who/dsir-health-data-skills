@@ -1,0 +1,83 @@
+{
+  "dsir_version": "0.15.0",
+  "sources": [
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DATA_/RELAY_WHS",
+      "retrieved_at": "2026-11-27T02:19:15Z",
+      "retrieval_status": "live",
+      "record_count": 4944,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(IND_ID eq '9A706FDUHC_INDEX_REPORTED')",
+        "select": null,
+        "group": null,
+        "order": "Sys_PK"
+      }
+    }
+  ],
+  "export_rows": 4680,
+  "geographic_aggregates": [
+    {
+      "location": "910",
+      "location_name": "High-income economies",
+      "spatial_type": "WORLDBANKINCOMEGROUP"
+    },
+    {
+      "location": "911",
+      "location_name": "Low-income economies",
+      "spatial_type": "WORLDBANKINCOMEGROUP"
+    },
+    {
+      "location": "912",
+      "location_name": "Lower-middle-income economies",
+      "spatial_type": "WORLDBANKINCOMEGROUP"
+    },
+    {
+      "location": "914",
+      "location_name": "Upper-middle-income economies",
+      "spatial_type": "WORLDBANKINCOMEGROUP"
+    },
+    {
+      "location": "AFR",
+      "location_name": "Africa",
+      "spatial_type": "REGION"
+    },
+    {
+      "location": "AMR",
+      "location_name": "Americas",
+      "spatial_type": "REGION"
+    },
+    {
+      "location": "EMR",
+      "location_name": "Eastern Mediterranean",
+      "spatial_type": "REGION"
+    },
+    {
+      "location": "EUR",
+      "location_name": "Europe",
+      "spatial_type": "REGION"
+    },
+    {
+      "location": "GLOBAL",
+      "location_name": "Global",
+      "spatial_type": "GLOBAL"
+    },
+    {
+      "location": "SEAR",
+      "location_name": "South-East Asia",
+      "spatial_type": "REGION"
+    },
+    {
+      "location": "WPR",
+      "location_name": "Western Pacific",
+      "spatial_type": "REGION"
+    }
+  ],
+  "geo_source": null
+}

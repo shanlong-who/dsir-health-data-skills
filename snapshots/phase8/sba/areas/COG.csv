@@ -1,0 +1,4 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+COG,2005,SH_STA_BRTC,Percent of live births,83.4,,,G
+COG,2012,SH_STA_BRTC,Percent of live births,92.5,,,G
+COG,2015,SH_STA_BRTC,Percent of live births,94.4,,,G

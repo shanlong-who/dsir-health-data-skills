@@ -1,0 +1,12 @@
+code,field,label,unit,status
+deaths,VAL_DTHS_COUNT_NUMERIC,Deaths,deaths,selected_strata_snapshotted
+death_rate,VAL_DTHS_RATE100K_NUMERIC,Death rate,"per 100,000 population",selected_strata_snapshotted
+yll,VAL_YLL_COUNT_NUMERIC,Years of life lost,years,discoverable_availability_pending
+yll_rate,VAL_YLL_RATE100K_NUMERIC,YLL rate,"per 100,000 population",discoverable_availability_pending
+yld,VAL_YLD_COUNT_NUMERIC,Years lived with disability,years,discoverable_availability_pending
+yld_rate,VAL_YLD_RATE100K_NUMERIC,YLD rate,"per 100,000 population",discoverable_availability_pending
+daly,VAL_DALY_COUNT_NUMERIC,Disability-adjusted life years,years,discoverable_availability_pending
+daly_rate,VAL_DALY_RATE100K_NUMERIC,DALY rate,"per 100,000 population",discoverable_availability_pending
+deaths_percent,VAL_PROP_DTHS_PERCENT,Share of deaths,percent,discoverable_availability_pending
+yld_percent,VAL_PROP_YLD_PERCENT,Share of YLD,percent,discoverable_availability_pending
+daly_percent,VAL_PROP_DALY_PERCENT,Share of DALY,percent,discoverable_availability_pending

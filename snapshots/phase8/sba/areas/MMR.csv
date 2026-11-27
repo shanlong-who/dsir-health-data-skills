@@ -1,0 +1,5 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+MMR,2001,SH_STA_BRTC,Percent of live births,57,,,G
+MMR,2007,SH_STA_BRTC,Percent of live births,63.9,,,G
+MMR,2010,SH_STA_BRTC,Percent of live births,70.6,,,G
+MMR,2016,SH_STA_BRTC,Percent of live births,60.2,,,G

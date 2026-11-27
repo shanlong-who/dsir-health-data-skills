@@ -1,0 +1,6 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+TCD,2000,SH_STA_BRTC,Percent of live births,13.7,,,G
+TCD,2004,SH_STA_BRTC,Percent of live births,14.4,,,G
+TCD,2010,SH_STA_BRTC,Percent of live births,16.6,,,G
+TCD,2015,SH_STA_BRTC,Percent of live births,24.3,,,G
+TCD,2019,SH_STA_BRTC,Percent of live births,47.2,,,G

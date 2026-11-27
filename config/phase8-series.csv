@@ -1,0 +1,8 @@
+dataset,source,backend,indicator,series,name,source_unit,unit,denominator,key_dimensions,source_age,reporting_type
+uhc,WHO Global Health Observatory,xmart,UHC_INDEX_REPORTED,UHC_INDEX_REPORTED,UHC service coverage index,INDEX_N,Index (0-100),,,,
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_IMRT,Infant mortality rate,PER_1000_LIVE_BIRTHS,Deaths per 1000 live births,Live births,age|sex|dim_reporting_type,<1Y,G
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_IMRTN,Infant deaths,NUMBER,Deaths,,age|sex|dim_reporting_type,<1Y,G
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_MORT,Under-five mortality rate,PER_1000_LIVE_BIRTHS,Deaths per 1000 live births,Live births,age|sex|dim_reporting_type,<5Y,G
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_MORTN,Under-five deaths,NUMBER,Deaths,,age|sex|dim_reporting_type,<5Y,G
+ghe_extended,WHO Global Health Estimates,xmart,GHE/death_estimates,deaths,Deaths,deaths,Deaths,,age|sex|cause_code,,
+ghe_extended,WHO Global Health Estimates,xmart,GHE/death_estimates,death_rate,Death rate,"per 100,000 population",Deaths per 100000 population,Population in the selected age stratum,age|sex|cause_code,,

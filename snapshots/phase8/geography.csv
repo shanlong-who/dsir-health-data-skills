@@ -1,0 +1,250 @@
+m49,iso3,name,region,area_code,source_geo_code,roster_source
+012,DZA,Algeria,Africa,DZA,012,UN M49
+818,EGY,Egypt,Africa,EGY,818,UN M49
+434,LBY,Libya,Africa,LBY,434,UN M49
+504,MAR,Morocco,Africa,MAR,504,UN M49
+729,SDN,Sudan,Africa,SDN,729,UN M49
+788,TUN,Tunisia,Africa,TUN,788,UN M49
+732,ESH,Western Sahara,Africa,ESH,732,UN M49
+086,IOT,British Indian Ocean Territory,Africa,IOT,086,UN M49
+108,BDI,Burundi,Africa,BDI,108,UN M49
+174,COM,Comoros,Africa,COM,174,UN M49
+262,DJI,Djibouti,Africa,DJI,262,UN M49
+232,ERI,Eritrea,Africa,ERI,232,UN M49
+231,ETH,Ethiopia,Africa,ETH,231,UN M49
+260,ATF,French Southern Territories,Africa,ATF,260,UN M49
+404,KEN,Kenya,Africa,KEN,404,UN M49
+450,MDG,Madagascar,Africa,MDG,450,UN M49
+454,MWI,Malawi,Africa,MWI,454,UN M49
+480,MUS,Mauritius,Africa,MUS,480,UN M49
+175,MYT,Mayotte,Africa,MYT,175,UN M49
+508,MOZ,Mozambique,Africa,MOZ,508,UN M49
+638,REU,Réunion,Africa,REU,638,UN M49
+646,RWA,Rwanda,Africa,RWA,646,UN M49
+690,SYC,Seychelles,Africa,SYC,690,UN M49
+706,SOM,Somalia,Africa,SOM,706,UN M49
+728,SSD,South Sudan,Africa,SSD,728,UN M49
+800,UGA,Uganda,Africa,UGA,800,UN M49
+834,TZA,United Republic of Tanzania,Africa,TZA,834,UN M49
+894,ZMB,Zambia,Africa,ZMB,894,UN M49
+716,ZWE,Zimbabwe,Africa,ZWE,716,UN M49
+024,AGO,Angola,Africa,AGO,024,UN M49
+120,CMR,Cameroon,Africa,CMR,120,UN M49
+140,CAF,Central African Republic,Africa,CAF,140,UN M49
+148,TCD,Chad,Africa,TCD,148,UN M49
+178,COG,Congo,Africa,COG,178,UN M49
+180,COD,Democratic Republic of the Congo,Africa,COD,180,UN M49
+226,GNQ,Equatorial Guinea,Africa,GNQ,226,UN M49
+266,GAB,Gabon,Africa,GAB,266,UN M49
+678,STP,Sao Tome and Principe,Africa,STP,678,UN M49
+072,BWA,Botswana,Africa,BWA,072,UN M49
+748,SWZ,Eswatini,Africa,SWZ,748,UN M49
+426,LSO,Lesotho,Africa,LSO,426,UN M49
+516,NAM,Namibia,Africa,NAM,516,UN M49
+710,ZAF,South Africa,Africa,ZAF,710,UN M49
+204,BEN,Benin,Africa,BEN,204,UN M49
+854,BFA,Burkina Faso,Africa,BFA,854,UN M49
+132,CPV,Cabo Verde,Africa,CPV,132,UN M49
+384,CIV,Côte d’Ivoire,Africa,CIV,384,UN M49
+270,GMB,Gambia,Africa,GMB,270,UN M49
+288,GHA,Ghana,Africa,GHA,288,UN M49
+324,GIN,Guinea,Africa,GIN,324,UN M49
+624,GNB,Guinea-Bissau,Africa,GNB,624,UN M49
+430,LBR,Liberia,Africa,LBR,430,UN M49
+466,MLI,Mali,Africa,MLI,466,UN M49
+478,MRT,Mauritania,Africa,MRT,478,UN M49
+562,NER,Niger,Africa,NER,562,UN M49
+566,NGA,Nigeria,Africa,NGA,566,UN M49
+654,SHN,Saint Helena,Africa,SHN,654,UN M49
+686,SEN,Senegal,Africa,SEN,686,UN M49
+694,SLE,Sierra Leone,Africa,SLE,694,UN M49
+768,TGO,Togo,Africa,TGO,768,UN M49
+660,AIA,Anguilla,Americas,AIA,660,UN M49
+028,ATG,Antigua and Barbuda,Americas,ATG,028,UN M49
+533,ABW,Aruba,Americas,ABW,533,UN M49
+044,BHS,Bahamas,Americas,BHS,044,UN M49
+052,BRB,Barbados,Americas,BRB,052,UN M49
+535,BES,"Bonaire, Sint Eustatius and Saba",Americas,BES,535,UN M49
+092,VGB,British Virgin Islands,Americas,VGB,092,UN M49
+136,CYM,Cayman Islands,Americas,CYM,136,UN M49
+192,CUB,Cuba,Americas,CUB,192,UN M49
+531,CUW,Curaçao,Americas,CUW,531,UN M49
+212,DMA,Dominica,Americas,DMA,212,UN M49
+214,DOM,Dominican Republic,Americas,DOM,214,UN M49
+308,GRD,Grenada,Americas,GRD,308,UN M49
+312,GLP,Guadeloupe,Americas,GLP,312,UN M49
+332,HTI,Haiti,Americas,HTI,332,UN M49
+388,JAM,Jamaica,Americas,JAM,388,UN M49
+474,MTQ,Martinique,Americas,MTQ,474,UN M49
+500,MSR,Montserrat,Americas,MSR,500,UN M49
+630,PRI,Puerto Rico,Americas,PRI,630,UN M49
+652,BLM,Saint Barthélemy,Americas,BLM,652,UN M49
+659,KNA,Saint Kitts and Nevis,Americas,KNA,659,UN M49
+662,LCA,Saint Lucia,Americas,LCA,662,UN M49
+663,MAF,Saint Martin (French Part),Americas,MAF,663,UN M49
+670,VCT,Saint Vincent and the Grenadines,Americas,VCT,670,UN M49
+534,SXM,Sint Maarten (Dutch part),Americas,SXM,534,UN M49
+780,TTO,Trinidad and Tobago,Americas,TTO,780,UN M49
+796,TCA,Turks and Caicos Islands,Americas,TCA,796,UN M49
+850,VIR,United States Virgin Islands,Americas,VIR,850,UN M49
+084,BLZ,Belize,Americas,BLZ,084,UN M49
+188,CRI,Costa Rica,Americas,CRI,188,UN M49
+222,SLV,El Salvador,Americas,SLV,222,UN M49
+320,GTM,Guatemala,Americas,GTM,320,UN M49
+340,HND,Honduras,Americas,HND,340,UN M49
+484,MEX,Mexico,Americas,MEX,484,UN M49
+558,NIC,Nicaragua,Americas,NIC,558,UN M49
+591,PAN,Panama,Americas,PAN,591,UN M49
+032,ARG,Argentina,Americas,ARG,032,UN M49
+068,BOL,Bolivia (Plurinational State of),Americas,BOL,068,UN M49
+074,BVT,Bouvet Island,Americas,BVT,074,UN M49
+076,BRA,Brazil,Americas,BRA,076,UN M49
+152,CHL,Chile,Americas,CHL,152,UN M49
+170,COL,Colombia,Americas,COL,170,UN M49
+218,ECU,Ecuador,Americas,ECU,218,UN M49
+238,FLK,Falkland Islands (Malvinas),Americas,FLK,238,UN M49
+254,GUF,French Guiana,Americas,GUF,254,UN M49
+328,GUY,Guyana,Americas,GUY,328,UN M49
+600,PRY,Paraguay,Americas,PRY,600,UN M49
+604,PER,Peru,Americas,PER,604,UN M49
+239,SGS,South Georgia and the South Sandwich Islands,Americas,SGS,239,UN M49
+740,SUR,Suriname,Americas,SUR,740,UN M49
+858,URY,Uruguay,Americas,URY,858,UN M49
+862,VEN,Venezuela (Bolivarian Republic of),Americas,VEN,862,UN M49
+060,BMU,Bermuda,Americas,BMU,060,UN M49
+124,CAN,Canada,Americas,CAN,124,UN M49
+304,GRL,Greenland,Americas,GRL,304,UN M49
+666,SPM,Saint Pierre and Miquelon,Americas,SPM,666,UN M49
+840,USA,United States of America,Americas,USA,840,UN M49
+010,ATA,Antarctica,,ATA,010,UN M49
+398,KAZ,Kazakhstan,Asia,KAZ,398,UN M49
+417,KGZ,Kyrgyzstan,Asia,KGZ,417,UN M49
+762,TJK,Tajikistan,Asia,TJK,762,UN M49
+795,TKM,Turkmenistan,Asia,TKM,795,UN M49
+860,UZB,Uzbekistan,Asia,UZB,860,UN M49
+156,CHN,China,Asia,CHN,156,UN M49
+344,HKG,"China, Hong Kong Special Administrative Region",Asia,HKG,344,UN M49
+446,MAC,"China, Macao Special Administrative Region",Asia,MAC,446,UN M49
+408,PRK,Democratic People's Republic of Korea,Asia,PRK,408,UN M49
+392,JPN,Japan,Asia,JPN,392,UN M49
+496,MNG,Mongolia,Asia,MNG,496,UN M49
+410,KOR,Republic of Korea,Asia,KOR,410,UN M49
+096,BRN,Brunei Darussalam,Asia,BRN,096,UN M49
+116,KHM,Cambodia,Asia,KHM,116,UN M49
+360,IDN,Indonesia,Asia,IDN,360,UN M49
+418,LAO,Lao People's Democratic Republic,Asia,LAO,418,UN M49
+458,MYS,Malaysia,Asia,MYS,458,UN M49
+104,MMR,Myanmar,Asia,MMR,104,UN M49
+608,PHL,Philippines,Asia,PHL,608,UN M49
+702,SGP,Singapore,Asia,SGP,702,UN M49
+764,THA,Thailand,Asia,THA,764,UN M49
+626,TLS,Timor-Leste,Asia,TLS,626,UN M49
+704,VNM,Viet Nam,Asia,VNM,704,UN M49
+004,AFG,Afghanistan,Asia,AFG,004,UN M49
+050,BGD,Bangladesh,Asia,BGD,050,UN M49
+064,BTN,Bhutan,Asia,BTN,064,UN M49
+356,IND,India,Asia,IND,356,UN M49
+364,IRN,Iran (Islamic Republic of),Asia,IRN,364,UN M49
+462,MDV,Maldives,Asia,MDV,462,UN M49
+524,NPL,Nepal,Asia,NPL,524,UN M49
+586,PAK,Pakistan,Asia,PAK,586,UN M49
+144,LKA,Sri Lanka,Asia,LKA,144,UN M49
+051,ARM,Armenia,Asia,ARM,051,UN M49
+031,AZE,Azerbaijan,Asia,AZE,031,UN M49
+048,BHR,Bahrain,Asia,BHR,048,UN M49
+196,CYP,Cyprus,Asia,CYP,196,UN M49
+268,GEO,Georgia,Asia,GEO,268,UN M49
+368,IRQ,Iraq,Asia,IRQ,368,UN M49
+376,ISR,Israel,Asia,ISR,376,UN M49
+400,JOR,Jordan,Asia,JOR,400,UN M49
+414,KWT,Kuwait,Asia,KWT,414,UN M49
+422,LBN,Lebanon,Asia,LBN,422,UN M49
+512,OMN,Oman,Asia,OMN,512,UN M49
+634,QAT,Qatar,Asia,QAT,634,UN M49
+682,SAU,Saudi Arabia,Asia,SAU,682,UN M49
+275,PSE,State of Palestine,Asia,PSE,275,UN M49
+760,SYR,Syrian Arab Republic,Asia,SYR,760,UN M49
+792,TUR,Türkiye,Asia,TUR,792,UN M49
+784,ARE,United Arab Emirates,Asia,ARE,784,UN M49
+887,YEM,Yemen,Asia,YEM,887,UN M49
+112,BLR,Belarus,Europe,BLR,112,UN M49
+100,BGR,Bulgaria,Europe,BGR,100,UN M49
+203,CZE,Czechia,Europe,CZE,203,UN M49
+348,HUN,Hungary,Europe,HUN,348,UN M49
+616,POL,Poland,Europe,POL,616,UN M49
+498,MDA,Republic of Moldova,Europe,MDA,498,UN M49
+642,ROU,Romania,Europe,ROU,642,UN M49
+643,RUS,Russian Federation,Europe,RUS,643,UN M49
+703,SVK,Slovakia,Europe,SVK,703,UN M49
+804,UKR,Ukraine,Europe,UKR,804,UN M49
+248,ALA,Åland Islands,Europe,ALA,248,UN M49
+208,DNK,Denmark,Europe,DNK,208,UN M49
+233,EST,Estonia,Europe,EST,233,UN M49
+234,FRO,Faroe Islands,Europe,FRO,234,UN M49
+246,FIN,Finland,Europe,FIN,246,UN M49
+831,GGY,Guernsey,Europe,GGY,831,UN M49
+352,ISL,Iceland,Europe,ISL,352,UN M49
+372,IRL,Ireland,Europe,IRL,372,UN M49
+833,IMN,Isle of Man,Europe,IMN,833,UN M49
+832,JEY,Jersey,Europe,JEY,832,UN M49
+428,LVA,Latvia,Europe,LVA,428,UN M49
+440,LTU,Lithuania,Europe,LTU,440,UN M49
+578,NOR,Norway,Europe,NOR,578,UN M49
+744,SJM,Svalbard and Jan Mayen Islands,Europe,SJM,744,UN M49
+752,SWE,Sweden,Europe,SWE,752,UN M49
+826,GBR,United Kingdom of Great Britain and Northern Ireland,Europe,GBR,826,UN M49
+008,ALB,Albania,Europe,ALB,008,UN M49
+020,AND,Andorra,Europe,AND,020,UN M49
+070,BIH,Bosnia and Herzegovina,Europe,BIH,070,UN M49
+191,HRV,Croatia,Europe,HRV,191,UN M49
+292,GIB,Gibraltar,Europe,GIB,292,UN M49
+300,GRC,Greece,Europe,GRC,300,UN M49
+336,VAT,Holy See,Europe,VAT,336,UN M49
+380,ITA,Italy,Europe,ITA,380,UN M49
+470,MLT,Malta,Europe,MLT,470,UN M49
+499,MNE,Montenegro,Europe,MNE,499,UN M49
+807,MKD,North Macedonia,Europe,MKD,807,UN M49
+620,PRT,Portugal,Europe,PRT,620,UN M49
+674,SMR,San Marino,Europe,SMR,674,UN M49
+688,SRB,Serbia,Europe,SRB,688,UN M49
+705,SVN,Slovenia,Europe,SVN,705,UN M49
+724,ESP,Spain,Europe,ESP,724,UN M49
+040,AUT,Austria,Europe,AUT,040,UN M49
+056,BEL,Belgium,Europe,BEL,056,UN M49
+250,FRA,France,Europe,FRA,250,UN M49
+276,DEU,Germany,Europe,DEU,276,UN M49
+438,LIE,Liechtenstein,Europe,LIE,438,UN M49
+442,LUX,Luxembourg,Europe,LUX,442,UN M49
+492,MCO,Monaco,Europe,MCO,492,UN M49
+528,NLD,Netherlands (Kingdom of the),Europe,NLD,528,UN M49
+756,CHE,Switzerland,Europe,CHE,756,UN M49
+036,AUS,Australia,Oceania,AUS,036,UN M49
+162,CXR,Christmas Island,Oceania,CXR,162,UN M49
+166,CCK,Cocos (Keeling) Islands,Oceania,CCK,166,UN M49
+334,HMD,Heard Island and McDonald Islands,Oceania,HMD,334,UN M49
+554,NZL,New Zealand,Oceania,NZL,554,UN M49
+574,NFK,Norfolk Island,Oceania,NFK,574,UN M49
+242,FJI,Fiji,Oceania,FJI,242,UN M49
+540,NCL,New Caledonia,Oceania,NCL,540,UN M49
+598,PNG,Papua New Guinea,Oceania,PNG,598,UN M49
+090,SLB,Solomon Islands,Oceania,SLB,090,UN M49
+548,VUT,Vanuatu,Oceania,VUT,548,UN M49
+316,GUM,Guam,Oceania,GUM,316,UN M49
+296,KIR,Kiribati,Oceania,KIR,296,UN M49
+584,MHL,Marshall Islands,Oceania,MHL,584,UN M49
+583,FSM,Micronesia (Federated States of),Oceania,FSM,583,UN M49
+520,NRU,Naoero,Oceania,NRU,520,UN M49
+580,MNP,Northern Mariana Islands,Oceania,MNP,580,UN M49
+585,PLW,Palau,Oceania,PLW,585,UN M49
+581,UMI,United States Minor Outlying Islands,Oceania,UMI,581,UN M49
+016,ASM,American Samoa,Oceania,ASM,016,UN M49
+184,COK,Cook Islands,Oceania,COK,184,UN M49
+258,PYF,French Polynesia,Oceania,PYF,258,UN M49
+570,NIU,Niue,Oceania,NIU,570,UN M49
+612,PCN,Pitcairn,Oceania,PCN,612,UN M49
+882,WSM,Samoa,Oceania,WSM,882,UN M49
+772,TKL,Tokelau,Oceania,TKL,772,UN M49
+776,TON,Tonga,Oceania,TON,776,UN M49
+798,TUV,Tuvalu,Oceania,TUV,798,UN M49
+876,WLF,Wallis and Futuna Islands,Oceania,WLF,876,UN M49
+,,Kosovo,,SDG-412,412,UN SDG 3.2.1 GeoAreas

@@ -1,0 +1,113 @@
+{
+  "audit_csv_sha256": "e0ccbfebaa11088c3bcefb5199e888b52e94f07d8e5594a8db26103404364306",
+  "DSIR_version": "0.15.0",
+  "sources": [
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL",
+      "retrieved_at": "2026-11-24T11:37:59Z",
+      "retrieval_status": "live",
+      "record_count": 4392,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(DIM_SEX_CODE eq 'FEMALE') and (DIM_AGEGROUP_CODE eq 'TOTAL') and (DIM_GHECAUSE_CODE eq 0)",
+        "select": [
+          "Sys_PK",
+          "DIM_COUNTRY_CODE",
+          "DIM_YEAR_CODE",
+          "DIM_SEX_CODE",
+          "DIM_AGEGROUP_CODE",
+          "DIM_GHECAUSE_CODE",
+          "DIM_GHECAUSE_TITLE",
+          "ATTR_POPULATION_NUMERIC",
+          "FLAG_LEVEL",
+          "DIM_CAUSE_GROUP",
+          "FLAG_RANKABLE",
+          "VAL_DTHS_COUNT_NUMERIC",
+          "VAL_DTHS_COUNT_LOW",
+          "VAL_DTHS_COUNT_HIGH"
+        ],
+        "group": null,
+        "order": "Sys_PK"
+      }
+    },
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL",
+      "retrieved_at": "2026-11-24T11:38:03Z",
+      "retrieval_status": "live",
+      "record_count": 4392,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(DIM_SEX_CODE eq 'MALE') and (DIM_AGEGROUP_CODE eq 'TOTAL') and (DIM_GHECAUSE_CODE eq 0)",
+        "select": [
+          "Sys_PK",
+          "DIM_COUNTRY_CODE",
+          "DIM_YEAR_CODE",
+          "DIM_SEX_CODE",
+          "DIM_AGEGROUP_CODE",
+          "DIM_GHECAUSE_CODE",
+          "DIM_GHECAUSE_TITLE",
+          "ATTR_POPULATION_NUMERIC",
+          "FLAG_LEVEL",
+          "DIM_CAUSE_GROUP",
+          "FLAG_RANKABLE",
+          "VAL_DTHS_COUNT_NUMERIC",
+          "VAL_DTHS_COUNT_LOW",
+          "VAL_DTHS_COUNT_HIGH"
+        ],
+        "group": null,
+        "order": "Sys_PK"
+      }
+    },
+    {
+      "component": "response",
+      "backend": "xmart",
+      "endpoint": "https://xmart-api-public.who.int/DEX_CMS/GHE_FULL",
+      "retrieved_at": "2026-11-24T11:38:08Z",
+      "retrieval_status": "live",
+      "record_count": 4392,
+      "api_version": null,
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "filter": "(DIM_SEX_CODE eq 'TOTAL') and (DIM_AGEGROUP_CODE eq 'TOTAL') and (DIM_GHECAUSE_CODE eq 0)",
+        "select": [
+          "Sys_PK",
+          "DIM_COUNTRY_CODE",
+          "DIM_YEAR_CODE",
+          "DIM_SEX_CODE",
+          "DIM_AGEGROUP_CODE",
+          "DIM_GHECAUSE_CODE",
+          "DIM_GHECAUSE_TITLE",
+          "ATTR_POPULATION_NUMERIC",
+          "FLAG_LEVEL",
+          "DIM_CAUSE_GROUP",
+          "FLAG_RANKABLE",
+          "VAL_DTHS_COUNT_NUMERIC",
+          "VAL_DTHS_COUNT_LOW",
+          "VAL_DTHS_COUNT_HIGH"
+        ],
+        "group": null,
+        "order": "Sys_PK"
+      }
+    }
+  ],
+  "successful_fetch_seconds": 14.7710919380188,
+  "source_rows": 13176,
+  "geographic_aggregate_rows": 0,
+  "outside_selected_series_or_reporting_type": 0,
+  "export_rows": 13176
+}

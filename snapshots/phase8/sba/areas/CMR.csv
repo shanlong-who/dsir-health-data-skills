@@ -1,0 +1,7 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+CMR,2000,SH_STA_BRTC,Percent of live births,56,,,G
+CMR,2004,SH_STA_BRTC,Percent of live births,58.9,,,G
+CMR,2006,SH_STA_BRTC,Percent of live births,58.9,,,G
+CMR,2011,SH_STA_BRTC,Percent of live births,56.1,,,G
+CMR,2014,SH_STA_BRTC,Percent of live births,64.7,,,G
+CMR,2018,SH_STA_BRTC,Percent of live births,69,,,G

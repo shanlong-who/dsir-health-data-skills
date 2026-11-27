@@ -1,0 +1,629 @@
+{
+  "dsir_version": "0.15.0",
+  "sources": [
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:15:14Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=1&areaCode=100&areaCode=104&areaCode=108&areaCode=112&areaCode=116&areaCode=12&areaCode=120",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:15:22Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=124&areaCode=132&areaCode=140&areaCode=143&areaCode=144&areaCode=145&areaCode=148&areaCode=15",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:15:29Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=150&areaCode=152&areaCode=156&areaCode=170&areaCode=174&areaCode=178&areaCode=180&areaCode=184",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:15:16Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=188&areaCode=191&areaCode=192&areaCode=196&areaCode=199&areaCode=20&areaCode=202&areaCode=203",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:15:25Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=204&areaCode=208&areaCode=21&areaCode=212&areaCode=214&areaCode=218&areaCode=222&areaCode=226",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:16:22Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=231&areaCode=232&areaCode=233&areaCode=24&areaCode=242&areaCode=246&areaCode=250&areaCode=262",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:16:37Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=266&areaCode=268&areaCode=270&areaCode=275&areaCode=276&areaCode=28&areaCode=288&areaCode=296",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:16:38Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=30&areaCode=300&areaCode=308&areaCode=31&areaCode=32&areaCode=320&areaCode=324&areaCode=328",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:16:24Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=332&areaCode=34&areaCode=340&areaCode=348&areaCode=35&areaCode=352&areaCode=356&areaCode=36",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:16:38Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=360&areaCode=364&areaCode=368&areaCode=372&areaCode=376&areaCode=380&areaCode=384&areaCode=388",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:17:29Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=392&areaCode=398&areaCode=4&areaCode=40&areaCode=400&areaCode=404&areaCode=408&areaCode=410",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:17:32Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=412&areaCode=414&areaCode=417&areaCode=418&areaCode=419&areaCode=422&areaCode=426&areaCode=428",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:17:33Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=430&areaCode=432&areaCode=434&areaCode=44&areaCode=440&areaCode=442&areaCode=450&areaCode=454",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:17:23Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=458&areaCode=462&areaCode=466&areaCode=470&areaCode=478&areaCode=48&areaCode=480&areaCode=484",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:17:30Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=492&areaCode=496&areaCode=498&areaCode=499&areaCode=50&areaCode=500&areaCode=504&areaCode=508",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:18:30Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=51&areaCode=512&areaCode=513&areaCode=516&areaCode=52&areaCode=520&areaCode=524&areaCode=528",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:18:32Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=53&areaCode=543&areaCode=548&areaCode=554&areaCode=558&areaCode=56&areaCode=562&areaCode=566",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:18:35Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=570&areaCode=578&areaCode=583&areaCode=584&areaCode=585&areaCode=586&areaCode=591&areaCode=598",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:18:17Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=600&areaCode=604&areaCode=608&areaCode=616&areaCode=62&areaCode=620&areaCode=624&areaCode=626",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:18:34Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=634&areaCode=64&areaCode=642&areaCode=643&areaCode=646&areaCode=659&areaCode=660&areaCode=662",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:10Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=670&areaCode=674&areaCode=678&areaCode=68&areaCode=682&areaCode=686&areaCode=688&areaCode=690",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:17Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=694&areaCode=70&areaCode=702&areaCode=703&areaCode=704&areaCode=705&areaCode=706&areaCode=710",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:19Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=716&areaCode=72&areaCode=722&areaCode=724&areaCode=728&areaCode=729&areaCode=740&areaCode=747",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:06Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=748&areaCode=752&areaCode=753&areaCode=756&areaCode=76&areaCode=760&areaCode=762&areaCode=764",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:19Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=768&areaCode=776&areaCode=780&areaCode=784&areaCode=788&areaCode=792&areaCode=795&areaCode=796",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:48Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=798&areaCode=8&areaCode=800&areaCode=804&areaCode=807&areaCode=818&areaCode=826&areaCode=834",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:20:00Z",
+      "retrieval_status": "live",
+      "record_count": 2400,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=84&areaCode=840&areaCode=854&areaCode=858&areaCode=860&areaCode=862&areaCode=882&areaCode=887",
+        "pages_received": 5,
+        "expected_pages": 5,
+        "expected_rows": 2400
+      }
+    },
+    {
+      "component": "observations",
+      "backend": "unsdg",
+      "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data",
+      "retrieved_at": "2026-11-27T02:19:42Z",
+      "retrieval_status": "live",
+      "record_count": 1500,
+      "api_version": "V5",
+      "source_release": null,
+      "cache_hit": false,
+      "status": "success",
+      "complete": true,
+      "query": {
+        "url": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/Data?indicator=3.2.1&pageSize=500&areaCode=894&areaCode=9&areaCode=90&areaCode=92&areaCode=96",
+        "pages_received": 3,
+        "expected_pages": 3,
+        "expected_rows": 1500
+      }
+    }
+  ],
+  "export_rows": 60000,
+  "geographic_aggregates": [
+    {
+      "geoAreaCode": "1",
+      "geoAreaName": "World"
+    },
+    {
+      "geoAreaCode": "9",
+      "geoAreaName": "Oceania"
+    },
+    {
+      "geoAreaCode": "15",
+      "geoAreaName": "Northern Africa"
+    },
+    {
+      "geoAreaCode": "21",
+      "geoAreaName": "Northern America"
+    },
+    {
+      "geoAreaCode": "30",
+      "geoAreaName": "Eastern Asia"
+    },
+    {
+      "geoAreaCode": "34",
+      "geoAreaName": "Southern Asia"
+    },
+    {
+      "geoAreaCode": "35",
+      "geoAreaName": "South-Eastern Asia"
+    },
+    {
+      "geoAreaCode": "53",
+      "geoAreaName": "Australia and New Zealand"
+    },
+    {
+      "geoAreaCode": "62",
+      "geoAreaName": "Central and Southern Asia"
+    },
+    {
+      "geoAreaCode": "143",
+      "geoAreaName": "Central Asia"
+    },
+    {
+      "geoAreaCode": "145",
+      "geoAreaName": "Western Asia"
+    },
+    {
+      "geoAreaCode": "150",
+      "geoAreaName": "Europe"
+    },
+    {
+      "geoAreaCode": "199",
+      "geoAreaName": "Least Developed Countries (LDCs)"
+    },
+    {
+      "geoAreaCode": "202",
+      "geoAreaName": "Sub-Saharan Africa"
+    },
+    {
+      "geoAreaCode": "419",
+      "geoAreaName": "Latin America and the Caribbean"
+    },
+    {
+      "geoAreaCode": "432",
+      "geoAreaName": "Landlocked developing countries (LLDCs)"
+    },
+    {
+      "geoAreaCode": "513",
+      "geoAreaName": "Europe and Northern America"
+    },
+    {
+      "geoAreaCode": "543",
+      "geoAreaName": "Oceania (exc. Australia and New Zealand)"
+    },
+    {
+      "geoAreaCode": "722",
+      "geoAreaName": "Small island developing States (SIDS)"
+    },
+    {
+      "geoAreaCode": "747",
+      "geoAreaName": "Northern Africa and Western Asia"
+    },
+    {
+      "geoAreaCode": "753",
+      "geoAreaName": "Eastern and South-Eastern Asia"
+    }
+  ],
+  "geo_source": {
+    "endpoint": "https://unstats.un.org/sdgs/UNSDGAPIV5/v1/sdg/Indicator/3.2.1/GeoAreas",
+    "authorized_areas": 221,
+    "retrieved_at": "2026-11-27T02:13:30Z"
+  }
+}

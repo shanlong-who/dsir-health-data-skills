@@ -1,0 +1,5 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+PRK,2000,SH_STA_BRTC,Percent of live births,96.7,,,G
+PRK,2004,SH_STA_BRTC,Percent of live births,97.1,,,G
+PRK,2009,SH_STA_BRTC,Percent of live births,100,,,G
+PRK,2017,SH_STA_BRTC,Percent of live births,99.5,,,G

@@ -1,0 +1,5 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+TUV,2000,SH_STA_BRTC,Percent of live births,100,,,G
+TUV,2002,SH_STA_BRTC,Percent of live births,100,,,G
+TUV,2007,SH_STA_BRTC,Percent of live births,93.1,,,G
+TUV,2020,SH_STA_BRTC,Percent of live births,99.5,,,G

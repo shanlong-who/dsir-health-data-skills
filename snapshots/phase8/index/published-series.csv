@@ -1,0 +1,14 @@
+dataset,product,backend,indicator,series,name,unit,first_year,last_year,areas,rows,status,manifest
+tb,WHO Global Health Observatory,xmart,MDG_0000000020,MDG_0000000020,Tuberculosis incidence,Cases per 100000 population,2000,2024,197,4902,snapshot_available,tb/manifest.json
+dtp3,WHO Global Health Observatory (WHO/UNICEF WUENIC),xmart,WHS4_100,WHS4_100,DTP3 immunization coverage,Percent of one-year-olds,2000,2024,194,4831,snapshot_available,dtp3/manifest.json
+sba,United Nations Global SDG Indicators Database,unsdg,3.1.2,SH_STA_BRTC,Skilled birth attendance,Percent of live births,2000,2024,193,2597,snapshot_available,sba/manifest.json
+ghe,WHO Global Health Estimates,xmart,0,deaths,All-cause deaths by sex,Deaths,2000,2023,183,13176,snapshot_available,ghe/manifest.json
+road,United Nations Global SDG Indicators Database,unsdg,3.6.1,SH_STA_TRAF,Road traffic injury death rate,Deaths per 100000 population,2021,2021,195,195,snapshot_available,road/manifest.json
+road,United Nations Global SDG Indicators Database,unsdg,3.6.1,SH_STA_TRAFN,Road traffic injury deaths,Deaths,2021,2021,195,195,snapshot_available,road/manifest.json
+uhc,WHO Global Health Observatory,xmart,UHC_INDEX_REPORTED,UHC_INDEX_REPORTED,UHC service coverage index,Index (0-100),2000,2023,195,4680,snapshot_available,uhc/manifest.json
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_IMRT,Infant mortality rate,Deaths per 1000 live births,2000,2024,200,15000,snapshot_available,child/manifest.json
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_IMRTN,Infant deaths,Deaths,2000,2024,200,15000,snapshot_available,child/manifest.json
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_MORT,Under-five mortality rate,Deaths per 1000 live births,2000,2024,200,15000,snapshot_available,child/manifest.json
+child,United Nations Global SDG Indicators Database,unsdg,3.2.1,SH_DYN_MORTN,Under-five deaths,Deaths,2000,2024,200,15000,snapshot_available,child/manifest.json
+ghe_extended,WHO Global Health Estimates,xmart,GHE/death_estimates,deaths,Deaths,Deaths,2000,2023,183,52704,snapshot_available,ghe_extended/manifest.json
+ghe_extended,WHO Global Health Estimates,xmart,GHE/death_estimates,death_rate,Death rate,Deaths per 100000 population,2000,2023,183,52704,snapshot_available,ghe_extended/manifest.json

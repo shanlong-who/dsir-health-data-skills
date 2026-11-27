@@ -1,0 +1,7 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+IND,2000,SH_STA_BRTC,Percent of live births,42.5,,,G
+IND,2006,SH_STA_BRTC,Percent of live births,46.6,,,G
+IND,2008,SH_STA_BRTC,Percent of live births,52.3,,,G
+IND,2014,SH_STA_BRTC,Percent of live births,81.4,,,G
+IND,2016,SH_STA_BRTC,Percent of live births,81.4,,,G
+IND,2021,SH_STA_BRTC,Percent of live births,89.4,,,G

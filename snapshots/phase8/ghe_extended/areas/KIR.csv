@@ -1,0 +1,577 @@
+area_code,year,series_code,audit_unit,estimate,low,high,age,sex,cause_code
+KIR,2000,death_rate,Deaths per 100000 population,784.69,,,TOTAL,FEMALE,0
+KIR,2000,death_rate,Deaths per 100000 population,64.08,,,TOTAL,FEMALE,1140
+KIR,2000,death_rate,Deaths per 100000 population,1044.27,,,TOTAL,MALE,0
+KIR,2000,death_rate,Deaths per 100000 population,109.9,,,TOTAL,MALE,1140
+KIR,2000,death_rate,Deaths per 100000 population,911.35,,,TOTAL,TOTAL,0
+KIR,2000,death_rate,Deaths per 100000 population,86.45,,,TOTAL,TOTAL,1140
+KIR,2000,death_rate,Deaths per 100000 population,555.56,,,Y40T44,FEMALE,0
+KIR,2000,death_rate,Deaths per 100000 population,49.94,,,Y40T44,FEMALE,1140
+KIR,2000,death_rate,Deaths per 100000 population,1103.38,,,Y40T44,MALE,0
+KIR,2000,death_rate,Deaths per 100000 population,171.05,,,Y40T44,MALE,1140
+KIR,2000,death_rate,Deaths per 100000 population,812.84,,,Y40T44,TOTAL,0
+KIR,2000,death_rate,Deaths per 100000 population,106.82,,,Y40T44,TOTAL,1140
+KIR,2000,deaths,Deaths,356.22,330.71,383.71,TOTAL,FEMALE,0
+KIR,2000,deaths,Deaths,29.09,18.86,42.97,TOTAL,FEMALE,1140
+KIR,2000,deaths,Deaths,451.74,420.06,485.04,TOTAL,MALE,0
+KIR,2000,deaths,Deaths,47.54,31.7,67.73,TOTAL,MALE,1140
+KIR,2000,deaths,Deaths,807.96,750.77,868.75,TOTAL,TOTAL,0
+KIR,2000,deaths,Deaths,76.64,50.56,110.7,TOTAL,TOTAL,1140
+KIR,2000,deaths,Deaths,13.35,12.3,14.37,Y40T44,FEMALE,0
+KIR,2000,deaths,Deaths,1.2,0.74,1.73,Y40T44,FEMALE,1140
+KIR,2000,deaths,Deaths,23.48,21.73,25.26,Y40T44,MALE,0
+KIR,2000,deaths,Deaths,3.64,2.4,5.12,Y40T44,MALE,1140
+KIR,2000,deaths,Deaths,36.83,34.03,39.62,Y40T44,TOTAL,0
+KIR,2000,deaths,Deaths,4.84,3.14,6.85,Y40T44,TOTAL,1140
+KIR,2001,death_rate,Deaths per 100000 population,767.3,,,TOTAL,FEMALE,0
+KIR,2001,death_rate,Deaths per 100000 population,63.94,,,TOTAL,FEMALE,1140
+KIR,2001,death_rate,Deaths per 100000 population,1022.62,,,TOTAL,MALE,0
+KIR,2001,death_rate,Deaths per 100000 population,108.01,,,TOTAL,MALE,1140
+KIR,2001,death_rate,Deaths per 100000 population,891.83,,,TOTAL,TOTAL,0
+KIR,2001,death_rate,Deaths per 100000 population,85.43,,,TOTAL,TOTAL,1140
+KIR,2001,death_rate,Deaths per 100000 population,546.64,,,Y40T44,FEMALE,0
+KIR,2001,death_rate,Deaths per 100000 population,49.59,,,Y40T44,FEMALE,1140
+KIR,2001,death_rate,Deaths per 100000 population,1088.73,,,Y40T44,MALE,0
+KIR,2001,death_rate,Deaths per 100000 population,166.81,,,Y40T44,MALE,1140
+KIR,2001,death_rate,Deaths per 100000 population,801.25,,,Y40T44,TOTAL,0
+KIR,2001,death_rate,Deaths per 100000 population,104.69,,,Y40T44,TOTAL,1140
+KIR,2001,deaths,Deaths,355.19,329.69,382.55,TOTAL,FEMALE,0
+KIR,2001,deaths,Deaths,29.6,19.5,43.72,TOTAL,FEMALE,1140
+KIR,2001,deaths,Deaths,450.76,418.73,483.9,TOTAL,MALE,0
+KIR,2001,deaths,Deaths,47.61,31.91,67.86,TOTAL,MALE,1140
+KIR,2001,deaths,Deaths,805.95,748.42,866.45,TOTAL,TOTAL,0
+KIR,2001,deaths,Deaths,77.2,51.4,111.58,TOTAL,TOTAL,1140
+KIR,2001,deaths,Deaths,13.89,12.8,14.93,Y40T44,FEMALE,0
+KIR,2001,deaths,Deaths,1.26,0.79,1.78,Y40T44,FEMALE,1140
+KIR,2001,deaths,Deaths,24.54,22.68,26.4,Y40T44,MALE,0
+KIR,2001,deaths,Deaths,3.76,2.5,5.33,Y40T44,MALE,1140
+KIR,2001,deaths,Deaths,38.42,35.48,41.32,Y40T44,TOTAL,0
+KIR,2001,deaths,Deaths,5.02,3.29,7.11,Y40T44,TOTAL,1140
+KIR,2002,death_rate,Deaths per 100000 population,758.01,,,TOTAL,FEMALE,0
+KIR,2002,death_rate,Deaths per 100000 population,64.45,,,TOTAL,FEMALE,1140
+KIR,2002,death_rate,Deaths per 100000 population,1009.93,,,TOTAL,MALE,0
+KIR,2002,death_rate,Deaths per 100000 population,107.2,,,TOTAL,MALE,1140
+KIR,2002,death_rate,Deaths per 100000 population,880.88,,,TOTAL,TOTAL,0
+KIR,2002,death_rate,Deaths per 100000 population,85.31,,,TOTAL,TOTAL,1140
+KIR,2002,death_rate,Deaths per 100000 population,541.45,,,Y40T44,FEMALE,0
+KIR,2002,death_rate,Deaths per 100000 population,49.29,,,Y40T44,FEMALE,1140
+KIR,2002,death_rate,Deaths per 100000 population,1082.18,,,Y40T44,MALE,0
+KIR,2002,death_rate,Deaths per 100000 population,163.52,,,Y40T44,MALE,1140
+KIR,2002,death_rate,Deaths per 100000 population,796.17,,,Y40T44,TOTAL,0
+KIR,2002,death_rate,Deaths per 100000 population,103.1,,,Y40T44,TOTAL,1140
+KIR,2002,deaths,Deaths,358.37,332.38,385.69,TOTAL,FEMALE,0
+KIR,2002,deaths,Deaths,30.47,20.05,45.26,TOTAL,FEMALE,1140
+KIR,2002,deaths,Deaths,454.73,422,488.59,TOTAL,MALE,0
+KIR,2002,deaths,Deaths,48.27,32.16,69.05,TOTAL,MALE,1140
+KIR,2002,deaths,Deaths,813.09,754.37,874.28,TOTAL,TOTAL,0
+KIR,2002,deaths,Deaths,78.74,52.21,114.31,TOTAL,TOTAL,1140
+KIR,2002,deaths,Deaths,14.5,13.34,15.57,Y40T44,FEMALE,0
+KIR,2002,deaths,Deaths,1.32,0.84,1.94,Y40T44,FEMALE,1140
+KIR,2002,deaths,Deaths,25.81,23.8,27.76,Y40T44,MALE,0
+KIR,2002,deaths,Deaths,3.9,2.52,5.68,Y40T44,MALE,1140
+KIR,2002,deaths,Deaths,40.31,37.15,43.33,Y40T44,TOTAL,0
+KIR,2002,deaths,Deaths,5.22,3.36,7.62,Y40T44,TOTAL,1140
+KIR,2003,death_rate,Deaths per 100000 population,748.9,,,TOTAL,FEMALE,0
+KIR,2003,death_rate,Deaths per 100000 population,64.6,,,TOTAL,FEMALE,1140
+KIR,2003,death_rate,Deaths per 100000 population,998.46,,,TOTAL,MALE,0
+KIR,2003,death_rate,Deaths per 100000 population,106,,,TOTAL,MALE,1140
+KIR,2003,death_rate,Deaths per 100000 population,870.69,,,TOTAL,TOTAL,0
+KIR,2003,death_rate,Deaths per 100000 population,84.81,,,TOTAL,TOTAL,1140
+KIR,2003,death_rate,Deaths per 100000 population,536.4,,,Y40T44,FEMALE,0
+KIR,2003,death_rate,Deaths per 100000 population,49.25,,,Y40T44,FEMALE,1140
+KIR,2003,death_rate,Deaths per 100000 population,1073.9,,,Y40T44,MALE,0
+KIR,2003,death_rate,Deaths per 100000 population,158.52,,,Y40T44,MALE,1140
+KIR,2003,death_rate,Deaths per 100000 population,790.75,,,Y40T44,TOTAL,0
+KIR,2003,death_rate,Deaths per 100000 population,100.96,,,Y40T44,TOTAL,1140
+KIR,2003,deaths,Deaths,361.23,334.78,388.71,TOTAL,FEMALE,0
+KIR,2003,deaths,Deaths,31.16,20.33,46.61,TOTAL,FEMALE,1140
+KIR,2003,deaths,Deaths,459.08,425.65,493.71,TOTAL,MALE,0
+KIR,2003,deaths,Deaths,48.74,32.07,70.07,TOTAL,MALE,1140
+KIR,2003,deaths,Deaths,820.31,760.42,882.42,TOTAL,TOTAL,0
+KIR,2003,deaths,Deaths,79.9,52.41,116.68,TOTAL,TOTAL,1140
+KIR,2003,deaths,Deaths,15.03,13.85,16.17,Y40T44,FEMALE,0
+KIR,2003,deaths,Deaths,1.38,0.87,2.04,Y40T44,FEMALE,1140
+KIR,2003,deaths,Deaths,27.03,24.9,29.06,Y40T44,MALE,0
+KIR,2003,deaths,Deaths,3.99,2.49,5.86,Y40T44,MALE,1140
+KIR,2003,deaths,Deaths,42.06,38.75,45.23,Y40T44,TOTAL,0
+KIR,2003,deaths,Deaths,5.37,3.36,7.9,Y40T44,TOTAL,1140
+KIR,2004,death_rate,Deaths per 100000 population,749.93,,,TOTAL,FEMALE,0
+KIR,2004,death_rate,Deaths per 100000 population,65.52,,,TOTAL,FEMALE,1140
+KIR,2004,death_rate,Deaths per 100000 population,994.12,,,TOTAL,MALE,0
+KIR,2004,death_rate,Deaths per 100000 population,106.23,,,TOTAL,MALE,1140
+KIR,2004,death_rate,Deaths per 100000 population,869.11,,,TOTAL,TOTAL,0
+KIR,2004,death_rate,Deaths per 100000 population,85.39,,,TOTAL,TOTAL,1140
+KIR,2004,death_rate,Deaths per 100000 population,533.88,,,Y40T44,FEMALE,0
+KIR,2004,death_rate,Deaths per 100000 population,49.19,,,Y40T44,FEMALE,1140
+KIR,2004,death_rate,Deaths per 100000 population,1063.28,,,Y40T44,MALE,0
+KIR,2004,death_rate,Deaths per 100000 population,156.5,,,Y40T44,MALE,1140
+KIR,2004,death_rate,Deaths per 100000 population,785.79,,,Y40T44,TOTAL,0
+KIR,2004,death_rate,Deaths per 100000 population,100.43,,,Y40T44,TOTAL,1140
+KIR,2004,deaths,Deaths,369.04,341.86,397.02,TOTAL,FEMALE,0
+KIR,2004,deaths,Deaths,32.24,20.81,48.85,TOTAL,FEMALE,1140
+KIR,2004,deaths,Deaths,466.4,432.49,501.54,TOTAL,MALE,0
+KIR,2004,deaths,Deaths,49.84,32.4,72.66,TOTAL,MALE,1140
+KIR,2004,deaths,Deaths,835.44,774.35,898.56,TOTAL,TOTAL,0
+KIR,2004,deaths,Deaths,82.08,53.22,121.52,TOTAL,TOTAL,1140
+KIR,2004,deaths,Deaths,15.52,14.31,16.7,Y40T44,FEMALE,0
+KIR,2004,deaths,Deaths,1.43,0.9,2.16,Y40T44,FEMALE,1140
+KIR,2004,deaths,Deaths,28.06,25.82,30.15,Y40T44,MALE,0
+KIR,2004,deaths,Deaths,4.13,2.53,6.28,Y40T44,MALE,1140
+KIR,2004,deaths,Deaths,43.58,40.13,46.85,Y40T44,TOTAL,0
+KIR,2004,deaths,Deaths,5.57,3.43,8.44,Y40T44,TOTAL,1140
+KIR,2005,death_rate,Deaths per 100000 population,752.92,,,TOTAL,FEMALE,0
+KIR,2005,death_rate,Deaths per 100000 population,65.98,,,TOTAL,FEMALE,1140
+KIR,2005,death_rate,Deaths per 100000 population,992.98,,,TOTAL,MALE,0
+KIR,2005,death_rate,Deaths per 100000 population,107.73,,,TOTAL,MALE,1140
+KIR,2005,death_rate,Deaths per 100000 population,870.08,,,TOTAL,TOTAL,0
+KIR,2005,death_rate,Deaths per 100000 population,86.35,,,TOTAL,TOTAL,1140
+KIR,2005,death_rate,Deaths per 100000 population,533.38,,,Y40T44,FEMALE,0
+KIR,2005,death_rate,Deaths per 100000 population,49.73,,,Y40T44,FEMALE,1140
+KIR,2005,death_rate,Deaths per 100000 population,1056.69,,,Y40T44,MALE,0
+KIR,2005,death_rate,Deaths per 100000 population,158.79,,,Y40T44,MALE,1140
+KIR,2005,death_rate,Deaths per 100000 population,783.92,,,Y40T44,TOTAL,0
+KIR,2005,death_rate,Deaths per 100000 population,101.95,,,Y40T44,TOTAL,1140
+KIR,2005,deaths,Deaths,378.08,350.07,406.69,TOTAL,FEMALE,0
+KIR,2005,deaths,Deaths,33.13,21.11,50.58,TOTAL,FEMALE,1140
+KIR,2005,deaths,Deaths,475.25,440.63,511.46,TOTAL,MALE,0
+KIR,2005,deaths,Deaths,51.56,32.97,76.01,TOTAL,MALE,1140
+KIR,2005,deaths,Deaths,853.34,790.69,918.15,TOTAL,TOTAL,0
+KIR,2005,deaths,Deaths,84.69,54.08,126.59,TOTAL,TOTAL,1140
+KIR,2005,deaths,Deaths,15.98,14.76,17.2,Y40T44,FEMALE,0
+KIR,2005,deaths,Deaths,1.49,0.93,2.24,Y40T44,FEMALE,1140
+KIR,2005,deaths,Deaths,29.08,26.78,31.23,Y40T44,MALE,0
+KIR,2005,deaths,Deaths,4.37,2.66,6.65,Y40T44,MALE,1140
+KIR,2005,deaths,Deaths,45.06,41.54,48.44,Y40T44,TOTAL,0
+KIR,2005,deaths,Deaths,5.86,3.59,8.89,Y40T44,TOTAL,1140
+KIR,2006,death_rate,Deaths per 100000 population,753.54,,,TOTAL,FEMALE,0
+KIR,2006,death_rate,Deaths per 100000 population,66.56,,,TOTAL,FEMALE,1140
+KIR,2006,death_rate,Deaths per 100000 population,990.72,,,TOTAL,MALE,0
+KIR,2006,death_rate,Deaths per 100000 population,106.46,,,TOTAL,MALE,1140
+KIR,2006,death_rate,Deaths per 100000 population,869.24,,,TOTAL,TOTAL,0
+KIR,2006,death_rate,Deaths per 100000 population,86.02,,,TOTAL,TOTAL,1140
+KIR,2006,death_rate,Deaths per 100000 population,533.38,,,Y40T44,FEMALE,0
+KIR,2006,death_rate,Deaths per 100000 population,49.9,,,Y40T44,FEMALE,1140
+KIR,2006,death_rate,Deaths per 100000 population,1050.95,,,Y40T44,MALE,0
+KIR,2006,death_rate,Deaths per 100000 population,154.95,,,Y40T44,MALE,1140
+KIR,2006,death_rate,Deaths per 100000 population,781.69,,,Y40T44,TOTAL,0
+KIR,2006,death_rate,Deaths per 100000 population,100.3,,,Y40T44,TOTAL,1140
+KIR,2006,deaths,Deaths,386.18,357.17,415.5,TOTAL,FEMALE,0
+KIR,2006,deaths,Deaths,34.11,21.46,52.25,TOTAL,FEMALE,1140
+KIR,2006,deaths,Deaths,483.63,448.4,520.72,TOTAL,MALE,0
+KIR,2006,deaths,Deaths,51.97,32.69,77.68,TOTAL,MALE,1140
+KIR,2006,deaths,Deaths,869.81,805.56,936.22,TOTAL,TOTAL,0
+KIR,2006,deaths,Deaths,86.08,54.15,129.92,TOTAL,TOTAL,1140
+KIR,2006,deaths,Deaths,16.46,15.22,17.72,Y40T44,FEMALE,0
+KIR,2006,deaths,Deaths,1.54,0.96,2.37,Y40T44,FEMALE,1140
+KIR,2006,deaths,Deaths,29.91,27.62,32.18,Y40T44,MALE,0
+KIR,2006,deaths,Deaths,4.41,2.66,6.77,Y40T44,MALE,1140
+KIR,2006,deaths,Deaths,46.37,42.84,49.9,Y40T44,TOTAL,0
+KIR,2006,deaths,Deaths,5.95,3.62,9.14,Y40T44,TOTAL,1140
+KIR,2007,death_rate,Deaths per 100000 population,756.16,,,TOTAL,FEMALE,0
+KIR,2007,death_rate,Deaths per 100000 population,67.25,,,TOTAL,FEMALE,1140
+KIR,2007,death_rate,Deaths per 100000 population,988.73,,,TOTAL,MALE,0
+KIR,2007,death_rate,Deaths per 100000 population,108.23,,,TOTAL,MALE,1140
+KIR,2007,death_rate,Deaths per 100000 population,869.57,,,TOTAL,TOTAL,0
+KIR,2007,death_rate,Deaths per 100000 population,87.23,,,TOTAL,TOTAL,1140
+KIR,2007,death_rate,Deaths per 100000 population,533.56,,,Y40T44,FEMALE,0
+KIR,2007,death_rate,Deaths per 100000 population,50.74,,,Y40T44,FEMALE,1140
+KIR,2007,death_rate,Deaths per 100000 population,1045.3,,,Y40T44,MALE,0
+KIR,2007,death_rate,Deaths per 100000 population,159.23,,,Y40T44,MALE,1140
+KIR,2007,death_rate,Deaths per 100000 population,778.54,,,Y40T44,TOTAL,0
+KIR,2007,death_rate,Deaths per 100000 population,102.68,,,Y40T44,TOTAL,1140
+KIR,2007,deaths,Deaths,395.56,365.74,425.61,TOTAL,FEMALE,0
+KIR,2007,deaths,Deaths,35.18,21.63,54.16,TOTAL,FEMALE,1140
+KIR,2007,deaths,Deaths,492.31,456.43,530.7,TOTAL,MALE,0
+KIR,2007,deaths,Deaths,53.89,33.3,81.44,TOTAL,MALE,1140
+KIR,2007,deaths,Deaths,887.87,822.17,956.31,TOTAL,TOTAL,0
+KIR,2007,deaths,Deaths,89.07,54.93,135.61,TOTAL,TOTAL,1140
+KIR,2007,deaths,Deaths,16.93,15.63,18.22,Y40T44,FEMALE,0
+KIR,2007,deaths,Deaths,1.61,0.96,2.45,Y40T44,FEMALE,1140
+KIR,2007,deaths,Deaths,30.46,28.13,32.89,Y40T44,MALE,0
+KIR,2007,deaths,Deaths,4.64,2.74,7.05,Y40T44,MALE,1140
+KIR,2007,deaths,Deaths,47.39,43.76,51.11,Y40T44,TOTAL,0
+KIR,2007,deaths,Deaths,6.25,3.7,9.5,Y40T44,TOTAL,1140
+KIR,2008,death_rate,Deaths per 100000 population,760.16,,,TOTAL,FEMALE,0
+KIR,2008,death_rate,Deaths per 100000 population,68.2,,,TOTAL,FEMALE,1140
+KIR,2008,death_rate,Deaths per 100000 population,988.87,,,TOTAL,MALE,0
+KIR,2008,death_rate,Deaths per 100000 population,109.71,,,TOTAL,MALE,1140
+KIR,2008,death_rate,Deaths per 100000 population,871.67,,,TOTAL,TOTAL,0
+KIR,2008,death_rate,Deaths per 100000 population,88.44,,,TOTAL,TOTAL,1140
+KIR,2008,death_rate,Deaths per 100000 population,535.78,,,Y40T44,FEMALE,0
+KIR,2008,death_rate,Deaths per 100000 population,51.2,,,Y40T44,FEMALE,1140
+KIR,2008,death_rate,Deaths per 100000 population,1043.02,,,Y40T44,MALE,0
+KIR,2008,death_rate,Deaths per 100000 population,161.92,,,Y40T44,MALE,1140
+KIR,2008,death_rate,Deaths per 100000 population,777.53,,,Y40T44,TOTAL,0
+KIR,2008,death_rate,Deaths per 100000 population,104.13,,,Y40T44,TOTAL,1140
+KIR,2008,deaths,Deaths,406.14,375.32,437.22,TOTAL,FEMALE,0
+KIR,2008,deaths,Deaths,36.44,21.77,56.88,TOTAL,FEMALE,1140
+KIR,2008,deaths,Deaths,502.69,465.85,541.9,TOTAL,MALE,0
+KIR,2008,deaths,Deaths,55.77,34.4,84.9,TOTAL,MALE,1140
+KIR,2008,deaths,Deaths,908.83,841.18,979.12,TOTAL,TOTAL,0
+KIR,2008,deaths,Deaths,92.21,56.18,141.78,TOTAL,TOTAL,1140
+KIR,2008,deaths,Deaths,17.37,16.03,18.72,Y40T44,FEMALE,0
+KIR,2008,deaths,Deaths,1.66,0.99,2.58,Y40T44,FEMALE,1140
+KIR,2008,deaths,Deaths,30.79,28.38,33.26,Y40T44,MALE,0
+KIR,2008,deaths,Deaths,4.78,2.86,7.24,Y40T44,MALE,1140
+KIR,2008,deaths,Deaths,48.16,44.4,51.99,Y40T44,TOTAL,0
+KIR,2008,deaths,Deaths,6.45,3.85,9.81,Y40T44,TOTAL,1140
+KIR,2009,death_rate,Deaths per 100000 population,762.88,,,TOTAL,FEMALE,0
+KIR,2009,death_rate,Deaths per 100000 population,69.32,,,TOTAL,FEMALE,1140
+KIR,2009,death_rate,Deaths per 100000 population,988.21,,,TOTAL,MALE,0
+KIR,2009,death_rate,Deaths per 100000 population,110.54,,,TOTAL,MALE,1140
+KIR,2009,death_rate,Deaths per 100000 population,872.73,,,TOTAL,TOTAL,0
+KIR,2009,death_rate,Deaths per 100000 population,89.41,,,TOTAL,TOTAL,1140
+KIR,2009,death_rate,Deaths per 100000 population,537.83,,,Y40T44,FEMALE,0
+KIR,2009,death_rate,Deaths per 100000 population,51.96,,,Y40T44,FEMALE,1140
+KIR,2009,death_rate,Deaths per 100000 population,1038.24,,,Y40T44,MALE,0
+KIR,2009,death_rate,Deaths per 100000 population,161.76,,,Y40T44,MALE,1140
+KIR,2009,death_rate,Deaths per 100000 population,774.58,,,Y40T44,TOTAL,0
+KIR,2009,death_rate,Deaths per 100000 population,103.91,,,Y40T44,TOTAL,1140
+KIR,2009,deaths,Deaths,416.42,384.88,448.32,TOTAL,FEMALE,0
+KIR,2009,deaths,Deaths,37.84,22.19,59.49,TOTAL,FEMALE,1140
+KIR,2009,deaths,Deaths,513.08,475.01,553.75,TOTAL,MALE,0
+KIR,2009,deaths,Deaths,57.39,35.56,87.72,TOTAL,MALE,1140
+KIR,2009,deaths,Deaths,929.5,859.88,1002.07,TOTAL,TOTAL,0
+KIR,2009,deaths,Deaths,95.23,57.74,147.21,TOTAL,TOTAL,1140
+KIR,2009,deaths,Deaths,17.7,16.29,19.06,Y40T44,FEMALE,0
+KIR,2009,deaths,Deaths,1.71,1,2.62,Y40T44,FEMALE,1140
+KIR,2009,deaths,Deaths,30.68,28.27,33.18,Y40T44,MALE,0
+KIR,2009,deaths,Deaths,4.78,2.79,7.4,Y40T44,MALE,1140
+KIR,2009,deaths,Deaths,48.38,44.56,52.24,Y40T44,TOTAL,0
+KIR,2009,deaths,Deaths,6.49,3.79,10.03,Y40T44,TOTAL,1140
+KIR,2010,death_rate,Deaths per 100000 population,766.48,,,TOTAL,FEMALE,0
+KIR,2010,death_rate,Deaths per 100000 population,70.84,,,TOTAL,FEMALE,1140
+KIR,2010,death_rate,Deaths per 100000 population,987.01,,,TOTAL,MALE,0
+KIR,2010,death_rate,Deaths per 100000 population,111.58,,,TOTAL,MALE,1140
+KIR,2010,death_rate,Deaths per 100000 population,873.92,,,TOTAL,TOTAL,0
+KIR,2010,death_rate,Deaths per 100000 population,90.69,,,TOTAL,TOTAL,1140
+KIR,2010,death_rate,Deaths per 100000 population,540.51,,,Y40T44,FEMALE,0
+KIR,2010,death_rate,Deaths per 100000 population,53.2,,,Y40T44,FEMALE,1140
+KIR,2010,death_rate,Deaths per 100000 population,1036.36,,,Y40T44,MALE,0
+KIR,2010,death_rate,Deaths per 100000 population,162.61,,,Y40T44,MALE,1140
+KIR,2010,death_rate,Deaths per 100000 population,772.78,,,Y40T44,TOTAL,0
+KIR,2010,death_rate,Deaths per 100000 population,104.45,,,Y40T44,TOTAL,1140
+KIR,2010,deaths,Deaths,427.38,394.95,460.39,TOTAL,FEMALE,0
+KIR,2010,deaths,Deaths,39.5,22.66,62.14,TOTAL,FEMALE,1140
+KIR,2010,deaths,Deaths,522.89,483.91,564.78,TOTAL,MALE,0
+KIR,2010,deaths,Deaths,59.11,36.36,90.59,TOTAL,MALE,1140
+KIR,2010,deaths,Deaths,950.27,878.85,1025.17,TOTAL,TOTAL,0
+KIR,2010,deaths,Deaths,98.61,59.02,152.74,TOTAL,TOTAL,1140
+KIR,2010,deaths,Deaths,17.88,16.46,19.27,Y40T44,FEMALE,0
+KIR,2010,deaths,Deaths,1.76,1,2.78,Y40T44,FEMALE,1140
+KIR,2010,deaths,Deaths,30.21,27.83,32.77,Y40T44,MALE,0
+KIR,2010,deaths,Deaths,4.74,2.76,7.38,Y40T44,MALE,1140
+KIR,2010,deaths,Deaths,48.09,44.3,52.04,Y40T44,TOTAL,0
+KIR,2010,deaths,Deaths,6.5,3.76,10.17,Y40T44,TOTAL,1140
+KIR,2011,death_rate,Deaths per 100000 population,770.38,,,TOTAL,FEMALE,0
+KIR,2011,death_rate,Deaths per 100000 population,72.46,,,TOTAL,FEMALE,1140
+KIR,2011,death_rate,Deaths per 100000 population,988.63,,,TOTAL,MALE,0
+KIR,2011,death_rate,Deaths per 100000 population,113.74,,,TOTAL,MALE,1140
+KIR,2011,death_rate,Deaths per 100000 population,876.57,,,TOTAL,TOTAL,0
+KIR,2011,death_rate,Deaths per 100000 population,92.54,,,TOTAL,TOTAL,1140
+KIR,2011,death_rate,Deaths per 100000 population,547.53,,,Y40T44,FEMALE,0
+KIR,2011,death_rate,Deaths per 100000 population,54.84,,,Y40T44,FEMALE,1140
+KIR,2011,death_rate,Deaths per 100000 population,1039.04,,,Y40T44,MALE,0
+KIR,2011,death_rate,Deaths per 100000 population,166.37,,,Y40T44,MALE,1140
+KIR,2011,death_rate,Deaths per 100000 population,775.67,,,Y40T44,TOTAL,0
+KIR,2011,death_rate,Deaths per 100000 population,106.61,,,Y40T44,TOTAL,1140
+KIR,2011,deaths,Deaths,437.84,404.53,472.23,TOTAL,FEMALE,0
+KIR,2011,deaths,Deaths,41.18,23.34,65.53,TOTAL,FEMALE,1140
+KIR,2011,deaths,Deaths,532.37,492.44,574.78,TOTAL,MALE,0
+KIR,2011,deaths,Deaths,61.25,37.38,94.38,TOTAL,MALE,1140
+KIR,2011,deaths,Deaths,970.21,896.96,1047.01,TOTAL,TOTAL,0
+KIR,2011,deaths,Deaths,102.43,60.72,159.9,TOTAL,TOTAL,1140
+KIR,2011,deaths,Deaths,17.97,16.55,19.37,Y40T44,FEMALE,0
+KIR,2011,deaths,Deaths,1.8,1.02,2.9,Y40T44,FEMALE,1140
+KIR,2011,deaths,Deaths,29.54,27.17,31.99,Y40T44,MALE,0
+KIR,2011,deaths,Deaths,4.73,2.77,7.43,Y40T44,MALE,1140
+KIR,2011,deaths,Deaths,47.51,43.72,51.35,Y40T44,TOTAL,0
+KIR,2011,deaths,Deaths,6.53,3.79,10.33,Y40T44,TOTAL,1140
+KIR,2012,death_rate,Deaths per 100000 population,771.89,,,TOTAL,FEMALE,0
+KIR,2012,death_rate,Deaths per 100000 population,73.65,,,TOTAL,FEMALE,1140
+KIR,2012,death_rate,Deaths per 100000 population,992.48,,,TOTAL,MALE,0
+KIR,2012,death_rate,Deaths per 100000 population,114.67,,,TOTAL,MALE,1140
+KIR,2012,death_rate,Deaths per 100000 population,879,,,TOTAL,TOTAL,0
+KIR,2012,death_rate,Deaths per 100000 population,93.57,,,TOTAL,TOTAL,1140
+KIR,2012,death_rate,Deaths per 100000 population,542.61,,,Y40T44,FEMALE,0
+KIR,2012,death_rate,Deaths per 100000 population,55.47,,,Y40T44,FEMALE,1140
+KIR,2012,death_rate,Deaths per 100000 population,1032.18,,,Y40T44,MALE,0
+KIR,2012,death_rate,Deaths per 100000 population,164.86,,,Y40T44,MALE,1140
+KIR,2012,death_rate,Deaths per 100000 population,768.56,,,Y40T44,TOTAL,0
+KIR,2012,death_rate,Deaths per 100000 population,105.96,,,Y40T44,TOTAL,1140
+KIR,2012,deaths,Deaths,446.03,411.78,481.62,TOTAL,FEMALE,0
+KIR,2012,deaths,Deaths,42.56,23.52,68.17,TOTAL,FEMALE,1140
+KIR,2012,deaths,Deaths,541.29,500.66,585.11,TOTAL,MALE,0
+KIR,2012,deaths,Deaths,62.54,37.76,96.37,TOTAL,MALE,1140
+KIR,2012,deaths,Deaths,987.32,912.44,1066.73,TOTAL,TOTAL,0
+KIR,2012,deaths,Deaths,105.1,61.27,164.54,TOTAL,TOTAL,1140
+KIR,2012,deaths,Deaths,17.51,16.13,18.87,Y40T44,FEMALE,0
+KIR,2012,deaths,Deaths,1.79,0.98,2.82,Y40T44,FEMALE,1140
+KIR,2012,deaths,Deaths,28.55,26.26,31,Y40T44,MALE,0
+KIR,2012,deaths,Deaths,4.56,2.66,7.17,Y40T44,MALE,1140
+KIR,2012,deaths,Deaths,46.06,42.39,49.87,Y40T44,TOTAL,0
+KIR,2012,deaths,Deaths,6.35,3.64,10,Y40T44,TOTAL,1140
+KIR,2013,death_rate,Deaths per 100000 population,768.91,,,TOTAL,FEMALE,0
+KIR,2013,death_rate,Deaths per 100000 population,74.23,,,TOTAL,FEMALE,1140
+KIR,2013,death_rate,Deaths per 100000 population,992.04,,,TOTAL,MALE,0
+KIR,2013,death_rate,Deaths per 100000 population,116.26,,,TOTAL,MALE,1140
+KIR,2013,death_rate,Deaths per 100000 population,877.03,,,TOTAL,TOTAL,0
+KIR,2013,death_rate,Deaths per 100000 population,94.59,,,TOTAL,TOTAL,1140
+KIR,2013,death_rate,Deaths per 100000 population,538.68,,,Y40T44,FEMALE,0
+KIR,2013,death_rate,Deaths per 100000 population,55.89,,,Y40T44,FEMALE,1140
+KIR,2013,death_rate,Deaths per 100000 population,1027.05,,,Y40T44,MALE,0
+KIR,2013,death_rate,Deaths per 100000 population,166.73,,,Y40T44,MALE,1140
+KIR,2013,death_rate,Deaths per 100000 population,763.38,,,Y40T44,TOTAL,0
+KIR,2013,death_rate,Deaths per 100000 population,106.72,,,Y40T44,TOTAL,1140
+KIR,2013,deaths,Deaths,451.33,416.39,488.25,TOTAL,FEMALE,0
+KIR,2013,deaths,Deaths,43.57,23.37,70.04,TOTAL,FEMALE,1140
+KIR,2013,deaths,Deaths,547.39,505.56,592.52,TOTAL,MALE,0
+KIR,2013,deaths,Deaths,64.15,38.41,99.26,TOTAL,MALE,1140
+KIR,2013,deaths,Deaths,998.72,921.96,1080.77,TOTAL,TOTAL,0
+KIR,2013,deaths,Deaths,107.72,61.77,169.3,TOTAL,TOTAL,1140
+KIR,2013,deaths,Deaths,17.06,15.72,18.38,Y40T44,FEMALE,0
+KIR,2013,deaths,Deaths,1.77,0.96,2.84,Y40T44,FEMALE,1140
+KIR,2013,deaths,Deaths,27.72,25.49,30.05,Y40T44,MALE,0
+KIR,2013,deaths,Deaths,4.5,2.65,7.09,Y40T44,MALE,1140
+KIR,2013,deaths,Deaths,44.78,41.21,48.44,Y40T44,TOTAL,0
+KIR,2013,deaths,Deaths,6.26,3.61,9.93,Y40T44,TOTAL,1140
+KIR,2014,death_rate,Deaths per 100000 population,770.69,,,TOTAL,FEMALE,0
+KIR,2014,death_rate,Deaths per 100000 population,75.08,,,TOTAL,FEMALE,1140
+KIR,2014,death_rate,Deaths per 100000 population,992.18,,,TOTAL,MALE,0
+KIR,2014,death_rate,Deaths per 100000 population,116.55,,,TOTAL,MALE,1140
+KIR,2014,death_rate,Deaths per 100000 population,877.77,,,TOTAL,TOTAL,0
+KIR,2014,death_rate,Deaths per 100000 population,95.13,,,TOTAL,TOTAL,1140
+KIR,2014,death_rate,Deaths per 100000 population,534.88,,,Y40T44,FEMALE,0
+KIR,2014,death_rate,Deaths per 100000 population,55.93,,,Y40T44,FEMALE,1140
+KIR,2014,death_rate,Deaths per 100000 population,1017.74,,,Y40T44,MALE,0
+KIR,2014,death_rate,Deaths per 100000 population,164.91,,,Y40T44,MALE,1140
+KIR,2014,death_rate,Deaths per 100000 population,756.99,,,Y40T44,TOTAL,0
+KIR,2014,death_rate,Deaths per 100000 population,106.06,,,Y40T44,TOTAL,1140
+KIR,2014,deaths,Deaths,459.23,423.23,497.87,TOTAL,FEMALE,0
+KIR,2014,deaths,Deaths,44.74,23.62,72.29,TOTAL,FEMALE,1140
+KIR,2014,deaths,Deaths,553.36,510.28,600.08,TOTAL,MALE,0
+KIR,2014,deaths,Deaths,65,38.53,100.74,TOTAL,MALE,1140
+KIR,2014,deaths,Deaths,1012.59,933.51,1097.95,TOTAL,TOTAL,0
+KIR,2014,deaths,Deaths,109.74,62.15,173.03,TOTAL,TOTAL,1140
+KIR,2014,deaths,Deaths,16.64,15.32,17.99,Y40T44,FEMALE,0
+KIR,2014,deaths,Deaths,1.74,0.93,2.78,Y40T44,FEMALE,1140
+KIR,2014,deaths,Deaths,26.97,24.84,29.29,Y40T44,MALE,0
+KIR,2014,deaths,Deaths,4.37,2.58,6.87,Y40T44,MALE,1140
+KIR,2014,deaths,Deaths,43.61,40.17,47.29,Y40T44,TOTAL,0
+KIR,2014,deaths,Deaths,6.11,3.51,9.65,Y40T44,TOTAL,1140
+KIR,2015,death_rate,Deaths per 100000 population,775.51,,,TOTAL,FEMALE,0
+KIR,2015,death_rate,Deaths per 100000 population,76.42,,,TOTAL,FEMALE,1140
+KIR,2015,death_rate,Deaths per 100000 population,995.6,,,TOTAL,MALE,0
+KIR,2015,death_rate,Deaths per 100000 population,116.82,,,TOTAL,MALE,1140
+KIR,2015,death_rate,Deaths per 100000 population,881.71,,,TOTAL,TOTAL,0
+KIR,2015,death_rate,Deaths per 100000 population,95.92,,,TOTAL,TOTAL,1140
+KIR,2015,death_rate,Deaths per 100000 population,519.35,,,Y40T44,FEMALE,0
+KIR,2015,death_rate,Deaths per 100000 population,54.63,,,Y40T44,FEMALE,1140
+KIR,2015,death_rate,Deaths per 100000 population,995.43,,,Y40T44,MALE,0
+KIR,2015,death_rate,Deaths per 100000 population,160.06,,,Y40T44,MALE,1140
+KIR,2015,death_rate,Deaths per 100000 population,738.55,,,Y40T44,TOTAL,0
+KIR,2015,death_rate,Deaths per 100000 population,103.35,,,Y40T44,TOTAL,1140
+KIR,2015,deaths,Deaths,468.91,431.76,509.33,TOTAL,FEMALE,0
+KIR,2015,deaths,Deaths,46.21,23.98,75.69,TOTAL,FEMALE,1140
+KIR,2015,deaths,Deaths,561.36,516.88,609.34,TOTAL,MALE,0
+KIR,2015,deaths,Deaths,65.87,39.06,102.83,TOTAL,MALE,1140
+KIR,2015,deaths,Deaths,1030.27,948.64,1118.67,TOTAL,TOTAL,0
+KIR,2015,deaths,Deaths,112.08,63.04,178.53,TOTAL,TOTAL,1140
+KIR,2015,deaths,Deaths,15.97,14.65,17.33,Y40T44,FEMALE,0
+KIR,2015,deaths,Deaths,1.68,0.87,2.71,Y40T44,FEMALE,1140
+KIR,2015,deaths,Deaths,26.12,24.12,28.37,Y40T44,MALE,0
+KIR,2015,deaths,Deaths,4.2,2.45,6.66,Y40T44,MALE,1140
+KIR,2015,deaths,Deaths,42.09,38.77,45.71,Y40T44,TOTAL,0
+KIR,2015,deaths,Deaths,5.89,3.32,9.37,Y40T44,TOTAL,1140
+KIR,2016,death_rate,Deaths per 100000 population,777.45,,,TOTAL,FEMALE,0
+KIR,2016,death_rate,Deaths per 100000 population,77.16,,,TOTAL,FEMALE,1140
+KIR,2016,death_rate,Deaths per 100000 population,998.3,,,TOTAL,MALE,0
+KIR,2016,death_rate,Deaths per 100000 population,117.12,,,TOTAL,MALE,1140
+KIR,2016,death_rate,Deaths per 100000 population,883.93,,,TOTAL,TOTAL,0
+KIR,2016,death_rate,Deaths per 100000 population,96.43,,,TOTAL,TOTAL,1140
+KIR,2016,death_rate,Deaths per 100000 population,511.42,,,Y40T44,FEMALE,0
+KIR,2016,death_rate,Deaths per 100000 population,54.18,,,Y40T44,FEMALE,1140
+KIR,2016,death_rate,Deaths per 100000 population,983.33,,,Y40T44,MALE,0
+KIR,2016,death_rate,Deaths per 100000 population,158.01,,,Y40T44,MALE,1140
+KIR,2016,death_rate,Deaths per 100000 population,729.79,,,Y40T44,TOTAL,0
+KIR,2016,death_rate,Deaths per 100000 population,102.05,,,Y40T44,TOTAL,1140
+KIR,2016,deaths,Deaths,477.16,438.49,519.43,TOTAL,FEMALE,0
+KIR,2016,deaths,Deaths,47.36,24.5,78.38,TOTAL,FEMALE,1140
+KIR,2016,deaths,Deaths,570.42,524.12,620.31,TOTAL,MALE,0
+KIR,2016,deaths,Deaths,66.92,39.66,104.63,TOTAL,MALE,1140
+KIR,2016,deaths,Deaths,1047.58,962.62,1139.75,TOTAL,TOTAL,0
+KIR,2016,deaths,Deaths,114.28,64.16,183.01,TOTAL,TOTAL,1140
+KIR,2016,deaths,Deaths,15.67,14.37,17.03,Y40T44,FEMALE,0
+KIR,2016,deaths,Deaths,1.66,0.86,2.72,Y40T44,FEMALE,1140
+KIR,2016,deaths,Deaths,25.95,23.91,28.26,Y40T44,MALE,0
+KIR,2016,deaths,Deaths,4.17,2.44,6.55,Y40T44,MALE,1140
+KIR,2016,deaths,Deaths,41.62,38.28,45.29,Y40T44,TOTAL,0
+KIR,2016,deaths,Deaths,5.82,3.29,9.27,Y40T44,TOTAL,1140
+KIR,2017,death_rate,Deaths per 100000 population,783.48,,,TOTAL,FEMALE,0
+KIR,2017,death_rate,Deaths per 100000 population,77.59,,,TOTAL,FEMALE,1140
+KIR,2017,death_rate,Deaths per 100000 population,998.28,,,TOTAL,MALE,0
+KIR,2017,death_rate,Deaths per 100000 population,115.12,,,TOTAL,MALE,1140
+KIR,2017,death_rate,Deaths per 100000 population,887.04,,,TOTAL,TOTAL,0
+KIR,2017,death_rate,Deaths per 100000 population,95.69,,,TOTAL,TOTAL,1140
+KIR,2017,death_rate,Deaths per 100000 population,505.2,,,Y40T44,FEMALE,0
+KIR,2017,death_rate,Deaths per 100000 population,53.28,,,Y40T44,FEMALE,1140
+KIR,2017,death_rate,Deaths per 100000 population,974.71,,,Y40T44,MALE,0
+KIR,2017,death_rate,Deaths per 100000 population,151.73,,,Y40T44,MALE,1140
+KIR,2017,death_rate,Deaths per 100000 population,724.12,,,Y40T44,TOTAL,0
+KIR,2017,death_rate,Deaths per 100000 population,99.01,,,Y40T44,TOTAL,1140
+KIR,2017,deaths,Deaths,488.13,447.82,532.24,TOTAL,FEMALE,0
+KIR,2017,deaths,Deaths,48.34,25.22,81.17,TOTAL,FEMALE,1140
+KIR,2017,deaths,Deaths,579,530.36,631.38,TOTAL,MALE,0
+KIR,2017,deaths,Deaths,66.77,39.56,103.98,TOTAL,MALE,1140
+KIR,2017,deaths,Deaths,1067.13,978.18,1163.62,TOTAL,TOTAL,0
+KIR,2017,deaths,Deaths,115.12,64.78,185.15,TOTAL,TOTAL,1140
+KIR,2017,deaths,Deaths,15.55,14.25,16.95,Y40T44,FEMALE,0
+KIR,2017,deaths,Deaths,1.64,0.9,2.74,Y40T44,FEMALE,1140
+KIR,2017,deaths,Deaths,26.21,24.06,28.62,Y40T44,MALE,0
+KIR,2017,deaths,Deaths,4.08,2.4,6.42,Y40T44,MALE,1140
+KIR,2017,deaths,Deaths,41.76,38.31,45.57,Y40T44,TOTAL,0
+KIR,2017,deaths,Deaths,5.71,3.31,9.16,Y40T44,TOTAL,1140
+KIR,2018,death_rate,Deaths per 100000 population,811.51,,,TOTAL,FEMALE,0
+KIR,2018,death_rate,Deaths per 100000 population,76.98,,,TOTAL,FEMALE,1140
+KIR,2018,death_rate,Deaths per 100000 population,1102.86,,,TOTAL,MALE,0
+KIR,2018,death_rate,Deaths per 100000 population,110.18,,,TOTAL,MALE,1140
+KIR,2018,death_rate,Deaths per 100000 population,951.97,,,TOTAL,TOTAL,0
+KIR,2018,death_rate,Deaths per 100000 population,92.98,,,TOTAL,TOTAL,1140
+KIR,2018,death_rate,Deaths per 100000 population,530.43,,,Y40T44,FEMALE,0
+KIR,2018,death_rate,Deaths per 100000 population,49.97,,,Y40T44,FEMALE,1140
+KIR,2018,death_rate,Deaths per 100000 population,1151.7,,,Y40T44,MALE,0
+KIR,2018,death_rate,Deaths per 100000 population,137.94,,,Y40T44,MALE,1140
+KIR,2018,death_rate,Deaths per 100000 population,822.06,,,Y40T44,TOTAL,0
+KIR,2018,death_rate,Deaths per 100000 population,91.43,,,Y40T44,TOTAL,1140
+KIR,2018,deaths,Deaths,513.21,471.4,558.79,TOTAL,FEMALE,0
+KIR,2018,deaths,Deaths,48.68,25.46,82.37,TOTAL,FEMALE,1140
+KIR,2018,deaths,Deaths,649.34,600.25,702.88,TOTAL,MALE,0
+KIR,2018,deaths,Deaths,64.87,38.55,99.75,TOTAL,MALE,1140
+KIR,2018,deaths,Deaths,1162.54,1071.64,1261.67,TOTAL,TOTAL,0
+KIR,2018,deaths,Deaths,113.55,64.01,182.12,TOTAL,TOTAL,1140
+KIR,2018,deaths,Deaths,16.56,15.24,18.01,Y40T44,FEMALE,0
+KIR,2018,deaths,Deaths,1.56,0.86,2.67,Y40T44,FEMALE,1140
+KIR,2018,deaths,Deaths,31.81,29.44,34.02,Y40T44,MALE,0
+KIR,2018,deaths,Deaths,3.81,2.16,5.86,Y40T44,MALE,1140
+KIR,2018,deaths,Deaths,48.37,44.68,52.03,Y40T44,TOTAL,0
+KIR,2018,deaths,Deaths,5.38,3.02,8.53,Y40T44,TOTAL,1140
+KIR,2019,death_rate,Deaths per 100000 population,791.82,,,TOTAL,FEMALE,0
+KIR,2019,death_rate,Deaths per 100000 population,79.12,,,TOTAL,FEMALE,1140
+KIR,2019,death_rate,Deaths per 100000 population,998.38,,,TOTAL,MALE,0
+KIR,2019,death_rate,Deaths per 100000 population,115.13,,,TOTAL,MALE,1140
+KIR,2019,death_rate,Deaths per 100000 population,891.42,,,TOTAL,TOTAL,0
+KIR,2019,death_rate,Deaths per 100000 population,96.48,,,TOTAL,TOTAL,1140
+KIR,2019,death_rate,Deaths per 100000 population,490.36,,,Y40T44,FEMALE,0
+KIR,2019,death_rate,Deaths per 100000 population,51.93,,,Y40T44,FEMALE,1140
+KIR,2019,death_rate,Deaths per 100000 population,950.23,,,Y40T44,MALE,0
+KIR,2019,death_rate,Deaths per 100000 population,146.54,,,Y40T44,MALE,1140
+KIR,2019,death_rate,Deaths per 100000 population,707.34,,,Y40T44,TOTAL,0
+KIR,2019,death_rate,Deaths per 100000 population,96.57,,,Y40T44,TOTAL,1140
+KIR,2019,deaths,Deaths,508.28,463.1,557.11,TOTAL,FEMALE,0
+KIR,2019,deaths,Deaths,50.79,26.71,86.3,TOTAL,FEMALE,1140
+KIR,2019,deaths,Deaths,596.72,543.16,654.45,TOTAL,MALE,0
+KIR,2019,deaths,Deaths,68.81,41.16,106.97,TOTAL,MALE,1140
+KIR,2019,deaths,Deaths,1105.01,1006.26,1211.55,TOTAL,TOTAL,0
+KIR,2019,deaths,Deaths,119.6,67.87,193.27,TOTAL,TOTAL,1140
+KIR,2019,deaths,Deaths,15.77,14.34,17.28,Y40T44,FEMALE,0
+KIR,2019,deaths,Deaths,1.67,0.93,2.84,Y40T44,FEMALE,1140
+KIR,2019,deaths,Deaths,27.3,24.77,29.99,Y40T44,MALE,0
+KIR,2019,deaths,Deaths,4.21,2.37,6.41,Y40T44,MALE,1140
+KIR,2019,deaths,Deaths,43.07,39.11,47.26,Y40T44,TOTAL,0
+KIR,2019,deaths,Deaths,5.88,3.29,9.25,Y40T44,TOTAL,1140
+KIR,2020,death_rate,Deaths per 100000 population,763.59,,,TOTAL,FEMALE,0
+KIR,2020,death_rate,Deaths per 100000 population,69,,,TOTAL,FEMALE,1140
+KIR,2020,death_rate,Deaths per 100000 population,1059.75,,,TOTAL,MALE,0
+KIR,2020,death_rate,Deaths per 100000 population,124.62,,,TOTAL,MALE,1140
+KIR,2020,death_rate,Deaths per 100000 population,906.51,,,TOTAL,TOTAL,0
+KIR,2020,death_rate,Deaths per 100000 population,95.84,,,TOTAL,TOTAL,1140
+KIR,2020,death_rate,Deaths per 100000 population,461.06,,,Y40T44,FEMALE,0
+KIR,2020,death_rate,Deaths per 100000 population,42.51,,,Y40T44,FEMALE,1140
+KIR,2020,death_rate,Deaths per 100000 population,824.02,,,Y40T44,MALE,0
+KIR,2020,death_rate,Deaths per 100000 population,116.77,,,Y40T44,MALE,1140
+KIR,2020,death_rate,Deaths per 100000 population,632.85,,,Y40T44,TOTAL,0
+KIR,2020,death_rate,Deaths per 100000 population,77.66,,,Y40T44,TOTAL,1140
+KIR,2020,deaths,Deaths,498.32,452.37,548.15,TOTAL,FEMALE,0
+KIR,2020,deaths,Deaths,45.03,23.73,77.48,TOTAL,FEMALE,1140
+KIR,2020,deaths,Deaths,645.09,585.45,709.33,TOTAL,MALE,0
+KIR,2020,deaths,Deaths,75.86,45.51,118.1,TOTAL,MALE,1140
+KIR,2020,deaths,Deaths,1143.4,1037.83,1257.48,TOTAL,TOTAL,0
+KIR,2020,deaths,Deaths,120.89,69.25,195.59,TOTAL,TOTAL,1140
+KIR,2020,deaths,Deaths,15.51,14.07,17.08,Y40T44,FEMALE,0
+KIR,2020,deaths,Deaths,1.43,0.79,2.5,Y40T44,FEMALE,1140
+KIR,2020,deaths,Deaths,24.91,22.51,27.32,Y40T44,MALE,0
+KIR,2020,deaths,Deaths,3.53,1.98,5.44,Y40T44,MALE,1140
+KIR,2020,deaths,Deaths,40.42,36.58,44.4,Y40T44,TOTAL,0
+KIR,2020,deaths,Deaths,4.96,2.77,7.93,Y40T44,TOTAL,1140
+KIR,2021,death_rate,Deaths per 100000 population,668.18,,,TOTAL,FEMALE,0
+KIR,2021,death_rate,Deaths per 100000 population,49.63,,,TOTAL,FEMALE,1140
+KIR,2021,death_rate,Deaths per 100000 population,904.27,,,TOTAL,MALE,0
+KIR,2021,death_rate,Deaths per 100000 population,82.21,,,TOTAL,MALE,1140
+KIR,2021,death_rate,Deaths per 100000 population,782.28,,,TOTAL,TOTAL,0
+KIR,2021,death_rate,Deaths per 100000 population,65.38,,,TOTAL,TOTAL,1140
+KIR,2021,death_rate,Deaths per 100000 population,149.9,,,Y40T44,FEMALE,0
+KIR,2021,death_rate,Deaths per 100000 population,2.55,,,Y40T44,FEMALE,1140
+KIR,2021,death_rate,Deaths per 100000 population,499.84,,,Y40T44,MALE,0
+KIR,2021,death_rate,Deaths per 100000 population,50.96,,,Y40T44,MALE,1140
+KIR,2021,death_rate,Deaths per 100000 population,315.89,,,Y40T44,TOTAL,0
+KIR,2021,death_rate,Deaths per 100000 population,25.49,,,Y40T44,TOTAL,1140
+KIR,2021,deaths,Deaths,443.36,399.21,491.23,TOTAL,FEMALE,0
+KIR,2021,deaths,Deaths,32.93,16.96,57.89,TOTAL,FEMALE,1140
+KIR,2021,deaths,Deaths,561.17,506.19,620.67,TOTAL,MALE,0
+KIR,2021,deaths,Deaths,51.02,28.07,83.79,TOTAL,MALE,1140
+KIR,2021,deaths,Deaths,1004.53,905.4,1111.9,TOTAL,TOTAL,0
+KIR,2021,deaths,Deaths,83.95,45.04,141.68,TOTAL,TOTAL,1140
+KIR,2021,deaths,Deaths,5.29,4.76,5.83,Y40T44,FEMALE,0
+KIR,2021,deaths,Deaths,0.09,0.05,0.16,Y40T44,FEMALE,1140
+KIR,2021,deaths,Deaths,15.89,14.27,17.6,Y40T44,MALE,0
+KIR,2021,deaths,Deaths,1.62,0.91,2.6,Y40T44,MALE,1140
+KIR,2021,deaths,Deaths,21.19,19.03,23.42,Y40T44,TOTAL,0
+KIR,2021,deaths,Deaths,1.71,0.96,2.76,Y40T44,TOTAL,1140
+KIR,2022,death_rate,Deaths per 100000 population,794.42,,,TOTAL,FEMALE,0
+KIR,2022,death_rate,Deaths per 100000 population,77.13,,,TOTAL,FEMALE,1140
+KIR,2022,death_rate,Deaths per 100000 population,1132.05,,,TOTAL,MALE,0
+KIR,2022,death_rate,Deaths per 100000 population,138.99,,,TOTAL,MALE,1140
+KIR,2022,death_rate,Deaths per 100000 population,957.8,,,TOTAL,TOTAL,0
+KIR,2022,death_rate,Deaths per 100000 population,107.06,,,TOTAL,TOTAL,1140
+KIR,2022,death_rate,Deaths per 100000 population,189.79,,,Y40T44,FEMALE,0
+KIR,2022,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+KIR,2022,death_rate,Deaths per 100000 population,504.2,,,Y40T44,MALE,0
+KIR,2022,death_rate,Deaths per 100000 population,58.15,,,Y40T44,MALE,1140
+KIR,2022,death_rate,Deaths per 100000 population,338.78,,,Y40T44,TOTAL,0
+KIR,2022,death_rate,Deaths per 100000 population,27.56,,,Y40T44,TOTAL,1140
+KIR,2022,deaths,Deaths,535.04,474.06,602.71,TOTAL,FEMALE,0
+KIR,2022,deaths,Deaths,51.95,26.25,90.03,TOTAL,FEMALE,1140
+KIR,2022,deaths,Deaths,714.87,634.29,801.94,TOTAL,MALE,0
+KIR,2022,deaths,Deaths,87.77,51.63,139.84,TOTAL,MALE,1140
+KIR,2022,deaths,Deaths,1249.91,1108.35,1404.65,TOTAL,TOTAL,0
+KIR,2022,deaths,Deaths,139.71,77.88,229.87,TOTAL,TOTAL,1140
+KIR,2022,deaths,Deaths,7.03,6.21,7.9,Y40T44,FEMALE,0
+KIR,2022,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+KIR,2022,deaths,Deaths,16.82,14.88,18.95,Y40T44,MALE,0
+KIR,2022,deaths,Deaths,1.94,1.06,3.06,Y40T44,MALE,1140
+KIR,2022,deaths,Deaths,23.85,21.09,26.85,Y40T44,TOTAL,0
+KIR,2022,deaths,Deaths,1.94,1.07,3.06,Y40T44,TOTAL,1140
+KIR,2023,death_rate,Deaths per 100000 population,820.97,,,TOTAL,FEMALE,0
+KIR,2023,death_rate,Deaths per 100000 population,89.35,,,TOTAL,FEMALE,1140
+KIR,2023,death_rate,Deaths per 100000 population,1125.39,,,TOTAL,MALE,0
+KIR,2023,death_rate,Deaths per 100000 population,148.85,,,TOTAL,MALE,1140
+KIR,2023,death_rate,Deaths per 100000 population,968.5,,,TOTAL,TOTAL,0
+KIR,2023,death_rate,Deaths per 100000 population,118.19,,,TOTAL,TOTAL,1140
+KIR,2023,death_rate,Deaths per 100000 population,254.24,,,Y40T44,FEMALE,0
+KIR,2023,death_rate,Deaths per 100000 population,14.65,,,Y40T44,FEMALE,1140
+KIR,2023,death_rate,Deaths per 100000 population,560.82,,,Y40T44,MALE,0
+KIR,2023,death_rate,Deaths per 100000 population,70.53,,,Y40T44,MALE,1140
+KIR,2023,death_rate,Deaths per 100000 population,399.49,,,Y40T44,TOTAL,0
+KIR,2023,death_rate,Deaths per 100000 population,41.26,,,Y40T44,TOTAL,1140
+KIR,2023,deaths,Deaths,560.82,481.03,648.66,TOTAL,FEMALE,0
+KIR,2023,deaths,Deaths,61.04,31.53,104.61,TOTAL,FEMALE,1140
+KIR,2023,deaths,Deaths,723.03,621.1,837.89,TOTAL,MALE,0
+KIR,2023,deaths,Deaths,95.63,56.93,152.24,TOTAL,MALE,1140
+KIR,2023,deaths,Deaths,1283.84,1102.12,1486.54,TOTAL,TOTAL,0
+KIR,2023,deaths,Deaths,156.67,88.47,256.85,TOTAL,TOTAL,1140
+KIR,2023,deaths,Deaths,9.89,8.49,11.41,Y40T44,FEMALE,0
+KIR,2023,deaths,Deaths,0.57,0.29,0.99,Y40T44,FEMALE,1140
+KIR,2023,deaths,Deaths,19.64,16.83,22.75,Y40T44,MALE,0
+KIR,2023,deaths,Deaths,2.47,1.43,3.9,Y40T44,MALE,1140
+KIR,2023,deaths,Deaths,29.53,25.32,34.16,Y40T44,TOTAL,0
+KIR,2023,deaths,Deaths,3.05,1.72,4.89,Y40T44,TOTAL,1140

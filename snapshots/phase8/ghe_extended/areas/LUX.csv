@@ -1,0 +1,577 @@
+area_code,year,series_code,audit_unit,estimate,low,high,age,sex,cause_code
+LUX,2000,death_rate,Deaths per 100000 population,818.13,,,TOTAL,FEMALE,0
+LUX,2000,death_rate,Deaths per 100000 population,122.96,,,TOTAL,FEMALE,1140
+LUX,2000,death_rate,Deaths per 100000 population,832.76,,,TOTAL,MALE,0
+LUX,2000,death_rate,Deaths per 100000 population,78.33,,,TOTAL,MALE,1140
+LUX,2000,death_rate,Deaths per 100000 population,825.34,,,TOTAL,TOTAL,0
+LUX,2000,death_rate,Deaths per 100000 population,100.96,,,TOTAL,TOTAL,1140
+LUX,2000,death_rate,Deaths per 100000 population,128.93,,,Y40T44,FEMALE,0
+LUX,2000,death_rate,Deaths per 100000 population,10.72,,,Y40T44,FEMALE,1140
+LUX,2000,death_rate,Deaths per 100000 population,217.24,,,Y40T44,MALE,0
+LUX,2000,death_rate,Deaths per 100000 population,5.5,,,Y40T44,MALE,1140
+LUX,2000,death_rate,Deaths per 100000 population,173.8,,,Y40T44,TOTAL,0
+LUX,2000,death_rate,Deaths per 100000 population,8.07,,,Y40T44,TOTAL,1140
+LUX,2000,deaths,Deaths,1809.6,1683.53,1940.91,TOTAL,FEMALE,0
+LUX,2000,deaths,Deaths,271.98,230.51,311,TOTAL,FEMALE,1140
+LUX,2000,deaths,Deaths,1790.22,1653.52,1935.02,TOTAL,MALE,0
+LUX,2000,deaths,Deaths,168.38,144.91,192.41,TOTAL,MALE,1140
+LUX,2000,deaths,Deaths,3599.82,3337.05,3875.93,TOTAL,TOTAL,0
+LUX,2000,deaths,Deaths,440.36,375.42,503.42,TOTAL,TOTAL,1140
+LUX,2000,deaths,Deaths,22,20.45,23.77,Y40T44,FEMALE,0
+LUX,2000,deaths,Deaths,1.83,1.44,2.31,Y40T44,FEMALE,1140
+LUX,2000,deaths,Deaths,38.33,35.03,41.68,Y40T44,MALE,0
+LUX,2000,deaths,Deaths,0.97,0.75,1.23,Y40T44,MALE,1140
+LUX,2000,deaths,Deaths,60.32,55.48,65.45,Y40T44,TOTAL,0
+LUX,2000,deaths,Deaths,2.8,2.19,3.54,Y40T44,TOTAL,1140
+LUX,2001,death_rate,Deaths per 100000 population,810.48,,,TOTAL,FEMALE,0
+LUX,2001,death_rate,Deaths per 100000 population,122.72,,,TOTAL,FEMALE,1140
+LUX,2001,death_rate,Deaths per 100000 population,820.56,,,TOTAL,MALE,0
+LUX,2001,death_rate,Deaths per 100000 population,74.41,,,TOTAL,MALE,1140
+LUX,2001,death_rate,Deaths per 100000 population,815.44,,,TOTAL,TOTAL,0
+LUX,2001,death_rate,Deaths per 100000 population,98.92,,,TOTAL,TOTAL,1140
+LUX,2001,death_rate,Deaths per 100000 population,122.47,,,Y40T44,FEMALE,0
+LUX,2001,death_rate,Deaths per 100000 population,16.25,,,Y40T44,FEMALE,1140
+LUX,2001,death_rate,Deaths per 100000 population,210.62,,,Y40T44,MALE,0
+LUX,2001,death_rate,Deaths per 100000 population,7.04,,,Y40T44,MALE,1140
+LUX,2001,death_rate,Deaths per 100000 population,167.32,,,Y40T44,TOTAL,0
+LUX,2001,death_rate,Deaths per 100000 population,11.56,,,Y40T44,TOTAL,1140
+LUX,2001,deaths,Deaths,1816.69,1693.13,1948.98,TOTAL,FEMALE,0
+LUX,2001,deaths,Deaths,275.08,233.15,314.85,TOTAL,FEMALE,1140
+LUX,2001,deaths,Deaths,1785.69,1648.84,1927.92,TOTAL,MALE,0
+LUX,2001,deaths,Deaths,161.94,139.38,185.98,TOTAL,MALE,1140
+LUX,2001,deaths,Deaths,3602.38,3341.98,3876.89,TOTAL,TOTAL,0
+LUX,2001,deaths,Deaths,437.01,372.53,500.83,TOTAL,TOTAL,1140
+LUX,2001,deaths,Deaths,21.48,19.88,23.25,Y40T44,FEMALE,0
+LUX,2001,deaths,Deaths,2.85,2.26,3.6,Y40T44,FEMALE,1140
+LUX,2001,deaths,Deaths,38.3,34.93,41.58,Y40T44,MALE,0
+LUX,2001,deaths,Deaths,1.28,0.98,1.61,Y40T44,MALE,1140
+LUX,2001,deaths,Deaths,59.77,54.81,64.83,Y40T44,TOTAL,0
+LUX,2001,deaths,Deaths,4.13,3.24,5.22,Y40T44,TOTAL,1140
+LUX,2002,death_rate,Deaths per 100000 population,812.71,,,TOTAL,FEMALE,0
+LUX,2002,death_rate,Deaths per 100000 population,114.33,,,TOTAL,FEMALE,1140
+LUX,2002,death_rate,Deaths per 100000 population,812.74,,,TOTAL,MALE,0
+LUX,2002,death_rate,Deaths per 100000 population,71.78,,,TOTAL,MALE,1140
+LUX,2002,death_rate,Deaths per 100000 population,812.73,,,TOTAL,TOTAL,0
+LUX,2002,death_rate,Deaths per 100000 population,93.36,,,TOTAL,TOTAL,1140
+LUX,2002,death_rate,Deaths per 100000 population,112.83,,,Y40T44,FEMALE,0
+LUX,2002,death_rate,Deaths per 100000 population,16.61,,,Y40T44,FEMALE,1140
+LUX,2002,death_rate,Deaths per 100000 population,202.11,,,Y40T44,MALE,0
+LUX,2002,death_rate,Deaths per 100000 population,8.95,,,Y40T44,MALE,1140
+LUX,2002,death_rate,Deaths per 100000 population,158.29,,,Y40T44,TOTAL,0
+LUX,2002,death_rate,Deaths per 100000 population,12.68,,,Y40T44,TOTAL,1140
+LUX,2002,deaths,Deaths,1840.18,1713.89,1975.44,TOTAL,FEMALE,0
+LUX,2002,deaths,Deaths,258.88,219.2,297.34,TOTAL,FEMALE,1140
+LUX,2002,deaths,Deaths,1787.88,1649.87,1930.74,TOTAL,MALE,0
+LUX,2002,deaths,Deaths,157.9,136.05,182.25,TOTAL,MALE,1140
+LUX,2002,deaths,Deaths,3628.07,3363.75,3906.17,TOTAL,TOTAL,0
+LUX,2002,deaths,Deaths,416.78,355.25,479.58,TOTAL,TOTAL,1140
+LUX,2002,deaths,Deaths,20.17,18.51,21.95,Y40T44,FEMALE,0
+LUX,2002,deaths,Deaths,2.97,2.34,3.79,Y40T44,FEMALE,1140
+LUX,2002,deaths,Deaths,37.49,34.31,40.65,Y40T44,MALE,0
+LUX,2002,deaths,Deaths,1.66,1.29,2.12,Y40T44,MALE,1140
+LUX,2002,deaths,Deaths,57.66,52.82,62.59,Y40T44,TOTAL,0
+LUX,2002,deaths,Deaths,4.62,3.63,5.91,Y40T44,TOTAL,1140
+LUX,2003,death_rate,Deaths per 100000 population,803.89,,,TOTAL,FEMALE,0
+LUX,2003,death_rate,Deaths per 100000 population,109.5,,,TOTAL,FEMALE,1140
+LUX,2003,death_rate,Deaths per 100000 population,797.6,,,TOTAL,MALE,0
+LUX,2003,death_rate,Deaths per 100000 population,66.79,,,TOTAL,MALE,1140
+LUX,2003,death_rate,Deaths per 100000 population,800.79,,,TOTAL,TOTAL,0
+LUX,2003,death_rate,Deaths per 100000 population,88.42,,,TOTAL,TOTAL,1140
+LUX,2003,death_rate,Deaths per 100000 population,103.17,,,Y40T44,FEMALE,0
+LUX,2003,death_rate,Deaths per 100000 population,10.87,,,Y40T44,FEMALE,1140
+LUX,2003,death_rate,Deaths per 100000 population,197.91,,,Y40T44,MALE,0
+LUX,2003,death_rate,Deaths per 100000 population,7.13,,,Y40T44,MALE,1140
+LUX,2003,death_rate,Deaths per 100000 population,151.32,,,Y40T44,TOTAL,0
+LUX,2003,death_rate,Deaths per 100000 population,9,,,Y40T44,TOTAL,1140
+LUX,2003,deaths,Deaths,1840.2,1710.98,1974.09,TOTAL,FEMALE,0
+LUX,2003,deaths,Deaths,250.65,212.74,287.18,TOTAL,FEMALE,1140
+LUX,2003,deaths,Deaths,1778.17,1642.29,1921.13,TOTAL,MALE,0
+LUX,2003,deaths,Deaths,148.89,127.45,172.65,TOTAL,MALE,1140
+LUX,2003,deaths,Deaths,3618.37,3353.27,3895.22,TOTAL,TOTAL,0
+LUX,2003,deaths,Deaths,399.54,340.19,459.82,TOTAL,TOTAL,1140
+LUX,2003,deaths,Deaths,18.89,17.43,20.5,Y40T44,FEMALE,0
+LUX,2003,deaths,Deaths,1.99,1.54,2.54,Y40T44,FEMALE,1140
+LUX,2003,deaths,Deaths,37.45,34.33,40.6,Y40T44,MALE,0
+LUX,2003,deaths,Deaths,1.35,1.06,1.72,Y40T44,MALE,1140
+LUX,2003,deaths,Deaths,56.34,51.77,61.1,Y40T44,TOTAL,0
+LUX,2003,deaths,Deaths,3.35,2.6,4.26,Y40T44,TOTAL,1140
+LUX,2004,death_rate,Deaths per 100000 population,796.65,,,TOTAL,FEMALE,0
+LUX,2004,death_rate,Deaths per 100000 population,98.56,,,TOTAL,FEMALE,1140
+LUX,2004,death_rate,Deaths per 100000 population,782.24,,,TOTAL,MALE,0
+LUX,2004,death_rate,Deaths per 100000 population,61.43,,,TOTAL,MALE,1140
+LUX,2004,death_rate,Deaths per 100000 population,789.53,,,TOTAL,TOTAL,0
+LUX,2004,death_rate,Deaths per 100000 population,80.2,,,TOTAL,TOTAL,1140
+LUX,2004,death_rate,Deaths per 100000 population,91.93,,,Y40T44,FEMALE,0
+LUX,2004,death_rate,Deaths per 100000 population,3.87,,,Y40T44,FEMALE,1140
+LUX,2004,death_rate,Deaths per 100000 population,186.89,,,Y40T44,MALE,0
+LUX,2004,death_rate,Deaths per 100000 population,10.38,,,Y40T44,MALE,1140
+LUX,2004,death_rate,Deaths per 100000 population,140.17,,,Y40T44,TOTAL,0
+LUX,2004,death_rate,Deaths per 100000 population,7.15,,,Y40T44,TOTAL,1140
+LUX,2004,deaths,Deaths,1846.45,1717.7,1981.07,TOTAL,FEMALE,0
+LUX,2004,deaths,Deaths,228.43,193.55,262.09,TOTAL,FEMALE,1140
+LUX,2004,deaths,Deaths,1772,1637.91,1913.6,TOTAL,MALE,0
+LUX,2004,deaths,Deaths,139.15,118.97,161.02,TOTAL,MALE,1140
+LUX,2004,deaths,Deaths,3618.44,3355.61,3894.67,TOTAL,TOTAL,0
+LUX,2004,deaths,Deaths,367.58,312.52,423.11,TOTAL,TOTAL,1140
+LUX,2004,deaths,Deaths,17.33,15.97,18.78,Y40T44,FEMALE,0
+LUX,2004,deaths,Deaths,0.73,0.57,0.9,Y40T44,FEMALE,1140
+LUX,2004,deaths,Deaths,36.38,33.37,39.84,Y40T44,MALE,0
+LUX,2004,deaths,Deaths,2.02,1.59,2.56,Y40T44,MALE,1140
+LUX,2004,deaths,Deaths,53.71,49.34,58.61,Y40T44,TOTAL,0
+LUX,2004,deaths,Deaths,2.74,2.16,3.47,Y40T44,TOTAL,1140
+LUX,2005,death_rate,Deaths per 100000 population,788.67,,,TOTAL,FEMALE,0
+LUX,2005,death_rate,Deaths per 100000 population,95.32,,,TOTAL,FEMALE,1140
+LUX,2005,death_rate,Deaths per 100000 population,766.1,,,TOTAL,MALE,0
+LUX,2005,death_rate,Deaths per 100000 population,60.23,,,TOTAL,MALE,1140
+LUX,2005,death_rate,Deaths per 100000 population,777.5,,,TOTAL,TOTAL,0
+LUX,2005,death_rate,Deaths per 100000 population,77.96,,,TOTAL,TOTAL,1140
+LUX,2005,death_rate,Deaths per 100000 population,82.72,,,Y40T44,FEMALE,0
+LUX,2005,death_rate,Deaths per 100000 population,5.75,,,Y40T44,FEMALE,1140
+LUX,2005,death_rate,Deaths per 100000 population,178.93,,,Y40T44,MALE,0
+LUX,2005,death_rate,Deaths per 100000 population,10.22,,,Y40T44,MALE,1140
+LUX,2005,death_rate,Deaths per 100000 population,131.72,,,Y40T44,TOTAL,0
+LUX,2005,death_rate,Deaths per 100000 population,8.03,,,Y40T44,TOTAL,1140
+LUX,2005,deaths,Deaths,1854.44,1724.77,1990.57,TOTAL,FEMALE,0
+LUX,2005,deaths,Deaths,224.14,190.42,257.77,TOTAL,FEMALE,1140
+LUX,2005,deaths,Deaths,1763.93,1627.25,1907.74,TOTAL,MALE,0
+LUX,2005,deaths,Deaths,138.68,118.67,159.94,TOTAL,MALE,1140
+LUX,2005,deaths,Deaths,3618.37,3352.02,3898.31,TOTAL,TOTAL,0
+LUX,2005,deaths,Deaths,362.81,309.08,417.71,TOTAL,TOTAL,1140
+LUX,2005,deaths,Deaths,15.98,14.73,17.32,Y40T44,FEMALE,0
+LUX,2005,deaths,Deaths,1.11,0.86,1.39,Y40T44,FEMALE,1140
+LUX,2005,deaths,Deaths,35.88,32.86,39.24,Y40T44,MALE,0
+LUX,2005,deaths,Deaths,2.05,1.62,2.6,Y40T44,MALE,1140
+LUX,2005,deaths,Deaths,51.86,47.59,56.56,Y40T44,TOTAL,0
+LUX,2005,deaths,Deaths,3.16,2.48,3.99,Y40T44,TOTAL,1140
+LUX,2006,death_rate,Deaths per 100000 population,779.72,,,TOTAL,FEMALE,0
+LUX,2006,death_rate,Deaths per 100000 population,89.34,,,TOTAL,FEMALE,1140
+LUX,2006,death_rate,Deaths per 100000 population,751.31,,,TOTAL,MALE,0
+LUX,2006,death_rate,Deaths per 100000 population,57.07,,,TOTAL,MALE,1140
+LUX,2006,death_rate,Deaths per 100000 population,765.66,,,TOTAL,TOTAL,0
+LUX,2006,death_rate,Deaths per 100000 population,73.37,,,TOTAL,TOTAL,1140
+LUX,2006,death_rate,Deaths per 100000 population,75.84,,,Y40T44,FEMALE,0
+LUX,2006,death_rate,Deaths per 100000 population,5.73,,,Y40T44,FEMALE,1140
+LUX,2006,death_rate,Deaths per 100000 population,166.63,,,Y40T44,MALE,0
+LUX,2006,death_rate,Deaths per 100000 population,8.6,,,Y40T44,MALE,1140
+LUX,2006,death_rate,Deaths per 100000 population,122.2,,,Y40T44,TOTAL,0
+LUX,2006,death_rate,Deaths per 100000 population,7.2,,,Y40T44,TOTAL,1140
+LUX,2006,deaths,Deaths,1861.88,1729.57,2001.18,TOTAL,FEMALE,0
+LUX,2006,deaths,Deaths,213.34,180.06,245.5,TOTAL,FEMALE,1140
+LUX,2006,deaths,Deaths,1758.72,1624.43,1895.75,TOTAL,MALE,0
+LUX,2006,deaths,Deaths,133.6,114.23,154.08,TOTAL,MALE,1140
+LUX,2006,deaths,Deaths,3620.6,3354,3896.93,TOTAL,TOTAL,0
+LUX,2006,deaths,Deaths,346.94,294.29,399.58,TOTAL,TOTAL,1140
+LUX,2006,deaths,Deaths,14.95,13.71,16.22,Y40T44,FEMALE,0
+LUX,2006,deaths,Deaths,1.13,0.89,1.42,Y40T44,FEMALE,1140
+LUX,2006,deaths,Deaths,34.28,31.39,37.1,Y40T44,MALE,0
+LUX,2006,deaths,Deaths,1.77,1.39,2.26,Y40T44,MALE,1140
+LUX,2006,deaths,Deaths,49.23,45.1,53.32,Y40T44,TOTAL,0
+LUX,2006,deaths,Deaths,2.9,2.28,3.68,Y40T44,TOTAL,1140
+LUX,2007,death_rate,Deaths per 100000 population,763.85,,,TOTAL,FEMALE,0
+LUX,2007,death_rate,Deaths per 100000 population,85.19,,,TOTAL,FEMALE,1140
+LUX,2007,death_rate,Deaths per 100000 population,735.82,,,TOTAL,MALE,0
+LUX,2007,death_rate,Deaths per 100000 population,55.73,,,TOTAL,MALE,1140
+LUX,2007,death_rate,Deaths per 100000 population,749.97,,,TOTAL,TOTAL,0
+LUX,2007,death_rate,Deaths per 100000 population,70.6,,,TOTAL,TOTAL,1140
+LUX,2007,death_rate,Deaths per 100000 population,73.37,,,Y40T44,FEMALE,0
+LUX,2007,death_rate,Deaths per 100000 population,2.04,,,Y40T44,FEMALE,1140
+LUX,2007,death_rate,Deaths per 100000 population,157.13,,,Y40T44,MALE,0
+LUX,2007,death_rate,Deaths per 100000 population,4.19,,,Y40T44,MALE,1140
+LUX,2007,death_rate,Deaths per 100000 population,116.18,,,Y40T44,TOTAL,0
+LUX,2007,death_rate,Deaths per 100000 population,3.11,,,Y40T44,TOTAL,1140
+LUX,2007,deaths,Deaths,1851.53,1723.01,1989.92,TOTAL,FEMALE,0
+LUX,2007,deaths,Deaths,206.49,173.54,237.62,TOTAL,FEMALE,1140
+LUX,2007,deaths,Deaths,1750.42,1618.7,1893.13,TOTAL,MALE,0
+LUX,2007,deaths,Deaths,132.57,113.66,152.97,TOTAL,MALE,1140
+LUX,2007,deaths,Deaths,3601.95,3341.71,3883.05,TOTAL,TOTAL,0
+LUX,2007,deaths,Deaths,339.06,287.21,390.6,TOTAL,TOTAL,1140
+LUX,2007,deaths,Deaths,14.76,13.56,16.01,Y40T44,FEMALE,0
+LUX,2007,deaths,Deaths,0.41,0.32,0.52,Y40T44,FEMALE,1140
+LUX,2007,deaths,Deaths,33.04,30.23,35.93,Y40T44,MALE,0
+LUX,2007,deaths,Deaths,0.88,0.69,1.12,Y40T44,MALE,1140
+LUX,2007,deaths,Deaths,47.8,43.79,51.94,Y40T44,TOTAL,0
+LUX,2007,deaths,Deaths,1.28,1.01,1.64,Y40T44,TOTAL,1140
+LUX,2008,death_rate,Deaths per 100000 population,748.54,,,TOTAL,FEMALE,0
+LUX,2008,death_rate,Deaths per 100000 population,83,,,TOTAL,FEMALE,1140
+LUX,2008,death_rate,Deaths per 100000 population,725.78,,,TOTAL,MALE,0
+LUX,2008,death_rate,Deaths per 100000 population,56.2,,,TOTAL,MALE,1140
+LUX,2008,death_rate,Deaths per 100000 population,737.26,,,TOTAL,TOTAL,0
+LUX,2008,death_rate,Deaths per 100000 population,69.71,,,TOTAL,TOTAL,1140
+LUX,2008,death_rate,Deaths per 100000 population,71.2,,,Y40T44,FEMALE,0
+LUX,2008,death_rate,Deaths per 100000 population,1.95,,,Y40T44,FEMALE,1140
+LUX,2008,death_rate,Deaths per 100000 population,144.64,,,Y40T44,MALE,0
+LUX,2008,death_rate,Deaths per 100000 population,3.23,,,Y40T44,MALE,1140
+LUX,2008,death_rate,Deaths per 100000 population,108.73,,,Y40T44,TOTAL,0
+LUX,2008,death_rate,Deaths per 100000 population,2.6,,,Y40T44,TOTAL,1140
+LUX,2008,deaths,Deaths,1845.54,1715.12,1983.4,TOTAL,FEMALE,0
+LUX,2008,deaths,Deaths,204.63,171.85,235.38,TOTAL,FEMALE,1140
+LUX,2008,deaths,Deaths,1759.61,1624.64,1900.47,TOTAL,MALE,0
+LUX,2008,deaths,Deaths,136.25,116.53,157.65,TOTAL,MALE,1140
+LUX,2008,deaths,Deaths,3605.15,3339.75,3883.87,TOTAL,TOTAL,0
+LUX,2008,deaths,Deaths,340.89,288.38,393.03,TOTAL,TOTAL,1140
+LUX,2008,deaths,Deaths,14.57,13.47,15.85,Y40T44,FEMALE,0
+LUX,2008,deaths,Deaths,0.4,0.32,0.51,Y40T44,FEMALE,1140
+LUX,2008,deaths,Deaths,30.94,28.33,33.61,Y40T44,MALE,0
+LUX,2008,deaths,Deaths,0.69,0.53,0.87,Y40T44,MALE,1140
+LUX,2008,deaths,Deaths,45.51,41.8,49.46,Y40T44,TOTAL,0
+LUX,2008,deaths,Deaths,1.09,0.84,1.38,Y40T44,TOTAL,1140
+LUX,2009,death_rate,Deaths per 100000 population,726.36,,,TOTAL,FEMALE,0
+LUX,2009,death_rate,Deaths per 100000 population,82.04,,,TOTAL,FEMALE,1140
+LUX,2009,death_rate,Deaths per 100000 population,716.27,,,TOTAL,MALE,0
+LUX,2009,death_rate,Deaths per 100000 population,57.08,,,TOTAL,MALE,1140
+LUX,2009,death_rate,Deaths per 100000 population,721.35,,,TOTAL,TOTAL,0
+LUX,2009,death_rate,Deaths per 100000 population,69.65,,,TOTAL,TOTAL,1140
+LUX,2009,death_rate,Deaths per 100000 population,69.23,,,Y40T44,FEMALE,0
+LUX,2009,death_rate,Deaths per 100000 population,6.19,,,Y40T44,FEMALE,1140
+LUX,2009,death_rate,Deaths per 100000 population,134.32,,,Y40T44,MALE,0
+LUX,2009,death_rate,Deaths per 100000 population,4.46,,,Y40T44,MALE,1140
+LUX,2009,death_rate,Deaths per 100000 population,102.42,,,Y40T44,TOTAL,0
+LUX,2009,death_rate,Deaths per 100000 population,5.31,,,Y40T44,TOTAL,1140
+LUX,2009,deaths,Deaths,1821.75,1691.89,1954.36,TOTAL,FEMALE,0
+LUX,2009,deaths,Deaths,205.77,171.13,237.56,TOTAL,FEMALE,1140
+LUX,2009,deaths,Deaths,1771.99,1639,1914.22,TOTAL,MALE,0
+LUX,2009,deaths,Deaths,141.22,120.79,164.06,TOTAL,MALE,1140
+LUX,2009,deaths,Deaths,3593.74,3330.89,3868.58,TOTAL,TOTAL,0
+LUX,2009,deaths,Deaths,346.99,291.92,401.62,TOTAL,TOTAL,1140
+LUX,2009,deaths,Deaths,14.31,13.14,15.54,Y40T44,FEMALE,0
+LUX,2009,deaths,Deaths,1.28,1,1.62,Y40T44,FEMALE,1140
+LUX,2009,deaths,Deaths,28.93,26.61,31.55,Y40T44,MALE,0
+LUX,2009,deaths,Deaths,0.96,0.73,1.22,Y40T44,MALE,1140
+LUX,2009,deaths,Deaths,43.23,39.75,47.09,Y40T44,TOTAL,0
+LUX,2009,deaths,Deaths,2.24,1.73,2.84,Y40T44,TOTAL,1140
+LUX,2010,death_rate,Deaths per 100000 population,724.21,,,TOTAL,FEMALE,0
+LUX,2010,death_rate,Deaths per 100000 population,80.07,,,TOTAL,FEMALE,1140
+LUX,2010,death_rate,Deaths per 100000 population,706.37,,,TOTAL,MALE,0
+LUX,2010,death_rate,Deaths per 100000 population,54.07,,,TOTAL,MALE,1140
+LUX,2010,death_rate,Deaths per 100000 population,715.34,,,TOTAL,TOTAL,0
+LUX,2010,death_rate,Deaths per 100000 population,67.14,,,TOTAL,TOTAL,1140
+LUX,2010,death_rate,Deaths per 100000 population,68.11,,,Y40T44,FEMALE,0
+LUX,2010,death_rate,Deaths per 100000 population,3.74,,,Y40T44,FEMALE,1140
+LUX,2010,death_rate,Deaths per 100000 population,121.17,,,Y40T44,MALE,0
+LUX,2010,death_rate,Deaths per 100000 population,3.34,,,Y40T44,MALE,1140
+LUX,2010,death_rate,Deaths per 100000 population,95.07,,,Y40T44,TOTAL,0
+LUX,2010,death_rate,Deaths per 100000 population,3.54,,,Y40T44,TOTAL,1140
+LUX,2010,deaths,Deaths,1847.48,1720.31,1982.97,TOTAL,FEMALE,0
+LUX,2010,deaths,Deaths,204.27,170.18,235.7,TOTAL,FEMALE,1140
+LUX,2010,deaths,Deaths,1782.29,1645.52,1925.3,TOTAL,MALE,0
+LUX,2010,deaths,Deaths,136.43,116.58,159.23,TOTAL,MALE,1140
+LUX,2010,deaths,Deaths,3629.78,3365.83,3908.27,TOTAL,TOTAL,0
+LUX,2010,deaths,Deaths,340.69,286.77,394.93,TOTAL,TOTAL,1140
+LUX,2010,deaths,Deaths,14.21,13.03,15.44,Y40T44,FEMALE,0
+LUX,2010,deaths,Deaths,0.78,0.61,0.97,Y40T44,FEMALE,1140
+LUX,2010,deaths,Deaths,26.12,23.96,28.45,Y40T44,MALE,0
+LUX,2010,deaths,Deaths,0.72,0.55,0.93,Y40T44,MALE,1140
+LUX,2010,deaths,Deaths,40.33,36.99,43.89,Y40T44,TOTAL,0
+LUX,2010,deaths,Deaths,1.5,1.15,1.9,Y40T44,TOTAL,1140
+LUX,2011,death_rate,Deaths per 100000 population,721.74,,,TOTAL,FEMALE,0
+LUX,2011,death_rate,Deaths per 100000 population,74.06,,,TOTAL,FEMALE,1140
+LUX,2011,death_rate,Deaths per 100000 population,697.5,,,TOTAL,MALE,0
+LUX,2011,death_rate,Deaths per 100000 population,47.59,,,TOTAL,MALE,1140
+LUX,2011,death_rate,Deaths per 100000 population,709.66,,,TOTAL,TOTAL,0
+LUX,2011,death_rate,Deaths per 100000 population,60.87,,,TOTAL,TOTAL,1140
+LUX,2011,death_rate,Deaths per 100000 population,68.63,,,Y40T44,FEMALE,0
+LUX,2011,death_rate,Deaths per 100000 population,3.94,,,Y40T44,FEMALE,1140
+LUX,2011,death_rate,Deaths per 100000 population,115.88,,,Y40T44,MALE,0
+LUX,2011,death_rate,Deaths per 100000 population,1.83,,,Y40T44,MALE,1140
+LUX,2011,death_rate,Deaths per 100000 population,92.68,,,Y40T44,TOTAL,0
+LUX,2011,death_rate,Deaths per 100000 population,2.89,,,Y40T44,TOTAL,1140
+LUX,2011,deaths,Deaths,1878.14,1746.93,2013.74,TOTAL,FEMALE,0
+LUX,2011,deaths,Deaths,192.71,161.89,222.73,TOTAL,FEMALE,1140
+LUX,2011,deaths,Deaths,1802.12,1664.21,1946.12,TOTAL,MALE,0
+LUX,2011,deaths,Deaths,122.95,104.84,143.26,TOTAL,MALE,1140
+LUX,2011,deaths,Deaths,3680.25,3411.14,3959.87,TOTAL,TOTAL,0
+LUX,2011,deaths,Deaths,315.66,266.73,365.99,TOTAL,TOTAL,1140
+LUX,2011,deaths,Deaths,14.46,13.26,15.68,Y40T44,FEMALE,0
+LUX,2011,deaths,Deaths,0.83,0.65,1.05,Y40T44,FEMALE,1140
+LUX,2011,deaths,Deaths,25.3,23.25,27.57,Y40T44,MALE,0
+LUX,2011,deaths,Deaths,0.4,0.31,0.51,Y40T44,MALE,1140
+LUX,2011,deaths,Deaths,39.76,36.51,43.24,Y40T44,TOTAL,0
+LUX,2011,deaths,Deaths,1.24,0.95,1.57,Y40T44,TOTAL,1140
+LUX,2012,death_rate,Deaths per 100000 population,722.21,,,TOTAL,FEMALE,0
+LUX,2012,death_rate,Deaths per 100000 population,64.79,,,TOTAL,FEMALE,1140
+LUX,2012,death_rate,Deaths per 100000 population,690.57,,,TOTAL,MALE,0
+LUX,2012,death_rate,Deaths per 100000 population,45,,,TOTAL,MALE,1140
+LUX,2012,death_rate,Deaths per 100000 population,706.41,,,TOTAL,TOTAL,0
+LUX,2012,death_rate,Deaths per 100000 population,54.92,,,TOTAL,TOTAL,1140
+LUX,2012,death_rate,Deaths per 100000 population,67.92,,,Y40T44,FEMALE,0
+LUX,2012,death_rate,Deaths per 100000 population,1.32,,,Y40T44,FEMALE,1140
+LUX,2012,death_rate,Deaths per 100000 population,114.76,,,Y40T44,MALE,0
+LUX,2012,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+LUX,2012,death_rate,Deaths per 100000 population,91.85,,,Y40T44,TOTAL,0
+LUX,2012,death_rate,Deaths per 100000 population,0.65,,,Y40T44,TOTAL,1140
+LUX,2012,deaths,Deaths,1920.05,1788.69,2056.19,TOTAL,FEMALE,0
+LUX,2012,deaths,Deaths,172.26,144.37,200.07,TOTAL,FEMALE,1140
+LUX,2012,deaths,Deaths,1830.74,1692.26,1978.76,TOTAL,MALE,0
+LUX,2012,deaths,Deaths,119.31,101.84,139.44,TOTAL,MALE,1140
+LUX,2012,deaths,Deaths,3750.79,3480.96,4034.94,TOTAL,TOTAL,0
+LUX,2012,deaths,Deaths,291.58,246.21,339.51,TOTAL,TOTAL,1140
+LUX,2012,deaths,Deaths,14.38,13.19,15.58,Y40T44,FEMALE,0
+LUX,2012,deaths,Deaths,0.28,0.21,0.35,Y40T44,FEMALE,1140
+LUX,2012,deaths,Deaths,25.34,23.19,27.61,Y40T44,MALE,0
+LUX,2012,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+LUX,2012,deaths,Deaths,39.73,36.38,43.19,Y40T44,TOTAL,0
+LUX,2012,deaths,Deaths,0.28,0.21,0.35,Y40T44,TOTAL,1140
+LUX,2013,death_rate,Deaths per 100000 population,700.39,,,TOTAL,FEMALE,0
+LUX,2013,death_rate,Deaths per 100000 population,59.26,,,TOTAL,FEMALE,1140
+LUX,2013,death_rate,Deaths per 100000 population,680.95,,,TOTAL,MALE,0
+LUX,2013,death_rate,Deaths per 100000 population,39,,,TOTAL,MALE,1140
+LUX,2013,death_rate,Deaths per 100000 population,690.67,,,TOTAL,TOTAL,0
+LUX,2013,death_rate,Deaths per 100000 population,49.13,,,TOTAL,TOTAL,1140
+LUX,2013,death_rate,Deaths per 100000 population,66.89,,,Y40T44,FEMALE,0
+LUX,2013,death_rate,Deaths per 100000 population,2.03,,,Y40T44,FEMALE,1140
+LUX,2013,death_rate,Deaths per 100000 population,116.81,,,Y40T44,MALE,0
+LUX,2013,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+LUX,2013,death_rate,Deaths per 100000 population,92.38,,,Y40T44,TOTAL,0
+LUX,2013,death_rate,Deaths per 100000 population,0.99,,,Y40T44,TOTAL,1140
+LUX,2013,deaths,Deaths,1902.39,1768.47,2039.94,TOTAL,FEMALE,0
+LUX,2013,deaths,Deaths,160.97,132.75,187.37,TOTAL,FEMALE,1140
+LUX,2013,deaths,Deaths,1850.51,1711.86,2001.46,TOTAL,MALE,0
+LUX,2013,deaths,Deaths,105.99,90.09,124.8,TOTAL,MALE,1140
+LUX,2013,deaths,Deaths,3752.9,3480.33,4041.39,TOTAL,TOTAL,0
+LUX,2013,deaths,Deaths,266.96,222.84,312.17,TOTAL,TOTAL,1140
+LUX,2013,deaths,Deaths,14.18,13.01,15.42,Y40T44,FEMALE,0
+LUX,2013,deaths,Deaths,0.43,0.33,0.55,Y40T44,FEMALE,1140
+LUX,2013,deaths,Deaths,25.84,23.63,28.21,Y40T44,MALE,0
+LUX,2013,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+LUX,2013,deaths,Deaths,40.02,36.64,43.63,Y40T44,TOTAL,0
+LUX,2013,deaths,Deaths,0.43,0.33,0.55,Y40T44,TOTAL,1140
+LUX,2014,death_rate,Deaths per 100000 population,688.12,,,TOTAL,FEMALE,0
+LUX,2014,death_rate,Deaths per 100000 population,53.83,,,TOTAL,FEMALE,1140
+LUX,2014,death_rate,Deaths per 100000 population,670.23,,,TOTAL,MALE,0
+LUX,2014,death_rate,Deaths per 100000 population,37.73,,,TOTAL,MALE,1140
+LUX,2014,death_rate,Deaths per 100000 population,679.16,,,TOTAL,TOTAL,0
+LUX,2014,death_rate,Deaths per 100000 population,45.77,,,TOTAL,TOTAL,1140
+LUX,2014,death_rate,Deaths per 100000 population,67.4,,,Y40T44,FEMALE,0
+LUX,2014,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+LUX,2014,death_rate,Deaths per 100000 population,117.32,,,Y40T44,MALE,0
+LUX,2014,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+LUX,2014,death_rate,Deaths per 100000 population,92.87,,,Y40T44,TOTAL,0
+LUX,2014,death_rate,Deaths per 100000 population,0,,,Y40T44,TOTAL,1140
+LUX,2014,deaths,Deaths,1911.37,1774.7,2053.11,TOTAL,FEMALE,0
+LUX,2014,deaths,Deaths,149.52,123.02,174.59,TOTAL,FEMALE,1140
+LUX,2014,deaths,Deaths,1866.75,1725.21,2018.6,TOTAL,MALE,0
+LUX,2014,deaths,Deaths,105.1,88.47,123.42,TOTAL,MALE,1140
+LUX,2014,deaths,Deaths,3778.12,3499.91,4071.71,TOTAL,TOTAL,0
+LUX,2014,deaths,Deaths,254.63,211.49,298.01,TOTAL,TOTAL,1140
+LUX,2014,deaths,Deaths,14.31,13.15,15.5,Y40T44,FEMALE,0
+LUX,2014,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+LUX,2014,deaths,Deaths,25.96,23.82,28.48,Y40T44,MALE,0
+LUX,2014,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+LUX,2014,deaths,Deaths,40.27,36.97,43.97,Y40T44,TOTAL,0
+LUX,2014,deaths,Deaths,0,0,0,Y40T44,TOTAL,1140
+LUX,2015,death_rate,Deaths per 100000 population,679.7,,,TOTAL,FEMALE,0
+LUX,2015,death_rate,Deaths per 100000 population,50.42,,,TOTAL,FEMALE,1140
+LUX,2015,death_rate,Deaths per 100000 population,664.34,,,TOTAL,MALE,0
+LUX,2015,death_rate,Deaths per 100000 population,34.31,,,TOTAL,MALE,1140
+LUX,2015,death_rate,Deaths per 100000 population,672,,,TOTAL,TOTAL,0
+LUX,2015,death_rate,Deaths per 100000 population,42.34,,,TOTAL,TOTAL,1140
+LUX,2015,death_rate,Deaths per 100000 population,67.19,,,Y40T44,FEMALE,0
+LUX,2015,death_rate,Deaths per 100000 population,1.31,,,Y40T44,FEMALE,1140
+LUX,2015,death_rate,Deaths per 100000 population,117.18,,,Y40T44,MALE,0
+LUX,2015,death_rate,Deaths per 100000 population,1.53,,,Y40T44,MALE,1140
+LUX,2015,death_rate,Deaths per 100000 population,92.64,,,Y40T44,TOTAL,0
+LUX,2015,death_rate,Deaths per 100000 population,1.42,,,Y40T44,TOTAL,1140
+LUX,2015,deaths,Deaths,1930.21,1796.14,2072.36,TOTAL,FEMALE,0
+LUX,2015,deaths,Deaths,143.19,117.66,166.5,TOTAL,FEMALE,1140
+LUX,2015,deaths,Deaths,1897.11,1753.3,2048.01,TOTAL,MALE,0
+LUX,2015,deaths,Deaths,97.97,82.6,115.54,TOTAL,MALE,1140
+LUX,2015,deaths,Deaths,3827.32,3549.44,4120.38,TOTAL,TOTAL,0
+LUX,2015,deaths,Deaths,241.15,200.27,282.04,TOTAL,TOTAL,1140
+LUX,2015,deaths,Deaths,14.39,13.26,15.69,Y40T44,FEMALE,0
+LUX,2015,deaths,Deaths,0.28,0.22,0.34,Y40T44,FEMALE,1140
+LUX,2015,deaths,Deaths,26.08,23.72,28.52,Y40T44,MALE,0
+LUX,2015,deaths,Deaths,0.34,0.26,0.45,Y40T44,MALE,1140
+LUX,2015,deaths,Deaths,40.46,36.99,44.21,Y40T44,TOTAL,0
+LUX,2015,deaths,Deaths,0.62,0.48,0.79,Y40T44,TOTAL,1140
+LUX,2016,death_rate,Deaths per 100000 population,676.3,,,TOTAL,FEMALE,0
+LUX,2016,death_rate,Deaths per 100000 population,46.52,,,TOTAL,FEMALE,1140
+LUX,2016,death_rate,Deaths per 100000 population,660.53,,,TOTAL,MALE,0
+LUX,2016,death_rate,Deaths per 100000 population,36.96,,,TOTAL,MALE,1140
+LUX,2016,death_rate,Deaths per 100000 population,668.38,,,TOTAL,TOTAL,0
+LUX,2016,death_rate,Deaths per 100000 population,41.72,,,TOTAL,TOTAL,1140
+LUX,2016,death_rate,Deaths per 100000 population,65,,,Y40T44,FEMALE,0
+LUX,2016,death_rate,Deaths per 100000 population,1.02,,,Y40T44,FEMALE,1140
+LUX,2016,death_rate,Deaths per 100000 population,111.21,,,Y40T44,MALE,0
+LUX,2016,death_rate,Deaths per 100000 population,3.69,,,Y40T44,MALE,1140
+LUX,2016,death_rate,Deaths per 100000 population,88.58,,,Y40T44,TOTAL,0
+LUX,2016,death_rate,Deaths per 100000 population,2.4,,,Y40T44,TOTAL,1140
+LUX,2016,deaths,Deaths,1965.09,1828.26,2108.25,TOTAL,FEMALE,0
+LUX,2016,deaths,Deaths,135.18,110.96,157.85,TOTAL,FEMALE,1140
+LUX,2016,deaths,Deaths,1935.05,1790.32,2090.77,TOTAL,MALE,0
+LUX,2016,deaths,Deaths,108.27,91.5,127.23,TOTAL,MALE,1140
+LUX,2016,deaths,Deaths,3900.13,3618.57,4199.01,TOTAL,TOTAL,0
+LUX,2016,deaths,Deaths,243.45,202.46,285.07,TOTAL,TOTAL,1140
+LUX,2016,deaths,Deaths,14.07,12.96,15.26,Y40T44,FEMALE,0
+LUX,2016,deaths,Deaths,0.22,0.18,0.28,Y40T44,FEMALE,1140
+LUX,2016,deaths,Deaths,25.03,22.84,27.43,Y40T44,MALE,0
+LUX,2016,deaths,Deaths,0.83,0.63,1.1,Y40T44,MALE,1140
+LUX,2016,deaths,Deaths,39.11,35.8,42.69,Y40T44,TOTAL,0
+LUX,2016,deaths,Deaths,1.06,0.81,1.37,Y40T44,TOTAL,1140
+LUX,2017,death_rate,Deaths per 100000 population,673.08,,,TOTAL,FEMALE,0
+LUX,2017,death_rate,Deaths per 100000 population,43.99,,,TOTAL,FEMALE,1140
+LUX,2017,death_rate,Deaths per 100000 population,659.36,,,TOTAL,MALE,0
+LUX,2017,death_rate,Deaths per 100000 population,35.29,,,TOTAL,MALE,1140
+LUX,2017,death_rate,Deaths per 100000 population,666.19,,,TOTAL,TOTAL,0
+LUX,2017,death_rate,Deaths per 100000 population,39.62,,,TOTAL,TOTAL,1140
+LUX,2017,death_rate,Deaths per 100000 population,61.2,,,Y40T44,FEMALE,0
+LUX,2017,death_rate,Deaths per 100000 population,1.09,,,Y40T44,FEMALE,1140
+LUX,2017,death_rate,Deaths per 100000 population,103.08,,,Y40T44,MALE,0
+LUX,2017,death_rate,Deaths per 100000 population,5.35,,,Y40T44,MALE,1140
+LUX,2017,death_rate,Deaths per 100000 population,82.52,,,Y40T44,TOTAL,0
+LUX,2017,death_rate,Deaths per 100000 population,3.26,,,Y40T44,TOTAL,1140
+LUX,2017,deaths,Deaths,1997.79,1856.72,2144.55,TOTAL,FEMALE,0
+LUX,2017,deaths,Deaths,130.56,107.34,152.87,TOTAL,FEMALE,1140
+LUX,2017,deaths,Deaths,1976.09,1823.21,2135.18,TOTAL,MALE,0
+LUX,2017,deaths,Deaths,105.77,89.44,123.59,TOTAL,MALE,1140
+LUX,2017,deaths,Deaths,3973.88,3679.93,4279.73,TOTAL,TOTAL,0
+LUX,2017,deaths,Deaths,236.33,196.78,276.46,TOTAL,TOTAL,1140
+LUX,2017,deaths,Deaths,13.46,12.33,14.59,Y40T44,FEMALE,0
+LUX,2017,deaths,Deaths,0.24,0.19,0.31,Y40T44,FEMALE,1140
+LUX,2017,deaths,Deaths,23.51,21.52,25.61,Y40T44,MALE,0
+LUX,2017,deaths,Deaths,1.22,0.92,1.61,Y40T44,MALE,1140
+LUX,2017,deaths,Deaths,36.97,33.85,40.19,Y40T44,TOTAL,0
+LUX,2017,deaths,Deaths,1.46,1.11,1.91,Y40T44,TOTAL,1140
+LUX,2018,death_rate,Deaths per 100000 population,671.21,,,TOTAL,FEMALE,0
+LUX,2018,death_rate,Deaths per 100000 population,42.92,,,TOTAL,FEMALE,1140
+LUX,2018,death_rate,Deaths per 100000 population,657.35,,,TOTAL,MALE,0
+LUX,2018,death_rate,Deaths per 100000 population,32.43,,,TOTAL,MALE,1140
+LUX,2018,death_rate,Deaths per 100000 population,664.24,,,TOTAL,TOTAL,0
+LUX,2018,death_rate,Deaths per 100000 population,37.65,,,TOTAL,TOTAL,1140
+LUX,2018,death_rate,Deaths per 100000 population,56.6,,,Y40T44,FEMALE,0
+LUX,2018,death_rate,Deaths per 100000 population,2.31,,,Y40T44,FEMALE,1140
+LUX,2018,death_rate,Deaths per 100000 population,94.36,,,Y40T44,MALE,0
+LUX,2018,death_rate,Deaths per 100000 population,3.54,,,Y40T44,MALE,1140
+LUX,2018,death_rate,Deaths per 100000 population,75.77,,,Y40T44,TOTAL,0
+LUX,2018,death_rate,Deaths per 100000 population,2.93,,,Y40T44,TOTAL,1140
+LUX,2018,deaths,Deaths,2029.59,1890.72,2178.87,TOTAL,FEMALE,0
+LUX,2018,deaths,Deaths,129.78,106.52,151.87,TOTAL,FEMALE,1140
+LUX,2018,deaths,Deaths,2009.78,1862.6,2168.91,TOTAL,MALE,0
+LUX,2018,deaths,Deaths,99.15,83.99,116.01,TOTAL,MALE,1140
+LUX,2018,deaths,Deaths,4039.37,3753.32,4347.77,TOTAL,TOTAL,0
+LUX,2018,deaths,Deaths,228.93,190.51,267.88,TOTAL,TOTAL,1140
+LUX,2018,deaths,Deaths,12.75,11.77,13.75,Y40T44,FEMALE,0
+LUX,2018,deaths,Deaths,0.52,0.41,0.65,Y40T44,FEMALE,1140
+LUX,2018,deaths,Deaths,21.87,20.05,23.97,Y40T44,MALE,0
+LUX,2018,deaths,Deaths,0.82,0.61,1.06,Y40T44,MALE,1140
+LUX,2018,deaths,Deaths,34.63,31.83,37.72,Y40T44,TOTAL,0
+LUX,2018,deaths,Deaths,1.34,1.03,1.71,Y40T44,TOTAL,1140
+LUX,2019,death_rate,Deaths per 100000 population,674.95,,,TOTAL,FEMALE,0
+LUX,2019,death_rate,Deaths per 100000 population,41.64,,,TOTAL,FEMALE,1140
+LUX,2019,death_rate,Deaths per 100000 population,671.08,,,TOTAL,MALE,0
+LUX,2019,death_rate,Deaths per 100000 population,33.2,,,TOTAL,MALE,1140
+LUX,2019,death_rate,Deaths per 100000 population,673,,,TOTAL,TOTAL,0
+LUX,2019,death_rate,Deaths per 100000 population,37.4,,,TOTAL,TOTAL,1140
+LUX,2019,death_rate,Deaths per 100000 population,54.12,,,Y40T44,FEMALE,0
+LUX,2019,death_rate,Deaths per 100000 population,1.61,,,Y40T44,FEMALE,1140
+LUX,2019,death_rate,Deaths per 100000 population,87.71,,,Y40T44,MALE,0
+LUX,2019,death_rate,Deaths per 100000 population,1.49,,,Y40T44,MALE,1140
+LUX,2019,death_rate,Deaths per 100000 population,71.11,,,Y40T44,TOTAL,0
+LUX,2019,death_rate,Deaths per 100000 population,1.57,,,Y40T44,TOTAL,1140
+LUX,2019,deaths,Deaths,2080.46,1947.85,2219.89,TOTAL,FEMALE,0
+LUX,2019,deaths,Deaths,128.36,105.43,149.66,TOTAL,FEMALE,1140
+LUX,2019,deaths,Deaths,2093.38,1950.77,2242.07,TOTAL,MALE,0
+LUX,2019,deaths,Deaths,103.58,87.82,121.11,TOTAL,MALE,1140
+LUX,2019,deaths,Deaths,4173.85,3898.61,4461.96,TOTAL,TOTAL,0
+LUX,2019,deaths,Deaths,231.94,193.25,270.76,TOTAL,TOTAL,1140
+LUX,2019,deaths,Deaths,12.47,11.43,13.58,Y40T44,FEMALE,0
+LUX,2019,deaths,Deaths,0.37,0.3,0.48,Y40T44,FEMALE,1140
+LUX,2019,deaths,Deaths,20.67,18.94,22.57,Y40T44,MALE,0
+LUX,2019,deaths,Deaths,0.35,0.26,0.45,Y40T44,MALE,1140
+LUX,2019,deaths,Deaths,33.14,30.37,36.14,Y40T44,TOTAL,0
+LUX,2019,deaths,Deaths,0.73,0.56,0.92,Y40T44,TOTAL,1140
+LUX,2020,death_rate,Deaths per 100000 population,671.42,,,TOTAL,FEMALE,0
+LUX,2020,death_rate,Deaths per 100000 population,37.13,,,TOTAL,FEMALE,1140
+LUX,2020,death_rate,Deaths per 100000 population,672.88,,,TOTAL,MALE,0
+LUX,2020,death_rate,Deaths per 100000 population,28.99,,,TOTAL,MALE,1140
+LUX,2020,death_rate,Deaths per 100000 population,672.15,,,TOTAL,TOTAL,0
+LUX,2020,death_rate,Deaths per 100000 population,33.04,,,TOTAL,TOTAL,1140
+LUX,2020,death_rate,Deaths per 100000 population,60.32,,,Y40T44,FEMALE,0
+LUX,2020,death_rate,Deaths per 100000 population,1.87,,,Y40T44,FEMALE,1140
+LUX,2020,death_rate,Deaths per 100000 population,83.36,,,Y40T44,MALE,0
+LUX,2020,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+LUX,2020,death_rate,Deaths per 100000 population,71.98,,,Y40T44,TOTAL,0
+LUX,2020,death_rate,Deaths per 100000 population,0.92,,,Y40T44,TOTAL,1140
+LUX,2020,deaths,Deaths,2103.55,1983.41,2223.61,TOTAL,FEMALE,0
+LUX,2020,deaths,Deaths,116.34,96.82,135.29,TOTAL,FEMALE,1140
+LUX,2020,deaths,Deaths,2135.16,2002.34,2271.41,TOTAL,MALE,0
+LUX,2020,deaths,Deaths,91.99,78.64,106.83,TOTAL,MALE,1140
+LUX,2020,deaths,Deaths,4238.71,3985.74,4495.02,TOTAL,TOTAL,0
+LUX,2020,deaths,Deaths,208.33,175.46,242.12,TOTAL,TOTAL,1140
+LUX,2020,deaths,Deaths,14.19,12.93,15.49,Y40T44,FEMALE,0
+LUX,2020,deaths,Deaths,0.44,0.34,0.56,Y40T44,FEMALE,1140
+LUX,2020,deaths,Deaths,20.08,18.2,22.09,Y40T44,MALE,0
+LUX,2020,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+LUX,2020,deaths,Deaths,34.27,31.13,37.59,Y40T44,TOTAL,0
+LUX,2020,deaths,Deaths,0.44,0.34,0.56,Y40T44,TOTAL,1140
+LUX,2021,death_rate,Deaths per 100000 population,665.59,,,TOTAL,FEMALE,0
+LUX,2021,death_rate,Deaths per 100000 population,37.51,,,TOTAL,FEMALE,1140
+LUX,2021,death_rate,Deaths per 100000 population,665.57,,,TOTAL,MALE,0
+LUX,2021,death_rate,Deaths per 100000 population,33.21,,,TOTAL,MALE,1140
+LUX,2021,death_rate,Deaths per 100000 population,665.57,,,TOTAL,TOTAL,0
+LUX,2021,death_rate,Deaths per 100000 population,35.35,,,TOTAL,TOTAL,1140
+LUX,2021,death_rate,Deaths per 100000 population,63.9,,,Y40T44,FEMALE,0
+LUX,2021,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+LUX,2021,death_rate,Deaths per 100000 population,71.17,,,Y40T44,MALE,0
+LUX,2021,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+LUX,2021,death_rate,Deaths per 100000 population,67.58,,,Y40T44,TOTAL,0
+LUX,2021,death_rate,Deaths per 100000 population,0,,,Y40T44,TOTAL,1140
+LUX,2021,deaths,Deaths,2115.93,1983.69,2254.43,TOTAL,FEMALE,0
+LUX,2021,deaths,Deaths,119.24,97.97,137.97,TOTAL,FEMALE,1140
+LUX,2021,deaths,Deaths,2145.65,1994.36,2301.81,TOTAL,MALE,0
+LUX,2021,deaths,Deaths,107.07,90.57,125.41,TOTAL,MALE,1140
+LUX,2021,deaths,Deaths,4261.57,3978.05,4556.24,TOTAL,TOTAL,0
+LUX,2021,deaths,Deaths,226.31,188.54,263.39,TOTAL,TOTAL,1140
+LUX,2021,deaths,Deaths,15.36,13.93,17.01,Y40T44,FEMALE,0
+LUX,2021,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+LUX,2021,deaths,Deaths,17.5,15.65,19.5,Y40T44,MALE,0
+LUX,2021,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+LUX,2021,deaths,Deaths,32.86,29.58,36.51,Y40T44,TOTAL,0
+LUX,2021,deaths,Deaths,0,0,0,Y40T44,TOTAL,1140
+LUX,2022,death_rate,Deaths per 100000 population,652.64,,,TOTAL,FEMALE,0
+LUX,2022,death_rate,Deaths per 100000 population,39.51,,,TOTAL,FEMALE,1140
+LUX,2022,death_rate,Deaths per 100000 population,630.8,,,TOTAL,MALE,0
+LUX,2022,death_rate,Deaths per 100000 population,29.46,,,TOTAL,MALE,1140
+LUX,2022,death_rate,Deaths per 100000 population,641.64,,,TOTAL,TOTAL,0
+LUX,2022,death_rate,Deaths per 100000 population,34.45,,,TOTAL,TOTAL,1140
+LUX,2022,death_rate,Deaths per 100000 population,70.42,,,Y40T44,FEMALE,0
+LUX,2022,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+LUX,2022,death_rate,Deaths per 100000 population,78.03,,,Y40T44,MALE,0
+LUX,2022,death_rate,Deaths per 100000 population,0.88,,,Y40T44,MALE,1140
+LUX,2022,death_rate,Deaths per 100000 population,74.26,,,Y40T44,TOTAL,0
+LUX,2022,death_rate,Deaths per 100000 population,0.44,,,Y40T44,TOTAL,1140
+LUX,2022,deaths,Deaths,2117.36,1902.44,2339.11,TOTAL,FEMALE,0
+LUX,2022,deaths,Deaths,128.17,103.11,151.9,TOTAL,FEMALE,1140
+LUX,2022,deaths,Deaths,2074.65,1848.96,2319.14,TOTAL,MALE,0
+LUX,2022,deaths,Deaths,96.88,79.88,116.19,TOTAL,MALE,1140
+LUX,2022,deaths,Deaths,4192.02,3751.41,4658.25,TOTAL,TOTAL,0
+LUX,2022,deaths,Deaths,225.05,182.99,268.09,TOTAL,TOTAL,1140
+LUX,2022,deaths,Deaths,17.36,15.6,19.29,Y40T44,FEMALE,0
+LUX,2022,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+LUX,2022,deaths,Deaths,19.58,17.54,21.94,Y40T44,MALE,0
+LUX,2022,deaths,Deaths,0.22,0.16,0.29,Y40T44,MALE,1140
+LUX,2022,deaths,Deaths,36.94,33.14,41.23,Y40T44,TOTAL,0
+LUX,2022,deaths,Deaths,0.22,0.16,0.29,Y40T44,TOTAL,1140
+LUX,2023,death_rate,Deaths per 100000 population,655.47,,,TOTAL,FEMALE,0
+LUX,2023,death_rate,Deaths per 100000 population,39.69,,,TOTAL,FEMALE,1140
+LUX,2023,death_rate,Deaths per 100000 population,621.34,,,TOTAL,MALE,0
+LUX,2023,death_rate,Deaths per 100000 population,29.14,,,TOTAL,MALE,1140
+LUX,2023,death_rate,Deaths per 100000 population,638.3,,,TOTAL,TOTAL,0
+LUX,2023,death_rate,Deaths per 100000 population,34.39,,,TOTAL,TOTAL,1140
+LUX,2023,death_rate,Deaths per 100000 population,67.58,,,Y40T44,FEMALE,0
+LUX,2023,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+LUX,2023,death_rate,Deaths per 100000 population,77.59,,,Y40T44,MALE,0
+LUX,2023,death_rate,Deaths per 100000 population,2.03,,,Y40T44,MALE,1140
+LUX,2023,death_rate,Deaths per 100000 population,72.63,,,Y40T44,TOTAL,0
+LUX,2023,death_rate,Deaths per 100000 population,1.02,,,Y40T44,TOTAL,1140
+LUX,2023,deaths,Deaths,2165.83,1893.7,2465.55,TOTAL,FEMALE,0
+LUX,2023,deaths,Deaths,131.16,103.62,159.16,TOTAL,FEMALE,1140
+LUX,2023,deaths,Deaths,2079.51,1805.68,2378.49,TOTAL,MALE,0
+LUX,2023,deaths,Deaths,97.54,78.32,118.71,TOTAL,MALE,1140
+LUX,2023,deaths,Deaths,4245.34,3699.38,4844.04,TOTAL,TOTAL,0
+LUX,2023,deaths,Deaths,228.7,181.94,277.87,TOTAL,TOTAL,1140
+LUX,2023,deaths,Deaths,17.05,14.82,19.36,Y40T44,FEMALE,0
+LUX,2023,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+LUX,2023,deaths,Deaths,19.89,17.55,22.75,Y40T44,MALE,0
+LUX,2023,deaths,Deaths,0.52,0.39,0.7,Y40T44,MALE,1140
+LUX,2023,deaths,Deaths,36.94,32.38,42.11,Y40T44,TOTAL,0
+LUX,2023,deaths,Deaths,0.52,0.39,0.7,Y40T44,TOTAL,1140

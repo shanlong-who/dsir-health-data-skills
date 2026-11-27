@@ -1,0 +1,1447 @@
+{
+  "release": "0.8.0",
+  "dataset": "ghe_extended",
+  "product": "WHO Global Health Estimates",
+  "indicator": "GHE/death_estimates",
+  "backend": "xmart",
+  "retrieved_from": "2026-11-27T02:13:54Z",
+  "retrieved_through": "2026-11-27T02:15:21Z",
+  "scope": "global_country_area",
+  "area_count": 183,
+  "row_count": 105408,
+  "geography": "geography.csv",
+  "series": [
+    {
+      "code": "deaths",
+      "name": "Deaths",
+      "unit": "Deaths",
+      "denominator": null,
+      "source_unit": "deaths",
+      "dimensions": {
+        "age": [
+          "TOTAL",
+          "Y40T44"
+        ],
+        "sex": [
+          "FEMALE",
+          "MALE",
+          "TOTAL"
+        ],
+        "cause_code": [
+          "0",
+          "1140"
+        ]
+      },
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 52704,
+      "valid_estimates": 52704,
+      "missing_bounds": 0
+    },
+    {
+      "code": "death_rate",
+      "name": "Death rate",
+      "unit": "Deaths per 100000 population",
+      "denominator": "Population in the selected age stratum",
+      "source_unit": "per 100,000 population",
+      "dimensions": {
+        "age": [
+          "TOTAL",
+          "Y40T44"
+        ],
+        "sex": [
+          "FEMALE",
+          "MALE",
+          "TOTAL"
+        ],
+        "cause_code": [
+          "0",
+          "1140"
+        ]
+      },
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 52704,
+      "valid_estimates": 52704,
+      "missing_bounds": 52704
+    }
+  ],
+  "key_dimensions": [
+    "age",
+    "sex",
+    "cause_code"
+  ],
+  "coverage_by_stratum": [
+    {
+      "series_code": "death_rate",
+      "age": "TOTAL",
+      "sex": "FEMALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "TOTAL",
+      "sex": "FEMALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "TOTAL",
+      "sex": "MALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "TOTAL",
+      "sex": "MALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "TOTAL",
+      "sex": "TOTAL",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "TOTAL",
+      "sex": "TOTAL",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "Y40T44",
+      "sex": "FEMALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "Y40T44",
+      "sex": "FEMALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "Y40T44",
+      "sex": "MALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "Y40T44",
+      "sex": "MALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "Y40T44",
+      "sex": "TOTAL",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "death_rate",
+      "age": "Y40T44",
+      "sex": "TOTAL",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "TOTAL",
+      "sex": "FEMALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "TOTAL",
+      "sex": "FEMALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "TOTAL",
+      "sex": "MALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "TOTAL",
+      "sex": "MALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "TOTAL",
+      "sex": "TOTAL",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "TOTAL",
+      "sex": "TOTAL",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "Y40T44",
+      "sex": "FEMALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "Y40T44",
+      "sex": "FEMALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "Y40T44",
+      "sex": "MALE",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "Y40T44",
+      "sex": "MALE",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "Y40T44",
+      "sex": "TOTAL",
+      "cause_code": "0",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    },
+    {
+      "series_code": "deaths",
+      "age": "Y40T44",
+      "sex": "TOTAL",
+      "cause_code": "1140",
+      "first_year": 2000,
+      "last_year": 2023,
+      "areas": 183,
+      "rows": 4392,
+      "valid_estimates": 4392
+    }
+  ],
+  "areas": {
+    "AFG": {
+      "path": "ghe_extended/areas/AFG.csv",
+      "sha256": "26c3ad0b4dd0ec3362df5ec7ace279335057caf84608775071598eeaf9146f92",
+      "bytes": 39717,
+      "rows": 576
+    },
+    "AGO": {
+      "path": "ghe_extended/areas/AGO.csv",
+      "sha256": "9edad1d098a3779945504fb33485ac6f8abb45987f3c91b17c5a042f9e78cc01",
+      "bytes": 39484,
+      "rows": 576
+    },
+    "ALB": {
+      "path": "ghe_extended/areas/ALB.csv",
+      "sha256": "9d6b7e01d671701ffe1fe1169e17c09e1861f5c578d258adb2c7cca7f4b42da7",
+      "bytes": 38611,
+      "rows": 576
+    },
+    "ARE": {
+      "path": "ghe_extended/areas/ARE.csv",
+      "sha256": "373c1c48ab50afddfef3a566885f1179a2db20a86cb1b72c8bf8ff5de0c1b8a3",
+      "bytes": 38010,
+      "rows": 576
+    },
+    "ARG": {
+      "path": "ghe_extended/areas/ARG.csv",
+      "sha256": "82322e8ad7911c6898c8733367f99b525a20f063b91fc9ab5417f663f301dd0f",
+      "bytes": 39637,
+      "rows": 576
+    },
+    "ARM": {
+      "path": "ghe_extended/areas/ARM.csv",
+      "sha256": "405c7a8376e4f3603d2dc3f06ee81695045d28b398455ab6e556b229c08f23e5",
+      "bytes": 38696,
+      "rows": 576
+    },
+    "ATG": {
+      "path": "ghe_extended/areas/ATG.csv",
+      "sha256": "f6adbe7fa2e79d9c9855e66e140528d23573886314e257150daddba4a60e76fe",
+      "bytes": 36878,
+      "rows": 576
+    },
+    "AUS": {
+      "path": "ghe_extended/areas/AUS.csv",
+      "sha256": "d74f96ab750a40bb82f02c50aa60703285d1376957960caa3b7ba98f05ea14f9",
+      "bytes": 39016,
+      "rows": 576
+    },
+    "AUT": {
+      "path": "ghe_extended/areas/AUT.csv",
+      "sha256": "150c9bffedde0184f2b795c3f448a3122304d545ca121c33c3946ee739482fac",
+      "bytes": 38732,
+      "rows": 576
+    },
+    "AZE": {
+      "path": "ghe_extended/areas/AZE.csv",
+      "sha256": "8cd22c8baf584840649cdb218ae644368ccf461dcab38f740e04d381a7a80672",
+      "bytes": 38878,
+      "rows": 576
+    },
+    "BDI": {
+      "path": "ghe_extended/areas/BDI.csv",
+      "sha256": "50da165b7762f54a730bc2fd857c2ffe41d425ee1e9238783386cf35a760f0b9",
+      "bytes": 39094,
+      "rows": 576
+    },
+    "BEL": {
+      "path": "ghe_extended/areas/BEL.csv",
+      "sha256": "d62fafcd07f2f7b84a36c033c980eee8cb89c76cf32dd11a2f69a615df6c0800",
+      "bytes": 38881,
+      "rows": 576
+    },
+    "BEN": {
+      "path": "ghe_extended/areas/BEN.csv",
+      "sha256": "42a7ef81c02116e5f6267a88e420c6e57cab2fb17a95562f6d367ee6efce2949",
+      "bytes": 39086,
+      "rows": 576
+    },
+    "BFA": {
+      "path": "ghe_extended/areas/BFA.csv",
+      "sha256": "1b861e5d210c49c0e4e99d22fe95919570d2351d1d1757abf401a6deffee02dd",
+      "bytes": 39298,
+      "rows": 576
+    },
+    "BGD": {
+      "path": "ghe_extended/areas/BGD.csv",
+      "sha256": "915d18be4f7185493e4c2f4e9ae484d9e3062120583b75f0fb4ab2a654f1e3c5",
+      "bytes": 39982,
+      "rows": 576
+    },
+    "BGR": {
+      "path": "ghe_extended/areas/BGR.csv",
+      "sha256": "b78631ac169f3e117476712eb905069493ec45777fd61957a8c8fc9851ffd915",
+      "bytes": 39374,
+      "rows": 576
+    },
+    "BHR": {
+      "path": "ghe_extended/areas/BHR.csv",
+      "sha256": "7c1122fd3efc18ff189986cb93bac3657cd8829182a0f6d545be546056bc87cb",
+      "bytes": 37833,
+      "rows": 576
+    },
+    "BHS": {
+      "path": "ghe_extended/areas/BHS.csv",
+      "sha256": "94d33f20b03c185b55fc2a5070619e996b995079561532cc5dad328117475946",
+      "bytes": 37917,
+      "rows": 576
+    },
+    "BIH": {
+      "path": "ghe_extended/areas/BIH.csv",
+      "sha256": "7c394a3a615501428c7356af335ad20d1df6df28f7cfa4874db9139b8389ab30",
+      "bytes": 38786,
+      "rows": 576
+    },
+    "BLR": {
+      "path": "ghe_extended/areas/BLR.csv",
+      "sha256": "4b694e29904ec1cb9b5eff179dbd1061d3e4f67714e683088bf2b1cc38ff4cf5",
+      "bytes": 39390,
+      "rows": 576
+    },
+    "BLZ": {
+      "path": "ghe_extended/areas/BLZ.csv",
+      "sha256": "2598516f7a2af1e11d36edf24148bfef54e6eec70c387ccca46bd00e548340e8",
+      "bytes": 37677,
+      "rows": 576
+    },
+    "BOL": {
+      "path": "ghe_extended/areas/BOL.csv",
+      "sha256": "3f127c03e2b9387fc96bb72c33e605add98d8607cf718364835cae086ced71e2",
+      "bytes": 38964,
+      "rows": 576
+    },
+    "BRA": {
+      "path": "ghe_extended/areas/BRA.csv",
+      "sha256": "58b62cd4876f9eebd9bdab2c47b7c2b369fbb7561e2e5fb795a2545628df4854",
+      "bytes": 40245,
+      "rows": 576
+    },
+    "BRB": {
+      "path": "ghe_extended/areas/BRB.csv",
+      "sha256": "b2387ce39c48515c07520a90c7037c64902030b760274d637131dfbce8af7471",
+      "bytes": 37918,
+      "rows": 576
+    },
+    "BRN": {
+      "path": "ghe_extended/areas/BRN.csv",
+      "sha256": "e206978b26168516141613202712f68c9a5d429f47acc92a62b095a2b51c7b21",
+      "bytes": 37636,
+      "rows": 576
+    },
+    "BTN": {
+      "path": "ghe_extended/areas/BTN.csv",
+      "sha256": "713560370ecba79043071379de908e47db15a5f3a87cb6f89a3189e29194496a",
+      "bytes": 37908,
+      "rows": 576
+    },
+    "BWA": {
+      "path": "ghe_extended/areas/BWA.csv",
+      "sha256": "bbbca841a5025e934eb45228df759f131e61d2b913ae609228942b66e49aab57",
+      "bytes": 38507,
+      "rows": 576
+    },
+    "CAF": {
+      "path": "ghe_extended/areas/CAF.csv",
+      "sha256": "f817914fc0ef4613f5355267891d6a43cc6a44cc663aa30388a8e56ad43cced4",
+      "bytes": 39144,
+      "rows": 576
+    },
+    "CAN": {
+      "path": "ghe_extended/areas/CAN.csv",
+      "sha256": "5748ce4de32e34cb7219c392b0caf424c195e1dc67909015ca83bac0ecae56cb",
+      "bytes": 39277,
+      "rows": 576
+    },
+    "CHE": {
+      "path": "ghe_extended/areas/CHE.csv",
+      "sha256": "d4da8865a100334aad5c5b8107b98742b637df7d9cc2ac445732acd9a8e66718",
+      "bytes": 38586,
+      "rows": 576
+    },
+    "CHL": {
+      "path": "ghe_extended/areas/CHL.csv",
+      "sha256": "04b67285f931da7df9e839fac459df9635fec115003acd278fc056c95b240656",
+      "bytes": 39012,
+      "rows": 576
+    },
+    "CHN": {
+      "path": "ghe_extended/areas/CHN.csv",
+      "sha256": "fc5fdfe4c38869641aa289c13c796c50eedae5ad959e507f590d9bc1572bd0dd",
+      "bytes": 41039,
+      "rows": 576
+    },
+    "CIV": {
+      "path": "ghe_extended/areas/CIV.csv",
+      "sha256": "604b558176632d3ed186d1a7c07fcaa75155cc51defa88d18b892383bfc8dbd3",
+      "bytes": 39367,
+      "rows": 576
+    },
+    "CMR": {
+      "path": "ghe_extended/areas/CMR.csv",
+      "sha256": "9edeedd268e396a3558c01b24ee276cbead395c6ca30c3fb5aaf380c74aaf332",
+      "bytes": 39433,
+      "rows": 576
+    },
+    "COD": {
+      "path": "ghe_extended/areas/COD.csv",
+      "sha256": "a40adefb572232e4be54edff962ecca1cd1cb3a2ab3b8d97cb512a3d0ecc4fb9",
+      "bytes": 39815,
+      "rows": 576
+    },
+    "COG": {
+      "path": "ghe_extended/areas/COG.csv",
+      "sha256": "acf5d000964bdbb71f8cc22343eedddbb69c12a84b2f94235d402a4b1b3947fe",
+      "bytes": 39007,
+      "rows": 576
+    },
+    "COL": {
+      "path": "ghe_extended/areas/COL.csv",
+      "sha256": "ca5b696baa3043f397b9334a5995823fcd3bcdd677c39180455e8ceb5efabc93",
+      "bytes": 39425,
+      "rows": 576
+    },
+    "COM": {
+      "path": "ghe_extended/areas/COM.csv",
+      "sha256": "e535703ee38bedef42fc9dc4c224f0742d045ed9d3fa1d2a0f4a1f573636df16",
+      "bytes": 37971,
+      "rows": 576
+    },
+    "CPV": {
+      "path": "ghe_extended/areas/CPV.csv",
+      "sha256": "4ccaa7759280c0f0e31deb7a7e8edf4eb41a80bd9bddb882e90ae4c6a5af1023",
+      "bytes": 37837,
+      "rows": 576
+    },
+    "CRI": {
+      "path": "ghe_extended/areas/CRI.csv",
+      "sha256": "4b75f1ee188034638bfca61ee471ba8d48706c63e0b8c0afa08d888678314623",
+      "bytes": 38406,
+      "rows": 576
+    },
+    "CUB": {
+      "path": "ghe_extended/areas/CUB.csv",
+      "sha256": "66c0a5f890aae3148817f2098cc5547f71dff94192f230a4ea069bb9cae6eaab",
+      "bytes": 38999,
+      "rows": 576
+    },
+    "CYP": {
+      "path": "ghe_extended/areas/CYP.csv",
+      "sha256": "0ef412b21e8fd034d07f24365121baadcfdeb05441edd90c41fca87a51580271",
+      "bytes": 37675,
+      "rows": 576
+    },
+    "CZE": {
+      "path": "ghe_extended/areas/CZE.csv",
+      "sha256": "a1b7a2b09b92773a182e97eb5a8454bfe01939b57d0b4293a4cfb85f67b00330",
+      "bytes": 39039,
+      "rows": 576
+    },
+    "DEU": {
+      "path": "ghe_extended/areas/DEU.csv",
+      "sha256": "80b3b73c939ea8b388555f59fa1a8416207a61161c218ed095e45797510ac5a2",
+      "bytes": 39630,
+      "rows": 576
+    },
+    "DJI": {
+      "path": "ghe_extended/areas/DJI.csv",
+      "sha256": "756159896899e8bc9805db1439d2cb3f8a243290997db615e767711de59c435b",
+      "bytes": 38020,
+      "rows": 576
+    },
+    "DNK": {
+      "path": "ghe_extended/areas/DNK.csv",
+      "sha256": "f0c7b1888a7dc8332a7f17670a4f8012bc17455471c99e842368d0010820dfcd",
+      "bytes": 38669,
+      "rows": 576
+    },
+    "DOM": {
+      "path": "ghe_extended/areas/DOM.csv",
+      "sha256": "5d295533c06a7e7b43c6ad49f3343329d381ceb0581e0046209837085b4d1586",
+      "bytes": 38997,
+      "rows": 576
+    },
+    "DZA": {
+      "path": "ghe_extended/areas/DZA.csv",
+      "sha256": "a453b0047f80885e309f1fcbedb73eb024dc2f38803bbf9a97cddb2b1cdfd8ee",
+      "bytes": 39374,
+      "rows": 576
+    },
+    "ECU": {
+      "path": "ghe_extended/areas/ECU.csv",
+      "sha256": "6ef543b87fdd2575aec3bcec94185e7ba5fbdd4a2a27addc61d99834720b254f",
+      "bytes": 39056,
+      "rows": 576
+    },
+    "EGY": {
+      "path": "ghe_extended/areas/EGY.csv",
+      "sha256": "f824103d44a11d9255163ef97a0c67465e107941129a382dad41bf14844d452a",
+      "bytes": 39773,
+      "rows": 576
+    },
+    "ERI": {
+      "path": "ghe_extended/areas/ERI.csv",
+      "sha256": "f82d2d883e66e94e21d91e972b151634a1c2567440b6c5c7fdda04ae55edb908",
+      "bytes": 38765,
+      "rows": 576
+    },
+    "ESP": {
+      "path": "ghe_extended/areas/ESP.csv",
+      "sha256": "f7ce507daf64ee43483f5ddbca8c3700328123b1690af147430427bcb9667ae9",
+      "bytes": 39475,
+      "rows": 576
+    },
+    "EST": {
+      "path": "ghe_extended/areas/EST.csv",
+      "sha256": "57dcaff6dfea313b0d7da7fc522618718a5f005e091a02ca9515c8159b0107f7",
+      "bytes": 38300,
+      "rows": 576
+    },
+    "ETH": {
+      "path": "ghe_extended/areas/ETH.csv",
+      "sha256": "d32c4d1cca7d98cad0764a8dc556b22bb04c2a888f92aa77c2379ae26e793004",
+      "bytes": 39775,
+      "rows": 576
+    },
+    "FIN": {
+      "path": "ghe_extended/areas/FIN.csv",
+      "sha256": "50634358385a04dc6507316868ccac5a718d01a68e30de7478f92a160204db36",
+      "bytes": 38671,
+      "rows": 576
+    },
+    "FJI": {
+      "path": "ghe_extended/areas/FJI.csv",
+      "sha256": "6982dcd10c162d0818088980f4057cda23795473ebd9273826eae3ce4d0e906f",
+      "bytes": 38236,
+      "rows": 576
+    },
+    "FRA": {
+      "path": "ghe_extended/areas/FRA.csv",
+      "sha256": "aaef1756cc24f8a7500696d665476e6cf2422bb8a80d7a769dd13d057f00b2a0",
+      "bytes": 39552,
+      "rows": 576
+    },
+    "FSM": {
+      "path": "ghe_extended/areas/FSM.csv",
+      "sha256": "e77a0b78e3364e4ee9561b1de0dfd8ae5e1fcedd48c36dfa82173680863b6175",
+      "bytes": 37551,
+      "rows": 576
+    },
+    "GAB": {
+      "path": "ghe_extended/areas/GAB.csv",
+      "sha256": "1c6798b69b30fca4dcdbac9d4a3aae08626e1cf5c53a5fd7e7a8a10fc8ef1858",
+      "bytes": 38437,
+      "rows": 576
+    },
+    "GBR": {
+      "path": "ghe_extended/areas/GBR.csv",
+      "sha256": "5c79f85f294aee5a41c154b02314a2fe06d609c1d48034a23be2f92116862d1e",
+      "bytes": 39623,
+      "rows": 576
+    },
+    "GEO": {
+      "path": "ghe_extended/areas/GEO.csv",
+      "sha256": "c528bce8843d83e59d513e415d9c8f16c74a9186663a3f35b1b584a36ae874e1",
+      "bytes": 39027,
+      "rows": 576
+    },
+    "GHA": {
+      "path": "ghe_extended/areas/GHA.csv",
+      "sha256": "99580c18b3d7f68525bac608e37584134f3a79f7b34bd79ca07861e10d394c41",
+      "bytes": 39573,
+      "rows": 576
+    },
+    "GIN": {
+      "path": "ghe_extended/areas/GIN.csv",
+      "sha256": "bb84407e52cf98a44fea7048bd6f7c55e67c938ec2e56a7191214a8fca64eab1",
+      "bytes": 39258,
+      "rows": 576
+    },
+    "GMB": {
+      "path": "ghe_extended/areas/GMB.csv",
+      "sha256": "21b79154c0f20ab274937c375bcfe72fdb32b2d679800580f64333061f07bac2",
+      "bytes": 38372,
+      "rows": 576
+    },
+    "GNB": {
+      "path": "ghe_extended/areas/GNB.csv",
+      "sha256": "c741f4ed47e86d244d04eeaa4703c9b7b0a879041df6f2f361021eab7e98d44a",
+      "bytes": 38640,
+      "rows": 576
+    },
+    "GNQ": {
+      "path": "ghe_extended/areas/GNQ.csv",
+      "sha256": "5c47cd1a13137a8ce5b4c7b4439c75e2de23c46aa36826dea870fc0e7875de04",
+      "bytes": 38285,
+      "rows": 576
+    },
+    "GRC": {
+      "path": "ghe_extended/areas/GRC.csv",
+      "sha256": "5d4c6cc46f4ea6425b8f4b6c073b7be9b7dc501daa3b134c94347308c749c319",
+      "bytes": 39056,
+      "rows": 576
+    },
+    "GRD": {
+      "path": "ghe_extended/areas/GRD.csv",
+      "sha256": "36050e6f03ce64adf02a198dd79423aa4db4e06445ec2ee96f19bd4e39cfee1b",
+      "bytes": 37384,
+      "rows": 576
+    },
+    "GTM": {
+      "path": "ghe_extended/areas/GTM.csv",
+      "sha256": "46fbc081daccfef1a4d64ab54cb2434ab64279fdeb0f3a9ccdf99d4587bd6bb8",
+      "bytes": 38998,
+      "rows": 576
+    },
+    "GUY": {
+      "path": "ghe_extended/areas/GUY.csv",
+      "sha256": "f7ea9f936cd840d4295ebeac1bfe8e271688fd1856eddb6c0e810623396d2318",
+      "bytes": 38562,
+      "rows": 576
+    },
+    "HND": {
+      "path": "ghe_extended/areas/HND.csv",
+      "sha256": "8fed23528c9c044fb343912469a90ea0e98af44b7bd445f5646c343b1f993dec",
+      "bytes": 38868,
+      "rows": 576
+    },
+    "HRV": {
+      "path": "ghe_extended/areas/HRV.csv",
+      "sha256": "b66b71a023fc757f92b3a3c35067423f6fa2702f40ce3321f8cb6fa96c2660e6",
+      "bytes": 38833,
+      "rows": 576
+    },
+    "HTI": {
+      "path": "ghe_extended/areas/HTI.csv",
+      "sha256": "80f5d8f4976df0e83e2756a4bbcfd5cd4eceff4a01dbeada4363c35ff41abff7",
+      "bytes": 39388,
+      "rows": 576
+    },
+    "HUN": {
+      "path": "ghe_extended/areas/HUN.csv",
+      "sha256": "2dd0cb04847338dc7c263fd0ee274bb8c4e3946bc4f23bcc3e4cb9f8372e651b",
+      "bytes": 39221,
+      "rows": 576
+    },
+    "IDN": {
+      "path": "ghe_extended/areas/IDN.csv",
+      "sha256": "947fb5719a45e5cf4372a3517c30bd37ed80afd8a2cebe41604858413efe1dc0",
+      "bytes": 40504,
+      "rows": 576
+    },
+    "IND": {
+      "path": "ghe_extended/areas/IND.csv",
+      "sha256": "46a3eea544096c829e8e3e762530d9081b20ea9168659ba9f1aaf7d2c6ec93e5",
+      "bytes": 40865,
+      "rows": 576
+    },
+    "IRL": {
+      "path": "ghe_extended/areas/IRL.csv",
+      "sha256": "707ff1c829fba41844298b080e5a2aa5e11ef36746f57ff04c6cb79e9a2ddc35",
+      "bytes": 38519,
+      "rows": 576
+    },
+    "IRN": {
+      "path": "ghe_extended/areas/IRN.csv",
+      "sha256": "068ead56ffa5ead1b5a039d2ff5d20b281446ad87ebd177ddc847575308280e8",
+      "bytes": 39628,
+      "rows": 576
+    },
+    "IRQ": {
+      "path": "ghe_extended/areas/IRQ.csv",
+      "sha256": "162d673139b6b23662440330ec8976e5221da478c23c7b4355965e917fdbf587",
+      "bytes": 39475,
+      "rows": 576
+    },
+    "ISL": {
+      "path": "ghe_extended/areas/ISL.csv",
+      "sha256": "1fb69bce8c4eea7b3de57f7b1f3c8ac04f3da7978ab83e1eb078d77be72861ca",
+      "bytes": 37356,
+      "rows": 576
+    },
+    "ISR": {
+      "path": "ghe_extended/areas/ISR.csv",
+      "sha256": "ee8a3479d1c497b21852148e3e2de21178faf30d436c74233f9fba61a4d764a0",
+      "bytes": 38536,
+      "rows": 576
+    },
+    "ITA": {
+      "path": "ghe_extended/areas/ITA.csv",
+      "sha256": "3d7f256a23321480002d49069bc27837adee2eb47c0106d41d90c1640d5c1cdc",
+      "bytes": 39581,
+      "rows": 576
+    },
+    "JAM": {
+      "path": "ghe_extended/areas/JAM.csv",
+      "sha256": "3294dada9d029d0fef51fc5fed9b480d25e2b0b72a47c756078e8d51d661b81d",
+      "bytes": 38420,
+      "rows": 576
+    },
+    "JOR": {
+      "path": "ghe_extended/areas/JOR.csv",
+      "sha256": "d5170c67676ed44440986f6e868e1ebbd53fc5bb73636588e35c1dcacb10d3ac",
+      "bytes": 38698,
+      "rows": 576
+    },
+    "JPN": {
+      "path": "ghe_extended/areas/JPN.csv",
+      "sha256": "b2e7ea8f8e87cdeb15af839d14d7f51023509153cfe1f4426b2f8372e448497d",
+      "bytes": 39883,
+      "rows": 576
+    },
+    "KAZ": {
+      "path": "ghe_extended/areas/KAZ.csv",
+      "sha256": "62d7a96f59c6fac6832fee2d2961645b448f17cf0262b1a93c127933007d8b64",
+      "bytes": 39553,
+      "rows": 576
+    },
+    "KEN": {
+      "path": "ghe_extended/areas/KEN.csv",
+      "sha256": "fe99da07d618da7cfa6598fb27e85151ae283ed69def87c7cbc9c82212921df6",
+      "bytes": 39437,
+      "rows": 576
+    },
+    "KGZ": {
+      "path": "ghe_extended/areas/KGZ.csv",
+      "sha256": "5d8fdaab735735dbb7318c57a3a22bb4357205d84008b19e97c1b4b0584abb14",
+      "bytes": 39000,
+      "rows": 576
+    },
+    "KHM": {
+      "path": "ghe_extended/areas/KHM.csv",
+      "sha256": "6202dc3007107851d2f6a2c988005d16f6762f3822f2b6e2b4ef4f29c6dd858c",
+      "bytes": 39318,
+      "rows": 576
+    },
+    "KIR": {
+      "path": "ghe_extended/areas/KIR.csv",
+      "sha256": "61f6eb380d68e4d20969248586f65138bcdd6afb3ffdc3bee11f2e48154382c9",
+      "bytes": 37682,
+      "rows": 576
+    },
+    "KOR": {
+      "path": "ghe_extended/areas/KOR.csv",
+      "sha256": "11922e76475c7c16a5357478fe3d6f4a65868a03e7f790adae6bc57837374aab",
+      "bytes": 39593,
+      "rows": 576
+    },
+    "KWT": {
+      "path": "ghe_extended/areas/KWT.csv",
+      "sha256": "b5de79f6e3efb72f7e21d6f686e889b6d84b0945ec46733a96b3a5da2d3c6f39",
+      "bytes": 38109,
+      "rows": 576
+    },
+    "LAO": {
+      "path": "ghe_extended/areas/LAO.csv",
+      "sha256": "c1f84bb38dbc677d76a9097830f8fc5e03d2dbf8d98ef0807ad17ec95af11734",
+      "bytes": 39030,
+      "rows": 576
+    },
+    "LBN": {
+      "path": "ghe_extended/areas/LBN.csv",
+      "sha256": "b712cee7751aa4c91edd116b46283dd2d165f7a7dcfcf31a08710a97eba71913",
+      "bytes": 38497,
+      "rows": 576
+    },
+    "LBR": {
+      "path": "ghe_extended/areas/LBR.csv",
+      "sha256": "544ece43e019c94e3e6e61bd2636a1b6c9051519af5df1aec2e145b90b0d0ede",
+      "bytes": 38783,
+      "rows": 576
+    },
+    "LBY": {
+      "path": "ghe_extended/areas/LBY.csv",
+      "sha256": "c0597913b7a44ac7d0bd0cac1e84a8623598be6c76539a3109e918813c000a5e",
+      "bytes": 38850,
+      "rows": 576
+    },
+    "LCA": {
+      "path": "ghe_extended/areas/LCA.csv",
+      "sha256": "7ec17f6cc34186bf2818b057b217a6f959abd5f62b88764034136cc3d0948c50",
+      "bytes": 37642,
+      "rows": 576
+    },
+    "LKA": {
+      "path": "ghe_extended/areas/LKA.csv",
+      "sha256": "cb64f9231403325a5738685ea8ff2a19159d0793b45557588e4e263390b820fc",
+      "bytes": 39320,
+      "rows": 576
+    },
+    "LSO": {
+      "path": "ghe_extended/areas/LSO.csv",
+      "sha256": "527a86f3289f02a7f906963727b3c90c08a459bbed5f1d55a305a490bcdbdf15",
+      "bytes": 39049,
+      "rows": 576
+    },
+    "LTU": {
+      "path": "ghe_extended/areas/LTU.csv",
+      "sha256": "9326cf80796ff6bb92945e68bde54c101ae78807cac1b866463efb0dd2a288fe",
+      "bytes": 38907,
+      "rows": 576
+    },
+    "LUX": {
+      "path": "ghe_extended/areas/LUX.csv",
+      "sha256": "44612e9369ce771ff3109d6cea524dbc35c07498c4ef070ecf902ecbfc430dcc",
+      "bytes": 37721,
+      "rows": 576
+    },
+    "LVA": {
+      "path": "ghe_extended/areas/LVA.csv",
+      "sha256": "d8789732c1bafad202027b10a5af178120f5ef883fbfec850aae129b0163cf89",
+      "bytes": 38868,
+      "rows": 576
+    },
+    "MAR": {
+      "path": "ghe_extended/areas/MAR.csv",
+      "sha256": "a11aeefec258301b47da83cadb47aeacc4440cb8da87975cc15072e69f5bcf77",
+      "bytes": 39606,
+      "rows": 576
+    },
+    "MDA": {
+      "path": "ghe_extended/areas/MDA.csv",
+      "sha256": "405e1573384ab4aa889cfe61f0024dec46dd04b1a1e6e514b856b4f91407cc60",
+      "bytes": 39023,
+      "rows": 576
+    },
+    "MDG": {
+      "path": "ghe_extended/areas/MDG.csv",
+      "sha256": "857d5c34ea37cd93585ff306749b95b30e769937ef2fa6412ec7933257f268ff",
+      "bytes": 39407,
+      "rows": 576
+    },
+    "MDV": {
+      "path": "ghe_extended/areas/MDV.csv",
+      "sha256": "76c48aca7928f2d40c51c4707726c688767fe6235ff78483984ec557590c2afb",
+      "bytes": 37666,
+      "rows": 576
+    },
+    "MEX": {
+      "path": "ghe_extended/areas/MEX.csv",
+      "sha256": "d08af0490a3aeeff530d95bd196289e85852fc0267b5c2f1751740d9f6ab0777",
+      "bytes": 39800,
+      "rows": 576
+    },
+    "MKD": {
+      "path": "ghe_extended/areas/MKD.csv",
+      "sha256": "286eea35267d16a78364fbcf9dd17f6401076df9a90c7076545689f78271ba27",
+      "bytes": 38671,
+      "rows": 576
+    },
+    "MLI": {
+      "path": "ghe_extended/areas/MLI.csv",
+      "sha256": "0fca090a830904c170c3bd1653dbafaf3766cab67588558b4fd8e0d909fc8966",
+      "bytes": 39274,
+      "rows": 576
+    },
+    "MLT": {
+      "path": "ghe_extended/areas/MLT.csv",
+      "sha256": "107c0f131ef86e09f519de86b7d6f9665c205fe80a2b050bbc0ac901ac851ae6",
+      "bytes": 37630,
+      "rows": 576
+    },
+    "MMR": {
+      "path": "ghe_extended/areas/MMR.csv",
+      "sha256": "a7b3863de7fa72ead8c2725435d7b3f0bbab73edf279f033ec2dfef533329749",
+      "bytes": 40016,
+      "rows": 576
+    },
+    "MNE": {
+      "path": "ghe_extended/areas/MNE.csv",
+      "sha256": "d19f74ec3a6ff4577318bd2bb3e795c41201a551c42bb7637f57e6f2cc48d974",
+      "bytes": 38197,
+      "rows": 576
+    },
+    "MNG": {
+      "path": "ghe_extended/areas/MNG.csv",
+      "sha256": "4fe795e7d14829e58825039aa005b04a9975539596ea157d390ab704d6612398",
+      "bytes": 38730,
+      "rows": 576
+    },
+    "MOZ": {
+      "path": "ghe_extended/areas/MOZ.csv",
+      "sha256": "bc3e29687460d5beb6795b522c49c79fec973adb87abe7a0540f21293f77cd63",
+      "bytes": 39670,
+      "rows": 576
+    },
+    "MRT": {
+      "path": "ghe_extended/areas/MRT.csv",
+      "sha256": "cd623ae9c8072f63a26ae50c82f3662f2a9ea119ca6cceda2d4221511c7b8bac",
+      "bytes": 38564,
+      "rows": 576
+    },
+    "MUS": {
+      "path": "ghe_extended/areas/MUS.csv",
+      "sha256": "94df0ae9ad6ecca3d03a8301c2e75aa953672d421eaba28132d789d947a8f20d",
+      "bytes": 38298,
+      "rows": 576
+    },
+    "MWI": {
+      "path": "ghe_extended/areas/MWI.csv",
+      "sha256": "f1405eaaf108bdf3812110fb5f2d1a9d2c8006d49141a8ee6a1e6236be20455b",
+      "bytes": 39160,
+      "rows": 576
+    },
+    "MYS": {
+      "path": "ghe_extended/areas/MYS.csv",
+      "sha256": "09480db8a00502fedc826047e933da2bd54cb8af845c0724c723009b9e8fa348",
+      "bytes": 39431,
+      "rows": 576
+    },
+    "NAM": {
+      "path": "ghe_extended/areas/NAM.csv",
+      "sha256": "ab14186feaa67723baa2c1460d795a84456c5b0731c2d1455b0884c2f1cbbde5",
+      "bytes": 38544,
+      "rows": 576
+    },
+    "NER": {
+      "path": "ghe_extended/areas/NER.csv",
+      "sha256": "57372a4bc738cb93dfcae2136e8f83729ef4ebca559ab7848c6f6fcb79632b7a",
+      "bytes": 39340,
+      "rows": 576
+    },
+    "NGA": {
+      "path": "ghe_extended/areas/NGA.csv",
+      "sha256": "46d713f402026dab370aefa957c6842bdfd1459812cb62edb2470b49d9dfc85c",
+      "bytes": 39987,
+      "rows": 576
+    },
+    "NIC": {
+      "path": "ghe_extended/areas/NIC.csv",
+      "sha256": "d88965817881af78b3c0c4de40db7178bbac2877251518c2fb85b881478f7e7e",
+      "bytes": 38601,
+      "rows": 576
+    },
+    "NLD": {
+      "path": "ghe_extended/areas/NLD.csv",
+      "sha256": "01201eb29baa85aeeaa4f5112da0f175a325c51666aabdaa75fb06149bcd4432",
+      "bytes": 38925,
+      "rows": 576
+    },
+    "NOR": {
+      "path": "ghe_extended/areas/NOR.csv",
+      "sha256": "7268ae14f2c5cefaa281b99b820a80e1a14605f122ae5933a8b8f347f38c8bcd",
+      "bytes": 38552,
+      "rows": 576
+    },
+    "NPL": {
+      "path": "ghe_extended/areas/NPL.csv",
+      "sha256": "f0fa481a85fbf1d087ced15a3c5cd293bdac783fc1e9cefb5d11a26e76384d03",
+      "bytes": 39236,
+      "rows": 576
+    },
+    "NZL": {
+      "path": "ghe_extended/areas/NZL.csv",
+      "sha256": "496e5e1942bad83117b3a99e9ba8a042d551fcc7e6eb7bb251b1a5db9a989377",
+      "bytes": 38617,
+      "rows": 576
+    },
+    "OMN": {
+      "path": "ghe_extended/areas/OMN.csv",
+      "sha256": "5d3cf27453e92a665dfd88bc11377d4f8e4dab46c4f9fc25214e77d1e9d8bf4b",
+      "bytes": 38280,
+      "rows": 576
+    },
+    "PAK": {
+      "path": "ghe_extended/areas/PAK.csv",
+      "sha256": "8c9717612f12c4fbd2a8f4f853232f1b7e0ab4a17ad47ceda46ffebbddd0ee77",
+      "bytes": 40149,
+      "rows": 576
+    },
+    "PAN": {
+      "path": "ghe_extended/areas/PAN.csv",
+      "sha256": "0870a5f0483c446e37993c30e171a393a32ebbf6a4757d4a45cdb2d9cf866ca7",
+      "bytes": 38468,
+      "rows": 576
+    },
+    "PER": {
+      "path": "ghe_extended/areas/PER.csv",
+      "sha256": "d2e7b0bf51d2a23240235c96cc8d18ad6a77b159ea985238d228e93e11768969",
+      "bytes": 39160,
+      "rows": 576
+    },
+    "PHL": {
+      "path": "ghe_extended/areas/PHL.csv",
+      "sha256": "d5a2f5a0512f82bdbd913a08d4366cdc498427722429b2afc5150cc46e82dbd3",
+      "bytes": 39976,
+      "rows": 576
+    },
+    "PNG": {
+      "path": "ghe_extended/areas/PNG.csv",
+      "sha256": "6d6967c2ce8fe87636287f8af9d4842760f9299b6dc0429b377d5070847eb1cf",
+      "bytes": 38929,
+      "rows": 576
+    },
+    "POL": {
+      "path": "ghe_extended/areas/POL.csv",
+      "sha256": "ac33fa86b956ce49c5812e222b75c2fc0f9af98bea290f4d7ec947e7c80da22d",
+      "bytes": 39699,
+      "rows": 576
+    },
+    "PRK": {
+      "path": "ghe_extended/areas/PRK.csv",
+      "sha256": "75d2f0bb52bb7e00cff7b43bf2868f27f20eacb148ba5d711fdbf825647f1053",
+      "bytes": 39753,
+      "rows": 576
+    },
+    "PRT": {
+      "path": "ghe_extended/areas/PRT.csv",
+      "sha256": "38384cd901f2700ff885833fba248fc14e07e0c9d800967dd99ed45579b7ebf2",
+      "bytes": 39131,
+      "rows": 576
+    },
+    "PRY": {
+      "path": "ghe_extended/areas/PRY.csv",
+      "sha256": "dd2faac5f64042ad8245a1dcda16e846ff8e05b824a30ef1083ff1516e2e2dca",
+      "bytes": 38861,
+      "rows": 576
+    },
+    "QAT": {
+      "path": "ghe_extended/areas/QAT.csv",
+      "sha256": "d98b3344965088a1fa9d6d89eb0c5f003ac35c96967b22b646c0e2be3a722914",
+      "bytes": 37592,
+      "rows": 576
+    },
+    "ROU": {
+      "path": "ghe_extended/areas/ROU.csv",
+      "sha256": "ef93d5729157581768721ff8743b3beb7f70c74a2a27929264afc6fe54a50c9c",
+      "bytes": 39745,
+      "rows": 576
+    },
+    "RUS": {
+      "path": "ghe_extended/areas/RUS.csv",
+      "sha256": "9bec2429436f6d0060797a54d84de7d9387d3edc77e9fc18c61563b82092aa1f",
+      "bytes": 40554,
+      "rows": 576
+    },
+    "RWA": {
+      "path": "ghe_extended/areas/RWA.csv",
+      "sha256": "4ad1a807fd8336096e3d22cb093e8c070868050ba39f4350b2ac54d86c39129a",
+      "bytes": 39092,
+      "rows": 576
+    },
+    "SAU": {
+      "path": "ghe_extended/areas/SAU.csv",
+      "sha256": "5dce5a00fae5afebf8b21f6c19fa818a059738d93e1af58c4ff39e882ea53145",
+      "bytes": 39066,
+      "rows": 576
+    },
+    "SDN": {
+      "path": "ghe_extended/areas/SDN.csv",
+      "sha256": "c74309895b0ae44108f10d30c0333747f1001f6d5ef2e03052d82a66672ea750",
+      "bytes": 39603,
+      "rows": 576
+    },
+    "SEN": {
+      "path": "ghe_extended/areas/SEN.csv",
+      "sha256": "deef68dc4b22eb74b3a000eb2597309e93802e3d224da522ae4ccaf54770ff70",
+      "bytes": 39144,
+      "rows": 576
+    },
+    "SGP": {
+      "path": "ghe_extended/areas/SGP.csv",
+      "sha256": "ea8025a2469f6194caaba5125b9f3e67135f9ac663b0c8ffe70999080e93b20e",
+      "bytes": 38442,
+      "rows": 576
+    },
+    "SLB": {
+      "path": "ghe_extended/areas/SLB.csv",
+      "sha256": "e9b7f31f484c791f824bb767a9c486e71c462886ef1ffa24e9f85905fe4cae57",
+      "bytes": 38234,
+      "rows": 576
+    },
+    "SLE": {
+      "path": "ghe_extended/areas/SLE.csv",
+      "sha256": "e70b701da02eeaecaebc86c428a3e92f30dd15b9e1ad5e6b66bef7d129b9135f",
+      "bytes": 38922,
+      "rows": 576
+    },
+    "SLV": {
+      "path": "ghe_extended/areas/SLV.csv",
+      "sha256": "4f70b3ab5566c9d3854c7c21072152c370ed1599325ec5e1f0ad5c0ccf3acc84",
+      "bytes": 38791,
+      "rows": 576
+    },
+    "SOM": {
+      "path": "ghe_extended/areas/SOM.csv",
+      "sha256": "b3ee7de9f23dfc59da805b2f72db3d6fb5c59a287a201a28ce05d7666df90917",
+      "bytes": 39324,
+      "rows": 576
+    },
+    "SRB": {
+      "path": "ghe_extended/areas/SRB.csv",
+      "sha256": "8c00e7525b0c39718dbcff59b2235146e67d32ae66781dc350febdda8b35e548",
+      "bytes": 39191,
+      "rows": 576
+    },
+    "SSD": {
+      "path": "ghe_extended/areas/SSD.csv",
+      "sha256": "5b02b7dbc88ce676744af304211540b486f1bb18044a65cef3219ec744399241",
+      "bytes": 39050,
+      "rows": 576
+    },
+    "STP": {
+      "path": "ghe_extended/areas/STP.csv",
+      "sha256": "241768f2b001a98f9e725ea1ee55e90a20e2b09806e3bfd5a6517afcf0f9c336",
+      "bytes": 37595,
+      "rows": 576
+    },
+    "SUR": {
+      "path": "ghe_extended/areas/SUR.csv",
+      "sha256": "3af3998fa7a170b88a53b310d1310ea0254a475f4809bd6edfc96601fc317216",
+      "bytes": 38053,
+      "rows": 576
+    },
+    "SVK": {
+      "path": "ghe_extended/areas/SVK.csv",
+      "sha256": "f85643e2caf59dbbf6fdcc0abed8579ff2a84f09a3158a784dd1a34baae7b3bd",
+      "bytes": 38816,
+      "rows": 576
+    },
+    "SVN": {
+      "path": "ghe_extended/areas/SVN.csv",
+      "sha256": "6d816e11aa0995b69682f9e01c249a488bc5f6c94e337ba36429fa6c863a67a8",
+      "bytes": 38243,
+      "rows": 576
+    },
+    "SWE": {
+      "path": "ghe_extended/areas/SWE.csv",
+      "sha256": "0b392cd64cb8592707cf83af67d7d54ea8195fb8454900d684b8f0e51a8586ed",
+      "bytes": 38679,
+      "rows": 576
+    },
+    "SWZ": {
+      "path": "ghe_extended/areas/SWZ.csv",
+      "sha256": "1a907a534c6e3e1265503305153f42b76080fab051c728512e6b618c225fd7d3",
+      "bytes": 38578,
+      "rows": 576
+    },
+    "SYC": {
+      "path": "ghe_extended/areas/SYC.csv",
+      "sha256": "6d65109a8bb1aa545f2fc806786e0cfe90db66ebc7c93826f14d6756c7bea630",
+      "bytes": 37517,
+      "rows": 576
+    },
+    "SYR": {
+      "path": "ghe_extended/areas/SYR.csv",
+      "sha256": "73d5f2950d1ed7f54087fd82625fd99e0c368391e8d12b36854882f4b62ad4b9",
+      "bytes": 39113,
+      "rows": 576
+    },
+    "TCD": {
+      "path": "ghe_extended/areas/TCD.csv",
+      "sha256": "91e0728ec1ed979848abfb55be90e509364cd761e7aaf5183fa608067818f2e1",
+      "bytes": 39228,
+      "rows": 576
+    },
+    "TGO": {
+      "path": "ghe_extended/areas/TGO.csv",
+      "sha256": "afaba8c1e95b858e906fd0af9a19bc3e6613e10e0e88b173341b2af473b18105",
+      "bytes": 39067,
+      "rows": 576
+    },
+    "THA": {
+      "path": "ghe_extended/areas/THA.csv",
+      "sha256": "57ceae9f4890e3b3acb7748a2f4331cdfbcff1e6a35c720b66c76c7d107cb3d7",
+      "bytes": 39829,
+      "rows": 576
+    },
+    "TJK": {
+      "path": "ghe_extended/areas/TJK.csv",
+      "sha256": "533578efe81a60ac255acd618b6093a2f709566a5329798a9d43170d83b348bd",
+      "bytes": 38839,
+      "rows": 576
+    },
+    "TKM": {
+      "path": "ghe_extended/areas/TKM.csv",
+      "sha256": "f48b9f8758e1db2acc3426ff5be82b88d0712b07aa58c40185b56d864d5b4b68",
+      "bytes": 39035,
+      "rows": 576
+    },
+    "TLS": {
+      "path": "ghe_extended/areas/TLS.csv",
+      "sha256": "7e8c59a9ca68406ff7b82f4b45dcf0b422e758fd041da6d0041e4b67bc483da3",
+      "bytes": 38159,
+      "rows": 576
+    },
+    "TON": {
+      "path": "ghe_extended/areas/TON.csv",
+      "sha256": "98cd22ec9af1c83d49327ec5343b804d336deef575bfe4d273256ced9ae4d1ef",
+      "bytes": 37460,
+      "rows": 576
+    },
+    "TTO": {
+      "path": "ghe_extended/areas/TTO.csv",
+      "sha256": "50a3883b1d164a338cb1ef7fec2b6c7c743ab1ec7a99ad3202b3960cc68dcf86",
+      "bytes": 38372,
+      "rows": 576
+    },
+    "TUN": {
+      "path": "ghe_extended/areas/TUN.csv",
+      "sha256": "a8d12ae4b3de08ef10e635335f5d630bfeeaba83b46a8b2e06c9eed2e6090f49",
+      "bytes": 38878,
+      "rows": 576
+    },
+    "TUR": {
+      "path": "ghe_extended/areas/TUR.csv",
+      "sha256": "4c62fff1b535fe040be489bb401545d30971f427b1a61ee8feffc07e123e3135",
+      "bytes": 39667,
+      "rows": 576
+    },
+    "TZA": {
+      "path": "ghe_extended/areas/TZA.csv",
+      "sha256": "cd2771fc0216b687bdc5a5be6c2f2f640289202f25cdd059a9ac4f149efb31dc",
+      "bytes": 39614,
+      "rows": 576
+    },
+    "UGA": {
+      "path": "ghe_extended/areas/UGA.csv",
+      "sha256": "caa72d2a9e6420920ffec9d9b56c93bc51cf0d1955f1a79e97a6bf231b2a5973",
+      "bytes": 39440,
+      "rows": 576
+    },
+    "UKR": {
+      "path": "ghe_extended/areas/UKR.csv",
+      "sha256": "cf6e4e4f4ac2394bc1b628c9a2d94915c7e7fe5b57d2227d8e8028ba39b993be",
+      "bytes": 40012,
+      "rows": 576
+    },
+    "URY": {
+      "path": "ghe_extended/areas/URY.csv",
+      "sha256": "e7f167b36a0a7a755fbca68eb6a5706adc5481d57ceb7c03f1de18dc6d94219c",
+      "bytes": 38792,
+      "rows": 576
+    },
+    "USA": {
+      "path": "ghe_extended/areas/USA.csv",
+      "sha256": "ea50d2b852eb074217f051ddd26f178d5f534e5c1620f09d36e33fafbcd8541d",
+      "bytes": 40223,
+      "rows": 576
+    },
+    "UZB": {
+      "path": "ghe_extended/areas/UZB.csv",
+      "sha256": "4df5123c1d48ac946e217435ea070c17b0e86508c6866e40860fcc30f526bc2c",
+      "bytes": 39468,
+      "rows": 576
+    },
+    "VCT": {
+      "path": "ghe_extended/areas/VCT.csv",
+      "sha256": "a140c73fe4e89107f1421e66fa365803a4f5a89f4850d589ad6c51ab39031545",
+      "bytes": 37308,
+      "rows": 576
+    },
+    "VEN": {
+      "path": "ghe_extended/areas/VEN.csv",
+      "sha256": "f47c48ca82dfe8526d31be1cd5835827bd6f7f69b6f65e56c0da230cdb52223d",
+      "bytes": 39246,
+      "rows": 576
+    },
+    "VNM": {
+      "path": "ghe_extended/areas/VNM.csv",
+      "sha256": "13d85abc601806d90bce8b9817dc5d8ec80de6efb8d7a9ed8b5d0fb91d374a35",
+      "bytes": 40069,
+      "rows": 576
+    },
+    "VUT": {
+      "path": "ghe_extended/areas/VUT.csv",
+      "sha256": "282c9847148a960f18653d791172f2699af6b651d9258db53321cef9d4a4148e",
+      "bytes": 37897,
+      "rows": 576
+    },
+    "WSM": {
+      "path": "ghe_extended/areas/WSM.csv",
+      "sha256": "8c97a3805cdf5ca83d3894a2f2ce281d0515dd408f7f5ad69c7f32a7cd887547",
+      "bytes": 37633,
+      "rows": 576
+    },
+    "YEM": {
+      "path": "ghe_extended/areas/YEM.csv",
+      "sha256": "a3adfc71e873626ecd075228051afee12988148f306a45dd94ff11da9cfdefcc",
+      "bytes": 39449,
+      "rows": 576
+    },
+    "ZAF": {
+      "path": "ghe_extended/areas/ZAF.csv",
+      "sha256": "390f6413a4f3ef3e1884a192d3eebb5d63318a6d78c93efa31c46ac071e9fb38",
+      "bytes": 40045,
+      "rows": 576
+    },
+    "ZMB": {
+      "path": "ghe_extended/areas/ZMB.csv",
+      "sha256": "39ea8780b0a107f9b961fdd4b6a53d0eb4e9631e5434efdb9fdec136dfe164cf",
+      "bytes": 39223,
+      "rows": 576
+    },
+    "ZWE": {
+      "path": "ghe_extended/areas/ZWE.csv",
+      "sha256": "7059c511f00e9f4541b4fd9179770dc46779c8ef4d8864647b2f1ad13995102b",
+      "bytes": 39275,
+      "rows": 576
+    }
+  },
+  "provenance": {
+    "path": "ghe_extended/provenance.json",
+    "sha256": "294bcfe961c59a70422626e055df9b0411cbd119f197fc678d1e2fa8343b56e0",
+    "bytes": 10858
+  }
+}

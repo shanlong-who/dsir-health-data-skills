@@ -1,0 +1,577 @@
+area_code,year,series_code,audit_unit,estimate,low,high,age,sex,cause_code
+ISL,2000,death_rate,Deaths per 100000 population,631.26,,,TOTAL,FEMALE,0
+ISL,2000,death_rate,Deaths per 100000 population,73.31,,,TOTAL,FEMALE,1140
+ISL,2000,death_rate,Deaths per 100000 population,665.75,,,TOTAL,MALE,0
+ISL,2000,death_rate,Deaths per 100000 population,56.45,,,TOTAL,MALE,1140
+ISL,2000,death_rate,Deaths per 100000 population,648.52,,,TOTAL,TOTAL,0
+ISL,2000,death_rate,Deaths per 100000 population,64.87,,,TOTAL,TOTAL,1140
+ISL,2000,death_rate,Deaths per 100000 population,99.43,,,Y40T44,FEMALE,0
+ISL,2000,death_rate,Deaths per 100000 population,4.55,,,Y40T44,FEMALE,1140
+ISL,2000,death_rate,Deaths per 100000 population,152.36,,,Y40T44,MALE,0
+ISL,2000,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2000,death_rate,Deaths per 100000 population,126.28,,,Y40T44,TOTAL,0
+ISL,2000,death_rate,Deaths per 100000 population,2.24,,,Y40T44,TOTAL,1140
+ISL,2000,deaths,Deaths,886.91,817.93,961.67,TOTAL,FEMALE,0
+ISL,2000,deaths,Deaths,103,82.62,121.29,TOTAL,FEMALE,1140
+ISL,2000,deaths,Deaths,937.41,860.12,1017.32,TOTAL,MALE,0
+ISL,2000,deaths,Deaths,79.48,65.72,92.53,TOTAL,MALE,1140
+ISL,2000,deaths,Deaths,1824.32,1678.05,1979,TOTAL,TOTAL,0
+ISL,2000,deaths,Deaths,182.48,148.34,213.82,TOTAL,TOTAL,1140
+ISL,2000,deaths,Deaths,10.28,9.45,11.2,Y40T44,FEMALE,0
+ISL,2000,deaths,Deaths,0.47,0.35,0.59,Y40T44,FEMALE,1140
+ISL,2000,deaths,Deaths,16.22,14.85,17.69,Y40T44,MALE,0
+ISL,2000,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2000,deaths,Deaths,26.5,24.31,28.89,Y40T44,TOTAL,0
+ISL,2000,deaths,Deaths,0.47,0.35,0.59,Y40T44,TOTAL,1140
+ISL,2001,death_rate,Deaths per 100000 population,625.43,,,TOTAL,FEMALE,0
+ISL,2001,death_rate,Deaths per 100000 population,71.77,,,TOTAL,FEMALE,1140
+ISL,2001,death_rate,Deaths per 100000 population,654.24,,,TOTAL,MALE,0
+ISL,2001,death_rate,Deaths per 100000 population,54.67,,,TOTAL,MALE,1140
+ISL,2001,death_rate,Deaths per 100000 population,639.85,,,TOTAL,TOTAL,0
+ISL,2001,death_rate,Deaths per 100000 population,63.21,,,TOTAL,TOTAL,1140
+ISL,2001,death_rate,Deaths per 100000 population,106.94,,,Y40T44,FEMALE,0
+ISL,2001,death_rate,Deaths per 100000 population,10.41,,,Y40T44,FEMALE,1140
+ISL,2001,death_rate,Deaths per 100000 population,145.55,,,Y40T44,MALE,0
+ISL,2001,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2001,death_rate,Deaths per 100000 population,126.52,,,Y40T44,TOTAL,0
+ISL,2001,death_rate,Deaths per 100000 population,5.13,,,Y40T44,TOTAL,1140
+ISL,2001,deaths,Deaths,890.44,820.43,962.69,TOTAL,FEMALE,0
+ISL,2001,deaths,Deaths,102.18,81.74,120.57,TOTAL,FEMALE,1140
+ISL,2001,deaths,Deaths,933.59,858.94,1014.3,TOTAL,MALE,0
+ISL,2001,deaths,Deaths,78.02,64.48,90.84,TOTAL,MALE,1140
+ISL,2001,deaths,Deaths,1824.04,1679.37,1977,TOTAL,TOTAL,0
+ISL,2001,deaths,Deaths,180.2,146.23,211.42,TOTAL,TOTAL,1140
+ISL,2001,deaths,Deaths,11.2,10.28,12.18,Y40T44,FEMALE,0
+ISL,2001,deaths,Deaths,1.09,0.84,1.39,Y40T44,FEMALE,1140
+ISL,2001,deaths,Deaths,15.69,14.26,17.08,Y40T44,MALE,0
+ISL,2001,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2001,deaths,Deaths,26.89,24.54,29.26,Y40T44,TOTAL,0
+ISL,2001,deaths,Deaths,1.09,0.84,1.39,Y40T44,TOTAL,1140
+ISL,2002,death_rate,Deaths per 100000 population,619.53,,,TOTAL,FEMALE,0
+ISL,2002,death_rate,Deaths per 100000 population,70.09,,,TOTAL,FEMALE,1140
+ISL,2002,death_rate,Deaths per 100000 population,649.61,,,TOTAL,MALE,0
+ISL,2002,death_rate,Deaths per 100000 population,52.83,,,TOTAL,MALE,1140
+ISL,2002,death_rate,Deaths per 100000 population,634.58,,,TOTAL,TOTAL,0
+ISL,2002,death_rate,Deaths per 100000 population,61.45,,,TOTAL,TOTAL,1140
+ISL,2002,death_rate,Deaths per 100000 population,106.94,,,Y40T44,FEMALE,0
+ISL,2002,death_rate,Deaths per 100000 population,6.82,,,Y40T44,FEMALE,1140
+ISL,2002,death_rate,Deaths per 100000 population,138.79,,,Y40T44,MALE,0
+ISL,2002,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2002,death_rate,Deaths per 100000 population,123.02,,,Y40T44,TOTAL,0
+ISL,2002,death_rate,Deaths per 100000 population,3.38,,,Y40T44,TOTAL,1140
+ISL,2002,deaths,Deaths,890.41,821.31,963.4,TOTAL,FEMALE,0
+ISL,2002,deaths,Deaths,100.74,80.72,118.72,TOTAL,FEMALE,1140
+ISL,2002,deaths,Deaths,934.85,860.26,1014.52,TOTAL,MALE,0
+ISL,2002,deaths,Deaths,76.02,62.89,88.65,TOTAL,MALE,1140
+ISL,2002,deaths,Deaths,1825.26,1681.58,1977.93,TOTAL,TOTAL,0
+ISL,2002,deaths,Deaths,176.76,143.61,207.37,TOTAL,TOTAL,1140
+ISL,2002,deaths,Deaths,11.29,10.33,12.27,Y40T44,FEMALE,0
+ISL,2002,deaths,Deaths,0.72,0.56,0.93,Y40T44,FEMALE,1140
+ISL,2002,deaths,Deaths,14.93,13.68,16.23,Y40T44,MALE,0
+ISL,2002,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2002,deaths,Deaths,26.22,24.02,28.5,Y40T44,TOTAL,0
+ISL,2002,deaths,Deaths,0.72,0.56,0.93,Y40T44,TOTAL,1140
+ISL,2003,death_rate,Deaths per 100000 population,614.42,,,TOTAL,FEMALE,0
+ISL,2003,death_rate,Deaths per 100000 population,65.94,,,TOTAL,FEMALE,1140
+ISL,2003,death_rate,Deaths per 100000 population,647.24,,,TOTAL,MALE,0
+ISL,2003,death_rate,Deaths per 100000 population,50.08,,,TOTAL,MALE,1140
+ISL,2003,death_rate,Deaths per 100000 population,630.83,,,TOTAL,TOTAL,0
+ISL,2003,death_rate,Deaths per 100000 population,58.01,,,TOTAL,TOTAL,1140
+ISL,2003,death_rate,Deaths per 100000 population,102.84,,,Y40T44,FEMALE,0
+ISL,2003,death_rate,Deaths per 100000 population,10.69,,,Y40T44,FEMALE,1140
+ISL,2003,death_rate,Deaths per 100000 population,128.41,,,Y40T44,MALE,0
+ISL,2003,death_rate,Deaths per 100000 population,10.08,,,Y40T44,MALE,1140
+ISL,2003,death_rate,Deaths per 100000 population,115.71,,,Y40T44,TOTAL,0
+ISL,2003,death_rate,Deaths per 100000 population,10.38,,,Y40T44,TOTAL,1140
+ISL,2003,deaths,Deaths,889.36,821.26,961.44,TOTAL,FEMALE,0
+ISL,2003,deaths,Deaths,95.45,76.53,112.66,TOTAL,FEMALE,1140
+ISL,2003,deaths,Deaths,937.75,861.57,1016.88,TOTAL,MALE,0
+ISL,2003,deaths,Deaths,72.56,59.66,85.28,TOTAL,MALE,1140
+ISL,2003,deaths,Deaths,1827.1,1682.83,1978.32,TOTAL,TOTAL,0
+ISL,2003,deaths,Deaths,168.01,136.19,197.94,TOTAL,TOTAL,1140
+ISL,2003,deaths,Deaths,10.97,10.06,11.95,Y40T44,FEMALE,0
+ISL,2003,deaths,Deaths,1.14,0.89,1.45,Y40T44,FEMALE,1140
+ISL,2003,deaths,Deaths,13.88,12.69,15.12,Y40T44,MALE,0
+ISL,2003,deaths,Deaths,1.09,0.84,1.41,Y40T44,MALE,1140
+ISL,2003,deaths,Deaths,24.85,22.75,27.07,Y40T44,TOTAL,0
+ISL,2003,deaths,Deaths,2.23,1.73,2.86,Y40T44,TOTAL,1140
+ISL,2004,death_rate,Deaths per 100000 population,616.18,,,TOTAL,FEMALE,0
+ISL,2004,death_rate,Deaths per 100000 population,62.94,,,TOTAL,FEMALE,1140
+ISL,2004,death_rate,Deaths per 100000 population,645.64,,,TOTAL,MALE,0
+ISL,2004,death_rate,Deaths per 100000 population,48.28,,,TOTAL,MALE,1140
+ISL,2004,death_rate,Deaths per 100000 population,630.94,,,TOTAL,TOTAL,0
+ISL,2004,death_rate,Deaths per 100000 population,55.59,,,TOTAL,TOTAL,1140
+ISL,2004,death_rate,Deaths per 100000 population,93.87,,,Y40T44,FEMALE,0
+ISL,2004,death_rate,Deaths per 100000 population,7.15,,,Y40T44,FEMALE,1140
+ISL,2004,death_rate,Deaths per 100000 population,117.47,,,Y40T44,MALE,0
+ISL,2004,death_rate,Deaths per 100000 population,11.77,,,Y40T44,MALE,1140
+ISL,2004,death_rate,Deaths per 100000 population,105.77,,,Y40T44,TOTAL,0
+ISL,2004,death_rate,Deaths per 100000 population,9.47,,,Y40T44,TOTAL,1140
+ISL,2004,deaths,Deaths,898.77,830.16,973.91,TOTAL,FEMALE,0
+ISL,2004,deaths,Deaths,91.8,73.48,108.56,TOTAL,FEMALE,1140
+ISL,2004,deaths,Deaths,944.74,870.16,1025.18,TOTAL,MALE,0
+ISL,2004,deaths,Deaths,70.64,58.3,83.11,TOTAL,MALE,1140
+ISL,2004,deaths,Deaths,1843.51,1700.32,1999.09,TOTAL,TOTAL,0
+ISL,2004,deaths,Deaths,162.44,131.78,191.67,TOTAL,TOTAL,1140
+ISL,2004,deaths,Deaths,10.11,9.28,11.06,Y40T44,FEMALE,0
+ISL,2004,deaths,Deaths,0.77,0.61,0.96,Y40T44,FEMALE,1140
+ISL,2004,deaths,Deaths,12.77,11.73,13.95,Y40T44,MALE,0
+ISL,2004,deaths,Deaths,1.28,0.98,1.68,Y40T44,MALE,1140
+ISL,2004,deaths,Deaths,22.89,21.01,25.01,Y40T44,TOTAL,0
+ISL,2004,deaths,Deaths,2.05,1.58,2.64,Y40T44,TOTAL,1140
+ISL,2005,death_rate,Deaths per 100000 population,621.51,,,TOTAL,FEMALE,0
+ISL,2005,death_rate,Deaths per 100000 population,58.92,,,TOTAL,FEMALE,1140
+ISL,2005,death_rate,Deaths per 100000 population,639.91,,,TOTAL,MALE,0
+ISL,2005,death_rate,Deaths per 100000 population,49.73,,,TOTAL,MALE,1140
+ISL,2005,death_rate,Deaths per 100000 population,630.76,,,TOTAL,TOTAL,0
+ISL,2005,death_rate,Deaths per 100000 population,54.3,,,TOTAL,TOTAL,1140
+ISL,2005,death_rate,Deaths per 100000 population,86.02,,,Y40T44,FEMALE,0
+ISL,2005,death_rate,Deaths per 100000 population,5.53,,,Y40T44,FEMALE,1140
+ISL,2005,death_rate,Deaths per 100000 population,114.42,,,Y40T44,MALE,0
+ISL,2005,death_rate,Deaths per 100000 population,13.24,,,Y40T44,MALE,1140
+ISL,2005,death_rate,Deaths per 100000 population,100.33,,,Y40T44,TOTAL,0
+ISL,2005,death_rate,Deaths per 100000 population,9.46,,,Y40T44,TOTAL,1140
+ISL,2005,deaths,Deaths,917.51,846.2,993.78,TOTAL,FEMALE,0
+ISL,2005,deaths,Deaths,86.98,70.48,102.95,TOTAL,FEMALE,1140
+ISL,2005,deaths,Deaths,955,880.36,1035.24,TOTAL,MALE,0
+ISL,2005,deaths,Deaths,74.21,61.46,87.41,TOTAL,MALE,1140
+ISL,2005,deaths,Deaths,1872.51,1726.56,2029.03,TOTAL,TOTAL,0
+ISL,2005,deaths,Deaths,161.19,131.94,190.37,TOTAL,TOTAL,1140
+ISL,2005,deaths,Deaths,9.34,8.6,10.15,Y40T44,FEMALE,0
+ISL,2005,deaths,Deaths,0.6,0.48,0.76,Y40T44,FEMALE,1140
+ISL,2005,deaths,Deaths,12.62,11.53,13.79,Y40T44,MALE,0
+ISL,2005,deaths,Deaths,1.46,1.11,1.93,Y40T44,MALE,1140
+ISL,2005,deaths,Deaths,21.96,20.13,23.94,Y40T44,TOTAL,0
+ISL,2005,deaths,Deaths,2.07,1.59,2.69,Y40T44,TOTAL,1140
+ISL,2006,death_rate,Deaths per 100000 population,622.73,,,TOTAL,FEMALE,0
+ISL,2006,death_rate,Deaths per 100000 population,61.24,,,TOTAL,FEMALE,1140
+ISL,2006,death_rate,Deaths per 100000 population,632.39,,,TOTAL,MALE,0
+ISL,2006,death_rate,Deaths per 100000 population,46.83,,,TOTAL,MALE,1140
+ISL,2006,death_rate,Deaths per 100000 population,627.62,,,TOTAL,TOTAL,0
+ISL,2006,death_rate,Deaths per 100000 population,53.94,,,TOTAL,TOTAL,1140
+ISL,2006,death_rate,Deaths per 100000 population,78.01,,,Y40T44,FEMALE,0
+ISL,2006,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2006,death_rate,Deaths per 100000 population,117.96,,,Y40T44,MALE,0
+ISL,2006,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2006,death_rate,Deaths per 100000 population,98.48,,,Y40T44,TOTAL,0
+ISL,2006,death_rate,Deaths per 100000 population,0,,,Y40T44,TOTAL,1140
+ISL,2006,deaths,Deaths,933.87,862.61,1010.02,TOTAL,FEMALE,0
+ISL,2006,deaths,Deaths,91.84,74.36,108.53,TOTAL,FEMALE,1140
+ISL,2006,deaths,Deaths,973.45,895.25,1056.05,TOTAL,MALE,0
+ISL,2006,deaths,Deaths,72.08,59.86,84.44,TOTAL,MALE,1140
+ISL,2006,deaths,Deaths,1907.32,1757.86,2066.06,TOTAL,TOTAL,0
+ISL,2006,deaths,Deaths,163.92,134.22,192.97,TOTAL,TOTAL,1140
+ISL,2006,deaths,Deaths,8.59,7.9,9.34,Y40T44,FEMALE,0
+ISL,2006,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2006,deaths,Deaths,13.58,12.36,14.87,Y40T44,MALE,0
+ISL,2006,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2006,deaths,Deaths,22.18,20.26,24.21,Y40T44,TOTAL,0
+ISL,2006,deaths,Deaths,0,0,0,Y40T44,TOTAL,1140
+ISL,2007,death_rate,Deaths per 100000 population,624.07,,,TOTAL,FEMALE,0
+ISL,2007,death_rate,Deaths per 100000 population,59.88,,,TOTAL,FEMALE,1140
+ISL,2007,death_rate,Deaths per 100000 population,626.3,,,TOTAL,MALE,0
+ISL,2007,death_rate,Deaths per 100000 population,46.16,,,TOTAL,MALE,1140
+ISL,2007,death_rate,Deaths per 100000 population,625.2,,,TOTAL,TOTAL,0
+ISL,2007,death_rate,Deaths per 100000 population,52.89,,,TOTAL,TOTAL,1140
+ISL,2007,death_rate,Deaths per 100000 population,74.11,,,Y40T44,FEMALE,0
+ISL,2007,death_rate,Deaths per 100000 population,3.68,,,Y40T44,FEMALE,1140
+ISL,2007,death_rate,Deaths per 100000 population,122.01,,,Y40T44,MALE,0
+ISL,2007,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2007,death_rate,Deaths per 100000 population,98.81,,,Y40T44,TOTAL,0
+ISL,2007,death_rate,Deaths per 100000 population,1.79,,,Y40T44,TOTAL,1140
+ISL,2007,deaths,Deaths,954.21,881.73,1033.31,TOTAL,FEMALE,0
+ISL,2007,deaths,Deaths,91.56,73.7,108.68,TOTAL,FEMALE,1140
+ISL,2007,deaths,Deaths,994.39,914.89,1078.05,TOTAL,MALE,0
+ISL,2007,deaths,Deaths,73.29,60.77,86.12,TOTAL,MALE,1140
+ISL,2007,deaths,Deaths,1948.6,1796.62,2111.36,TOTAL,TOTAL,0
+ISL,2007,deaths,Deaths,164.85,134.47,194.8,TOTAL,TOTAL,1140
+ISL,2007,deaths,Deaths,8.26,7.59,9.01,Y40T44,FEMALE,0
+ISL,2007,deaths,Deaths,0.41,0.31,0.52,Y40T44,FEMALE,1140
+ISL,2007,deaths,Deaths,14.42,13.13,15.71,Y40T44,MALE,0
+ISL,2007,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2007,deaths,Deaths,22.69,20.73,24.72,Y40T44,TOTAL,0
+ISL,2007,deaths,Deaths,0.41,0.31,0.52,Y40T44,TOTAL,1140
+ISL,2008,death_rate,Deaths per 100000 population,621.74,,,TOTAL,FEMALE,0
+ISL,2008,death_rate,Deaths per 100000 population,59.73,,,TOTAL,FEMALE,1140
+ISL,2008,death_rate,Deaths per 100000 population,625.32,,,TOTAL,MALE,0
+ISL,2008,death_rate,Deaths per 100000 population,43.27,,,TOTAL,MALE,1140
+ISL,2008,death_rate,Deaths per 100000 population,623.56,,,TOTAL,TOTAL,0
+ISL,2008,death_rate,Deaths per 100000 population,51.36,,,TOTAL,TOTAL,1140
+ISL,2008,death_rate,Deaths per 100000 population,71.62,,,Y40T44,FEMALE,0
+ISL,2008,death_rate,Deaths per 100000 population,3.07,,,Y40T44,FEMALE,1140
+ISL,2008,death_rate,Deaths per 100000 population,124.74,,,Y40T44,MALE,0
+ISL,2008,death_rate,Deaths per 100000 population,2.59,,,Y40T44,MALE,1140
+ISL,2008,death_rate,Deaths per 100000 population,98.81,,,Y40T44,TOTAL,0
+ISL,2008,death_rate,Deaths per 100000 population,2.83,,,Y40T44,TOTAL,1140
+ISL,2008,deaths,Deaths,969.97,894.07,1050.32,TOTAL,FEMALE,0
+ISL,2008,deaths,Deaths,93.19,74.36,111.04,TOTAL,FEMALE,1140
+ISL,2008,deaths,Deaths,1010.06,928.63,1094.49,TOTAL,MALE,0
+ISL,2008,deaths,Deaths,69.9,58.72,81.65,TOTAL,MALE,1140
+ISL,2008,deaths,Deaths,1980.03,1822.7,2144.81,TOTAL,TOTAL,0
+ISL,2008,deaths,Deaths,163.1,133.08,192.69,TOTAL,TOTAL,1140
+ISL,2008,deaths,Deaths,7.92,7.25,8.64,Y40T44,FEMALE,0
+ISL,2008,deaths,Deaths,0.34,0.27,0.43,Y40T44,FEMALE,1140
+ISL,2008,deaths,Deaths,14.46,13.22,15.78,Y40T44,MALE,0
+ISL,2008,deaths,Deaths,0.3,0.23,0.39,Y40T44,MALE,1140
+ISL,2008,deaths,Deaths,22.38,20.46,24.41,Y40T44,TOTAL,0
+ISL,2008,deaths,Deaths,0.64,0.5,0.82,Y40T44,TOTAL,1140
+ISL,2009,death_rate,Deaths per 100000 population,619.81,,,TOTAL,FEMALE,0
+ISL,2009,death_rate,Deaths per 100000 population,56.51,,,TOTAL,FEMALE,1140
+ISL,2009,death_rate,Deaths per 100000 population,630.21,,,TOTAL,MALE,0
+ISL,2009,death_rate,Deaths per 100000 population,42.23,,,TOTAL,MALE,1140
+ISL,2009,death_rate,Deaths per 100000 population,625.06,,,TOTAL,TOTAL,0
+ISL,2009,death_rate,Deaths per 100000 population,49.29,,,TOTAL,TOTAL,1140
+ISL,2009,death_rate,Deaths per 100000 population,75.87,,,Y40T44,FEMALE,0
+ISL,2009,death_rate,Deaths per 100000 population,3.8,,,Y40T44,FEMALE,1140
+ISL,2009,death_rate,Deaths per 100000 population,127.95,,,Y40T44,MALE,0
+ISL,2009,death_rate,Deaths per 100000 population,2.43,,,Y40T44,MALE,1140
+ISL,2009,death_rate,Deaths per 100000 population,102.29,,,Y40T44,TOTAL,0
+ISL,2009,death_rate,Deaths per 100000 population,3.11,,,Y40T44,TOTAL,1140
+ISL,2009,deaths,Deaths,976.73,902.05,1056.97,TOTAL,FEMALE,0
+ISL,2009,deaths,Deaths,89.05,71.41,106.13,TOTAL,FEMALE,1140
+ISL,2009,deaths,Deaths,1014.97,934.21,1100.23,TOTAL,MALE,0
+ISL,2009,deaths,Deaths,68.01,57,79.41,TOTAL,MALE,1140
+ISL,2009,deaths,Deaths,1991.69,1836.26,2157.2,TOTAL,TOTAL,0
+ISL,2009,deaths,Deaths,157.05,128.41,185.55,TOTAL,TOTAL,1140
+ISL,2009,deaths,Deaths,8.18,7.55,8.95,Y40T44,FEMALE,0
+ISL,2009,deaths,Deaths,0.41,0.32,0.53,Y40T44,FEMALE,1140
+ISL,2009,deaths,Deaths,14.2,13.03,15.37,Y40T44,MALE,0
+ISL,2009,deaths,Deaths,0.27,0.2,0.34,Y40T44,MALE,1140
+ISL,2009,deaths,Deaths,22.38,20.58,24.32,Y40T44,TOTAL,0
+ISL,2009,deaths,Deaths,0.68,0.53,0.87,Y40T44,TOTAL,1140
+ISL,2010,death_rate,Deaths per 100000 population,622.24,,,TOTAL,FEMALE,0
+ISL,2010,death_rate,Deaths per 100000 population,59.58,,,TOTAL,FEMALE,1140
+ISL,2010,death_rate,Deaths per 100000 population,634.77,,,TOTAL,MALE,0
+ISL,2010,death_rate,Deaths per 100000 population,42.07,,,TOTAL,MALE,1140
+ISL,2010,death_rate,Deaths per 100000 population,628.54,,,TOTAL,TOTAL,0
+ISL,2010,death_rate,Deaths per 100000 population,50.77,,,TOTAL,TOTAL,1140
+ISL,2010,death_rate,Deaths per 100000 population,77.38,,,Y40T44,FEMALE,0
+ISL,2010,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2010,death_rate,Deaths per 100000 population,129.53,,,Y40T44,MALE,0
+ISL,2010,death_rate,Deaths per 100000 population,4.15,,,Y40T44,MALE,1140
+ISL,2010,death_rate,Deaths per 100000 population,103.65,,,Y40T44,TOTAL,0
+ISL,2010,death_rate,Deaths per 100000 population,2.09,,,Y40T44,TOTAL,1140
+ISL,2010,deaths,Deaths,984.1,908.33,1065.88,TOTAL,FEMALE,0
+ISL,2010,deaths,Deaths,94.23,74.84,112.22,TOTAL,FEMALE,1140
+ISL,2010,deaths,Deaths,1015.78,935.48,1100.75,TOTAL,MALE,0
+ISL,2010,deaths,Deaths,67.32,56.44,79.2,TOTAL,MALE,1140
+ISL,2010,deaths,Deaths,1999.88,1843.81,2166.64,TOTAL,TOTAL,0
+ISL,2010,deaths,Deaths,161.55,131.28,191.42,TOTAL,TOTAL,1140
+ISL,2010,deaths,Deaths,8.09,7.44,8.83,Y40T44,FEMALE,0
+ISL,2010,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2010,deaths,Deaths,13.75,12.58,14.88,Y40T44,MALE,0
+ISL,2010,deaths,Deaths,0.44,0.33,0.57,Y40T44,MALE,1140
+ISL,2010,deaths,Deaths,21.84,20.03,23.71,Y40T44,TOTAL,0
+ISL,2010,deaths,Deaths,0.44,0.33,0.57,Y40T44,TOTAL,1140
+ISL,2011,death_rate,Deaths per 100000 population,625.27,,,TOTAL,FEMALE,0
+ISL,2011,death_rate,Deaths per 100000 population,58.46,,,TOTAL,FEMALE,1140
+ISL,2011,death_rate,Deaths per 100000 population,635.88,,,TOTAL,MALE,0
+ISL,2011,death_rate,Deaths per 100000 population,39.18,,,TOTAL,MALE,1140
+ISL,2011,death_rate,Deaths per 100000 population,630.6,,,TOTAL,TOTAL,0
+ISL,2011,death_rate,Deaths per 100000 population,48.78,,,TOTAL,TOTAL,1140
+ISL,2011,death_rate,Deaths per 100000 population,81.09,,,Y40T44,FEMALE,0
+ISL,2011,death_rate,Deaths per 100000 population,6.49,,,Y40T44,FEMALE,1140
+ISL,2011,death_rate,Deaths per 100000 population,127,,,Y40T44,MALE,0
+ISL,2011,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2011,death_rate,Deaths per 100000 population,104.18,,,Y40T44,TOTAL,0
+ISL,2011,death_rate,Deaths per 100000 population,3.23,,,Y40T44,TOTAL,1140
+ISL,2011,deaths,Deaths,993.73,916.09,1075.03,TOTAL,FEMALE,0
+ISL,2011,deaths,Deaths,92.91,73.59,111.19,TOTAL,FEMALE,1140
+ISL,2011,deaths,Deaths,1018.92,939.78,1103.49,TOTAL,MALE,0
+ISL,2011,deaths,Deaths,62.78,52.65,74.16,TOTAL,MALE,1140
+ISL,2011,deaths,Deaths,2012.66,1855.87,2178.53,TOTAL,TOTAL,0
+ISL,2011,deaths,Deaths,155.69,126.24,185.35,TOTAL,TOTAL,1140
+ISL,2011,deaths,Deaths,8.25,7.57,8.98,Y40T44,FEMALE,0
+ISL,2011,deaths,Deaths,0.66,0.52,0.82,Y40T44,FEMALE,1140
+ISL,2011,deaths,Deaths,13.07,12.05,14.21,Y40T44,MALE,0
+ISL,2011,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2011,deaths,Deaths,21.32,19.62,23.18,Y40T44,TOTAL,0
+ISL,2011,deaths,Deaths,0.66,0.52,0.82,Y40T44,TOTAL,1140
+ISL,2012,death_rate,Deaths per 100000 population,631.47,,,TOTAL,FEMALE,0
+ISL,2012,death_rate,Deaths per 100000 population,54.56,,,TOTAL,FEMALE,1140
+ISL,2012,death_rate,Deaths per 100000 population,641.45,,,TOTAL,MALE,0
+ISL,2012,death_rate,Deaths per 100000 population,36.25,,,TOTAL,MALE,1140
+ISL,2012,death_rate,Deaths per 100000 population,636.48,,,TOTAL,TOTAL,0
+ISL,2012,death_rate,Deaths per 100000 population,45.37,,,TOTAL,TOTAL,1140
+ISL,2012,death_rate,Deaths per 100000 population,85.37,,,Y40T44,FEMALE,0
+ISL,2012,death_rate,Deaths per 100000 population,5.24,,,Y40T44,FEMALE,1140
+ISL,2012,death_rate,Deaths per 100000 population,125.1,,,Y40T44,MALE,0
+ISL,2012,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2012,death_rate,Deaths per 100000 population,105.42,,,Y40T44,TOTAL,0
+ISL,2012,death_rate,Deaths per 100000 population,2.6,,,Y40T44,TOTAL,1140
+ISL,2012,deaths,Deaths,1009.78,932.47,1090.38,TOTAL,FEMALE,0
+ISL,2012,deaths,Deaths,87.25,69.27,104.08,TOTAL,FEMALE,1140
+ISL,2012,deaths,Deaths,1032.42,950.41,1117.97,TOTAL,MALE,0
+ISL,2012,deaths,Deaths,58.34,48.69,69.22,TOTAL,MALE,1140
+ISL,2012,deaths,Deaths,2042.2,1882.88,2208.35,TOTAL,TOTAL,0
+ISL,2012,deaths,Deaths,145.59,117.96,173.3,TOTAL,TOTAL,1140
+ISL,2012,deaths,Deaths,8.64,7.9,9.42,Y40T44,FEMALE,0
+ISL,2012,deaths,Deaths,0.53,0.42,0.66,Y40T44,FEMALE,1140
+ISL,2012,deaths,Deaths,12.84,11.8,13.99,Y40T44,MALE,0
+ISL,2012,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2012,deaths,Deaths,21.49,19.7,23.41,Y40T44,TOTAL,0
+ISL,2012,deaths,Deaths,0.53,0.42,0.66,Y40T44,TOTAL,1140
+ISL,2013,death_rate,Deaths per 100000 population,637.02,,,TOTAL,FEMALE,0
+ISL,2013,death_rate,Deaths per 100000 population,49.14,,,TOTAL,FEMALE,1140
+ISL,2013,death_rate,Deaths per 100000 population,645.51,,,TOTAL,MALE,0
+ISL,2013,death_rate,Deaths per 100000 population,36.85,,,TOTAL,MALE,1140
+ISL,2013,death_rate,Deaths per 100000 population,641.27,,,TOTAL,TOTAL,0
+ISL,2013,death_rate,Deaths per 100000 population,42.98,,,TOTAL,TOTAL,1140
+ISL,2013,death_rate,Deaths per 100000 population,89.03,,,Y40T44,FEMALE,0
+ISL,2013,death_rate,Deaths per 100000 population,6.2,,,Y40T44,FEMALE,1140
+ISL,2013,death_rate,Deaths per 100000 population,122.73,,,Y40T44,MALE,0
+ISL,2013,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2013,death_rate,Deaths per 100000 population,106.01,,,Y40T44,TOTAL,0
+ISL,2013,death_rate,Deaths per 100000 population,3.08,,,Y40T44,TOTAL,1140
+ISL,2013,deaths,Deaths,1028.67,948.48,1113.04,TOTAL,FEMALE,0
+ISL,2013,deaths,Deaths,79.36,61.98,94.45,TOTAL,FEMALE,1140
+ISL,2013,deaths,Deaths,1048.45,966.09,1135.17,TOTAL,MALE,0
+ISL,2013,deaths,Deaths,59.85,50.01,71.3,TOTAL,MALE,1140
+ISL,2013,deaths,Deaths,2077.11,1914.57,2248.21,TOTAL,TOTAL,0
+ISL,2013,deaths,Deaths,139.21,111.99,165.75,TOTAL,TOTAL,1140
+ISL,2013,deaths,Deaths,9.19,8.41,10.04,Y40T44,FEMALE,0
+ISL,2013,deaths,Deaths,0.64,0.5,0.8,Y40T44,FEMALE,1140
+ISL,2013,deaths,Deaths,12.86,11.87,13.98,Y40T44,MALE,0
+ISL,2013,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2013,deaths,Deaths,22.05,20.28,24.01,Y40T44,TOTAL,0
+ISL,2013,deaths,Deaths,0.64,0.5,0.8,Y40T44,TOTAL,1140
+ISL,2014,death_rate,Deaths per 100000 population,646.53,,,TOTAL,FEMALE,0
+ISL,2014,death_rate,Deaths per 100000 population,50.69,,,TOTAL,FEMALE,1140
+ISL,2014,death_rate,Deaths per 100000 population,652.14,,,TOTAL,MALE,0
+ISL,2014,death_rate,Deaths per 100000 population,37.88,,,TOTAL,MALE,1140
+ISL,2014,death_rate,Deaths per 100000 population,649.35,,,TOTAL,TOTAL,0
+ISL,2014,death_rate,Deaths per 100000 population,44.26,,,TOTAL,TOTAL,1140
+ISL,2014,death_rate,Deaths per 100000 population,83.93,,,Y40T44,FEMALE,0
+ISL,2014,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2014,death_rate,Deaths per 100000 population,119.24,,,Y40T44,MALE,0
+ISL,2014,death_rate,Deaths per 100000 population,3.84,,,Y40T44,MALE,1140
+ISL,2014,death_rate,Deaths per 100000 population,101.77,,,Y40T44,TOTAL,0
+ISL,2014,death_rate,Deaths per 100000 population,1.94,,,Y40T44,TOTAL,1140
+ISL,2014,deaths,Deaths,1055.33,974.53,1138.76,TOTAL,FEMALE,0
+ISL,2014,deaths,Deaths,82.74,64.96,98.57,TOTAL,FEMALE,1140
+ISL,2014,deaths,Deaths,1071.5,988.16,1159.65,TOTAL,MALE,0
+ISL,2014,deaths,Deaths,62.24,51.53,74.24,TOTAL,MALE,1140
+ISL,2014,deaths,Deaths,2126.83,1962.68,2298.41,TOTAL,TOTAL,0
+ISL,2014,deaths,Deaths,144.98,116.49,172.81,TOTAL,TOTAL,1140
+ISL,2014,deaths,Deaths,8.78,8.08,9.58,Y40T44,FEMALE,0
+ISL,2014,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2014,deaths,Deaths,12.74,11.77,13.84,Y40T44,MALE,0
+ISL,2014,deaths,Deaths,0.41,0.31,0.54,Y40T44,MALE,1140
+ISL,2014,deaths,Deaths,21.52,19.85,23.42,Y40T44,TOTAL,0
+ISL,2014,deaths,Deaths,0.41,0.31,0.54,Y40T44,TOTAL,1140
+ISL,2015,death_rate,Deaths per 100000 population,654.13,,,TOTAL,FEMALE,0
+ISL,2015,death_rate,Deaths per 100000 population,48.11,,,TOTAL,FEMALE,1140
+ISL,2015,death_rate,Deaths per 100000 population,661.66,,,TOTAL,MALE,0
+ISL,2015,death_rate,Deaths per 100000 population,38.7,,,TOTAL,MALE,1140
+ISL,2015,death_rate,Deaths per 100000 population,657.91,,,TOTAL,TOTAL,0
+ISL,2015,death_rate,Deaths per 100000 population,43.38,,,TOTAL,TOTAL,1140
+ISL,2015,death_rate,Deaths per 100000 population,73.64,,,Y40T44,FEMALE,0
+ISL,2015,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2015,death_rate,Deaths per 100000 population,115.76,,,Y40T44,MALE,0
+ISL,2015,death_rate,Deaths per 100000 population,4.04,,,Y40T44,MALE,1140
+ISL,2015,death_rate,Deaths per 100000 population,95,,,Y40T44,TOTAL,0
+ISL,2015,death_rate,Deaths per 100000 population,2.05,,,Y40T44,TOTAL,1140
+ISL,2015,deaths,Deaths,1077.31,994.68,1165.35,TOTAL,FEMALE,0
+ISL,2015,deaths,Deaths,79.24,62.42,94.16,TOTAL,FEMALE,1140
+ISL,2015,deaths,Deaths,1100.2,1013.72,1192.18,TOTAL,MALE,0
+ISL,2015,deaths,Deaths,64.35,53.22,76.73,TOTAL,MALE,1140
+ISL,2015,deaths,Deaths,2177.51,2008.4,2357.53,TOTAL,TOTAL,0
+ISL,2015,deaths,Deaths,143.59,115.64,170.89,TOTAL,TOTAL,1140
+ISL,2015,deaths,Deaths,7.8,7.14,8.5,Y40T44,FEMALE,0
+ISL,2015,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2015,deaths,Deaths,12.61,11.61,13.76,Y40T44,MALE,0
+ISL,2015,deaths,Deaths,0.44,0.33,0.57,Y40T44,MALE,1140
+ISL,2015,deaths,Deaths,20.41,18.75,22.26,Y40T44,TOTAL,0
+ISL,2015,deaths,Deaths,0.44,0.33,0.57,Y40T44,TOTAL,1140
+ISL,2016,death_rate,Deaths per 100000 population,659.53,,,TOTAL,FEMALE,0
+ISL,2016,death_rate,Deaths per 100000 population,46.31,,,TOTAL,FEMALE,1140
+ISL,2016,death_rate,Deaths per 100000 population,662.17,,,TOTAL,MALE,0
+ISL,2016,death_rate,Deaths per 100000 population,36.82,,,TOTAL,MALE,1140
+ISL,2016,death_rate,Deaths per 100000 population,660.87,,,TOTAL,TOTAL,0
+ISL,2016,death_rate,Deaths per 100000 population,41.52,,,TOTAL,TOTAL,1140
+ISL,2016,death_rate,Deaths per 100000 population,65.82,,,Y40T44,FEMALE,0
+ISL,2016,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2016,death_rate,Deaths per 100000 population,118.63,,,Y40T44,MALE,0
+ISL,2016,death_rate,Deaths per 100000 population,4.01,,,Y40T44,MALE,1140
+ISL,2016,death_rate,Deaths per 100000 population,92.72,,,Y40T44,TOTAL,0
+ISL,2016,death_rate,Deaths per 100000 population,2.04,,,Y40T44,TOTAL,1140
+ISL,2016,deaths,Deaths,1097.42,1013.23,1186.97,TOTAL,FEMALE,0
+ISL,2016,deaths,Deaths,77.05,59.99,91.62,TOTAL,FEMALE,1140
+ISL,2016,deaths,Deaths,1120.38,1032.3,1213.39,TOTAL,MALE,0
+ISL,2016,deaths,Deaths,62.3,51.68,73.79,TOTAL,MALE,1140
+ISL,2016,deaths,Deaths,2217.81,2045.53,2400.36,TOTAL,TOTAL,0
+ISL,2016,deaths,Deaths,139.35,111.67,165.41,TOTAL,TOTAL,1140
+ISL,2016,deaths,Deaths,7.11,6.53,7.7,Y40T44,FEMALE,0
+ISL,2016,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2016,deaths,Deaths,13.31,12.19,14.52,Y40T44,MALE,0
+ISL,2016,deaths,Deaths,0.45,0.34,0.57,Y40T44,MALE,1140
+ISL,2016,deaths,Deaths,20.42,18.72,22.22,Y40T44,TOTAL,0
+ISL,2016,deaths,Deaths,0.45,0.34,0.57,Y40T44,TOTAL,1140
+ISL,2017,death_rate,Deaths per 100000 population,657.92,,,TOTAL,FEMALE,0
+ISL,2017,death_rate,Deaths per 100000 population,43.04,,,TOTAL,FEMALE,1140
+ISL,2017,death_rate,Deaths per 100000 population,656.57,,,TOTAL,MALE,0
+ISL,2017,death_rate,Deaths per 100000 population,35.35,,,TOTAL,MALE,1140
+ISL,2017,death_rate,Deaths per 100000 population,657.23,,,TOTAL,TOTAL,0
+ISL,2017,death_rate,Deaths per 100000 population,39.13,,,TOTAL,TOTAL,1140
+ISL,2017,death_rate,Deaths per 100000 population,59.59,,,Y40T44,FEMALE,0
+ISL,2017,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2017,death_rate,Deaths per 100000 population,126.14,,,Y40T44,MALE,0
+ISL,2017,death_rate,Deaths per 100000 population,3.63,,,Y40T44,MALE,1140
+ISL,2017,death_rate,Deaths per 100000 population,93.89,,,Y40T44,TOTAL,0
+ISL,2017,death_rate,Deaths per 100000 population,1.87,,,Y40T44,TOTAL,1140
+ISL,2017,deaths,Deaths,1113.11,1028.89,1202.76,TOTAL,FEMALE,0
+ISL,2017,deaths,Deaths,72.82,57.21,86.76,TOTAL,FEMALE,1140
+ISL,2017,deaths,Deaths,1144.79,1054.57,1239.57,TOTAL,MALE,0
+ISL,2017,deaths,Deaths,61.63,51.19,73.38,TOTAL,MALE,1140
+ISL,2017,deaths,Deaths,2257.9,2083.46,2442.32,TOTAL,TOTAL,0
+ISL,2017,deaths,Deaths,134.44,108.4,160.14,TOTAL,TOTAL,1140
+ISL,2017,deaths,Deaths,6.49,5.94,7.04,Y40T44,FEMALE,0
+ISL,2017,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2017,deaths,Deaths,14.61,13.36,15.9,Y40T44,MALE,0
+ISL,2017,deaths,Deaths,0.42,0.32,0.54,Y40T44,MALE,1140
+ISL,2017,deaths,Deaths,21.1,19.3,22.94,Y40T44,TOTAL,0
+ISL,2017,deaths,Deaths,0.42,0.32,0.54,Y40T44,TOTAL,1140
+ISL,2018,death_rate,Deaths per 100000 population,655.4,,,TOTAL,FEMALE,0
+ISL,2018,death_rate,Deaths per 100000 population,42.08,,,TOTAL,FEMALE,1140
+ISL,2018,death_rate,Deaths per 100000 population,650.98,,,TOTAL,MALE,0
+ISL,2018,death_rate,Deaths per 100000 population,35.12,,,TOTAL,MALE,1140
+ISL,2018,death_rate,Deaths per 100000 population,653.14,,,TOTAL,TOTAL,0
+ISL,2018,death_rate,Deaths per 100000 population,38.53,,,TOTAL,TOTAL,1140
+ISL,2018,death_rate,Deaths per 100000 population,55.54,,,Y40T44,FEMALE,0
+ISL,2018,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2018,death_rate,Deaths per 100000 population,134.1,,,Y40T44,MALE,0
+ISL,2018,death_rate,Deaths per 100000 population,3.19,,,Y40T44,MALE,1140
+ISL,2018,death_rate,Deaths per 100000 population,96.45,,,Y40T44,TOTAL,0
+ISL,2018,death_rate,Deaths per 100000 population,1.66,,,Y40T44,TOTAL,1140
+ISL,2018,deaths,Deaths,1131.27,1046.6,1221.63,TOTAL,FEMALE,0
+ISL,2018,deaths,Deaths,72.63,56.48,86.85,TOTAL,FEMALE,1140
+ISL,2018,deaths,Deaths,1173.5,1082.45,1269.39,TOTAL,MALE,0
+ISL,2018,deaths,Deaths,63.31,52.39,75.88,TOTAL,MALE,1140
+ISL,2018,deaths,Deaths,2304.77,2129.05,2491.02,TOTAL,TOTAL,0
+ISL,2018,deaths,Deaths,135.95,108.87,162.73,TOTAL,TOTAL,1140
+ISL,2018,deaths,Deaths,6.08,5.58,6.59,Y40T44,FEMALE,0
+ISL,2018,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2018,deaths,Deaths,15.95,14.68,17.23,Y40T44,MALE,0
+ISL,2018,deaths,Deaths,0.38,0.29,0.48,Y40T44,MALE,1140
+ISL,2018,deaths,Deaths,22.03,20.26,23.82,Y40T44,TOTAL,0
+ISL,2018,deaths,Deaths,0.38,0.29,0.48,Y40T44,TOTAL,1140
+ISL,2019,death_rate,Deaths per 100000 population,648.93,,,TOTAL,FEMALE,0
+ISL,2019,death_rate,Deaths per 100000 population,42.31,,,TOTAL,FEMALE,1140
+ISL,2019,death_rate,Deaths per 100000 population,638.68,,,TOTAL,MALE,0
+ISL,2019,death_rate,Deaths per 100000 population,31.59,,,TOTAL,MALE,1140
+ISL,2019,death_rate,Deaths per 100000 population,643.67,,,TOTAL,TOTAL,0
+ISL,2019,death_rate,Deaths per 100000 population,36.81,,,TOTAL,TOTAL,1140
+ISL,2019,death_rate,Deaths per 100000 population,74.57,,,Y40T44,FEMALE,0
+ISL,2019,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2019,death_rate,Deaths per 100000 population,151,,,Y40T44,MALE,0
+ISL,2019,death_rate,Deaths per 100000 population,2.93,,,Y40T44,MALE,1140
+ISL,2019,death_rate,Deaths per 100000 population,114.51,,,Y40T44,TOTAL,0
+ISL,2019,death_rate,Deaths per 100000 population,1.53,,,Y40T44,TOTAL,1140
+ISL,2019,deaths,Deaths,1140.68,1061.63,1226.81,TOTAL,FEMALE,0
+ISL,2019,deaths,Deaths,74.37,57.55,89.35,TOTAL,FEMALE,1140
+ISL,2019,deaths,Deaths,1181.16,1093.83,1271.62,TOTAL,MALE,0
+ISL,2019,deaths,Deaths,58.43,48.13,70.04,TOTAL,MALE,1140
+ISL,2019,deaths,Deaths,2321.84,2155.45,2498.43,TOTAL,TOTAL,0
+ISL,2019,deaths,Deaths,132.79,105.68,159.39,TOTAL,TOTAL,1140
+ISL,2019,deaths,Deaths,8.38,7.67,9.13,Y40T44,FEMALE,0
+ISL,2019,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2019,deaths,Deaths,18.57,16.98,20.16,Y40T44,MALE,0
+ISL,2019,deaths,Deaths,0.36,0.27,0.47,Y40T44,MALE,1140
+ISL,2019,deaths,Deaths,26.95,24.65,29.29,Y40T44,TOTAL,0
+ISL,2019,deaths,Deaths,0.36,0.27,0.47,Y40T44,TOTAL,1140
+ISL,2020,death_rate,Deaths per 100000 population,642.98,,,TOTAL,FEMALE,0
+ISL,2020,death_rate,Deaths per 100000 population,42.97,,,TOTAL,FEMALE,1140
+ISL,2020,death_rate,Deaths per 100000 population,630.55,,,TOTAL,MALE,0
+ISL,2020,death_rate,Deaths per 100000 population,27.74,,,TOTAL,MALE,1140
+ISL,2020,death_rate,Deaths per 100000 population,636.6,,,TOTAL,TOTAL,0
+ISL,2020,death_rate,Deaths per 100000 population,35.16,,,TOTAL,TOTAL,1140
+ISL,2020,death_rate,Deaths per 100000 population,90.1,,,Y40T44,FEMALE,0
+ISL,2020,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2020,death_rate,Deaths per 100000 population,161,,,Y40T44,MALE,0
+ISL,2020,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2020,death_rate,Deaths per 100000 population,127.13,,,Y40T44,TOTAL,0
+ISL,2020,death_rate,Deaths per 100000 population,0,,,Y40T44,TOTAL,1140
+ISL,2020,deaths,Deaths,1148.24,1074.48,1227.06,TOTAL,FEMALE,0
+ISL,2020,deaths,Deaths,76.73,59.98,91.55,TOTAL,FEMALE,1140
+ISL,2020,deaths,Deaths,1185.78,1103.64,1271.28,TOTAL,MALE,0
+ISL,2020,deaths,Deaths,52.17,43.21,62.14,TOTAL,MALE,1140
+ISL,2020,deaths,Deaths,2334.01,2178.12,2498.35,TOTAL,TOTAL,0
+ISL,2020,deaths,Deaths,128.91,103.19,153.69,TOTAL,TOTAL,1140
+ISL,2020,deaths,Deaths,10.47,9.58,11.42,Y40T44,FEMALE,0
+ISL,2020,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2020,deaths,Deaths,20.46,18.74,22.35,Y40T44,MALE,0
+ISL,2020,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2020,deaths,Deaths,30.93,28.32,33.77,Y40T44,TOTAL,0
+ISL,2020,deaths,Deaths,0,0,0,Y40T44,TOTAL,1140
+ISL,2021,death_rate,Deaths per 100000 population,667.91,,,TOTAL,FEMALE,0
+ISL,2021,death_rate,Deaths per 100000 population,45.12,,,TOTAL,FEMALE,1140
+ISL,2021,death_rate,Deaths per 100000 population,656.69,,,TOTAL,MALE,0
+ISL,2021,death_rate,Deaths per 100000 population,26.54,,,TOTAL,MALE,1140
+ISL,2021,death_rate,Deaths per 100000 population,662.16,,,TOTAL,TOTAL,0
+ISL,2021,death_rate,Deaths per 100000 population,35.6,,,TOTAL,TOTAL,1140
+ISL,2021,death_rate,Deaths per 100000 population,93.21,,,Y40T44,FEMALE,0
+ISL,2021,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2021,death_rate,Deaths per 100000 population,169.55,,,Y40T44,MALE,0
+ISL,2021,death_rate,Deaths per 100000 population,0,,,Y40T44,MALE,1140
+ISL,2021,death_rate,Deaths per 100000 population,133.12,,,Y40T44,TOTAL,0
+ISL,2021,death_rate,Deaths per 100000 population,0,,,Y40T44,TOTAL,1140
+ISL,2021,deaths,Deaths,1213.46,1126.1,1304.38,TOTAL,FEMALE,0
+ISL,2021,deaths,Deaths,81.98,63.58,97.92,TOTAL,FEMALE,1140
+ISL,2021,deaths,Deaths,1254.16,1155.78,1355.25,TOTAL,MALE,0
+ISL,2021,deaths,Deaths,50.68,41.65,60.61,TOTAL,MALE,1140
+ISL,2021,deaths,Deaths,2467.62,2281.88,2659.62,TOTAL,TOTAL,0
+ISL,2021,deaths,Deaths,132.66,105.23,158.54,TOTAL,TOTAL,1140
+ISL,2021,deaths,Deaths,11.1,10.02,12.26,Y40T44,FEMALE,0
+ISL,2021,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2021,deaths,Deaths,22.12,19.88,24.47,Y40T44,MALE,0
+ISL,2021,deaths,Deaths,0,0,0,Y40T44,MALE,1140
+ISL,2021,deaths,Deaths,33.22,29.9,36.74,Y40T44,TOTAL,0
+ISL,2021,deaths,Deaths,0,0,0,Y40T44,TOTAL,1140
+ISL,2022,death_rate,Deaths per 100000 population,663.02,,,TOTAL,FEMALE,0
+ISL,2022,death_rate,Deaths per 100000 population,37.46,,,TOTAL,FEMALE,1140
+ISL,2022,death_rate,Deaths per 100000 population,685.87,,,TOTAL,MALE,0
+ISL,2022,death_rate,Deaths per 100000 population,26.81,,,TOTAL,MALE,1140
+ISL,2022,death_rate,Deaths per 100000 population,674.72,,,TOTAL,TOTAL,0
+ISL,2022,death_rate,Deaths per 100000 population,32,,,TOTAL,TOTAL,1140
+ISL,2022,death_rate,Deaths per 100000 population,108.3,,,Y40T44,FEMALE,0
+ISL,2022,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2022,death_rate,Deaths per 100000 population,171.18,,,Y40T44,MALE,0
+ISL,2022,death_rate,Deaths per 100000 population,6.26,,,Y40T44,MALE,1140
+ISL,2022,death_rate,Deaths per 100000 population,141.34,,,Y40T44,TOTAL,0
+ISL,2022,death_rate,Deaths per 100000 population,3.29,,,Y40T44,TOTAL,1140
+ISL,2022,deaths,Deaths,1230,1097.05,1376.29,TOTAL,FEMALE,0
+ISL,2022,deaths,Deaths,69.49,53.4,85.19,TOTAL,FEMALE,1140
+ISL,2022,deaths,Deaths,1336.45,1185.15,1500.22,TOTAL,MALE,0
+ISL,2022,deaths,Deaths,52.24,41.7,64.07,TOTAL,MALE,1140
+ISL,2022,deaths,Deaths,2566.45,2282.2,2876.51,TOTAL,TOTAL,0
+ISL,2022,deaths,Deaths,121.73,95.11,149.26,TOTAL,TOTAL,1140
+ISL,2022,deaths,Deaths,13.26,11.7,15.08,Y40T44,FEMALE,0
+ISL,2022,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2022,deaths,Deaths,23.26,20.55,26.55,Y40T44,MALE,0
+ISL,2022,deaths,Deaths,0.85,0.62,1.13,Y40T44,MALE,1140
+ISL,2022,deaths,Deaths,36.51,32.25,41.63,Y40T44,TOTAL,0
+ISL,2022,deaths,Deaths,0.85,0.62,1.13,Y40T44,TOTAL,1140
+ISL,2023,death_rate,Deaths per 100000 population,673.65,,,TOTAL,FEMALE,0
+ISL,2023,death_rate,Deaths per 100000 population,38.97,,,TOTAL,FEMALE,1140
+ISL,2023,death_rate,Deaths per 100000 population,720.19,,,TOTAL,MALE,0
+ISL,2023,death_rate,Deaths per 100000 population,29.45,,,TOTAL,MALE,1140
+ISL,2023,death_rate,Deaths per 100000 population,697.48,,,TOTAL,TOTAL,0
+ISL,2023,death_rate,Deaths per 100000 population,34.09,,,TOTAL,TOTAL,1140
+ISL,2023,death_rate,Deaths per 100000 population,114.26,,,Y40T44,FEMALE,0
+ISL,2023,death_rate,Deaths per 100000 population,0,,,Y40T44,FEMALE,1140
+ISL,2023,death_rate,Deaths per 100000 population,175.29,,,Y40T44,MALE,0
+ISL,2023,death_rate,Deaths per 100000 population,9.37,,,Y40T44,MALE,1140
+ISL,2023,death_rate,Deaths per 100000 population,146.55,,,Y40T44,TOTAL,0
+ISL,2023,death_rate,Deaths per 100000 population,4.96,,,Y40T44,TOTAL,1140
+ISL,2023,deaths,Deaths,1274.15,1120.77,1444.43,TOTAL,FEMALE,0
+ISL,2023,deaths,Deaths,73.7,56.3,91.23,TOTAL,FEMALE,1140
+ISL,2023,deaths,Deaths,1429.14,1251.04,1622.22,TOTAL,MALE,0
+ISL,2023,deaths,Deaths,58.44,46.44,72.17,TOTAL,MALE,1140
+ISL,2023,deaths,Deaths,2703.29,2371.8,3066.65,TOTAL,TOTAL,0
+ISL,2023,deaths,Deaths,132.14,102.73,163.39,TOTAL,TOTAL,1140
+ISL,2023,deaths,Deaths,14.43,12.54,16.8,Y40T44,FEMALE,0
+ISL,2023,deaths,Deaths,0,0,0,Y40T44,FEMALE,1140
+ISL,2023,deaths,Deaths,24.88,21.43,28.85,Y40T44,MALE,0
+ISL,2023,deaths,Deaths,1.33,0.97,1.75,Y40T44,MALE,1140
+ISL,2023,deaths,Deaths,39.31,33.96,45.66,Y40T44,TOTAL,0
+ISL,2023,deaths,Deaths,1.33,0.97,1.75,Y40T44,TOTAL,1140

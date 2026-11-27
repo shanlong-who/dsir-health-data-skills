@@ -1,0 +1,4 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+SSD,2006,SH_STA_BRTC,Percent of live births,9.7,,,G
+SSD,2010,SH_STA_BRTC,Percent of live births,19.4,,,G
+SSD,2020,SH_STA_BRTC,Percent of live births,39.7,,,G

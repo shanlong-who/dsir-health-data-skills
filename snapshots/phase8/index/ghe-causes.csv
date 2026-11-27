@@ -1,0 +1,227 @@
+cause_code,cause_name,level,cause_group,rankable,single_cause,status
+0,All Causes,0,1,FALSE,FALSE,selected_strata_snapshotted
+10,"Communicable, maternal, perinatal and nutritional conditions",1,1,FALSE,FALSE,discoverable_availability_pending
+20,Infectious and parasitic diseases,2,1,FALSE,FALSE,discoverable_availability_pending
+30,Tuberculosis,3,1,TRUE,TRUE,discoverable_availability_pending
+40,STDs excluding HIV,3,1,FALSE,FALSE,discoverable_availability_pending
+50,Syphilis,4,1,TRUE,TRUE,discoverable_availability_pending
+60,Chlamydia,4,1,TRUE,TRUE,discoverable_availability_pending
+70,Gonorrhoea,4,1,TRUE,TRUE,discoverable_availability_pending
+80,Trichomoniasis,4,1,TRUE,TRUE,discoverable_availability_pending
+85,Genital herpes,4,1,TRUE,TRUE,discoverable_availability_pending
+90,Other STDs,4,1,FALSE,TRUE,discoverable_availability_pending
+100,HIV/AIDS,3,1,TRUE,FALSE,discoverable_availability_pending
+110,Diarrhoeal diseases,3,1,TRUE,TRUE,discoverable_availability_pending
+120,Childhood-cluster diseases,3,1,FALSE,FALSE,discoverable_availability_pending
+130,Whooping cough,4,1,TRUE,TRUE,discoverable_availability_pending
+140,Diphtheria,4,1,TRUE,TRUE,discoverable_availability_pending
+150,Measles,4,1,TRUE,TRUE,discoverable_availability_pending
+160,Tetanus,4,1,TRUE,TRUE,discoverable_availability_pending
+170,Meningitis,3,1,TRUE,TRUE,discoverable_availability_pending
+180,Encephalitis,3,1,TRUE,TRUE,discoverable_availability_pending
+185,Hepatitis,3,1,FALSE,FALSE,discoverable_availability_pending
+186,Acute hepatitis A,4,1,TRUE,TRUE,discoverable_availability_pending
+190,Acute hepatitis B,4,1,TRUE,TRUE,discoverable_availability_pending
+200,Acute hepatitis C,4,1,TRUE,TRUE,discoverable_availability_pending
+205,Acute hepatitis E,4,1,TRUE,TRUE,discoverable_availability_pending
+210,Parasitic and vector diseases,3,1,FALSE,FALSE,discoverable_availability_pending
+220,Malaria,4,1,TRUE,TRUE,discoverable_availability_pending
+230,African trypanosomiasis,4,1,TRUE,TRUE,discoverable_availability_pending
+240,Chagas disease,4,1,TRUE,TRUE,discoverable_availability_pending
+250,Schistosomiasis,4,1,TRUE,TRUE,discoverable_availability_pending
+260,Leishmaniasis,4,1,TRUE,TRUE,discoverable_availability_pending
+261,Visceral leishmaniasis,5,1,FALSE,TRUE,discoverable_availability_pending
+262,Cutaneous and mucocutaneous leishmaniasis,5,1,FALSE,TRUE,discoverable_availability_pending
+270,Lymphatic filariasis,4,1,TRUE,TRUE,discoverable_availability_pending
+280,Onchocerciasis,4,1,TRUE,TRUE,discoverable_availability_pending
+285,Cysticercosis,4,1,TRUE,TRUE,discoverable_availability_pending
+295,Echinococcosis,4,1,TRUE,TRUE,discoverable_availability_pending
+300,Dengue,4,1,TRUE,TRUE,discoverable_availability_pending
+310,Trachoma,4,1,TRUE,TRUE,discoverable_availability_pending
+315,Yellow fever,4,1,TRUE,TRUE,discoverable_availability_pending
+320,Rabies,4,1,TRUE,TRUE,discoverable_availability_pending
+330,Intestinal nematode infections,3,1,FALSE,FALSE,discoverable_availability_pending
+340,Ascariasis,4,1,TRUE,TRUE,discoverable_availability_pending
+350,Trichuriasis,4,1,TRUE,TRUE,discoverable_availability_pending
+360,Hookworm disease,4,1,TRUE,TRUE,discoverable_availability_pending
+362,Food-bourne trematodes,4,1,TRUE,TRUE,discoverable_availability_pending
+365,Leprosy,3,1,TRUE,TRUE,discoverable_availability_pending
+370,Other infectious diseases,3,1,FALSE,TRUE,discoverable_availability_pending
+380,Respiratory infections,2,1,FALSE,FALSE,discoverable_availability_pending
+390,Lower respiratory infections,3,1,TRUE,TRUE,discoverable_availability_pending
+395,COVID-19,3,1,TRUE,TRUE,discoverable_availability_pending
+400,Upper respiratory infections,3,1,TRUE,TRUE,discoverable_availability_pending
+410,Otitis media,3,1,TRUE,TRUE,discoverable_availability_pending
+420,Maternal conditions,2,1,TRUE,FALSE,discoverable_availability_pending
+490,Neonatal conditions,2,1,FALSE,FALSE,discoverable_availability_pending
+500,Preterm birth complications,3,1,TRUE,TRUE,discoverable_availability_pending
+510,Birth asphyxia and birth trauma,3,1,TRUE,TRUE,discoverable_availability_pending
+520,Neonatal sepsis and infections,3,1,TRUE,TRUE,discoverable_availability_pending
+530,Other neonatal conditions,3,1,TRUE,TRUE,discoverable_availability_pending
+540,Nutritional deficiencies,2,1,FALSE,FALSE,discoverable_availability_pending
+550,Protein-energy malnutrition,3,1,TRUE,TRUE,discoverable_availability_pending
+560,Iodine deficiency,3,1,TRUE,TRUE,discoverable_availability_pending
+570,Vitamin A deficiency,3,1,TRUE,TRUE,discoverable_availability_pending
+580,Iron-deficiency anaemia,3,1,TRUE,TRUE,discoverable_availability_pending
+590,Other nutritional deficiencies,3,1,FALSE,TRUE,discoverable_availability_pending
+600,Noncommunicable diseases,1,2,FALSE,FALSE,discoverable_availability_pending
+610,Malignant neoplasms,2,2,FALSE,FALSE,discoverable_availability_pending
+620,Mouth and oropharynx cancers,3,2,TRUE,FALSE,discoverable_availability_pending
+621,Lip and oral cavity,4,2,FALSE,TRUE,discoverable_availability_pending
+622,Nasopharynx,4,2,FALSE,TRUE,discoverable_availability_pending
+623,Other pharynx,4,2,FALSE,TRUE,discoverable_availability_pending
+630,Oesophagus cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+640,Stomach cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+650,Colon and rectum cancers,3,2,TRUE,TRUE,discoverable_availability_pending
+660,Liver cancer,3,2,TRUE,FALSE,discoverable_availability_pending
+661,Liver cancer secondary to hepatitis B,4,2,FALSE,TRUE,discoverable_availability_pending
+662,Liver cancer secondary to hepatitis C,4,2,FALSE,TRUE,discoverable_availability_pending
+663,Liver cancer secondary to alcohol use,4,2,FALSE,TRUE,discoverable_availability_pending
+664,Other liver cancer,4,2,FALSE,TRUE,discoverable_availability_pending
+670,Pancreas cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+680,"Trachea, bronchus, lung cancers",3,2,TRUE,TRUE,discoverable_availability_pending
+690,Melanoma and other skin cancers,3,2,TRUE,FALSE,discoverable_availability_pending
+691,Malignant skin melanoma,4,2,FALSE,TRUE,discoverable_availability_pending
+692,Non-melanoma skin cancer,4,2,FALSE,TRUE,discoverable_availability_pending
+700,Breast cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+710,Cervix uteri cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+720,Corpus uteri cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+730,Ovary cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+740,Prostate cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+742,Testicular cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+745,Kidney cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+750,Bladder cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+751,Brain and nervous system cancers,3,2,TRUE,TRUE,discoverable_availability_pending
+752,Gallbladder and biliary tract cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+753,Larynx cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+754,Thyroid cancer,3,2,TRUE,TRUE,discoverable_availability_pending
+755,Mesothelioma,3,2,TRUE,TRUE,discoverable_availability_pending
+760,"Lymphomas, multiple myeloma",3,2,TRUE,FALSE,discoverable_availability_pending
+761,Hodgkin lymphoma,4,2,FALSE,TRUE,discoverable_availability_pending
+762,Non-Hodgkin lymphoma,4,2,FALSE,TRUE,discoverable_availability_pending
+763,Multiple myeloma,4,2,FALSE,TRUE,discoverable_availability_pending
+770,Leukaemia,3,2,TRUE,TRUE,discoverable_availability_pending
+780,Other malignant neoplasms,3,2,FALSE,TRUE,discoverable_availability_pending
+790,Other neoplasms,2,2,FALSE,TRUE,discoverable_availability_pending
+800,Diabetes mellitus,2,2,TRUE,TRUE,discoverable_availability_pending
+810,"Endocrine, blood, immune disorders",2,2,FALSE,FALSE,discoverable_availability_pending
+811,Thalassaemias,3,2,TRUE,TRUE,discoverable_availability_pending
+812,Sickle cell disorders and trait,3,2,TRUE,TRUE,discoverable_availability_pending
+813,Other haemoglobinopathies and haemolytic anaemias,3,2,FALSE,TRUE,discoverable_availability_pending
+814,"Other endocrine, blood and immune disorders",3,2,FALSE,TRUE,discoverable_availability_pending
+820,Mental and substance use disorders,2,2,FALSE,FALSE,discoverable_availability_pending
+830,Depressive disorders,3,2,TRUE,FALSE,discoverable_availability_pending
+831,Major depressive disorder,4,2,FALSE,TRUE,discoverable_availability_pending
+832,Dysthymia,4,2,FALSE,TRUE,discoverable_availability_pending
+840,Bipolar disorder,3,2,TRUE,TRUE,discoverable_availability_pending
+850,Schizophrenia,3,2,TRUE,TRUE,discoverable_availability_pending
+860,Alcohol use disorders,3,2,TRUE,TRUE,discoverable_availability_pending
+870,Drug use disorders,3,2,TRUE,FALSE,discoverable_availability_pending
+871,Opioid use disorders,4,2,FALSE,TRUE,discoverable_availability_pending
+872,Cocaine use disorders,4,2,FALSE,TRUE,discoverable_availability_pending
+873,Amphetamine use disorders,4,2,FALSE,TRUE,discoverable_availability_pending
+874,Cannabis use disorders,4,2,FALSE,TRUE,discoverable_availability_pending
+875,Other drug use disorders,4,2,FALSE,TRUE,discoverable_availability_pending
+880,Anxiety disorders,3,2,TRUE,TRUE,discoverable_availability_pending
+890,Eating disorders,3,2,TRUE,TRUE,discoverable_availability_pending
+900,Autism and Asperger syndrome,3,2,TRUE,TRUE,discoverable_availability_pending
+910,Childhood behavioural disorders,3,2,TRUE,FALSE,discoverable_availability_pending
+911,Attention deficit/hyperactivity syndrome,4,2,FALSE,TRUE,discoverable_availability_pending
+912,Conduct disorder,4,2,FALSE,TRUE,discoverable_availability_pending
+920,Idiopathic intellectual disability,3,2,TRUE,TRUE,discoverable_availability_pending
+930,Other mental and behavioural disorders,3,2,FALSE,TRUE,discoverable_availability_pending
+940,Neurological conditions,2,2,FALSE,FALSE,discoverable_availability_pending
+950,Alzheimer disease and other dementias,3,2,TRUE,TRUE,discoverable_availability_pending
+960,Parkinson disease,3,2,TRUE,TRUE,discoverable_availability_pending
+970,Epilepsy,3,2,TRUE,TRUE,discoverable_availability_pending
+980,Multiple sclerosis,3,2,TRUE,TRUE,discoverable_availability_pending
+990,Migraine,3,2,TRUE,TRUE,discoverable_availability_pending
+1000,Non-migraine headache,3,2,TRUE,TRUE,discoverable_availability_pending
+1010,Other neurological conditions,3,2,FALSE,TRUE,discoverable_availability_pending
+1020,Sense organ diseases,2,2,FALSE,FALSE,discoverable_availability_pending
+1030,Glaucoma,3,2,TRUE,TRUE,discoverable_availability_pending
+1040,Cataracts,3,2,TRUE,TRUE,discoverable_availability_pending
+1050,Uncorrected refractive errors,3,2,TRUE,TRUE,discoverable_availability_pending
+1060,Macular degeneration,3,2,TRUE,TRUE,discoverable_availability_pending
+1070,Other vision loss,3,2,TRUE,TRUE,discoverable_availability_pending
+1080,Other hearing loss,3,2,TRUE,TRUE,discoverable_availability_pending
+1090,Other sense organ disorders,3,2,FALSE,TRUE,discoverable_availability_pending
+1100,Cardiovascular diseases,2,2,FALSE,FALSE,discoverable_availability_pending
+1110,Rheumatic heart disease,3,2,TRUE,TRUE,discoverable_availability_pending
+1120,Hypertensive heart disease,3,2,TRUE,TRUE,discoverable_availability_pending
+1130,Ischaemic heart disease,3,2,TRUE,TRUE,discoverable_availability_pending
+1140,Stroke,3,2,TRUE,FALSE,selected_strata_snapshotted
+1141,Ischaemic stroke,4,2,FALSE,TRUE,discoverable_availability_pending
+1142,Haemorrhagic stroke,4,2,FALSE,TRUE,discoverable_availability_pending
+1150,"Cardiomyopathy, myocarditis, endocarditis",3,2,TRUE,TRUE,discoverable_availability_pending
+1160,Other circulatory diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1170,Respiratory diseases,2,2,FALSE,FALSE,discoverable_availability_pending
+1180,Chronic obstructive pulmonary disease,3,2,TRUE,TRUE,discoverable_availability_pending
+1190,Asthma,3,2,TRUE,TRUE,discoverable_availability_pending
+1200,Other respiratory diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1210,Digestive diseases,2,2,FALSE,FALSE,discoverable_availability_pending
+1220,Peptic ulcer disease,3,2,TRUE,TRUE,discoverable_availability_pending
+1230,Cirrhosis of the liver,3,2,TRUE,FALSE,discoverable_availability_pending
+1231,Cirrhosis due to hepatitis B,4,2,FALSE,TRUE,discoverable_availability_pending
+1232,Cirrhosis due to hepatitis C,4,2,FALSE,TRUE,discoverable_availability_pending
+1233,Cirrhosis due to alcohol use,4,2,FALSE,TRUE,discoverable_availability_pending
+1234,Other liver cirrhosis,4,2,FALSE,TRUE,discoverable_availability_pending
+1240,Appendicitis,3,2,TRUE,TRUE,discoverable_availability_pending
+1241,Gastritis and duodenitis,3,2,TRUE,TRUE,discoverable_availability_pending
+1242,Paralytic ileus and intestinal obstruction,3,2,TRUE,TRUE,discoverable_availability_pending
+1244,Inflammatory bowel disease,3,2,TRUE,TRUE,discoverable_availability_pending
+1246,Gallbladder and biliary diseases,3,2,TRUE,TRUE,discoverable_availability_pending
+1248,Pancreatitis,3,2,TRUE,TRUE,discoverable_availability_pending
+1250,Other digestive diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1260,Genitourinary diseases,2,2,FALSE,FALSE,discoverable_availability_pending
+1270,Kidney diseases,3,2,TRUE,FALSE,discoverable_availability_pending
+1271,Acute glomerulonephritis,4,2,FALSE,TRUE,discoverable_availability_pending
+1272,Chronic kidney disease due to diabetes,4,2,FALSE,TRUE,discoverable_availability_pending
+1273,Other chronic kidney disease,4,2,FALSE,TRUE,discoverable_availability_pending
+1280,Benign prostatic hyperplasia,3,2,TRUE,TRUE,discoverable_availability_pending
+1290,Urolithiasis,3,2,TRUE,TRUE,discoverable_availability_pending
+1300,Other urinary diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1310,Infertility,3,2,TRUE,TRUE,discoverable_availability_pending
+1320,Gynecological diseases,3,2,TRUE,TRUE,discoverable_availability_pending
+1330,Skin diseases,2,2,TRUE,FALSE,discoverable_availability_pending
+1331,Dermatitis,3,2,FALSE,TRUE,discoverable_availability_pending
+1332,Psoriasis,3,2,FALSE,TRUE,discoverable_availability_pending
+1333,Fungal skin diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1334,Viral skin diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1335,Acne vulgaris,3,2,FALSE,TRUE,discoverable_availability_pending
+1336,Alopecia areata,3,2,FALSE,TRUE,discoverable_availability_pending
+1337,Other specified skin diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1339,Other skin and subcutaneous diseases,3,2,FALSE,TRUE,discoverable_availability_pending
+1340,Musculoskeletal diseases,2,2,FALSE,FALSE,discoverable_availability_pending
+1350,Rheumatoid arthritis,3,2,TRUE,TRUE,discoverable_availability_pending
+1360,Osteoarthritis,3,2,TRUE,TRUE,discoverable_availability_pending
+1370,Gout,3,2,TRUE,TRUE,discoverable_availability_pending
+1380,Back and neck pain,3,2,TRUE,TRUE,discoverable_availability_pending
+1390,Other musculoskeletal disorders,3,2,FALSE,TRUE,discoverable_availability_pending
+1400,Congenital anomalies,2,2,TRUE,FALSE,discoverable_availability_pending
+1410,Neural tube defects,3,2,FALSE,TRUE,discoverable_availability_pending
+1420,Cleft lip and cleft palate,3,2,FALSE,TRUE,discoverable_availability_pending
+1430,Down syndrome,3,2,FALSE,TRUE,discoverable_availability_pending
+1440,Congenital heart anomalies,3,2,FALSE,TRUE,discoverable_availability_pending
+1450,Other chromosomal anomalies,3,2,FALSE,TRUE,discoverable_availability_pending
+1460,Other congenital anomalies,3,2,FALSE,TRUE,discoverable_availability_pending
+1470,Oral conditions,2,2,TRUE,FALSE,discoverable_availability_pending
+1480,Dental caries,3,2,FALSE,TRUE,discoverable_availability_pending
+1490,Periodontal disease,3,2,FALSE,TRUE,discoverable_availability_pending
+1500,Edentulism,3,2,FALSE,TRUE,discoverable_availability_pending
+1502,Other oral disorders,3,2,FALSE,TRUE,discoverable_availability_pending
+1505,Sudden infant death syndrome,2,2,TRUE,TRUE,discoverable_availability_pending
+1510,Injuries,1,3,FALSE,FALSE,discoverable_availability_pending
+1520,Unintentional injuries,2,3,FALSE,FALSE,discoverable_availability_pending
+1530,Road injury,3,3,TRUE,TRUE,discoverable_availability_pending
+1540,Poisonings,3,3,TRUE,TRUE,discoverable_availability_pending
+1550,Falls,3,3,TRUE,TRUE,discoverable_availability_pending
+1560,"Fire, heat and hot substances",3,3,TRUE,TRUE,discoverable_availability_pending
+1570,Drowning,3,3,TRUE,TRUE,discoverable_availability_pending
+1575,Exposure to mechanical forces,3,3,TRUE,TRUE,discoverable_availability_pending
+1580,Natural disasters,3,3,TRUE,TRUE,discoverable_availability_pending
+1590,Other unintentional injuries,3,3,FALSE,TRUE,discoverable_availability_pending
+1600,Intentional injuries,2,3,FALSE,FALSE,discoverable_availability_pending
+1610,Self-harm,3,3,TRUE,TRUE,discoverable_availability_pending
+1620,Interpersonal violence,3,3,TRUE,TRUE,discoverable_availability_pending
+1630,Collective violence and legal intervention,3,3,TRUE,TRUE,discoverable_availability_pending

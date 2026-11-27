@@ -1,0 +1,3 @@
+area_code,year,series_code,audit_unit,estimate,low,high,dim_reporting_type
+UZB,2021,SH_STA_TRAF,Deaths per 100000 population,9.3,7.9,10.7,G
+UZB,2021,SH_STA_TRAFN,Deaths,3155,2678,3633,G
